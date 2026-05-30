@@ -1,0 +1,45 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0BE86652CC09F64A"
+	group: "315BDB53A7CCE29F"
+	id: "0BE86652CC09F64A"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "02056E257EBE749E"
+			rewards: [{
+				id: "01DBA7EA001DBC7E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4CD568E6B011C659"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "6D5D7900FE52F9C2"
+			tasks: [{
+				id: "0AA3A0A412ABAC7B"
+				item: { count: 1, id: "extendedcrafting:ultimate_singularity" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			id: "257C1C409027B0A3"
+			tasks: [{
+				id: "6E7C702C18F9D929"
+				item: { count: 1, id: "mysticalagradditions:creative_essence" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+	]
+}

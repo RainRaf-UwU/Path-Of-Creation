@@ -1,0 +1,11 @@
+[fusion_crafter]
+	#How much FE the Fusion Package Crafter should hold.
+	# Default: 5000
+	# Range: > 0
+	energy_capacity = 5000
+	#How much FE/t the Fusion Package Crafter should use.
+	# Default: 5
+	# Range: > 0
+	energy_usage = 5
+	#Should the Fusion Package Crafter draw energy from ME systems.
+	draw_me_energy = true

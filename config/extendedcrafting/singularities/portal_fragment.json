@@ -1,0 +1,10 @@
+{
+  "name": "singularity.rain.portal_fragment",
+  "colors": [
+    "AF00FF",
+    "AF00FF"
+  ],
+  "ingredient": {
+    "item": 'rain:portal_fragment'
+  }
+}

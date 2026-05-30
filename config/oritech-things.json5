@@ -1,0 +1,107 @@
+{
+  "addonSettings": [
+    {
+      "speedMultiplier": -1.5,
+      "efficiencyDown": 2.5,
+      "efficiencyUp": 0.8,
+      "capacitorCapacity": 4000000,
+      "capacitorRate": 20000,
+      "acceptorCapacity": 1000000,
+      "acceptorRate": 40000,
+      "processingEfficiency": 2.0,
+      "processingChambers": 2
+    },
+    {
+      "speedMultiplier": -3,
+      "efficiencyDown": 3.0,
+      "efficiencyUp": 0.4,
+      "capacitorCapacity": 6000000,
+      "capacitorRate": 30000,
+      "acceptorCapacity": 1500000,
+      "acceptorRate": 60000,
+      "processingEfficiency": 2.5,
+      "processingChambers": 3
+    },
+    {
+      "speedMultiplier": -4.5,
+      "efficiencyDown": 3.5,
+      "efficiencyUp": 0.0,
+      "capacitorCapacity": 8000000,
+      "capacitorRate": 40000,
+      "acceptorCapacity": 2000000,
+      "acceptorRate": 80000,
+      "processingEfficiency": 3.0,
+      "processingChambers": 4
+    },
+    {
+      "speedMultiplier": -6.0,
+      "efficiencyDown": 4.0,
+      "efficiencyUp": -0.5,
+      "capacitorCapacity": 10000000,
+      "capacitorRate": 50000,
+      "acceptorCapacity": 2500000,
+      "acceptorRate": 100000,
+      "processingEfficiency": 3.5,
+      "processingChambers": 5
+    },
+    {
+      "speedMultiplier": -7.5,
+      "efficiencyDown": 4.5,
+      "efficiencyUp": -1.0,
+      "capacitorCapacity": 12000000,
+      "capacitorRate": 60000,
+      "acceptorCapacity": 3000000,
+      "acceptorRate": 120000,
+      "processingEfficiency": 4.0,
+      "processingChambers": 6
+    },
+    {
+      "speedMultiplier": -9.0,
+      "efficiencyDown": 5.0,
+      "efficiencyUp": -1.5,
+      "capacitorCapacity": 14000000,
+      "capacitorRate": 70000,
+      "acceptorCapacity": 3500000,
+      "acceptorRate": 140000,
+      "processingEfficiency": 4.5,
+      "processingChambers": 7
+    },
+    {
+      "speedMultiplier": -10.5,
+      "efficiencyDown": 5.5,
+      "efficiencyUp": -2.0,
+      "capacitorCapacity": 16000000,
+      "capacitorRate": 80000,
+      "acceptorCapacity": 4000000,
+      "acceptorRate": 140000,
+      "processingEfficiency": 5.0,
+      "processingChambers": 8
+    },
+    {
+      "speedMultiplier": -12.0,
+      "efficiencyDown": 6.0,
+      "efficiencyUp": -2.5,
+      "capacitorCapacity": 18000000,
+      "capacitorRate": 90000,
+      "acceptorCapacity": 4500000,
+      "acceptorRate": 180000,
+      "processingEfficiency": 5.5,
+      "processingChambers": 9
+    }
+  ],
+  "exoJetPackSettings": {
+    "enabledCreativeFlight": true,
+    "rfThreshold": 10000
+  },
+  "dimensionalDroneSettings": {
+    "enabled": true,
+    "energyToCross": 10000
+  },
+  "magneticFieldSettings": {
+    "enabled": true,
+    "baseCost": 10000.0,
+    "speedCostDivisor": 50.0,
+    "searchRadius": 32,
+    "minDistance": 16
+  }
+}

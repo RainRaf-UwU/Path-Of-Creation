@@ -1,0 +1,33 @@
+{
+    "entity": "minecraft:tnt_minecart",
+    "variants": [],
+    "name": {
+        "translate": "entity.minecraft.tnt_minecart",
+        "color": "#3B622F"
+    },
+    "display": {},
+    "sim_cost": 1000,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.tnt_minecart",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:tnt",
+            "count": 8
+        },
+        {
+            "id": "ae2:tiny_tnt",
+            "count": 8,
+            "optional": true
+        },
+        {
+            "id": "minecraft:tnt_minecart",
+            "count": 8
+        }
+    ]
+}
+

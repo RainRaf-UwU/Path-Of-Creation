@@ -1,0 +1,325 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "177E0CB4B646F860"
+	group: "77D7C75CDD1E95EB"
+	id: "177E0CB4B646F860"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "362369E91C0A4ADB"
+			rewards: [{
+				id: "217D343B1B5E90A5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "3C22AD4A30491B60"
+					item: { count: 1, id: "buildinggadgets2:gadget_building" }
+					type: "item"
+				}
+				{
+					id: "5DB120FF4048C777"
+					item: { count: 1, id: "buildinggadgets2:gadget_exchanging" }
+					type: "item"
+				}
+				{
+					id: "32BA261204F54053"
+					item: { count: 1, id: "buildinggadgets2:gadget_copy_paste" }
+					type: "item"
+				}
+				{
+					id: "53A68099A26BE335"
+					item: { components: { "buildinggadgets2:paste_replace_toggle": 1b }, count: 1, id: "buildinggadgets2:gadget_cut_paste" }
+					type: "item"
+				}
+				{
+					id: "29EBE2BC341ADC45"
+					item: { count: 1, id: "buildinggadgets2:gadget_destruction" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			id: "5C8DBC7B4027BA63"
+			tasks: [{
+				dimension: "aether:the_aether"
+				id: "0A7A05592546EEA3"
+				type: "dimension"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			id: "2ECC8A6AF4C363CE"
+			tasks: [{
+				id: "025A2DA743173CCD"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			id: "567F1F1D0E1A5D3A"
+			tasks: [
+				{
+					id: "2B347E7FB6F902D1"
+					item: { count: 1, id: "entangled:block" }
+					type: "item"
+				}
+				{
+					id: "0CD0F01C18BA021C"
+					item: { count: 1, id: "entangled:item" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			id: "1167E45D16D89FD7"
+			rewards: [{
+				id: "168B5F23DACAE0FF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "799064DF8F2F4997"
+				item: { count: 1, id: "utilitarian:angel_block" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			id: "6558B791E1AD5877"
+			rewards: [{
+				id: "4ED43FAF4719C8A8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "776745CF48F6336A"
+				item: { count: 1, id: "itemcollectors:basic_collector" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			id: "7EAD817522C2CF8B"
+			rewards: [{
+				id: "312032432DCE9AD1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "108969927AD593CB"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(constructionstick:construction_sticks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "5FADEF7E1293D46A"
+					item: { count: 1, id: "constructionstick:template_angel" }
+					type: "item"
+				}
+				{
+					id: "69204CCAA933EF3B"
+					item: { count: 1, id: "constructionstick:template_destruction" }
+					type: "item"
+				}
+				{
+					id: "5A60215A88EF55C0"
+					item: { count: 1, id: "constructionstick:template_replacement" }
+					type: "item"
+				}
+				{
+					id: "3758A50A969D7CEB"
+					item: { count: 1, id: "constructionstick:template_battery" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "4CC782C41571C8B9"
+			rewards: [{
+				id: "4A1C2FDE07302021"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2517F0AC40DC392E"
+				item: { count: 1, id: "cookingforblockheads:sink" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "0C7A692133B2E1D8"
+			rewards: [{
+				id: "3B78649FC00016E2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "65F8467436AFC0B4"
+				item: { count: 1, id: "tesseract:tesseract" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "5D7A364E892C51D4"
+			rewards: [{
+				id: "767545540A9DC15C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "029EF5C622262A20"
+				item: { count: 1, id: "tiab:time_in_a_bottle" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			id: "315F2620464EF042"
+			rewards: [{
+				id: "7DCB44AD198C021B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "4184001B534C8ED6"
+					item: { count: 1, id: "shrink:shrinking_device" }
+					type: "item"
+				}
+				{
+					id: "33A298825EBC59B7"
+					item: { count: 1, id: "shrink:shrink_bottle" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			id: "0F684EEF9837ED59"
+			rewards: [{
+				id: "079065873E166D9A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "0A85364F46888E0B"
+					item: { count: 1, id: "mob_grinding_utils:mob_swab" }
+					type: "item"
+				}
+				{
+					id: "3E78CD493DD415A3"
+					item: { count: 1, id: "mob_grinding_utils:gm_chicken_feed" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			id: "4218087C6F41EAA4"
+			tasks: [{
+				id: "31C0F40540127733"
+				item: { count: 1, id: "rftoolsutility:crafter1" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			id: "4269636C488F8953"
+			rewards: [{
+				id: "601C9636DC7F330F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6B73FEB3F7F1540E"
+				item: { count: 1, id: "utilitarian:redstone_clock" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			id: "58F8AC80230C0EEC"
+			rewards: [{
+				id: "0FF748846CA70B37"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0804C2379E04B4EF"
+				item: { count: 1, id: "utilitarian:tps_meter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			id: "7C93816B62FF2660"
+			rewards: [{
+				id: "5ECD08DC962349E9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "44C1F613DA95CE80"
+				item: { count: 1, id: "mob_grinding_utils:xp_tap" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			id: "0240744B641E0BF5"
+			rewards: [{
+				id: "55E65DD2F264ED77"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6FF7308FB1229653"
+				item: { count: 1, id: "utilitarian:sound_muffler" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			id: "52C711F0B96EFE9B"
+			rewards: [{
+				id: "2A1C05AFBA62B3BA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0A388B0694B18000"
+				item: { count: 1, id: "reliquary:void_tear" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+	]
+}

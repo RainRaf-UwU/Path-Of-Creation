@@ -1,0 +1,101 @@
+{
+  "roll": {
+    "type": "constant",
+    "count": 1
+  },
+  "input1": {
+    "filter": 'rain:cosmic_coin',
+    "count": {
+      "type": "constant",
+      "count": 1
+    }
+  },
+  "input2": {
+    "filter": 'rain:cosmic_coin',
+    "count": {
+      "type": "constant",
+      "count": 1
+    }
+  },
+  "input3": {
+    "filter": 'rain:cosmic_coin',
+    "count": {
+      "type": "constant",
+      "count": 1
+    }
+  },
+  "output": [
+    {
+      "item": 'sfm:manager',
+      "count": {
+        "type": "constant",
+        "count": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "item": 'sfm:cable',
+      "count": {
+        "type": "constant",
+        "count": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "item":'sfm:disk',
+      "count": {
+        "type": "constant",
+        "count": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "item": 'mob_grinding_utils:golden_egg',
+      "count": {
+        "type": "constant",
+        "count": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "item":'mob_grinding_utils:rotten_egg',
+      "count": {
+        "type": "constant",
+        "count": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "item": 'mob_grinding_utils:saw',
+      "count": {
+        "type": "constant",
+        "count": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "item": 'mob_grinding_utils:fan',
+      "count": {
+        "type": "constant",
+        "count": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "item": 'mob_grinding_utils:absorption_hopper',
+      "count": {
+        "type": "constant",
+        "count": 1
+      },
+      "weight": 1.0
+    },
+     {
+      "item": 'mekanism:basic_universal_cable',
+      "count": {
+        "type": "constant",
+        "count": 64
+      },
+      "weight": 1.0
+    }
+  ]
+}

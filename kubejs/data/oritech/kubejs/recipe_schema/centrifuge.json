@@ -1,0 +1,6 @@
+{
+    "parent":"oritech:foundry",
+    "override_keys":{
+        "type":"oritech:centrifuge"
+    }
+}

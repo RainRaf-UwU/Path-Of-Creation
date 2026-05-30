@@ -1,0 +1,33 @@
+{
+    "entity": "aether:flying_cow",
+    "variants": [],
+    "name": {
+        "translate": "entity.aether.flying_cow",
+        "color": "#3B622F"
+    },
+    "display": {},
+    "sim_cost": 128,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.flying_cow",
+    "fabricator_drops": [
+        {
+            "id": "artifacts:eternal_steak",
+            "optional": true,
+            "count": 1
+        },
+        {
+            "id": "minecraft:leather",
+            "count": 16
+        },
+        {
+            "id": "minecraft:beef",
+            "count": 16
+        }
+    ]
+}
+

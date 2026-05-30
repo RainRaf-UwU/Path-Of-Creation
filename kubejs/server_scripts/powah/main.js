@@ -1,0 +1,11 @@
+ServerEvents.recipes(event => {
+    // .energizing([inputs, ...], output, energy)
+    event.recipes.powah.energizing(['allthemodium:vibranium_ingot','allthemodium:vibranium_ingot','allthemodium:allthemodium_ingot','allthemodium:allthemodium_ingot'],'allthemodium:vibranium_allthemodium_alloy_ingot',10000000000)
+    event.recipes.powah.energizing(['hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:pig"]','hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:cow"]'],'hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:polar_bear"]',500000)
+    event.recipes.powah.energizing(['minecraft:iron_ingot','minecraft:iron_ingot','minecraft:iron_ingot','minecraft:ender_pearl'],'enderio:pulsating_alloy_ingot',500000)
+    event.recipes.powah.energizing(['enderio:copper_alloy_ingot','minecraft:iron_ingot','minecraft:iron_ingot','minecraft:redstone_block'],'enderio:conductive_alloy_ingot',500000)
+    event.recipes.powah.energizing(['hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:parrot"]'],'hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:chicken"]',1000000)
+    event.recipes.powah.energizing(['minecraft:ancient_debris','minecraft:ancient_debris','justdirethings:gooblock_tier2'],'justdirethings:gooblock_tier3',1000000)
+    event.recipes.powah.energizing(['minecraft:ancient_debris','minecraft:ancient_debris','minecraft:ancient_debris','minecraft:ancient_debris','minecraft:ancient_debris','justdirethings:gooblock_tier3'],'justdirethings:gooblock_tier4',10000000)
+     event.recipes.powah.energizing(['powah:uraninite','powah:uraninite','powah:uraninite'],'justdirethings:time_crystal',100000)
+})

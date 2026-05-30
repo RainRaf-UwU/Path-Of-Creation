@@ -1,0 +1,25 @@
+{
+    "entity": "minecraft:giant",
+    "variants": [],
+    "name": {
+        "translate": "entity.minecraft.giant",
+        "color": "#3B622F"
+    },
+    "display": {},
+    "sim_cost": 25600,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.giant",
+    "fabricator_drops": [
+        {
+            "id": "tombstone:grave_dust",
+            "optional": true,
+            "count": 8
+        }
+    ]
+}
+

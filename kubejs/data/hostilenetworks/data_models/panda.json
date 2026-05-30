@@ -1,0 +1,24 @@
+{
+    "entity": "minecraft:panda",
+    "variants": [],
+    "name": {
+        "translate": "entity.minecraft.panda",
+        "color": "#3B622F"
+    },
+    "display": {},
+    "sim_cost": 128,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.panda",
+    "fabricator_drops": [
+        {
+            "id":"minecraft:bamboo",
+            "count": 64
+        }
+    ]
+}
+

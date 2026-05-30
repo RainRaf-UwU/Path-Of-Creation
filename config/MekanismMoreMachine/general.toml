@@ -1,0 +1,8 @@
+#Custom Replicator Recipe
+[replicator_recipes]
+	#The recipes added here will be added to the item replicator. Write using modid:registeredName#amount, # followed by the amount(not null or zero) of UU matter consumed. For example:["minecraft:stone#10","mekanism:basic_bin#100"]
+	itemReplicatorRecipe = []
+	#The recipes added here will be added to the fluid replicator. Write using modid:registeredName#amount, # followed by the amount(not null or zero) of UU matter consumed. For example:["minecraft:water#10","mekanism:heavy_water#100"]
+	fluidReplicatorRecipe = []
+	#The recipes added here will be added to the chemical replicator. Write using modid:registeredName#amount, # followed by the amount(not null or zero) of UU matter consumed. For example:["mekanism:oxygen#10","mekanism:hydrogen#100"]
+	chemicalReplicatorRecipe = []

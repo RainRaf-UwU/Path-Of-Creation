@@ -1,0 +1,19 @@
+{
+    "entity": "unusualend:ender_firefly",
+    "variants": [],
+    "name": {
+        "translate": "entity.unusualend.ender_firefly",
+        "color": "#3B622F"
+    },
+    "display": {},
+    "sim_cost": 128,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.ender_firefly",
+    "fabricator_drops": []
+}
+

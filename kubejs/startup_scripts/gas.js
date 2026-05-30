@@ -1,0 +1,11 @@
+StartupEvents.registry('mekanism:chemical',e=>{
+     e.create('rain:atm_infused', "infuse_type").tint(0xffe300)
+     e.create('rain:unobtainium_infused', "infuse_type").tint(0xAA05F7)
+     e.create('rain:vibranium_infused', "infuse_type").tint(0x05F7DB)
+     e.create("rain:empowered_oil_gas").tint(0xF54927)
+     e.create("rain:void_gas").tint(0x202020)
+     e.create("rain:transmutation_gas").tint(0xce0df1)
+     e.create("rain:copy_gas").tint(0xff0000)
+     e.create("rain:molten_glass_gas").tint(0x000000)
+     e.create("rain:remmant_gas").tint(0xFFB933)
+})

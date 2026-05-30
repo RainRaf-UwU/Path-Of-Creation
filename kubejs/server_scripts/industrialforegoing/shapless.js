@@ -1,0 +1,18 @@
+// ServerEvents.recipes(e=>{
+//     e.custom({
+//   "type": "ifeu:shapeless",
+//   "inputFluid": {
+//     "amount": 100,
+//     "id": "ifeu:liquid_dragon_breath"
+//   },
+//   "inputs": [
+//     {
+//       "item": "ifeu:dragon_star_block"
+//     }
+//   ],
+//   "output": {
+//     "count": 9,
+//     "id": "ifeu:dragon_star"
+//   }
+// })
+// })

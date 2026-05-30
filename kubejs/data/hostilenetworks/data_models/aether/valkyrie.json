@@ -1,0 +1,25 @@
+{
+    "entity": "aether:valkyrie",
+    "variants": [],
+    "name": {
+        "translate": "entity.aether.valkyrie",
+        "color": "#3B622F"
+    },
+    "display": {},
+    "sim_cost": 128,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.valkyrie",
+    "fabricator_drops": [
+        {
+            "id": "aether:victory_medal",
+            "optional": true,
+            "count": 2
+        }
+    ]
+}
+

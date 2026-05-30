@@ -1,0 +1,343 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "410E042FF048ECA6"
+	group: "77D7C75CDD1E95EB"
+	id: "410E042FF048ECA6"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7F955343A5FD0FDC"
+			rewards: [{
+				id: "5BB70AE35DA73D3F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "52AEC9D7A737E0A8"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "49E2B69E3EB5A56B"
+			rewards: [{
+				id: "19759EFA7371FB36"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "55210678372B8827"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			id: "23248B1900A5D6C0"
+			rewards: [{
+				id: "20B2A1AFAA753934"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2DFF7436D50138C9"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "6A3004279F4C68B9"
+			rewards: [{
+				id: "28FCA43F1040A514"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "63D83A9056D4733B"
+				item: { count: 1, id: "rain:speed_upgrade" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			id: "13B91DED1DBEE238"
+			rewards: [{
+				id: "668E489EC531C7EF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3C0EC439CA2D4C8C"
+				item: { count: 1, id: "rain:production_upgrade" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			id: "7A803E73BA3AA4B9"
+			rewards: [{
+				id: "331664DF1A5CCE1E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "09A73F731DE52795"
+				item: { count: 1, id: "rain:overclocking_upgrade" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			id: "1A04C1F7F6712F61"
+			rewards: [{
+				id: "01376A2719F6EC4F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4CCEC250ED59B070"
+				item: { count: 1, id: "rain:mineral_upgrade-1" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			id: "287EFFF29F65966B"
+			rewards: [{
+				id: "49FE0C9156F68B7D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "66DBDAB7E4F299C6"
+				item: { count: 1, id: "rain:energy_upgrade" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			id: "5CFE55A6A56FAA42"
+			rewards: [{
+				id: "60FA2808194D5D48"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "20EA39DC26F92A08"
+				item: { components: { "custommachinery:machine": "custommachinery:copy_factory" }, count: 1, id: "custommachinery:custom_machine_item" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			id: "4085B264659CDACB"
+			rewards: [{
+				id: "470F8082AD8F81D2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3CB912EE89BC376F"
+				item: { components: { "custommachinery:machine": "custommachinery:void_mining_machine" }, count: 1, id: "custommachinery:custom_machine_item" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			id: "5054F1FEDF0AC6C9"
+			rewards: [{
+				id: "756E193A9215B802"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "630BF2EA4DAB94C4"
+				item: { components: { "custommachinery:machine": "custommachinery:part_time_job" }, count: 1, id: "custommachinery:custom_machine_item" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			id: "356EAB0554A75F8F"
+			rewards: [{
+				id: "16BD3868E36C4B5F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4AA1A60E9D7C0DDA"
+				item: { count: 1, id: "rain:mineral_upgrade-2" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			id: "257233604A614E59"
+			rewards: [{
+				id: "69D88B60AF779AC5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "15A2D7E4269FF997"
+				item: { components: { "custommachinery:machine": "custommachinery:dyeing_factory" }, count: 1, id: "custommachinery:custom_machine_item" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.0d
+		}
+		{
+			id: "453AB90C82A1E531"
+			rewards: [{
+				id: "67EF2AB8C37C1F55"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2D2AF806C2B50F18"
+				item: { components: { "custommachinery:machine": "custommachinery:atmoic_decomposition_machine" }, count: 1, id: "custommachinery:custom_machine_item" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -1.0d
+		}
+		{
+			id: "19769BD1074FCB08"
+			rewards: [{
+				id: "78003343D324A258"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "22A3DB180848FC4D"
+				item: { count: 1, id: "rain:mineral_upgrade-3" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			id: "0DC22E3A96AD589F"
+			rewards: [{
+				id: "7EAF31813AFDC31E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "20E2B6303C63791E"
+				item: { count: 1, id: "rain:mineral_upgrade-4" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			id: "3F1F5371BE998039"
+			rewards: [{
+				id: "0B4BC594C1CA55AB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7CB684C15A78A4F5"
+				item: { count: 1, id: "rain:mineral_upgrade-5" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			id: "2654B0AD66ADA800"
+			tasks: [{
+				id: "15FDA427609A35A6"
+				item: { count: 1, id: "rain:refining_medicine_factory" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			id: "742F9379178B7790"
+			tasks: [{
+				id: "63E25A60173B682D"
+				item: { count: 1, id: "rain:atomic_reconstruction_chamber" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			id: "2FA96E12D7A8C4D2"
+			rewards: [{
+				id: "46D55D103ECE1A96"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "541F900AA557AB4A"
+				item: { count: 1, id: "rain:large_fluid_processing" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			id: "1F809026680ED840"
+			rewards: [{
+				id: "72AD33C289385FC9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "43AEB37AEC2B5DEF"
+				item: { count: 1, id: "rain:prophecy_matrix" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			id: "7423241C1C23A2EE"
+			rewards: [{
+				id: "21130F59D35D147D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3FDF3DDD1FE766F2"
+				item: { count: 1, id: "rain:overload_upgrade" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			id: "2A1721CCDA67C301"
+			rewards: [{
+				id: "2A1954DF21C232E3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "746F866C1F869F15"
+				item: { components: { "custommachinery:machine": "custommachinery:fluid_processing" }, count: 1, id: "custommachinery:custom_machine_item" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+	]
+}

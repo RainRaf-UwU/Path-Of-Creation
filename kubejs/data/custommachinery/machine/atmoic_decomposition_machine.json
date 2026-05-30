@@ -1,0 +1,107 @@
+{
+  "name": {
+    "text": "??????"
+  },
+  "appearance": {},
+  "components": {
+    "type": "custommachinery:item_upgrade",
+    "max_output": 64,
+    "config": {
+      "TOP": "INPUT",
+      "BOTTOM": "INPUT",
+      "FRONT": "INPUT",
+      "RIGHT": "INPUT",
+      "BACK": "INPUT",
+      "LEFT": "INPUT"
+    },
+    "id": "upgrade_1",
+    "capacity": 8,
+    "max_input": 64
+  },
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "width": 256,
+      "height": 192
+    },
+    {
+      "type": "custommachinery:config",
+      "x": 211,
+      "y": 10
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 26,
+      "y": 32
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "input_1",
+      "x": 46,
+      "y": 32
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 49,
+      "y": 107
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 99,
+      "y": 46
+    },
+    {
+      "type": "custommachinery:reset",
+      "tooltips": [],
+      "x": 21,
+      "y": 7
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_1",
+      "x": 72,
+      "y": 36
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_2",
+      "x": 72,
+      "y": 55
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_1",
+      "x": 131,
+      "y": 36
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_2",
+      "x": 131,
+      "y": 55
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_3",
+      "x": 150,
+      "y": 36
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_4",
+      "x": 150,
+      "y": 55
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "upgrade_1",
+      "x": 193,
+      "y": 84,
+      "ghost": {
+        "items": {
+          "item": "rain:speed_upgrade"
+        }
+      }
+    }
+  ]
+}

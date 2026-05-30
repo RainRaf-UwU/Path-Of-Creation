@@ -1,0 +1,228 @@
+{
+  "name": {
+    "text": "cm.rain.dyeing_factory.name"
+  },
+  "appearance": {
+    "custommachinery:block": "rain:machine/dyeing_factory#standalone"
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "max_output": 10000,
+      "capacity": 1000000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "input",
+      "id": "input_1",
+      "capacity": 10000
+    },
+    {
+      "type": "custommachinery:item",
+      "whitelist": "mysticalagriculture:dye_essence",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "input_1",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "input_2",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "output_1",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item_upgrade",
+      "whitelist": [
+        "rain:speed_upgrade",
+        "rain:overclocking_upgrade"
+      ],
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "upgrade_1",
+      "mode": "none",
+      "capacity": 10
+    },
+    {
+      "type": "custommachinery:item_upgrade",
+      "whitelist": "rain:production_upgrade",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "upgrade_2",
+      "mode": "none",
+      "capacity": 8
+    },
+    {
+      "type": "custommachinery:item_upgrade",
+      "whitelist": "rain:energy_upgrade",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "upgrade_3",
+      "mode": "none",
+      "capacity": 10
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "width": 256,
+      "height": 192
+    },
+    {
+      "type": "custommachinery:chemical",
+      "id": "input_1",
+      "x": 71,
+      "y": 35
+    },
+    {
+      "type": "custommachinery:chemical",
+      "id": "output_1",
+      "x": 195,
+      "y": 34,
+      "orientation": "RIGHT"
+    },
+    {
+      "type": "custommachinery:config",
+      "x": 204,
+      "y": 9
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 27,
+      "y": 35
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "input_1",
+      "x": 49,
+      "y": 35
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "output_1",
+      "x": 173,
+      "y": 34
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 50,
+      "y": 107
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 118,
+      "y": 47
+    },
+    {
+      "type": "custommachinery:reset",
+      "tooltips": [],
+      "x": 15,
+      "y": 9
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_1",
+      "x": 50,
+      "y": 84,
+      "ghost": {
+        "items": {
+          "item": "mysticalagriculture:dye_essence"
+        }
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_2",
+      "x": 95,
+      "y": 47
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_1",
+      "x": 148,
+      "y": 47
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "upgrade_1",
+      "x": 227,
+      "y": 10,
+      "ghost": {
+        "items": {
+          "item": "rain:speed_upgrade"
+        }
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "upgrade_2",
+      "x": 227,
+      "y": 30,
+      "ghost": {
+        "items": {
+          "item": "rain:production_upgrade"
+        }
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "upgrade_3",
+      "x": 227,
+      "y": 51,
+      "ghost": {
+        "items": {
+          "item": "rain:energy_upgrade"
+        }
+      }
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 48,
+      "y": 8
+    }
+  ]
+}

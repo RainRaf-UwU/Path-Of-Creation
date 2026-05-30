@@ -1,0 +1,53 @@
+{
+  "roll": {
+    "type": "constant",
+    "count": 1
+  },
+  "input1": {
+    "filter":'rain:cosmic_coin',
+    "count": {
+      "type": "constant",
+      "count": 64
+    }
+  },
+  "input2": {
+    "filter":'rain:cosmic_coin',
+    "count": {
+      "type": "constant",
+      "count": 64
+    }
+  },
+  "input3": {
+    "filter":'rain:cosmic_coin',
+    "count": {
+      "type": "constant",
+      "count": 64
+    }
+  },
+  "output": [
+    {
+      "item":'rain:infinities3_cell',
+      "count": {
+        "type": "constant",
+        "count": 1
+      },
+      "weight": 1.0
+    },
+{
+      "item":'buildinggadgets2:gadget_copy_paste',
+      "count": {
+        "type": "constant",
+        "count": 1
+      },
+      "weight": 1.0
+    },
+{
+      "item":'extendedae:infinity_water_cell',
+      "count": {
+        "type": "constant",
+        "count": 1
+      },
+      "weight": 1.0
+    }
+  ]
+}

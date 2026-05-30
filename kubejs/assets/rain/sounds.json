@@ -1,0 +1,62 @@
+{
+  "nan_man_da_bu": {                   
+    "subtitle": "subtitle.rain.nan_man_da_bu", 
+    "sounds": ["rain:nan_man_da_bu"]    
+  },
+  "dark": {                   
+    "subtitle": "subtitle.rain.dark", 
+    "sounds": ["rain:dark"]    
+  },
+  "zizi": {                   
+    "subtitle": "subtitle.zizi", 
+    "sounds": ["rain:zizi"]    
+  },
+  "breakcore": {                   
+    "subtitle": "subtitle.breakcore", 
+    "sounds": ["rain:breakcore"]    
+  },
+  "waring": {                   
+    "subtitle": "subtitle.waring", 
+    "sounds": ["rain:waring"]    
+  },
+  "dazidazi": {                   
+    "subtitle": "subtitle.dazidazi", 
+    "sounds": ["rain:dazidazi"]    
+  },
+  "gaige": {                   
+    "subtitle": "subtitle.gaige", 
+    "sounds": ["rain:gaige"]    
+  },
+  "phone": {                   
+    "subtitle": "subtitle.phone", 
+    "sounds": ["rain:phone"]    
+  },
+  "tnt": {                   
+    "subtitle": "subtitle.tnt", 
+    "sounds": ["rain:tnt"]    
+  },
+   "train": {                   
+    "subtitle": "subtitle.train", 
+    "sounds": ["rain:train"]    
+  },
+  "water": {                   
+    "subtitle": "subtitle.water", 
+    "sounds": ["rain:water"]    
+  },
+  "wao1": {                   
+    "subtitle": "subtitle.wao1", 
+    "sounds": ["rain:wao1"]    
+  },
+  "wao2": {                   
+    "subtitle": "subtitle.wao2", 
+    "sounds": ["rain:wao2"]    
+  },
+  "correct": {                   
+    "subtitle": "subtitle.correct", 
+    "sounds": ["rain:correct"]    
+  },
+   "incorrect": {                   
+    "subtitle": "subtitle.incorrect", 
+    "sounds": ["rain:incorrect"]    
+  }
+}

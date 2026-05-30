@@ -1,0 +1,380 @@
+{
+	chapter.0113503505483482.title: "第一章：无中生有"
+	chapter.0137B0F2468B7B59.title: "欢迎"
+	chapter.0BE86652CC09F64A.title: "[DLC]第六章：登神长阶"
+	chapter.0FCEFDA59D42875E.title: "ae2"
+	chapter.1306DE3D8C100552.title: "第五章：创造模式？"
+	chapter.149B7FC09F5F2520.title: "第二章：苦尽甘来"
+	chapter.177E0CB4B646F860.title: "提示与技巧"
+	chapter.1F9CADE08E41FAE2.title: "第四章：创世之径"
+	chapter.410E042FF048ECA6.title: "自定义机械"
+	chapter.66900C421E317CA4.title: "第三章：探明真相"
+	chapter_group.169930A1FBBB4EB6.title: "欢迎"
+	chapter_group.315BDB53A7CCE29F.title: "主线"
+	chapter_group.77D7C75CDD1E95EB.title: "提示"
+	quest.002125F16123E0AC.quest_desc: ["此流体似乎能够与其他维度调谐，配方可通过jei查看,不同的配方成功率也会有所不同"]
+	quest.002125F16123E0AC.title: "虚无之液"
+	quest.01B32042CD930CC2.quest_desc: ["机械动力，启动！"]
+	quest.01B7DA9F6AA43572.quest_desc: ["切自己的肉也可以获得油脂！使用屠刀shift右键就行了"]
+	quest.01E52DAF5DEA384C.quest_desc: ["使用电弧炉制作"]
+	quest.02056E257EBE749E.quest_desc: [
+		"本章节的核心在于你能够坚持多久，在这里你能够体会到来自神明的真正恶意"
+		""
+		"目标：收集12种神之信物，搭建仪式：“创世之神的呼唤”飞升创造模式。该仪式可在魔灵全典查看"
+	]
+	quest.027106980F6C7C9B.quest_desc: [
+		"本包的任务是一定要完成的，你可以不按照我给的任务走，但是每一章都有一个终极物品，这是必做的，否则无法进入下一章"
+		""
+		"&a任务一定要认真看！！！不然你东西怎么丢的都不知道！"
+	]
+	quest.037A2DA2776FC81E.quest_desc: ["手杖左键晴天，右键雷雨"]
+	quest.04DB5C455EA62230.quest_desc: [""]
+	quest.071CC7C46F2F382B.quest_desc: [""]
+	quest.07ABC87F539D557B.quest_desc: ["它会侵蚀附近的水源"]
+	quest.090BE0A080ED4A91.quest_desc: ["如果你嫌避雷针太慢了就做这个"]
+	quest.0A72961BD7C7D3A1.quest_desc: ["吃掉该物品可获得10s的旁观者模式，在旁观者模式的情况下不可退出游戏！"]
+	quest.0AE9DE9E1D6DA829.quest_desc: ["后期强烈建议你做这个"]
+	quest.0AE9DE9E1D6DA829.title: "量子计算机"
+	quest.0BFA4B1CD30BAEBC.quest_desc: ["无尽锭？彩虹铁！"]
+	quest.0C7A692133B2E1D8.quest_desc: ["前期无线传输的最好方式"]
+	quest.0D4A17B23447BFCC.quest_desc: ["以下的方块均可使用雷击事件充能"]
+	quest.0E29C38D9D44714D.quest_desc: ["无线传输"]
+	quest.0F22F8BD0D39174E.title: "infinite"
+	quest.0F684EEF9837ED59.quest_desc: ["刷怪蛋获取方式"]
+	quest.1020A004367AFE5F.quest_desc: ["本章节为可选内容，每一条支线都是一条独立的产线，每一条支线获得的最终物品仅用来合成毕业物品"]
+	quest.1167E45D16D89FD7.quest_desc: ["可以在半空中放置"]
+	quest.13575B55A6CB0872.quest_desc: [
+		"该结构专用来处理原子再构机的配方"
+		""
+		"该结构只能白天工作，若想全天工作需要在下界之星块处填上时间水晶块"
+	]
+	quest.13B91DED1DBEE238.quest_desc: ["每个产量升级可以让每个配方的产物+1,计算方式为加法，最大堆叠8个"]
+	quest.15432D300A13DD07.quest_desc: ["在y<-64层用空瓶子右键获得"]
+	quest.1580EFA7604BBD11.quest_desc: ["该多方块仅用来处理原版药水配方，药水堆叠数量已修改为64"]
+	quest.16E9382FB96DDCD6.quest_desc: ["可以代替所有粉笔"]
+	quest.180E8919165FF169.quest_desc: ["最想念工作台的一集"]
+	quest.18A8D2E8CF702069.title: "能力图腾"
+	quest.1A6716579B196F7F.quest_desc: ["史上最强熔炉，每tick能烧1组物品"]
+	quest.1AF554B1236FA510.quest_desc: ["左键神能炉清除掉落物"]
+	quest.1C24B43FE0C78EE7.quest_desc: ["比量子合成器速度快"]
+	quest.1C24B43FE0C78EE7.title: "装配矩阵"
+	quest.1CA94F9BDC56A763.quest_desc: ["基岩现在可以被破坏，使用手杖右键破坏基岩"]
+	quest.1CAAD39F8418E160.quest_desc: ["用多了会很卡，不推荐使用"]
+	quest.1E09108A7C94ECEF.quest_desc: [
+		"手杖对脚下的方块似乎有很强的共鸣"
+		""
+		"左键敲击圆石有极低的概率获得水（必须空手）"
+	]
+	quest.1E5421AFC3E75F9E.quest_desc: [
+		"该结构所需条件苛刻，4个红石块只有一个正常运行，其他自行看jei。"
+		"主要消耗：辐射，10格范围内物品标签为c:gems的物品10个(掉落物)"
+	]
+	quest.230569E240E62D06.quest_desc: ["这个矿石有辐射"]
+	quest.2419DF176B9667AB.quest_desc: ["万能数据模型(迫真"]
+	quest.265BFD8EB3A73885.quest_desc: ["部分物品添加了无序合成"]
+	quest.276BAE5123525D3B.quest_desc: ["应力应力！"]
+	quest.27B6868C50327017.quest_desc: ["金属冲压机"]
+	quest.2802C513AF139DE1.quest_desc: ["&4试试炸了它？"]
+	quest.287EFFF29F65966B.quest_desc: ["增加能量效率，减少每个配方所需的能量消耗，采用乘方计算"]
+	quest.28D8B4F2A8E8B7DC.title: "结束亦是开始"
+	quest.2926A66BE3F3F24F.quest_desc: ["最简单的物流管道，但是用多了会卡"]
+	quest.2A1318317F78EAFD.quest_desc: ["最下面一层放置下界合金块，上面放置滴水石锥和滴水石块，最上面放置atm块，具体放置方法可以查看jei"]
+	quest.2ABCB692F4717BC5.quest_desc: ["第一章结束"]
+	quest.2AEBFC3EF15810CD.quest_desc: [
+		"只能在y<=-64层下才能运行，建议与天使方块搭配使用"
+		""
+		"如果你不想跑那么远可以从虚无之液中提取矿物"
+	]
+	quest.2B9722994F43C11A.quest_desc: [
+		"你做出来的创造me元件是一个空壳，无法使用，想飞升创造模式请前往第六章。"
+		""
+		"本整合包到这里差不多结束了，第六章为可选内容。"
+	]
+	quest.2B9722994F43C11A.title: "结束了吗？"
+	quest.2D79E9DFA050F756.quest_desc: ["&a量子计算机多方块结构最大大小从7x7x7改为10x10x10"]
+	quest.2ECC8A6AF4C363CE.quest_desc: ["部分模组机器打开ui概率闪退,材质无法加载等bug暂时无法解决，需等待作者修复"]
+	quest.3043320DAB93BBA8.quest_desc: ["你要是铁多到用不完那就做这个"]
+	quest.30F1C721383EA72A.quest_desc: ["给物品栏供电"]
+	quest.316F5374AA73DACC.quest_desc: ["你可以去天境挖神能晶矿，但是我这里提供了更简单的方法，使用燧石往传送门扔即可"]
+	quest.31D3B7C1FA56A30E.quest_desc: [
+		"众所周知，钻石是由碳组成"
+		""
+		"但是这种方式获得钻石的概率较低，谨慎选择(我写的50%概率实测只有20%，100个煤炭块炸出21个)"
+	]
+	quest.32FA7556259BC1B6.quest_subtitle: "jei查看配方"
+	quest.335CA35FACAE2334.quest_desc: ["在粒子速度达到15000以上击中下界传送门时会生成黑洞，使用手杖右键黑洞即可收集"]
+	quest.340728AB8C351E31.title: "修改ae频道"
+	quest.34A7E82671B412C0.quest_desc: ["你现在无法放置末地传送门，你敢放它就敢消失"]
+	quest.34F71AD0BEB1DAC8.quest_desc: ["空手可搬运刷怪笼"]
+	quest.362369E91C0A4ADB.quest_desc: ["可绑定ae"]
+	quest.36C33DC4C7320764.quest_desc: ["tnt炸"]
+	quest.38AA3A0690488109.quest_desc: [
+		"&a敌对神经网络："
+		"&3除官方自带的50个数据模型外，我又额外添加了100多种数据模型，新增的数据模型会在任务上方显示"
+		""
+		"&3并不是所有的数据模型都需要自己搜集，大部分都可以通过合成获得"
+		""
+		"&b本包的全部的数据模型都可以通过染色工厂充能，但是执行这个配方需要新的多方块结构，具体可以查看jei，在jei界面点击左下角的图标即可查看结构"
+		""
+		"&b在jei查看的动力锯和切石机的配方可能会不一样，这是显示bug，具体以切石机为主"
+	]
+	quest.3B527640FB4AB505.quest_desc: ["这些模型是必须要搜集的,建议你多弄点"]
+	quest.3B527640FB4AB505.title: "数据模型"
+	quest.3BC4985F2FCC3521.quest_desc: [
+		"命令方块在生存模式已可以放置"
+		""
+		"左手召唤之核心，右手对应的数据模型右键命令方块召唤对应的生物"
+		""
+		"&a每次进入游戏jei有概率不显示管理员物品信息，这种情况/reload(需开作弊)即可解决，我也不知道是什么原因"
+	]
+	quest.3C2BF584C6BEDBED.quest_desc: ["给鸡吃"]
+	quest.3C7CDBFEC5095C5C.quest_desc: ["更安全地复制物品,但是一次只能复制一种"]
+	quest.3C929F89B27C4AEB.quest_desc: [""]
+	quest.3C9A0AD9943E8D32.quest_desc: ["末影珍珠以超过1wj的能量碰撞似乎会对末地产生类似的效果"]
+	quest.3EDAA2878D281801.quest_desc: ["你睁开眼，发现周围一片虚无，只有脚底下看起来很大的工作台。你不知自己为何在这，现在你要想办法活下去"]
+	quest.3EDAA2878D281801.title: "环顾四周"
+	quest.3EEB0F3A98689F0A.title: "default"
+	quest.3F479B0019630857.quest_subtitle: "贴着样板供应器使用"
+	quest.42791C54924D8D3E.quest_desc: [
+		"我使用lootjs修改了矿石掉落，现在使用atm以下等级的镐子挖掘原矿都自带精准采集的效果"
+		""
+		"&6oritech插件修改说明"
+		"&a速度处理倍率50% => 150%"
+		"&a耗电惩罚 20% => 50%"
+		"&a效率处理 20% => 50%"
+		"&a机器电容上限*10"
+	]
+	quest.42F9ED5151651A74.quest_desc: ["左手手杖，右手村民右键atm块召唤牛"]
+	quest.43C38E3ECD67E479.quest_desc: ["世界交互！"]
+	quest.44A7AA085B078B6B.quest_desc: ["现在做这玩意的自动化还来得及"]
+	quest.4546768616CE7CCF.quest_desc: [
+		"嬗变成功率：稀有->常见 100%"
+		"常见->稀有 小于50%"
+		"稀有度接近  50%"
+		"嬗变失败会导致物品消失"
+	]
+	quest.4546768616CE7CCF.title: "嬗变流体"
+	quest.465EBBD320AF4CB2.title: "5wj"
+	quest.46F86B49B45674BD.quest_desc: [
+		"使用方法：方块制造机的左右两边放上对应的流体，下面放上对应的方块，右键机器即可搜集"
+		""
+		"jei可查看配方"
+	]
+	quest.47913F4D7B9518A1.quest_desc: [
+		"只有在副持有手杖才能正常放置末影之眼，否则传送门框架依然会消失"
+		""
+		"末地矿石现在不会掉落任何东西"
+	]
+	quest.48143F51B3F40FF4.quest_desc: ["关于该模组的多方块结构可通过该手册查询"]
+	quest.48BE4E64DEB63B09.quest_desc: [
+		"体验卡结束"
+		"你应该不想再做一遍工作台吧"
+		""
+		"如果你不能很好地控制反应速率的话不建议你用这种方式，容易毁档，第二章会有专门的机器复制物品"
+		""
+		"如果你不小心玩脱了也没关系，有自动备份"
+	]
+	quest.48BE4E64DEB63B09.title: "复制流体"
+	quest.49351FAE93FBE022.quest_desc: [
+		"&4关于传送门配方："
+		"若无特殊说明，传送门配方默认都是主世界到指定维度"
+		"每个传送门配方都有10%的概率掉传送门碎片"
+		""
+		"&a如果你机械动力渲染出了问题，尝试输入指令/flywheel backend flywheel:off"
+		""
+		"&a本包不需要堆大量机器去获得资源，如果你觉得某个配方不合理可以像我反馈"
+		""
+		"&3如果你还有其他问题，可以加入我的discord服务器https://discord.gg/FEfpYhjr进行反馈"
+	]
+	quest.49601F1E5EC20171.quest_desc: ["目前最好用的管道,详情请看手册"]
+	quest.49E2B69E3EB5A56B.quest_desc: ["伪升级为部分机器独有，充当不消耗的反应物，可在jei中查看"]
+	quest.4B3EC016CEC53D38.quest_desc: ["最大堆叠10个"]
+	quest.4B7B34FE8F70BC79.quest_desc: ["本整合包的核心物品"]
+	quest.4B7B34FE8F70BC79.quest_subtitle: "别弄丢了"
+	quest.4B7B34FE8F70BC79.title: "手杖"
+	quest.4BD2877305C5853F.quest_desc: [
+		"使用的时候尽量让周围没有其他方块"
+		""
+		"在使用植物盆培养幽匿尖啸体时锄头必需附上精准采集"
+	]
+	quest.4CC782C41571C8B9.quest_desc: [""]
+	quest.4CFB498037A7B50A.quest_desc: ["全身上下都是金子做的"]
+	quest.4D29880555B412C4.quest_desc: [
+		"这是一个4000+方块的多方块结构，该内容是可选的，这个结构可以帮你减少后面的挂机时间"
+		""
+		"你需要进入结构里面在地狱岩上点火才能成功检测结构"
+	]
+	quest.5023A7E092989926.quest_desc: ["cpu是一个矩形的多方块结构"]
+	quest.5023A7E092989926.title: "cpu!"
+	quest.52A9C3B99CE7EE20.quest_desc: ["使用方块制造机刷黑曜石会消耗熔岩"]
+	quest.542042E7FD68414D.quest_desc: [
+		"如果你发现配方错误等问题可以加入我的discord服务器进行反馈"
+		""
+		"我的能力有限，因模组产生的渲染问题和崩溃我可能无法解决"
+	]
+	quest.5498955A1B955831.quest_desc: ["使用自然精华右键该方块可在该区块生成1000灵气"]
+	quest.549CA555FCBB296C.quest_desc: ["决定合成上限"]
+	quest.557AF590D5394EDB.quest_desc: ["该机器的最后一个多方块升级"]
+	quest.567F1F1D0E1A5D3A.quest_desc: ["复制一个一模一样的方块"]
+	quest.57B0E6E3C6F60EAA.quest_desc: [
+		"这个发电量够你用很久了"
+		""
+		"金块被劈生成"
+	]
+	quest.589BAE3965650424.quest_desc: ["如果机器不工作给机器换个方向试试"]
+	quest.5A10666CC807DC8D.quest_desc: [
+		"圆石=>黑曜石"
+		"你可以用圆石搭出传送门框架，然后再让雷劈"
+		"你也可以按照前面的方法搜集岩浆"
+		"地狱能正常生成结构,猪灵堡垒除外"
+	]
+	quest.5A10666CC807DC8D.title: "下界"
+	quest.5A12262B51FAE5F8.quest_desc: ["如果没有特殊说明，之后所有的配方都采用这个结构"]
+	quest.5A764636209B62FC.quest_desc: ["左手染料精华，右手召唤之核心右键草方块召唤村民"]
+	quest.5AA325434FB371F9.quest_desc: [
+		"左手手杖，右手辐射宁右键命令方块清除世界辐射"
+		""
+		"食用辐射宁清除玩家辐射"
+	]
+	quest.5AA325434FB371F9.title: "辐射是什么？"
+	quest.5C8DBC7B4027BA63.quest_desc: ["这个维度终为白天，某个时候你可能需要"]
+	quest.5C8DBC7B4027BA63.title: "天境"
+	quest.5D8E3521FE7C3231.quest_desc: ["斧头右键木板获得台阶"]
+	quest.5D8E3521FE7C3231.title: "台阶"
+	quest.5DF45BAD97AB13B4.quest_desc: ["数据模型召唤机制使用场所"]
+	quest.5E491704FC3D8ED5.quest_desc: ["你现在可以随意操控时间，手杖左右击迷你圆石就行"]
+	quest.63660F2B086DBF6B.quest_desc: ["手杖左键骨块获得"]
+	quest.63DC9E0B0B576E74.quest_desc: ["默认范围7x7x7,以避雷针往上一格为中心"]
+	quest.65787C7328568E0F.quest_desc: ["该数据模型耗电巨大，普通模拟室已经无法模拟了"]
+	quest.65BB0200A2ADF138.quest_desc: ["可以让材料从哪个面输入，适合做mek自动化"]
+	quest.665C1EE6A2A6A88A.quest_desc: ["基岩与黑曜石压缩红石粉获得，当然你也可以不使用这种方式进行无线能源传输"]
+	quest.669CB95BC81991D4.quest_desc: ["嚼碎"]
+	quest.669CB95BC81991D4.quest_subtitle: "这玩意能吃！"
+	quest.66F00B00B858A918.quest_desc: ["击杀怪物概率掉落"]
+	quest.685ECE4B48AEDFF2.quest_desc: ["在执行传送门配方时有10%的概率获得"]
+	quest.6962FBFA92AD1892.quest_subtitle: "一个顶8个"
+	quest.6A3004279F4C68B9.quest_desc: ["速度升级计算方式为程凡，最大堆叠16个，每个升级消耗电量*1.3，完成单个配方所需要的游戏刻*0.9"]
+	quest.6AA429C4E098BDEE.title: "结束"
+	quest.6AD5495EBA25F09A.quest_desc: ["看看你的ae网络是如何运作的"]
+	quest.6AF2EC1AD55B8A3F.quest_desc: [""]
+	quest.6AF2EC1AD55B8A3F.title: "开始"
+	quest.6DE07364A45581EC.quest_desc: [
+		"本章节为可选内容，如果你觉得太难了就来这。"
+		""
+		"注：部分选项对流程有很大影响，谨慎选择"
+	]
+	quest.6EF0B2FF65497F56.quest_subtitle: "1个顶4个"
+	quest.6F8CD7A506A8473D.quest_desc: ["铁块=>红石块"]
+	quest.7080E378C6500934.quest_desc: ["注魔祭坛配方已全部删除"]
+	quest.70FFC2040B7D036E.quest_desc: [
+		"按照下图摆放结构，然后右键连锁型命令方块"
+		"方块：命令方块，末地石，高级精华锭方块，连锁型命令方块"
+	]
+	quest.749E9FAAE68C3E75.title: "原木"
+	quest.7568A529FF2F37B3.quest_desc: ["可以多烧0.5个物品"]
+	quest.761BC75D20A7CB83.quest_desc: [
+		"&c从本章节开始将会出现大量的多方块机器,该机器用来检测多方块是否能正常使用。使用方法就是把机器放在该结构的红石块上，如果多方块结构正确则聊天栏会有提示。如果你觉得你的结构正确但是聊天栏没有提示，那就把机器换个方向，如果仍没有提示就是你的搭错了。"
+		""
+		"&a每个多方块结构生成时红石块的位置就是你放置机器的位置,放置机器时方向一定要对着红石块放，否则无法检测结构"
+		""
+		"&a在机器的jei界面左键左下角的方块可以查看结果，这些结构我已经写进复制粘贴小帮手里了，可以直接在任务中领取。"
+		""
+		"&a复制粘贴小帮手无法复制基岩，所以虚空采矿机-3和染色工厂的地板需要你自己铺"
+	]
+	quest.761BC75D20A7CB83.title: "多方块！"
+	quest.79216E8D1543C408.quest_desc: ["从三级开始机器将不再接受虚无之液，高度限制从-64以下上升到0以下"]
+	quest.7A803E73BA3AA4B9.quest_desc: ["升级效果不变，但是计算方式从乘方变成了乘法"]
+	quest.7B8A74380F4748E4.quest_desc: [
+		"建议你肉身足够强大时再晋升，整个过程持续大约50s，如果你在这期间死亡则祭祀台会被摧毁"
+		""
+		"如果你死亡了，请等待至少一分钟再继续，否则有可能丢失剧情"
+		""
+		"在此过程中不要退出游戏"
+		""
+		"该剧情每个存档只会出现一次(死亡不算)"
+	]
+	quest.7B8A74380F4748E4.title: "晋升！"
+	quest.7C340145D428B2DA.quest_desc: ["魔法！"]
+	quest.7E5E7512C697F3F2.quest_desc: [""]
+	quest.7E88F371268D076D.quest_desc: [""]
+	quest.7EAD817522C2CF8B.quest_desc: ["该模组默认把mek加入了黑名单，有需要可以自行前往配置文件修改"]
+	quest.7ECC0A72C17D7D2F.quest_subtitle: "ae网络的“大脑”"
+	quest.7F171FB20A9396E3.quest_desc: ["ae全解锁！"]
+	quest.7F955343A5FD0FDC.quest_desc: ["自定义机器目前还在测试中，机器ui暂未制作"]
+	quest.7FEB4F7CD3551552.quest_desc: ["复制粘贴小帮手无法复制资源节点，从加固维度墙一侧开始，从左到右依次为青金石，铁，煤炭，金，绿宝石，钻石，铜，红石，镍，铀，铂。最后在结构里面点上灵火。可以在jei搜索对应的资源节点来获取配方。"]
+	task.007143E6DEE0828F.title: "ae"
+	task.025A2DA743173CCD.title: "说明"
+	task.037807B35DBEEB97.title: "欢迎"
+	task.054359725708A593.title: "快捷键"
+	task.05BE872DEDF7E7CD.title: "三连加速更新"
+	task.05D6E060E157005F.title: "开始"
+	task.069C764F90F6B4DE.title: "结构"
+	task.07C3BAA1A996FA92.title: "精妙背包"
+	task.0AAC19BBAED2E223.title: "铺地板用"
+	task.0F31997386A8820F.title: "初始物质"
+	task.108969927AD593CB.title: "Any #constructionstick:construction_sticks"
+	task.111DDF85650A8A15.title: "说明"
+	task.126B588C2B15C621.title: "1"
+	task.1997AA25804ACB10.title: "切换天气"
+	task.19A4F040F11B97CD.title: "教程"
+	task.1DDC88740AE3FB62.title: "重要！"
+	task.21555F68D1196C19.title: "mek管道"
+	task.22EEA7CCAB6E342B.title: "时间之瓶"
+	task.23AE005A28D485EA.title: "清除掉落物"
+	task.24805BAA3AB770A5.title: "模板"
+	task.263FAC27C2FCE4EE.title: "神秘农业重要配方修改说明"
+	task.26D15627EC56F71D.title: "配置修改说明"
+	task.2A9CA1CC0F13AEF3.title: "结构"
+	task.2AE0AC22541AFB62.title: "晋升"
+	task.2DFF7436D50138C9.title: "升级"
+	task.2E7AE50D0292F813.title: "pip管道"
+	task.3308968179E3B10F.title: "降低难度"
+	task.339C83B2226039D9.title: "说明"
+	task.348B717AB8DFA646.title: "重要修改！"
+	task.35E92F5B7F705B48.title: "Any #minecraft:slabs"
+	task.37D5833ABCCD87CF.title: "x3"
+	task.384530E5BDCD6DAB.title: "Any #functionalstorage:drawer_1x1"
+	task.3943BF7D298B7595.title: "1"
+	task.39AC783DF526A44C.title: "Any #c:dusts/netherite"
+	task.3CC0E0D32EDA07F0.title: "法杖"
+	task.3E0B01B84BA0410C.title: "开始"
+	task.4103C8020EC29B64.title: "infinity"
+	task.459ED5E533C98F53.title: "关于任务"
+	task.46598571F36E234A.title: "discord"
+	task.48BEBBAA7A46710F.title: "结构"
+	task.49298D3957939F98.title: "1"
+	task.4ACCC6135CBDEF11.title: "降低难度"
+	task.4BEDD6090E252CFE.title: "超级工厂管理"
+	task.4CD568E6B011C659.title: "开始"
+	task.4D22266E90E8FA7A.title: "ae2"
+	task.4FCDA6FD29B59FE6.title: "关于手杖"
+	task.5268996E99AADBB8.title: "二重压缩加速火把"
+	task.52AEC9D7A737E0A8.title: "说明"
+	task.548C5C7C63BC719D.title: "重要修改！"
+	task.55210678372B8827.title: "伪升级"
+	task.59264F2CD86DD125.title: "开始"
+	task.594C25ABA1B36812.title: "结构"
+	task.5B9A8FDE5DD0F057.title: "激光节点"
+	task.60754F6FF004069D.title: "deafu"
+	task.62AC1E5271B546E4.title: "结束"
+	task.635338F6F3572AD8.title: "结束"
+	task.64BC7E57DA686FA7.title: "2x"
+	task.6887288590741A67.title: "复制"
+	task.692EFF3564C906A4.title: "模块化路由器"
+	task.6BE4B1052F10DCB3.title: "压缩加速火把"
+	task.6D33C0F2CB0B242C.title: "x4"
+	task.6D90283FFC0206EA.title: "结束"
+	task.6DBCC16EF9DE752A.title: "结构"
+	task.6E70D64D0CE8DCBB.title: "功能性存储"
+	task.6F18FD541C7D265A.title: "修改时间"
+	task.70C09EE8D90AD172.title: "更方便的充能！"
+	task.71C1B1939E3C9AAF.title: "物品"
+	task.72114794B95A9B32.title: "精妙存储"
+	task.73CD73FB735EAE37.title: "Any #curios:back"
+	task.73D75E6A84980310.title: "箱子"
+	task.766B9F479227CA18.title: "集成动力管道"
+	task.7826EA22C491D820.title: "Any #minecraft:wooden_slabs"
+	task.787D44237B209EF2.title: "1"
+	task.796E88BA8A808092.title: "Any #create:sandpaper"
+	task.7E10781CBD307A8B.title: "机械动力修改说明"
+}

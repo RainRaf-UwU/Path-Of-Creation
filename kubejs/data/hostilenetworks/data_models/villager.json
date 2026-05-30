@@ -1,0 +1,35 @@
+{
+    "entity": "minecraft:villager",
+    "variants": [],
+    "name": {
+        "translate": "entity.minecraft.villager",
+        "color": "#3B622F"
+    },
+    "display": {},
+    "sim_cost": 128,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.villager",
+    "fabricator_drops": [
+        {
+            "id": "easy_villagers:villager",
+            "optional": true,
+            "count": 1
+        },
+        {
+            "id": "plushies:villager_plushie",
+            "optional": true,
+            "count": 1
+        },
+         {
+            "id": "artifacts:villager_hat",
+            "optional": true,
+            "count": 1
+        }
+    ]
+}
+

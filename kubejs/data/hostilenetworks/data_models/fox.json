@@ -1,0 +1,30 @@
+{
+    "entity": "minecraft:fox",
+    "variants": [],
+    "name": {
+        "translate": "entity.minecraft.fox",
+        "color": "#3B622F"
+    },
+    "display": {},
+    "sim_cost": 128,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.fox",
+    "fabricator_drops": [
+        {
+            "id": "plushies:white_fox_plushie",
+            "optional": true,
+            "count": 1
+        },
+        {
+            "id": "plushies:red_fox_plushie",
+            "optional": true,
+            "count": 1
+        }
+    ]
+}
+

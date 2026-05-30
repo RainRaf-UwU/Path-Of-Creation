@@ -1,0 +1,13 @@
+{
+    DataVersion: 3955,
+    size: [1, 2, 1],
+    data: [
+        {pos: [0, 0, 0], state: "extendedcrafting:ultimate_table", nbt: {Items: [], Size: 81, id: "extendedcrafting:ultimate_table"}},
+        {pos: [0, 1, 0], state: "minecraft:air"}
+    ],
+    entities: [],
+    palette: [
+        "minecraft:air",
+        "extendedcrafting:ultimate_table"
+    ]
+}

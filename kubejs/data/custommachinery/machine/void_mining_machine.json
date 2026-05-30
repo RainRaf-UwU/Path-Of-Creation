@@ -1,0 +1,383 @@
+{
+  "name": {
+    "text": "cm.rain.void_mining_machine.name",
+    "color": "white"
+  },
+  "appearance": {
+    "custommachinery:block": "rain:machine/void_mining_machine#standalone",
+    "custommachinery:mining_level": "minecraft:needs_stone_tool"
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "max_output": 10000,
+      "config": {
+        "color": {
+          "alpha": 0.0,
+          "red": 0.6666667,
+          "green": 0.0,
+          "blue": 0.0
+        },
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT",
+        "input": true
+      },
+      "capacity": 100000000,
+      "max_input": 1000000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "input",
+      "id": "input_1",
+      "capacity": 10000
+    },
+    {
+      "type": "custommachinery:item",
+      "whitelist": [
+        "rain:mineral_upgrade-1",
+        "rain:mineral_upgrade-2",
+        "rain:mineral_upgrade-3",
+        "rain:mineral_upgrade-4",
+        "rain:mineral_upgrade-5"
+      ],
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "11111",
+      "capacity": 1
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "output": true,
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
+      },
+      "id": "output_1",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "output": true,
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
+      },
+      "id": "output_2",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "output": true,
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
+      },
+      "id": "output_3",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "output": true,
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
+      },
+      "id": "output_4",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "output": true,
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
+      },
+      "id": "output_5",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "output": true,
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
+      },
+      "id": "output_6",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "output_7",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "output_8",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "output_9",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item_upgrade",
+      "whitelist": [
+        "rain:speed_upgrade",
+        "rain:overclocking_upgrade"
+      ],
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "upgrade_1",
+      "mode": "none",
+      "capacity": 10
+    },
+    {
+      "type": "custommachinery:item_upgrade",
+      "whitelist": "rain:production_upgrade",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "upgrade_2",
+      "mode": "none",
+      "capacity": 8
+    },
+    {
+      "type": "custommachinery:item_upgrade",
+      "whitelist": "rain:energy_upgrade",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "upgrade_3",
+      "mode": "none",
+      "capacity": 10
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "width": 256,
+      "height": 192
+    },
+    {
+      "type": "custommachinery:config",
+      "x": 197,
+      "y": 7
+    },
+    {
+      "type": "custommachinery:dump",
+      "x": 50,
+      "y": 88,
+      "width": 14,
+      "height": 7
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 29,
+      "y": 39
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "input_1",
+      "x": 49,
+      "y": 39,
+      "orientation": "BOTTOM"
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 46,
+      "y": 104
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 73,
+      "y": 53
+    },
+    {
+      "type": "custommachinery:reset",
+      "tooltips": [],
+      "x": 15,
+      "y": 8
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "11111",
+      "x": 177,
+      "y": 8,
+      "ghost": {
+        "items": {
+          "item": "rain:mineral_upgrade-1"
+        }
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_1",
+      "x": 102,
+      "y": 32
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_2",
+      "x": 122,
+      "y": 32
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_3",
+      "x": 102,
+      "y": 52
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_4",
+      "x": 122,
+      "y": 52
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_5",
+      "x": 142,
+      "y": 32
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_6",
+      "x": 142,
+      "y": 52
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_7",
+      "x": 102,
+      "y": 72
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_8",
+      "x": 122,
+      "y": 72
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_9",
+      "x": 142,
+      "y": 72
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "upgrade_1",
+      "x": 227,
+      "y": 10,
+      "ghost": {
+        "items": {
+          "item": "rain:speed_upgrade"
+        }
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "upgrade_2",
+      "x": 227,
+      "y": 30,
+      "ghost": {
+        "items": {
+          "item": "rain:production_upgrade"
+        }
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "upgrade_3",
+      "x": 227,
+      "y": 51,
+      "ghost": {
+        "items": {
+          "item": "rain:energy_upgrade"
+        }
+      }
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 51,
+      "y": 7
+    }
+  ],
+  "tooltips": {
+    "text": ""
+  }
+}

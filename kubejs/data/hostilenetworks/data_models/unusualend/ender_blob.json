@@ -1,0 +1,30 @@
+{
+    "entity": "unusualend:ender_blob",
+    "variants": [],
+    "name": {
+        "translate": "entity.unusualend.ender_blob",
+        "color": "#3B622F"
+    },
+    "display": {},
+    "sim_cost": 128,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.ender_blob",
+    "fabricator_drops": [
+        {
+            "id": "unusualend:end_blob",
+            "optional": true,
+            "count": 4
+        },
+        {
+            "id": "unusualend:enderblob_moult",
+            "optional": true,
+            "count": 4
+        }
+    ]
+}
+

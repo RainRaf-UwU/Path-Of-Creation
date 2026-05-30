@@ -1,0 +1,14 @@
+{
+  "default": {
+    "startEpoch": 0,
+    "refreshDelay": 60000,
+    "trades": "daily_shop"
+  },
+  "custom": {
+    "some_custom_shop": {
+      "startEpoch": 0,
+      "refreshDelay": 30000,
+      "trades": "daily_shop"
+    }
+  }
+}

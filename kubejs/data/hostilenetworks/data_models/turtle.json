@@ -1,0 +1,29 @@
+{
+    "entity": "minecraft:turtle",
+    "variants": [],
+    "name": {
+        "translate": "entity.minecraft.turtle",
+        "color": "#3B622F"
+    },
+    "display": {},
+    "sim_cost": 128,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.turtle",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:turtle_scute",
+            "count": 8
+        },
+        {
+            "id":"plushies:turtle_plushie",
+            "optional": true,
+            "count": 1
+        }
+    ]
+}
+

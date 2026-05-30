@@ -1,0 +1,29 @@
+{
+    "entity": "minecraft:ravager",
+    "variants": [],
+    "name": {
+        "translate": "entity.minecraft.ravager",
+        "color": "#3B622F"
+    },
+    "display": {},
+    "sim_cost": 128,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.ravager",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:emerald",
+            "count": 16
+        },
+        {
+            "id": "plushies:ravager_plushie",
+            "optional": true,
+            "count": 1
+        }
+    ]
+}
+

@@ -1,0 +1,10 @@
+{
+  "name": "singularity.rain.conductive_alloy_ingot",
+  "colors": [
+    "E68D0E",
+    "E68D0E"
+  ],
+  "ingredient": {
+    "tag": 'c:ingots/conductive_alloy'
+  }
+}

@@ -1,0 +1,7 @@
+[General]
+	#Whether to automatically insert items into chests
+	autoInsertIntoChests = true
+	#The radius of the chest search
+	# Default: 3
+	# Range: 0 ~ 10
+	chestSearchRadius = 3

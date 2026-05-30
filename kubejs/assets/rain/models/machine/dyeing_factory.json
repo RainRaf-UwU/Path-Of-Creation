@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube", 
+  "textures": {
+    "particle": "rain:block/machine_side_custom", 
+    "down": "rain:block/machine_side_custom",
+    "up": "rain:block/machine_top_customl",
+    "north": "rain:block/dyeing_front",
+    "east": "rain:block/machine_side_custom",
+    "south": "rain:block/machine_side_custom",
+    "west": "rain:block/machine_side_custom"
+  }
+}

@@ -1,0 +1,169 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0137B0F2468B7B59"
+	group: "169930A1FBBB4EB6"
+	id: "0137B0F2468B7B59"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "399E2497D3A33065"
+			rewards: [{
+				id: "68D7E03960E1D2BD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "037807B35DBEEB97"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["399E2497D3A33065"]
+			id: "49351FAE93FBE022"
+			rewards: [{
+				id: "772F38CD713E2ED3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1DDC88740AE3FB62"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["399E2497D3A33065"]
+			id: "542042E7FD68414D"
+			rewards: [{
+				id: "5784643A32CAAC04"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "46598571F36E234A"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["399E2497D3A33065"]
+			icon: {
+				id: "ftbquests:book"
+			}
+			id: "027106980F6C7C9B"
+			rewards: [{
+				id: "54816F008CDB5D58"
+				item: {
+					count: 1
+					id: "ftbquests:book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "459ED5E533C98F53"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["399E2497D3A33065"]
+			icon: {
+				id: "ae2:flawless_budding_quartz"
+			}
+			id: "340728AB8C351E31"
+			tasks: [{
+				id: "007143E6DEE0828F"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["340728AB8C351E31"]
+			id: "3EEB0F3A98689F0A"
+			rewards: [{
+				command: "/ae2 channelmode default"
+				id: "57329D54AEE7C93A"
+				type: "command"
+			}]
+			tasks: [{
+				id: "60754F6FF004069D"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["340728AB8C351E31"]
+			id: "1C22E58E50E7F2A9"
+			rewards: [{
+				command: "/ae2 channelmode x2"
+				id: "513D997C2F9D47EF"
+				type: "command"
+			}]
+			tasks: [{
+				id: "64BC7E57DA686FA7"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["340728AB8C351E31"]
+			id: "516AF3822DEC0660"
+			rewards: [{
+				command: "/ae2 channelmode x3"
+				id: "24621264643B8203"
+				type: "command"
+			}]
+			tasks: [{
+				id: "37D5833ABCCD87CF"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["340728AB8C351E31"]
+			id: "58B745F214E0EEBA"
+			rewards: [{
+				command: "/ae2 channelmode x4"
+				id: "2BAE95C0206771DC"
+				type: "command"
+			}]
+			tasks: [{
+				id: "6D33C0F2CB0B242C"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["340728AB8C351E31"]
+			id: "0F22F8BD0D39174E"
+			rewards: [{
+				command: "/ae2 channelmode infinite"
+				id: "4775762E125F5881"
+				type: "command"
+			}]
+			tasks: [{
+				id: "4103C8020EC29B64"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+	]
+}

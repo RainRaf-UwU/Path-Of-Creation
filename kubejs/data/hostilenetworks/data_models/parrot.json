@@ -1,0 +1,29 @@
+{
+    "entity": "minecraft:parrot",
+    "variants": [],
+    "name": {
+        "translate": "entity.minecraft.parrot",
+        "color": "#3B622F"
+    },
+    "display": {},
+    "sim_cost": 128,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.parrot",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:nautilus_shell",
+            "count": 8
+        },
+        {
+            "id": "plushies:parrot_plushie",
+            "optional": true,
+            "count": 1
+        }
+    ]
+}
+

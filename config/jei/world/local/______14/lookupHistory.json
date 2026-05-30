@@ -1,0 +1,7 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"rain:prophecy_matrix"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"extendedcrafting:ultimate_table"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"rain:creative_storage_cell_false"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"draconicevolution:chaotic_crafting_injector"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

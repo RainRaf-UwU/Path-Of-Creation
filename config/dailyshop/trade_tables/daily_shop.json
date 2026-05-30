@@ -1,0 +1,24 @@
+{
+  "roll": {
+    "type": "constant",
+    "count": 60
+  },
+  "pool": [
+    {
+      "value": "saplings",
+      "weight": 1.0
+    },
+    {
+      "value": "seeds",
+      "weight": 1.0
+    },
+    {
+      "value": "spawn_eggs",
+      "weight": 1.0
+    },
+    {
+     "value":"infinity",
+     "weight":0.8
+}
+  ]
+}

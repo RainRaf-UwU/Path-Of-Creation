@@ -1,0 +1,283 @@
+{
+  "name": {
+    "text": "cm.rain.fluid_processing.name"
+  },
+  "appearance": {
+    "custommachinery:block": "rain:machine/fluid_processing#standalone"
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "max_output": 10000,
+      "capacity": 10000000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "input",
+      "id": "input_1",
+      "capacity": 10000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "input",
+      "id": "input_2",
+      "capacity": 10000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "input",
+      "id": "input_3",
+      "capacity": 10000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "input",
+      "id": "input_4",
+      "capacity": 10000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "input",
+      "id": "input_5",
+      "capacity": 10000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "input",
+      "id": "input_6",
+      "capacity": 10000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "output",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "output_1",
+      "capacity": 10000
+    },
+    {
+      "type": "custommachinery:item",
+      "whitelist": [
+        "rain:refining_medicine_factory",
+        "rain:atomic_reconstruction_chamber",
+        "rain:prophecy_matrix",
+        "rain:large_fluid_processing"
+      ],
+      "id": "input_1",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_2",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_3",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "output_1",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item_upgrade",
+      "whitelist": [
+        "rain:speed_upgrade",
+        "rain:overclocking_upgrade"
+      ],
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "upgrade_1",
+      "mode": "none",
+      "capacity": 10
+    },
+    {
+      "type": "custommachinery:item_upgrade",
+      "whitelist": "rain:production_upgrade",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "upgrade_2",
+      "mode": "none",
+      "capacity": 8
+    },
+    {
+      "type": "custommachinery:item_upgrade",
+      "whitelist": "rain:energy_upgrade",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "upgrade_3",
+      "mode": "none",
+      "capacity": 10
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "width": 256,
+      "height": 192
+    },
+    {
+      "type": "custommachinery:config",
+      "x": 170,
+      "y": 15
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 9,
+      "y": 26
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "input_1",
+      "x": 36,
+      "y": 26
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "input_2",
+      "x": 57,
+      "y": 26
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "input_3",
+      "x": 79,
+      "y": 26
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "input_4",
+      "x": 101,
+      "y": 26
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "input_5",
+      "x": 123,
+      "y": 26
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "input_6",
+      "x": 145,
+      "y": 26
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "output_1",
+      "x": 196,
+      "y": 26
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 51,
+      "y": 94
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 169,
+      "y": 74
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 169,
+      "y": 41
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_1",
+      "x": 145,
+      "y": 6,
+      "ghost": {
+        "items": {
+          "item": "rain:white_upgrade"
+        }
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_2",
+      "x": 123,
+      "y": 73
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_3",
+      "x": 146,
+      "y": 73
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_1",
+      "x": 197,
+      "y": 73
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "upgrade_1",
+      "x": 227,
+      "y": 10,
+      "ghost": {
+        "items": {
+          "item": "rain:speed_upgrade"
+        }
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "upgrade_2",
+      "x": 227,
+      "y": 30,
+      "ghost": {
+        "items": {
+          "item": "rain:production_upgrade"
+        }
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "upgrade_3",
+      "x": 227,
+      "y": 51,
+      "ghost": {
+        "items": {
+          "item": "rain:energy_upgrade"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+    "entity": "minecraft:shulker",
+    "variants": [],
+    "name": {
+        "translate": "entity.minecraft.shulker",
+        "color": "#3B622F"
+    },
+    "display": {},
+    "sim_cost": 1000,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.shulker",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:shulker_shell",
+            "count": 8
+        }
+    ]
+}
+

@@ -1,0 +1,53 @@
+{
+  "roll": {
+    "type": "constant",
+    "count": 1
+  },
+  "input1": {
+    "filter":'rain:cosmic_coin',
+    "count": {
+      "type": "constant",
+      "count": 10
+    }
+  },
+  "input2": {
+    "filter":'rain:cosmic_coin',
+    "count": {
+      "type": "constant",
+      "count": 10
+    }
+  },
+  "input3": {
+    "filter":'rain:cosmic_coin',
+    "count": {
+      "type": "constant",
+      "count": 10
+    }
+  },
+  "output": [
+    {
+      "item": 'flowtech:gloom_spore',
+      "count": {
+        "type": "constant",
+        "count": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "item": 'ae2:cell_component_16k',
+      "count": {
+        "type": "constant",
+        "count": 1
+      },
+      "weight": 1.0
+    },
+{
+      "item": 'ae2:controller',
+      "count": {
+        "type": "constant",
+        "count": 1
+      },
+      "weight": 1.0
+    }
+  ]
+}

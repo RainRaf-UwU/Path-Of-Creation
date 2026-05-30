@@ -1,0 +1,24 @@
+{
+    "entity": "minecraft:command_block_minecart",
+    "variants": [],
+    "name": {
+        "translate": "entity.minecraft.command_block_minecart",
+        "color": "#3B622F"
+    },
+    "display": {},
+    "sim_cost": 100000000,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.command_block_minecart",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:command_block",
+            "count": 1
+        }
+    ]
+}
+

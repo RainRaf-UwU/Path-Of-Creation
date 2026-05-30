@@ -1,0 +1,69 @@
+{
+  "roll": {
+    "type": "constant",
+    "count": 1
+  },
+  "input1": {
+    "filter": 'rain:cosmic_coin',
+    "count": {
+      "type": "constant",
+      "count":5
+    }
+  },
+  "input2": {
+    "filter":'rain:cosmic_coin',
+    "count": {
+      "type": "constant",
+      "count": 5
+    }
+  },
+  "input3": {
+    "filter": 'rain:cosmic_coin',
+    "count": {
+      "type": "constant",
+      "count": 5
+    }
+  },
+  "output": [
+    {
+      "item": 'mekanism:advanced_energy_cube',
+      "count": {
+        "type": "constant",
+        "count": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "item": 'tesseract:tesseract',
+      "count": {
+        "type": "constant",
+        "count": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "item": 'pipez:universal_pipe',
+      "count": {
+        "type": "constant",
+        "count": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "item": 'mob_grinding_utils:absorption_hopper',
+      "count": {
+        "type": "constant",
+        "count": 1
+      },
+      "weight": 1.0
+    },
+{
+      "item": 'ae2:fluix_covered_dense_cable',
+      "count": {
+        "type": "constant",
+        "count": 16
+      },
+      "weight": 1.0
+    }
+  ]
+}

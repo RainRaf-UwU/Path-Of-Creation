@@ -1,0 +1,25 @@
+{
+    "entity": "minecraft:cat",
+    "variants": [],
+    "name": {
+        "translate": "entity.minecraft.cat",
+        "color": "#3B622F"
+    },
+    "display": {},
+    "sim_cost": 128,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.cat",
+    "fabricator_drops": [
+        {
+            "id": "extendedae:mddyue",
+            "optional": true,
+            "count": 1
+        }
+    ]
+}
+

@@ -1,0 +1,113 @@
+#Gloom Spore - Configure conversion settings for Gloom Spores
+[gloom_spore]
+	#Conversion area size (blocks)
+	#Area is square, centered on clicked block
+	#Default: 5 (converts 5x5 area)
+	# Default: 5
+	# Range: 3 ~ 15
+	conversion_area = 5
+	#Number of uses per Gloom Spore
+	#How many times one spore can be used before depleting
+	#Default: 2
+	# Default: 2
+	# Range: 1 ~ 64
+	uses = 2
+
+#Dark Dirt - Configure spawning and behavior settings for Dark Dirt blocks
+[dark_dirt]
+	#Maximum light level for conversion to Dark Dirt
+	#Gloom Spore will only convert dirt at or below this light level
+	#Default: 7
+	# Default: 7
+	# Range: 0 ~ 15
+	conversion_light_level = 7
+	#Maximum light level for mob spawning on Dark Dirt
+	#Dark Dirt will only spawn mobs at or below this light level
+	#Default: 1
+	# Default: 2
+	# Range: 0 ~ 15
+	spawning_light_level = 2
+	#Number of mobs to spawn per 16x16 area
+	#Higher numbers increase mob density but may impact performance
+	#Default: 12
+	# Default: 12
+	# Range: 1 ~ 50
+	mobs_per_area = 12
+	#Mob spawning check interval (ticks)
+	#How often Dark Dirt checks for spawning opportunities
+	#20 ticks = 1 second
+	#Default: 20
+	# Default: 20
+	# Range: 5 ~ 200
+	check_interval = 20
+	#Enable Dark Dirt reversion to normal dirt
+	#If true, Dark Dirt reverts to normal dirt in bright light
+	#Default: true
+	revert_enabled = true
+	#Enable Dark Dirt particle effects
+	#If true, Dark Dirt shows gray particle effects
+	#Default: true
+	particles_enabled = true
+	#Reversion delay in seconds
+	#How long Dark Dirt waits in bright light before reverting to dirt
+	#Default: 10
+	# Default: 10
+	# Range: 1 ~ 60
+	reversion_delay_seconds = 10
+
+#Glimmer Sprout - Configure conversion settings for Glimmer Sprouts
+[glimmer_sprout]
+	#Conversion area size (blocks)
+	#Area is square, centered on clicked block
+	#Default: 5 (converts 5x5 area)
+	# Default: 5
+	# Range: 3 ~ 15
+	conversion_area = 5
+	#Number of uses per Glimmer Sprout
+	#How many times one sprout can be used before depleting
+	#Default: 2
+	# Default: 2
+	# Range: 1 ~ 64
+	uses = 2
+
+#Glimmer Grass - Configure spawning and behavior settings for Glimmer Grass blocks
+[glimmer_grass]
+	#Minimum light level for conversion to Glimmer Grass
+	#Glimmer Sprout will only convert dirt at or above this light level
+	#Default: 8
+	# Default: 7
+	# Range: 1 ~ 15
+	conversion_light_level = 7
+	#Minimum light level for mob spawning on Glimmer Grass
+	#Glimmer Grass will only spawn mobs at or above this light level
+	#Default: 9
+	# Default: 7
+	# Range: 1 ~ 15
+	spawning_light_level = 7
+	#Number of mobs to spawn per 16x16 area
+	#Higher numbers increase mob density but may impact performance
+	#Default: 12
+	# Default: 12
+	# Range: 1 ~ 50
+	mobs_per_area = 12
+	#Mob spawning check interval (ticks)
+	#How often Glimmer Grass checks for spawning opportunities
+	#20 ticks = 1 second
+	#Default: 20
+	# Default: 20
+	# Range: 5 ~ 200
+	check_interval = 20
+	#Enable Glimmer Grass reversion to normal dirt
+	#If true, Glimmer Grass reverts to normal dirt in low light
+	#Default: true
+	revert_enabled = true
+	#Enable Glimmer Grass particle effects
+	#If true, Glimmer Grass shows purple particle effects
+	#Default: true
+	particles_enabled = true
+	#Reversion delay in seconds
+	#How long Glimmer Grass waits in darkness before reverting to dirt
+	#Default: 10
+	# Default: 10
+	# Range: 1 ~ 60
+	reversion_delay_seconds = 10

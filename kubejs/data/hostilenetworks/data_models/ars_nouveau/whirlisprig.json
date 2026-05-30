@@ -1,0 +1,39 @@
+{
+    "entity": "ars_nouveau:whirlisprig",
+    "variants": [],
+    "name": {
+        "translate": "entity.ars_nouveau.whirlisprig",
+        "color": "#3B622F"
+    },
+    "display": {},
+    "sim_cost": 128,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.whirlisprig",
+    "fabricator_drops": [
+        {
+            "id":"ars_nouveau:thread_whirlisprig",
+            "optional": true,
+            "count": 1
+        },
+        {
+            "id":"ars_nouveau:whirlisprig_charm",
+            "optional": true,
+            "count": 1
+        },
+        {
+            "id":"ars_nouveau:whirlisprig_flower",
+            "optional": true,
+            "count": 1
+        },
+        {
+            "id":"ars_nouveau:whirlisprig_shards",
+            "optional": true,
+            "count": 1
+        }
+    ]
+}
