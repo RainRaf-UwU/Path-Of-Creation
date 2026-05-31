@@ -12,4 +12,4 @@ client_scripts - Scripts that get loaded every time client resources reload - Us
 config - KubeJS config storage. This is also the only directory that scripts can access other than world directory
 exported - Data dumps like texture atlases end up here
 
-You can find type-specific logs in logs/kubejs/ directory
+You can find type-specific logs in logs/kubejs/ directory.
