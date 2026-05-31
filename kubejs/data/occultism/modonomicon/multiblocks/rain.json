@@ -11,63 +11,248 @@
     },
     "0": {
       "type": "modonomicon:tag",
-      "display": "occultism:golden_sacrificial_bowl",
+      "display": "occultism:iesnium_sacrificial_bowl",
       "tag": "#occultism:center_sacrificial_bowl"
     },
-    "1": {
-      "type": "modonomicon:tag",
-      "tag": "#minecraft:candles"
-    },
-    "2": {
-      "type": "modonomicon:block",
-      "block": "minecraft:skeleton_skull"
-    },
-    "L": {
-      "type": "modonomicon:tag",
-      "display": "occultism:chalk_glyph_lime",
-      "tag": "#occultism:glyphs_lime"
-    },
-    "S": {
-      "type": "modonomicon:tag",
-      "display": "occultism:chalk_glyph_light_gray",
-      "tag": "#occultism:foundation_glyphs_no_white"
-    },
-    "W": {
-      "type": "modonomicon:tag",
-      "display": "occultism:chalk_glyph_white",
-      "tag": "#occultism:foundation_glyphs_any"
-    }
+    "a": {
+    "type": "modonomicon:block",
+    "block": "draconicevolution:energy_core_stabilizer"
+  },
+  "b": {
+    "type": "modonomicon:block",
+    "block": "minecraft:reinforced_deepslate"
+  },
+  "c": {
+    "type": "modonomicon:block",
+    "block": "minecraft:command_block"
+  },
+  "d": {
+    "type": "modonomicon:block",
+    "block": "minecraft:chain_command_block"
+  },
+  "e": {
+    "type": "modonomicon:block",
+    "block": "avaritia:blaze_cube_block"
+  },
+  "f": {
+    "type": "modonomicon:block",
+    "block": "minecraft:repeating_command_block"
+  },
+  "g": {
+    "type": "modonomicon:block",
+    "block": "avaritia:crystal_matrix"
+  },
+  "h": {
+    "type": "modonomicon:block",
+    "block": "stellaris:heavy_metal_plate"
+  },
+  "i": {
+    "type": "modonomicon:block",
+    "block": "aether:ambrosium_block"
+  },
+  "j": {
+    "type": "modonomicon:block",
+    "block": "advanced_ae:quantum_alloy_block"
+  },
+  "k": {
+    "type": "modonomicon:block",
+    "block": "stellaris:uranium_block"
+  },
+  "l": {
+    "type": "modonomicon:block",
+    "block": "minecraft:bedrock"
+  },
+  "n": {
+    "type": "modonomicon:block",
+    "block": "glassential:obsidian_glass"
+  },
+  "o": {
+    "type": "modonomicon:block",
+    "block": "occultism:chalk_glyph_orange"
+  },
+  "p": {
+   "type": "modonomicon:tag",
+    "display":"occultism:chalk_glyph_pink",
+    "tag":  "#occultism:foundation_glyphs_any"
+  },
+  "q": {
+    "type": "modonomicon:block",
+    "block": "occultism:chalk_glyph_orange"
+  },
+  "r": {
+    "type": "modonomicon:tag",
+    "display":"occultism:chalk_glyph_purple",
+    "tag":  "#occultism:foundation_glyphs_any"
+  },
+  "s": {
+    "type": "modonomicon:block",
+    "block": "oritech:biosteel_block"
+  },
+  "t": {
+    "type": "modonomicon:block",
+    "block": "oritech:electrum_block"
+  },
+  "u": {
+    "type": "modonomicon:block",
+    "block": "avaritia:neutron"
+  },
+  "v": {
+    "type": "modonomicon:block",
+    "block": "minecraft:pink_candle"
+  },
+  "w": {
+    "type": "modonomicon:block",
+    "block": "avaritia:double_compressed_crafting_table"
+  },
+  "x": {
+    "type": "modonomicon:block",
+    "block": "minecraft:oxidized_copper"
+  },
+  "A": {
+    "type": "modonomicon:block",
+    "block": "minecraft:gray_concrete"
+  },
+  "B": {
+    "type": "modonomicon:tag",
+    "display":"occultism:chalk_glyph_magenta",
+    "tag":  "#occultism:foundation_glyphs_any"
+  },
+  "C": {
+    "type": "modonomicon:tag",
+    "display":"occultism:chalk_glyph_blue",
+    "tag":  "#occultism:foundation_glyphs_any"
+  },
+  "D": {
+    "type": "modonomicon:block",
+    "block": "minecraft:chain_command_block"
+  }
   },
   "pattern": [
     [
-      "_____________",
-      "_____________",
-      "___L_L1L_L___",
-      "__L2_WWW_2L__",
-      "_L__W_S_W__L_",
-      "_LLW_1S1_WLL_",
-      "_L1WSS0SSW1L_",
-      "_LLW_1S1_WLL_",
-      "_L__W_S_W__L_",
-      "__L2_WWW_2L__",
-      "___L_L1L_L___",
-      "_____________",
-      "_____________"
-    ],
+  "___________________________________________________________aa__",
+  "___aa_____________________________________________________aaa__",
+  "___aaa___________________________________________________aaa___",
+  "____aaa_________________________________________________aaa____",
+  "_____aaa_______________________________________________aaa_____",
+  "______aaa_____________________________________________aaa______",
+  "_______abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba_______",
+  "________bcdeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeedcb________",
+  "________bdfgggggggggggggggggggggggggggggggggggggggggfdb________",
+  "________beghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhgeb________",
+  "________beghiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiihg_b________",
+  "________beghijjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjihgeb________",
+  "________beghijkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjihgeb________",
+  "________beghijklllllllllllllllllllllllllllllllllkjihgeb________",
+  "________beghijklnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnlkjihgeb________",
+  "________beghijklnonnnnnnnnnnnnnnnnnnnnnnnppppnnlkjihgeb________",
+  "________beghijklnqrnnnnnnnnnnnnnnnnnnnnpppnnnnnlkjihgeb________",
+  "________beghijklnnrrnnnnnnnnnnnnnnnnnnppnnnnnnnlkjihgeb________",
+  "________beghijklnnnrrnnnnnnnnnnnnnnnnppnnnnnnnnlkjihgeb________",
+  "________beghijklnnnnrrssssssssssssssppsnnnnnnnnlkjihgeb________",
+  "________beghijklnnnnnrrttttttttttttpptsnnnnnnnnlkjihgeb________",
+  "________beghijklnnnnnsrrtuvuwwwuvutpttsnnnnnnnnlkjihgeb________",
+  "________beghijklnnnnnstrrxxxxxxxxxppttsnnnnnnnnlkjihgeb________",
+  "________beghijklnnnnnsttrr_______ppxutsnnnnnnnnlkjihgeb________",
+  "________beghijklnnnnnstuxrr______ppxvtsnnnnnnnnlkjihgeb________",
+  "________beghijklnnnnnstvx_rr____pp_xutsnnnnnnnnlkjihgeb________",
+  "________beghijklnnnnnstux__rrr_pp__xwtsnnnnnnnnlkjihgeb________",
+  "________beghijklnnnnnstwx___rAAAp__xwtsnnnnnnnnlkjihgeb________",
+  "________beghijklnnnnnstwx____A0A___xutsnnnnnnnnlkjihgeb________",
+  "________beghijklnnnnnstwx___BAAAC__xvtsnnnnnnnnlkjihgeb________",
+  "________beghijklnnnnnstwx___BB_CCC_xutsnnnnnnnnlkjihgeb________",
+  "________beghijklnnnnnstux__BB___CCCCttsnnnnnnnnlkjihgeb________",
+  "________beghijklnnnnnstvx_BBxxxxxxCCCtsnnnnnnnnlkjihgeb________",
+  "________beghijklnnnnnstuxBBtuvuuvuttCCsnnnnnnnnlkjihgeb________",
+  "________beghijklnnnnnsttBBtttttttttttCCnnnnnnnnlkjihgeb________",
+  "________beghijklnnnnnstBBsssssssssssssCCnnnnnnnlkjihgeb________",
+  "________beghijklnnnnnsBBnnnnnnnnnnnnnnnCCnnnnnnlkjihgeb________",
+  "________beghijklnnnnnBBnnnnnnnnnnnnnnnnnCCnnnnnlkjihgeb________",
+  "________beghijklnnnnBBnnnnnnnnnnnnnnn_nnnCCnnnnlkjihgeb________",
+  "________beghijklnnnBBnnnnnnnnnnnnnnnnnnnnnCCnnnlkjihgeb________",
+  "________beghijklnnnBnnnnnnnnnnnnnnnnnnnnnnnCCnnlkjihgeb________",
+  "________beghijklnnBBnnnnnnnnnnnnnnnnnnnnnnnnCCnlkjihgeb________",
+  "________beghijklnBBnnnnnnnnnnnnnnnnnnnnnnnnnnCnlkjihgeb________",
+  "________beghijklnBnnnnnnnnnnnnnnnnnnnnnnnnnnnCnlkjihgeb________",
+  "________beghijklnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnlkjihgeb________",
+  "________beghijklllllllllllllllllllllllllllllllllkjihgeb________",
+  "________beghijkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjihgeb________",
+  "________beghijjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjihgeb________",
+  "________beghiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiihgeb________",
+  "________beghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhgeb________",
+  "________bdfgggggggggggggggggggggggggggggggggggggggggfdb________",
+  "________bcDeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeedcb________",
+  "_______abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba_______",
+  "______aaa_____________________________________________aaa______",
+  "_____aaa_______________________________________________aaa_____",
+  "____aaa_________________________________________________aaa____",
+  "___aaa___________________________________________________aaa___",
+  "__aaa_____________________________________________________aaa__",
+  "_aaa_______________________________________________________aa__",
+  "aaa____________________________________________________________",
+  "aa_____________________________________________________________"
+],
     [
-      "*+*+*+*+*+*+*",
-      "+*+*+*+*+*+*+",
-      "*+*+*+*+*+*+*",
-      "+*+*+*+*+*+*+",
-      "*+*+*+*+*+*+*",
-      "+*+*+*+*+*+*+",
-      "*+*+*+*+*+*+*",
-      "+*+*+*+*+*+*+",
-      "*+*+*+*+*+*+*",
-      "+*+*+*+*+*+*+",
-      "*+*+*+*+*+*+*",
-      "+*+*+*+*+*+*+",
-      "*+*+*+*+*+*+*"
-    ]
+  "*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*",
+  "+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+",
+  "*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*",
+  "+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+",
+  "*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*",
+  "+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+",
+  "*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*",
+  "+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+",
+  "*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*",
+  "+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+",
+  "*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*",
+  "+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+",
+  "*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*",
+  "+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+",
+  "*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*",
+  "+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+",
+  "*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*",
+  "+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+",
+  "*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*",
+  "+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+",
+  "*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*",
+  "+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+",
+  "*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*",
+  "+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+",
+  "*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*",
+  "+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+",
+  "*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*",
+  "+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+",
+  "*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*",
+  "+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+",
+  "*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*",
+  "+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+",
+  "*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*",
+  "+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+",
+  "*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*",
+  "+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+",
+  "*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*",
+  "+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+",
+  "*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*",
+  "+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+",
+  "*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*",
+  "+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+",
+  "*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*",
+  "+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+",
+  "*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*",
+  "+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+",
+  "*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*",
+  "+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+",
+  "*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*",
+  "+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+",
+  "*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*",
+  "+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+",
+  "*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*",
+  "+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+",
+  "*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*",
+  "+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+",
+  "*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*",
+  "+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+",
+  "*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*",
+  "+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+",
+  "*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*"
+]
   ]
 }

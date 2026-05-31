@@ -136,7 +136,8 @@ ServerEvents.recipes(e=>{
         'immersiveengineering:warning_sign_shrieker',
         'avaritia:infinity_ingot',
         'avaritia:infinity_catalyst',
-        'minecraft:end_stone'
+        'minecraft:end_stone',
+        'avaritia:neutron_compressor'
             ]
 
     output_1.forEach(out =>{
