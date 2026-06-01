@@ -288,6 +288,16 @@ fusion_crafting('artifacts:eternal_steak','ars_nouveau:mendosteen_pod', Tier[4],
     ]
 )
 
+fusion_crafting('rain:white_upgrade','rain:large_fluid_processing', Tier[4], 500000000,
+    [
+        ['oritech:banana', 2],
+        ['tombstone:ankh_of_prayer',2],
+        ['easy_villagers:villager',2],
+        ['oritech:black_hole_block',2],
+        ['silentgear:azure_silver_block',2]
+    ]
+)
+
 
 
 

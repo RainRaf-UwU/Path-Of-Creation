@@ -285,4 +285,45 @@ e.custom({
     "id":'minecraft:end_rod'
   }
 })
+
+e.custom({
+  "type": "ifeu:shaped",
+  "inputFluid": {
+    "amount": 1000,
+    "id": "rain:spent_unclear_waste"
+  },
+  "inputs": [
+    {
+      "item":'mekanism:hazmat_mask'
+    },
+    {
+      "item":'mekanism:hazmat_gown'
+    },
+    {
+      "item":'mekanism:hazmat_pants'
+    },
+    {
+      "item":'mekanism:hazmat_boots'
+    },
+    {
+      "item":'psi:cad_core_radiative'
+    },
+    {
+      "item":'enderio:pulsating_alloy_ingot'
+    },
+    {
+      "item":'enderio:pulsating_alloy_ingot'
+    },
+    {
+      "item":'enderio:pulsating_alloy_ingot'
+    },
+    { 
+      "item":'enderio:pulsating_alloy_ingot'
+    }
+  ],
+  "output": {
+    "count": 1,
+    "id":'rain:radiation_ning'
+  }
+})
 })
