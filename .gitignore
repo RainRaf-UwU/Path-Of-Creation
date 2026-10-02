@@ -1,4 +1,8 @@
 
+# Keep Markdown local; publish README files only
+*.[mM][dD]
+![rR][eE][aA][dD][mM][eE].[mM][dD]
+
 # Local tooling and generated code
 .probe/
 .cache/
