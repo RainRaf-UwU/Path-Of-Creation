@@ -27,9 +27,22 @@ function entity_key(raw){
     return "entity." + raw.slice(0,m1) + "." + raw.slice(m1 + 1)
 }
 
+function processStoredTime(str) {
+    let match = str.match(/stored=(\d+)/);
+    if (!match) return null;
+    
+    let stored = parseInt(match[1], 10);
+    let newStored = stored + 360000 * 20;
+    
+    
+    return `tiab:time_in_a_bottle[tiab:stored_time={stored:${newStored},total:${newStored}}]`;
+}
+
 BlockEvents.rightClicked('minecraft:command_block',e=>{
-    const { player,level,block} = e
+    const { player,level,block,hand} = e
     if(player == null) return
+    if (hand == "OFF_HAND") return
+    // if(level.clientSide) return
     // player.tell(entity_id('hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:giant"]'))
     if(player.offHandItem.id == 'ars_nouveau:summon_focus'&&
         player.mainHandItem.id =='hostilenetworks:data_model'
@@ -72,5 +85,16 @@ BlockEvents.rightClicked('minecraft:command_block',e=>{
         if(Math.random() < 0.1){
             block.set('minecraft:air')
         }
+    }
+
+    if(player.mainHandItem.id =='tiab:time_in_a_bottle'&&
+        player.shiftKeyDown
+    ){
+        // player.mainHandItem.shrink(1)
+        let item_id1 = player.mainHandItem.get('tiab:stored_time')
+        let new_item_id = processStoredTime(item_id1.toString())
+        player.mainHandItem.shrink(1)
+        player.give(new_item_id)
+        block.set('minecraft:air')
     }
 })

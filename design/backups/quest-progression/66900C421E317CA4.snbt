@@ -1,0 +1,2357 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "66900C421E317CA4"
+	group: "315BDB53A7CCE29F"
+	icon: {
+		id: "rain:god_creation_keepsake"
+	}
+	id: "66900C421E317CA4"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6AA429C4E098BDEE"]
+			id: "355A5CBA46D9D830"
+			rewards: [{
+				id: "4A15DE8E90F9EF32"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "59264F2CD86DD125"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["355A5CBA46D9D830"]
+			id: "4766413F893A2C64"
+			rewards: [
+				{
+					id: "7C91810AA994ACC2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5256C73C3F8F1714"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0F2F13363901A7CA"
+				item: { count: 1, id: "occultism:datura" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4766413F893A2C64"]
+			id: "73E254F2596B187E"
+			rewards: [
+				{
+					id: "6EA72A1293A3742C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6F5830C5568BBD34"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "634CE8E291745D2B"
+				item: { count: 1, id: "occultism:dictionary_of_spirits" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4766413F893A2C64"]
+			id: "1EBC58B71BAB2B20"
+			rewards: [
+				{
+					id: "0434F82A0C4E7382"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1B464D1E8DA1C259"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4B699C1CDEAA1532"
+				item: { count: 1, id: "occultism:demons_dream_essence" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4766413F893A2C64"]
+			id: "5287ED884A30FB5E"
+			rewards: [
+				{
+					id: "2435479F93829156"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1C4974B1B313D8F3"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7AC6CC3DB8AC6A1E"
+				item: { count: 1, id: "occultism:otherstone" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"4766413F893A2C64"
+				"0FE83C64579B2F99"
+			]
+			id: "1E80C082DFAD43C1"
+			rewards: [
+				{
+					id: "73023EAB3DE9D581"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "56B2E94B585A43F2"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "459EC6736DB4927D"
+				item: { count: 1, id: "occultism:otherworld_log" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1E80C082DFAD43C1"]
+			id: "62544BC4E124165F"
+			rewards: [
+				{
+					id: "32898E500F10D612"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "164F1B9BEF4B58D4"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "232CCD5AC61CA74D"
+					item: { count: 1, id: "occultism:sacrificial_bowl" }
+					type: "item"
+				}
+				{
+					id: "588683AD7F923494"
+					item: { count: 1, id: "occultism:golden_sacrificial_bowl" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5287ED884A30FB5E"]
+			id: "10656C85CCE82E84"
+			rewards: [
+				{
+					id: "12EBB96EB49758A9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "01CAE9454955DB8D"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "359234BDA58CD7E2"
+				item: { count: 1, id: "occultism:chalk_white_impure" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["10656C85CCE82E84"]
+			id: "16E9382FB96DDCD6"
+			rewards: [
+				{
+					id: "4CDA189F6981441A"
+					item: {
+						count: 1
+						id: "occultism:ritual_satchel_t1"
+					}
+					type: "item"
+				}
+				{
+					id: "490C7266752D6DE6"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "561C3F70C0815D9E"
+					item: { count: 1, id: "occultism:chalk_rainbow" }
+					type: "item"
+				}
+				{
+					id: "39D7724292BA68E0"
+					item: { count: 1, id: "occultism:chalk_void" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			id: "63660F2B086DBF6B"
+			rewards: [
+				{
+					id: "21B1E0AAD6AE550D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5D6D7089A9A0924A"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6B62C5C5A15A0A3F"
+				item: { count: 1, id: "minecraft:skeleton_skull" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"63660F2B086DBF6B"
+				"62544BC4E124165F"
+				"10656C85CCE82E84"
+				"5561E1D06C817628"
+			]
+			id: "5B1046C93ED31A3D"
+			rewards: [
+				{
+					id: "1FFA32100F7693AF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "26203040F390C22F"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "129F34F30E3F08D7"
+				item: { components: { "custommachinery:machine": "custommachinery:dyeing_factory" }, count: 1, id: "custommachinery:custom_machine_item" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["01B7DA9F6AA43572"]
+			id: "5561E1D06C817628"
+			rewards: [
+				{
+					id: "4098AFC3D88D7B94"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "15FFFEF7E8821715"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "73606345AD949009"
+				item: { count: 1, id: "occultism:large_candle" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			id: "01B7DA9F6AA43572"
+			rewards: [
+				{
+					id: "5E57A4C299CE931E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0C826CAA687DA4E7"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3BBADD769BF29FED"
+				item: { count: 1, id: "occultism:tallow" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5B1046C93ED31A3D"]
+			id: "75B1968D6DE0A4EA"
+			rewards: [
+				{
+					id: "3EC88C12135FEEAD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "10F9D3115F4DDAD7"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "14193E98C77F9871"
+				item: { count: 1, id: "ars_nouveau:blue_archwood_sapling" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5B1046C93ED31A3D"]
+			id: "04B3689D0CC97F59"
+			rewards: [
+				{
+					id: "56B1A4C7923C8076"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "32EB24C8D6184305"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "79CFF28F4E9AA120"
+				item: { count: 1, id: "mysticalagriculture:amethyst_essence" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["75B1968D6DE0A4EA"]
+			id: "7D6B41D46466991E"
+			rewards: [
+				{
+					id: "46233726A427E4F1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5E63B11619445174"
+					item: {
+						count: 1
+						id: "ars_nouveau:worn_notebook"
+					}
+					type: "item"
+				}
+				{
+					id: "71B73577DB3CDD43"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "37F4832BCFD69924"
+				item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"53C1747F9760F5CA"
+				"51D59DE5AD3DCE09"
+			]
+			id: "2CB314B584511869"
+			rewards: [
+				{
+					id: "1C2C15806D930E11"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "77DD7BB52DC97EDF"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "15C8C8AEDD9868FA"
+				item: { count: 1, id: "ars_nouveau:creative_source_jar" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7D6B41D46466991E"]
+			id: "3BC639C228C35538"
+			rewards: [
+				{
+					id: "13CA90F62F67C3F2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "550B3A87C75C2899"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "535588F6B502B6E5"
+				item: { count: 1, id: "ars_nouveau:arcane_pedestal" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7D6B41D46466991E"]
+			id: "7C3104D29E5C1935"
+			rewards: [
+				{
+					id: "7C78ADE9BF76469E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2340FB84A0E4BB16"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5BF3478930D190ED"
+				item: { count: 1, id: "ars_nouveau:source_gem" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7C3104D29E5C1935"]
+			id: "0B5EFE2291C821AE"
+			rewards: [
+				{
+					id: "510031C5560DE6F3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6923E1A207D2C747"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7965ECD031C9828B"
+				item: { count: 1, id: "ars_nouveau:sourcestone" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0B5EFE2291C821AE"]
+			id: "6003422C257E1554"
+			rewards: [
+				{
+					id: "1655B197DB56EDE2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5805620BE30CFDB6"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5225F61CCA7ED9CC"
+				item: { count: 1, id: "ars_nouveau:enchanting_apparatus" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5B1046C93ED31A3D"]
+			id: "076AFDC2E7BD63E0"
+			rewards: [
+				{
+					id: "4CA7FFE4E806B0EC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4860391E3D524B7C"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7A9B63B153E0C144"
+				item: { count: 1, id: "alltheores:silver_ingot" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7D6B41D46466991E"]
+			id: "06D6A493C58369C5"
+			rewards: [
+				{
+					id: "2129B86556E92E68"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3A60FEA9318EE6E1"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6184EE6DB060D7D5"
+				item: { count: 1, id: "ars_nouveau:earth_essence" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			id: "0FE83C64579B2F99"
+			rewards: [
+				{
+					id: "00A649B018186403"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2BCBCD98D1508AD2"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5412FA2683C6F2B4"
+				item: { count: 1, id: "occultism:otherworld_sapling_natural" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B1046C93ED31A3D"]
+			id: "53C1747F9760F5CA"
+			rewards: [
+				{
+					id: "5E303EC01FB016E7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6ACF8612DF0EDB36"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2228737E14E7A61D"
+				item: { count: 1, id: "minecraft:wither_skeleton_skull" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["04B3689D0CC97F59"]
+			id: "3DAA66E04EF99384"
+			rewards: [
+				{
+					id: "17FCE43F656C7738"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5F5D1C6946BDB300"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1F628A286BCD0937"
+				item: { count: 1, id: "occultism:spirit_attuned_gem" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5B1046C93ED31A3D"]
+			id: "0737CA693E76F99A"
+			rewards: [
+				{
+					id: "708273C0B60815A6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "74DE07B3ED62B804"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "36EA8C0EFBB37FB9"
+				item: { count: 1, id: "torcherino:torcherino" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3DAA66E04EF99384"]
+			id: "51D59DE5AD3DCE09"
+			rewards: [
+				{
+					id: "451547AF4FBE1F2E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3179AFA27B38A13F"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "177D5FEB9965895F"
+				item: { count: 1, id: "occultism:spirit_attuned_crystal" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7C3104D29E5C1935"]
+			id: "3E14126545895ABD"
+			rewards: [
+				{
+					id: "4F20E02A0FB9BE31"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1BCB3C406078391A"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "37AEF3312CA58D16"
+				item: { count: 1, id: "ars_nouveau:source_gem_block" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"3E14126545895ABD"
+				"0B5EFE2291C821AE"
+			]
+			id: "2672C90D94F7B21B"
+			rewards: [
+				{
+					id: "5E7EB23679433ABE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "72305B492E3FC784"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "48A80179192263D7"
+				item: { count: 1, id: "ars_nouveau:ritual_brazier" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6003422C257E1554"]
+			id: "73B4861F6D59B065"
+			rewards: [
+				{
+					id: "341ED3F39B5FCD34"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2067662B4B3E889F"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "382FF7BE8A81333D"
+				item: { count: 1, id: "ars_nouveau:ritual_wilden_summon" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2672C90D94F7B21B"
+				"73B4861F6D59B065"
+			]
+			id: "50BAE09455C39830"
+			rewards: [
+				{
+					id: "6EC16D80D8FAF5BF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3A117D35F3440C7B"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "7328584CAEB1EFFC"
+				item: { count: 1, id: "ars_nouveau:wilden_tribute" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6003422C257E1554"]
+			id: "1CA8D11D693ADB18"
+			rewards: [
+				{
+					id: "4CFD46A876B90D3B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1CF49D0F02B6F545"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4A3812C62D67FF1E"
+					item: { components: { "minecraft:stored_enchantments": { levels: { "minecraft:fortune": 1 } } }, count: 1, id: "minecraft:enchanted_book" }
+					type: "item"
+				}
+				{
+					id: "6D510575628F00BB"
+					item: { components: { "minecraft:stored_enchantments": { levels: { "minecraft:fortune": 3 } } }, count: 1, id: "minecraft:enchanted_book" }
+					type: "item"
+				}
+				{
+					id: "2CABDEC67942E4DD"
+					item: { components: { "minecraft:stored_enchantments": { levels: { "minecraft:fortune": 2 } } }, count: 1, id: "minecraft:enchanted_book" }
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["50BAE09455C39830"]
+			id: "2A386BE252901524"
+			rewards: [
+				{
+					id: "3D13BBB58B0A13AA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7072C859D6057709"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1276202547E9E743"
+				item: { count: 1, id: "occultism:dimensional_mineshaft" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["076AFDC2E7BD63E0"]
+			id: "49CF4ACCA49FEB6F"
+			rewards: [{
+				id: "1155EF51A2657797"
+				item: {
+					count: 1
+					id: "rain:unlucky_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5886214FFD61ECEF"
+				item: { count: 1, id: "occultism:magic_lamp_empty" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			id: "0AEA0C0EA75031CD"
+			rewards: [
+				{
+					id: "1B945170344870CA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6CD0B46F0354D086"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "445127856CC3D506"
+				item: { components: { "occultism:max_mining_time": 400, "occultism:rolls_per_operation": 1 }, count: 1, id: "occultism:miner_foliot_unspecialized" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"0AEA0C0EA75031CD"
+				"2A386BE252901524"
+			]
+			id: "2F57EABE21276173"
+			rewards: [
+				{
+					id: "6746DA06E37521A5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0C70809AFC0CF8C8"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "118D9EA149904FF0"
+				item: { count: 1, id: "alltheores:nickel_ore" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2F57EABE21276173"]
+			id: "1899A86762B7E8E6"
+			rewards: [
+				{
+					id: "2AC883CEB426910A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "02A33F93C03CAF13"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5E9D1FCD6342D136"
+				item: { count: 1, id: "oritech:machine_core_3" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 7.0d
+		}
+		{
+			id: "42791C54924D8D3E"
+			rewards: [{
+				id: "2356B49A7342ABC6"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "348B717AB8DFA646"
+				type: "checkmark"
+			}]
+			x: 32.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["50BAE09455C39830"]
+			id: "5A764636209B62FC"
+			rewards: [
+				{
+					id: "3DECE6BEF4639E94"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0F7EAF08BF0E5AA3"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0EB6C8E5A52512A6"
+				item: { count: 1, id: "ars_nouveau:summon_focus" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5A764636209B62FC"]
+			id: "5D5B633BB6193608"
+			rewards: [
+				{
+					id: "5096695AD8E5C3BF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "00FA228C5532C919"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6B292E84392C0E74"
+				item: { count: 1, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["2F57EABE21276173"]
+			id: "669C8D53E6CC4376"
+			rewards: [
+				{
+					id: "179A91E05B43506B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "75B2B89429C604AA"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "16B9FDBE671DA23A"
+				item: { count: 1, id: "oritech:motor" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5A764636209B62FC"]
+			id: "078BA819B7711A47"
+			rewards: [
+				{
+					id: "5079650D18C05D7B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4D1F2D33760D1354"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "354345D51FBD617A"
+				item: { count: 1, id: "allthemodium:allthemodium_block" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["669C8D53E6CC4376"]
+			id: "62179FB94FA7D696"
+			rewards: [
+				{
+					id: "0D71DE35BF298BF2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7FE4616BB61F7DEE"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5E18C9067DAC8A72"
+				item: { count: 1, id: "oritech:pulverizer_block" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["62179FB94FA7D696"]
+			id: "08FDE82C86A0DEE0"
+			rewards: [
+				{
+					id: "008D38AC8E15EA8F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4725B0CF5092E4F0"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "454E6320C23FFFC0"
+				item: { count: 1, id: "oritech:enderic_compound" }
+				type: "item"
+			}]
+			x: 26.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["62179FB94FA7D696"]
+			id: "5D10698350A7B336"
+			rewards: [
+				{
+					id: "5507E12FAAEE6150"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "61B9191A52930079"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00D8B55DCD25E3AD"
+				item: { count: 1, id: "oritech:biomass" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5B1046C93ED31A3D"]
+			id: "5048003FAC86CD74"
+			rewards: [
+				{
+					id: "0124D37069B23CC7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1FC2735D42834289"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "510D832DE3C5EF95"
+				item: { count: 1, id: "actuallyadditions:black_quartz" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["669C8D53E6CC4376"]
+			id: "25F348F35F869820"
+			rewards: [
+				{
+					id: "7926AFE28B078FEC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "701C63C188695773"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "601CBF61B30614EF"
+				item: { count: 1, id: "oritech:centrifuge_block" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["25F348F35F869820"]
+			id: "52BC8692933398BF"
+			rewards: [
+				{
+					id: "79ADAC0C57C67267"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7EFF4CC73BB67B56"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5FE858267DEF1141"
+				item: { count: 1, id: "oritech:machine_fluid_addon" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"5D10698350A7B336"
+				"25F348F35F869820"
+			]
+			id: "61B236F5225720E0"
+			rewards: [
+				{
+					id: "2EBB277EA87C6010"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1E11CCFABC751FA9"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2E95E0B7798D9269"
+				item: { count: 1, id: "oritech:plastic_sheet" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["08FDE82C86A0DEE0"]
+			id: "53E82C5D32EA38F3"
+			rewards: [
+				{
+					id: "39E2BB6DFF0C3860"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6A6DA3B93EE65786"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3584723BC0C2E383"
+				item: { count: 1, id: "alltheores:enderium_ingot" }
+				type: "item"
+			}]
+			x: 28.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6003422C257E1554"]
+			id: "2332147A7AD6A9F6"
+			rewards: [
+				{
+					id: "785D5A8AFE079568"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0FCAE333359E48E4"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6D6EC77DCC292285"
+				item: { count: 1, id: "rain:mineral_upgrade-2" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2332147A7AD6A9F6"]
+			id: "5D66AF301843682F"
+			rewards: [
+				{
+					id: "2764E9027C41AEBB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7D0A1F899A0F086D"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6D0A7BE3C9C8DF34"
+					item: { count: 1, id: "alltheores:platinum_ore" }
+					type: "item"
+				}
+				{
+					id: "35266679932219E1"
+					item: { count: 1, id: "mekanism:lead_ore" }
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6003422C257E1554"]
+			id: "7F171FB20A9396E3"
+			rewards: [
+				{
+					id: "6F212A772CB04A65"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "561A0AA0C5D0FBB2"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1A179CAC2BB74D17"
+					item: { count: 1, id: "ae2:calculation_processor_press" }
+					type: "item"
+				}
+				{
+					id: "075C5872F0C18C98"
+					item: { count: 1, id: "ae2:engineering_processor_press" }
+					type: "item"
+				}
+				{
+					id: "1BA48536079DAD6E"
+					item: { count: 1, id: "ae2:logic_processor_press" }
+					type: "item"
+				}
+				{
+					id: "1053EFDEE069CF4B"
+					item: { count: 1, id: "ae2:silicon_press" }
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6003422C257E1554"]
+			id: "79B92A766C699C56"
+			rewards: [
+				{
+					id: "7D10B035740FE6AE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "11D71B9E4A1F0A72"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "71D6B8FDF26D16B5"
+				item: { count: 1, id: "mysticalagriculture:nature_seeds" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5B1046C93ED31A3D"]
+			id: "5DCE4987FC41DF1A"
+			rewards: [
+				{
+					id: "6333F24D665647DC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "51744B4F20BACCE9"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6485E8CC5F0F8457"
+				item: { count: 1, id: "mysticalagriculture:sky_stone_essence" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"078BA819B7711A47"
+				"39C66C3DC535DD37"
+			]
+			id: "187E1FF123142669"
+			rewards: [
+				{
+					id: "62306490DFE7CA27"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "08DF1165D2F676CF"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6E19E03BD584BAB2"
+				item: { count: 1, id: "oritech:duratium_ingot" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["61B236F5225720E0"]
+			id: "39C66C3DC535DD37"
+			rewards: [
+				{
+					id: "0C745282BC96CB1D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "18908D19E56DA024"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2201CE8B8FD460A9"
+				item: { count: 1, id: "oritech:foundry_block" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["078BA819B7711A47"]
+			icon: {
+				id: "minecraft:pointed_dripstone"
+			}
+			id: "2A1318317F78EAFD"
+			rewards: [
+				{
+					id: "578BCBA70515E796"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7744DF0A7397EF24"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6887288590741A67"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["7D6B41D46466991E"]
+			id: "5F3A83CD98379BC5"
+			rewards: [
+				{
+					id: "3825652AF72E8B9E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "59B94AAAAE88666B"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "01AD954C4953F61D"
+				item: { count: 1, id: "naturesaura:gold_fiber" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"5F3A83CD98379BC5"
+				"39C66C3DC535DD37"
+			]
+			id: "593267FAF1A3CBB9"
+			rewards: [
+				{
+					id: "36D3BD0C6EF40DDE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6AB0A2A2F46C8617"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3A241B55AAEA952C"
+				item: { count: 1, id: "naturesaura:golden_leaves" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["593267FAF1A3CBB9"]
+			id: "55E58BBF2874A28B"
+			rewards: [
+				{
+					id: "0E7A19FBB4CE2497"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "41EBDF886B812498"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4EB1195A8C00842A"
+				item: { count: 1, id: "naturesaura:gold_leaf" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["55E58BBF2874A28B"]
+			id: "710F538A6CCD0883"
+			rewards: [
+				{
+					id: "3254D893B4DDDD79"
+					item: {
+						components: {
+							"patchouli:book": "naturesaura:book"
+						}
+						count: 1
+						id: "patchouli:guide_book"
+					}
+					type: "item"
+				}
+				{
+					id: "617E0C8A771DA726"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4047CBEC1C9B33A4"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "07965FE5B464762A"
+				item: { count: 1, id: "naturesaura:wood_stand" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["593267FAF1A3CBB9"]
+			id: "6EA46F21470FB146"
+			rewards: [
+				{
+					id: "6FA9A7B973078738"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5EFB65ADE75E7B43"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "639C5531EE2BB332"
+				item: { count: 1, id: "naturesaura:gold_powder" }
+				type: "item"
+			}]
+			x: 26.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["710F538A6CCD0883"]
+			id: "30C1C59804DADE75"
+			rewards: [
+				{
+					id: "5FE3B5BFF376DE8C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7B5885BE045D15AF"
+					item: {
+						count: 1
+						id: "naturesaura:eye"
+					}
+					type: "item"
+				}
+				{
+					id: "01319D65594C3BD5"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5298DF832CCD8C6C"
+				item: { count: 1, id: "naturesaura:nature_altar" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["710F538A6CCD0883"]
+			id: "4BD2877305C5853F"
+			rewards: [{
+				id: "46B4FD9E35E2C2C1"
+				item: {
+					count: 1
+					id: "rain:unlucky_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "151F0AA9657B7C3E"
+				item: { count: 1, id: "ars_caelum:ritual_conjure_island_sculk" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: 22.5d
+		}
+		{
+			dependencies: ["30C1C59804DADE75"]
+			id: "3EFD4F91D81EC035"
+			rewards: [
+				{
+					id: "32A0A547014F906E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1548AFFE7338832F"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00EEA68069D31F1C"
+				item: { count: 1, id: "naturesaura:crushing_catalyst" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["4BD2877305C5853F"]
+			id: "0B52D8B9CF5C540C"
+			rewards: [
+				{
+					id: "62DD5D050CFEF20B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "005F2AB3999B2D2F"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "07A93ED7F1DCDA49"
+				item: { count: 1, id: "avaritia:sculk_crafting_table" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: 25.0d
+		}
+		{
+			dependencies: ["0B52D8B9CF5C540C"]
+			id: "5CB064CE584EF6CD"
+			rewards: [
+				{
+					id: "47BF34AE25EDA4F1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "43BA1ED2590DB764"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3FB888E59E46E02B"
+				item: { count: 1, id: "oritech:assembler_block" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 25.0d
+		}
+		{
+			dependencies: ["5CB064CE584EF6CD"]
+			id: "275938FB937752D1"
+			rewards: [
+				{
+					id: "1B5CC7F41606827C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "324C6D9A1279B8FF"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "066ACDE5C0F046EE"
+				item: { count: 1, id: "oritech:enderic_lens" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 25.0d
+		}
+		{
+			dependencies: ["275938FB937752D1"]
+			id: "29BD34123D6CEE5E"
+			rewards: [
+				{
+					id: "6D3B899C097DB423"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2F64B7595D149746"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "48830D0DAE869A9F"
+				item: { count: 1, id: "oritech:laser_arm_block" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 25.0d
+		}
+		{
+			dependencies: [
+				"29BD34123D6CEE5E"
+				"3EFD4F91D81EC035"
+			]
+			id: "34E2B53EC0E7AB16"
+			rewards: [
+				{
+					id: "72DE2FF04B5B56E3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2225E8367DB909AE"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "125BDCD7A4DEF7A6"
+				item: { count: 1, id: "draconicevolution:draconium_dust" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 22.5d
+		}
+		{
+			dependencies: ["34E2B53EC0E7AB16"]
+			id: "0CBD85A86708D0E4"
+			rewards: [
+				{
+					id: "573B4F906A14171C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "56AEF36A2E7DB54D"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "673F5A668810F4F2"
+				item: { count: 1, id: "draconicevolution:draconium_ingot" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 22.5d
+		}
+		{
+			dependencies: ["0CBD85A86708D0E4"]
+			id: "6662A1DDE10F4D71"
+			rewards: [
+				{
+					id: "782665C40D551D4A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "092BB0EF54307BDC"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6FE235757937E34C"
+					item: { count: 1, id: "draconicevolution:basic_crafting_injector" }
+					type: "item"
+				}
+				{
+					id: "2FCBD816F458F45F"
+					item: { count: 1, id: "draconicevolution:crafting_core" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 27.0d
+		}
+		{
+			dependencies: ["6662A1DDE10F4D71"]
+			id: "1F617335785CD8FA"
+			rewards: [
+				{
+					id: "4B18462E685AA1E4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6091DB23F85381B5"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "63FC895ECF234126"
+				item: { count: 1, id: "minecraft:ancient_debris" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 30.5d
+		}
+		{
+			dependencies: ["6662A1DDE10F4D71"]
+			id: "653AFED2262918F3"
+			rewards: [
+				{
+					id: "10C3B0709FA8557B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "26E5213D7694AC14"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4BE9DE677F9EC607"
+				item: { count: 1, id: "extendedcrafting:elite_table" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 30.5d
+		}
+		{
+			dependencies: ["6662A1DDE10F4D71"]
+			id: "5E81D8AA7E830ED1"
+			rewards: [
+				{
+					id: "4C18AD55912CA8BF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "37FB4F063F7608AC"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 3.0d
+			tasks: [{
+				id: "6C3A804A95B2ECC4"
+				item: { count: 1, id: "naturesaura:offering_table" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 33.5d
+		}
+		{
+			dependencies: ["5E81D8AA7E830ED1"]
+			id: "7B8A74380F4748E4"
+			rewards: [
+				{
+					id: "70331FE8EB06AEBE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "56576B636C046BA5"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 4.0d
+			tasks: [{
+				id: "3653EB1CED3F8EBE"
+				item: { count: 1, id: "rain:god_creation_keepsake" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 33.5d
+		}
+		{
+			dependencies: ["653AFED2262918F3"]
+			id: "3285C37859344DAD"
+			rewards: [
+				{
+					id: "66B342D27BA9FA51"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0F05149F25998407"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "34E812D850D5B79A"
+				item: { count: 1, id: "rain:overclocking_upgrade" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 30.5d
+		}
+		{
+			dependencies: ["653AFED2262918F3"]
+			id: "73313F2ADE8926EC"
+			rewards: [
+				{
+					id: "3EDBD3773232CF87"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4AED207ED4255436"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3E4AC282CA7613F9"
+				item: { count: 1, id: "mysticalagriculture:lapis_lazuli_seeds" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["5B1046C93ED31A3D"]
+			id: "0E58D29C39584860"
+			rewards: [
+				{
+					id: "5E7AA2E46825A1FD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "309D93D66D8B5A3C"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7EFA6ABEF4C851F4"
+				item: { count: 1, id: "mysticalagriculture:amethyst_seeds" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7B8A74380F4748E4"]
+			id: "28147A7E4C048FF5"
+			rewards: [{
+				id: "1FFE74682FB3917C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "62AC1E5271B546E4"
+				type: "checkmark"
+			}]
+			x: 23.0d
+			y: 33.5d
+		}
+		{
+			id: "42F9ED5151651A74"
+			rewards: [{
+				id: "6B7DB45135E8FC6A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1BF6BC53AF1ED719"
+				item: { count: 1, id: "minecraft:cow_spawn_egg" }
+				type: "item"
+			}]
+			x: 36.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6662A1DDE10F4D71"]
+			id: "3A53D4A7FD71882B"
+			rewards: [
+				{
+					id: "74DD340059FC089A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "380468772A8F9C5C"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "78FE9FF37ABEB055"
+				item: { count: 1, id: "notenoughwands:acceleration_wand" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 27.0d
+		}
+		{
+			dependencies: ["078BA819B7711A47"]
+			id: "47629457232677B2"
+			rewards: [
+				{
+					id: "5DF31EFDB7EABE70"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0DF41D63F02579D6"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "74E416E54E330AC8"
+				item: { count: 1, id: "allthemodium:allthemodium_upgrade_smithing_template" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["30C1C59804DADE75"]
+			id: "4782652AE5881FE2"
+			rewards: [
+				{
+					id: "70440A116BA5F5D2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7D58FA9F936BF9D7"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "65E13B5259E727CA"
+				item: { count: 1, id: "naturesaura:projectile_generator" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["30C1C59804DADE75"]
+			id: "5498955A1B955831"
+			rewards: [
+				{
+					id: "53BEAE9F1BD363AC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7FBADB7BEAE33D96"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "40C70E31F20FA82E"
+				item: { count: 1, id: "rain:aura_generate_machine" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["5D5B633BB6193608"]
+			id: "24CE47476CEE40DF"
+			rewards: [{
+				id: "5EFA034439A99171"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6837E270DAABDD83"
+				item: { count: 1, id: "easy_villagers:auto_trader" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 12.5d
+		}
+	]
+}

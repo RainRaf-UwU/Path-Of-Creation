@@ -41,5 +41,25 @@
 			x: 4.5d
 			y: -4.0d
 		}
+		{
+			id: "65CD715B2EE5FFE7"
+			tasks: [{
+				id: "04B35AB8B9EA0355"
+				item: { count: 1, id: "avaritia:upgrade_smithing_template" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			id: "33C6EF9A6E9DADCA"
+			tasks: [{
+				id: "45599662D93D1831"
+				item: { count: 1, id: "avaritia:infinity_upgrade" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.0d
+		}
 	]
 }

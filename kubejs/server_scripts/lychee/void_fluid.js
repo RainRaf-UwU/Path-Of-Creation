@@ -90,12 +90,17 @@ e.custom({
 
 e.custom({
   "type": "lychee:item_inside",
-  "item_in": { item: 'hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:zombie"]'},
+  "item_in": {
+    type: 'neoforge:components',
+    items: 'hostilenetworks:data_model',
+    components: { 'hostilenetworks:data_model': 'hostilenetworks:zombie' }
+  },
   "block_in": { blocks: ["rain:void_fluid"] },
    "post": [
      {
       "type":"drop_item",
-      "id":'hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:drowned"]'
+      "id": 'hostilenetworks:data_model',
+      "components": { 'hostilenetworks:data_model': 'hostilenetworks:drowned' }
      }
     ]
 })

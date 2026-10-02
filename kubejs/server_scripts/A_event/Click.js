@@ -289,7 +289,7 @@ BlockEvents.rightClicked('minecraft:grass_block',event => {//要右键的方块
     ) {
        
         player.mainHandItem.shrink(1)
-        player.give('hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:ars_nouveau/whirlisprig_se"]')
+        player.give('hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:ars_nouveau/whirlisprig"]')
         
         // player.give(Item.of('mysticalagriculture:steel_seeds').withchane)
     }

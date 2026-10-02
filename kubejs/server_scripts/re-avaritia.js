@@ -2,27 +2,27 @@
 const blocks = ['avaritia:end_crafting_table', 'avaritia:nether_crafting_table', 'avaritia:densest_neutron_collector', 'avaritia:neutron', 'avaritia:neutron_collector', 'avaritia:compressed_crafting_table', 'avaritia:extreme_crafting_table', 'avaritia:double_compressed_crafting_table', 'avaritia:blaze_cube_block', 'avaritia:denser_neutron_collector', 'avaritia:dense_neutron_collector', 'avaritia:infinity', 'avaritia:sculk_crafting_table', 'avaritia:neutron_compressor', 'avaritia:crystal_matrix', 'avaritia:extreme_smithing_table', 'avaritia:infinity_clock', 'avaritia:diamond_lattice_block', 'avaritia:star_fuel_block', 'avaritia:refined_coal_block', 'avaritia:soul_farmland', 'avaritia:infinity_chest', 'avaritia:compressed_chest']
 const mainitem = 'mekanism:configurator'
 
-BlockEvents.broken(blocks, event => {
-    const player = event.player
-    const block = event.block
+// BlockEvents.broken(blocks, event => {
+//     const player = event.player
+//     const block = event.block
 
-    if (player) {
-        player.tell(Text.green(Text.translate('avaritia.kubejs.info')).append(Text.aqua(Item.of(mainitem).displayName)).append(Text.green(Text.translate('avaritia.kubejs.info1'))))
-        event.cancel()
-    }
-})
-BlockEvents.leftClicked(blocks, event => {
-    const player = event.player
-    const block = event.block
+//     if (player) {
+//         player.tell(Text.green(Text.translate('avaritia.kubejs.info')).append(Text.aqua(Item.of(mainitem).displayName)).append(Text.green(Text.translate('avaritia.kubejs.info1'))))
+//         event.cancel()
+//     }
+// })
+// BlockEvents.leftClicked(blocks, event => {
+//     const player = event.player
+//     const block = event.block
 
-    if (!player || !player.isPlayer()) {
-        return;
-    }
-    if (player.mainHandItem.id == mainitem) {
-        block.popItem(block.getItem())
-        block.set('air')
-    }
-})
+//     if (!player || !player.isPlayer()) {
+//         return;
+//     }
+//     if (player.mainHandItem.id == mainitem) {
+//         block.popItem(block.getItem())
+//         block.set('air')
+//     }
+// })
 ServerEvents.recipes(event => {
     const { kubejs, extendedcrafting } = event.recipes
 

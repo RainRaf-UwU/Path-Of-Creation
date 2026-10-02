@@ -4,7 +4,7 @@
     "particle": "rain:block/machine_side_custom", 
     "down": "rain:block/machine_void_bottom",
     "up": "rain:block/machine_top_customl",
-    "north": "rain:block/machine_side_custom",
+    "north": "rain:block/void_mining_front",
     "east": "rain:block/machine_side_custom",
     "south": "rain:block/machine_side_custom",
     "west": "rain:block/machine_side_custom"

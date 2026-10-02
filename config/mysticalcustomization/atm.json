@@ -1,0 +1,13 @@
+{  
+"name": "rain:atm", 
+ "type": "resource",  
+"tier": "mysticalagriculture:1", 
+ "ingredient": {    "item": "minecraft:iron_ingot"  }, 
+ "color": "eb7a34",  
+"textures":
+ { 
+   "flower": "mysticalagriculture:block/flower_dust",  
+  "essence": "mysticalagriculture:item/essence_dust" 
+ },  
+"crux": "minecraft:cobblestone"
+}

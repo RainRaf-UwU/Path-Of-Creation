@@ -1,1 +1,31 @@
-{ }
+{
+	quest.15A61F29261E4A61.quest_desc: ["Craft this with fluid XP, a carrot, potato, beetroot, wheat, and seeds. Feed it to a chicken to obtain a Golden Egg."]
+	quest.15A61F29261E4A61.title: "Nutritious Chicken Feed"
+	quest.180E8919165FF169.quest_desc: ["Use the advanced crafting table at the starting area. Iron, steel dust, and Create components are the key materials for this stage."]
+	quest.180E8919165FF169.title: "Craft a Workbench"
+	quest.25ECF09FD6BCCD72.quest_desc: ["Combine iron dust, coal, and an ore hammer for steel dust. The workbench recipe requires steel."]
+	quest.28147A7E4C048FF5.quest_desc: ["After obtaining the keepsake, continue to Chapter 4 for atomic forging and data models."]
+	quest.28147A7E4C048FF5.title: "Continue to Chapter 4"
+	quest.2ABCB692F4717BC5.quest_desc: ["With the workbench complete, continue to Chapter 2 to establish ore and energy production."]
+	quest.2ABCB692F4717BC5.title: "Continue to Chapter 2"
+	quest.2BC011A259CB912A.quest_desc: ["Begin with Wyvern injectors and atomic forging, then work toward the command block."]
+	quest.2BC011A259CB912A.title: "The Path of Creation"
+	quest.34ED20B92E8EE7F5.quest_desc: ["Players continuing an older world may use this repeatable summon after entering Chapter 4. Summon it only in a safe place."]
+	quest.34ED20B92E8EE7F5.title: "Legacy: Resummon the Chaos Guardian"
+	quest.34F71AD0BEB1DAC8.quest_desc: ["Carrying a spawner only moves it. This item task needs a spawner in your inventory: mine one with Silk Touch I. The tool takes 100 extra durability damage."]
+	quest.355A5CBA46D9D830.quest_desc: ["Start with datura, then build the ritual, Source, and Nature's Aura branches."]
+	quest.355A5CBA46D9D830.title: "Begin the Magic Stage"
+	quest.360B7C74F41797C3.quest_desc: ["Prepare a steel casing, then build a metallurgic infuser. The other branches feed the final infinity materials."]
+	quest.360B7C74F41797C3.title: "Final Technology Stage"
+	quest.38AA3A0690488109.title: "Data Model Basics"
+	quest.3C2BF584C6BEDBED.quest_desc: ["Regular GM Chicken Feed is for spawn eggs. Golden Eggs require Nutritious Chicken Feed instead."]
+	quest.525260E69A37396D.quest_desc: ["Use the Fluid Crafting Table from Chapter 4. The steel casing recipe also needs molten Allthemodium, awakened draconium blocks, and Draconic Evolution upgrades."]
+	quest.5A12262B51FAE5F8.quest_desc: ["Inspect the multiblock in JEI. Later recipes use this structure unless they say otherwise."]
+	quest.5A12262B51FAE5F8.title: "Large Fluid Processor Structure"
+	quest.6819120F6BFF6D8E.quest_desc: ["With the command block acquired, start Chapter 5 with a steel casing and metallurgic infuser."]
+	quest.6819120F6BFF6D8E.title: "Continue to Chapter 5"
+	quest.6AA429C4E098BDEE.quest_desc: ["Datura seeds are ready. Continue to Chapter 3 for Occultism and Ars Nouveau."]
+	quest.6AA429C4E098BDEE.title: "Chapter 2 Complete"
+	quest.7E88F371268D076D.quest_desc: ["Drop 27 cosmic coins into transmutation fluid for a 20% chance to get a creative fluid tank filled with ether gas."]
+	quest.7E88F371268D076D.title: "Ether Gas Tank"
+}

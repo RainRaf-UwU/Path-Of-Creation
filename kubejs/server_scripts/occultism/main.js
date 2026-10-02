@@ -96,6 +96,19 @@ ServerEvents.recipes(e=>{
         'occultism:summon_djinni'
     ).dummy('rain:dummy_craftl_5')
 
+     e.recipes.occultism.ritual('rain:creative_storage_cell_false',
+        ['ifeu:creative_chance_addon',
+          'mekanism_extras:upgrade_creative',
+         'mysticalagriculture:creative_soulium_dagger',
+          'ars_nouveau:creative_spell_book',
+           'mekanism:creative_energy_cube',
+           'ae2:creative_energy_cell',
+           'draconicevolution:creative_op_capacitor' 
+        ],
+        'rain:god_creation_keepsake',
+        'occultism:rain'
+    ).dummy('rain:dummy_craftl_6')
+
 
     // e.recipes.occultism.ritual('hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:vindicator"]',
     //     ['occultism:otherworld_essence',

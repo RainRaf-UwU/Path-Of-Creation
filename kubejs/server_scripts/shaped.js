@@ -57,12 +57,6 @@ ServerEvents.recipes(e=>{
         A:'custommachinery:custom_machine_item[custommachinery:machine="custommachinery:void_mining_machine"]'
     });
 
-     e.shaped('custommachinery:custom_machine_item[custommachinery:machine="custommachinery:part_time_job"]',[
-        ' A'
-    ],{
-        A:'custommachinery:custom_machine_item[custommachinery:machine="custommachinery:void_mining_machine"]'
-    });
-
     e.shaped('actuallyadditions:empowerer',[
         'ACB',
         'ADB',

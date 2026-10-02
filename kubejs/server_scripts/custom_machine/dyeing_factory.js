@@ -8,7 +8,7 @@ const model =[
         ['hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:warden"]','hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:warden",hostilenetworks:data=1254]'],
         ['hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:creeper"]','hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:creeper",hostilenetworks:data=1254]'],
         ['hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:skeleton"]','hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:skeleton",hostilenetworks:data=1254]'],
-        ['hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:aether/valkyler"]','hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:aether/valkyler",hostilenetworks:data=1254]'],
+        ['hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:aether/valkyrie"]','hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:aether/valkyrie",hostilenetworks:data=1254]'],
         ['hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:allthemodium/piglich"]','hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:allthemodium/piglich",hostilenetworks:data=1254]'],
         ['hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:ars_nouveau/wilden_mobs"]','hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:ars_nouveau/wilden_mobs",hostilenetworks:data=1254]'],
         ['hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:artifacts/mimic"]','hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:artifacts/mimic",hostilenetworks:data=1254]'],
@@ -43,7 +43,7 @@ const model =[
         ['hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:witch"]','hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:witch",hostilenetworks:data=1254]'],
         ['hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:wither"]','hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:wither",hostilenetworks:data=1254]'],
         ['hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:wither_skeleton"]','hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:wither_skeleton",hostilenetworks:data=1254]'],
-        ['hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:ars_nouveau/whirlisprig_se"]','hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:ars_nouveau/whirlisprig_se",hostilenetworks:data=1254]'],
+        ['hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:ars_nouveau/whirlisprig"]','hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:ars_nouveau/whirlisprig",hostilenetworks:data=1254]'],
         ['hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:villager"]','hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:villager"],hostilenetworks:data=1254]'],
         ['hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:giant"]','hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:giant",hostilenetworks:data=1254]'],
         ['hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:fox"]','hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:fox",hostilenetworks:data=1254]'],
@@ -205,5 +205,5 @@ ServerEvents.recipes(e=>{
    
 //     const{player} = e
 //     player.tell(entity_id('hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:parrot"]'))
-//     player.tell(entity_id('hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:aether/valkyler"]'))
+//     player.tell(entity_id('hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:aether/valkyrie"]'))
 // })

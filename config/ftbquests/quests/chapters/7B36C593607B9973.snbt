@@ -1,0 +1,280 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7B36C593607B9973"
+	group: "169930A1FBBB4EB6"
+	id: "7B36C593607B9973"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "778FA1E6A4A0ED3E"
+			tasks: [{
+				id: "0D17713F04891994"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["778FA1E6A4A0ED3E"]
+			id: "4B4E4480A22F823F"
+			tasks: [{
+				id: "485205A97E4ED34D"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4B4E4480A22F823F"]
+			id: "5966FE6B5DCD79C9"
+			rewards: [{
+				command: "/playsound rain:nan_man_da_bu "
+				id: "3F8B0CE30E487F1E"
+				type: "command"
+			}]
+			tasks: [{
+				id: "054407B02F78A52A"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4B4E4480A22F823F"]
+			id: "2014AE2F53C3D1EF"
+			rewards: [{
+				command: "/playsound rain:phone"
+				id: "4A12B4B24CB0EEB3"
+				type: "command"
+			}]
+			tasks: [{
+				id: "214A9AD6E8CB30EB"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["778FA1E6A4A0ED3E"]
+			id: "12FB18E9F4CB7826"
+			tasks: [{
+				id: "4C160BA1DF67A7AB"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["12FB18E9F4CB7826"]
+			id: "7DF008473157B9BA"
+			rewards: [{
+				command: "/playsound rain:tnt"
+				id: "66605EB1F118FC0F"
+				type: "command"
+			}]
+			tasks: [{
+				id: "3003D8AEA657CC71"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["12FB18E9F4CB7826"]
+			id: "66197AAEBBF6162D"
+			rewards: [{
+				command: "/playsound rain:breakcore"
+				id: "20BDB9128CC42023"
+				type: "command"
+			}]
+			tasks: [{
+				id: "7487AFBAEE7CDB29"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["12FB18E9F4CB7826"]
+			id: "13E9D3AE2BAEE0B5"
+			rewards: [{
+				command: "/playsound rain:correct"
+				id: "1CA4BE96564ABA2D"
+				type: "command"
+			}]
+			tasks: [{
+				id: "4A79ABCDB94CCD65"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["12FB18E9F4CB7826"]
+			id: "254BEE963C1BFEA0"
+			rewards: [{
+				command: "/playsound rain:dark"
+				id: "5CCC34B195E0AF96"
+				type: "command"
+			}]
+			tasks: [{
+				id: "21B7F42C9D77EF8F"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["12FB18E9F4CB7826"]
+			id: "748DC58737CF3B05"
+			rewards: [{
+				command: "/playsound rain:dazidazi"
+				id: "1C26C25416366577"
+				type: "command"
+			}]
+			tasks: [{
+				id: "377D0C8426A8E630"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["12FB18E9F4CB7826"]
+			id: "05FE8E4A64318879"
+			rewards: [{
+				command: "/playsound rain:gaige"
+				id: "14B5B2FB1621F95F"
+				type: "command"
+			}]
+			tasks: [{
+				id: "1A6012BDC9B246C7"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["12FB18E9F4CB7826"]
+			id: "141FF12186BB7D62"
+			rewards: [{
+				command: "/playsound rain:incorrect"
+				id: "43435D1DB4F590B7"
+				type: "command"
+			}]
+			tasks: [{
+				id: "4DF2D5524C0A5F78"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["12FB18E9F4CB7826"]
+			id: "544F4BC52C6C07F4"
+			rewards: [{
+				command: "/playsound rain:train"
+				id: "13933EAFDF0303EE"
+				type: "command"
+			}]
+			tasks: [{
+				id: "105076CF90B407F6"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["12FB18E9F4CB7826"]
+			id: "0559FE9C83D83A88"
+			rewards: [{
+				command: "/playsound rain:wao1"
+				id: "37549B92A7817C9A"
+				type: "command"
+			}]
+			tasks: [{
+				id: "54F62C3ACE8707A9"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["12FB18E9F4CB7826"]
+			id: "34778D242021AA0C"
+			rewards: [{
+				command: "/playsound rain:wao2"
+				id: "3E9681C157C4A74E"
+				type: "command"
+			}]
+			tasks: [{
+				id: "3118CF916F770E7D"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["12FB18E9F4CB7826"]
+			id: "5AE045FA55532FEE"
+			rewards: [{
+				command: "/playsound rain:waring"
+				id: "388B0F3830997DF2"
+				type: "command"
+			}]
+			tasks: [{
+				id: "2B68CB4567951AED"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["12FB18E9F4CB7826"]
+			id: "45519540E27BE4E3"
+			rewards: [{
+				command: "/playsound rain:water"
+				id: "0E9CD36E7E3AAE1C"
+				type: "command"
+			}]
+			tasks: [{
+				id: "297CE766C5E43BC5"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["12FB18E9F4CB7826"]
+			id: "46FADC3084AFEFD4"
+			rewards: [{
+				command: "/playsound rain:zizi"
+				id: "381B18384A0843DB"
+				type: "command"
+			}]
+			tasks: [{
+				id: "224C37A933684022"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -5.0d
+		}
+	]
+}

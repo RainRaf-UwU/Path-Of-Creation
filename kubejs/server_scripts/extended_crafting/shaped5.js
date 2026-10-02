@@ -828,4 +828,217 @@ e.custom({
 //     "id": 'avaritia:infinity_catalyst'
 //   }
 // })
+
+e.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AABBBBBAA",
+    "ACCCCCCCA",
+    "BCDDDDDCB",
+    "BCDDDDDCB",
+    "BCDDEDDCB",
+    "BCDDDDDCB",
+    "BCDDDDDCB",
+    "ACCCCCCCA",
+    "AABBBBBAA"
+  ],
+  "key": {
+    "A": {
+      "item": "megacells:cell_component_256m"
+    },
+    "B": {
+      "item": "appflux:core_256m"
+    },
+    "C": {
+      "item": "ae2:energy_acceptor"
+    },
+    "D": {
+      "item": "mekanism:steel_casing"
+    },
+    "E": {
+      "item": "avaritia:singularity"
+    }
+  },
+  "result": {
+    "id": 'extendedae_plus:infinity_biginteger_cell'
+  }
+})
+
+e.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "ABCDEEEEE",
+    "FFFFFFFFF",
+    "FGGGGGGGF",
+    "FGHHHHHGF",
+    "FGHIIIHGF",
+    "FGHIIIHGF",
+    "FGHHHHHGF",
+    "FGGGGGGGF",
+    "FFFFFFFFF"
+  ],
+  "key": {
+    "A": {
+      "item": "mysticalagriculture:soulium_dagger"
+    },
+    "B": {
+      "item": "mysticalagriculture:passive_soulium_dagger"
+    },
+    "C": {
+      "item": "mysticalagriculture:hostile_soulium_dagger"
+    },
+    "D": {
+      "item": "draconicevolution:mob_soul"
+    },
+    "E": {
+      "item": "rain:soul_eye"
+    },
+    "F": {
+      "item": "allthemodium:suspicious_soul_sand"
+    },
+    "G": {
+      "item": "mysticalagriculture:soulium_essence"
+    },
+    "H": {
+      "item": "ars_additions:soul_magelight_lantern"
+    },
+    "I": {
+      "item": "avaritia:infinity_ingot"
+    }
+  },
+  "result": {
+    "id": 'mysticalagriculture:creative_soulium_dagger'
+  }
+})
+
+e.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "ABCDEEEEE",
+    "FGHIJKLMF",
+    "FNOOOOONF",
+    "FNOPPPONF",
+    "FNOPQPONF",
+    "FNOPPPONF",
+    "FNOOOOONF",
+    "FRSTUVWXF",
+    "YYYYYYYYY"
+  ],
+  "key": {
+    "A": {
+      "item": "ars_nouveau:novice_spell_book"
+    },
+    "B": {
+      "item": "ars_nouveau:apprentice_spell_book"
+    },
+    "C": {
+      "item": "ars_nouveau:archmage_spell_book"
+    },
+    "D": {
+      "item": "ars_nouveau:whirlisprig_flower"
+    },
+    "E": {
+      "item": "ars_nouveau:blank_glyph"
+    },
+    "F": {
+      "item": "ars_nouveau:jar_of_light"
+    },
+    "G": {
+      "item": "ars_nouveau:summon_focus"
+    },
+    "H": {
+      "item": "ars_nouveau:shapers_focus"
+    },
+    "I": {
+      "item": "ars_nouveau:abjuration_essence"
+    },
+    "J": {
+      "item": "ars_nouveau:conjuration_essence"
+    },
+    "K": {
+      "item": "ars_nouveau:air_essence"
+    },
+    "L": {
+      "item": "ars_nouveau:earth_essence"
+    },
+    "M": {
+      "item": "ars_nouveau:fire_essence"
+    },
+    "N": {
+      "item": "ars_nouveau:source_lamp"
+    },
+    "O": {
+      "item": "ars_nouveau:mendosteen_pod"
+    },
+    "P": {
+      "item": "ars_nouveau:sourceberry_bush"
+    },
+    "Q": {
+      "item": "avaritia:infinity_ingot"
+    },
+    "R": {
+      "item": "ars_nouveau:manipulation_essence"
+    },
+    "S": {
+      "item": "ars_nouveau:water_essence"
+    },
+    "T": {
+      "item": "ars_nouveau:annotated_codex"
+    },
+    "U": {
+      "item": "ars_nouveau:alchemists_crown"
+    },
+    "V": {
+      "item": "ars_nouveau:splash_flask_cannon"
+    },
+    "W": {
+      "item": "ars_nouveau:lingering_flask_cannon"
+    },
+    "X": {
+      "item": "ars_nouveau:enchanters_eye"
+    },
+    "Y": {
+      "item": "ars_nouveau:runic_chalk"
+    }
+  },
+  "result": {
+    "id":'ars_nouveau:creative_spell_book'
+  }
+})
+
+e.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "ABCCCBA",
+    "BDDDDDB",
+    "CDEEEDC",
+    "CDEFEDC",
+    "CDEEEDC",
+    "BDDDDDB",
+    "ABCCCBA"
+  ],
+  "key": {
+    "A": {
+      "item": "ironfurnaces:rainbow_coal"
+    },
+    "B": {
+      "item": "mekanism:steel_casing"
+    },
+    "C": {
+      "item": "mekanism:hdpe_stick"
+    },
+    "D": {
+      "item": "silentgear:azure_electrum_ingot"
+    },
+    "E": {
+      "item": "rain:overclocking_upgrade"
+    },
+    "F": {
+      "item": "industrialforegoing:machine_frame_supreme"
+    }
+  },
+  "result": {
+    "id": 'rain:overload_upgrade'
+  }
+})
 })

@@ -5,7 +5,7 @@ ServerEvents.recipes(e=>{
     {
       "items": "hostilenetworks:prediction",
       "components": {
-        "hostilenetworks:data_model": "hostilenetworks:aether/valkyler"
+        "hostilenetworks:data_model": "hostilenetworks:aether/valkyrie"
       },
       "type": "neoforge:components"
     },

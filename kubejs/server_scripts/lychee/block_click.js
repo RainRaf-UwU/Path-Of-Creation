@@ -46,7 +46,7 @@ ServerEvents.recipes(e=>{
             "post":[
                 {
                     "type": "drop_item",
-                    "block":'mysticalagriculture:stone_seeds'
+                    "id":'mysticalagriculture:stone_seeds'
                 }
             ]
         }

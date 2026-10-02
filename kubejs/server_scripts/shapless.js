@@ -18,7 +18,6 @@ ServerEvents.recipes(e=>{
         e.shapeless(Item.of('mekanism:bio_fuel',3),['rain:fazhang','minecraft:spider_eye']).keepIngredient('rain:fazhang')
         e.shapeless(Item.of('mekanism:bio_fuel',3),['rain:fazhang','minecraft:bone']).keepIngredient('rain:fazhang')
         e.shapeless('4x alltheores:enderium_dust',['#c:dusts/lead','#c:dusts/lead','#c:dusts/lead','#c:dusts/platinum','minecraft:ender_pearl','minecraft:ender_pearl','#alltheores:ore_hammers','oritech:enderic_compound','oritech:enderic_compound'])
-        e.shapeless('oritech:plastic_sheet',['oritech:plastic_sheet'])
         e.shapeless('industrialforegoing:plastic',['oritech:plastic_sheet'])
         e.shapeless(Item.of('mekanism:bio_fuel',3),['rain:fazhang','minecraft:string']) .keepIngredient('rain:fazhang');
         e.shapeless('custommachinery:custom_machine_item[custommachinery:machine="custommachinery:multi_block_machine"]','rain:god_creation_keepsake')

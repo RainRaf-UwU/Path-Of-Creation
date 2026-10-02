@@ -133,61 +133,61 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:chicken": true
-			"aether:aerbunny": true
-			"aether:aerwhale": true
-			"minecraft:allay": true
-			"aether:whirlwind": true
-			"minecraft:slime": true
-			"minecraft:cow": true
-			"minecraft:blaze": true
-			"minecraft:skeleton": true
-			"minecraft:wandering_trader": true
-			"aether:moa": true
 			"minecraft:trader_llama": true
+			"minecraft:chicken": true
+			"aether:aechor_plant": true
+			"mekanismadditions:baby_enderman": true
+			"minecraft:enderman": true
+			"unusualend:undead_enderling": true
+			"mekanismadditions:baby_creeper": true
+			"aether:aerbunny": true
+			"unusualend:spunkler": true
+			"minecraft:slime": true
+			"minecraft:cat": true
+			"mekanismadditions:baby_wither_skeleton": true
+			"minecraft:pillager": true
+			"minecraft:blaze": true
+			"ars_nouveau:whirlisprig": true
+			"minecraft:wandering_trader": true
 			"minecraft:axolotl": true
 			"minecraft:glow_squid": true
-			"aether:mimic": true
-			"unusualend:spunkler": true
-			"minecraft:wolf": true
-			"aether:cockatrice": true
-			"minecraft:pillager": true
-			"minecraft:creeper": true
-			"ars_nouveau:drygmy": true
-			"aether:phyg": true
-			"minecraft:cat": true
-			"minecraft:skeleton_horse": true
-			"minecraft:bat": true
-			"aether:sheepuff": true
-			"aether:aechor_plant": true
-			"aether:flying_cow": true
-			"ars_nouveau:whirlisprig": true
-			"aether:blue_swet": true
-			"minecraft:magma_cube": true
-			"unusualend:undead_enderling": true
-			"minecraft:bogged": true
-			"minecraft:ender_dragon": true
 			"minecraft:iron_golem": true
-			"minecraft:enderman": true
-			"minecraft:sheep": true
-			"minecraft:llama": true
-			"mekanismadditions:baby_enderman": true
-			"minecraft:spider": true
+			"minecraft:cow": true
 			"minecraft:zombified_piglin": true
-			"mekanismadditions:baby_wither_skeleton": true
-			"aether:evil_whirlwind": true
-			"aether:valkyrie_queen": true
-			"aether:golden_swet": true
-			"mekanismadditions:baby_skeleton": true
-			"minecraft:fox": true
-			"minecraft:zombie_villager": true
-			"minecraft:witch": true
-			"mekanismadditions:baby_creeper": true
-			"minecraft:zombie": true
-			"minecraft:phantom": true
-			"minecraft:wither_skeleton": true
-			"aether:zephyr": true
+			"minecraft:ender_dragon": true
+			"aether:flying_cow": true
+			"minecraft:bat": true
 			"minecraft:pig": true
+			"minecraft:allay": true
+			"minecraft:phantom": true
+			"minecraft:zombie": true
+			"minecraft:magma_cube": true
+			"aether:evil_whirlwind": true
+			"aether:phyg": true
+			"aether:golden_swet": true
+			"minecraft:spider": true
+			"minecraft:skeleton": true
+			"minecraft:llama": true
+			"aether:aerwhale": true
+			"aether:moa": true
+			"aether:cockatrice": true
+			"minecraft:skeleton_horse": true
+			"minecraft:sheep": true
+			"minecraft:bogged": true
+			"aether:valkyrie_queen": true
+			"minecraft:creeper": true
+			"mekanismadditions:baby_skeleton": true
+			"aether:mimic": true
+			"aether:blue_swet": true
+			"aether:whirlwind": true
+			"minecraft:wither_skeleton": true
+			"minecraft:fox": true
+			"minecraft:witch": true
+			"aether:zephyr": true
+			"ars_nouveau:drygmy": true
+			"aether:sheepuff": true
+			"minecraft:zombie_villager": true
+			"minecraft:wolf": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

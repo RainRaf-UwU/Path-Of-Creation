@@ -18,12 +18,14 @@
 				type: "xp"
 				xp: 100
 			}]
+			shape: "pentagon"
+			size: 2.0d
 			tasks: [{
 				id: "59264F2CD86DD125"
 				type: "checkmark"
 			}]
-			x: -3.0d
-			y: -1.5d
+			x: -40.00d
+			y: -18.00d
 		}
 		{
 			dependencies: ["355A5CBA46D9D830"]
@@ -43,17 +45,20 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "0F2F13363901A7CA"
 				item: { count: 1, id: "occultism:datura" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: -1.5d
+			x: -35.00d
+			y: -18.00d
 		}
 		{
 			dependencies: ["4766413F893A2C64"]
 			id: "73E254F2596B187E"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "6EA72A1293A3742C"
@@ -74,12 +79,13 @@
 				item: { count: 1, id: "occultism:dictionary_of_spirits" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -3.5d
+			x: -31.05d
+			y: -25.00d
 		}
 		{
 			dependencies: ["4766413F893A2C64"]
 			id: "1EBC58B71BAB2B20"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "0434F82A0C4E7382"
@@ -100,12 +106,13 @@
 				item: { count: 1, id: "occultism:demons_dream_essence" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -3.5d
+			x: -37.05d
+			y: -25.00d
 		}
 		{
 			dependencies: ["4766413F893A2C64"]
 			id: "5287ED884A30FB5E"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "2435479F93829156"
@@ -126,8 +133,8 @@
 				item: { count: 1, id: "occultism:otherstone" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -2.5d
+			x: -34.05d
+			y: -25.00d
 		}
 		{
 			dependencies: [
@@ -150,13 +157,15 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "459EC6736DB4927D"
 				item: { count: 1, id: "occultism:otherworld_log" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -0.5d
+			x: -25.00d
+			y: -18.00d
 		}
 		{
 			dependencies: ["1E80C082DFAD43C1"]
@@ -176,6 +185,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [
 				{
 					id: "232CCD5AC61CA74D"
@@ -188,12 +199,13 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: -0.5d
+			x: -20.00d
+			y: -18.00d
 		}
 		{
 			dependencies: ["5287ED884A30FB5E"]
 			id: "10656C85CCE82E84"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "12EBB96EB49758A9"
@@ -214,12 +226,13 @@
 				item: { count: 1, id: "occultism:chalk_white_impure" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: -2.5d
+			x: -36.50d
+			y: -28.80d
 		}
 		{
 			dependencies: ["10656C85CCE82E84"]
 			id: "16E9382FB96DDCD6"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "4CDA189F6981441A"
@@ -250,11 +263,13 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: -4.0d
+			x: -35.00d
+			y: -32.60d
 		}
 		{
+			dependencies: ["355A5CBA46D9D830"]
 			id: "63660F2B086DBF6B"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "21B1E0AAD6AE550D"
@@ -275,8 +290,8 @@
 				item: { count: 1, id: "minecraft:skeleton_skull" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: -1.5d
+			x: -43.05d
+			y: -25.00d
 		}
 		{
 			dependencies: [
@@ -301,17 +316,20 @@
 					type: "item"
 				}
 			]
+			shape: "gear"
+			size: 2.0d
 			tasks: [{
 				id: "129F34F30E3F08D7"
 				item: { components: { "custommachinery:machine": "custommachinery:dyeing_factory" }, count: 1, id: "custommachinery:custom_machine_item" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -1.0d
+			x: -15.00d
+			y: -18.00d
 		}
 		{
 			dependencies: ["01B7DA9F6AA43572"]
 			id: "5561E1D06C817628"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "4098AFC3D88D7B94"
@@ -332,11 +350,13 @@
 				item: { count: 1, id: "occultism:large_candle" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 0.5d
+			x: -33.50d
+			y: -28.80d
 		}
 		{
+			dependencies: ["4766413F893A2C64"]
 			id: "01B7DA9F6AA43572"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "5E57A4C299CE931E"
@@ -357,8 +377,8 @@
 				item: { count: 1, id: "occultism:tallow" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.5d
+			x: -40.05d
+			y: -25.00d
 		}
 		{
 			dependencies: ["5B1046C93ED31A3D"]
@@ -378,17 +398,20 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "14193E98C77F9871"
 				item: { count: 1, id: "ars_nouveau:blue_archwood_sapling" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 2.5d
+			x: -10.00d
+			y: -18.00d
 		}
 		{
 			dependencies: ["5B1046C93ED31A3D"]
 			id: "04B3689D0CC97F59"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "56B1A4C7923C8076"
@@ -409,8 +432,8 @@
 				item: { count: 1, id: "mysticalagriculture:amethyst_essence" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: -1.0d
+			x: -25.05d
+			y: -25.00d
 		}
 		{
 			dependencies: ["75B1968D6DE0A4EA"]
@@ -438,13 +461,15 @@
 					type: "item"
 				}
 			]
+			shape: "gear"
+			size: 2.0d
 			tasks: [{
 				id: "37F4832BCFD69924"
 				item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 4.5d
+			x: -5.00d
+			y: -18.00d
 		}
 		{
 			dependencies: [
@@ -452,6 +477,7 @@
 				"51D59DE5AD3DCE09"
 			]
 			id: "2CB314B584511869"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "1C2C15806D930E11"
@@ -472,12 +498,13 @@
 				item: { count: 1, id: "ars_nouveau:creative_source_jar" }
 				type: "item"
 			}]
-			x: 13.5d
-			y: 0.5d
+			x: -15.00d
+			y: -36.40d
 		}
 		{
 			dependencies: ["7D6B41D46466991E"]
 			id: "3BC639C228C35538"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "13CA90F62F67C3F2"
@@ -498,8 +525,8 @@
 				item: { count: 1, id: "ars_nouveau:arcane_pedestal" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 4.5d
+			x: -1.05d
+			y: -25.00d
 		}
 		{
 			dependencies: ["7D6B41D46466991E"]
@@ -519,13 +546,15 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "5BF3478930D190ED"
 				item: { count: 1, id: "ars_nouveau:source_gem" }
 				type: "item"
 			}]
-			x: 8.5d
-			y: 4.5d
+			x: 0.00d
+			y: -18.00d
 		}
 		{
 			dependencies: ["7C3104D29E5C1935"]
@@ -545,13 +574,15 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "7965ECD031C9828B"
 				item: { count: 1, id: "ars_nouveau:sourcestone" }
 				type: "item"
 			}]
-			x: 11.0d
-			y: 4.5d
+			x: 5.00d
+			y: -18.00d
 		}
 		{
 			dependencies: ["0B5EFE2291C821AE"]
@@ -571,17 +602,20 @@
 					type: "item"
 				}
 			]
+			shape: "gear"
+			size: 2.0d
 			tasks: [{
 				id: "5225F61CCA7ED9CC"
 				item: { count: 1, id: "ars_nouveau:enchanting_apparatus" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 4.5d
+			x: 10.00d
+			y: -18.00d
 		}
 		{
 			dependencies: ["5B1046C93ED31A3D"]
 			id: "076AFDC2E7BD63E0"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "4CA7FFE4E806B0EC"
@@ -602,12 +636,13 @@
 				item: { count: 1, id: "alltheores:silver_ingot" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -6.0d
+			x: -19.05d
+			y: -25.00d
 		}
 		{
 			dependencies: ["7D6B41D46466991E"]
 			id: "06D6A493C58369C5"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "2129B86556E92E68"
@@ -628,10 +663,11 @@
 				item: { count: 1, id: "ars_nouveau:earth_essence" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 2.5d
+			x: -4.05d
+			y: -25.00d
 		}
 		{
+			dependencies: ["4766413F893A2C64"]
 			id: "0FE83C64579B2F99"
 			rewards: [
 				{
@@ -648,17 +684,20 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "5412FA2683C6F2B4"
 				item: { count: 1, id: "occultism:otherworld_sapling_natural" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: -0.5d
+			x: -30.00d
+			y: -18.00d
 		}
 		{
 			dependencies: ["5B1046C93ED31A3D"]
 			id: "53C1747F9760F5CA"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "5E303EC01FB016E7"
@@ -679,12 +718,13 @@
 				item: { count: 1, id: "minecraft:wither_skeleton_skull" }
 				type: "item"
 			}]
-			x: 8.5d
-			y: 0.5d
+			x: -10.05d
+			y: -25.00d
 		}
 		{
 			dependencies: ["04B3689D0CC97F59"]
 			id: "3DAA66E04EF99384"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "17FCE43F656C7738"
@@ -705,12 +745,13 @@
 				item: { count: 1, id: "occultism:spirit_attuned_gem" }
 				type: "item"
 			}]
-			x: 11.5d
-			y: -1.0d
+			x: -16.50d
+			y: -28.80d
 		}
 		{
 			dependencies: ["5B1046C93ED31A3D"]
 			id: "0737CA693E76F99A"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "708273C0B60815A6"
@@ -731,12 +772,13 @@
 				item: { count: 1, id: "torcherino:torcherino" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: -3.0d
+			x: -22.05d
+			y: -25.00d
 		}
 		{
 			dependencies: ["3DAA66E04EF99384"]
 			id: "51D59DE5AD3DCE09"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "451547AF4FBE1F2E"
@@ -757,12 +799,13 @@
 				item: { count: 1, id: "occultism:spirit_attuned_crystal" }
 				type: "item"
 			}]
-			x: 13.5d
-			y: -1.0d
+			x: -15.00d
+			y: -32.60d
 		}
 		{
 			dependencies: ["7C3104D29E5C1935"]
 			id: "3E14126545895ABD"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "4F20E02A0FB9BE31"
@@ -783,8 +826,8 @@
 				item: { count: 1, id: "ars_nouveau:source_gem_block" }
 				type: "item"
 			}]
-			x: 8.5d
-			y: 6.0d
+			x: 4.95d
+			y: -25.00d
 		}
 		{
 			dependencies: [
@@ -792,6 +835,7 @@
 				"0B5EFE2291C821AE"
 			]
 			id: "2672C90D94F7B21B"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "5E7EB23679433ABE"
@@ -812,8 +856,8 @@
 				item: { count: 1, id: "ars_nouveau:ritual_brazier" }
 				type: "item"
 			}]
-			x: 11.0d
-			y: 6.0d
+			x: 5.00d
+			y: -28.80d
 		}
 		{
 			dependencies: ["6003422C257E1554"]
@@ -833,13 +877,15 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "382FF7BE8A81333D"
 				item: { count: 1, id: "ars_nouveau:ritual_wilden_summon" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 6.0d
+			x: 15.00d
+			y: -18.00d
 		}
 		{
 			dependencies: [
@@ -862,18 +908,20 @@
 					type: "item"
 				}
 			]
-			shape: "square"
+			shape: "diamond"
+			size: 2.0d
 			tasks: [{
 				id: "7328584CAEB1EFFC"
 				item: { count: 1, id: "ars_nouveau:wilden_tribute" }
 				type: "item"
 			}]
-			x: 12.5d
-			y: 8.5d
+			x: 20.00d
+			y: -18.00d
 		}
 		{
 			dependencies: ["6003422C257E1554"]
 			id: "1CA8D11D693ADB18"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "4CFD46A876B90D3B"
@@ -906,8 +954,8 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
-			y: 3.5d
+			x: 7.95d
+			y: -25.00d
 		}
 		{
 			dependencies: ["50BAE09455C39830"]
@@ -927,17 +975,20 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "1276202547E9E743"
 				item: { count: 1, id: "occultism:dimensional_mineshaft" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 8.5d
+			x: 25.00d
+			y: -18.00d
 		}
 		{
 			dependencies: ["076AFDC2E7BD63E0"]
 			id: "49CF4ACCA49FEB6F"
+			hide_dependent_lines: true
 			rewards: [{
 				id: "1155EF51A2657797"
 				item: {
@@ -951,11 +1002,13 @@
 				item: { count: 1, id: "occultism:magic_lamp_empty" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: -6.0d
+			x: -13.50d
+			y: -28.80d
 		}
 		{
+			dependencies: ["62544BC4E124165F"]
 			id: "0AEA0C0EA75031CD"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "1B945170344870CA"
@@ -976,8 +1029,8 @@
 				item: { components: { "occultism:max_mining_time": 400, "occultism:rolls_per_operation": 1 }, count: 1, id: "occultism:miner_foliot_unspecialized" }
 				type: "item"
 			}]
-			x: 18.0d
-			y: 10.5d
+			x: -28.05d
+			y: -25.00d
 		}
 		{
 			dependencies: [
@@ -1000,17 +1053,20 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "118D9EA149904FF0"
 				item: { count: 1, id: "alltheores:nickel_ore" }
 				type: "item"
 			}]
-			x: 18.0d
-			y: 8.5d
+			x: 30.00d
+			y: -18.00d
 		}
 		{
 			dependencies: ["2F57EABE21276173"]
 			id: "1899A86762B7E8E6"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "2AC883CEB426910A"
@@ -1031,28 +1087,29 @@
 				item: { count: 1, id: "oritech:machine_core_3" }
 				type: "item"
 			}]
-			x: 20.0d
-			y: 7.0d
+			x: 30.00d
+			y: -25.00d
 		}
 		{
+			dependencies: ["355A5CBA46D9D830"]
 			id: "42791C54924D8D3E"
+			hide_dependent_lines: true
 			rewards: [{
 				id: "2356B49A7342ABC6"
 				type: "xp"
 				xp: 100
 			}]
-			shape: "diamond"
-			size: 2.0d
 			tasks: [{
 				id: "348B717AB8DFA646"
 				type: "checkmark"
 			}]
-			x: -4.0d
-			y: -5.0d
+			x: -46.05d
+			y: -25.00d
 		}
 		{
 			dependencies: ["50BAE09455C39830"]
 			id: "5A764636209B62FC"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "3DECE6BEF4639E94"
@@ -1073,12 +1130,13 @@
 				item: { count: 1, id: "ars_nouveau:summon_focus" }
 				type: "item"
 			}]
-			x: 12.5d
-			y: 10.5d
+			x: 20.00d
+			y: 0.00d
 		}
 		{
 			dependencies: ["5A764636209B62FC"]
 			id: "5D5B633BB6193608"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "5096695AD8E5C3BF"
@@ -1099,8 +1157,8 @@
 				item: { count: 1, id: "minecraft:emerald" }
 				type: "item"
 			}]
-			x: 11.5d
-			y: 12.5d
+			x: 21.50d
+			y: 3.00d
 		}
 		{
 			dependencies: ["2F57EABE21276173"]
@@ -1120,17 +1178,20 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "16B9FDBE671DA23A"
 				item: { count: 1, id: "oritech:motor" }
 				type: "item"
 			}]
-			x: 20.0d
-			y: 8.5d
+			x: 35.00d
+			y: -18.00d
 		}
 		{
 			dependencies: ["5A764636209B62FC"]
 			id: "078BA819B7711A47"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "5079650D18C05D7B"
@@ -1151,8 +1212,8 @@
 				item: { count: 1, id: "allthemodium:allthemodium_block" }
 				type: "item"
 			}]
-			x: 13.5d
-			y: 12.5d
+			x: 18.50d
+			y: 3.00d
 		}
 		{
 			dependencies: ["669C8D53E6CC4376"]
@@ -1172,17 +1233,20 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "5E18C9067DAC8A72"
 				item: { count: 1, id: "oritech:pulverizer_block" }
 				type: "item"
 			}]
-			x: 24.0d
-			y: 8.5d
+			x: 40.00d
+			y: -18.00d
 		}
 		{
 			dependencies: ["62179FB94FA7D696"]
 			id: "08FDE82C86A0DEE0"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "008D38AC8E15EA8F"
@@ -1203,8 +1267,8 @@
 				item: { count: 1, id: "oritech:enderic_compound" }
 				type: "item"
 			}]
-			x: 26.0d
-			y: 8.5d
+			x: 40.00d
+			y: -25.00d
 		}
 		{
 			dependencies: ["62179FB94FA7D696"]
@@ -1224,17 +1288,20 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "00D8B55DCD25E3AD"
 				item: { count: 1, id: "oritech:biomass" }
 				type: "item"
 			}]
-			x: 24.0d
-			y: 10.5d
+			x: 40.00d
+			y: 18.00d
 		}
 		{
 			dependencies: ["5B1046C93ED31A3D"]
 			id: "5048003FAC86CD74"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "0124D37069B23CC7"
@@ -1255,12 +1322,13 @@
 				item: { count: 1, id: "actuallyadditions:black_quartz" }
 				type: "item"
 			}]
-			x: 8.5d
-			y: -2.0d
+			x: -13.05d
+			y: -25.00d
 		}
 		{
 			dependencies: ["669C8D53E6CC4376"]
 			id: "25F348F35F869820"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "7926AFE28B078FEC"
@@ -1281,12 +1349,13 @@
 				item: { count: 1, id: "oritech:centrifuge_block" }
 				type: "item"
 			}]
-			x: 20.0d
-			y: 12.0d
+			x: 35.00d
+			y: -25.00d
 		}
 		{
 			dependencies: ["25F348F35F869820"]
 			id: "52BC8692933398BF"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "79ADAC0C57C67267"
@@ -1307,8 +1376,8 @@
 				item: { count: 1, id: "oritech:machine_fluid_addon" }
 				type: "item"
 			}]
-			x: 18.5d
-			y: 12.0d
+			x: 35.00d
+			y: -28.80d
 		}
 		{
 			dependencies: [
@@ -1331,17 +1400,20 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "2E95E0B7798D9269"
 				item: { count: 1, id: "oritech:plastic_sheet" }
 				type: "item"
 			}]
-			x: 24.0d
-			y: 12.0d
+			x: 35.00d
+			y: 18.00d
 		}
 		{
 			dependencies: ["08FDE82C86A0DEE0"]
 			id: "53E82C5D32EA38F3"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "39E2BB6DFF0C3860"
@@ -1362,12 +1434,13 @@
 				item: { count: 1, id: "alltheores:enderium_ingot" }
 				type: "item"
 			}]
-			x: 28.0d
-			y: 8.5d
+			x: 40.00d
+			y: -28.80d
 		}
 		{
 			dependencies: ["6003422C257E1554"]
 			id: "2332147A7AD6A9F6"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "785D5A8AFE079568"
@@ -1388,12 +1461,13 @@
 				item: { count: 1, id: "rain:mineral_upgrade-2" }
 				type: "item"
 			}]
-			x: 20.0d
-			y: 4.5d
+			x: 10.95d
+			y: -25.00d
 		}
 		{
 			dependencies: ["2332147A7AD6A9F6"]
 			id: "5D66AF301843682F"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "2764E9027C41AEBB"
@@ -1421,12 +1495,13 @@
 					type: "item"
 				}
 			]
-			x: 24.0d
-			y: 4.5d
+			x: 10.00d
+			y: -28.80d
 		}
 		{
 			dependencies: ["6003422C257E1554"]
 			id: "7F171FB20A9396E3"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "6F212A772CB04A65"
@@ -1464,12 +1539,13 @@
 					type: "item"
 				}
 			]
-			x: 20.0d
-			y: 3.0d
+			x: 16.95d
+			y: -25.00d
 		}
 		{
 			dependencies: ["6003422C257E1554"]
 			id: "79B92A766C699C56"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "7D10B035740FE6AE"
@@ -1490,12 +1566,13 @@
 				item: { count: 1, id: "mysticalagriculture:nature_seeds" }
 				type: "item"
 			}]
-			x: 20.0d
-			y: 6.0d
+			x: 13.95d
+			y: -25.00d
 		}
 		{
 			dependencies: ["5B1046C93ED31A3D"]
 			id: "5DCE4987FC41DF1A"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "6333F24D665647DC"
@@ -1516,8 +1593,8 @@
 				item: { count: 1, id: "mysticalagriculture:sky_stone_essence" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -3.0d
+			x: -7.05d
+			y: -25.00d
 		}
 		{
 			dependencies: [
@@ -1525,6 +1602,7 @@
 				"39C66C3DC535DD37"
 			]
 			id: "187E1FF123142669"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "62306490DFE7CA27"
@@ -1545,8 +1623,8 @@
 				item: { count: 1, id: "oritech:duratium_ingot" }
 				type: "item"
 			}]
-			x: 13.5d
-			y: 14.5d
+			x: 30.00d
+			y: -3.00d
 		}
 		{
 			dependencies: ["61B236F5225720E0"]
@@ -1566,13 +1644,15 @@
 					type: "item"
 				}
 			]
+			shape: "gear"
+			size: 2.0d
 			tasks: [{
 				id: "2201CE8B8FD460A9"
 				item: { count: 1, id: "oritech:foundry_block" }
 				type: "item"
 			}]
-			x: 24.0d
-			y: 14.5d
+			x: 30.00d
+			y: 18.00d
 		}
 		{
 			dependencies: ["078BA819B7711A47"]
@@ -1580,6 +1660,7 @@
 				id: "minecraft:pointed_dripstone"
 			}
 			id: "2A1318317F78EAFD"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "578BCBA70515E796"
@@ -1599,12 +1680,13 @@
 				id: "6887288590741A67"
 				type: "checkmark"
 			}]
-			x: 15.0d
-			y: 12.5d
+			x: 18.50d
+			y: -3.00d
 		}
 		{
 			dependencies: ["7D6B41D46466991E"]
 			id: "5F3A83CD98379BC5"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "3825652AF72E8B9E"
@@ -1625,8 +1707,8 @@
 				item: { count: 1, id: "naturesaura:gold_fiber" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 17.5d
+			x: 1.95d
+			y: -25.00d
 		}
 		{
 			dependencies: [
@@ -1649,13 +1731,15 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "3A241B55AAEA952C"
 				item: { count: 1, id: "naturesaura:golden_leaves" }
 				type: "item"
 			}]
-			x: 24.0d
-			y: 17.5d
+			x: 25.00d
+			y: 18.00d
 		}
 		{
 			dependencies: ["593267FAF1A3CBB9"]
@@ -1675,13 +1759,15 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "4EB1195A8C00842A"
 				item: { count: 1, id: "naturesaura:gold_leaf" }
 				type: "item"
 			}]
-			x: 24.0d
-			y: 20.0d
+			x: 20.00d
+			y: 18.00d
 		}
 		{
 			dependencies: ["55E58BBF2874A28B"]
@@ -1712,17 +1798,20 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "07965FE5B464762A"
 				item: { count: 1, id: "naturesaura:wood_stand" }
 				type: "item"
 			}]
-			x: 21.5d
-			y: 20.0d
+			x: 15.00d
+			y: 18.00d
 		}
 		{
 			dependencies: ["593267FAF1A3CBB9"]
 			id: "6EA46F21470FB146"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "6FA9A7B973078738"
@@ -1743,12 +1832,13 @@
 				item: { count: 1, id: "naturesaura:gold_powder" }
 				type: "item"
 			}]
-			x: 26.5d
-			y: 17.5d
+			x: 25.00d
+			y: 25.00d
 		}
 		{
 			dependencies: ["710F538A6CCD0883"]
 			id: "30C1C59804DADE75"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "5FE3B5BFF376DE8C"
@@ -1772,13 +1862,15 @@
 					type: "item"
 				}
 			]
+			shape: "gear"
+			size: 2.0d
 			tasks: [{
 				id: "5298DF832CCD8C6C"
 				item: { count: 1, id: "naturesaura:nature_altar" }
 				type: "item"
 			}]
-			x: 15.5d
-			y: 20.0d
+			x: 15.00d
+			y: 25.00d
 		}
 		{
 			dependencies: ["710F538A6CCD0883"]
@@ -1791,17 +1883,20 @@
 				}
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "151F0AA9657B7C3E"
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_sculk" }
 				type: "item"
 			}]
-			x: 21.5d
-			y: 22.5d
+			x: 10.00d
+			y: 18.00d
 		}
 		{
 			dependencies: ["30C1C59804DADE75"]
 			id: "3EFD4F91D81EC035"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "32A0A547014F906E"
@@ -1822,8 +1917,8 @@
 				item: { count: 1, id: "naturesaura:crushing_catalyst" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 20.0d
+			x: 12.00d
+			y: 28.80d
 		}
 		{
 			dependencies: ["4BD2877305C5853F"]
@@ -1843,13 +1938,15 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "07A93ED7F1DCDA49"
 				item: { count: 1, id: "avaritia:sculk_crafting_table" }
 				type: "item"
 			}]
-			x: 21.5d
-			y: 25.0d
+			x: 5.00d
+			y: 18.00d
 		}
 		{
 			dependencies: ["0B52D8B9CF5C540C"]
@@ -1869,13 +1966,15 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "3FB888E59E46E02B"
 				item: { count: 1, id: "oritech:assembler_block" }
 				type: "item"
 			}]
-			x: 15.5d
-			y: 25.0d
+			x: 0.00d
+			y: 18.00d
 		}
 		{
 			dependencies: ["5CB064CE584EF6CD"]
@@ -1895,13 +1994,15 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "066ACDE5C0F046EE"
 				item: { count: 1, id: "oritech:enderic_lens" }
 				type: "item"
 			}]
-			x: 12.5d
-			y: 25.0d
+			x: -5.00d
+			y: 18.00d
 		}
 		{
 			dependencies: ["275938FB937752D1"]
@@ -1921,13 +2022,15 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "48830D0DAE869A9F"
 				item: { count: 1, id: "oritech:laser_arm_block" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 25.0d
+			x: -10.00d
+			y: 18.00d
 		}
 		{
 			dependencies: [
@@ -1950,13 +2053,15 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "125BDCD7A4DEF7A6"
 				item: { count: 1, id: "draconicevolution:draconium_dust" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: 22.5d
+			x: -15.00d
+			y: 18.00d
 		}
 		{
 			dependencies: ["34E2B53EC0E7AB16"]
@@ -1976,13 +2081,15 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "673F5A668810F4F2"
 				item: { count: 1, id: "draconicevolution:draconium_ingot" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 22.5d
+			x: -20.00d
+			y: 18.00d
 		}
 		{
 			dependencies: ["0CBD85A86708D0E4"]
@@ -2002,6 +2109,8 @@
 					type: "item"
 				}
 			]
+			shape: "gear"
+			size: 2.0d
 			tasks: [
 				{
 					id: "6FE235757937E34C"
@@ -2014,12 +2123,13 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: 27.0d
+			x: -25.00d
+			y: 18.00d
 		}
 		{
 			dependencies: ["6662A1DDE10F4D71"]
 			id: "1F617335785CD8FA"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "4B18462E685AA1E4"
@@ -2040,12 +2150,13 @@
 				item: { count: 1, id: "minecraft:ancient_debris" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 30.5d
+			x: -28.00d
+			y: 25.00d
 		}
 		{
 			dependencies: ["6662A1DDE10F4D71"]
 			id: "653AFED2262918F3"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "10C3B0709FA8557B"
@@ -2066,8 +2177,8 @@
 				item: { count: 1, id: "extendedcrafting:elite_table" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: 30.5d
+			x: -22.00d
+			y: 25.00d
 		}
 		{
 			dependencies: ["6662A1DDE10F4D71"]
@@ -2087,15 +2198,15 @@
 					type: "item"
 				}
 			]
-			shape: "none"
-			size: 3.0d
+			shape: "gear"
+			size: 2.5d
 			tasks: [{
 				id: "6C3A804A95B2ECC4"
 				item: { count: 1, id: "naturesaura:offering_table" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 33.5d
+			x: -30.00d
+			y: 18.00d
 		}
 		{
 			dependencies: ["5E81D8AA7E830ED1"]
@@ -2115,19 +2226,20 @@
 					type: "item"
 				}
 			]
-			shape: "none"
-			size: 4.0d
+			shape: "diamond"
+			size: 3.0d
 			tasks: [{
 				id: "3653EB1CED3F8EBE"
 				item: { count: 1, id: "rain:god_creation_keepsake" }
 				type: "item"
 			}]
-			x: 19.5d
-			y: 33.5d
+			x: -35.00d
+			y: 18.00d
 		}
 		{
 			dependencies: ["653AFED2262918F3"]
 			id: "3285C37859344DAD"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "66B342D27BA9FA51"
@@ -2148,12 +2260,13 @@
 				item: { count: 1, id: "rain:overclocking_upgrade" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 30.5d
+			x: -26.50d
+			y: 28.80d
 		}
 		{
 			dependencies: ["653AFED2262918F3"]
 			id: "73313F2ADE8926EC"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "3EDBD3773232CF87"
@@ -2174,12 +2287,13 @@
 				item: { count: 1, id: "mysticalagriculture:lapis_lazuli_seeds" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 28.0d
+			x: -23.50d
+			y: 28.80d
 		}
 		{
 			dependencies: ["5B1046C93ED31A3D"]
 			id: "0E58D29C39584860"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "5E7AA2E46825A1FD"
@@ -2200,8 +2314,8 @@
 				item: { count: 1, id: "mysticalagriculture:amethyst_seeds" }
 				type: "item"
 			}]
-			x: 8.5d
-			y: 1.5d
+			x: -16.05d
+			y: -25.00d
 		}
 		{
 			dependencies: ["7B8A74380F4748E4"]
@@ -2211,15 +2325,19 @@
 				type: "xp"
 				xp: 100
 			}]
+			shape: "pentagon"
+			size: 2.5d
 			tasks: [{
 				id: "62AC1E5271B546E4"
 				type: "checkmark"
 			}]
-			x: 23.0d
-			y: 33.5d
+			x: -40.00d
+			y: 18.00d
 		}
 		{
+			dependencies: ["078BA819B7711A47"]
 			id: "42F9ED5151651A74"
+			hide_dependent_lines: true
 			rewards: [{
 				id: "6B7DB45135E8FC6A"
 				type: "xp"
@@ -2230,12 +2348,13 @@
 				item: { count: 1, id: "minecraft:cow_spawn_egg" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 22.5d
+			x: 21.50d
+			y: -3.00d
 		}
 		{
 			dependencies: ["6662A1DDE10F4D71"]
 			id: "3A53D4A7FD71882B"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "74DD340059FC089A"
@@ -2256,12 +2375,13 @@
 				item: { count: 1, id: "notenoughwands:acceleration_wand" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: 27.0d
+			x: -25.00d
+			y: 25.00d
 		}
 		{
 			dependencies: ["078BA819B7711A47"]
 			id: "47629457232677B2"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "5DF31EFDB7EABE70"
@@ -2282,12 +2402,13 @@
 				item: { count: 1, id: "allthemodium:allthemodium_upgrade_smithing_template" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 14.5d
+			x: 24.50d
+			y: -3.00d
 		}
 		{
 			dependencies: ["30C1C59804DADE75"]
 			id: "4782652AE5881FE2"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "70440A116BA5F5D2"
@@ -2308,12 +2429,13 @@
 				item: { count: 1, id: "naturesaura:projectile_generator" }
 				type: "item"
 			}]
-			x: 14.5d
-			y: 21.5d
+			x: 15.00d
+			y: 28.80d
 		}
 		{
 			dependencies: ["30C1C59804DADE75"]
 			id: "5498955A1B955831"
+			hide_dependent_lines: true
 			rewards: [
 				{
 					id: "53BEAE9F1BD363AC"
@@ -2334,12 +2456,13 @@
 				item: { count: 1, id: "rain:aura_generate_machine" }
 				type: "item"
 			}]
-			x: 16.5d
-			y: 21.5d
+			x: 18.00d
+			y: 28.80d
 		}
 		{
 			dependencies: ["5D5B633BB6193608"]
 			id: "24CE47476CEE40DF"
+			hide_dependent_lines: true
 			rewards: [{
 				id: "5EFA034439A99171"
 				type: "xp"
@@ -2350,8 +2473,8 @@
 				item: { count: 1, id: "easy_villagers:auto_trader" }
 				type: "item"
 			}]
-			x: 9.5d
-			y: 12.5d
+			x: 15.50d
+			y: -3.00d
 		}
 	]
 }

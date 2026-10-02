@@ -20,6 +20,10 @@ StartupEvents.registry("item",e=>{
      .pentacleType('summon')
      .ritualTooltip(" ")
 
+     e.create('rain:dummy_craftl_6', 'occultism:ritual_dummy')
+     .pentacleType('summon')
+     .ritualTooltip(" ")
+
      e.create('rain:dummy_summon_1', 'occultism:ritual_dummy')
      .pentacleType('summon')
      .ritualTooltip(" ")

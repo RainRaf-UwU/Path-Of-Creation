@@ -38,21 +38,6 @@
 		}
 		{
 			dependencies: ["399E2497D3A33065"]
-			id: "542042E7FD68414D"
-			rewards: [{
-				id: "5784643A32CAAC04"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "46598571F36E234A"
-				type: "checkmark"
-			}]
-			x: 1.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["399E2497D3A33065"]
 			icon: {
 				id: "ftbquests:book"
 			}
@@ -164,6 +149,16 @@
 			}]
 			x: 3.5d
 			y: 4.5d
+		}
+		{
+			dependencies: ["399E2497D3A33065"]
+			id: "2A2A099AFBB870CC"
+			tasks: [{
+				id: "04BD1EC92519AEE7"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -2.0d
 		}
 	]
 }

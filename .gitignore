@@ -1,0 +1,57 @@
+
+# Local tooling and generated code
+.probe/
+.cache/
+.mixin.out/
+.replay_cache/
+__pycache__/
+*.pyc
+*.pyo
+*.lnk
+
+# Launcher settings and downloaded game runtime
+/PCL/
+/*.jar
+/Path*.json
+/*-natives/
+/*natives_temp/
+/downloads/
+/mods/mcef-cache/
+/mods/mcef-libraries/
+
+# Worlds, player state, recordings and generated runtime data
+/saves/
+/backups/
+/logs/
+/crash-reports/
+/debug/
+/data/
+/local/
+/moddata/
+/hammerlib/
+/chiselsandbits/
+/dynamic-resource-pack-cache/
+/fancymenu_data/
+/journeymap/
+/waypoints/
+/xaero/
+/XaeroWaypoints*/
+/screenshots/
+/replay_recordings/
+/hs_err_pid*.log
+/replay_pid*.log
+/options.txt
+/usercache.json
+/usernamecache.json
+/command_history.txt
+/TrashSlotSaveState.json
+/patchouli_data.json
+/emi.json
+
+# Generated mod indexes and per-world client state
+/config/ars_nouveau/search_index/
+/config/brandon3055/contributors.json*
+/config/jei/world/
+/config/sodium-fingerprint.json
+/config/skyblockbuilder/data/
+/config/replaymod-screenshotsettings.json

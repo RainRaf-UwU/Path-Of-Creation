@@ -1,0 +1,1514 @@
+[
+  {
+    "path": "kubejs/assets/kubejs/textures/block/example_block.png",
+    "category": "block",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "P",
+    "visible_bbox": [
+      0,
+      0,
+      16,
+      16
+    ],
+    "colors": 7,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 0
+  },
+  {
+    "path": "kubejs/assets/kubejs/textures/item/example_item.png",
+    "category": "item",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      1,
+      1,
+      15,
+      15
+    ],
+    "colors": 5,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 104
+  },
+  {
+    "path": "kubejs/assets/rain/textures/2026-05-19_16.19.33.png",
+    "category": "other",
+    "size": [
+      982,
+      588
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      0,
+      982,
+      588
+    ],
+    "colors": 8259,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 0
+  },
+  {
+    "path": "kubejs/assets/rain/textures/2026-05-19_16.20.06.png",
+    "category": "other",
+    "size": [
+      982,
+      685
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      0,
+      982,
+      685
+    ],
+    "colors": 20523,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 0
+  },
+  {
+    "path": "kubejs/assets/rain/textures/2026-05-28_18.23.32.png",
+    "category": "other",
+    "size": [
+      473,
+      453
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      0,
+      473,
+      453
+    ],
+    "colors": 848,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 0
+  },
+  {
+    "path": "kubejs/assets/rain/textures/block/aura_generate_machine.png",
+    "category": "block",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      0,
+      16,
+      16
+    ],
+    "colors": 12,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 0
+  },
+  {
+    "path": "kubejs/assets/rain/textures/block/copy_front.png",
+    "category": "block",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      0,
+      16,
+      16
+    ],
+    "colors": 9,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 0
+  },
+  {
+    "path": "kubejs/assets/rain/textures/block/dyeing_front.png",
+    "category": "block",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      0,
+      16,
+      16
+    ],
+    "colors": 9,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 0
+  },
+  {
+    "path": "kubejs/assets/rain/textures/block/error_block.png",
+    "category": "block",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      0,
+      16,
+      16
+    ],
+    "colors": 9,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 0
+  },
+  {
+    "path": "kubejs/assets/rain/textures/block/fluid_processor_front.png",
+    "category": "block",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      0,
+      16,
+      16
+    ],
+    "colors": 8,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 0
+  },
+  {
+    "path": "kubejs/assets/rain/textures/block/haha.png",
+    "category": "block",
+    "size": [
+      534,
+      534
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      0,
+      534,
+      534
+    ],
+    "colors": 27409,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 0
+  },
+  {
+    "path": "kubejs/assets/rain/textures/block/machine_side_custom.png",
+    "category": "block",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      0,
+      16,
+      16
+    ],
+    "colors": 6,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 0
+  },
+  {
+    "path": "kubejs/assets/rain/textures/block/machine_top_customl.png",
+    "category": "block",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      0,
+      16,
+      16
+    ],
+    "colors": 7,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 0
+  },
+  {
+    "path": "kubejs/assets/rain/textures/block/machine_void_bottom.png",
+    "category": "block",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      0,
+      16,
+      16
+    ],
+    "colors": 6,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 0
+  },
+  {
+    "path": "kubejs/assets/rain/textures/block/mini_cobblestone.png",
+    "category": "block",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "RGB",
+    "visible_bbox": [
+      0,
+      0,
+      16,
+      16
+    ],
+    "colors": 7,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 0
+  },
+  {
+    "path": "kubejs/assets/rain/textures/block/msn.png",
+    "category": "block",
+    "size": [
+      1080,
+      1080
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      0,
+      1080,
+      1080
+    ],
+    "colors": 36103,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 0
+  },
+  {
+    "path": "kubejs/assets/rain/textures/block/solid_dim_core.png",
+    "category": "block",
+    "size": [
+      32,
+      32
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      0,
+      32,
+      32
+    ],
+    "colors": 109,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 0
+  },
+  {
+    "path": "kubejs/assets/rain/textures/block/structure_dyeing.png",
+    "category": "block",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "P",
+    "visible_bbox": [
+      0,
+      0,
+      16,
+      16
+    ],
+    "colors": 20,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 0
+  },
+  {
+    "path": "kubejs/assets/rain/textures/block/structure_fluid_processing_primering.png",
+    "category": "block",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "P",
+    "visible_bbox": [
+      0,
+      0,
+      16,
+      16
+    ],
+    "colors": 20,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 0
+  },
+  {
+    "path": "kubejs/assets/rain/textures/block/structure_void_mining_machine-3.png",
+    "category": "block",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "P",
+    "visible_bbox": [
+      0,
+      0,
+      16,
+      16
+    ],
+    "colors": 20,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 0
+  },
+  {
+    "path": "kubejs/assets/rain/textures/block/test_block1.png",
+    "category": "block",
+    "size": [
+      376,
+      381
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      0,
+      376,
+      381
+    ],
+    "colors": 77027,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 0
+  },
+  {
+    "path": "kubejs/assets/rain/textures/block/unlucky_block.png",
+    "category": "block",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      0,
+      16,
+      16
+    ],
+    "colors": 9,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 0
+  },
+  {
+    "path": "kubejs/assets/rain/textures/block/void_mining_front.png",
+    "category": "block",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      0,
+      16,
+      16
+    ],
+    "colors": 9,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 0
+  },
+  {
+    "path": "kubejs/assets/rain/textures/entiey/cat/dumiao.png",
+    "category": "other",
+    "size": [
+      64,
+      32
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      0,
+      48,
+      28
+    ],
+    "colors": 107,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 1302
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/allthemodium_mesh.png",
+    "category": "item",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      2,
+      1,
+      15,
+      15
+    ],
+    "colors": 7,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 125
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/atomic_reconstruction_chamber.png",
+    "category": "item",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      2,
+      1,
+      14,
+      15
+    ],
+    "colors": 20,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 92
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/basic_prophrcy_fragments.png",
+    "category": "item",
+    "size": [
+      16,
+      192
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      4,
+      4,
+      12,
+      188
+    ],
+    "colors": 81,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 2448
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/bottle_void.png",
+    "category": "item",
+    "size": [
+      16,
+      80
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      4,
+      2,
+      13,
+      79
+    ],
+    "colors": 17,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 885
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/compress_scrap_box.png",
+    "category": "item",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      1,
+      2,
+      15,
+      14
+    ],
+    "colors": 71,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 96
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/cosmic_coin.png",
+    "category": "item",
+    "size": [
+      16,
+      288
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      0,
+      16,
+      288
+    ],
+    "colors": 21,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 1152
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/creative_storage_cell_false.png",
+    "category": "item",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      0,
+      16,
+      16
+    ],
+    "colors": 12,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 74
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/data_storage_matrix.png",
+    "category": "item",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      1,
+      1,
+      15,
+      16
+    ],
+    "colors": 13,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 72
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/energy_upgrade.png",
+    "category": "item",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      2,
+      1,
+      14,
+      15
+    ],
+    "colors": 9,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 92
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/enriched_atm.png",
+    "category": "item",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      1,
+      2,
+      16,
+      14
+    ],
+    "colors": 31,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 137
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/enriched_unobtainium_infused.png",
+    "category": "item",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      2,
+      3,
+      14,
+      15
+    ],
+    "colors": 11,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 147
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/enriched_vibranium.png",
+    "category": "item",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      2,
+      3,
+      14,
+      14
+    ],
+    "colors": 12,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 148
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/error_item.png",
+    "category": "item",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      2,
+      1,
+      14,
+      15
+    ],
+    "colors": 10,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 92
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/fazhang.png",
+    "category": "item",
+    "size": [
+      32,
+      32
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      5,
+      1,
+      31,
+      32
+    ],
+    "colors": 32,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 814
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/fire.png",
+    "category": "item",
+    "size": [
+      16,
+      512
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      3,
+      16,
+      512
+    ],
+    "colors": 424,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 3700
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/god_creation_keepsake.png",
+    "category": "item",
+    "size": [
+      16,
+      192
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      1,
+      2,
+      16,
+      190
+    ],
+    "colors": 34,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 2169
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/infinities1_cell.png",
+    "category": "item",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      0,
+      16,
+      16
+    ],
+    "colors": 12,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 74
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/infinities2_cell.png",
+    "category": "item",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      1,
+      16,
+      15
+    ],
+    "colors": 11,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 106
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/infinities3_cell.png",
+    "category": "item",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      1,
+      16,
+      15
+    ],
+    "colors": 13,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 106
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/large_fluid_processing.png",
+    "category": "item",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      2,
+      1,
+      14,
+      15
+    ],
+    "colors": 24,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 92
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/mineral_upgrade-1.png",
+    "category": "item",
+    "size": [
+      32,
+      32
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      4,
+      2,
+      27,
+      29
+    ],
+    "colors": 11,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 419
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/mineral_upgrade-2.png",
+    "category": "item",
+    "size": [
+      32,
+      32
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      4,
+      2,
+      27,
+      29
+    ],
+    "colors": 11,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 419
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/mineral_upgrade-3.png",
+    "category": "item",
+    "size": [
+      32,
+      32
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      4,
+      2,
+      27,
+      29
+    ],
+    "colors": 11,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 419
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/mineral_upgrade-4.png",
+    "category": "item",
+    "size": [
+      32,
+      32
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      4,
+      2,
+      27,
+      29
+    ],
+    "colors": 11,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 419
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/mineral_upgrade-5.png",
+    "category": "item",
+    "size": [
+      32,
+      32
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      4,
+      2,
+      27,
+      29
+    ],
+    "colors": 11,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 419
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/music.png",
+    "category": "item",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      2,
+      1,
+      14,
+      15
+    ],
+    "colors": 10,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 92
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/overclocking_upgrade.png",
+    "category": "item",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      2,
+      1,
+      14,
+      15
+    ],
+    "colors": 8,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 92
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/overload_upgrade.png",
+    "category": "item",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      2,
+      1,
+      14,
+      15
+    ],
+    "colors": 9,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 92
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/portal_fragment.png",
+    "category": "item",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      2,
+      1,
+      14,
+      15
+    ],
+    "colors": 6,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 154
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/production_upgrade.png",
+    "category": "item",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      2,
+      1,
+      14,
+      15
+    ],
+    "colors": 9,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 92
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/prophecy_matrix.png",
+    "category": "item",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      2,
+      1,
+      14,
+      15
+    ],
+    "colors": 33,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 92
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/radiation_ning.png",
+    "category": "item",
+    "size": [
+      32,
+      32
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      0,
+      32,
+      32
+    ],
+    "colors": 6,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 112
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/rain1.png",
+    "category": "item",
+    "size": [
+      505,
+      513
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      0,
+      505,
+      513
+    ],
+    "colors": 87978,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 0
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/rain2.png",
+    "category": "item",
+    "size": [
+      895,
+      739
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      0,
+      895,
+      739
+    ],
+    "colors": 90401,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 0
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/rain3.png",
+    "category": "item",
+    "size": [
+      1080,
+      1762
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      0,
+      1080,
+      1762
+    ],
+    "colors": 164572,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 0
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/rain4.png",
+    "category": "item",
+    "size": [
+      1070,
+      1901
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      0,
+      1070,
+      1901
+    ],
+    "colors": 144368,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 0
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/rain5.png",
+    "category": "item",
+    "size": [
+      1080,
+      1080
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      0,
+      1080,
+      1080
+    ],
+    "colors": 129183,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 0
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/rain6.png",
+    "category": "item",
+    "size": [
+      1280,
+      960
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      0,
+      1280,
+      960
+    ],
+    "colors": 82085,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 0
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/rain7.png",
+    "category": "item",
+    "size": [
+      1280,
+      1678
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      0,
+      1280,
+      1678
+    ],
+    "colors": 42429,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 0
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/rain8.png",
+    "category": "item",
+    "size": [
+      300,
+      300
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      0,
+      300,
+      300
+    ],
+    "colors": 21827,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 0
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/refining_medicine_factory.png",
+    "category": "item",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      2,
+      1,
+      14,
+      15
+    ],
+    "colors": 24,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 92
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/ruptured_barrier.png",
+    "category": "item",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      1,
+      2,
+      14,
+      13
+    ],
+    "colors": 5,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 179
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/seed_press.png",
+    "category": "item",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      2,
+      2,
+      14,
+      14
+    ],
+    "colors": 9,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 129
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/soul_eye.png",
+    "category": "item",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      2,
+      2,
+      15,
+      15
+    ],
+    "colors": 13,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 135
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/speed_upgrade.png",
+    "category": "item",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      2,
+      1,
+      14,
+      15
+    ],
+    "colors": 9,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 92
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/stone_stick.png",
+    "category": "item",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      0,
+      16,
+      16
+    ],
+    "colors": 4,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 210
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/void_mixture.png",
+    "category": "item",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      0,
+      16,
+      16
+    ],
+    "colors": 10,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 101
+  },
+  {
+    "path": "kubejs/assets/rain/textures/item/white_upgrade.png",
+    "category": "item",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      2,
+      1,
+      14,
+      15
+    ],
+    "colors": 9,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 92
+  },
+  {
+    "path": "kubejs/assets/rain/textures/textures/block/haha.png",
+    "category": "block",
+    "size": [
+      534,
+      534
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      0,
+      534,
+      534
+    ],
+    "colors": 27409,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 0
+  },
+  {
+    "path": "kubejs/assets/rain/textures/textures/block/msn.png",
+    "category": "block",
+    "size": [
+      1080,
+      1080
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      0,
+      1080,
+      1080
+    ],
+    "colors": 36103,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 0
+  },
+  {
+    "path": "kubejs/assets/rain/textures/textures/block/test_block1.png",
+    "category": "block",
+    "size": [
+      376,
+      381
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      0,
+      376,
+      381
+    ],
+    "colors": 77027,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 0
+  },
+  {
+    "path": "kubejs/assets/rain/textures/textures/item/rain1.png",
+    "category": "item",
+    "size": [
+      505,
+      513
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      0,
+      505,
+      513
+    ],
+    "colors": 87978,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 0
+  },
+  {
+    "path": "kubejs/assets/rain/textures/textures/item/rain2.png",
+    "category": "item",
+    "size": [
+      895,
+      739
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      0,
+      895,
+      739
+    ],
+    "colors": 90401,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 0
+  },
+  {
+    "path": "kubejs/assets/rain/textures/textures/item/rain3.png",
+    "category": "item",
+    "size": [
+      1080,
+      1762
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      0,
+      1080,
+      1762
+    ],
+    "colors": 164572,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 0
+  },
+  {
+    "path": "kubejs/assets/rain/textures/textures/item/rain4.png",
+    "category": "item",
+    "size": [
+      1070,
+      1901
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      0,
+      1070,
+      1901
+    ],
+    "colors": 144368,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 0
+  },
+  {
+    "path": "kubejs/assets/rain/textures/textures/item/rain5.png",
+    "category": "item",
+    "size": [
+      1080,
+      1080
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      0,
+      1080,
+      1080
+    ],
+    "colors": 129183,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 0
+  },
+  {
+    "path": "kubejs/assets/rain/textures/textures/item/rain6.png",
+    "category": "item",
+    "size": [
+      1280,
+      960
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      0,
+      1280,
+      960
+    ],
+    "colors": 82085,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 0
+  },
+  {
+    "path": "kubejs/assets/rain/textures/textures/item/rain7.png",
+    "category": "item",
+    "size": [
+      1280,
+      1678
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      0,
+      1280,
+      1678
+    ],
+    "colors": 42429,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 0
+  },
+  {
+    "path": "kubejs/assets/rain/textures/textures/item/rain8.png",
+    "category": "item",
+    "size": [
+      300,
+      300
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      0,
+      0,
+      300,
+      300
+    ],
+    "colors": 21827,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 0
+  },
+  {
+    "path": "kubejs/assets/rain/textures/textures/item/ruptured_barrier.png",
+    "category": "item",
+    "size": [
+      16,
+      16
+    ],
+    "mode": "RGBA",
+    "visible_bbox": [
+      1,
+      2,
+      14,
+      13
+    ],
+    "colors": 5,
+    "partial_alpha_pixels": 0,
+    "transparent_pixels": 179
+  }
+]

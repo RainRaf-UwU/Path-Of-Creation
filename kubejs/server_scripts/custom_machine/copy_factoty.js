@@ -47,6 +47,12 @@ ServerEvents.recipes(e=>{
     .requireEnergy(10000)
     .produceItem('ifeu:fluid_crafting_table')
 
+     e.recipes.custommachinery.custom_machine('custommachinery:copy_factory',100)
+    .requireItem('extendedcrafting:ultimate_table').chance(0)
+    .requireFluid("10x rain:copy_fluid").chance(0)
+    .requireEnergy(10000)
+    .produceItem('extendedcrafting:ultimate_table')
+
 })
 
 // event.recipes.custommachinery.custom_machine('custommachinery:void_mining_machine', 100)
