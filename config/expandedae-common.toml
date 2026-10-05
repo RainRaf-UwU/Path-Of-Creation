@@ -3,7 +3,7 @@
 #Note: Controllers surrounded by more than 3 others in one axis, will remain gray but do still function normally.
 # Default: 7
 # Range: > 1
-maxControllerSize = 7
+maxControllerSize = 20
 #Ignore controller forming rules.
 #Allows you to make any shape you wish without the controller turning red.
 #Default value: false

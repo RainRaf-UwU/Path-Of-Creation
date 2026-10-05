@@ -45,7 +45,7 @@ StartupEvents.registry("item",e=>{
 
 })
 StartupEvents.registry("item",event =>{
-   event.create("rain:infinities1_cell","meinfinitycell:infinities_cell").setName(Text.literal("混凝土")).setKeys(KeyList.of().adds(keys =>{
+   event.create("rain:infinities1_cell","meinfinitycell:infinities_cell").setName(Text.literal("混凝土")).setKeys(KeyList.create().adds(keys =>{
        keys.add(AEKeyHelper.item('minecraft:light_gray_concrete'))
        keys.add(AEKeyHelper.item('minecraft:white_concrete'))
        keys.add(AEKeyHelper.item('minecraft:gray_concrete'))
@@ -63,7 +63,7 @@ StartupEvents.registry("item",event =>{
        keys.add(AEKeyHelper.item('minecraft:magenta_concrete'))
        keys.add(AEKeyHelper.item('minecraft:pink_concrete'))
    }))
-   event.create("rain:infinities2_cell","meinfinitycell:infinities_cell").setName(Text.literal("橡木")).setKeys(KeyList.of().adds(keys=>{
+   event.create("rain:infinities2_cell","meinfinitycell:infinities_cell").setName(Text.literal("橡木")).setKeys(KeyList.create().adds(keys=>{
     keys.add(AEKeyHelper.item('minecraft:oak_log'))
 }))
  event.create("rain:infinities3_cell","meinfinitycell:infinity_cell").fluidType("minecraft:lava")

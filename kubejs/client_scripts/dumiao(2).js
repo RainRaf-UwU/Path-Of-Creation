@@ -1,7 +1,7 @@
-RenderJSEvents.onLivingPreRender(event => {
+NativeEvents.onEvent('net.neoforged.neoforge.client.event.RenderLivingEvent$Pre', event => {
     const entity = event.getEntity()
     
-    if (entity.getType() === 'minecraft:cat') {
+    if (entity.getType().toString() === 'minecraft:cat') {
         const name = entity.getCustomName()
         
         if (name && (name.getString() === '杜苗' || name.getString() === 'metcat')) {

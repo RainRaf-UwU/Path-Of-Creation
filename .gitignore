@@ -42,6 +42,9 @@ __pycache__/
 /XaeroWaypoints*/
 /screenshots/
 /replay_recordings/
+/replay_videos/
+/export.log
+/ffmpeg-*-*/
 /hs_err_pid*.log
 /replay_pid*.log
 /options.txt
@@ -59,3 +62,10 @@ __pycache__/
 /config/sodium-fingerprint.json
 /config/skyblockbuilder/data/
 /config/replaymod-screenshotsettings.json
+/config/replaymod-rendersettings.json
+
+.probe
+
+# POC updater build outputs; player state is already under ignored /local/.
+/tools/poc-updater/build/
+/dist/poc-updater/
