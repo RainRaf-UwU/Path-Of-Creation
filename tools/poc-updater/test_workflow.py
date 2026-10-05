@@ -45,14 +45,10 @@ async function notesFor(eventName, tag, pack, body) {
   await readNotes({eventName, payload: {release: {body}}}, mockRequire, {env: {RELEASE_TAG: tag}});
   return output;
 }
-async function run(previous, next, branchExists) {
+async function run(previous, next) {
   const calls = [];
   const notFound = () => Object.assign(new Error('missing'), {status: 404});
   const github = {rest: {
-    git: {
-      getRef: async args => { if (!branchExists) throw notFound(); return {}; },
-      createRef: async args => { calls.push(['branch', args]); }
-    },
     repos: {
       getContent: async args => {
         if (previous === null) throw notFound();
@@ -73,17 +69,17 @@ async function run(previous, next, branchExists) {
   assert.equal(await notesFor('push', 'v0.1', pack), pack.changelog);
   assert.equal(await notesFor('release', 'v0.1', pack, 'Release page notes'), 'Release page notes');
   await assert.rejects(() => notesFor('push', 'v0.2', pack), /Release tag must match/);
-  const initial = await run(null, '0.0.5', false);
-  assert.equal(initial.length, 2);
-  assert.equal(initial[0][1].ref, 'refs/heads/codex/poc-updates');
-  assert.equal(initial[1][1].branch, 'codex/poc-updates');
-  assert.equal(initial[1][1].message, 'new commit');
-  assert.equal(JSON.parse(Buffer.from(initial[1][1].content, 'base64').toString()).version, '0.0.5');
-  const upgraded = await run('0.0.9', '0.0.10', true);
+  const initial = await run(null, '0.0.5');
+  assert.equal(initial.length, 1);
+  assert.equal(initial[0][1].branch, 'main');
+  assert.equal(initial[0][1].path, 'config/poc-updater/latest.json');
+  assert.equal(initial[0][1].message, 'new commit');
+  assert.equal(JSON.parse(Buffer.from(initial[0][1].content, 'base64').toString()).version, '0.0.5');
+  const upgraded = await run('0.0.9', '0.0.10');
   assert.equal(upgraded.length, 1);
   assert.equal(upgraded[0][1].sha, 'existing-file-sha');
-  assert.equal((await run('0.0.10', '0.0.9', true)).length, 0);
-  assert.equal((await run('0.0.10', '0.0.10', true)).length, 1);
+  assert.equal((await run('0.0.10', '0.0.9')).length, 0);
+  assert.equal((await run('0.0.10', '0.0.10')).length, 1);
   console.log('PASS: tag/release notes, mismatched-tag rejection and version feed publication');
 })().catch(error => {console.error(error); process.exitCode = 1;});
 '''

@@ -69,17 +69,11 @@ jobs:
         with:
           script: |
             const fs = require('fs');
-            const branch = 'codex/poc-updates';
-            const path = 'latest.json';
+            const branch = 'main';
+            const path = 'config/poc-updater/latest.json';
             const repo = context.repo;
             const data = fs.readFileSync('dist/poc-updater/latest.json');
             const next = JSON.parse(data.toString('utf8'));
-            try {
-              await github.rest.git.getRef({ ...repo, ref: `heads/${branch}` });
-            } catch (error) {
-              if (error.status !== 404) throw error;
-              await github.rest.git.createRef({ ...repo, ref: `refs/heads/${branch}`, sha: context.sha });
-            }
             let sha;
             try {
               const existing = await github.rest.repos.getContent({ ...repo, path, ref: branch });

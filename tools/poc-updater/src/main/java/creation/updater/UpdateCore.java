@@ -19,7 +19,7 @@ public final class UpdateCore {
     public static final String PACK = "config/poc-updater/pack.json";
     public static final String BASELINE = "config/poc-updater/baseline.json";
     public static final String MANIFEST = "poc-update.json";
-    public static final String FEED = "https://raw.githubusercontent.com/" + REPO + "/codex/poc-updates/latest.json";
+    public static final String FEED = "https://raw.githubusercontent.com/" + REPO + "/main/config/poc-updater/latest.json";
     public static final long MAX_BYTES = 8L * 1024 * 1024 * 1024;
 
     public record Pack(String version, String minecraft, String neoforge, String changelog) {}
