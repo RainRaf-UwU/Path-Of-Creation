@@ -1,0 +1,769 @@
+{
+  "1111.snbt": {
+    "before": {
+      "crossings": 77,
+      "branch_crossings": 60,
+      "branch_max": 9.953,
+      "branch_mean": 4.946,
+      "quests": 110,
+      "mainline": 28,
+      "edges": 124,
+      "branch_p90": 8.284,
+      "main_branch_max": 8.284,
+      "overlaps": [],
+      "obstructions": [
+        [
+          "270F97050F5D5343",
+          "2F9C2A8FF16255E4",
+          "7845A96CC820FBE4"
+        ],
+        [
+          "5E491704FC3D8ED5",
+          "66F00B00B858A918",
+          "561BF78DCF1160C5"
+        ],
+        [
+          "66F00B00B858A918",
+          "5C21D64CA875DAD1",
+          "5C4D6347F340F8DF"
+        ],
+        [
+          "7F40C4B7484F0709",
+          "7219D39C6DD4C51A",
+          "72502ED93C7A30BE"
+        ],
+        [
+          "35BB0848D9204EAC",
+          "74AE592A8C398C15",
+          "4546768616CE7CCF"
+        ],
+        [
+          "7ECF85C40EC49BE2",
+          "276BAE5123525D3B",
+          "35E981AF81B3A8C5"
+        ],
+        [
+          "63DC9E0B0B576E74",
+          "037A2DA2776FC81E",
+          "5A10666CC807DC8D"
+        ],
+        [
+          "63DC9E0B0B576E74",
+          "037A2DA2776FC81E",
+          "76C68B0D3F34DDF8"
+        ],
+        [
+          "509452FB96D576CE",
+          "4849B42FC9E0E72D",
+          "2814C711A08EA953"
+        ],
+        [
+          "63DC9E0B0B576E74",
+          "6F8CD7A506A8473D",
+          "749E9FAAE68C3E75"
+        ],
+        [
+          "5A10666CC807DC8D",
+          "0155C7DF69718649",
+          "133AF0D9E55D58B7"
+        ],
+        [
+          "65198688F543C319",
+          "439DB24276082B05",
+          "265BFD8EB3A73885"
+        ],
+        [
+          "1D0AC55C725914E3",
+          "265BFD8EB3A73885",
+          "180E8919165FF169"
+        ],
+        [
+          "1D0AC55C725914E3",
+          "265BFD8EB3A73885",
+          "04AFDCFB399C3A13"
+        ],
+        [
+          "7FB36EF69A4D9000",
+          "3C5C195D861081DB",
+          "2AC0DE273780B5D7"
+        ],
+        [
+          "3A3F70C349FF4137",
+          "63FDF1C39DDEB04D",
+          "276BAE5123525D3B"
+        ],
+        [
+          "76C68B0D3F34DDF8",
+          "63FDF1C39DDEB04D",
+          "1CBEDDABE9879762"
+        ],
+        [
+          "6F8CD7A506A8473D",
+          "76C68B0D3F34DDF8",
+          "133AF0D9E55D58B7"
+        ],
+        [
+          "63FDF1C39DDEB04D",
+          "206586BC97529FFE",
+          "276BAE5123525D3B"
+        ],
+        [
+          "63FDF1C39DDEB04D",
+          "206586BC97529FFE",
+          "3A3F70C349FF4137"
+        ],
+        [
+          "63FDF1C39DDEB04D",
+          "206586BC97529FFE",
+          "5C21D64CA875DAD1"
+        ],
+        [
+          "528E4F6D42AB5520",
+          "71C69DB165F304FF",
+          "35E981AF81B3A8C5"
+        ],
+        [
+          "528E4F6D42AB5520",
+          "71C69DB165F304FF",
+          "35FA2F3429E1796B"
+        ],
+        [
+          "528E4F6D42AB5520",
+          "71C69DB165F304FF",
+          "69126D1D840EC8FB"
+        ],
+        [
+          "69126D1D840EC8FB",
+          "35E981AF81B3A8C5",
+          "35FA2F3429E1796B"
+        ],
+        [
+          "5A10666CC807DC8D",
+          "7BEDB551B0EDE8D9",
+          "76C68B0D3F34DDF8"
+        ],
+        [
+          "5A10666CC807DC8D",
+          "7BEDB551B0EDE8D9",
+          "037A2DA2776FC81E"
+        ],
+        [
+          "528E4F6D42AB5520",
+          "72502ED93C7A30BE",
+          "002125F16123E0AC"
+        ]
+      ],
+      "hidden_line_sources": 17,
+      "width": 28.25,
+      "height": 32.5
+    },
+    "after": {
+      "crossings": 7,
+      "branch_crossings": 0,
+      "branch_max": 6.513,
+      "branch_mean": 2.943,
+      "quests": 110,
+      "mainline": 28,
+      "edges": 124,
+      "branch_p90": 5.526,
+      "main_branch_max": 6.513,
+      "overlaps": [],
+      "obstructions": [],
+      "hidden_line_sources": 0,
+      "width": 49.01,
+      "height": 56.25
+    },
+    "path": [
+      "3EDAA2878D281801",
+      "1E09108A7C94ECEF",
+      "669CB95BC81991D4",
+      "5E491704FC3D8ED5",
+      "70895DB9BA5EDA1B",
+      "5E7EC1DCE05A408A",
+      "2F9C2A8FF16255E4",
+      "5C4D6347F340F8DF",
+      "15432D300A13DD07",
+      "07ABC87F539D557B",
+      "002125F16123E0AC",
+      "7219D39C6DD4C51A",
+      "4546768616CE7CCF",
+      "133AF0D9E55D58B7",
+      "749E9FAAE68C3E75",
+      "1D0AC55C725914E3",
+      "7ECF85C40EC49BE2",
+      "6DE71F558A38AD75",
+      "5AB60E1D0AA39CC9",
+      "1B1ECE179FA75607",
+      "64C95422773BA982",
+      "122B1C9F2BB0EE2A",
+      "1FFC23C35197E472",
+      "5FD0A2809F89535E",
+      "2AC0DE273780B5D7",
+      "65198688F543C319",
+      "180E8919165FF169",
+      "2ABCB692F4717BC5"
+    ],
+    "logic_sha256": "03c01c06d9349bc94bcf0fc9c8de61f7a47202a956d8cb96bd801a630677bd11",
+    "existing_source_notes": [
+      "Unreachable from Chapter 1: 082A860A24936FA8",
+      "Unreachable from Chapter 1: 2B4A2F4E70823F3D"
+    ]
+  },
+  "149B7FC09F5F2520.snbt": {
+    "before": {
+      "crossings": 52,
+      "branch_crossings": 44,
+      "branch_max": 10.467,
+      "branch_mean": 5.056,
+      "quests": 90,
+      "mainline": 25,
+      "edges": 98,
+      "branch_p90": 9.0,
+      "main_branch_max": 7.289,
+      "overlaps": [],
+      "obstructions": [
+        [
+          "7BFB449F5CD3D359",
+          "19974213AB837C5A",
+          "72A6C55EFAA6BA6A"
+        ],
+        [
+          "632C04D5ED041A58",
+          "431528ECA5E58153",
+          "596C0177BC7FB25D"
+        ],
+        [
+          "48143F51B3F40FF4",
+          "3C929F89B27C4AEB",
+          "27B6868C50327017"
+        ],
+        [
+          "703FF43D4A32FBDA",
+          "536D18835BB728AB",
+          "2AFC1EB4029BEF42"
+        ],
+        [
+          "7BFB449F5CD3D359",
+          "5BF7FFCE86F25DB3",
+          "1D870FBB846B5FC1"
+        ],
+        [
+          "7BFB449F5CD3D359",
+          "5BF7FFCE86F25DB3",
+          "1AF554B1236FA510"
+        ],
+        [
+          "7BFB449F5CD3D359",
+          "04DB5C455EA62230",
+          "347B975D98BD51C2"
+        ],
+        [
+          "7BFB449F5CD3D359",
+          "5B8E0C8630D27B4A",
+          "503B47B64689CFFA"
+        ],
+        [
+          "714AD753C364557B",
+          "35BD775272632E61",
+          "6EF59BD6B082266E"
+        ],
+        [
+          "7BFB449F5CD3D359",
+          "1A18B3641B590D80",
+          "714AD753C364557B"
+        ],
+        [
+          "1A18B3641B590D80",
+          "596C0177BC7FB25D",
+          "72A6C55EFAA6BA6A"
+        ],
+        [
+          "596C0177BC7FB25D",
+          "15A61F29261E4A61",
+          "3A0B04F073BFA797"
+        ],
+        [
+          "596C0177BC7FB25D",
+          "3C2BF584C6BEDBED",
+          "30A83F289BDDCF1B"
+        ],
+        [
+          "0634B01740425214",
+          "15D5C7B8DBCFFD17",
+          "72A6C55EFAA6BA6A"
+        ],
+        [
+          "431528ECA5E58153",
+          "7935E2489965D068",
+          "1E064E4FA9731CA6"
+        ],
+        [
+          "7BFB449F5CD3D359",
+          "19D3F8A85CC4D580",
+          "1D870FBB846B5FC1"
+        ],
+        [
+          "15D5C7B8DBCFFD17",
+          "05F4E372D2340219",
+          "3C5CC27B02969399"
+        ],
+        [
+          "431528ECA5E58153",
+          "457B461EBBFFF23A",
+          "30A83F289BDDCF1B"
+        ],
+        [
+          "7BFB449F5CD3D359",
+          "7E88F371268D076D",
+          "0634B01740425214"
+        ],
+        [
+          "7BFB449F5CD3D359",
+          "7E88F371268D076D",
+          "46E87C45F4D97FB8"
+        ],
+        [
+          "714AD753C364557B",
+          "1FB989B08C321F1A",
+          "4532B8BD0998427E"
+        ],
+        [
+          "7BFB449F5CD3D359",
+          "0B9212DE1B37D648",
+          "714AD753C364557B"
+        ],
+        [
+          "7BFB449F5CD3D359",
+          "0B9212DE1B37D648",
+          "1A18B3641B590D80"
+        ],
+        [
+          "7BFB449F5CD3D359",
+          "4532B8BD0998427E",
+          "714AD753C364557B"
+        ],
+        [
+          "714AD753C364557B",
+          "04385E9A8F0D7157",
+          "1A18B3641B590D80"
+        ],
+        [
+          "714AD753C364557B",
+          "04385E9A8F0D7157",
+          "0B9212DE1B37D648"
+        ],
+        [
+          "714AD753C364557B",
+          "04385E9A8F0D7157",
+          "3A155C0016736DC9"
+        ],
+        [
+          "520908AB4BF5C579",
+          "347B975D98BD51C2",
+          "31D3B7C1FA56A30E"
+        ],
+        [
+          "7BFB449F5CD3D359",
+          "3A155C0016736DC9",
+          "714AD753C364557B"
+        ],
+        [
+          "7BFB449F5CD3D359",
+          "3A155C0016736DC9",
+          "1A18B3641B590D80"
+        ],
+        [
+          "7BFB449F5CD3D359",
+          "3A155C0016736DC9",
+          "0B9212DE1B37D648"
+        ],
+        [
+          "714AD753C364557B",
+          "4280D1915791ABB7",
+          "503B47B64689CFFA"
+        ]
+      ],
+      "hidden_line_sources": 7,
+      "width": 30.5,
+      "height": 32.5
+    },
+    "after": {
+      "crossings": 2,
+      "branch_crossings": 0,
+      "branch_max": 7.048,
+      "branch_mean": 3.191,
+      "quests": 90,
+      "mainline": 25,
+      "edges": 98,
+      "branch_p90": 6.247,
+      "main_branch_max": 7.048,
+      "overlaps": [],
+      "obstructions": [],
+      "hidden_line_sources": 0,
+      "width": 49.01,
+      "height": 52.08
+    },
+    "path": [
+      "6AF2EC1AD55B8A3F",
+      "306837A149DBA7C5",
+      "22FC10A0647B5446",
+      "7BBA8A94AD9BBF4A",
+      "1CA94F9BDC56A763",
+      "544F601A9C53D0FF",
+      "1D870FBB846B5FC1",
+      "14FA8855E114E84C",
+      "72A6C55EFAA6BA6A",
+      "48143F51B3F40FF4",
+      "27B6868C50327017",
+      "3C929F89B27C4AEB",
+      "338492144D5D73D7",
+      "6D5C60E5EF49C108",
+      "3345A3BC7EEBEE8E",
+      "210EBD81AA739E67",
+      "57126898930D97C1",
+      "007DA0D01C23472C",
+      "3C5CC27B02969399",
+      "1E064E4FA9731CA6",
+      "30A83F289BDDCF1B",
+      "01E52DAF5DEA384C",
+      "536D18835BB728AB",
+      "7C340145D428B2DA",
+      "6AA429C4E098BDEE"
+    ],
+    "logic_sha256": "91bb5a1c9c0703db4adee9e787b8bb2a18318bd6ba357fda22f1d029ba40511e",
+    "existing_source_notes": [
+      "Unreachable from Chapter 1: 082A860A24936FA8",
+      "Unreachable from Chapter 1: 2B4A2F4E70823F3D"
+    ]
+  },
+  "66900C421E317CA4.snbt": {
+    "before": {
+      "crossings": 6,
+      "branch_crossings": 2,
+      "branch_max": 8.696,
+      "branch_mean": 3.73,
+      "quests": 88,
+      "mainline": 34,
+      "edges": 99,
+      "branch_p90": 6.047,
+      "main_branch_max": 8.696,
+      "overlaps": [],
+      "obstructions": [
+        [
+          "4766413F893A2C64",
+          "1E80C082DFAD43C1",
+          "0FE83C64579B2F99"
+        ],
+        [
+          "5287ED884A30FB5E",
+          "10656C85CCE82E84",
+          "5048003FAC86CD74"
+        ],
+        [
+          "5F3A83CD98379BC5",
+          "593267FAF1A3CBB9",
+          "2A386BE252901524"
+        ],
+        [
+          "5F3A83CD98379BC5",
+          "593267FAF1A3CBB9",
+          "078BA819B7711A47"
+        ]
+      ],
+      "hidden_line_sources": 4,
+      "width": 31.75,
+      "height": 32.5
+    },
+    "after": {
+      "crossings": 2,
+      "branch_crossings": 0,
+      "branch_max": 8.191,
+      "branch_mean": 2.768,
+      "quests": 88,
+      "mainline": 34,
+      "edges": 99,
+      "branch_p90": 4.225,
+      "main_branch_max": 8.191,
+      "overlaps": [],
+      "obstructions": [],
+      "hidden_line_sources": 0,
+      "width": 50.52,
+      "height": 30.99
+    },
+    "path": [
+      "355A5CBA46D9D830",
+      "4766413F893A2C64",
+      "0FE83C64579B2F99",
+      "1E80C082DFAD43C1",
+      "62544BC4E124165F",
+      "5B1046C93ED31A3D",
+      "75B1968D6DE0A4EA",
+      "7D6B41D46466991E",
+      "7C3104D29E5C1935",
+      "0B5EFE2291C821AE",
+      "6003422C257E1554",
+      "73B4861F6D59B065",
+      "50BAE09455C39830",
+      "2A386BE252901524",
+      "2F57EABE21276173",
+      "669C8D53E6CC4376",
+      "62179FB94FA7D696",
+      "5D10698350A7B336",
+      "61B236F5225720E0",
+      "39C66C3DC535DD37",
+      "593267FAF1A3CBB9",
+      "55E58BBF2874A28B",
+      "710F538A6CCD0883",
+      "4BD2877305C5853F",
+      "0B52D8B9CF5C540C",
+      "5CB064CE584EF6CD",
+      "275938FB937752D1",
+      "29BD34123D6CEE5E",
+      "34E2B53EC0E7AB16",
+      "0CBD85A86708D0E4",
+      "6662A1DDE10F4D71",
+      "5E81D8AA7E830ED1",
+      "7B8A74380F4748E4",
+      "28147A7E4C048FF5"
+    ],
+    "logic_sha256": "2c4e649b1f82cd5c410a3f05f53901c30bf3b31b075152dc5c93878ad7b0b9a4",
+    "existing_source_notes": [
+      "Unreachable from Chapter 1: 082A860A24936FA8",
+      "Unreachable from Chapter 1: 2B4A2F4E70823F3D"
+    ]
+  },
+  "1F9CADE08E41FAE2.snbt": {
+    "before": {
+      "crossings": 19,
+      "branch_crossings": 4,
+      "branch_max": 8.0,
+      "branch_mean": 4.218,
+      "quests": 85,
+      "mainline": 19,
+      "edges": 91,
+      "branch_p90": 6.364,
+      "main_branch_max": 7.404,
+      "overlaps": [],
+      "obstructions": [
+        [
+          "1FE4AD4F45638DE7",
+          "12E431A730CFE6A7",
+          "5A310310ED876A46"
+        ],
+        [
+          "2E3EB68E11525BE0",
+          "25C16EAED4B5B9C0",
+          "313333BAABA2C358"
+        ],
+        [
+          "35C3C6B6975DF9BA",
+          "465EBBD320AF4CB2",
+          "1DC65EC4881D29CB"
+        ],
+        [
+          "35C3C6B6975DF9BA",
+          "6CE56304D3C9D827",
+          "15F6D9BC637ACEDC"
+        ],
+        [
+          "35C3C6B6975DF9BA",
+          "58F73D824B1BC4EB",
+          "79216E8D1543C408"
+        ],
+        [
+          "35C3C6B6975DF9BA",
+          "5A310310ED876A46",
+          "12E431A730CFE6A7"
+        ],
+        [
+          "154C9DAAE279053B",
+          "7FEA51AAAB70201C",
+          "088D6423432C134C"
+        ],
+        [
+          "35C3C6B6975DF9BA",
+          "1C6C21FEA44FA02C",
+          "1DC65EC4881D29CB"
+        ],
+        [
+          "6927F4B90FFF49FE",
+          "34A7E82671B412C0",
+          "44A7AA085B078B6B"
+        ],
+        [
+          "38AA3A0690488109",
+          "63E7BAF6E01C1C21",
+          "6CF02AF097B24F6C"
+        ],
+        [
+          "4ABCFCE08CE172C6",
+          "2B108C1004C91BA7",
+          "2227920716565EEB"
+        ],
+        [
+          "38AA3A0690488109",
+          "66C557A17CB78490",
+          "2D3FEEE8A465BD81"
+        ],
+        [
+          "38AA3A0690488109",
+          "114CC5DAE19133AD",
+          "6EBF14AB34B90D58"
+        ],
+        [
+          "38AA3A0690488109",
+          "550FC72A7934CC32",
+          "4ADBE5CA8ED39A32"
+        ],
+        [
+          "38AA3A0690488109",
+          "592930D042219FA1",
+          "3A96E0444BADFC18"
+        ],
+        [
+          "35C3C6B6975DF9BA",
+          "3C9A0AD9943E8D32",
+          "2EC8BBD50B1299DD"
+        ]
+      ],
+      "hidden_line_sources": 5,
+      "width": 29.12,
+      "height": 30.0
+    },
+    "after": {
+      "crossings": 0,
+      "branch_crossings": 0,
+      "branch_max": 6.172,
+      "branch_mean": 3.013,
+      "quests": 85,
+      "mainline": 19,
+      "edges": 91,
+      "branch_p90": 4.513,
+      "main_branch_max": 5.52,
+      "overlaps": [],
+      "obstructions": [],
+      "hidden_line_sources": 0,
+      "width": 27.75,
+      "height": 26.89
+    },
+    "path": [
+      "2BC011A259CB912A",
+      "56B1B6DE2DC6AC53",
+      "2E3EB68E11525BE0",
+      "6B52AA180F13BE1B",
+      "19C6CCF9E3DDB12A",
+      "1DC65EC4881D29CB",
+      "78784B2BEFC065C7",
+      "736F2A991217F02B",
+      "351384989E02B6F5",
+      "7735071604918A33",
+      "6927F4B90FFF49FE",
+      "44A7AA085B078B6B",
+      "34A7E82671B412C0",
+      "47913F4D7B9518A1",
+      "52305313EBD7FFAC",
+      "1170C71C00B9CC61",
+      "410253FB10F90F6B",
+      "3BC4985F2FCC3521",
+      "6819120F6BFF6D8E"
+    ],
+    "logic_sha256": "b980145c8822596f4ae52a7a47d1c81f8b056abc859ea4648eea9bebe8615c61",
+    "existing_source_notes": [
+      "Unreachable from Chapter 1: 082A860A24936FA8",
+      "Unreachable from Chapter 1: 2B4A2F4E70823F3D"
+    ]
+  },
+  "1306DE3D8C100552.snbt": {
+    "before": {
+      "crossings": 14,
+      "branch_crossings": 14,
+      "branch_max": 7.973,
+      "branch_mean": 3.676,
+      "quests": 77,
+      "mainline": 21,
+      "edges": 85,
+      "branch_p90": 5.483,
+      "main_branch_max": 7.973,
+      "overlaps": [],
+      "obstructions": [
+        [
+          "360B7C74F41797C3",
+          "2DA877A48BBDA9F4",
+          "525260E69A37396D"
+        ],
+        [
+          "3B468A0A38F9102A",
+          "0C629B608B07FF1F",
+          "1A19941FAD0B5BE9"
+        ],
+        [
+          "0BFA4B1CD30BAEBC",
+          "0BD211E67D50CF58",
+          "3DD75D0D2640D17C"
+        ],
+        [
+          "0BFA4B1CD30BAEBC",
+          "5B8FB802B535F020",
+          "1257145C7B1ED966"
+        ],
+        [
+          "5B8FB802B535F020",
+          "2B9722994F43C11A",
+          "54CA7C830100C82A"
+        ],
+        [
+          "0BD211E67D50CF58",
+          "2B9722994F43C11A",
+          "1257145C7B1ED966"
+        ]
+      ],
+      "hidden_line_sources": 4,
+      "width": 23.5,
+      "height": 37.5
+    },
+    "after": {
+      "crossings": 0,
+      "branch_crossings": 0,
+      "branch_max": 6.217,
+      "branch_mean": 2.624,
+      "quests": 77,
+      "mainline": 21,
+      "edges": 85,
+      "branch_p90": 3.758,
+      "main_branch_max": 6.217,
+      "overlaps": [],
+      "obstructions": [],
+      "hidden_line_sources": 0,
+      "width": 20.58,
+      "height": 37.4
+    },
+    "path": [
+      "360B7C74F41797C3",
+      "525260E69A37396D",
+      "2DA877A48BBDA9F4",
+      "22307691FF8263AA",
+      "061EA4EAF5251F82",
+      "3F15362B02206511",
+      "268F032DB00AE45A",
+      "3B6C3DA120938D74",
+      "15C325BF70C50C68",
+      "1242AC8F3B36D130",
+      "1E5421AFC3E75F9E",
+      "660AE95F3347821F",
+      "557AF590D5394EDB",
+      "28D8B4F2A8E8B7DC",
+      "43095781E1CC4ED1",
+      "530D219494C4B942",
+      "5DF555C47E027786",
+      "3446ECE71A67EFCC",
+      "0BFA4B1CD30BAEBC",
+      "7A5FB78C02D56C66",
+      "2B9722994F43C11A"
+    ],
+    "logic_sha256": "88d5ce18c6d30173984c633a7e9785dbcd70bc8f7500adc1af1f3bc6e9a575ee",
+    "existing_source_notes": [
+      "Unreachable from Chapter 1: 082A860A24936FA8",
+      "Unreachable from Chapter 1: 2B4A2F4E70823F3D"
+    ]
+  }
+}

@@ -1,0 +1,686 @@
+{
+  "360B7C74F41797C3": {
+    "size": 2.0,
+    "shape": "pentagon",
+    "role": "main",
+    "x": 0.42,
+    "y": 0.02,
+    "stage": 0,
+    "hide_dependent_lines": false
+  },
+  "525260E69A37396D": {
+    "size": 1.5,
+    "shape": "rsquare",
+    "role": "main",
+    "x": 3.02,
+    "y": -1.48,
+    "stage": 0,
+    "hide_dependent_lines": false
+  },
+  "2DA877A48BBDA9F4": {
+    "size": 2.0,
+    "shape": "gear",
+    "role": "main",
+    "x": 6.0,
+    "y": 0.0,
+    "stage": 0,
+    "hide_dependent_lines": false
+  },
+  "22307691FF8263AA": {
+    "size": 1.5,
+    "shape": "rsquare",
+    "role": "main",
+    "x": 8.58,
+    "y": 1.58,
+    "stage": 0,
+    "hide_dependent_lines": false
+  },
+  "061EA4EAF5251F82": {
+    "size": 1.5,
+    "shape": "rsquare",
+    "role": "main",
+    "x": 8.6,
+    "y": 6.34,
+    "stage": 1,
+    "hide_dependent_lines": false
+  },
+  "3F15362B02206511": {
+    "size": 1.5,
+    "shape": "rsquare",
+    "role": "main",
+    "x": 6.0,
+    "y": 7.84,
+    "stage": 1,
+    "hide_dependent_lines": false
+  },
+  "268F032DB00AE45A": {
+    "size": 1.5,
+    "shape": "rsquare",
+    "role": "main",
+    "x": 3.0,
+    "y": 8.0,
+    "stage": 1,
+    "hide_dependent_lines": false
+  },
+  "3B6C3DA120938D74": {
+    "size": 1.5,
+    "shape": "rsquare",
+    "role": "main",
+    "x": 0.0,
+    "y": 8.0,
+    "stage": 1,
+    "hide_dependent_lines": false
+  },
+  "15C325BF70C50C68": {
+    "size": 2.0,
+    "shape": "gear",
+    "role": "main",
+    "x": -2.54,
+    "y": 8.59,
+    "stage": 1,
+    "hide_dependent_lines": false
+  },
+  "1242AC8F3B36D130": {
+    "size": 1.5,
+    "shape": "rsquare",
+    "role": "main",
+    "x": -2.31,
+    "y": 14.68,
+    "stage": 2,
+    "hide_dependent_lines": false
+  },
+  "1E5421AFC3E75F9E": {
+    "size": 1.5,
+    "shape": "rsquare",
+    "role": "main",
+    "x": 0.0,
+    "y": 16.0,
+    "stage": 2,
+    "hide_dependent_lines": false
+  },
+  "660AE95F3347821F": {
+    "size": 1.5,
+    "shape": "rsquare",
+    "role": "main",
+    "x": 3.0,
+    "y": 16.0,
+    "stage": 2,
+    "hide_dependent_lines": false
+  },
+  "557AF590D5394EDB": {
+    "size": 2.0,
+    "shape": "gear",
+    "role": "main",
+    "x": 6.0,
+    "y": 16.0,
+    "stage": 2,
+    "hide_dependent_lines": false
+  },
+  "28D8B4F2A8E8B7DC": {
+    "size": 2.0,
+    "shape": "gear",
+    "role": "main",
+    "x": 9.0,
+    "y": 16.0,
+    "stage": 2,
+    "hide_dependent_lines": false
+  },
+  "43095781E1CC4ED1": {
+    "size": 1.5,
+    "shape": "rsquare",
+    "role": "main",
+    "x": 11.8,
+    "y": 16.25,
+    "stage": 2,
+    "hide_dependent_lines": false
+  },
+  "530D219494C4B942": {
+    "size": 1.5,
+    "shape": "rsquare",
+    "role": "main",
+    "x": 11.6,
+    "y": 22.5,
+    "stage": 3,
+    "hide_dependent_lines": false
+  },
+  "5DF555C47E027786": {
+    "size": 1.5,
+    "shape": "rsquare",
+    "role": "main",
+    "x": 9.0,
+    "y": 24.0,
+    "stage": 3,
+    "hide_dependent_lines": false
+  },
+  "3446ECE71A67EFCC": {
+    "size": 2.0,
+    "shape": "diamond",
+    "role": "main",
+    "x": 6.0,
+    "y": 24.0,
+    "stage": 3,
+    "hide_dependent_lines": false
+  },
+  "0BFA4B1CD30BAEBC": {
+    "size": 2.0,
+    "shape": "diamond",
+    "role": "main",
+    "x": 2.99,
+    "y": 25.14,
+    "stage": 3,
+    "hide_dependent_lines": false
+  },
+  "7A5FB78C02D56C66": {
+    "size": 1.5,
+    "shape": "rsquare",
+    "role": "main",
+    "x": 1.7,
+    "y": 32.04,
+    "stage": 3,
+    "hide_dependent_lines": false
+  },
+  "2B9722994F43C11A": {
+    "size": 2.0,
+    "shape": "pentagon",
+    "role": "main",
+    "x": -2.6,
+    "y": 24.0,
+    "stage": 3,
+    "hide_dependent_lines": false
+  },
+  "54CA7C830100C82A": {
+    "size": 1.0,
+    "shape": "",
+    "role": "finale",
+    "x": 1.06,
+    "y": 20.56,
+    "stage": 3,
+    "hide_dependent_lines": false
+  },
+  "1257145C7B1ED966": {
+    "size": 1.0,
+    "shape": "",
+    "role": "finale",
+    "x": 1.63,
+    "y": 18.73,
+    "stage": 3,
+    "hide_dependent_lines": false
+  },
+  "3DD75D0D2640D17C": {
+    "size": 1.0,
+    "shape": "",
+    "role": "finale",
+    "x": 0.2,
+    "y": 24.57,
+    "stage": 3,
+    "hide_dependent_lines": false
+  },
+  "5B8FB802B535F020": {
+    "size": 1.0,
+    "shape": "",
+    "role": "finale",
+    "x": -0.0,
+    "y": 22.5,
+    "stage": 3,
+    "hide_dependent_lines": false
+  },
+  "425981BA2C8D5085": {
+    "size": 1.0,
+    "shape": "",
+    "role": "finale",
+    "x": 1.37,
+    "y": 28.89,
+    "stage": 3,
+    "hide_dependent_lines": false
+  },
+  "0BD211E67D50CF58": {
+    "size": 1.0,
+    "shape": "",
+    "role": "finale",
+    "x": 0.41,
+    "y": 26.59,
+    "stage": 3,
+    "hide_dependent_lines": false
+  },
+  "0C629B608B07FF1F": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": -2.49,
+    "y": -5.03,
+    "stage": 0,
+    "hide_dependent_lines": false
+  },
+  "4D29880555B412C4": {
+    "size": 1.25,
+    "shape": "gear",
+    "role": "branch",
+    "x": -2.74,
+    "y": 5.81,
+    "stage": 1,
+    "hide_dependent_lines": false
+  },
+  "2522B1E3E3DD7BB1": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": 9.39,
+    "y": 13.0,
+    "stage": 2,
+    "hide_dependent_lines": false
+  },
+  "5DF45BAD97AB13B4": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": 0.42,
+    "y": 3.02,
+    "stage": 0,
+    "hide_dependent_lines": false
+  },
+  "5AA325434FB371F9": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": -0.1,
+    "y": 5.79,
+    "stage": 1,
+    "hide_dependent_lines": false
+  },
+  "79EE25AF7BB2E00A": {
+    "size": 1.25,
+    "shape": "gear",
+    "role": "branch",
+    "x": 6.21,
+    "y": -4.4,
+    "stage": 0,
+    "hide_dependent_lines": false
+  },
+  "4E40C2CD1996B4FC": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": 4.23,
+    "y": -3.58,
+    "stage": 0,
+    "hide_dependent_lines": false
+  },
+  "263E614EDB3C24AE": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": -0.3,
+    "y": -3.88,
+    "stage": 0,
+    "hide_dependent_lines": false
+  },
+  "587B18CDEDD1B621": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": -2.21,
+    "y": -0.62,
+    "stage": 0,
+    "hide_dependent_lines": false
+  },
+  "0987758F87A4F134": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": 6.0,
+    "y": -2.25,
+    "stage": 0,
+    "hide_dependent_lines": false
+  },
+  "3568697AA2C87D99": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": 2.47,
+    "y": 13.74,
+    "stage": 2,
+    "hide_dependent_lines": false
+  },
+  "33ECEA9D3DC4AB7E": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": 6.38,
+    "y": 13.5,
+    "stage": 2,
+    "hide_dependent_lines": false
+  },
+  "78F608C7370F9152": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": 11.57,
+    "y": 24.66,
+    "stage": 3,
+    "hide_dependent_lines": false
+  },
+  "2632ADB878F4E102": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": -2.25,
+    "y": -2.75,
+    "stage": 0,
+    "hide_dependent_lines": false
+  },
+  "13575B55A6CB0872": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": 6.38,
+    "y": -6.67,
+    "stage": 0,
+    "hide_dependent_lines": false
+  },
+  "3F1A4832F5E53AEB": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": 3.68,
+    "y": -5.45,
+    "stage": 0,
+    "hide_dependent_lines": false
+  },
+  "56348CC8E7DBE376": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": 1.98,
+    "y": -3.58,
+    "stage": 0,
+    "hide_dependent_lines": false
+  },
+  "7CAC077217268E4A": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": 1.62,
+    "y": -5.56,
+    "stage": 0,
+    "hide_dependent_lines": false
+  },
+  "3B468A0A38F9102A": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": -0.43,
+    "y": -5.67,
+    "stage": 0,
+    "hide_dependent_lines": false
+  },
+  "6CF1CB719F03B210": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": -4.64,
+    "y": 5.42,
+    "stage": 1,
+    "hide_dependent_lines": false
+  },
+  "187AB6618D7E2C98": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": 13.5,
+    "y": 25.4,
+    "stage": 3,
+    "hide_dependent_lines": false
+  },
+  "6283E2CA5EF1667F": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": 15.33,
+    "y": 26.13,
+    "stage": 3,
+    "hide_dependent_lines": false
+  },
+  "3757F293C6B528B3": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": -2.25,
+    "y": 1.25,
+    "stage": 0,
+    "hide_dependent_lines": false
+  },
+  "49CC878E4EBCC49F": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": 6.0,
+    "y": 2.25,
+    "stage": 0,
+    "hide_dependent_lines": false
+  },
+  "4CFB498037A7B50A": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": -4.38,
+    "y": 14.94,
+    "stage": 2,
+    "hide_dependent_lines": false
+  },
+  "7FEB4F7CD3551552": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": -0.0,
+    "y": 13.75,
+    "stage": 2,
+    "hide_dependent_lines": false
+  },
+  "737D4652D3E005BF": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": 3.55,
+    "y": 18.0,
+    "stage": 2,
+    "hide_dependent_lines": false
+  },
+  "5A12262B51FAE5F8": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": 6.0,
+    "y": 18.25,
+    "stage": 2,
+    "hide_dependent_lines": false
+  },
+  "66CF05424B46BFA3": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": 4.5,
+    "y": 13.4,
+    "stage": 2,
+    "hide_dependent_lines": false
+  },
+  "032BAB508B81C9EA": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": 9.0,
+    "y": 18.25,
+    "stage": 2,
+    "hide_dependent_lines": false
+  },
+  "062E8545E82CC932": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": 11.25,
+    "y": 13.25,
+    "stage": 2,
+    "hide_dependent_lines": false
+  },
+  "06C2ABD7BEA52064": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": 10.86,
+    "y": 18.45,
+    "stage": 2,
+    "hide_dependent_lines": false
+  },
+  "103C0F3BCA82CD79": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": 10.5,
+    "y": 20.5,
+    "stage": 2,
+    "hide_dependent_lines": false
+  },
+  "4703AF475521C4D4": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": 7.5,
+    "y": 20.5,
+    "stage": 2,
+    "hide_dependent_lines": false
+  },
+  "675BF6D5C7081613": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": 2.25,
+    "y": 2.75,
+    "stage": 0,
+    "hide_dependent_lines": false
+  },
+  "371581DF3936EEF9": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": 4.5,
+    "y": -7.25,
+    "stage": 0,
+    "hide_dependent_lines": false
+  },
+  "1A19941FAD0B5BE9": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": -2.87,
+    "y": -7.12,
+    "stage": 0,
+    "hide_dependent_lines": false
+  },
+  "2419DF176B9667AB": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": -2.16,
+    "y": 3.64,
+    "stage": 1,
+    "hide_dependent_lines": false
+  },
+  "2816ECD02F10A567": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": 1.81,
+    "y": 5.75,
+    "stage": 1,
+    "hide_dependent_lines": false
+  },
+  "2B64464FAAF85067": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": -4.37,
+    "y": -5.13,
+    "stage": 0,
+    "hide_dependent_lines": false
+  },
+  "59956605EA22450D": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": -4.5,
+    "y": -3.35,
+    "stage": 0,
+    "hide_dependent_lines": false
+  },
+  "65787C7328568E0F": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": -4.24,
+    "y": 3.21,
+    "stage": 1,
+    "hide_dependent_lines": false
+  },
+  "140646AF556A8BFF": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": -5.62,
+    "y": 7.2,
+    "stage": 1,
+    "hide_dependent_lines": false
+  },
+  "26F342F74CE30381": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": 1.89,
+    "y": 11.57,
+    "stage": 2,
+    "hide_dependent_lines": false
+  },
+  "529D5BF6DC747D38": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": 6.75,
+    "y": 11.55,
+    "stage": 2,
+    "hide_dependent_lines": false
+  },
+  "02E101C93F94A2B7": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": 9.0,
+    "y": 11.0,
+    "stage": 2,
+    "hide_dependent_lines": false
+  },
+  "50BC80B3BCA97064": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": 10.69,
+    "y": 9.25,
+    "stage": 2,
+    "hide_dependent_lines": false
+  },
+  "70FFC2040B7D036E": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": 11.25,
+    "y": 11.0,
+    "stage": 2,
+    "hide_dependent_lines": false
+  },
+  "49B2FB20BC3049D2": {
+    "size": 1.0,
+    "shape": "",
+    "role": "branch",
+    "x": 15.66,
+    "y": 24.26,
+    "stage": 3,
+    "hide_dependent_lines": false
+  }
+}

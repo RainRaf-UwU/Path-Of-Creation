@@ -3,13 +3,13 @@
         {
             "name": "results",
             "role": "output",
-            "type": "item_stack[]",
+            "type": { "type": "list", "component": "item_stack" },
             "allow_empty": true
         },
         {
             "name": "ingredients",
             "role": "input",
-            "type": "ingredient[]",
+            "type": { "type": "list", "component": "ingredient" },
             "allow_empty": true
         },
         {
@@ -30,7 +30,7 @@
         {
             "name": "fluidInputVariant",
             "role": "input",
-            "type": "registry_element<minecraft:fluid>",
+            "type": { "type": "registry_element", "registry": "minecraft:fluid" },
             "optional": "minecraft:empty",
             "always_write": true
         },
@@ -44,7 +44,7 @@
         {
             "name": "fluidOutputVariant",
             "role": "output",
-            "type": "registry_element<minecraft:fluid>",
+            "type": { "type": "registry_element", "registry": "minecraft:fluid" },
             "optional": "minecraft:empty",
             "always_write": true
         },

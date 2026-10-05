@@ -28,7 +28,10 @@
     "showChat": true,
     "showServerIPs": true,
     "camera": "replaymod.camera.classic",
-    "camera_valid_values": [],
+    "camera_valid_values": [
+      "replaymod.camera.classic",
+      "replaymod.camera.vanilla"
+    ],
     "legacyMainMenuButton": false,
     "mainMenuButton": "DEFAULT",
     "mainMenuButton_valid_values": [
