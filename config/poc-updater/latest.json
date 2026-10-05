@@ -1,0 +1,9 @@
+{
+  "version": "0.1",
+  "notes": "## v0.1 更新内容\n\n- 更新了若干 Mod。\n- 修复已知 Bug。\n- 优化整合包任务线。\n\n运行环境：Minecraft 1.21.1 / NeoForge 21.1.255 / Java 21。\n\n下载与安装：path-of-creation-update.zip 为整合包文件更新包，不含 Minecraft 本体或启动器运行库。首次安装请先创建对应版本的 NeoForge 实例，再将 ZIP 内容解压到实例游戏目录。已有实例更新前请备份重要存档；若原客户端没有自动更新模组，或 NeoForge 版本不同，请先手动安装或升级运行环境。",
+  "page": "https://github.com/RainRaf-UwU/Path-Of-Creation/releases/tag/v0.1",
+  "download": "https://github.com/RainRaf-UwU/Path-Of-Creation/releases/download/v0.1/path-of-creation-update.zip",
+  "digest": "sha256:792509e04928b882aea9cdf6f1bfc605c7c267a0f66efc8fc08322d6bc3de017",
+  "checksum": "https://github.com/RainRaf-UwU/Path-Of-Creation/releases/download/v0.1/path-of-creation-update.zip.sha256",
+  "size": 475401083
+}
