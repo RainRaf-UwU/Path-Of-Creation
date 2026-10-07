@@ -1,31 +1,292 @@
 {
+	chapter.0113503505483482.title: "Chapter 1: Something from Nothing"
+	chapter.0137B0F2468B7B59.title: "Welcome"
+	chapter.0BE86652CC09F64A.title: "[DLC] Chapter 6: Stairway to Ascension (Work in Progress)"
+	chapter.0FCEFDA59D42875E.title: "ae2"
+	chapter.1306DE3D8C100552.title: "Chapter 5: Creative Mode?"
+	chapter.149B7FC09F5F2520.title: "Chapter 2: Hard Work Pays Off"
+	chapter.177E0CB4B646F860.title: "Tips and Tricks"
+	chapter.1F9CADE08E41FAE2.title: "Chapter 4: Path of Creation"
+	chapter.66900C421E317CA4.title: "Chapter 3: Uncovering the Truth"
+	chapter.7B36C593607B9973.title: "Audio"
+	chapter_group.169930A1FBBB4EB6.title: "Welcome"
+	chapter_group.315BDB53A7CCE29F.title: "Main Progression"
+	chapter_group.77D7C75CDD1E95EB.title: "Tips"
+	quest.002125F16123E0AC.quest_desc: ["This fluid seems to resonate with other dimensions. Check JEI for recipes; the success rate varies between recipes."]
+	quest.002125F16123E0AC.title: "Void Fluid"
+	quest.01B32042CD930CC2.quest_desc: ["Create, let's go!"]
+	quest.01B7DA9F6AA43572.quest_desc: ["You can obtain tallow by cutting your own flesh! Shift+right-click with a Butcher Knife."]
+	quest.01E52DAF5DEA384C.quest_desc: ["Make this in an Arc Furnace."]
+	quest.02056E257EBE749E.quest_desc: ["This chapter tests how long you can endure. Here, you will experience the gods' true malice.", "", "Goal: Collect 12 divine keepsakes and build the ritual 'Call of the Creator God' to ascend to Creative Mode. Look up the ritual in the Dictionary of Spirits."]
+	quest.027106980F6C7C9B.quest_desc: ["Quests are required in this pack. You can take a different route, but every chapter has an ultimate item you must obtain to unlock the next chapter.", "", "&aRead the quests carefully! Otherwise, you may not even know why your items disappeared!"]
+	quest.02E101C93F94A2B7.quest_desc: ["Right-click a Command Block with a Debug Stick to cycle between its variants."]
+	quest.037A2DA2776FC81E.quest_desc: ["Left-click with the Staff for clear weather; right-click for a thunderstorm."]
+	quest.04DB5C455EA62230.quest_desc: [""]
+	quest.071CC7C46F2F382B.quest_desc: [""]
+	quest.07ABC87F539D557B.quest_desc: ["It erodes nearby water sources."]
+	quest.090BE0A080ED4A91.quest_desc: ["Make this if the Lightning Rod feels too slow."]
+	quest.0A72961BD7C7D3A1.quest_desc: ["Eating this item grants 10 seconds of Spectator Mode. Do not quit the game while in Spectator Mode!"]
+	quest.0AE9DE9E1D6DA829.quest_desc: ["Making this is strongly recommended in the late game."]
+	quest.0AE9DE9E1D6DA829.title: "Quantum Computer"
+	quest.0BFA4B1CD30BAEBC.quest_desc: ["Infinity Ingots? Rainbow iron!"]
+	quest.0C7A692133B2E1D8.quest_desc: ["The best early-game option for wireless transfer."]
+	quest.0D4A17B23447BFCC.quest_desc: ["The following blocks can all be charged by lightning strikes."]
+	quest.0E29C38D9D44714D.quest_desc: ["Wireless transfer."]
+	quest.0F22F8BD0D39174E.title: "infinite"
+	quest.0F684EEF9837ED59.quest_desc: ["How to obtain spawn eggs."]
+	quest.1020A004367AFE5F.quest_desc: ["This chapter is optional. Each branch is an independent production line, and its final item is used only to craft the pack's ultimate completion item."]
+	quest.1167E45D16D89FD7.quest_desc: ["Can be placed in midair."]
+	quest.13575B55A6CB0872.quest_desc: ["This structure is dedicated to Atomic Reconstructor recipes.", "", "It operates only during the day. To run it around the clock, place a Time Crystal Block at the Nether Star Block position."]
+	quest.13B91DED1DBEE238.quest_desc: ["Each Production Upgrade adds 1 to each recipe's output. The bonuses are additive, with a maximum of 8 upgrades."]
+	quest.15432D300A13DD07.quest_desc: ["Right-click with an empty bottle below Y < -64 to obtain this."]
+	quest.1580EFA7604BBD11.quest_desc: ["This multiblock handles only vanilla potion recipes. Potions now stack to 64."]
 	quest.15A61F29261E4A61.quest_desc: ["Craft this with fluid XP, a carrot, potato, beetroot, wheat, and seeds. Feed it to a chicken to obtain a Golden Egg."]
 	quest.15A61F29261E4A61.title: "Nutritious Chicken Feed"
-	quest.180E8919165FF169.quest_desc: ["Use the advanced crafting table at the starting area. Iron, steel dust, and Create components are the key materials for this stage."]
+	quest.16E9382FB96DDCD6.quest_desc: ["Can replace every type of chalk."]
+	quest.180E8919165FF169.quest_desc: ["Use the Advanced Crafting Table at the starting area to make a Workbench. Iron, steel dust, and Create components are the key materials for this stage."]
 	quest.180E8919165FF169.title: "Craft a Workbench"
-	quest.25ECF09FD6BCCD72.quest_desc: ["Combine iron dust, coal, and an ore hammer for steel dust. The workbench recipe requires steel."]
-	quest.28147A7E4C048FF5.quest_desc: ["After obtaining the keepsake, continue to Chapter 4 for atomic forging and data models."]
+	quest.18A8D2E8CF702069.title: "Ability Totem"
+	quest.1A6716579B196F7F.quest_desc: ["The ultimate furnace: smelts one stack of items every tick."]
+	quest.1AF554B1236FA510.quest_desc: ["Left-click the Divine Furnace to clear dropped items."]
+	quest.1C24B43FE0C78EE7.quest_desc: ["Faster than the Quantum Crafter."]
+	quest.1C24B43FE0C78EE7.title: "Assembly Matrix"
+	quest.1CA94F9BDC56A763.quest_desc: ["Bedrock can now be broken. Right-click it with the Staff."]
+	quest.1CAAD39F8418E160.quest_desc: ["Using too many of these causes lag; they are not recommended."]
+	quest.1E09108A7C94ECEF.quest_desc: ["The Staff seems to resonate strongly with the block beneath your feet.", "", "Left-click Cobblestone with an empty hand for a very small chance to obtain water."]
+	quest.1E5421AFC3E75F9E.quest_desc: ["This structure has strict requirements. Only one of its 4 Redstone Blocks works normally; check JEI for the others.", "Main requirements: radiation and 10 dropped items tagged c:gems within 10 blocks (shown by the hopper-shaped icon in JEI)."]
+	quest.230569E240E62D06.quest_desc: ["This ore is radioactive."]
+	quest.2419DF176B9667AB.quest_desc: ["A universal data model... supposedly."]
+	quest.25ECF09FD6BCCD72.quest_desc: ["Combine iron dust, coal, and an Ore Hammer to make steel dust. The Workbench recipe later requires steel."]
+	quest.265BFD8EB3A73885.quest_desc: ["Some items now have shapeless crafting recipes."]
+	quest.276BAE5123525D3B.quest_desc: ["Stress capacity! More stress capacity!"]
+	quest.27B6868C50327017.quest_desc: ["Metal Press."]
+	quest.2802C513AF139DE1.quest_desc: ["&4Try blowing it up?"]
+	quest.28147A7E4C048FF5.quest_desc: ["After obtaining the divine keepsake, continue to Chapter 4 for atomic forging and data models."]
 	quest.28147A7E4C048FF5.title: "Continue to Chapter 4"
-	quest.2ABCB692F4717BC5.quest_desc: ["With the workbench complete, continue to Chapter 2 to establish ore and energy production."]
+	quest.287EFFF29F65966B.quest_desc: ["Improves energy efficiency and reduces each recipe's energy cost. Bonuses multiply exponentially."]
+	quest.28D8B4F2A8E8B7DC.title: "The End Is Also a Beginning"
+	quest.2926A66BE3F3F24F.quest_desc: ["The simplest logistics pipes, but using many of them causes lag."]
+	quest.2A1318317F78EAFD.quest_desc: ["Place Netherite Blocks on the bottom layer, Pointed Dripstone and Dripstone Blocks above them, and Allthemodium Blocks at the top. Check JEI for the exact arrangement."]
+	quest.2A2A099AFBB870CC.quest_desc: ["If you played version 0.0.5 or earlier, I recommend creating a new world. Those versions had a serious bug that prevented the outer End islands from generating. The bug has since been fixed, but the seed in each existing world is fixed, so its missing outer islands will not appear. You can still complete the pack without restarting, but you will miss some of the fun. Starting a new world is strongly recommended."]
+	quest.2ABCB692F4717BC5.quest_desc: ["With the Workbench complete, continue to Chapter 2. First establish ore acquisition and power production."]
 	quest.2ABCB692F4717BC5.title: "Continue to Chapter 2"
-	quest.2BC011A259CB912A.quest_desc: ["Begin with Wyvern injectors and atomic forging, then work toward the command block."]
+	quest.2AEBFC3EF15810CD.quest_desc: ["Operates only at Y <= -64. Pairing it with an Angel Block is recommended.", "", "If you do not want to travel that far, you can extract minerals from Void Fluid instead."]
+	quest.2B9722994F43C11A.quest_desc: ["The Creative ME Cell you crafted is an unusable shell. To ascend to Creative Mode, proceed to Chapter 6.", "", "The main pack is nearly complete at this point. Chapter 6 is optional and still in development."]
+	quest.2B9722994F43C11A.title: "Is It Over?"
+	quest.2BC011A259CB912A.quest_desc: ["Begin with Wyvern Fusion Crafting Injectors and atomic forging, then work toward the Command Block."]
 	quest.2BC011A259CB912A.title: "The Path of Creation"
-	quest.34ED20B92E8EE7F5.quest_desc: ["Players continuing an older world may use this repeatable summon after entering Chapter 4. Summon it only in a safe place."]
-	quest.34ED20B92E8EE7F5.title: "Legacy: Resummon the Chaos Guardian"
-	quest.34F71AD0BEB1DAC8.quest_desc: ["Carrying a spawner only moves it. This item task needs a spawner in your inventory: mine one with Silk Touch I. The tool takes 100 extra durability damage."]
+	quest.2D79E9DFA050F756.quest_desc: ["&aThe Quantum Computer's maximum multiblock size has increased from 7x7x7 to 10x10x10."]
+	quest.3043320DAB93BBA8.quest_desc: ["Make this if you have more iron than you know what to do with."]
+	quest.30F1C721383EA72A.quest_desc: ["Supplies power to items in your inventory."]
+	quest.316F5374AA73DACC.quest_desc: ["You can mine Divine Crystal Ore in the Aether, but there is an easier way here: throw Flint into the portal."]
+	quest.31D3B7C1FA56A30E.quest_desc: ["As everyone knows, diamonds are made of carbon.", "", "This method has a low chance of producing diamonds, so choose carefully. The configured chance is 50%, but my test yielded only about 20%: 21 diamonds from 100 Coal Blocks."]
+	quest.32FA7556259BC1B6.quest_subtitle: "Check JEI for recipes"
+	quest.335CA35FACAE2334.quest_desc: ["A particle striking a Nether Portal at a speed above 15000 creates a Black Hole. Right-click it with the Staff to collect it."]
+	quest.340728AB8C351E31.title: "AE Channel Changes"
+	quest.34A7E82671B412C0.quest_desc: ["You cannot place an End Portal yet. Try, and it will disappear."]
+	quest.34ED20B92E8EE7F5.quest_desc: ["Players continuing an older world may use this resummoning task after entering Chapter 4.", "", "If you do not want to start a new world, click here to summon the Chaos Guardian.", "&4Warning! Summon it only in a safe place!"]
+	quest.34ED20B92E8EE7F5.title: "Legacy Worlds: Resummon the Chaos Guardian"
+	quest.34F71AD0BEB1DAC8.quest_desc: ["Carrying a Spawner with an empty hand only moves it. This task needs a Spawner item in your inventory. Mine one with a Silk Touch I tool; the tool takes an extra 100 durability damage."]
 	quest.355A5CBA46D9D830.quest_desc: ["Start with datura, then build the ritual, Source, and Nature's Aura branches."]
 	quest.355A5CBA46D9D830.title: "Begin the Magic Stage"
-	quest.360B7C74F41797C3.quest_desc: ["Prepare a steel casing, then build a metallurgic infuser. The other branches feed the final infinity materials."]
+	quest.360B7C74F41797C3.quest_desc: ["Prepare a Steel Casing, then build a Metallurgic Infuser. The other branches feed into the final infinity materials."]
 	quest.360B7C74F41797C3.title: "Final Technology Stage"
+	quest.362369E91C0A4ADB.quest_desc: ["Can be linked to an AE network."]
+	quest.36C33DC4C7320764.quest_desc: ["Blow it up with TNT."]
+	quest.38AA3A0690488109.quest_desc: ["&aHostile Neural Networks:", "&3In addition to the 50 standard data models, this pack adds over 100 more. The extra models are shown above this quest.", "", "&3You do not have to collect every model manually; most can be crafted.", "", "&bEvery data model in this pack can be trained in the Dyeing Factory, but this recipe requires a new multiblock structure. Check JEI and click the icon in the bottom-left corner to view the structure.", "", "&bThe recipes shown for the Mechanical Saw and Stonecutter may differ because of a display bug. Follow the Stonecutter recipe."]
 	quest.38AA3A0690488109.title: "Data Model Basics"
+	quest.3B527640FB4AB505.quest_desc: ["These models must be collected. Getting several of each is recommended."]
+	quest.3B527640FB4AB505.title: "Data Models"
+	quest.3BC4985F2FCC3521.quest_desc: ["Command Blocks can now be placed in Survival Mode.", "", "Hold a Summoning Core in your off-hand and the matching data model in your main hand, then right-click a Command Block to summon the corresponding mob.", "", "&bShift+right-click a Command Block with Time in a Bottle to add 100h of time. This consumes the Command Block.", "", "&aJEI sometimes fails to show operator items after starting the game. Running /reload (requires cheats) can resolve this; the cause is still unknown."]
 	quest.3C2BF584C6BEDBED.quest_desc: ["Regular GM Chicken Feed is for spawn eggs. Golden Eggs require Nutritious Chicken Feed instead."]
-	quest.525260E69A37396D.quest_desc: ["Use the Fluid Crafting Table from Chapter 4. The steel casing recipe also needs molten Allthemodium, awakened draconium blocks, and Draconic Evolution upgrades."]
-	quest.5A12262B51FAE5F8.quest_desc: ["Inspect the multiblock in JEI. Later recipes use this structure unless they say otherwise."]
+	quest.3C7CDBFEC5095C5C.quest_desc: ["A safer way to duplicate items, but it can duplicate only one item type at a time."]
+	quest.3C929F89B27C4AEB.quest_desc: [""]
+	quest.3C9A0AD9943E8D32.quest_desc: ["An Ender Pearl colliding with more than 1wj of energy seems to have a similar effect on the End."]
+	quest.3EDAA2878D281801.quest_desc: ["You open your eyes to a vast void. All you have is the large-looking crafting table beneath your feet. You do not know why you are here. Now you must find a way to survive."]
+	quest.3EDAA2878D281801.title: "Look Around"
+	quest.3EEB0F3A98689F0A.title: "default"
+	quest.3F479B0019630857.quest_subtitle: "Place next to a Pattern Provider"
+	quest.42791C54924D8D3E.quest_desc: ["LootJS changes ore drops: pickaxes below the Allthemodium tier now mine ores with a built-in Silk Touch effect.", "", "&6Oritech addon changes:", "&aProcessing speed bonus: 50% => 150%", "&aPower penalty: 20% => 50%", "&aProcessing efficiency: 20% => 50%", "&aMachine capacitor capacity: x10"]
+	quest.42F9ED5151651A74.quest_desc: ["Hold the Staff in your off-hand and a Villager in your main hand, then right-click an Allthemodium Block to summon a Cow."]
+	quest.43C38E3ECD67E479.quest_desc: ["World interactions!"]
+	quest.44A7AA085B078B6B.quest_desc: ["There is still time to automate this."]
+	quest.4546768616CE7CCF.quest_desc: ["Transmutation success rates: rare -> common: 100%", "Common -> rare: below 50%", "Similar rarity: 50%", "Failed transmutation destroys the item."]
+	quest.4546768616CE7CCF.title: "Transmutation Fluid"
+	quest.465EBBD320AF4CB2.title: "5wj"
+	quest.46F86B49B45674BD.quest_desc: ["Place the appropriate fluids on the left and right of the Block Maker, and the matching block underneath. Right-click the machine to collect the result.", "", "Check JEI for recipes."]
+	quest.47913F4D7B9518A1.quest_desc: ["You can insert Eyes of Ender only while holding the Staff in your off-hand. Otherwise, the portal frames will still disappear.", "", "End ores no longer drop anything."]
+	quest.48143F51B3F40FF4.quest_desc: ["Use this manual to look up the mod's multiblock structures."]
+	quest.48BE4E64DEB63B09.quest_desc: ["The trial is over.", "You probably do not want to make the Workbench again.", "", "This method is not recommended unless you can control the reaction rate well; it can ruin your world. Chapter 2 provides a dedicated item-duplication machine.", "", "If you make a mistake, automatic backups are available."]
+	quest.48BE4E64DEB63B09.title: "Replication Fluid"
+	quest.49351FAE93FBE022.quest_desc: ["&4About portal recipes:", "Unless stated otherwise, portal recipes move from the Overworld to the specified dimension.", "Each portal recipe has a 10% chance to drop Portal Fragments.", "", "&aIf Create has rendering problems, try /flywheel backend flywheel:off", "", "&aThis pack does not require huge numbers of machines to obtain resources. Please report any recipe that seems unreasonable.", "", "My ability to fix rendering problems or crashes caused by other mods is limited."]
+	quest.49601F1E5EC20171.quest_desc: ["Currently the most useful pipes. See the manual for details."]
+	quest.49E2B69E3EB5A56B.quest_desc: ["Dummy Upgrades are unique to certain machines and act as ingredients that are not consumed. Check JEI for their uses."]
+	quest.4B3EC016CEC53D38.quest_desc: ["Stacks up to 10."]
+	quest.4B7B34FE8F70BC79.quest_desc: ["The central item of this modpack."]
+	quest.4B7B34FE8F70BC79.quest_subtitle: "Do not lose it"
+	quest.4B7B34FE8F70BC79.title: "Staff"
+	quest.4BD2877305C5853F.quest_desc: ["Keep other blocks away from it when possible.", "", "When growing Sculk Shriekers in Botany Pots, the hoe must have Silk Touch."]
+	quest.4CC782C41571C8B9.quest_desc: [""]
+	quest.4CFB498037A7B50A.quest_desc: ["Made of gold from head to toe."]
+	quest.4D29880555B412C4.quest_desc: ["This optional multiblock contains over 4000 blocks. It can reduce the idle waiting time later in the pack.", "", "Go inside the structure and light the Netherrack for the structure check to succeed."]
+	quest.5023A7E092989926.quest_desc: ["The CPU is a rectangular multiblock structure."]
+	quest.5023A7E092989926.title: "cpu!"
+	quest.50BC80B3BCA97064.quest_desc: ["Right-click a Command Block with an Ancient Stick in your main hand to obtain this. There is a 10% chance to destroy the Command Block."]
+	quest.525260E69A37396D.quest_desc: ["Use the Fluid Crafting Table from Chapter 4 to make a Steel Casing. The recipe needs Molten Allthemodium, Black Hole Blocks, Awakened Draconium Blocks, and Draconic Evolution upgrade materials."]
+	quest.52A9C3B99CE7EE20.quest_desc: ["Making Obsidian with the Block Maker consumes lava."]
+	quest.5498955A1B955831.quest_desc: ["Right-click this block with Nature Essence to generate 1000 Aura in the chunk."]
+	quest.549CA555FCBB296C.quest_desc: ["Determines the crafting limit."]
+	quest.557AF590D5394EDB.quest_desc: ["The final multiblock upgrade for this machine."]
+	quest.567F1F1D0E1A5D3A.quest_desc: ["Replicates an identical block."]
+	quest.57B0E6E3C6F60EAA.quest_desc: ["This power output should last you a long time.", "", "Created when lightning strikes a Gold Block."]
+	quest.589BAE3965650424.quest_desc: ["If the machine does not work, try rotating it."]
+	quest.5A10666CC807DC8D.quest_desc: ["Cobblestone => Obsidian", "You can build a portal frame from Cobblestone, then strike it with lightning.", "You can also collect lava using the earlier method.", "Nether structures generate normally, except for Bastion Remnants."]
+	quest.5A10666CC807DC8D.title: "The Nether"
+	quest.5A12262B51FAE5F8.quest_desc: ["Inspect the Large Fluid Processor's multiblock in JEI. Later recipes use this structure unless they say otherwise."]
 	quest.5A12262B51FAE5F8.title: "Large Fluid Processor Structure"
-	quest.6819120F6BFF6D8E.quest_desc: ["With the command block acquired, start Chapter 5 with a steel casing and metallurgic infuser."]
+	quest.5A764636209B62FC.quest_desc: ["Hold Dye Essence in your off-hand and a Summoning Core in your main hand, then right-click a Grass Block to summon a Villager."]
+	quest.5AA325434FB371F9.quest_desc: ["Hold the Staff in your off-hand and Radiation Cure in your main hand, then right-click a Command Block to clear world radiation.", "", "Eat Radiation Cure to clear the player's radiation."]
+	quest.5AA325434FB371F9.title: "What Is Radiation?"
+	quest.5C8DBC7B4027BA63.quest_desc: ["It is always daytime in this dimension. You may need that at some point."]
+	quest.5C8DBC7B4027BA63.title: "The Aether"
+	quest.5D8E3521FE7C3231.quest_desc: ["Right-click Planks with an Axe to obtain Slabs."]
+	quest.5D8E3521FE7C3231.title: "Slabs"
+	quest.5DF45BAD97AB13B4.quest_desc: ["The place to use the data-model summoning mechanic."]
+	quest.5E491704FC3D8ED5.quest_desc: ["You can now control time freely. Left-click or right-click Mini Cobblestone with the Staff."]
+	quest.63660F2B086DBF6B.quest_desc: ["Left-click a Bone Block with the Staff to obtain this."]
+	quest.63DC9E0B0B576E74.quest_desc: ["Default range: 7x7x7, centered one block above the Lightning Rod."]
+	quest.65787C7328568E0F.quest_desc: ["This data model consumes enormous amounts of power. A regular Simulation Chamber can no longer simulate it."]
+	quest.65BB0200A2ADF138.quest_desc: ["Controls which sides accept input materials. Useful for Mekanism automation."]
+	quest.665C1EE6A2A6A88A.quest_desc: ["Compress Redstone Dust between Bedrock and Obsidian to obtain this. Other methods of wireless power transfer are also available."]
+	quest.669CB95BC81991D4.quest_desc: ["Crunch it up."]
+	quest.669CB95BC81991D4.quest_subtitle: "You can eat this!"
+	quest.66F00B00B858A918.quest_desc: ["Has a chance to drop from killed monsters."]
+	quest.6819120F6BFF6D8E.quest_desc: ["The Command Block is yours. Start the next stage with a Steel Casing and Metallurgic Infuser, then work toward creative cells."]
 	quest.6819120F6BFF6D8E.title: "Continue to Chapter 5"
-	quest.6AA429C4E098BDEE.quest_desc: ["Datura seeds are ready. Continue to Chapter 3 for Occultism and Ars Nouveau."]
+	quest.685ECE4B48AEDFF2.quest_desc: ["Has a 10% chance to be obtained when performing a portal recipe."]
+	quest.6962FBFA92AD1892.quest_subtitle: "One replaces eight"
+	quest.6A3004279F4C68B9.quest_desc: ["Speed Upgrades stack multiplicatively, up to 16. Each upgrade multiplies power consumption by 1.3 and recipe duration in ticks by 0.9."]
+	quest.6AA429C4E098BDEE.quest_desc: ["Datura seeds are ready. Continue to Chapter 3 to learn Occultism and Ars Nouveau."]
 	quest.6AA429C4E098BDEE.title: "Chapter 2 Complete"
-	quest.7E88F371268D076D.quest_desc: ["Drop 27 cosmic coins into transmutation fluid for a 20% chance to get a creative fluid tank filled with ether gas."]
+	quest.6AD5495EBA25F09A.quest_desc: ["See how your AE network works."]
+	quest.6AF2EC1AD55B8A3F.quest_desc: [""]
+	quest.6AF2EC1AD55B8A3F.title: "Start"
+	quest.6DE07364A45581EC.quest_desc: ["This chapter is optional. Come here if the pack feels too difficult.", "", "Note: Some options have a major effect on progression. Choose carefully."]
+	quest.6EF0B2FF65497F56.quest_subtitle: "One replaces four"
+	quest.6F8CD7A506A8473D.quest_desc: ["Iron Block => Redstone Block"]
+	quest.7080E378C6500934.quest_desc: ["All Infusion Altar recipes have been removed."]
+	quest.70FFC2040B7D036E.quest_desc: ["Build the structure shown below, then right-click the Chain Command Block.", "Blocks: Command Block, End Stone, Advanced Essence Ingot Block, Chain Command Block.", "{image:rain:textures/2026-05-28_18.23.32.png width:100 height:100 align:center}"]
+	quest.749E9FAAE68C3E75.title: "Logs"
+	quest.7568A529FF2F37B3.quest_desc: ["Can smelt an extra 0.5 items."]
+	quest.761BC75D20A7CB83.quest_desc: ["&cFrom this chapter onward, you will use many multiblock machines. This machine checks whether a multiblock is valid. Place it at the structure's Redstone Block position. A valid structure produces a chat message. If the structure looks correct but no message appears, rotate the machine. If it still fails, check your construction.", "", "&aIn generated multiblocks, the Redstone Block marks the machine's position. Face the machine toward that Redstone Block when placing it, or it will not detect the structure.", "", "&aClick the block icon in the bottom-left corner of the machine's JEI page to view its structure. Building Gadgets templates are available as quest rewards.", "", "&aThe Copy-Paste Gadget cannot copy Bedrock. Build the floors of Void Mining Machine III and the Dyeing Factory yourself."]
+	quest.761BC75D20A7CB83.title: "Multiblocks!"
+	quest.778FA1E6A4A0ED3E.quest_desc: ["The custom audio is stored here. You can also play it using commands."]
+	quest.79216E8D1543C408.quest_desc: ["Starting at tier III, the machine no longer accepts Void Fluid, and its height restriction changes from below Y = -64 to below Y = 0."]
+	quest.7A803E73BA3AA4B9.quest_desc: ["The upgrade's effect is unchanged, but its calculation changes from exponential to linear multiplication."]
+	quest.7B8A74380F4748E4.quest_desc: ["Ascend only when you are strong enough to survive. The process lasts about 50s; dying during it destroys the ritual platform.", "", "If you die, wait at least one minute before trying again, or you may miss the story.", "", "Do not quit the game during the process.", "", "This story sequence happens only once per world; failed attempts ending in death do not count."]
+	quest.7B8A74380F4748E4.title: "Ascend!"
+	quest.7C340145D428B2DA.quest_desc: ["Magic!"]
+	quest.7E5E7512C697F3F2.quest_desc: [""]
+	quest.7E88F371268D076D.quest_desc: ["Drop 27 Cosmic Coins into Transmutation Fluid for a 20% chance to obtain a Creative Fluid Tank filled with Ether Gas."]
 	quest.7E88F371268D076D.title: "Ether Gas Tank"
+	quest.7EAD817522C2CF8B.quest_desc: ["This mod blacklists Mekanism by default. Change its configuration if you need compatibility."]
+	quest.7ECC0A72C17D7D2F.quest_subtitle: "The brain of your AE network"
+	quest.7F171FB20A9396E3.quest_desc: ["AE fully unlocked!"]
+	quest.7F955343A5FD0FDC.quest_desc: ["Custom machines are still being tested. Their user interfaces are not finished yet."]
+	quest.7FEB4F7CD3551552.quest_desc: ["The Copy-Paste Gadget cannot copy Resource Nodes. Starting from the Reinforced Dimension Wall side, place these nodes from left to right: Lapis, Iron, Coal, Gold, Emerald, Diamond, Copper, Redstone, Nickel, Uranium, Platinum. Finally, light Soul Fire inside the structure. Search JEI for the corresponding Resource Nodes to find their recipes.", "{image:rain:textures/2026-05-19_16.20.06.png width:100 height:100 align:center}", "", "{image:rain:textures/2026-05-19_16.19.33.png width:100 height:100 align:center}"]
+	task.007143E6DEE0828F.title: "ae"
+	task.025A2DA743173CCD.title: "Instructions"
+	task.037807B35DBEEB97.title: "Welcome"
+	task.04BD1EC92519AEE7.title: "Important: Part 2!"
+	task.054359725708A593.title: "Keybinds"
+	task.054407B02F78A52A.title: "nan man da bu"
+	task.05BE872DEDF7E7CD.title: "Support the Project"
+	task.05D6E060E157005F.title: "Start"
+	task.069C764F90F6B4DE.title: "Structure"
+	task.07C3BAA1A996FA92.title: "Sophisticated Backpacks"
+	task.0AAC19BBAED2E223.title: "For the Floor"
+	task.0D17713F04891994.title: "Instructions"
+	task.0F31997386A8820F.title: "Starting Materials"
+	task.105076CF90B407F6.title: "train"
+	task.108969927AD593CB.title: "Any #constructionstick:construction_sticks"
+	task.111DDF85650A8A15.title: "Instructions"
+	task.126B588C2B15C621.title: "1"
+	task.1997AA25804ACB10.title: "Change the Weather"
+	task.19A4F040F11B97CD.title: "Tutorial"
+	task.1A6012BDC9B246C7.title: "gaige"
+	task.1DDC88740AE3FB62.title: "Important!"
+	task.1FC254A92B7A5860.title: "Click to Summon the Chaos Guardian"
+	task.214A9AD6E8CB30EB.title: "phone"
+	task.21555F68D1196C19.title: "Mekanism Cables and Pipes"
+	task.21B7F42C9D77EF8F.title: "dark"
+	task.224C37A933684022.title: "zizi"
+	task.22EEA7CCAB6E342B.title: "Time in a Bottle"
+	task.23AE005A28D485EA.title: "Clear Dropped Items"
+	task.24805BAA3AB770A5.title: "Template"
+	task.263FAC27C2FCE4EE.title: "Important Mystical Agriculture Recipe Changes"
+	task.26D15627EC56F71D.title: "Configuration Changes"
+	task.297CE766C5E43BC5.title: "water"
+	task.2A9CA1CC0F13AEF3.title: "Structure"
+	task.2AE0AC22541AFB62.title: "Ascension"
+	task.2B68CB4567951AED.title: "waring"
+	task.2DFF7436D50138C9.title: "Upgrades"
+	task.2E7AE50D0292F813.title: "Pipez Pipes"
+	task.3003D8AEA657CC71.title: "tnt"
+	task.3118CF916F770E7D.title: "wao2"
+	task.3308968179E3B10F.title: "Reduce the Difficulty"
+	task.339C83B2226039D9.title: "Instructions"
+	task.348B717AB8DFA646.title: "Important Changes!"
+	task.35E92F5B7F705B48.title: "Any #minecraft:slabs"
+	task.377D0C8426A8E630.title: "dazidazi"
+	task.37D5833ABCCD87CF.title: "x3"
+	task.384530E5BDCD6DAB.title: "Any #functionalstorage:drawer_1x1"
+	task.3943BF7D298B7595.title: "1"
+	task.39AC783DF526A44C.title: "Any #c:dusts/netherite"
+	task.3CC0E0D32EDA07F0.title: "Staff"
+	task.3E0B01B84BA0410C.title: "Start"
+	task.4103C8020EC29B64.title: "infinity"
+	task.459ED5E533C98F53.title: "About the Quests"
+	task.46598571F36E234A.title: "discord"
+	task.485205A97E4ED34D.title: "Use Headphones!"
+	task.48BEBBAA7A46710F.title: "Structure"
+	task.49298D3957939F98.title: "1"
+	task.4A79ABCDB94CCD65.title: "correct"
+	task.4ACCC6135CBDEF11.title: "Reduce the Difficulty"
+	task.4BEDD6090E252CFE.title: "Super Factory Manager"
+	task.4C160BA1DF67A7AB.title: "Sound Effects"
+	task.4CD568E6B011C659.title: "Start"
+	task.4D22266E90E8FA7A.title: "ae2"
+	task.4DF2D5524C0A5F78.title: "incorrect"
+	task.4FCDA6FD29B59FE6.title: "About the Staff"
+	task.5268996E99AADBB8.title: "Double-Compressed Acceleration Torch"
+	task.52AEC9D7A737E0A8.title: "Instructions"
+	task.548C5C7C63BC719D.title: "Important Changes!"
+	task.54F62C3ACE8707A9.title: "wao1"
+	task.55210678372B8827.title: "Dummy Upgrades"
+	task.59264F2CD86DD125.title: "Start"
+	task.594C25ABA1B36812.title: "Structure"
+	task.5B9A8FDE5DD0F057.title: "Laser Nodes"
+	task.60754F6FF004069D.title: "deafu"
+	task.62AC1E5271B546E4.title: "Finish"
+	task.635338F6F3572AD8.title: "Finish"
+	task.64BC7E57DA686FA7.title: "2x"
+	task.6887288590741A67.title: "Replication"
+	task.692EFF3564C906A4.title: "Modular Routers"
+	task.6BE4B1052F10DCB3.title: "Compressed Acceleration Torch"
+	task.6D33C0F2CB0B242C.title: "x4"
+	task.6D90283FFC0206EA.title: "Finish"
+	task.6DBCC16EF9DE752A.title: "Structure"
+	task.6E70D64D0CE8DCBB.title: "Functional Storage"
+	task.6F18FD541C7D265A.title: "Change the Time"
+	task.70C09EE8D90AD172.title: "Easier Charging!"
+	task.71C1B1939E3C9AAF.title: "Items"
+	task.72114794B95A9B32.title: "Sophisticated Storage"
+	task.73CD73FB735EAE37.title: "Any #curios:back"
+	task.73D75E6A84980310.title: "Chest"
+	task.7487AFBAEE7CDB29.title: "breakcore"
+	task.766B9F479227CA18.title: "Integrated Dynamics Pipes"
+	task.7826EA22C491D820.title: "Any #minecraft:wooden_slabs"
+	task.787D44237B209EF2.title: "1"
+	task.796E88BA8A808092.title: "Any #create:sandpaper"
+	task.7E10781CBD307A8B.title: "Create Changes"
 }

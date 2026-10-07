@@ -21,9 +21,9 @@ final class UpdateScreen extends Screen {
     private List<FormattedCharSequence> lines = List.of();
 
     static UpdateScreen update(Screen parent, ClientUpdater updater, UpdateCore.Release release, String current) {
-        return new UpdateScreen(parent, "发现创世之径新版本", "当前版本：v" + current + "    最新版本：v" + release.version()
-            + "\n\n" + (release.notes().isBlank() ? "此版本未填写更新说明。" : release.notes())
-            + "\n\n选择更新后将下载更新包；下载完成后退出游戏安装，再重新启动。\n存档、按键和常见画面设置会保留。", updater, release);
+        return new UpdateScreen(parent, tr("poc_updater.title.update"), tr("poc_updater.versions", current, release.version())
+            + "\n\n" + (release.notes().isBlank() ? tr("poc_updater.no_notes") : release.notes())
+            + tr("poc_updater.instructions"), updater, release);
     }
 
     static UpdateScreen message(Screen parent, String title, String text, ClientUpdater updater) {
@@ -31,7 +31,7 @@ final class UpdateScreen extends Screen {
     }
 
     static UpdateScreen waiting(Screen parent, ClientUpdater updater) {
-        UpdateScreen screen = message(parent, "正在安装更新", "安装器正在更新整合包，请等待。\n安装结束后需要重新启动游戏。", updater);
+        UpdateScreen screen = message(parent, tr("poc_updater.title.installing"), tr("poc_updater.installing"), updater);
         screen.waiting = true;
         return screen;
     }
@@ -53,36 +53,36 @@ final class UpdateScreen extends Screen {
         scroll = Math.min(scroll, maxScroll());
         int y = height - 32;
         if (waiting) {
-            addRenderableWidget(Button.builder(Component.literal("退出游戏"), b -> minecraft.stop())
+            addRenderableWidget(Button.builder(Component.translatable("poc_updater.button.quit"), b -> minecraft.stop())
                 .bounds(width / 2 - 70, y, 140, 20).build());
         } else if (downloading) {
             // The transfer runs off the render thread. The screen remains responsive.
         } else if (restart) {
-            addRenderableWidget(Button.builder(Component.literal("退出并重新启动"), b -> minecraft.stop())
+            addRenderableWidget(Button.builder(Component.translatable("poc_updater.button.restart"), b -> minecraft.stop())
                 .bounds(width / 2 - 80, y, 160, 20).build());
         } else if (release == null) {
-            addRenderableWidget(Button.builder(Component.literal("知道了"), b -> onClose())
+            addRenderableWidget(Button.builder(Component.translatable("poc_updater.button.ok"), b -> onClose())
                 .bounds(width / 2 - 70, y, 140, 20).build());
         } else if (sha != null) {
-            addRenderableWidget(Button.builder(Component.literal("退出并安装"), b -> updater.install(this, release, sha))
+            addRenderableWidget(Button.builder(Component.translatable("poc_updater.button.install"), b -> updater.install(this, release, sha))
                 .bounds(left, y, panelWidth / 2 - 4, 20).build());
-            addRenderableWidget(Button.builder(Component.literal("稍后再说"), b -> onClose())
+            addRenderableWidget(Button.builder(Component.translatable("poc_updater.button.later"), b -> onClose())
                 .bounds(width / 2 + 4, y, panelWidth / 2 - 4, 20).build());
         } else {
-            Button update = Button.builder(Component.literal(release.download().isEmpty() ? "前往发布页" : "立即更新"), b -> {
+            Button update = Button.builder(Component.translatable(release.download().isEmpty() ? "poc_updater.button.release" : "poc_updater.button.update"), b -> {
                 if (release.download().isEmpty()) Util.getPlatform().openUri(release.page());
                 else {
                     downloading = true;
-                    text = "正在下载创世之径 v" + release.version() + "…\n\n下载完成后可以选择退出游戏并安装。";
+                    text = tr("poc_updater.downloading", release.version());
                     scroll = 0;
                     rebuildWidgets();
                     updater.download(this, release);
                 }
             }).bounds(left, y, panelWidth / 2 - 4, 20).build();
             addRenderableWidget(update);
-            addRenderableWidget(Button.builder(Component.literal("稍后再说"), b -> onClose())
+            addRenderableWidget(Button.builder(Component.translatable("poc_updater.button.later"), b -> onClose())
                 .bounds(width / 2 + 4, y, panelWidth / 2 - 4, 20).build());
-            addRenderableWidget(Button.builder(Component.literal("查看发布页"), b -> Util.getPlatform().openUri(release.page()))
+            addRenderableWidget(Button.builder(Component.translatable("poc_updater.button.view_release"), b -> Util.getPlatform().openUri(release.page()))
                 .bounds(width / 2 - 65, y - 24, 130, 20).build());
         }
     }
@@ -92,7 +92,7 @@ final class UpdateScreen extends Screen {
     void ready(String hash) {
         downloading = false;
         sha = hash;
-        text = "创世之径 v" + release.version() + " 已下载并通过校验。\n\n点击“退出并安装”后，安装器会等待游戏完全退出，再备份和替换文件。\n安装完成后请从启动器重新启动游戏。\n\n存档、截图、按键和个人添加的模组会保留。\n原文件备份保存在 local/poc-updater/backups。";
+        text = tr("poc_updater.ready", release.version());
         scroll = 0;
         rebuildWidgets();
     }
@@ -100,7 +100,7 @@ final class UpdateScreen extends Screen {
     void failed(String message) {
         downloading = false;
         sha = null;
-        text = "更新未完成：\n" + message + "\n\n可以重试或打开发布页手动安装。";
+        text = tr("poc_updater.failed", message);
         scroll = 0;
         rebuildWidgets();
     }
@@ -112,8 +112,8 @@ final class UpdateScreen extends Screen {
                 if (status != null) {
                     waiting = false;
                     restart = true; // This JVM may already have loaded the old JARs.
-                    text = (status.success() ? "更新安装完成。" : "更新安装失败：" + status.message())
-                        + "\n\n请退出当前游戏，然后从启动器重新启动。";
+                    text = (status.success() ? tr("poc_updater.installed") : tr("poc_updater.install_failed", status.message()))
+                        + tr("poc_updater.restart_instructions");
                     rebuildWidgets();
                 }
             } catch (Exception ignored) {} // Atomic status writes may be temporarily inaccessible on Windows.
@@ -121,7 +121,9 @@ final class UpdateScreen extends Screen {
     }
 
     @Override public void render(GuiGraphics g, int mouseX, int mouseY, float partialTick) {
-        renderBackground(g, mouseX, mouseY, partialTick);
+        // Screen.render blurs the background before drawing widgets. Run it once,
+        // before our foreground, so the title and changelog stay sharp.
+        super.render(g, mouseX, mouseY, partialTick);
         g.fill(left, top - 4, left + panelWidth, bottom + 4, 0xE018202C);
         g.drawCenteredString(font, title, width / 2, 18, 0xFFFFFF);
         g.enableScissor(left + 8, top, left + panelWidth - 8, bottom);
@@ -130,11 +132,12 @@ final class UpdateScreen extends Screen {
             if (y >= top && y < bottom) g.drawString(font, lines.get(i), left + 12, y, 0xE0E6EE, false);
         }
         g.disableScissor();
-        if (maxScroll() > 0) g.drawCenteredString(font, "滚轮 / ↑ ↓ / PageUp PageDown 查看更新内容", width / 2, height - 66, 0xA0A8B8);
+        if (maxScroll() > 0) g.drawCenteredString(font, tr("poc_updater.scroll_hint"), width / 2, height - 66, 0xA0A8B8);
         if (downloading) g.drawCenteredString(font, String.format(Locale.ROOT, "%.1f / %.1f MiB", downloaded / 1048576.0,
             release.size() / 1048576.0), width / 2, height - 42, 0xA0E0FF);
-        super.render(g, mouseX, mouseY, partialTick);
     }
+
+    static String tr(String key, Object... args) { return Component.translatable(key, args).getString(); }
 
     private int maxScroll() { return Math.max(0, lines.size() - Math.max(1, (bottom - top) / (font.lineHeight + 3))); }
 

@@ -1,6 +1,7 @@
 package creation.updater;
 
 import com.mojang.logging.LogUtils;
+import static creation.updater.UpdateScreen.tr;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.client.gui.screens.TitleScreen;
@@ -67,8 +68,7 @@ public final class ClientUpdater {
                 Files.delete(result);
                 if (!status.success()) {
                     handled = true;
-                    mc.setScreen(UpdateScreen.message(parent, "更新未完成", "安装失败，已尝试恢复原文件。\n" + status.message()
-                        + "\n\n详细记录与备份：local/poc-updater", this));
+                    mc.setScreen(UpdateScreen.message(parent, tr("poc_updater.title.failed"), tr("poc_updater.rollback", status.message()), this));
                     return;
                 }
             }
@@ -79,8 +79,8 @@ public final class ClientUpdater {
             } else if (popup == UpdateCore.Popup.CHANGELOG) {
                 String notes = release != null && UpdateCore.compare(release.version(), pack.version()) == 0 && !release.notes().isBlank()
                     ? release.notes() : pack.changelog();
-                mc.setScreen(UpdateScreen.message(parent, "创世之径 v" + pack.version() + " 更新内容",
-                    notes == null || notes.isBlank() ? "欢迎游玩创世之径 v" + pack.version() : notes, this));
+                mc.setScreen(UpdateScreen.message(parent, tr("poc_updater.title.changelog", pack.version()),
+                    notes == null || notes.isBlank() ? tr("poc_updater.welcome", pack.version()) : notes, this));
                 seen.add(UpdateCore.version(pack.version()));
                 UpdateCore.write(work.resolve("state.json"), new UpdateCore.State(seen));
             }
@@ -106,7 +106,7 @@ public final class ClientUpdater {
             Path helper = work.resolve("installer.jar");
             Files.createDirectories(work);
             try (InputStream in = ClientUpdater.class.getResourceAsStream("/poc-updater-helper.jar")) {
-                if (in == null) throw new IOException("安装器缺失，请重新安装自动更新模组");
+                if (in == null) throw new IOException(tr("poc_updater.helper_missing"));
                 Files.copy(in, helper, StandardCopyOption.REPLACE_EXISTING);
             }
             String javaName = System.getProperty("os.name").toLowerCase(Locale.ROOT).contains("win") ? "javaw.exe" : "java";
@@ -119,7 +119,7 @@ public final class ClientUpdater {
             Minecraft.getInstance().stop();
         } catch (Exception e) {
             try { Files.deleteIfExists(work.resolve("pending.json")); } catch (IOException ignored) {}
-            screen.failed("无法启动安装器：" + e.getMessage());
+            screen.failed(tr("poc_updater.helper_failed", e.getMessage()));
             LOG.warn("[POC Updater] Cannot start installer", e);
         }
     }
@@ -131,10 +131,10 @@ public final class ClientUpdater {
                 long pid = UpdateCore.read(pidFile, Long.class);
                 if (ProcessHandle.of(pid).map(ProcessHandle::isAlive).orElse(false)) return null;
             }
-            return new UpdateCore.Status(false, "安装器已停止。请检查 local/poc-updater/install.log 和 backups 后恢复；不要继续加载存档。");
+            return new UpdateCore.Status(false, tr("poc_updater.helper_stopped"));
         }
         Path result = work.resolve("result.json");
-        return Files.exists(result) ? UpdateCore.read(result, UpdateCore.Status.class) : new UpdateCore.Status(false, "未找到安装结果，请查看 local/poc-updater/install.log");
+        return Files.exists(result) ? UpdateCore.read(result, UpdateCore.Status.class) : new UpdateCore.Status(false, tr("poc_updater.no_result"));
     }
 
     private static void background(Runnable task) {

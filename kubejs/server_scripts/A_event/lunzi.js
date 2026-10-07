@@ -870,7 +870,7 @@ let pz = Math.floor(player.z)
 
 let name = player.name.getString()
 level.server.runCommandSilent(`playsound rain:waring player ${name} ${px} ${py} ${pz} 1 1`)
-typewriter(player, "警告！请立刻退出仪式！！！", {
+typewriter(player, global.pocText(player, "rain.story.warning"), {
     typeSpeed: 5000,
     cursorChar: "_",
     colors: ["#FF0000", "#AA0000", "#FF0000"],
@@ -881,7 +881,7 @@ typewriter(player, "警告！请立刻退出仪式！！！", {
 })
 
 player.level.server.schedule(4000,()=>{
-    typewriter(player, "只需破坏中间的方块即可！！！", {
+    typewriter(player, global.pocText(player, "rain.story.break_center"), {
     typeSpeed: 5000,
     cursorChar: "_",
     colors: ["#FF0000", "#AA0000", "#FF0000"],
@@ -893,7 +893,7 @@ player.level.server.schedule(4000,()=>{
 })
 
 player.level.server.schedule(8000,()=>{
-    typewriter(player, "你还愣着干什么！！！", {
+    typewriter(player, global.pocText(player, "rain.story.hesitating"), {
     typeSpeed: 5000,
     cursorChar: "_",
     colors: ["#FF0000", "#AA0000", "#FF0000"],
@@ -909,7 +909,7 @@ player.level.server.schedule(8000,()=>{
 })
 
 player.level.server.schedule(12000,()=>{
-    typewriter(player, "还剩不到30秒！！！", {
+    typewriter(player, global.pocText(player, "rain.story.seconds_left"), {
     typeSpeed: 5000,
     cursorChar: "_",
     colors: ["#FF0000", "#AA0000", "#FF0000"],
@@ -924,7 +924,7 @@ player.level.server.schedule(12000,()=>{
 })
 
 player.level.server.schedule(16000,()=>{
-    typewriter(player, "后果你承担不起！！！", {
+    typewriter(player, global.pocText(player, "rain.story.consequences"), {
     // typeSpeed: 5000,
     cursorChar: "_",
     colors: ["#FF0000", "#AA0000", "#FF0000"],
@@ -937,11 +937,11 @@ player.level.server.schedule(16000,()=>{
 })
 
 player.level.server.schedule(20000,()=>{
-    typewriter(player, "你真的会死的！！！", {
+    typewriter(player, global.pocText(player, "rain.story.death"), {
     cursorChar: "_",
     colors: ["#FF0000", "#AA0000", "#FF0000"],
     breatheTime: 1000,
-    permanentGlitchStrings: ["死"],  // 坐标一旦打出就隐藏
+    permanentGlitchStrings: [global.pocText(player, "rain.story.glitch.death")],  // 坐标一旦打出就隐藏
     typeSpeed: 60,
     glitchEnabled: true,           // 启用乱码
     glitchChars: "▓▒░█▀▄▌▐",       // 乱码字符池
@@ -953,11 +953,11 @@ player.level.server.schedule(20000,()=>{
 })
 
 player.level.server.schedule(24000,()=>{
-    typewriter(player, "我剩余的能量不多了！！！", {
+    typewriter(player, global.pocText(player, "rain.story.energy"), {
     cursorChar: "_",
     colors: ["#FF0000", "#AA0000", "#FF0000"],
     breatheTime: 1000,
-    permanentGlitchStrings: ["能量"],  // 坐标一旦打出就隐藏
+    permanentGlitchStrings: [global.pocText(player, "rain.story.glitch.energy")],  // 坐标一旦打出就隐藏
     typeSpeed: 60,
     glitchEnabled: true,           // 启用乱码
     glitchChars: "▓▒░█▀▄▌▐",       // 乱码字符池
@@ -969,11 +969,11 @@ player.level.server.schedule(24000,()=>{
 })
 
 player.level.server.schedule(28000,()=>{
-    typewriter(player, "它的力量正在增强！！！", {
+    typewriter(player, global.pocText(player, "rain.story.strength"), {
     cursorChar: "_",
     colors: ["#FF0000", "#AA0000", "#FF0000"],
     breatheTime: 1000,
-    permanentGlitchStrings: ["它","！"],  // 坐标一旦打出就隐藏
+    permanentGlitchStrings: [global.pocText(player, "rain.story.glitch.entity"), global.pocText(player, "rain.story.glitch.exclamation")],  // 坐标一旦打出就隐藏
     glitchRanges: [{start: 8, end: 11}],
     typeSpeed: 60,
     glitchEnabled: true,           // 启用乱码
@@ -986,7 +986,7 @@ player.level.server.schedule(28000,()=>{
 })
 
 player.level.server.schedule(32000,()=>{
-    typewriter(player, "要...坚持.不.住了。", {
+    typewriter(player, global.pocText(player, "rain.story.hold_on"), {
     cursorChar: "_",
     colors: ["#FF0000", "#AA0000", "#FF0000"],
     breatheTime: 1000,
@@ -1003,7 +1003,7 @@ player.level.server.schedule(32000,()=>{
 })
 
 player.level.server.schedule(36000,()=>{
-    typewriter(player, "...已经.不.....。", {
+    typewriter(player, global.pocText(player, "rain.story.fading"), {
     cursorChar: "_",
     colors: ["#FF0000", "#AA0000", "#FF0000"],
     breatheTime: 1000,
@@ -1020,7 +1020,7 @@ player.level.server.schedule(36000,()=>{
 })
 
 player.level.server.schedule(40000,()=>{
-    typewriter(player, "..来.不.及.了..。", {
+    typewriter(player, global.pocText(player, "rain.story.too_late"), {
     cursorChar: "_",
     colors: ["#FF0000", "#AA0000", "#FF0000"],
     breatheTime: 1000,
@@ -1270,17 +1270,17 @@ server.schedule(24000, () => {
         player.persistentData.putBoolean("test1", true)
         player.level.server.schedule(42000,()=>{
             // player.tell("你好§kabcdefg 你好")
-            level.server.runCommandSilent('/tellraw @a {"text":"仪式：§kabcdefg","obfuscated":false,"color":"red"}')
+            level.server.runCommandSilent('/tellraw @a {"translate":"rain.story.ritual","obfuscated":false,"color":"red"}')
             server.runCommandSilent(`effect give ${name} minecraft:blindness 2 0`)
         server.runCommandSilent(`effect give ${name} minecraft:nausea 5 2`)
         })
 
          player.level.server.schedule(46000,()=>{
-            level.server.runCommandSilent('/tellraw @a {"text":"危险等级：§kabc","obfuscated":false,"color":"red"}')
+            level.server.runCommandSilent('/tellraw @a {"translate":"rain.story.danger_level","obfuscated":false,"color":"red"}')
         })
 
         player.level.server.schedule(50000,()=>{
-                typewriter(player, "我已经无法§kabcdefg", {
+                typewriter(player, global.pocText(player, "rain.story.unable"), {
                 typeSpeed: 5000,
                 cursorChar: "_",
                 colors: ["#FF0000", "#AA0000", "#FF0000"],
@@ -1292,7 +1292,7 @@ server.schedule(24000, () => {
         })
 
          player.level.server.schedule(50000,()=>{
-                typewriter(player, "1祝2你3好4运5§kabcdefg", {
+                typewriter(player, global.pocText(player, "rain.story.good_luck"), {
                 typeSpeed: 5000,
                 cursorChar: "_",
                 colors: ["#FF0000", "#AA0000", "#FF0000"],
@@ -1305,12 +1305,12 @@ server.schedule(24000, () => {
         })
 
         player.level.server.schedule(54000,()=>{
-                typewriter(player, "你不需要知道我是谁§kabcdefg", {
+                typewriter(player, global.pocText(player, "rain.story.identity"), {
                 typeSpeed: 5000,
                 cursorChar: "_",
                 colors: ["#FF0000", "#AA0000", "#FF0000"],
                 breatheTime: 1000,
-                permanentGlitchStrings: ["道"],
+                permanentGlitchStrings: [global.pocText(player, "rain.story.glitch.know")],
                  glitchEnabled: true,
                 glitchChance: 1,
                 glitchChars: "▓▒░█",
@@ -1321,7 +1321,7 @@ server.schedule(24000, () => {
         })
 
          player.level.server.schedule(58000,()=>{
-                typewriter(player, "1我2只3能4跟5你6说这么多了§kabcdefg", {
+                typewriter(player, global.pocText(player, "rain.story.final_words"), {
                 typeSpeed: 5000,
                 cursorChar: "_",
                 colors: ["#FF0000", "#AA0000", "#FF0000"],
@@ -3124,7 +3124,7 @@ function boss_line(currentLevel) {
 
     
     // 根据关卡显示不同题目
-    const questions = ["1+1=", `${RDA} * ${RDB}`, "作者的b站是(uid或名字)：", "§k?§r*§k?§r=", "§kqwert§r(3)*=", "§k123123+4§r(3)?=", "§k123123+4§r(3+1)?=",  "§k123123+4§r(3+2)?=", `${RDF1} * ${RDF2}§k123123+4§r(3+2)?=`, "9+1="]
+    const questions = ["1+1=", `${RDA} * ${RDB}`, global.pocText(player, "rain.story.author_question"), "§k?§r*§k?§r=", "§kqwert§r(3)*=", "§k123123+4§r(3)?=", "§k123123+4§r(3+1)?=",  "§k123123+4§r(3+2)?=", `${RDF1} * ${RDF2}§k123123+4§r(3+2)?=`, "9+1="]
     const correctAnswers = ["2", `${RDA * RDB}`, "bilibili or uid", `${RDA3 * RDB3}`, `${RD41 * RD42 * RD43}`, `${RD51} ${RD52} ${RD53} ${notation_sure}`, `${RD51} ${RD52} ${RD53} ${mosinum} ${notation_sure}`, "9", "10", "10"]
     
     server.schedule(timeLine, () => {
@@ -3133,7 +3133,7 @@ function boss_line(currentLevel) {
         if (currentLevelGlobal !== myLevelVersion) return
         player.tell(questions[currentLevel] || "1+1=") 
         if(currentLevel == 3){
-             typewriter(player, "Day7:发现未知生物 Day15:它们进来了救", {
+             typewriter(player, global.pocText(player, "rain.story.damaged_log"), {
             // 日期正常，内容乱码
             // glitchRanges: [
             //     {start: 4, end: 10},
@@ -3141,7 +3141,7 @@ function boss_line(currentLevel) {
             //     {start: 32, end: 41}
             // ],
             // 关键词永久乱码
-            permanentGlitchStrings: ["未知生物", "它们进来了"],
+            permanentGlitchStrings: [global.pocText(player, "rain.story.glitch.creatures"), global.pocText(player, "rain.story.glitch.intruders")],
             glitchChars: `▓▒░█▀▄▌▐${RDA3}${RDB3}`,
             colors: ["#2F4F4F", "#696969", "#A9A9A9"],
             typeSpeed: 120,
@@ -3366,7 +3366,7 @@ function boss_line(currentLevel) {
                 let nextLevel = currentLevel + 1
 
                 if(currentLevel == 2){
-                    player.tell("§l关注§aRainraf_UwU§r§l谢谢喵")
+                    player.tell(Text.translate("rain.story.follow_author"))
                 }
                 
                 // 检查是否完成所有关卡
@@ -3630,6 +3630,6 @@ PlayerEvents.chat(event => {
             // server.schedule(2000, callback)
         }
     } else {
-        player.tell("§e未识别为有效答案，请直接输入数字")
+        player.tell(Text.translate("rain.story.invalid_answer"))
     }
 })

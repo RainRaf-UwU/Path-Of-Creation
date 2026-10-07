@@ -9,7 +9,7 @@
       "obfuscated": true
     },
     "description": {
-      "text": "你做了什么...",
+      "translate": "rain.advancement.question_mark.description",
       "color": "gray"
     },
     "frame": "challenge",

@@ -2,6 +2,8 @@
 
 已安装的客户端模组：`mods/poc-updater-1.0.0.jar`。支持 Minecraft 1.21.1、NeoForge 21.1.255，使用当前游戏的 Java 21，不需要玩家安装 Python。
 
+从整合包 v0.1.1 起，界面文字随游戏语言显示为简体中文或 English (US)，Release 更新说明提供中英文。背景模糊先于说明正文绘制，保持文字清晰。
+
 ## 玩家体验
 
 - 每次启动，在主菜单或直接进入世界后异步检查 `RainRaf-UwU/Path-Of-Creation` 最新正式 Release。
@@ -17,7 +19,7 @@
 1. 将本功能的文件与整合包最新内容提交到 GitHub：`mods/poc-updater-1.0.0.jar`、`config/poc-updater/`、`tools/poc-updater/`、`.github/workflows/poc-update-release.yml`。发布时保留原来的存档和启动器忽略规则。
 2. 在 GitHub 的 Releases 页面创建**正式 Release**，Tag 使用递增数字版本，例如 `v0.1`、`v0.2`。不要勾选预发布；将新版本设为 Latest。Tag 指向包含本功能和最新整合包文件的提交。也可以先在 `config/poc-updater/pack.json` 填写版本与更新说明、生成 baseline 并提交，然后推送与版本完全一致的 `v<版本>` Tag；工作流会在打包成功后创建 Release、上传附件并发布。
 3. Release 描述填写更新内容，这段文字会显示在玩家弹窗中；通过 Tag 发布时，说明取自 `pack.json` 的 `changelog`。
-4. 发布后，等待 `Build client update package` Actions 成功。工作流会自动附加 `path-of-creation-update.zip` 和同名 `.sha256` 文件，再更新 `main` 中的 `config/poc-updater/latest.json`。整个发布流程不创建分支。ZIP 中的客户端版本和更新说明自动取自该 Release，不需要改 Java 源码。
+4. 发布后，等待 `Build client update package` Actions 成功。工作流会自动附加 `path-of-creation-update.zip`、同名 `.sha256` 文件和 V2 的 256×256 图标/高清 Logo，再更新 `main` 中的 `config/poc-updater/latest.json`。整个发布流程不创建分支。ZIP 中的客户端版本和更新说明自动取自该 Release，不需要改 Java 源码。
 
 只提交代码不会触发版本更新。草稿和预发布被忽略；编辑同一个版本的更新说明不会再次弹窗。每次发布请使用新版本号。工作流未完成或没有更新 ZIP 时，弹窗会提供发布页入口，玩家可手动安装。
 

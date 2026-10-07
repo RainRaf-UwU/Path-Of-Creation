@@ -53,11 +53,11 @@ jobs:
           if ! gh release view "$RELEASE_TAG" > /dev/null 2>&1; then
             gh release create "$RELEASE_TAG" --verify-tag --draft --title "Path of Creation 创世之径 $RELEASE_TAG" --notes-file release-notes.txt
           fi
-      - name: Attach update package and checksum
+      - name: Attach update package, checksum and logos
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
-        run: gh release upload "$RELEASE_TAG" dist/poc-updater/path-of-creation-update.zip dist/poc-updater/path-of-creation-update.zip.sha256 --clobber
+        run: gh release upload "$RELEASE_TAG" dist/poc-updater/path-of-creation-update.zip dist/poc-updater/path-of-creation-update.zip.sha256 design/branding/path-of-creation-icon-256-v2.png design/branding/path-of-creation-logo-v2.png --clobber
       - name: Publish release from tag
         if: ${{ github.event_name == 'push' }}
         env:

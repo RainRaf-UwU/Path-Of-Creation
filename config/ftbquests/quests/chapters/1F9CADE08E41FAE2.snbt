@@ -1310,7 +1310,7 @@
 								1859940086
 							]
 							"buildinggadgets2:template_name": ""
-							"minecraft:custom_name": "\"大型流体处理器\""
+							"minecraft:custom_name": "{\"translate\":\"rain.template.large_fluid_processor\"}"
 						}
 						count: 1
 						id: "buildinggadgets2:template"
@@ -1355,7 +1355,7 @@
 							-1903534031
 						]
 						"buildinggadgets2:template_name": ""
-						"minecraft:custom_name": "\"虚空采矿机-3\""
+						"minecraft:custom_name": "{\"translate\":\"rain.template.void_miner_3\"}"
 					}
 					count: 1
 					id: "buildinggadgets2:template"
@@ -1390,7 +1390,7 @@
 							-103328214
 						]
 						"buildinggadgets2:template_name": ""
-						"minecraft:custom_name": "\"染色工厂\""
+						"minecraft:custom_name": "{\"translate\":\"rain.template.dyeing_factory\"}"
 					}
 					count: 1
 					id: "buildinggadgets2:template"
@@ -1439,7 +1439,7 @@
 								1859940086
 							]
 							"buildinggadgets2:template_name": ""
-							"minecraft:custom_name": "\"大型流体处理器-药水酿造\""
+							"minecraft:custom_name": "{\"translate\":\"rain.template.potion_factory\"}"
 						}
 						count: 1
 						id: "buildinggadgets2:template"
@@ -1509,7 +1509,7 @@
 							-1041239945
 						]
 						"buildinggadgets2:template_name": ""
-						"minecraft:custom_name": "\"虚空采矿机-4\""
+						"minecraft:custom_name": "{\"translate\":\"rain.template.void_miner_4\"}"
 					}
 					count: 1
 					id: "buildinggadgets2:template"
@@ -2184,7 +2184,7 @@
 								1859940086
 							]
 							"buildinggadgets2:template_name": ""
-							"minecraft:custom_name": "\"大型流体处理器-药水酿造\""
+							"minecraft:custom_name": "{\"translate\":\"rain.template.potion_factory\"}"
 						}
 						count: 1
 						id: "buildinggadgets2:template"

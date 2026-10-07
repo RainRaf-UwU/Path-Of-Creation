@@ -1,88 +1,88 @@
 {
   "schema": 1,
-  "version": "0.1",
+  "version": "0.1.1",
   "minecraft": "1.21.1",
   "neoforge": "21.1.255",
   "files": {
     "config/Mekanism-Extras/general.toml": {
-      "sha256": "f44e81fbc432790d3e14c68735fe423eb24ac0288b1f28fd6bdbe3dc65f799d3",
-      "size": 256
+      "sha256": "a4c36680a465460c931bbf321821590bd81ce81302a6f9332b1eaae030cb336b",
+      "size": 250
     },
     "config/Mekanism-Extras/generators.toml": {
-      "sha256": "660ea06f323518ed07028303ff593983fcdfe45c420d5e17b7bed413142d2d35",
-      "size": 1792
+      "sha256": "174ec6beeeb1791531fe85af5bac134afdf31e2429527580fc09ab6dcbaf4f00",
+      "size": 1747
     },
     "config/Mekanism-Extras/tiers.toml": {
-      "sha256": "39ed7b0744405a009eb74b8db0978a467b4e9ce74c77157b8c4c0da640565c4f",
-      "size": 15239
+      "sha256": "a606d0b3dde89d5045b793f70f4c88c38640b8f77c9bed629c4c28cd034828fa",
+      "size": 14817
     },
     "config/Mekanism/additions.toml": {
-      "sha256": "167317f50212fd80d2557ee1d560a796f2a99c827c979c6ca68e32e960cf3a1c",
-      "size": 6715
+      "sha256": "98a7e43185fa4ab876d1fe21c9e540f457ef56f02e366440b171c518f91d1755",
+      "size": 6539
     },
     "config/Mekanism/common.toml": {
-      "sha256": "41850b5f863ea3463cbaf2c194849c18f25971c548bb7ab469f16a3f07e63929",
-      "size": 1075
+      "sha256": "135c4f3482c6581b8d48843a004a88e15389c4932540d19560fb2ed11f5c5803",
+      "size": 1063
     },
     "config/Mekanism/gear.toml": {
-      "sha256": "87c1277f6d6482fe60deea64e73b3de019c65c7b4b7d0ef08c79f0ab3db95173",
-      "size": 13420
+      "sha256": "7deb0ab9ebc8b5237f06cbc478ef78bf78b57b8894469fd9d30acde6d9a21fda",
+      "size": 13058
     },
     "config/Mekanism/general.toml": {
-      "sha256": "9ee560cc5c28180b0d7fb93638677ecbad03c2161823b4c55989083bed7caa23",
-      "size": 13418
+      "sha256": "760678b83c2b44cb6af91977b5f6ef41a1c7e9884969c12e2d8823e9953da5e5",
+      "size": 13126
     },
     "config/Mekanism/generator-storage.toml": {
-      "sha256": "cffe68411b03dd9a454f7bac2dda8a5c71a9243a02c75056d58dd0014a07ebe2",
-      "size": 657
+      "sha256": "06fca6360fadb0e6365bd5bc36f55a0e0445b6c6f0ba02f3eee23d0ec24e5aa7",
+      "size": 637
     },
     "config/Mekanism/generators-gear.toml": {
-      "sha256": "a1cabe21624e576f52a5586c0940ebab86b5301ba5f2b318dbc4e353206e58e6",
-      "size": 773
+      "sha256": "11cb5b34de4345bad8af6d2d3563e839bea30f86e71a7d6507c1369d3c5f2d6b",
+      "size": 760
     },
     "config/Mekanism/generators.toml": {
-      "sha256": "ab2420e91a7fac1d3839f30dd812f376ce69559db190d0bad1f070940c25f993",
-      "size": 8491
+      "sha256": "355c2a32d88da260f141c49c3880d35c88be550127424a140b2c5c404a3a3599",
+      "size": 8292
     },
     "config/Mekanism/machine-storage.toml": {
-      "sha256": "029c07fbceff23b8545519a46d192f40cb18d28feea5fc91544e8f6e3e934420",
-      "size": 4880
+      "sha256": "1175048ed4c343bf3b4923f9ec936e21b62036f63f27fb668daa4522613b1178",
+      "size": 4736
     },
     "config/Mekanism/machine-usage.toml": {
-      "sha256": "ecf9f2597282ab1c1287122de664f85eb54b6dcc611c17e70732871f8a9ba35c",
-      "size": 4770
+      "sha256": "b8d372d1600d659c148f5e238b7054c321537f7de2dfad24801de286abce1f77",
+      "size": 4629
     },
     "config/Mekanism/startup.toml": {
-      "sha256": "4b1cf299c46ac8b9fb77ba9e8fe79d5594652ab4224f21b4ffc355ba1ade9b08",
-      "size": 1792
+      "sha256": "97f1eccffa97ae4b0638fa14314b214f7884f12b45ce1188b05b4f9c02bdeca2",
+      "size": 1733
     },
     "config/Mekanism/tiers.toml": {
-      "sha256": "06c76a1a1e2a70d4f56dc3dd9a3d26057ce9f4e64a7cdadf1712e05e5a2c4165",
-      "size": 12196
+      "sha256": "a62413e8c2db427d7e2db72fc6d16d1ce3285a5a84a4913a9877378319552277",
+      "size": 11832
     },
     "config/Mekanism/tools-materials-startup.toml": {
-      "sha256": "07c6f2a578caa6bb71a59c0b290ba0a5af9397a4fdefc64e2bd15b229d5edc08",
-      "size": 23929
+      "sha256": "798ffa4faab3f7e77e089e7517dea1be98cc18bd9723aa52969aa7cdc4e9787b",
+      "size": 23255
     },
     "config/Mekanism/tools.toml": {
-      "sha256": "d0e129bb5c552e991f673aa841236844b0e35fcebb38e253cffe37cf5974a66c",
-      "size": 12770
+      "sha256": "7fd1efea867a63578696dbcd2c54c0e3e9499376abc895b777037df9db558931",
+      "size": 12510
     },
     "config/Mekanism/world.toml": {
-      "sha256": "f4b3c94ed1dd8b599c784495fa4c0e9a31481ab0571e3d325554825b2aece3a9",
-      "size": 25155
+      "sha256": "8147706d107c4fa033fea425ae8c35df8cad2dd53f60f9a8b589f30ff0b4c82a",
+      "size": 24572
     },
     "config/MekanismMoreMachine/general.toml": {
-      "sha256": "67429a8b8c16391cd770b45d304adda7404ca3ac39eeb6725695b5b025cc7475",
-      "size": 1027
+      "sha256": "cf1eea0c0f19bc368a198adaf4c1c42c3a37534f01fb32c92b1d0cd935cb4834",
+      "size": 1019
     },
     "config/MekanismMoreMachine/machine-storage.toml": {
-      "sha256": "0ba41d8785877bf1de2644383459cc05a3bb1b112e271b1320af53681cb79168",
-      "size": 1406
+      "sha256": "92220a9384f04aeba1effac0ffb02dfbe2bb3a072e2a82ab366cd9c0268fadca",
+      "size": 1363
     },
     "config/MekanismMoreMachine/machine-usage.toml": {
-      "sha256": "2214b0187416759ce37368e2df2a2afd8f6af244ab70739f35881f0599ce00a9",
-      "size": 1354
+      "sha256": "32c15d975c7941934016b107b3ec83c92769c247ff5b34979977d92aa10a2355",
+      "size": 1311
     },
     "config/MouseTweaks.cfg": {
       "sha256": "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4",
@@ -93,44 +93,44 @@
       "size": 926
     },
     "config/actuallyadditions-common.toml": {
-      "sha256": "af89626c1122da76c6258dff1f984e905b0424b01a26a32653f78799471857db",
-      "size": 4765
+      "sha256": "403165195f39c951cb36b6cd57f18667f9e3f610f315a1c98edf73bbb51fcf44",
+      "size": 4664
     },
     "config/advanced_ae-common.toml": {
-      "sha256": "9b86fdd12b89efe7c305c41681ebbd37000f537bd3615f26e67feb18f1b3135c",
-      "size": 3238
+      "sha256": "ddeb073ef55df1b189f91f6fb9c17c29da51c43581c0ca1c10a3f95d1b3fa534",
+      "size": 3145
     },
     "config/ae2-common.toml": {
-      "sha256": "d5bb325da6d3dbaf0015cf02fbd2d708c22fe761232d2b9bb2112e1f187458d2",
-      "size": 6094
+      "sha256": "0b13fbe2bd57729f040dc9574e6fc826b30b8bfc75da69d244440a9fdd8477c7",
+      "size": 5876
     },
     "config/ae2omnicells-common.toml": {
-      "sha256": "8a847f5e740cc9264b525b511742dedcee0662e30398d0e9a8e0a925f5250963",
-      "size": 219
+      "sha256": "2c9b98656dd7b7394124357ac9eb519312c88e78e67b51cd269309f8671e3309",
+      "size": 216
     },
     "config/ae2omnicells-startup.toml": {
-      "sha256": "993508b76300355b9272a707c4b297fefb0690373f6ad6d1afc1f4dcbb52573f",
-      "size": 2080
+      "sha256": "a3dc8951fad37bcb394a16bc96f5aa59cf0acd0c95c1a79107363b87a6385fe7",
+      "size": 1989
     },
     "config/ae2wtlib.toml": {
-      "sha256": "8405fa1f1820cf98d772dad0a86e67a8d57d40c51a496af5356bed91899d6e9b",
-      "size": 26
+      "sha256": "18894f2fb101d59d2740d60c8a630fda90edfc59700acad1ae012ceade58a5d5",
+      "size": 25
     },
     "config/aeinfinitybooster-common.toml": {
-      "sha256": "ba7c0641997d91a4f7cf297f72d0c8ad442129b905cfdbb4ca7e30811ecf5824",
-      "size": 283
+      "sha256": "846e6bbec67f680e96cb0450135c1d5d240a5c33d2c90aceb18ac76d1eea4924",
+      "size": 273
     },
     "config/aether-common.toml": {
-      "sha256": "87cff44fd6dcadcbe15ed346faba65afe90a4a0b948e4758a805753ae2475340",
-      "size": 1402
+      "sha256": "67d50cb36d6b96c7cc47d613012c7d481cb6aef2b67540f8fb0ec5b7b7aa5ef2",
+      "size": 1379
     },
     "config/aether-server.toml": {
-      "sha256": "054dabc1c3d2765309fd589127800f61ef04f6368bc5a98b9e4a9efdd35c36ba",
-      "size": 3793
+      "sha256": "578abca7702fcecdb39845a7043f6ec1c504f153f6d3b4af45daedb29df931de",
+      "size": 3730
     },
     "config/aether-startup.toml": {
-      "sha256": "7540bee0eb77cd177eb6b550563709ca123b0b9ed77f9198d127340dcc528799",
-      "size": 104
+      "sha256": "432879e99cd2acb05c86479487b28bca59d00ed4b1451cefffddb5c96fc155b9",
+      "size": 101
     },
     "config/aether/aether_customizations.txt": {
       "sha256": "113f7dfc56b7b2efdc782e45356c87c47174bb76dc34dcef24ca2ec32c7908e1",
@@ -141,432 +141,432 @@
       "size": 2
     },
     "config/apotheosis/apothic_attributes.cfg": {
-      "sha256": "336a1dcfde783fb49e7f5ae3f5905179e2e7800c0cd41cee8fc6bd210edb2e06",
-      "size": 5285
+      "sha256": "0ce3691bf114d731d9af982f809af2ca88c6cdb2173597f2d82513cdd5610a41",
+      "size": 5162
     },
     "config/apotheosis/apothic_enchanting.cfg": {
-      "sha256": "2150a9e5f1bf77a33843d3a9d290efad799e7aaf338b1f6d0bedfae190864aa8",
-      "size": 718
+      "sha256": "d44a28ad5ba29bd441c06aa30938bc6ccac38d844a7517a9c965c99b67657abd",
+      "size": 698
     },
     "config/apotheosis/enchantments.cfg": {
-      "sha256": "3a2b44914c54d6f406f88e5e10ad766f720cec1f17555929a513e7660ae1953e",
-      "size": 78289
+      "sha256": "7c5a1000ea014c6b9f90bb0a2607e8faed92541799efc28f691ba969c5558abd",
+      "size": 76073
     },
     "config/apothic_spawners.cfg": {
-      "sha256": "04504b1ad646560f964575fd507c693c71f790e065657578ed90b7a6dc30e772",
-      "size": 1129
+      "sha256": "cf4881fcb29e74ddaa907c0fb378f1d1c37780611b826e0f62fc21baebd67571",
+      "size": 1097
     },
     "config/appflux-common.toml": {
-      "sha256": "8063b711a3ecf99b21947b7a128d1c301fade492e858eb5d7ce0ae4190eac597",
-      "size": 463
-    },
-    "config/ars_additions-common.toml": {
-      "sha256": "9c4f6bceaa59e78ae4188bd8e9049141f80c1adf02313b5c585d838eafb2ab27",
-      "size": 394
-    },
-    "config/ars_additions-server.toml": {
-      "sha256": "9422610d6424f6167c8193bbe4d30dcc9dc86b1e25523eae9f0226021cabd3ff",
-      "size": 2175
-    },
-    "config/ars_additions/glyph_mark.toml": {
-      "sha256": "fef7d3f3f235e12a7e6e466eb2a603924370ef32ad53d748c4b9fbaebf233a0f",
-      "size": 825
-    },
-    "config/ars_additions/glyph_recall.toml": {
-      "sha256": "9cb471f76c3a793afddc6bd848f807891bce4d8e8223fb3295850397360c2c29",
-      "size": 706
-    },
-    "config/ars_additions/glyph_retaliate.toml": {
-      "sha256": "b3d7e25bcf4c2453fbdfb666386bfb0d7babf288e0222cdb769078e324c4d303",
-      "size": 706
-    },
-    "config/ars_caelum-server.toml": {
-      "sha256": "b73b7823d3e0475b7890ac0732e4f501cfd9c24a0c7282eee3bd46c956257721",
+      "sha256": "4698fdc44f620d377a4ffac3fdcd3ee731a10ac7cc8003777a8ada3f270040ec",
       "size": 442
     },
+    "config/ars_additions-common.toml": {
+      "sha256": "cb5e202f40500ba815dd1f3b5c75d3e553ed8f3f9fd760f78b08421db940ca8b",
+      "size": 381
+    },
+    "config/ars_additions-server.toml": {
+      "sha256": "fd5bae27cfe97e92af93aaf15340523869758fb613178aab8c1793bab526adbc",
+      "size": 2111
+    },
+    "config/ars_additions/glyph_mark.toml": {
+      "sha256": "2c38ebf9266d62e326fbf1b278b8b0c5869dbccdbfcc7a64d8d3a408774913c8",
+      "size": 798
+    },
+    "config/ars_additions/glyph_recall.toml": {
+      "sha256": "63298a2985af66e6cd850a50fb3cacc0dca4f6761c8082dbfd3dbae6d232157c",
+      "size": 682
+    },
+    "config/ars_additions/glyph_retaliate.toml": {
+      "sha256": "5d9c69c46f4eab88bf13cdc9b23027b474e6751f1dab970c263e51aa28e9f315",
+      "size": 682
+    },
+    "config/ars_caelum-server.toml": {
+      "sha256": "9f680ce184e3ce63f86282e879ca76dae8ad810150afa8bfff30fcdc902f3231",
+      "size": 433
+    },
     "config/ars_creo-common.toml": {
-      "sha256": "873292e97e63271db486fae155def041c722c1eed96c9c5cba718763040f33f7",
-      "size": 288
+      "sha256": "81c27a99a3c7f7bc4caceb90449bf09ea50e84017395aaf04b61294a5c9db17a",
+      "size": 276
     },
     "config/ars_nouveau-common.toml": {
-      "sha256": "027bdab2329e2e71cc2546871f3eca724cd97a0667a623c9de7fc7c4e9dfd9b4",
-      "size": 2910
+      "sha256": "93efce754a15471f25b26853e2b3e21041e35feebf38ec1de2f2f141964bd8d6",
+      "size": 2813
     },
     "config/ars_nouveau-server.toml": {
-      "sha256": "ec5b705efcce221d6f4669031d284b469ba89b1ce7505a3dbbe8bd0e9b443b5f",
-      "size": 1877
+      "sha256": "8193eb0f4d97ab0dc5be4b00184540a7dc457c2f387ad0cd9b1f646d575aae70",
+      "size": 1803
     },
     "config/ars_nouveau-startup.toml": {
-      "sha256": "9fcf962fcc72ec8fbb25e6cb2a6abb87942acd502496225487065c02e3ab4dd3",
-      "size": 97
+      "sha256": "21b99b581a62a108511ce874e18fc64c6f02be0642e257bebee7740fe8ef22a8",
+      "size": 91
     },
     "config/ars_nouveau/doc_data.json": {
       "sha256": "081b1b98b191d81c4ff5b49760b51f491bb330a6ac45dfac831a3a6313cb072f",
       "size": 55
     },
     "config/ars_nouveau/glyph_accelerate.toml": {
-      "sha256": "a31f5889f63fe0dbf691ee7dd7206899a57deef186b3b2b46d7efa628c4c9d80",
-      "size": 378
+      "sha256": "1a00f7fa7cdb3667f85dd61f913d1a57455f6688f506cf5b90b854e4a33411ad",
+      "size": 360
     },
     "config/ars_nouveau/glyph_amplify.toml": {
-      "sha256": "1f08cedc144ec201d890842b5073d9c5f7a9b061274a472b29ca564b4ba819cf",
-      "size": 378
+      "sha256": "6d744796480f2d66754efffe376472caea02274b3af8798c90f67d34f6465ec0",
+      "size": 360
     },
     "config/ars_nouveau/glyph_animate_block.toml": {
-      "sha256": "0fb48deefa414eb5b2df9f519ae8e8df8253f8d26565a41c275b9b8a54254fc4",
-      "size": 1004
+      "sha256": "fe0da1597d3924940ecf447eff2c001da5deb6a8fe8b168ee764e04f427aaeac",
+      "size": 969
     },
     "config/ars_nouveau/glyph_aoe.toml": {
-      "sha256": "6067cc16ce094c79c33841a718a5b9af9ecfaddb56f186b0901df50e76b7c0ab",
-      "size": 378
+      "sha256": "2e47c6efedb37a1614b72517fb09ca513180fcc1bc7e9aa668f356cec750d2f4",
+      "size": 360
     },
     "config/ars_nouveau/glyph_blink.toml": {
-      "sha256": "b1be9bd915365b3abbe81b327dab17f7f26bb43f3ad11ea6bb4bfea35d091b28",
-      "size": 976
+      "sha256": "e46b59271dd1d9d4aa026b4530c3bbd096adae063c0b6676511c25a7b55b0603",
+      "size": 942
     },
     "config/ars_nouveau/glyph_bounce.toml": {
-      "sha256": "62447efc5276f8069a2ea44a1627c59a92e260fea86cf3ba8b617cca3509e1d2",
-      "size": 1006
+      "sha256": "d544b36881d1a1e73b90de303c1a33267bdd00e32df0f73e6723cf6d777ba322",
+      "size": 971
     },
     "config/ars_nouveau/glyph_break.toml": {
-      "sha256": "ad9edccc148cb07d3134acb4a4ece9a77c38cad6e5ef2ca9bb11ca25ae5ef05e",
-      "size": 902
+      "sha256": "b206a82522c979ed96897854d1763475122d5323aa830123d73895fd7df29089",
+      "size": 875
     },
     "config/ars_nouveau/glyph_bubble.toml": {
-      "sha256": "92fc53b20e893fcf59264d4804f875936ba78e4e593591fef16e095e094fb70a",
-      "size": 1052
+      "sha256": "a594309f6f98deb6a41bc439f5bbf6aa450236fd36ee07cfbee97f797a9c8923",
+      "size": 1015
     },
     "config/ars_nouveau/glyph_burst.toml": {
-      "sha256": "78ab4ac2f8e4b1509226075249774feb048851007aa5b6bd1dde6132f68bfed1",
-      "size": 910
+      "sha256": "7143356e93ad47762c4d5c0381aa8257ad370a011d818458a25f1d2d57388dfc",
+      "size": 883
     },
     "config/ars_nouveau/glyph_cold_snap.toml": {
-      "sha256": "228b1ac24a26b16c65ea1e40d7cb6adc912e17e319f741ceb6fe025cbcd988c6",
-      "size": 1187
+      "sha256": "38afcc32cea2dd984b7f980feb83cbb0f4cfbc2b399ec6c9b22bba4d5b8d895e",
+      "size": 1146
     },
     "config/ars_nouveau/glyph_conjure_water.toml": {
-      "sha256": "8c09b754d12127b13e3b5c4b1ca02f833480e5b17ea5c30407fff2bf2437bbc6",
-      "size": 1039
+      "sha256": "43137435d5ba37db7bf1408ce0986d0f2d1f0580163b9b69e42fe45b92e10c2d",
+      "size": 1004
     },
     "config/ars_nouveau/glyph_craft.toml": {
-      "sha256": "a816b622f7f5f854eab26acc5482df2b3899ac5347552bbfa4fd9d9c0463c85c",
-      "size": 841
+      "sha256": "d47e80f91c8c630c9bc1d94db62a988cb2d465a57e7757b66c843e87120abce7",
+      "size": 814
     },
     "config/ars_nouveau/glyph_crush.toml": {
-      "sha256": "14eb1329449f03ac7941a6eea6e74fd1fea8b47e42a250ce2099e00e3ee4988d",
-      "size": 1030
-    },
-    "config/ars_nouveau/glyph_cut.toml": {
-      "sha256": "b8415cea74a8a393207ff5246ddb8e1834eff5f6bd23c7bc410c60c1611e9d83",
-      "size": 995
-    },
-    "config/ars_nouveau/glyph_dampen.toml": {
-      "sha256": "dd21ec3899d06bff70793eeefbdc372e0b93b3842bf1e1c8a15f7e0b0f8e5f7f",
-      "size": 376
-    },
-    "config/ars_nouveau/glyph_decelerate.toml": {
-      "sha256": "b5990e67e62d60837508ef900955ba274ed580aa865cd377379ddf69762cdc85",
-      "size": 376
-    },
-    "config/ars_nouveau/glyph_delay.toml": {
-      "sha256": "64b39a22cd33e19c245dbec70e14da76da09368a16e346e42bd95cce5fd91e54",
-      "size": 1243
-    },
-    "config/ars_nouveau/glyph_dispel.toml": {
-      "sha256": "0526dbfce1d8351539200857e343455871cc811a025f43568217d360e335413a",
-      "size": 841
-    },
-    "config/ars_nouveau/glyph_duration_down.toml": {
-      "sha256": "102d57868ed836487c5e9d1060027211f86eea12cc95db7c8650fe8c4bf1239b",
-      "size": 378
-    },
-    "config/ars_nouveau/glyph_ender_inventory.toml": {
-      "sha256": "2a1fcb27cfcdf2ae95bafe7b485977cd22b64ff593a9a0034827858e47bd935b",
-      "size": 841
-    },
-    "config/ars_nouveau/glyph_evaporate.toml": {
-      "sha256": "a816b622f7f5f854eab26acc5482df2b3899ac5347552bbfa4fd9d9c0463c85c",
-      "size": 841
-    },
-    "config/ars_nouveau/glyph_exchange.toml": {
-      "sha256": "2a1fcb27cfcdf2ae95bafe7b485977cd22b64ff593a9a0034827858e47bd935b",
-      "size": 841
-    },
-    "config/ars_nouveau/glyph_explosion.toml": {
-      "sha256": "beacf60540f77b97b4bc12e4aa722c425893bf6d22745c8e6c935b8d85d90aba",
-      "size": 1263
-    },
-    "config/ars_nouveau/glyph_extend_time.toml": {
-      "sha256": "a31f5889f63fe0dbf691ee7dd7206899a57deef186b3b2b46d7efa628c4c9d80",
-      "size": 378
-    },
-    "config/ars_nouveau/glyph_extract.toml": {
-      "sha256": "558434e11f6a82855a8e43c6bf4896bcc86677aed0f6a06827295c0c1d33fbe7",
-      "size": 378
-    },
-    "config/ars_nouveau/glyph_fangs.toml": {
-      "sha256": "4cc4c94639da07abb843d2f0e213c7e00e6f97ac25f4d9bd47ec592f25f4a022",
+      "sha256": "ab830f97b0840f8791eb9aefc929c11058c83eccedec33998dce4a18edb5182a",
       "size": 997
     },
+    "config/ars_nouveau/glyph_cut.toml": {
+      "sha256": "5d0226e1a709a45a7f36e0975f56d423ccf84cdc0746a2de1db5e6547a1f6811",
+      "size": 962
+    },
+    "config/ars_nouveau/glyph_dampen.toml": {
+      "sha256": "526371ec6a6012cc7671ec633d6a686a173082ad74ce55a0ba45945297db15e3",
+      "size": 358
+    },
+    "config/ars_nouveau/glyph_decelerate.toml": {
+      "sha256": "5d1b1f1f648e4618bfe5f104cc0dcd8c5a48f7dc9152b3c1f28b38beb3812b66",
+      "size": 358
+    },
+    "config/ars_nouveau/glyph_delay.toml": {
+      "sha256": "ca69d25cbdfd4a4e1495e766ddf24664096c455f64d60436394b3dcfd4fa4a13",
+      "size": 1200
+    },
+    "config/ars_nouveau/glyph_dispel.toml": {
+      "sha256": "8c8a8748076d9ca77aee9ea2e1c056c578f90c80c77b4eece0596f07d3d334d3",
+      "size": 814
+    },
+    "config/ars_nouveau/glyph_duration_down.toml": {
+      "sha256": "5782cfd9f26599d253253abc81c9a1cc7488707eaf97261926c7625d2e0063b2",
+      "size": 360
+    },
+    "config/ars_nouveau/glyph_ender_inventory.toml": {
+      "sha256": "83517866ee58eeaa5207853b1df9f48fe1e6002d3d4ac9316685826e102f741e",
+      "size": 814
+    },
+    "config/ars_nouveau/glyph_evaporate.toml": {
+      "sha256": "d47e80f91c8c630c9bc1d94db62a988cb2d465a57e7757b66c843e87120abce7",
+      "size": 814
+    },
+    "config/ars_nouveau/glyph_exchange.toml": {
+      "sha256": "83517866ee58eeaa5207853b1df9f48fe1e6002d3d4ac9316685826e102f741e",
+      "size": 814
+    },
+    "config/ars_nouveau/glyph_explosion.toml": {
+      "sha256": "9f292ff65812c4658eb32d8d1cf9c0439f1a77f070462048c439bce7375fcd10",
+      "size": 1218
+    },
+    "config/ars_nouveau/glyph_extend_time.toml": {
+      "sha256": "1a00f7fa7cdb3667f85dd61f913d1a57455f6688f506cf5b90b854e4a33411ad",
+      "size": 360
+    },
+    "config/ars_nouveau/glyph_extract.toml": {
+      "sha256": "2923b972473f84e569639a661792bc2bd8bb9f1bf7122d0da628f312f48a58a0",
+      "size": 360
+    },
+    "config/ars_nouveau/glyph_fangs.toml": {
+      "sha256": "3f2ce40f6b2a4c804a0ef4faa21f55533450a581f6595208a64f569807e01e7a",
+      "size": 964
+    },
     "config/ars_nouveau/glyph_fell.toml": {
-      "sha256": "2d63e4dab44c445888035153f016535a471b45a5b63cb5060727dbcdd4eb4e41",
-      "size": 1010
+      "sha256": "0bb273e77ecfb966d8f4f00336a7483e30cbac46b92ed43a6f874a03c811dd6f",
+      "size": 975
     },
     "config/ars_nouveau/glyph_firework.toml": {
-      "sha256": "8e7fbe8d06d9e7fdfe4e191f9a1ad699813eee2e41e1ba3ecec22392925591e7",
-      "size": 870
+      "sha256": "a2bea05f322b1102860b50c92d485c4624035d33c082dbb62f524f4eaef79c5e",
+      "size": 843
     },
     "config/ars_nouveau/glyph_flare.toml": {
-      "sha256": "61e5c27ed697fb87fb693aaf0f1dd0e7d40081a589c59c00bb2b004aa2a743ea",
-      "size": 1081
+      "sha256": "475a5099fd400281ab1aeb5b38e4b95065e107ef856682bec6a6261e9c24e390",
+      "size": 1044
     },
     "config/ars_nouveau/glyph_fortune.toml": {
-      "sha256": "a1b14281c77dc0588771af4e235d03912b17b73090d68a2f4106b6a0d3ff4fd5",
-      "size": 378
+      "sha256": "6545a7af2dfa4de29ddc11b4ce893f09f3d347fa28b93b00abd14d95ca508b76",
+      "size": 360
     },
     "config/ars_nouveau/glyph_freeze.toml": {
-      "sha256": "cd7351df30eadfd4a5583dee4882fac2f76fef2e0d1f7e3cd7a9b9a354d61e65",
-      "size": 1037
+      "sha256": "04d635e42fda5056cafa24fd498e971275aac31862ba7f142192ed36d0ea3144",
+      "size": 1002
     },
     "config/ars_nouveau/glyph_glide.toml": {
-      "sha256": "ea07f2419ded616ff01c33cb04c81cdc1eff77ca681eb16b2351e0a7aa41fbb1",
-      "size": 1014
+      "sha256": "999f9cc0d2772f6c8c4c113b6d423507a0f5aa7c6ff9612fed4494951aba93ae",
+      "size": 979
     },
     "config/ars_nouveau/glyph_gravity.toml": {
-      "sha256": "db83e5fb8ce9e8fb19e25655a233c3a6800f8437f8e776c9e3cca78875cda12c",
-      "size": 1006
+      "sha256": "8475981cbf4a153c7e619200884d1bfd02b6e5c97fc7219af9ad9c46569143a1",
+      "size": 971
     },
     "config/ars_nouveau/glyph_grow.toml": {
-      "sha256": "8cb26465bdad2ecee54319f83445a41ba2bbf26a7071eac93131812ea0af3e53",
-      "size": 841
+      "sha256": "16196c2bfc1df9823079d6b80f820e7231ac96070adbe93e980ee3acb6fac008",
+      "size": 814
     },
     "config/ars_nouveau/glyph_gust.toml": {
-      "sha256": "9f60447a11660f62afafcf56c295faa78208fc83df991a4ccde07ce9cd9f28d0",
-      "size": 1036
+      "sha256": "29d609f56b64275ad70cca667792fb0eb3f52507e72aaac6863f17293d84ade6",
+      "size": 1002
     },
     "config/ars_nouveau/glyph_harm.toml": {
-      "sha256": "e132dad7db10594ae4c4f421300194e66d242b3c12017b5bd878cc6d17c0c781",
-      "size": 1159
+      "sha256": "f9fdc6c6f8e5a994e4b6f9f9cf0965267f9c135e0ddadd90673886c26fab3954",
+      "size": 1118
     },
     "config/ars_nouveau/glyph_harvest.toml": {
-      "sha256": "63274ce775cae15a45124a0e8cb84021aa4e3f228a48cc3e88157c90f3aaf84b",
-      "size": 841
+      "sha256": "6512b369f02e92b6ff2749541497b53c8abd71a4172b38299efa3ce9cd38b6ee",
+      "size": 814
     },
     "config/ars_nouveau/glyph_heal.toml": {
-      "sha256": "8973781972472014a1b81e4107734c482ef9cc268ddb08d73901838503b776a7",
-      "size": 1000
+      "sha256": "09623cd93bde087fa5355cb2ec2b88dc263e1b978c76da2a5638fa37c88fa1f3",
+      "size": 966
     },
     "config/ars_nouveau/glyph_hex.toml": {
-      "sha256": "4169a17c968a70aed11b64fab82f61c19d9d07f0fcc569365ff212008da64c12",
-      "size": 1037
+      "sha256": "67e4e66aeda634742bf3af2aa8537636475b24ec6e22edf858b0ff5d98a2ffb8",
+      "size": 1002
     },
     "config/ars_nouveau/glyph_ignite.toml": {
-      "sha256": "a8063898d4c718297aa4862f68d4174a6f0d384e05e7b7b55f48fbc01de4c8e2",
-      "size": 1035
+      "sha256": "8d11fde6e7b881456fd9eac472b2e49ee7c21996941b70ef3befaf7d412ee5f7",
+      "size": 1000
     },
     "config/ars_nouveau/glyph_infuse.toml": {
-      "sha256": "06aa8cd35dea1dd11468c882d121365ef4f786eba6a3cd3eb6687e7715fc1449",
-      "size": 901
-    },
-    "config/ars_nouveau/glyph_intangible.toml": {
-      "sha256": "be5aca1382603d2de080205417d063e09602018ce910ec789cdb47da87f8e46f",
-      "size": 995
-    },
-    "config/ars_nouveau/glyph_interact.toml": {
-      "sha256": "07b250690cc61289a015440fd7b3e97764157b12625ce69f857bc57bc131373f",
-      "size": 933
-    },
-    "config/ars_nouveau/glyph_invisibility.toml": {
-      "sha256": "cad5a54db1c8515614c12f0aae81de81db83a52d4803463f46a998adaaf1c533",
-      "size": 1006
-    },
-    "config/ars_nouveau/glyph_launch.toml": {
-      "sha256": "3982b1d34b2ca9665699e3c14bf9919c9e82da79e27cbe0b084b9b578f7ab125",
-      "size": 1034
-    },
-    "config/ars_nouveau/glyph_leap.toml": {
-      "sha256": "3f2a6124981a7a360867e319cfd3731c493d449083239a02560ae8ffaa3d284f",
-      "size": 1126
-    },
-    "config/ars_nouveau/glyph_light.toml": {
-      "sha256": "bd0bc89ccb0ba38c181596a4378a323e578805bd89e1ba980b2fb3781e2d1d64",
-      "size": 1068
-    },
-    "config/ars_nouveau/glyph_lightning.toml": {
-      "sha256": "0177b63a5fcb9e0b50523bb39c5babfd8a6fdf1c6d11b736d337254d5fa4e57a",
-      "size": 1107
-    },
-    "config/ars_nouveau/glyph_linger.toml": {
-      "sha256": "a7c281c535969659ba1578598eeaa0d7751c94081acf09f6953bff5b76cf4756",
-      "size": 858
-    },
-    "config/ars_nouveau/glyph_name.toml": {
-      "sha256": "bb76094a2602e94a1b04703879c154b9c7e785e028c06bc48f3c5c377d664070",
-      "size": 841
-    },
-    "config/ars_nouveau/glyph_orbit.toml": {
-      "sha256": "2c62e6e7d96d7bbe5cb9e67af0d0f2003c6021c0a18bfff0de65e2371cf8fae2",
-      "size": 841
-    },
-    "config/ars_nouveau/glyph_pantomime.toml": {
-      "sha256": "59279368035dd965e62431da2d189d417ae78371668b49f8bd6b1c1e325047bd",
-      "size": 732
-    },
-    "config/ars_nouveau/glyph_phantom_block.toml": {
-      "sha256": "595b43d01cdd6aa3b878f032f3e4c240559fba498f0c135ea6e2bdb2e05349cc",
-      "size": 868
-    },
-    "config/ars_nouveau/glyph_pickup.toml": {
-      "sha256": "63274ce775cae15a45124a0e8cb84021aa4e3f228a48cc3e88157c90f3aaf84b",
-      "size": 841
-    },
-    "config/ars_nouveau/glyph_pierce.toml": {
-      "sha256": "a514cd3b7a903a483ae2dacc7ed00cfeb9b2e0663997d4821acb6343a2a19958",
-      "size": 378
-    },
-    "config/ars_nouveau/glyph_place_block.toml": {
-      "sha256": "53883e24d2ec0a7a86d0246ec373e74b252476d3a8aed44a9697b5d61eeb9b62",
-      "size": 872
-    },
-    "config/ars_nouveau/glyph_prestidigitation.toml": {
-      "sha256": "dce9b819f6078583fe575c1f465b0c1bcda44e64edb02d367728512adf65fafe",
-      "size": 839
-    },
-    "config/ars_nouveau/glyph_projectile.toml": {
-      "sha256": "75e67c910beb7a4ac4a20d929fa0075ff3430642b337bd0e59a472b6921e0424",
-      "size": 803
-    },
-    "config/ars_nouveau/glyph_pull.toml": {
-      "sha256": "94f4318b159b004eb17817aa60a0d25fa38e6994e48704ec4e82582010480de9",
-      "size": 1038
-    },
-    "config/ars_nouveau/glyph_randomize.toml": {
-      "sha256": "1fbef113921700cb95768f8c25cd28c03ef3814c146592cac08567319169cc4c",
-      "size": 376
-    },
-    "config/ars_nouveau/glyph_redstone_signal.toml": {
-      "sha256": "fcc34d8f285896bb7bdacbd05a7ead8f70ce95b0b11834ac75eb9d267c526b63",
-      "size": 1023
-    },
-    "config/ars_nouveau/glyph_rotate.toml": {
-      "sha256": "3682c09001c27fdbae481347e605be9b60a8369d38ffbdf91c74c0ebb37740e6",
-      "size": 872
-    },
-    "config/ars_nouveau/glyph_rune.toml": {
-      "sha256": "d97f22e6a2dda9ad91f1dab25b2a700ed87a4d91a9420e576e9516c8476603f4",
-      "size": 872
-    },
-    "config/ars_nouveau/glyph_self.toml": {
-      "sha256": "1e88e21e1251b0ec88e73df02fa317ce62b744eaaebc42b1d17349e2b716df73",
-      "size": 705
-    },
-    "config/ars_nouveau/glyph_sense_magic.toml": {
-      "sha256": "944f91fb6ea9d469f2ab8ec81d908af0ff86a2d1d93098d3bcd3fd517046cab7",
-      "size": 1008
-    },
-    "config/ars_nouveau/glyph_sensitive.toml": {
-      "sha256": "3bfc7fe9767892cf8d9e8d9622eaa0885e19813bb286c8ce65c18be244a7755a",
-      "size": 378
-    },
-    "config/ars_nouveau/glyph_slowfall.toml": {
-      "sha256": "cad5a54db1c8515614c12f0aae81de81db83a52d4803463f46a998adaaf1c533",
-      "size": 1006
-    },
-    "config/ars_nouveau/glyph_smelt.toml": {
-      "sha256": "b3319285867d0e5cf609e171e9d0d1c8a2b3a8706bb26c798ca8a10cbe273cea",
+      "sha256": "2654b2da2bd530785867b1aeeec450b43a8b5bc4e649b6fd7263cdd61cc86b25",
       "size": 874
     },
-    "config/ars_nouveau/glyph_snare.toml": {
-      "sha256": "bcc530d2c08046256cd0ceadca6369826157b6dd9d571f7661e60e5e16ce3a79",
-      "size": 1006
+    "config/ars_nouveau/glyph_intangible.toml": {
+      "sha256": "3db36c0ebc07fd8842313c30ce3981132f04a6ec862a76397b1ab237affd0ca6",
+      "size": 960
     },
-    "config/ars_nouveau/glyph_split.toml": {
-      "sha256": "084c274c075eca508a74685b21c066eea0b14d816652152cd3cc75e6b4f692e8",
-      "size": 378
+    "config/ars_nouveau/glyph_interact.toml": {
+      "sha256": "1d5551a16a0612d67420c6bb777f320afbc83016edf64eda20fdf93a2137522e",
+      "size": 906
     },
-    "config/ars_nouveau/glyph_summon_decoy.toml": {
-      "sha256": "1bdadb76d582d01fb61ece1415abcc684cd37502c759e153c39af3768536a014",
-      "size": 1004
+    "config/ars_nouveau/glyph_invisibility.toml": {
+      "sha256": "70875b8e70361d9e520418568a49abf298671f063f71b79a7da2be73611ef476",
+      "size": 971
     },
-    "config/ars_nouveau/glyph_summon_steed.toml": {
-      "sha256": "14d04da5fa4e1230b4a0ec76bb55cc5d39d1d7d6ecfbec806add2b5eef2b1d7d",
-      "size": 1008
+    "config/ars_nouveau/glyph_launch.toml": {
+      "sha256": "55d87daf100d881544e27cb79f8f64ab45bf0f029a95f65533b0053c1471011b",
+      "size": 1000
     },
-    "config/ars_nouveau/glyph_summon_undead.toml": {
-      "sha256": "15786295b7aa1295bff15d52139baefbb0ba532ffa67a9b5a265e664ad7c4d98",
-      "size": 1004
+    "config/ars_nouveau/glyph_leap.toml": {
+      "sha256": "baac5add5570f00c76b16382d478b6a1b294e8752479eff61b0df9ad77bbabd8",
+      "size": 1090
     },
-    "config/ars_nouveau/glyph_summon_vex.toml": {
-      "sha256": "15786295b7aa1295bff15d52139baefbb0ba532ffa67a9b5a265e664ad7c4d98",
-      "size": 1004
+    "config/ars_nouveau/glyph_light.toml": {
+      "sha256": "477cf53d7df336dc8005a67189472ce8efa69a82b0f38d224168614a679a40e8",
+      "size": 1033
     },
-    "config/ars_nouveau/glyph_summon_wolves.toml": {
-      "sha256": "afc91de685aa8e4a619443ff158a55392fc6f300c45aaa83c46cf097c26cd6fa",
-      "size": 1004
+    "config/ars_nouveau/glyph_lightning.toml": {
+      "sha256": "e4b8be6bd7614eb592b8dd84098c7057f3b1f7581311a96e6573de60345c4d14",
+      "size": 1070
     },
-    "config/ars_nouveau/glyph_toss.toml": {
-      "sha256": "63274ce775cae15a45124a0e8cb84021aa4e3f228a48cc3e88157c90f3aaf84b",
+    "config/ars_nouveau/glyph_linger.toml": {
+      "sha256": "caf577865e0234d9fe327fdcdd2883a1e462fda5317f3b3941a8188c98b67331",
+      "size": 831
+    },
+    "config/ars_nouveau/glyph_name.toml": {
+      "sha256": "ff738a5089fa9261efe843e37bb736ea260e52c735b5358beda912fe60d8cdda",
+      "size": 814
+    },
+    "config/ars_nouveau/glyph_orbit.toml": {
+      "sha256": "cc6826ea137cd8a61acfc9d968eb87309fc6a106a0192078e49171b0c5722442",
+      "size": 814
+    },
+    "config/ars_nouveau/glyph_pantomime.toml": {
+      "sha256": "87e0fa71d54f11c99c165d95e2fa361fb5e4f8ef341313eedca2178766fdb983",
+      "size": 708
+    },
+    "config/ars_nouveau/glyph_phantom_block.toml": {
+      "sha256": "a29ef51f5d01b46c7fe1659a0313002a65ef95ab9e73fbf9bb6e61590b83b0dd",
       "size": 841
     },
+    "config/ars_nouveau/glyph_pickup.toml": {
+      "sha256": "6512b369f02e92b6ff2749541497b53c8abd71a4172b38299efa3ce9cd38b6ee",
+      "size": 814
+    },
+    "config/ars_nouveau/glyph_pierce.toml": {
+      "sha256": "3df19f4771ba80f902f704908120eaf9cabfa34f47d063cb2025519c4c62134c",
+      "size": 360
+    },
+    "config/ars_nouveau/glyph_place_block.toml": {
+      "sha256": "2ba37ee883c6482f3d5a0f36c5fd04549cb52ae6a4effc790735565921421309",
+      "size": 845
+    },
+    "config/ars_nouveau/glyph_prestidigitation.toml": {
+      "sha256": "c4d0396bb7394dbd63a9a77fb20889341e375d4090e825bfb3cc2d916d7d82a7",
+      "size": 812
+    },
+    "config/ars_nouveau/glyph_projectile.toml": {
+      "sha256": "ac31cb9304eb71f0c69ae28d5f2e2b64faff33bef8fcbecff8e7701d647c4878",
+      "size": 775
+    },
+    "config/ars_nouveau/glyph_pull.toml": {
+      "sha256": "4b4203c95aa9aa1c9af99868aef83b538ba402b0d0a7050d5e0d0ec1f4c797c0",
+      "size": 1004
+    },
+    "config/ars_nouveau/glyph_randomize.toml": {
+      "sha256": "422149dc77ea5f8c78d9357722dbca5e02b98db4c21523a6d5d769ce15fa722b",
+      "size": 358
+    },
+    "config/ars_nouveau/glyph_redstone_signal.toml": {
+      "sha256": "b6bf3273656f9ac4e2ed21622e56d142406ff86fcfe52c3e552ed2e316607ed0",
+      "size": 988
+    },
+    "config/ars_nouveau/glyph_rotate.toml": {
+      "sha256": "982ce24677aa780050ee99e66d395418216e62d03236887582369647dc995d53",
+      "size": 845
+    },
+    "config/ars_nouveau/glyph_rune.toml": {
+      "sha256": "2a6cdb9050080e2c86a7d1b67df0921e0c3470694500f561b33cc1bbb00fcca8",
+      "size": 845
+    },
+    "config/ars_nouveau/glyph_self.toml": {
+      "sha256": "9558b37ec6c6d6390a70ea540b7b03e7fab5b0401a8d9533650aae7d123d2f33",
+      "size": 681
+    },
+    "config/ars_nouveau/glyph_sense_magic.toml": {
+      "sha256": "90a76d94272fb2e9e8a33f76e2e360e15cef274d8e641e79a5274b4d85d8de79",
+      "size": 973
+    },
+    "config/ars_nouveau/glyph_sensitive.toml": {
+      "sha256": "d7cbfaa21678bdd9517ec4ef82194df43444426cf45c56dbe50c08b1180f42a8",
+      "size": 360
+    },
+    "config/ars_nouveau/glyph_slowfall.toml": {
+      "sha256": "70875b8e70361d9e520418568a49abf298671f063f71b79a7da2be73611ef476",
+      "size": 971
+    },
+    "config/ars_nouveau/glyph_smelt.toml": {
+      "sha256": "e8e3bbd8f4d9e69818a6f77e53f616cae184f486d7f1a96a82cf18bb90ec85ef",
+      "size": 847
+    },
+    "config/ars_nouveau/glyph_snare.toml": {
+      "sha256": "504c9ae0f7654926f8b03ecf5b19c80e0291f0ab794f1ad3d944f2e743728d4f",
+      "size": 971
+    },
+    "config/ars_nouveau/glyph_split.toml": {
+      "sha256": "52c42e61b03534889af34c74a4afbf3fd9534152633e98a2bc6ad392ae2bfb7f",
+      "size": 360
+    },
+    "config/ars_nouveau/glyph_summon_decoy.toml": {
+      "sha256": "08b390b9dc3f9cff82bdcbdbf4046f0f1caae224e07cdd1697a9fffa4fe94eb5",
+      "size": 969
+    },
+    "config/ars_nouveau/glyph_summon_steed.toml": {
+      "sha256": "237b9dfa9c110da43d561e87362b92fa7a3a32ebd5d45f1445f72372e7f2a25d",
+      "size": 973
+    },
+    "config/ars_nouveau/glyph_summon_undead.toml": {
+      "sha256": "80aae6754a1c8c1290bfa9c55c3c19ad0de55e0c7527eb2619556e75f6767982",
+      "size": 969
+    },
+    "config/ars_nouveau/glyph_summon_vex.toml": {
+      "sha256": "80aae6754a1c8c1290bfa9c55c3c19ad0de55e0c7527eb2619556e75f6767982",
+      "size": 969
+    },
+    "config/ars_nouveau/glyph_summon_wolves.toml": {
+      "sha256": "935d953295955d0101d1cb1424b25dded8892b3cfb8eecd680c46587a0d328a6",
+      "size": 969
+    },
+    "config/ars_nouveau/glyph_toss.toml": {
+      "sha256": "6512b369f02e92b6ff2749541497b53c8abd71a4172b38299efa3ce9cd38b6ee",
+      "size": 814
+    },
     "config/ars_nouveau/glyph_touch.toml": {
-      "sha256": "a1f827f53981ec72d2f356b6e92ef32d40caf0aeb26c8ee5130d20f51b6c3ca4",
-      "size": 703
+      "sha256": "b8bbd2c7b5d7744bc48f1b431e25209bd3ad7d92ebf206059386aed59714bf84",
+      "size": 679
     },
     "config/ars_nouveau/glyph_underfoot.toml": {
-      "sha256": "6a92f02f8b006e0053d10f27dbc80da9bfa36d0203f52d364b736033c0eaad14",
-      "size": 704
+      "sha256": "e1eec53c901be4a05b07bc49b56217982b90819fea17fab20fb0a370a3be347b",
+      "size": 680
     },
     "config/ars_nouveau/glyph_wall.toml": {
-      "sha256": "da7512f154f9718e3c431a095b10bc87da01196897e4c70d85988794e680f2aa",
-      "size": 884
+      "sha256": "b17d23ad6304cc473e3cab4ff353ec8c95700ec0f435703c9433cc79ef451500",
+      "size": 857
     },
     "config/ars_nouveau/glyph_wind_burst.toml": {
-      "sha256": "bba5f0fcca3ed14efcc274b040d300419c6055f0773ead64ef2e56a3b536dc5f",
-      "size": 1036
+      "sha256": "eac41dee3c88074dc995bd9d138fe65aeb1d12b05d44017cda1b9b3a2e4feb28",
+      "size": 1002
     },
     "config/ars_nouveau/glyph_wind_shear.toml": {
-      "sha256": "7aa97b266a9a8af07db4803bd61aeba15e8f6e3e059b562faa3c40bc8da31dd4",
-      "size": 1105
+      "sha256": "a1d305436a2af427091dc79c817ad5f19aabeca97be1297ddbffb4ed6977e4bd",
+      "size": 1068
     },
     "config/ars_nouveau/glyph_wither.toml": {
-      "sha256": "4169a17c968a70aed11b64fab82f61c19d9d07f0fcc569365ff212008da64c12",
-      "size": 1037
+      "sha256": "67e4e66aeda634742bf3af2aa8537636475b24ec6e22edf858b0ff5d98a2ffb8",
+      "size": 1002
     },
     "config/ars_nouveau/reset.toml": {
-      "sha256": "dce9b819f6078583fe575c1f465b0c1bcda44e64edb02d367728512adf65fafe",
-      "size": 839
+      "sha256": "c4d0396bb7394dbd63a9a77fb20889341e375d4090e825bfb3cc2d916d7d82a7",
+      "size": 812
     },
     "config/ars_nouveau/rewind.toml": {
-      "sha256": "927983e00266b0b3af2d78c1d5c10e791ed052e3cd8e525cc1bdb773845e921e",
-      "size": 1362
+      "sha256": "cfba46b855cf3bef2c4792b313eb9bdfc28ecdf29792ab8996fb44840d8b3009",
+      "size": 1319
     },
     "config/ars_nouveau/wololo.toml": {
-      "sha256": "d97f22e6a2dda9ad91f1dab25b2a700ed87a4d91a9420e576e9516c8476603f4",
-      "size": 872
+      "sha256": "2a6cdb9050080e2c86a7d1b67df0921e0c3470694500f561b33cc1bbb00fcca8",
+      "size": 845
     },
     "config/arsdelight-common.toml": {
-      "sha256": "d559b92f3ed39e3e582dcee3ca54748ba94c6cca8c285385d5a3c2108d00de55",
-      "size": 27
+      "sha256": "60abf2c106d2c46e1b90bc74af22443034ebd31d9449547476d73e20e1c6dd88",
+      "size": 26
     },
     "config/arsdelight-server.toml": {
-      "sha256": "cdd272a01d1c7294685107e11373f09fb88c99c7acdf72f3a87b6f35029e5896",
-      "size": 359
+      "sha256": "1976990dd83b743b20cef0858e26826e2477387aeb8a94d23b956277143fbbd0",
+      "size": 343
     },
     "config/arseng-common.toml": {
-      "sha256": "ad4af9232ccbc8f250ef6935484d18ba885974347d2457b03e74985f8008057a",
-      "size": 271
+      "sha256": "d2e199338ca8cdd6a345990ba6a3415bb6296dbc7c0aeeab26184f1c017d4a4d",
+      "size": 263
     },
     "config/artifacts/general.toml": {
-      "sha256": "adf28da3015f3eb102da2e6d208233db280c08b3a005cbe65d86d7d64135f31d",
-      "size": 2217
+      "sha256": "dde67a24463fe9b199425856475d57702356869f3d732271f2fe12afa3aa8281",
+      "size": 2162
     },
     "config/artifacts/items.toml": {
-      "sha256": "4ad2b5325a9ddd32792b0cca532ab88914ae0c85aef8f5f56db8f5e75609bc28",
-      "size": 20051
+      "sha256": "0d4971e2356a4ceabc4c4b2d69c81c2d3fbcf4b46e384423098f3856dcd2689c",
+      "size": 19505
     },
     "config/avaritia-common.toml": {
-      "sha256": "629ad07ed54f05a58290c1717c42b0412f6e2f16eb32f00ffd5f3bfb56e9850b",
-      "size": 3171
+      "sha256": "fbcefd70ae68b992ee032b8404b3170d32c6daf7fa8dc65dc5b5364f8651629e",
+      "size": 3047
     },
     "config/avaritia/singularities/aluminum.json": {
       "sha256": "58ab4175ac6b11ea5d261bd291071c0e03b460e59aa2070e4bc4351b9eaf097e",
@@ -661,108 +661,108 @@
       "size": 381
     },
     "config/betterendisland-neoforge-1_21.toml": {
-      "sha256": "ffe069fd52a22a7967f4d012382dca670f585635cb721c2190f0595969b662af",
-      "size": 943
+      "sha256": "9f967435aa86ab5959ee76a215cde5176bee106fae08df3b6e440c77a823867a",
+      "size": 924
     },
     "config/botanypots.json": {
       "sha256": "4c2c8d447ff50ed3de32aaff6d16fc4cdbca4b4d9cb090b0c9795be1c327f124",
       "size": 3624
     },
     "config/brandon3055/BrandonsCore.cfg": {
-      "sha256": "3a2fd5ed0f34f3561a54ba8a4ff350ec52196dafccc97e1f41defd7e2e84181c",
-      "size": 754
+      "sha256": "1d56ce851586b9e31b0bc40ceacce9a5f05d6568d40d05fbc6c7608d3001a7bb",
+      "size": 739
     },
     "config/brandon3055/DraconicEvolution.cfg": {
-      "sha256": "546ed12f12924b74d9fbf094cc5dc4532666665119342bf27f0f854528310a40",
-      "size": 17189
+      "sha256": "c5b0c13e0b22a2792ddabfa1533140fd28e9560c5ca2a7093acb508aff3867c3",
+      "size": 16699
     },
     "config/brandon3055/ModuleStats.cfg": {
-      "sha256": "997361ff0a555be5488f313e2038fd45a456b137a36105494fd86221d08dde87",
-      "size": 9472
+      "sha256": "f0a816673cd675d134f591070451b521fb3cc2f0aee86b0b110b1fa3cfa49772",
+      "size": 8897
     },
     "config/brandon3055/hud_settings.json": {
       "sha256": "12f7829b4f2a7073226189b5d090797ec5c1a6a35ce5767fd22e4afe62cbc646",
       "size": 349
     },
     "config/buildinggadgets2-common.toml": {
-      "sha256": "596a9276f68bd49ad010420cbcad2c84d093553478fd1f91c3d66579f2416776",
-      "size": 1384
+      "sha256": "15fafb7fc5c19f7c59c7a3d56d70091195a10053454b3c7f54271df97b7e16d9",
+      "size": 1320
     },
     "config/camera-server.toml": {
-      "sha256": "d706ac615a38636d4ae02d962754b1ba5be90e4a9dabc788d9ebc66ed5d5f555",
-      "size": 1170
+      "sha256": "b8a8aebcd322af41a49c1503e66e61fe7a485269bcd20e7c0a411232f2448f78",
+      "size": 1131
     },
     "config/carryon-common.toml": {
-      "sha256": "562151328bd067376eb00ef78dc51d3a3216a8b501e7146e09d847980375be7c",
-      "size": 7745
+      "sha256": "d60786d2b5e4ac2aa3868375f02400e797ac4b0e14405bbfb56359e3070b94a7",
+      "size": 7660
     },
     "config/ccl.cfg": {
-      "sha256": "7ea96c71ef15522cdcaec7bafdc73fc7cfaa2d6398342d8f447b94906f14e97d",
-      "size": 446
+      "sha256": "d0accd9879a8d31db8bdb55163dbb1b1668890a4558ac0689f807c6e207d1d99",
+      "size": 437
     },
     "config/chiselsandbits-common.toml": {
-      "sha256": "e4418f5fb7ef448bc5888da6a706fc94d06cecdd30ebfbcc92296d70c607b29f",
-      "size": 543
+      "sha256": "57411f4d75161b1f6602909e8a7d3fa7f7320aa00de4725f452e3309b7cdd5e2",
+      "size": 524
     },
     "config/chiselsandbits-server.toml": {
-      "sha256": "9626dc1279f4158860e6a45f4333cf9260688c274a08fde80282b00f7dc4039b",
-      "size": 1470
+      "sha256": "3bd2280e3548a6d18f73d7c4609bf8b19668997eeb0ea3b35b06e273589363b0",
+      "size": 1444
     },
     "config/clickmachine.cfg": {
-      "sha256": "0aace9496aac31f77372ef937d09c928d5dcc1a0025524818ad5fc56f3ca87ea",
-      "size": 1173
+      "sha256": "2870a11f7e38fe1dad122ff9dce0ea2e34ceab62da1b0ca3f1bc480f60234cfc",
+      "size": 1124
     },
     "config/cobblegengalore-common.toml": {
-      "sha256": "3535071fa5cce6de6d899a9de90c5532241b51091efe99c4f48a32e6d2a92689",
-      "size": 88
+      "sha256": "84f5307e83a8969e9a634351af681d2b3223d54241b01b5310a036123090cbcb",
+      "size": 84
     },
     "config/colorfulhearts.toml": {
-      "sha256": "86d63fa4b42f4cbc3505da9db27e71124751b6e7cacbc8f31f45546deb9bd17b",
-      "size": 1747
+      "sha256": "6ff8724c389a15ab21f9de6db244c2a7b1a0961f61600b774df9124e0b37ec9f",
+      "size": 1709
     },
     "config/commoncapabilities-common.toml": {
-      "sha256": "e016bfc3b6fed50ceca8c8d71351fc5fffe5d1edbbdf8af71723bf6cba4a6a81",
-      "size": 776
+      "sha256": "5f24dac0c8fe975ed447a73822d41395c239f47bc7087bfd7ff62b7311eefc26",
+      "size": 761
     },
     "config/configured-client.properties": {
       "sha256": "a9f1058d68eb630eb4783d12da4a5dea5c2f5481fdf38280e33944b9593d2d9c",
       "size": 945
     },
     "config/constructionstick-server.toml": {
-      "sha256": "c0632f39120a140ac916a7ad9a6e3c48e9a5e61bfa59d685e271404fa71fd8f2",
-      "size": 4268
+      "sha256": "1d5b09c0378ea5f412b1ca7f43d6c415c8dc1aeadd2a49cb3bd175e1600e7343",
+      "size": 4113
     },
     "config/cookingforblockheads-common.toml": {
-      "sha256": "d676304d60b0e1a95f88ca65c1a2ce968a3051d0df2b572d964b9836ad379494",
-      "size": 1500
+      "sha256": "60c4acf147122fd4da96e57f47106f6a6639bd22b2cb7e8db7e3798e767ab5ed",
+      "size": 1476
     },
     "config/craftingtweaks-common.toml": {
-      "sha256": "6f2a0de9bf7a64540881d1d43912be340ff8281f2307d947c652782ddd52e48c",
-      "size": 992
+      "sha256": "8404663a4f4206a11ae837f14b4630f1a759bcad11690fd1082237a9c9733781",
+      "size": 976
     },
     "config/create-common.toml": {
-      "sha256": "2e77b1d93b40ce3f381ad7eb2a9e6d7148de917518be5c2616939a4369c4b140",
-      "size": 153
+      "sha256": "1c632f62c30f4e1223669267196d2ff1a2c03e400bf565ff4fe81e20c7cd2bdf",
+      "size": 146
     },
     "config/create-server.toml": {
-      "sha256": "d87d179512584a76999032263c4403b86c8f0d08b129e2b15a09082c3b286211",
-      "size": 16741
+      "sha256": "0c61852f7dedc61c4b67136cddf4a1cde57c029bbb5cb7cf0a8bd8fb86869070",
+      "size": 16140
     },
     "config/create_dragons_plus-common.toml": {
-      "sha256": "5b1b6397fdc6e5e8f26527b78c9386a34b143e180efca6d086387778b79fbb65",
-      "size": 1454
+      "sha256": "b8ca00df76198958eae9c4f8eb07115ebee13f680810874e33ca056db4580860",
+      "size": 1405
     },
     "config/create_dragons_plus-server.toml": {
-      "sha256": "06c232854b6d18ea18bd9bbbed7a0317c0113aad12734066a46a1d9d28278520",
-      "size": 353
+      "sha256": "690d2f38456d0c23d3ed246e50251e8ac9f6a465f96dc7e58cda234256f4f189",
+      "size": 337
     },
     "config/create_enchantment_industry-server.toml": {
-      "sha256": "b62b515186f1afad738083a1eb0b4d1a12b3bcd2d530d6de64a5fd94b44c83a1",
-      "size": 6293
+      "sha256": "c536e4bfa5503e0a88ee93487aca6a1b7cb2304aa1b752aaaff9bc0d1a18465d",
+      "size": 6103
     },
     "config/cucumber-common.toml": {
-      "sha256": "cf18c79df34368f65795bbe5ab39a58be3c61527c1bb6185ac8a90946bedb272",
-      "size": 394
+      "sha256": "72e22f95d284342744f4bd1ae7f9df6eeb86ff3c7dc76d9319ae455f0884f69f",
+      "size": 388
     },
     "config/cucumber-tags.json": {
       "sha256": "a1ebf26d78d333b148830970f8b73b21679c2073f988111926ae7bf49586ab84",
@@ -773,28 +773,28 @@
       "size": 1090
     },
     "config/curios-common.toml": {
-      "sha256": "9f00a6b9904cf63a36c0c72f8346642962d538aaa78b59943b9de60dda82e6d0",
-      "size": 159
+      "sha256": "16c71790deac2bbdea0099e39cdf8eb47b3dd7ef6337b69ba9fce793a1bf9674",
+      "size": 155
     },
     "config/curios-server.toml": {
-      "sha256": "1a3bee95a96f082b8e97cccbce30c1efe1352b616c78e06d5884fd4475668add",
-      "size": 483
+      "sha256": "3c34cf9f7918c6a9ec15b14a87aa4570a751c1688f8ac01cb2e9acfb9392a734",
+      "size": 467
     },
     "config/custommachinery-common.toml": {
-      "sha256": "56a39a6f3cdddb23488c92d69ce6b03f43f6fb64576aedc7c6883d90f33967ef",
-      "size": 1699
+      "sha256": "6f08000f47056697b289f54f5c339323bdc0164ca89ff30e710dc059907708c3",
+      "size": 1667
     },
     "config/cuteWords.toml": {
-      "sha256": "67926671e8bea8db3d56459a4986097625ee808ea9e79a5b5ac1041a815f6fc9",
-      "size": 22
+      "sha256": "99638d6a28144ef728946906e5033b69be29498c985ff81025c4c561f0aec948",
+      "size": 21
     },
     "config/cuteWordsCaseInsensitive.toml": {
-      "sha256": "2e8d2f87afa7f36a587ff12ff3a7c75b0a6f9515e24ce904c4431528a7f4632b",
-      "size": 188
+      "sha256": "83bfa461392b335a43a898c924c0cc59a80aa404677e520e493608310b6316aa",
+      "size": 179
     },
     "config/cyclopscore-common.toml": {
-      "sha256": "fede2239a8566281381e13f863d6a30a326ea4a89bca5c7b5badad75f9536fd4",
-      "size": 273
+      "sha256": "ca5f84880487d708ffbb27e07e7c73f708d9414f01f0eb40df8c4d72ef4e7df1",
+      "size": 268
     },
     "config/dailyshop/daily_shop.json": {
       "sha256": "88dbdaf43de69777d36ca77cf8064e1dbc43704c820ff77cfb379b268a787bf6",
@@ -817,8 +817,8 @@
       "size": 306
     },
     "config/dailyshop/trade_tables/infinity.json": {
-      "sha256": "69010d5ef23466e2653527bdba72b9a9256650d058a8d4faa73180e5f2a6fb94",
-      "size": 925
+      "sha256": "7734a4da939ee82ea2015d7c697e4ee374641532993c46ea0b3503db5a1632bc",
+      "size": 873
     },
     "config/dailyshop/trade_tables/saplings.json": {
       "sha256": "0720c385d4fa35877851fa5014f2696355d4321547ffb0d4408f5dd5e9da76d0",
@@ -833,40 +833,40 @@
       "size": 851
     },
     "config/dankstorage-server.toml": {
-      "sha256": "9f6f15cd8712ee64b76a3f730fb3405d939aa4db8f41a3818c9dd0f440752374",
-      "size": 1161
+      "sha256": "30351e20a99d79c8d3be5f1ed34cd9cd1352420d0281afe1a26d9d27647ca57b",
+      "size": 1130
     },
     "config/defaultworldtype/biomes.txt": {
       "sha256": "3c63423ff52ad265c2f94ad1c1bd8bfb0451fbf2a7494b90614be906a7c3edcb",
       "size": 2652
     },
     "config/defaultworldtype/client-config.toml": {
-      "sha256": "f43ef25a85b6d08b9ffe03d521edc1b1f4f38a3be7f71c6707126c1e682bb40c",
-      "size": 748
+      "sha256": "7abf130c1b91066899d71a0455d028b96edf187ebc5dced1cfbe419a66ab03ba",
+      "size": 735
     },
     "config/defaultworldtype/world-presets.txt": {
       "sha256": "7e047922a0d53a41d412ce04207388ca9ff96c26fb72942c2409c0e2420167e0",
       "size": 223
     },
     "config/dimstorage-server.toml": {
-      "sha256": "66d143c73f30a9b60f31950f7f55260b71175e07d1a1700b360904e05050bde2",
-      "size": 642
+      "sha256": "0dbd99822332c1c0f49715c1e6e20d8bd5c7a023e7828003f75527436e26c17b",
+      "size": 631
     },
     "config/disenchanting_table-server.toml": {
-      "sha256": "2e02940e004655993542b2749d4c2aaf3fde99a21543a6c286ac9c16b60fead1",
-      "size": 556
+      "sha256": "3f7c96e71027f95ff08b71f84d534a7e1d07d21a4c4cfad481343bd2b29bd118",
+      "size": 542
     },
     "config/dummmmmmy-common.toml": {
-      "sha256": "9507a75143689ab6f0da55929059652c6cab8dcd7d5e5b14697836232274e6d3",
-      "size": 1361
+      "sha256": "be81c20c752e33060eef2c8e8fe841cbf76863751fc48e1b0f3158eec4cb7c0c",
+      "size": 1323
     },
     "config/dynamic_fps.json": {
       "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
       "size": 3
     },
     "config/easy_villagers-server.toml": {
-      "sha256": "0b105ac9c24eaf2b5493d09837158b8ac3d72c35b23f5fcb9d5fdb6d67390b9e",
-      "size": 1986
+      "sha256": "816ac63742ce47d467aac5b7c58b357338389c4d74e327c2dfb3ed0fc60b2ed7",
+      "size": 1915
     },
     "config/emi.css": {
       "sha256": "ef29ffa364bb9d68611e126c57a99c3a0aa29f3c080dd935ffbcd66cf17691e6",
@@ -877,52 +877,52 @@
       "size": 2059
     },
     "config/enderio/armory-common.toml": {
-      "sha256": "0db646742b5a1f033d3bae4fe8b05522683feac3adcc15ad0e367edb6db104a3",
-      "size": 2288
+      "sha256": "369d1e1d1c52af16ea205f0811098ff4e6d3774ef7ceae88c8601a28093bc8a2",
+      "size": 2204
     },
     "config/enderio/base-common.toml": {
-      "sha256": "1d6481b423f44b6353b48cf87ca9d06beeeee29a9e3b321a1d66f7856f4895d4",
-      "size": 2111
+      "sha256": "4b0c8a4c78e6fc0191c54789f958f593f9b6e94746aa4deb4fdca3b2cf2a65bf",
+      "size": 2018
     },
     "config/enderio/machines-common.toml": {
-      "sha256": "711ee4ca2a7b0361afbdf4eaff56ee78b3b1239aeeddf8c123defc78b48814d6",
-      "size": 6680
+      "sha256": "e8b2b090fa18ad1d4289b61228dd31265e08dcdb7ebfc42e894444e1ddad5adf",
+      "size": 6395
     },
     "config/entangled-common.toml": {
-      "sha256": "419e187d83bb43ef3dc1b50824a2a4b560747d27ddd64297120b16f5b0ea1562",
-      "size": 1052
+      "sha256": "e10707e6340c39a57cb6c0d70bbacb9187edc403cce3d1736b5a3136e1f824cc",
+      "size": 1030
     },
     "config/everlastingabilities-common.toml": {
-      "sha256": "3e55ec95640932832336d48947a4e0d9c39cc10195285216e55e88044c7018cd",
-      "size": 2701
+      "sha256": "eba05fa0f19eae41ef0705bb8aa702568b214db8a369ac2c91a0813ede23d7fe",
+      "size": 2666
     },
     "config/expandedae-common.toml": {
-      "sha256": "3b71b0cd23bf1b74d9fde54adb942c60c4f39133fb5732ac1b9d15cfbfcd54fc",
-      "size": 475
+      "sha256": "bf13648569ebf891ea72cd3e3cc59b7f54fd99a692a74121bcecab39cba481e4",
+      "size": 465
     },
     "config/explorerscompass-common.toml": {
-      "sha256": "b1a5210922dd076ffb5ebab128d9c4006a3aa7efd2a5818a4a52b02bf20a982a",
-      "size": 1017
+      "sha256": "9442d025ed6d2cec08741f21e68bd1b0353f310f154699c6a2058da0a5d3b418",
+      "size": 1002
     },
     "config/extendedae-common.toml": {
-      "sha256": "d9bdb8e3cc95095a3bb22d0257c2b374ebf8a0b92bbeacfd1bbb62d40b7ef087",
-      "size": 1680
+      "sha256": "87fa025e3fa343b7e2300a9044e39c5f83299f2443071df7cd99f0296a8d5a9e",
+      "size": 1637
     },
     "config/extendedae_plus-common.toml": {
-      "sha256": "1a54132dbf86aaa666c1994c82d18047719185704d5f6bfd28de8b424ab4f53a",
-      "size": 209
+      "sha256": "4cf41111a98cdb532470d7d761e4b67b3af52fb60b0ed3d50de8249ecaace84f",
+      "size": 202
     },
     "config/extendedae_plus-server.toml": {
-      "sha256": "7615ae9d4cc66fa1ad1db119c6571768b6ceade28aef7828dfbf29deeb80567b",
-      "size": 1976
+      "sha256": "21b10dc7e0d4525eb56fcd90bf45837efc9664b6e0f134c1638bd8fb6514bc23",
+      "size": 1936
     },
     "config/extendedae_plus/recipe_type_names.json": {
       "sha256": "1bd822494f7eb57d2a9ceaa8e96c9941d428e313a3279f9187b35724e3fc3220",
       "size": 290
     },
     "config/extendedcrafting-common.toml": {
-      "sha256": "2a16601bf9c4f8747e4dc24e4b2ebd94da04eafb64b721710c8d0c59d926b070",
-      "size": 4250
+      "sha256": "5a236be602806493ec779a524390765da31d639070058a07eed9c1c309d14179",
+      "size": 4119
     },
     "config/extendedcrafting/singularities/aluminum.json": {
       "sha256": "2fbb0fdb5d95f3487c2655d5d0a236aa9b17677c832b3ce7a6847de23fb7843b",
@@ -953,8 +953,8 @@
       "size": 151
     },
     "config/extendedcrafting/singularities/enderioconductive_alloy_ingot.json": {
-      "sha256": "de9f67ff6981659025862974e3f45d757526b97ce6eb7dd7b5d0a046b6391032",
-      "size": 172
+      "sha256": "7dbf1ecaf8a1da48401ca4bc775c4620151ecdf17cadc0851d2af9aea92b008a",
+      "size": 163
     },
     "config/extendedcrafting/singularities/glowstone.json": {
       "sha256": "631a85daa1c1b290eea94e8f9fa765a3454fc20a7b9b65d657cf49828acb433c",
@@ -989,8 +989,8 @@
       "size": 153
     },
     "config/extendedcrafting/singularities/portal_fragment.json": {
-      "sha256": "a861daf08003ad7f16c3fecc9284f0091d3f5617ddafc1286487cd78bc51798b",
-      "size": 161
+      "sha256": "1fad9725bc714c6d551af5fac13a2bb3c24ea6bac41e6a577c51c2475fb60ea7",
+      "size": 152
     },
     "config/extendedcrafting/singularities/redstone.json": {
       "sha256": "fc2e360ad8ba4905ad4eb87541e8a7feeb19d2a67310f66a14cb27528a9b805f",
@@ -1009,8 +1009,8 @@
       "size": 143
     },
     "config/fabric/indigo-renderer.properties": {
-      "sha256": "8ada0fd2de733e81c1386ef3e17dbb0a5830ab42b955a85ecfe2dd02d4838ff9",
-      "size": 290
+      "sha256": "3d4a9929a44e90c189d3d4ae4db0a32bb0e0894adf08c7b37845d5f4cc56b2d1",
+      "size": 281
     },
     "config/fancymenu/assets/15867436323638762302.png": {
       "sha256": "46eadfc7cb7c532ee1641ea6c1e7279f2cb233193f775bba8036bc1fae0784ef",
@@ -1024,6 +1024,10 @@
       "sha256": "936199e118f6731646b33f5b5bafceda4493dfe7f9c66b20733a68a283b39653",
       "size": 405287
     },
+    "config/fancymenu/assets/pack_icon.png": {
+      "sha256": "c9c9163b33a9d3f5c3171e7c16633e922cf2f1b59f2605b9c94e641aff15ab64",
+      "size": 180343
+    },
     "config/fancymenu/custom_gui_screens.txt": {
       "sha256": "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880",
       "size": 51
@@ -1033,8 +1037,8 @@
       "size": 76
     },
     "config/fancymenu/customization/title_screen_layout.txt": {
-      "sha256": "986ca23473a65d16579de514cbaf9fbc15dfb219af572c6d3371326cfb67a89a",
-      "size": 54242
+      "sha256": "4c37f2f5930c0cdd2cefc81db3df58cc4a5ceeba6120a8c736a5148a70080799",
+      "size": 54276
     },
     "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget": {
       "sha256": "d4e66bc22fcfa56158ca7100017623c71b1437fb4722229b6e064e0a48a5f5de",
@@ -1065,124 +1069,124 @@
       "size": 23
     },
     "config/farmersdelight-common.toml": {
-      "sha256": "c834c382b3f43f6cc98e1bdcd9d96ed8a83984653215c4e4c45a44098a4a738e",
-      "size": 4713
+      "sha256": "0191c442d17fdc41a626951d610fa978512af5bbc464b81bba8be4884a1eca4a",
+      "size": 4587
     },
     "config/farmingforblockheads-common.toml": {
-      "sha256": "79e7878519a870d142aa3763c2b14ff0b40d90a8ce07228d0e7f161f78b637e9",
-      "size": 1027
+      "sha256": "00caf9b10ce96cf0a8ca61c5f6c98fcfe0a91d5af560dce814f97beafc8069fa",
+      "size": 1007
     },
     "config/flowtech-common.toml": {
-      "sha256": "fdfd8980913091d73e163e6921f54e69f193788ecde77c82b334140d8e139c13",
-      "size": 3451
+      "sha256": "018b8308d2f6c60e8165dc5d2cbd013faad9d6639dbfb51cba57f5f61233c714",
+      "size": 3338
     },
     "config/fluxnetworks-common.toml": {
-      "sha256": "28e28b4bd80833d08b04ffc3d054f2fc435dfac96ee014c8cc8b3dc49e8ba961",
-      "size": 836
+      "sha256": "b51082ddf986a8453cfb410c6eca59eb33077e18664468ec02477686b2666130",
+      "size": 815
     },
     "config/fluxnetworks-server.toml": {
-      "sha256": "598f3bdb74d030f2f5b50c38ae9436610302f3b3e08165b1fcdbec3397ca763a",
-      "size": 2349
+      "sha256": "f4e9a6ba02a2ea63337f346560da95475233310f7836e36539c268c82fabf463",
+      "size": 2293
     },
     "config/fml.toml": {
-      "sha256": "cc59fb1039726fda3ab1eb69b06d9b9aebb7496604ea579cfb735bc5377e7825",
-      "size": 1550
+      "sha256": "cc127c6067eb9e23289edc1c774afd71456456eef06c688af6731a72d3bba5e5",
+      "size": 1518
     },
     "config/ftbbackups2.json": {
       "sha256": "8918825d748fa0f95a35ca2656ba3b8f2057d5e3979c6a327210e954bae1aae7",
       "size": 3472
     },
     "config/ftbchunks-world.snbt": {
-      "sha256": "df97d93407a6babe2efd80d6d5a912b0bc5dbbf8de9ccb08be2880f731c30ec1",
-      "size": 8440
+      "sha256": "a64373ebdb446c57fea95650598ffe0d052ab2503adce21838a0602a2f9d1556",
+      "size": 8229
     },
     "config/ftbquests/quests/chapter_groups.snbt": {
-      "sha256": "bc8e54c2d8ac79054a40343beb11d7c3a9e28ff2d4ab32d72599d25c56979550",
-      "size": 120
+      "sha256": "360b1dfc487123c6474b1aa7f78d32433f22956cc2e27a3828e212ffe6923ba1",
+      "size": 113
     },
     "config/ftbquests/quests/chapters/0137B0F2468B7B59.snbt": {
-      "sha256": "77a1b3a6efbdbdaeef1f79f9af7eccf69129181336e81c12b79785a5d8ec42e0",
-      "size": 2938
+      "sha256": "e3c160aefd11d4e32611b3d015446e4d79220890df3ec2379491078bc9477a2a",
+      "size": 2774
     },
     "config/ftbquests/quests/chapters/0BE86652CC09F64A.snbt": {
-      "sha256": "194022fef87b481c53dbbe0363510bfbc9ea12c6550762e7e28bd3757991a358",
-      "size": 1198
+      "sha256": "0811f2fa2097d04a0ca2935642cdbf885023f7b4c4d552e32c81e94e111cc66e",
+      "size": 1133
     },
     "config/ftbquests/quests/chapters/1111.snbt": {
-      "sha256": "bc2e83afe1d15d1b0b46260a841996d57710754dfd73431c302e8ebb1d4f4758",
-      "size": 37183
+      "sha256": "5d7697ebcc5f5381d09b2358b691c95a926dcc8d41a2b7476688ed1130fd1cd7",
+      "size": 35224
     },
     "config/ftbquests/quests/chapters/1306DE3D8C100552.snbt": {
-      "sha256": "f74500d079c86bbb7c4c8dea0c9ac515cd9a727e5a9f0fe2e8fdb29fb117530a",
-      "size": 25526
+      "sha256": "67da66ba96b03ee7c1108d0710ed8ab235a96d72f2e00a364c60689d7548e135",
+      "size": 24298
     },
     "config/ftbquests/quests/chapters/149B7FC09F5F2520.snbt": {
-      "sha256": "094ee5e6ee51ca48bff913825df76574f8927203bab755952e8b8b9e07c58894",
-      "size": 39339
+      "sha256": "3854f7a5b46fe3178f42ce12fdba795dfc463c22dbc730e5a557678cb1cf6593",
+      "size": 37176
     },
     "config/ftbquests/quests/chapters/177E0CB4B646F860.snbt": {
-      "sha256": "8ebbe7ba2fd5e92fdd0fe5921bf2b23902d370ddc57c30b2ba73abaa85968f0f",
-      "size": 6102
+      "sha256": "004d9f3357764de76a27f43d5c77fb39b6c41c8e85788dafecc8658f686d593f",
+      "size": 5786
     },
     "config/ftbquests/quests/chapters/1F9CADE08E41FAE2.snbt": {
-      "sha256": "239b18c14baa6d135132e5bef664a8943fa5ee370eee508e2fc4e9ebac443b99",
-      "size": 43132
+      "sha256": "7cdcf074c9a6dc86d8dc7f8a4204900856d42b50f44469436d444364d8ef8a87",
+      "size": 41053
     },
     "config/ftbquests/quests/chapters/66900C421E317CA4.snbt": {
-      "sha256": "8ff61e259c05910ce041f5a512829769625ddd06f23616d22f900ccc391d65f6",
-      "size": 43120
+      "sha256": "d8103cc546396208205f9212f02bda1b09da0bcf6987354c308b3ad286b79b68",
+      "size": 40694
     },
     "config/ftbquests/quests/chapters/7B36C593607B9973.snbt": {
-      "sha256": "55247157a39dcd04414b69aab2f169e157ee53db4d26eb16cfdbab9f4a6e614e",
-      "size": 5266
+      "sha256": "5dad74cced6bc7dcfe5e036cf01d3a45f2a6b48e6a9958534021b86a69422535",
+      "size": 4986
     },
     "config/ftbquests/quests/chapters/ae2.snbt": {
-      "sha256": "820793d3c0cb372e3330e18eed36b0323552f48354ce9fe9ead87d02aac93851",
-      "size": 20249
+      "sha256": "fce991a18858098dd9d4efac53fa037b82a5e358d7af2dc7ecac8f26d4ea094b",
+      "size": 19228
     },
     "config/ftbquests/quests/data.snbt": {
-      "sha256": "df92fd6b31e38ecbe9761f6ca2260e1b19eb9bcce38e9116565733ad47078b76",
-      "size": 581
+      "sha256": "d7dd511fa89cc9066374f537d8e9259d6caff8fe7db0a0a04db3af393100e0a4",
+      "size": 555
     },
     "config/ftbquests/quests/lang/en_us.snbt": {
-      "sha256": "83e74eb7730ef8cfcb262fbfb954cba6e82abd2d29917db953c82483c8a6dce9",
-      "size": 3109
+      "sha256": "f4384dda0f48e77db7098e3cc0b2a9d2ff4ae7a43172a4c89f28f30150ef215d",
+      "size": 28296
     },
     "config/ftbquests/quests/lang/zh_cn.snbt": {
-      "sha256": "430a8730995aaac88beb47f165b512ef8291e2e1720f66347b7a344b5d95df8f",
-      "size": 26070
+      "sha256": "d3f07dd1efe25c4b601f8448234361830c619abd2a2129b98af6fd601e5822f3",
+      "size": 25637
     },
     "config/ftbultimine-server.snbt": {
-      "sha256": "e6be7ca4f7c4d871335e081e6cbb54d37ede1daf19db4761bc12a119fc415ba0",
-      "size": 2933
+      "sha256": "91634eeed906901a196e7406291182504daee8ecf3784209c39b6423ded44c39",
+      "size": 2852
     },
     "config/ftbxmodcompat.snbt": {
-      "sha256": "a42d7f47f736849079637dcc5f71e84682696b82899b10a011ecb59248d2625d",
-      "size": 878
+      "sha256": "d2491b35c07d016b711c33cdec1065f1cb99304b0b8615073e20f450572448be",
+      "size": 854
     },
     "config/functionalstorage/functionalstorage-common.toml": {
-      "sha256": "47595c51ed0a6a3d496402420d025e0ae0418a0ea853e2489fad4152e978b822",
-      "size": 1412
+      "sha256": "17d2b12e9fbb5f811850b5a772b6c5e59c352ba8dd87957abdace159656e7771",
+      "size": 1375
     },
     "config/glassential-common.toml": {
-      "sha256": "4502bef407cdfb04f45ac1da3516bdc52014420e80fbc44b195ff061332cd953",
-      "size": 330
+      "sha256": "d640c77b9cbb56c6ca4bd3bf4194ad5fa6dd3572cd22934e29c547d9d8942632",
+      "size": 320
     },
     "config/gravestone-server.toml": {
-      "sha256": "d6bee13ae45904562fc651630ce48fa4e70cd3853fe2f488403c9b67d0c74c2a",
-      "size": 1160
+      "sha256": "746ced134e9f2bf1cf0ce28931028457d5cffa3fec6b2e3f5496d33786686d8a",
+      "size": 1140
     },
     "config/guideme.toml": {
-      "sha256": "e4f58ced20ccf200592141f4afcad54a0d33faa6b672a90e58781c1a8183a036",
-      "size": 559
+      "sha256": "86ad6c16f2290267eb51f3654ebd8410921118450617154f337bdd442af53c28",
+      "size": 544
     },
     "config/hammerlib/foil_colors.json": {
       "sha256": "b59479f89fc1e63b20a2dc8eee2c96b102d6e4c80612015539ea3a117dc3741b",
       "size": 148
     },
     "config/hammerlib/main.cfg": {
-      "sha256": "52491ea5dcb1ab3336ceeeaed52444931686e78d462162bdd23f3330e8e0435c",
-      "size": 784
+      "sha256": "1df26f9c860f9bf12c66a69b67c224a996f6067cea38058a9e0cf5752475360d",
+      "size": 766
     },
     "config/hammerlib/recipes/modded/hammerlib.json": {
       "sha256": "09558f531693a4ef0ca2d49789b79bbe06e6534cfb1260119ad0730260a1013b",
@@ -1193,88 +1197,88 @@
       "size": 2167
     },
     "config/hostilenetworks.cfg": {
-      "sha256": "7210e168223e469592b881cc820a0fd80eadab72c224cd8851969a0e4e976d02",
-      "size": 2246
+      "sha256": "469f443e096696562dcd790b24dc3956ff6dc186826abe48ea487ec615b3e088",
+      "size": 2184
     },
     "config/hyperbox-common.toml": {
-      "sha256": "5879b5b2f7dd9df1b5f7b33a9b1667d2e35192dc02c93f889e91e987befb91ce",
-      "size": 737
+      "sha256": "a01811522b724b8b1ece6bcb62cd27ea5e83cb4598492c932428ea82876b7275",
+      "size": 726
     },
     "config/ifeu/machine.toml": {
-      "sha256": "8afaf6101dad8aaf91790d2be5041a6b8804e8fbe76064a5d98bd7171cb6a50a",
-      "size": 4292
+      "sha256": "603424a03b171a17648367c9c25167fd2700c12bf67a9ef722fb8c7edfe802ab",
+      "size": 4179
     },
     "config/ifeu/misc.toml": {
-      "sha256": "26a55e3f02faf9d95c5172e13c466551880860414234973a7ee4dd3af77d3107",
-      "size": 1070
+      "sha256": "0743622346168d4f701c8803997b8aa25a3add2a5ea73be35d11d4ee2f7d1ca6",
+      "size": 1051
     },
     "config/immersiveengineering-server.toml": {
-      "sha256": "162be7204c1c733844f28afa60d4642bef127f15b584e81b75b8018c83c4a364",
-      "size": 22359
+      "sha256": "224890fd3a08bcfd70ad4ffcd277b13843610006658ddf7e26b5b864f2663e53",
+      "size": 21690
     },
     "config/immersiveengineering-startup.toml": {
-      "sha256": "db0592dacaddc8d709b9632c9fd4b785622b671fe0dba35009ee198f858f1bb2",
-      "size": 1694
+      "sha256": "776cf15a4474e30ac7bdf944f44d0dca25851efad95b8d8055f3d3de29aad705",
+      "size": 1671
     },
     "config/industrialforegoing/client-config.toml": {
-      "sha256": "7a1f733e01e21e83ad88c6fe91ae4f3584ce8eda5bdcbbb34d9baa36a54bac00",
-      "size": 92
+      "sha256": "a4e582597ce3b8d8eb9fe18b7268f91c00ca907730b25d31af8356df0d732871",
+      "size": 89
     },
     "config/industrialforegoing/machine-agriculture-husbandry.toml": {
-      "sha256": "d9cf3c3060ed89730e5b59d2a82c4152f54d77cc7ec1ee4a0c2f7c4ed2d15417",
-      "size": 4929
+      "sha256": "f39d785366cdc2554a2e552195e66b0aa8715281fef8a193735a811e3d639ba1",
+      "size": 4806
     },
     "config/industrialforegoing/machine-core.toml": {
-      "sha256": "6b4d711a6c22d7d0a0d18ed21bc030dca8520d505c24829f04fcaad1733075df",
-      "size": 1365
+      "sha256": "46253d6757c201847b3e8cbba8cf94b7fde363bd977513715656560b8d949fa7",
+      "size": 1332
     },
     "config/industrialforegoing/machine-generator.toml": {
-      "sha256": "ae52255705f64dd1c8e6f263337d74b56c28b1cd4fce6f9887fcd1f3d6faa177",
-      "size": 1109
+      "sha256": "3de46a35b80df8aceda2dbf75cba36f0ff11fa923397cdbacfdba3ba2385dd15",
+      "size": 1080
     },
     "config/industrialforegoing/machine-misc.toml": {
-      "sha256": "d8090fd8cddf08c952660b092d79a185947bfdbe1ab5636f46d8ab234569d5ca",
-      "size": 1824
+      "sha256": "46139dd552c658ed94e05033b914852a5aedb83941e45597c75dc66e272cf098",
+      "size": 1775
     },
     "config/industrialforegoing/machine-resource-production.toml": {
-      "sha256": "9302ba46462647c7fdca169ee7c17a42a939c1d5c2bd9f7f922feec7dd3370d7",
-      "size": 6896
+      "sha256": "cb556b276a8b7ba6fdeb05f3c84188c7c65d7f163e2b4f470002464cceb764d9",
+      "size": 6719
     },
     "config/industrialforegoingsouls/industrialforegoing-souls-machines.toml": {
-      "sha256": "488ac45f2861e24917fd36d93c3ec006ed5e20c8f1c627aef461c5324f28398b",
-      "size": 1349
+      "sha256": "d063761b583b9a2c089ee5bb9ea8144ec864efe79111d40cfc657ad64534ceb3",
+      "size": 1302
     },
     "config/integratedcrafting-common.toml": {
-      "sha256": "e5de8239e0659787bd5ab5514547fd46f867e7ff7c68a243e4442910c7f92f5c",
-      "size": 1116
+      "sha256": "21a7e53a46277b9283bc5c8d21c3d0c3668729fdca796c6ed7cfe9a6360518d2",
+      "size": 1093
     },
     "config/integrateddynamics-common.toml": {
-      "sha256": "ddba81cb58c09a2aab329e73eec9319e710ad2888c8df9c4ecc221c60599c666",
-      "size": 7988
+      "sha256": "5cc1fe26a498407d66b57e0ba12f060685ea6eeb07b5cdd1433e8c47fd9fb352",
+      "size": 7817
     },
     "config/integrateddynamicscompat-common.toml": {
-      "sha256": "bf536dde07b33cb27b2d1442fe3b4952b41cdc0c57b2a845716decce112892b2",
-      "size": 481
+      "sha256": "3ed73212b026fd2cdd028b4ea0df9403358b01bef9df7865150591de57cae2cc",
+      "size": 470
     },
     "config/integratedterminals-common.toml": {
-      "sha256": "7c5bc973a168b9122de065d60b0febe5f64135b34eedef566c4209cb2bd86ccf",
-      "size": 3939
+      "sha256": "d36ffda5f63f3e2cccb6b07b5d8fafa7f97f83f7be26d014c6577fc110296229",
+      "size": 3872
     },
     "config/integratedtunnels-common.toml": {
-      "sha256": "5ad9d1e520a9848c16218345a89cf755af0089384f5f2baa9f178d85034b486d",
-      "size": 4288
+      "sha256": "63426f196aea0b1a167ef104c47e23ee682afb44ffbbb129e3e2ee70fd9515e1",
+      "size": 4215
     },
     "config/ironfurnaces-common.toml": {
-      "sha256": "bfb348e145fd39f5b53f94d034a6baf4bed2added70097f5ce507324adee6c3e",
-      "size": 7220
+      "sha256": "9b8cd662ffbbc93ec6daa406edf006e411623f11471d16c8d906a0a3903b318e",
+      "size": 6927
     },
     "config/itemborders.toml": {
-      "sha256": "530b8b818fb7efbe0ed8fbc8dbaaa0861c75853d99368bf07ed7a490a6cbf1d0",
-      "size": 4709
+      "sha256": "9a60e24ef1750d5e193721a2a8913079a2bcc027a4250c03d1b2d6242d9003b1",
+      "size": 4658
     },
     "config/itemcollectors-common.toml": {
-      "sha256": "91c693bd8c9b6cc551d5ac496794244380dc567ad20c8ee918e8540b4be4e889",
-      "size": 595
+      "sha256": "34971334911ba0a32437fb9f7dc90d728db207a85bf7ea94532fdd765b0a9410",
+      "size": 578
     },
     "config/jade/hide-blocks.json": {
       "sha256": "309df4ae96864c19eae41b646d58497c85a73b1fc3c584e772ef4d5822794baa",
@@ -1301,24 +1305,24 @@
       "size": 182
     },
     "config/jei-server.toml": {
-      "sha256": "58b7d66ec1fdf88cd62b1f7c59c1f8e5191b5daaf823548e96385a5fb2a3508d",
-      "size": 323
+      "sha256": "f578925b601580f669e68a5936b1174d60ac3077cb9ead274099708adcc3b20b",
+      "size": 316
     },
     "config/jei_mekanism_multiblocks-saved_data.nbt": {
       "sha256": "56122c096ea83b90dc6c3b8b2b53ca10b1bcab67bb1e09b9b2531d4c8e50dc2d",
       "size": 465
     },
     "config/jeresources-common.toml": {
-      "sha256": "b8e340097e9b479a5d66593f01c1c84a8a8fdc1ed960eccb11676ee7612537e2",
-      "size": 264
+      "sha256": "6f411079b9ae2699015a6838623159d92c9eee0b52614b998abae4037f489fcd",
+      "size": 252
     },
     "config/journeymap-server.toml": {
-      "sha256": "914e767b44a8e0504767fa60bd1e3779259f6363afb299ed4282b9001f7db61b",
-      "size": 550
+      "sha256": "2cca3ae64f5d1b4b8a196400a4f59c88ae766ab8a7a3b9fb92b99bf04ace70b8",
+      "size": 541
     },
     "config/justdirethings-common.toml": {
-      "sha256": "06ba06c1c76bc35e27535123d5bd21eb68bdfec5bda7b14b679de3e92b4ecbc2",
-      "size": 11770
+      "sha256": "1585ad9a8fe3627f4858968de254f17dce69b73607940ca81e99d17a62289fe2",
+      "size": 11423
     },
     "config/kiwi-client.yaml": {
       "sha256": "6578bc417fc04cc6e57b330bf139a6d48ab5fc9de95638ae283f14975178ac3d",
@@ -1345,8 +1349,8 @@
       "size": 322
     },
     "config/laserio-common.toml": {
-      "sha256": "e9d2d5caac82118c45b2b3cd915318d35999bc3580d96931ccba2a73518e85d7",
-      "size": 925
+      "sha256": "e516e6c66dd55bf806077836add5c8d0ed2175bab67757c572e6d08312a4ff7f",
+      "size": 894
     },
     "config/lychee-common.yaml": {
       "sha256": "eb6d83b30e2639c98d327e5c7a0f35699f56b42c4f3ec79e9fc7026e08c4189f",
@@ -1357,60 +1361,60 @@
       "size": 132
     },
     "config/mcjtylib-server.toml": {
-      "sha256": "03449a8be28502236ea48f274ca2c6bcf443fd79c646a9ef9e5e9517376451a0",
-      "size": 438
+      "sha256": "4c7594784731c81461499616cc1dbe427b92f7eff931ef0034332c06bc233fc1",
+      "size": 428
     },
     "config/megacells-common.toml": {
-      "sha256": "bcda62c284c8c0e454cc69952b9887cb72f5135cdae86ac6fc0bae37ed63cdb9",
-      "size": 143
+      "sha256": "04840f35d1c6b73f20848f5e54f961efcb7f473c7cd5f594d75cd36ed57c1a9d",
+      "size": 140
     },
     "config/mekanism_unleashed-startup.toml": {
-      "sha256": "4275a4e064fca9c87dfed64e0688dff05f14708ad31f73ad3bfba8dd17debe33",
-      "size": 336
+      "sha256": "bd422c4d387df9146407178281400587cc6e9f88ac2cbfcea80c9251b7304d7f",
+      "size": 328
     },
     "config/mekanisticrouters-server.toml": {
-      "sha256": "8c5a8245f6f4b8e1ddcd80bb2b57bc5c21d1beffa25a83d63e8ca868fad838bc",
-      "size": 1136
+      "sha256": "9e1b74aced857202769ad4b2d70dbc1681e3464291dfb58f3a375c5a1b7cae4b",
+      "size": 1104
     },
     "config/merequester-common.toml": {
-      "sha256": "e1bc97c0e0727f94d750f6391420860aa09b88e73e82584d4d235764bc2d1acf",
-      "size": 380
+      "sha256": "d9abd2849c3a0e83d79adb19ee34ad716e5408e7394c93c576aaab4397152465",
+      "size": 369
     },
     "config/mob_grinding_utils-server.toml": {
-      "sha256": "a189a7fea65b50f1a7d63e74561d2440f920a0ade48ae2d4b35ffb13c4e477fd",
-      "size": 176
+      "sha256": "a3572e2cbe2fa58b81e63d922dc2c9375204dddba0e808d8647c92933298998c",
+      "size": 170
     },
     "config/modularrouters-common.toml": {
-      "sha256": "980a4c63a0a10855cdf973a10a23c5b83a58bcb3c45cb2ed32390e86378cd532",
-      "size": 6942
+      "sha256": "bd8d507229c14841b33c33707086e35a59ad773b619208afe51a46f7d02827d3",
+      "size": 6725
     },
     "config/monolib-common.toml": {
-      "sha256": "875328038c958562c9d720174940394a1bdf4bc970db79130f9d4850a3a1f0b9",
-      "size": 230
+      "sha256": "4810ae3ea7fee7a660b2beced37c6ecbc0d94427766dfa298e6ae6d36dd130e7",
+      "size": 223
     },
     "config/moonlight-common.toml": {
-      "sha256": "2c96ee208128b6338b54eb3aa62b2f378199e452daaa76e4a40f1d4d62b4c33e",
-      "size": 586
+      "sha256": "91dd59a58294e96c28b6ea74f883d306c8c2e8366ea704e3cd648754134fcda7",
+      "size": 579
     },
     "config/more_armor_trims-common.toml": {
-      "sha256": "4502bef407cdfb04f45ac1da3516bdc52014420e80fbc44b195ff061332cd953",
-      "size": 330
+      "sha256": "d640c77b9cbb56c6ca4bd3bf4194ad5fa6dd3572cd22934e29c547d9d8942632",
+      "size": 320
     },
     "config/morefunctionalstorage-server.toml": {
-      "sha256": "e2083da50e6fb526487665539685e7ab32abbc7dc7658a46169be172f3754dce",
-      "size": 660
+      "sha256": "75dfa2b321f632e1247bc7d40071f04959eb7918cea201e4f4aba9ea76186c76",
+      "size": 636
     },
     "config/mysticalagradditions-common.toml": {
-      "sha256": "f2e58b537a0fc500633555d19641cbd3746dcc62eb6e3b4461e4af8b451607bb",
-      "size": 947
+      "sha256": "980f26ce2c841033da6c0aaa78c854cf8158040c7fe253778cf417a8a9cbb476",
+      "size": 920
     },
     "config/mysticalagriculture-common.toml": {
-      "sha256": "585585e90f7910a2f1b07032b464fd9ce087eba56895eeef95bc1d0f59d1e316",
-      "size": 2367
+      "sha256": "3480936aa61fe9d21ce696d939af0c125ffebe7731cc03c61567e22b493dec32",
+      "size": 2312
     },
     "config/mysticalcustomization/atm.json": {
-      "sha256": "876167a33da0bfd0baac163432a64afcd164d665749dd8ed077f6a955e0e52d5",
-      "size": 337
+      "sha256": "c77c9ae6794b5fa70d47aa451b0ab4ad81fd496067f12aa88cfa031a417a7fe6",
+      "size": 325
     },
     "config/mysticalcustomization/configure-augments.json": {
       "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
@@ -1433,36 +1437,36 @@
       "size": 2
     },
     "config/naturesaura-common.toml": {
-      "sha256": "678a52efe8c99f6209a8656c8d73867c1c570d773d3e6f5f182b8f749b3eae59",
-      "size": 5628
+      "sha256": "d9862338f7328f9d929739a9e9a2ee8f6116f65d8c2e8a0dbc15962216d26436",
+      "size": 5555
     },
     "config/naturescompass-common.toml": {
-      "sha256": "a48da137411293b525a07b42e4f355484c990f7f7e29cf7dff3e3deebf5af051",
-      "size": 1194
+      "sha256": "17a03bf968fa4f6f0a6d074cde3d537ddfe566045a0b99ed04261696335133d9",
+      "size": 1175
     },
     "config/neoforge-common.toml": {
-      "sha256": "fe878a2717a145cd890621eac5b3be1e1fd656f7ff9abc6e8d53f670d37474c4",
-      "size": 772
+      "sha256": "e6f7578cf8c11ade0a47e36bf3863fc96f84cdf4bb679c0fceabb1e8a2f42399",
+      "size": 764
     },
     "config/neoforge-server.toml": {
-      "sha256": "b1e3b38d612295f8d9dfa0fbdb538a992b7a1a3b7a766c491b4e9fdf3823396f",
-      "size": 1177
+      "sha256": "0f1415d7fef6d7f6194275501d500b633dd3310aea40d64128edd1b096372f60",
+      "size": 1167
     },
     "config/notenoughanimations.json": {
       "sha256": "254f67d1d2c394c8ba7a83faa5c3c349e39c73cc497f5dcc160c3ff671d3edcc",
       "size": 2446
     },
     "config/notenoughwands-server.toml": {
-      "sha256": "12f0050dbb037eda5d11fd7dd8c5e5adbae803285d1beed61501ed5e9803da9d",
-      "size": 4828
+      "sha256": "d8c927705255bb5e3945663e97c6690b4f36daf66e9ca331e46e0faae2d65ff3",
+      "size": 4718
     },
     "config/occultism-server.toml": {
-      "sha256": "41319043b0bcef57c35c1f50bd5e47246a8a41459288da7563d6e0430a81c0b9",
-      "size": 9988
+      "sha256": "db22ade4d4a3026011051c362ac647575116ab867e66fade069c62c12c849830",
+      "size": 9765
     },
     "config/occultism-startup.toml": {
-      "sha256": "698caa85370cc13d2a6d636ec9ce9b5ed2dc8d813c8b89162ceda4136f66931e",
-      "size": 3002
+      "sha256": "b4094254eafafe113401e63970319b247c87a22cc767418002249208ae9ee9f1",
+      "size": 2913
     },
     "config/oritech-config.json5": {
       "sha256": "871c97e8bc3ab8c3254ae5b47f1ea3c9aff3d20f7bc0fde7eb59893e6bdc783a",
@@ -1473,40 +1477,40 @@
       "size": 2734
     },
     "config/packagedauto-server.toml": {
-      "sha256": "7aa4a3109017069bb8392c0d41042c0a1b29a4b5c3de359558f1a4051c6f2ffc",
-      "size": 3314
+      "sha256": "2b1f8f0fa76f9029ade7eed82fcf0d3b47d744caf62eaecc9633bd97913d5d34",
+      "size": 3196
     },
     "config/packagedavaritia-server.toml": {
-      "sha256": "b2df762d25dd8d3356b53e731523192d3c2d5a6befb4bbba38586892a6bd010c",
-      "size": 1837
+      "sha256": "a29e3cb80d1c899fb1d92111015246df481be328d86c31d71ce4798a7880bb62",
+      "size": 1774
     },
     "config/packageddraconic-server.toml": {
-      "sha256": "6f04617f715ea390219b70b78861af225a40ba3f192f2562705a1be402dfb0e5",
-      "size": 326
+      "sha256": "167894c8135e3cfa1492f09fdd8c501910c5120fb0a5f23b91019ab70278af21",
+      "size": 315
     },
     "config/packagedexcrafting-server.toml": {
-      "sha256": "7bd8c770da6345f8ad02f2bfd94b1fd9b0c24c0dc6d6e2bab2c671e52f9a935d",
-      "size": 3251
+      "sha256": "ac525b1ba445ca7e379d751d8bd10d09a3d6716703ed1afcd27f26add8cd6e60",
+      "size": 3144
     },
     "config/pipez-server.toml": {
-      "sha256": "fe61ea4556fc99cf1848c3b7668a8584e6802c7034b9f16c5ead553c9ae14757",
-      "size": 2847
+      "sha256": "d6975c7ce7394979f1870f853ef0b6cbd8a14e37a6f7009b31eb2845a95d4ef7",
+      "size": 2728
     },
     "config/placebo.cfg": {
-      "sha256": "eb7e9906d126543f03c2257ca98efa4b845d1e7479dc8b069a12b194c86debcf",
-      "size": 495
+      "sha256": "6bbc71c6dc18b1ba4952e1bc54ed2b98c3a90f04cec4257ec3f7566cdf0c0e2a",
+      "size": 478
     },
     "config/poc-updater/pack.json": {
-      "sha256": "858d8142e2e2c8f225a166af9647c13e1157b16af40ba38a8e9ca2dd13fefdd7",
-      "size": 652
+      "sha256": "872b34850ae545be31186c043ee3e49870a8229ab12f67f217ba50e57684f4be",
+      "size": 3729
     },
     "config/polylib.json": {
       "sha256": "b3458a87968614175fc965b0e99339d70dc6728308138bebdd970d2679f2c672",
       "size": 167
     },
     "config/portaltransform-common.toml": {
-      "sha256": "bc59316898eb6aa418971f8fe686e6c94b9f4a034dd02bac9b9d0bd7c6b3b0e0",
-      "size": 185
+      "sha256": "4f6738daad6b1fc23ad03c2133245ed0b981e68318ecaba7e0b5db2e59416ac4",
+      "size": 178
     },
     "config/powah.json5": {
       "sha256": "aeaedba1a7b7732e561467f71b136e5cade50ae561ae217361271fe5efbf87b2",
@@ -1529,64 +1533,64 @@
       "size": 863
     },
     "config/psi-common.toml": {
-      "sha256": "922e092a97f59c1ec2a019c61c52a0681a6f1bd9284a58a70f07e8dba238336f",
-      "size": 503
+      "sha256": "86b6841f8ca1cd89f3f22c1760f629670d46a5981bcca52f0dc1126e304d1018",
+      "size": 492
     },
     "config/publicguiannouncement.properties": {
       "sha256": "f2f0e6f5597b69b1b16bb552b5fe2b50550b14a3136ea4cc19c6c8dbaa53c6e6",
       "size": 309
     },
     "config/pylons-server.toml": {
-      "sha256": "1945d3490e946a5a11011f70690e9b38aaee30f4a1a89e121563c7c88d0ffb80",
-      "size": 3301
+      "sha256": "7b5aaab25ee806eacd79119c0154613b0ee08ae4d0fec75abbd094d09bb8266c",
+      "size": 3225
     },
     "config/quarryplus.toml": {
-      "sha256": "f8a657b5f2945e3c9b1f45a9e776c5e0e65534ccd061338ce79fe5e64e43d554",
-      "size": 3590
+      "sha256": "b8bae085c6874799d1f2393b92d2216df66d4a20b0993e30afbd024f76907a9f",
+      "size": 3500
     },
     "config/reliquary-common.toml": {
-      "sha256": "e156d3a5e219787c4c91b4b65fec8107335fb085a7180b698b20b3a3937641c9",
-      "size": 21232
+      "sha256": "ee6bcd1b82b16424a337bab24e7d4eb3bc42b6d2e12479c579ee92a1d7c37f64",
+      "size": 20619
     },
     "config/rftoolsbase-server.toml": {
-      "sha256": "8b9043f561f4737d7d8c42742d76fce47576f3e0811ee008657947048812cd2c",
-      "size": 472
+      "sha256": "7f675aaf6ac5dc9785a13cb514182a56b28de0a81758222e10d230564eb0a794",
+      "size": 454
     },
     "config/rftoolspower-server.toml": {
-      "sha256": "efe2d30a5de48ce5a2c72fe55f2e253b3c29456edef4accdfe132ac4ab0cbf9f",
-      "size": 5558
+      "sha256": "b094b17bba5146a60775bb1998f2b06c01448bdfa19ae7208e9fd0c901d3e538",
+      "size": 5389
     },
     "config/rftoolsstorage-server.toml": {
-      "sha256": "56d4bf6e896c795b4fb6d36ad6b8e7ff7abb0ba2397470f9d76dfbe2524e0077",
-      "size": 10270
+      "sha256": "37ee8199f9254d64d9a4b561a74e1434be49d4795ccb3eae2bddb6ba7b719560",
+      "size": 10186
     },
     "config/rftoolsutility-server.toml": {
-      "sha256": "a2a8c1f83dc176112a11112b32d740db3151f5617b9930cf66c2619e65fca643",
-      "size": 11988
+      "sha256": "629321c8f56a18bb0d28eae0512a55ac3dfe25e3d93fda8743d8e53634b41f4b",
+      "size": 11653
     },
     "config/sci4me/Torcherino.cfg": {
       "sha256": "762a7ab25c69efe2194875530805cd5976409048a029ee365bc40edf8881ab74",
       "size": 469
     },
     "config/sfm-client-program-editor.toml": {
-      "sha256": "e5b93f763a720c5c4c5d97cf5f01e0b294a42fe536ce89a9aebf3b9ab90b6c44",
-      "size": 118
+      "sha256": "63168292239ee31fcf62717baedb3768385b29dfdbe73280c66c365b26d92228",
+      "size": 114
     },
     "config/sfm-server.toml": {
-      "sha256": "c5515915021f56d5674fe443c07befe20f96de9c9a6952189990b131f2e8262e",
-      "size": 1238
+      "sha256": "80af12b1930e999ffd56545b86f1d9b6b9a4195d6ff2ff730b87381a8d1f19fb",
+      "size": 1214
     },
     "config/shrink.json5": {
       "sha256": "f425d766957c85beb2a952855341b93ba2992dfb39a7cab079d685a720fcf961",
       "size": 199
     },
     "config/silentgear-common.toml": {
-      "sha256": "fd0e193bebc939a9124f4c275d4f3cf2f09e33060c0891f9dc43239bf3a8e3b1",
-      "size": 8411
+      "sha256": "1c724b450e338c78d030b707d175595419274d3bc4144d4a633c3cec81f30d11",
+      "size": 8208
     },
     "config/simplemagnets-common.toml": {
-      "sha256": "b0df931e81e13d4e07ef3b8a595d3f07491eead8729d8741ece5e309c2335bbb",
-      "size": 2390
+      "sha256": "3ab21f243a4c23ec3b5a5caa60e9c817d05ee0b32099469f3b1843509c9c40a8",
+      "size": 2327
     },
     "config/sky-aesthetics.json": {
       "sha256": "8e1b6d5088e373f8b9d0a5b734b2b17c6e01d42f3e63da5637a3e8c0da7a0c48",
@@ -1653,20 +1657,20 @@
       "size": 357
     },
     "config/solarflux/custom_panels.js": {
-      "sha256": "4514f8b90326ff8bba4672f57678d3f6356596b563dae86bda6bf8377d554481",
-      "size": 5313
+      "sha256": "ae45a74fb2cde220d7fa9e13c9d8ac3c24871023d82f70e4177e72db5dfca616",
+      "size": 5196
     },
     "config/solarflux/main.cfg": {
-      "sha256": "e6f5e946031120ee9a223fd903c5c14b1410fed0169f0afe054aa0f0e9ec425c",
-      "size": 1240
+      "sha256": "f68b8be7422875175aa48b1d19283f5b341c72172311484d93de475bd77ad709",
+      "size": 1209
     },
     "config/solarflux/panels.cfg": {
-      "sha256": "0f264e78fbf14657dccf7c6cfed770617e6ea83c06594871c3b86b88dfed299b",
-      "size": 6311
+      "sha256": "c4ea0018b9288100729fcc05cf7e566fe56498f9a53079fad75b12eab065dcc3",
+      "size": 6123
     },
     "config/solarflux/recipes.cfg": {
-      "sha256": "a75bc19c994f7fe32e3a65b1b3b94789786384a4e085867895dadfd9a68790ca",
-      "size": 2321
+      "sha256": "f31e637b23a2d2cd75737cc847fd4f10844aad35967c55d1632b4a6d499b3393",
+      "size": 2223
     },
     "config/solarflux/textures/block/example_base.png": {
       "sha256": "0eeec0b19fd4593c6fd4653fed28007e0f2e214b76941e738c3de773b89349d5",
@@ -1681,52 +1685,52 @@
       "size": 302
     },
     "config/sophisticatedbackpacks-common.toml": {
-      "sha256": "390cb983090cdc5ba9013c0551fcde8ecf579040f970e33de5ecfc500841cb7f",
-      "size": 118
+      "sha256": "ce60ba4ebdbb1ba959f3ee6be206f84f2221b8dc436140c92cda412ef33f10e6",
+      "size": 114
     },
     "config/sophisticatedbackpacks-server.toml": {
-      "sha256": "9b3efb4634f97f29c3efc9a189f1ebd193d762ce16abc7dc872c94ba874ecf1a",
-      "size": 21629
+      "sha256": "411255ca462cb430edc43fa412cbdf7ba47292ae39004c9a8479713efa4f86e7",
+      "size": 21041
     },
     "config/sophisticatedcore-common.toml": {
-      "sha256": "898fc002d9753f735e4cafe03e9640106001bc30f461dc633301884ae19a2a41",
-      "size": 9203
+      "sha256": "f838545837a50d3a3ca5db109383d0ba277dfa95d2d6dac8c26d8194aaf78dc6",
+      "size": 9199
     },
     "config/sophisticatedstorage-common.toml": {
-      "sha256": "0c721ecf8a9a6fba8402b7ce73bf8580acdd078e9ac9c3b37c42245ca6d8c4b0",
-      "size": 186
+      "sha256": "598a20e3ee0ab0a5914e6cfe3f963bf5a58a29218b30ae3af4f91449b8e93181",
+      "size": 182
     },
     "config/sophisticatedstorage-server.toml": {
-      "sha256": "0a5f6041bb56f1e3fb3babd4a56dcc2e59c56c06b9899667b58985bcc3135fb5",
-      "size": 25198
+      "sha256": "b9f28702dc34c0807e24bdc7a7afaac55c72b3d465481ce3ebd07e266945e030",
+      "size": 24341
     },
     "config/stellaris-config.json": {
       "sha256": "3ea0aff4bcaa6ee3c929b22f459ae140548d78ecaab4fe0bc66a9f4ac5f8bf6a",
       "size": 480
     },
     "config/tesseract-common.toml": {
-      "sha256": "71261022d891a0f75748c9a048397dd9379c1c691be5a9eff5f961b8f71279e4",
-      "size": 388
+      "sha256": "d826374acfde84a681ad8c85ac89e19552d73b2fe8740c0f62a7b350bc8233e4",
+      "size": 379
     },
     "config/tiab-server.toml": {
-      "sha256": "030d096c196f30a2d1a52f33bf957ebfcefaf07c77b3f065096fd4b1f1632fe9",
-      "size": 293
+      "sha256": "a6c02410a36a8e01a6114faf690698d1793381f4e19aeb0b0c0a20562813d5b2",
+      "size": 285
     },
     "config/titanium/titanium-tags.toml": {
-      "sha256": "0fdb903beac3111899fba270f156d65daf792b534a20915672e2d9b1aacdf06c",
-      "size": 344
+      "sha256": "a03cffa3642c3db1f385fa28513bd8fd2b77fc1ea439c8e9371428a7934f7e89",
+      "size": 341
     },
     "config/titanium/titanium.toml": {
-      "sha256": "419a23e2c00bb42a68c4285244a50d92bd63d1d16a6e08cc61ef4531fd958579",
-      "size": 255
+      "sha256": "da70f3a232fb8a8c8580d04598c3ed2a7c17cf1740e17895ffaea847f4f09b68",
+      "size": 243
     },
     "config/tombstone-common.toml": {
-      "sha256": "79af0b364c3ac2cd80f29bb3fe2fb3f2fde4712a5599ef3aa9600a6aafb49e6a",
-      "size": 9450
+      "sha256": "c18468da00ba9177f1e9b303fd7abc51746568219d768af0135dc252eb92939b",
+      "size": 9222
     },
     "config/tombstone-server.toml": {
-      "sha256": "aa35cb71a908b8ce7d8547c8581ab831c1469edade5980ef9a99d67ed557c93f",
-      "size": 7040
+      "sha256": "c3b886d463c52aea5dddf278435270bcc817a91c15c1435daf9b4814e0b500e2",
+      "size": 6861
     },
     "config/tombstone/loottables/tombstone-pool-abandoned_grave.json": {
       "sha256": "2f9c62e9bd48e1021e9436c7c4b978b6481d0387eb4cc2c41e85e516d57ec79d",
@@ -1773,48 +1777,48 @@
       "size": 5
     },
     "config/torchmaster.toml": {
-      "sha256": "4765c6a67959c7a4c0e5366eb28b13f4188577d8e54bde7d07b0adc9f92bb3ad",
-      "size": 2789
+      "sha256": "1001478e2b5a5424b7e8ca66564bbf80ea209184f0ba474d6e9f2a926afd1474",
+      "size": 2734
     },
     "config/trashcans-common.toml": {
-      "sha256": "9098a40f3445da4e4e330750079d5629abe4632c211c6f8db11bb0dea829e5d8",
-      "size": 84
+      "sha256": "fe5a6b7611945c20c356f34813150e9893ab1a2ea9694740c3cc5d0367d96ad1",
+      "size": 81
     },
     "config/trashslot-common.toml": {
-      "sha256": "6cd3a10e6f7eaacf14aa46fa68dc141efbad30b32f3eabab8a82781fe96fea28",
-      "size": 752
+      "sha256": "e206fb54c03e7d6c3c4661cf2e01b7c704b3265f9200cb382e5ed6aba2c18fb3",
+      "size": 742
     },
     "config/twerk-config.toml": {
-      "sha256": "9e1d781a98b6e10a22225a4dac25f0d45107e4235e5004513e8c94d4d83a8a6a",
-      "size": 1432
+      "sha256": "4471b9a496b35f9697046008e3d91d282e5a6a6e81d25e4cc1b24f3ce020f6ba",
+      "size": 1406
     },
     "config/unusualend-common.toml": {
-      "sha256": "ca60f38298fa84d6f372c88628ef3f6483642832586f4112abc18fa9b70463c5",
-      "size": 3910
+      "sha256": "6e61e8df1b51db8e9c8b98a3a2f6cbaf33b8cb6d3e6714095c274f3b699893b1",
+      "size": 3832
     },
     "config/utilitarian-common.toml": {
-      "sha256": "c32a7d79a6d9349f699aaaf78b623b354a8680ecdd72282873b510435c750bab",
-      "size": 463
+      "sha256": "36efb9378cc4106d99cf88748125d4b1497859dff4da97c41596622bbed28f36",
+      "size": 453
     },
     "config/utilitarian-server.toml": {
-      "sha256": "84e41e5b2abcb9809791071b6e23b44a75a68cebd7cee36b2efb8be6370e9643",
-      "size": 1932
+      "sha256": "fa52ff50699321ce158ec4e063511030dafd4417281b6ede92d965c1abb8c7e0",
+      "size": 1874
     },
     "config/wands.json": {
       "sha256": "73b3a4d3f8c0fb2d1dfaf361bc184c68ca78e6943d54f334d71527cbaf881255",
       "size": 1940
     },
     "config/waystones-common.toml": {
-      "sha256": "b3576572edd459710524ced067f18f4bbf1b86324fee44eef8b3dc9649cbd229",
-      "size": 5798
+      "sha256": "32a82ba9258163a275ad5ad002e81f8e77268ccb4388d2b2925f2c96392b60b1",
+      "size": 5719
     },
     "config/xaerominimap-common.txt": {
-      "sha256": "771a844d13ab6c2ff99f14b8fd912d02c55a1a4104361692b740c3e596084f6f",
-      "size": 145
+      "sha256": "b410746ddef0f7dd5f1d860ef3fcd6ad29c10988abbf6281181cb9c3acb628ca",
+      "size": 140
     },
     "config/xaerominimap.txt": {
-      "sha256": "71cffe7689e579cdf95700b08791f8382f9ae4e9709c5f6f4addc736f145ab3e",
-      "size": 3640
+      "sha256": "cecae3a750fb40a17ed8de5be3421efa388ec8a338aa7842116d70dd5a9e175f",
+      "size": 3507
     },
     "config/xaerominimap_entities.json": {
       "sha256": "d44155ad6524baf93af689dcc2f7bab16d1989475f4c91a88ee526687e4957ec",
@@ -1825,8 +1829,8 @@
       "size": 0
     },
     "config/xnet-server.toml": {
-      "sha256": "26e112246e902d93bc7c6ae6c169cd810f2e61dd825918ecb86186e40629667e",
-      "size": 2874
+      "sha256": "652949e4b218bd56d55b4a12d10d9d4257d5dcd35b59d8ae408468d43161d20c",
+      "size": 2794
     },
     "kubejs/assets/kubejs/textures/block/example_block.png": {
       "sha256": "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc",
@@ -1837,776 +1841,776 @@
       "size": 372
     },
     "kubejs/assets/mysticalagriculture/blockstates/allthemodium_crop.json": {
-      "sha256": "de5c7758b01ef619a5bfc9fc151854b4eb9e20a572cb127a976e162873856b63",
-      "size": 765
+      "sha256": "996ed12008c11daa4d4a148426210b5bf49e7eaed5b8ca50003f392c0eff7b0c",
+      "size": 738
     },
     "kubejs/assets/mysticalagriculture/blockstates/awakened_draconium_crop.json": {
-      "sha256": "b145d795527256870170d5fc2c076d1d383b30b428fefd7c6f9130a7f34495e0",
-      "size": 758
+      "sha256": "1f4ee0a8b2a34410fb918ad97f4ded9dadfb3b623624fbf17715678b62b15145",
+      "size": 731
     },
     "kubejs/assets/mysticalagriculture/blockstates/boron_crop.json": {
-      "sha256": "de5c7758b01ef619a5bfc9fc151854b4eb9e20a572cb127a976e162873856b63",
-      "size": 765
+      "sha256": "996ed12008c11daa4d4a148426210b5bf49e7eaed5b8ca50003f392c0eff7b0c",
+      "size": 738
     },
     "kubejs/assets/mysticalagriculture/blockstates/cognizant_dust_crop.json": {
-      "sha256": "de5c7758b01ef619a5bfc9fc151854b4eb9e20a572cb127a976e162873856b63",
-      "size": 765
+      "sha256": "996ed12008c11daa4d4a148426210b5bf49e7eaed5b8ca50003f392c0eff7b0c",
+      "size": 738
     },
     "kubejs/assets/mysticalagriculture/blockstates/dark_metal_ingot_crop.json": {
-      "sha256": "de5c7758b01ef619a5bfc9fc151854b4eb9e20a572cb127a976e162873856b63",
-      "size": 765
+      "sha256": "996ed12008c11daa4d4a148426210b5bf49e7eaed5b8ca50003f392c0eff7b0c",
+      "size": 738
     },
     "kubejs/assets/mysticalagriculture/blockstates/dragon_egg_crop.json": {
-      "sha256": "25a8d7f981cc1846893427a7ee10013238cb15dd9bc77a0589c7c86086b34784",
-      "size": 756
+      "sha256": "f9790695e464f6c337f169c0450cf9fc077e56c6546e445640c8afbd18cbe761",
+      "size": 729
     },
     "kubejs/assets/mysticalagriculture/blockstates/gaia_spirit_crop.json": {
-      "sha256": "5d8d0ab462364076f9dc9153e4c7caab5d30732a1db71dc7202f536f9e22b878",
-      "size": 759
+      "sha256": "9bbcd4c3dd1f3bca2212ea4ad06d86df722325cef24b5c4b3675480f5f9acf49",
+      "size": 732
     },
     "kubejs/assets/mysticalagriculture/blockstates/iesnium_crop.json": {
-      "sha256": "de5c7758b01ef619a5bfc9fc151854b4eb9e20a572cb127a976e162873856b63",
-      "size": 765
+      "sha256": "996ed12008c11daa4d4a148426210b5bf49e7eaed5b8ca50003f392c0eff7b0c",
+      "size": 738
     },
     "kubejs/assets/mysticalagriculture/blockstates/ignitium_crop.json": {
-      "sha256": "de5c7758b01ef619a5bfc9fc151854b4eb9e20a572cb127a976e162873856b63",
-      "size": 765
+      "sha256": "996ed12008c11daa4d4a148426210b5bf49e7eaed5b8ca50003f392c0eff7b0c",
+      "size": 738
     },
     "kubejs/assets/mysticalagriculture/blockstates/lithium_crop.json": {
-      "sha256": "de5c7758b01ef619a5bfc9fc151854b4eb9e20a572cb127a976e162873856b63",
-      "size": 765
+      "sha256": "996ed12008c11daa4d4a148426210b5bf49e7eaed5b8ca50003f392c0eff7b0c",
+      "size": 738
     },
     "kubejs/assets/mysticalagriculture/blockstates/nether_star_crop.json": {
-      "sha256": "ed0fe7e43b585a86f5fa5e71c292a1b0b74df06cdc3305fc0057077c4936b835",
-      "size": 764
+      "sha256": "c9ff6597e9d077f6766a43f8dd757a3bccf0337f579462657dec0b6f0d05843c",
+      "size": 737
     },
     "kubejs/assets/mysticalagriculture/blockstates/neutronium_crop.json": {
-      "sha256": "b965b922c5c3c28f7d47b8b8712746f5bf59749efcaf672f9d5f2c318a2c48da",
-      "size": 756
+      "sha256": "f7e13dc16ba981c9dc80e512599d6702ca2081282bd324125bfa4599c6d3f589",
+      "size": 729
     },
     "kubejs/assets/mysticalagriculture/blockstates/niter_crop.json": {
-      "sha256": "de5c7758b01ef619a5bfc9fc151854b4eb9e20a572cb127a976e162873856b63",
-      "size": 765
+      "sha256": "996ed12008c11daa4d4a148426210b5bf49e7eaed5b8ca50003f392c0eff7b0c",
+      "size": 738
     },
     "kubejs/assets/mysticalagriculture/blockstates/nitro_crystal_crop.json": {
-      "sha256": "86b1979427e857187cab1be7d8b8db421527afcd6b130fe4fa0620d6b2705f68",
-      "size": 756
+      "sha256": "6c9cb9e167542ccb73aae71c124f64555497d37b1a8e38aad23cffaf13cbccc7",
+      "size": 729
     },
     "kubejs/assets/mysticalagriculture/blockstates/plastic_crop.json": {
-      "sha256": "de5c7758b01ef619a5bfc9fc151854b4eb9e20a572cb127a976e162873856b63",
-      "size": 765
+      "sha256": "996ed12008c11daa4d4a148426210b5bf49e7eaed5b8ca50003f392c0eff7b0c",
+      "size": 738
     },
     "kubejs/assets/mysticalagriculture/blockstates/plutonium_crop.json": {
-      "sha256": "de5c7758b01ef619a5bfc9fc151854b4eb9e20a572cb127a976e162873856b63",
-      "size": 765
+      "sha256": "996ed12008c11daa4d4a148426210b5bf49e7eaed5b8ca50003f392c0eff7b0c",
+      "size": 738
     },
     "kubejs/assets/mysticalagriculture/blockstates/sky_steel_crop.json": {
-      "sha256": "de5c7758b01ef619a5bfc9fc151854b4eb9e20a572cb127a976e162873856b63",
-      "size": 765
+      "sha256": "996ed12008c11daa4d4a148426210b5bf49e7eaed5b8ca50003f392c0eff7b0c",
+      "size": 738
     },
     "kubejs/assets/mysticalagriculture/blockstates/unobtainium_crop.json": {
-      "sha256": "de5c7758b01ef619a5bfc9fc151854b4eb9e20a572cb127a976e162873856b63",
-      "size": 765
+      "sha256": "996ed12008c11daa4d4a148426210b5bf49e7eaed5b8ca50003f392c0eff7b0c",
+      "size": 738
     },
     "kubejs/assets/mysticalagriculture/blockstates/vibranium_crop.json": {
-      "sha256": "de5c7758b01ef619a5bfc9fc151854b4eb9e20a572cb127a976e162873856b63",
-      "size": 765
+      "sha256": "996ed12008c11daa4d4a148426210b5bf49e7eaed5b8ca50003f392c0eff7b0c",
+      "size": 738
     },
     "kubejs/assets/mysticalagriculture/models/crop/allthemodium_stage0.json": {
-      "sha256": "88f5547e4e9db5d0554b012511ae9136992a6c64f9b2cc8f2f4d606390248e0d",
-      "size": 70
+      "sha256": "d6ae251e0c03573b6779140b9942be69a1539a4fe87d831dc36f1bfe3bd14683",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/allthemodium_stage1.json": {
-      "sha256": "ae11f033fdd646d00aef59c717feea1b132c47cf3f0819114f1f3c3fc22f2a28",
-      "size": 70
+      "sha256": "4bd30bff5e219ffb6bad8f77cb8d8ff859896eae42af5a9bfdc59dcc5ba03260",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/allthemodium_stage2.json": {
-      "sha256": "9c649aa6f2d3eb03bd3eb0d6537343c40b3a5678e68820cb77956bac9c5cb119",
-      "size": 70
+      "sha256": "c2b2e127c2ef27b79b9445eb1559f05f69c76efe42f44bc55064d196e0dc6199",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/allthemodium_stage3.json": {
-      "sha256": "8b2156ea22b582d36a4dc474f2765839cbfe9020f328bbdc49c6d0c09c2032db",
-      "size": 70
+      "sha256": "bcc5b8ddaac3640a902f6242012354c325087e2b3431d53474abf823aa8f474a",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/allthemodium_stage4.json": {
-      "sha256": "1efe1cda8e63413d32280dbbfc5255a52e4b34a9b2566abdf8c2c8659fc2b8c1",
-      "size": 70
+      "sha256": "e95181d7929d862c58f09e17fe5a6c0a8aa1ab3501e333ec3298fbd26ac34637",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/allthemodium_stage5.json": {
-      "sha256": "3b8ee3a46e99469701fd6bfa3aacdb2d9057e0018907b9c81d8a3355321e2676",
-      "size": 70
+      "sha256": "e79295039c2b051f4499ffbe46b8bea0b88786cc86d26e6249a7a62619ad5dd9",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/allthemodium_stage6.json": {
-      "sha256": "013c208f8ca2cf187ac54b60b21ae4f9bfea84fd7ca717ab5e8ab499f5ffb06c",
-      "size": 70
+      "sha256": "056fd6c9fc75dc735e035296e2d82f6b5a6b9586b189936bc14a9669ceba962d",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/allthemodium_stage7.json": {
-      "sha256": "ae85bc55ec8b13545b3e2bbc8b2a81705e252d464478a3ccd8471dbc31e33f69",
-      "size": 166
+      "sha256": "d7e411fe479e2c84259546b4a13ad8b0ee824b018264a077c4777ffb545d700d",
+      "size": 161
     },
     "kubejs/assets/mysticalagriculture/models/crop/awakened_draconium_stage0.json": {
-      "sha256": "88f5547e4e9db5d0554b012511ae9136992a6c64f9b2cc8f2f4d606390248e0d",
-      "size": 70
+      "sha256": "d6ae251e0c03573b6779140b9942be69a1539a4fe87d831dc36f1bfe3bd14683",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/awakened_draconium_stage1.json": {
-      "sha256": "ae11f033fdd646d00aef59c717feea1b132c47cf3f0819114f1f3c3fc22f2a28",
-      "size": 70
+      "sha256": "4bd30bff5e219ffb6bad8f77cb8d8ff859896eae42af5a9bfdc59dcc5ba03260",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/awakened_draconium_stage2.json": {
-      "sha256": "9c649aa6f2d3eb03bd3eb0d6537343c40b3a5678e68820cb77956bac9c5cb119",
-      "size": 70
+      "sha256": "c2b2e127c2ef27b79b9445eb1559f05f69c76efe42f44bc55064d196e0dc6199",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/awakened_draconium_stage3.json": {
-      "sha256": "8b2156ea22b582d36a4dc474f2765839cbfe9020f328bbdc49c6d0c09c2032db",
-      "size": 70
+      "sha256": "bcc5b8ddaac3640a902f6242012354c325087e2b3431d53474abf823aa8f474a",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/awakened_draconium_stage4.json": {
-      "sha256": "1efe1cda8e63413d32280dbbfc5255a52e4b34a9b2566abdf8c2c8659fc2b8c1",
-      "size": 70
+      "sha256": "e95181d7929d862c58f09e17fe5a6c0a8aa1ab3501e333ec3298fbd26ac34637",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/awakened_draconium_stage5.json": {
-      "sha256": "3b8ee3a46e99469701fd6bfa3aacdb2d9057e0018907b9c81d8a3355321e2676",
-      "size": 70
+      "sha256": "e79295039c2b051f4499ffbe46b8bea0b88786cc86d26e6249a7a62619ad5dd9",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/awakened_draconium_stage6.json": {
-      "sha256": "013c208f8ca2cf187ac54b60b21ae4f9bfea84fd7ca717ab5e8ab499f5ffb06c",
-      "size": 70
+      "sha256": "056fd6c9fc75dc735e035296e2d82f6b5a6b9586b189936bc14a9669ceba962d",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/awakened_draconium_stage7.json": {
-      "sha256": "8a6cf1e216810fb8eed300973512166aafd9e52b8bd7c51ec9a9dc927ba7bac2",
-      "size": 157
+      "sha256": "6f0c9c406a89c318f1602e0bfc6e1e2f7b728b325b6c6b4fd65238f2e13eb1a4",
+      "size": 152
     },
     "kubejs/assets/mysticalagriculture/models/crop/boron_stage0.json": {
-      "sha256": "88f5547e4e9db5d0554b012511ae9136992a6c64f9b2cc8f2f4d606390248e0d",
-      "size": 70
+      "sha256": "d6ae251e0c03573b6779140b9942be69a1539a4fe87d831dc36f1bfe3bd14683",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/boron_stage1.json": {
-      "sha256": "ae11f033fdd646d00aef59c717feea1b132c47cf3f0819114f1f3c3fc22f2a28",
-      "size": 70
+      "sha256": "4bd30bff5e219ffb6bad8f77cb8d8ff859896eae42af5a9bfdc59dcc5ba03260",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/boron_stage2.json": {
-      "sha256": "9c649aa6f2d3eb03bd3eb0d6537343c40b3a5678e68820cb77956bac9c5cb119",
-      "size": 70
+      "sha256": "c2b2e127c2ef27b79b9445eb1559f05f69c76efe42f44bc55064d196e0dc6199",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/boron_stage3.json": {
-      "sha256": "8b2156ea22b582d36a4dc474f2765839cbfe9020f328bbdc49c6d0c09c2032db",
-      "size": 70
+      "sha256": "bcc5b8ddaac3640a902f6242012354c325087e2b3431d53474abf823aa8f474a",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/boron_stage4.json": {
-      "sha256": "1efe1cda8e63413d32280dbbfc5255a52e4b34a9b2566abdf8c2c8659fc2b8c1",
-      "size": 70
+      "sha256": "e95181d7929d862c58f09e17fe5a6c0a8aa1ab3501e333ec3298fbd26ac34637",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/boron_stage5.json": {
-      "sha256": "3b8ee3a46e99469701fd6bfa3aacdb2d9057e0018907b9c81d8a3355321e2676",
-      "size": 70
+      "sha256": "e79295039c2b051f4499ffbe46b8bea0b88786cc86d26e6249a7a62619ad5dd9",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/boron_stage6.json": {
-      "sha256": "013c208f8ca2cf187ac54b60b21ae4f9bfea84fd7ca717ab5e8ab499f5ffb06c",
-      "size": 70
+      "sha256": "056fd6c9fc75dc735e035296e2d82f6b5a6b9586b189936bc14a9669ceba962d",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/boron_stage7.json": {
-      "sha256": "fe529d32b983b43c72425a942d3fff29d502fd23c1c632e8db2e780425ec077d",
-      "size": 166
+      "sha256": "6a274a3f217d5ed2e050d774300e960eca1c72df0ead4e6c0f45f034cb9354dd",
+      "size": 161
     },
     "kubejs/assets/mysticalagriculture/models/crop/cognizant_dust_stage0.json": {
-      "sha256": "88f5547e4e9db5d0554b012511ae9136992a6c64f9b2cc8f2f4d606390248e0d",
-      "size": 70
+      "sha256": "d6ae251e0c03573b6779140b9942be69a1539a4fe87d831dc36f1bfe3bd14683",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/cognizant_dust_stage1.json": {
-      "sha256": "ae11f033fdd646d00aef59c717feea1b132c47cf3f0819114f1f3c3fc22f2a28",
-      "size": 70
+      "sha256": "4bd30bff5e219ffb6bad8f77cb8d8ff859896eae42af5a9bfdc59dcc5ba03260",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/cognizant_dust_stage2.json": {
-      "sha256": "9c649aa6f2d3eb03bd3eb0d6537343c40b3a5678e68820cb77956bac9c5cb119",
-      "size": 70
+      "sha256": "c2b2e127c2ef27b79b9445eb1559f05f69c76efe42f44bc55064d196e0dc6199",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/cognizant_dust_stage3.json": {
-      "sha256": "8b2156ea22b582d36a4dc474f2765839cbfe9020f328bbdc49c6d0c09c2032db",
-      "size": 70
+      "sha256": "bcc5b8ddaac3640a902f6242012354c325087e2b3431d53474abf823aa8f474a",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/cognizant_dust_stage4.json": {
-      "sha256": "1efe1cda8e63413d32280dbbfc5255a52e4b34a9b2566abdf8c2c8659fc2b8c1",
-      "size": 70
+      "sha256": "e95181d7929d862c58f09e17fe5a6c0a8aa1ab3501e333ec3298fbd26ac34637",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/cognizant_dust_stage5.json": {
-      "sha256": "3b8ee3a46e99469701fd6bfa3aacdb2d9057e0018907b9c81d8a3355321e2676",
-      "size": 70
+      "sha256": "e79295039c2b051f4499ffbe46b8bea0b88786cc86d26e6249a7a62619ad5dd9",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/cognizant_dust_stage6.json": {
-      "sha256": "013c208f8ca2cf187ac54b60b21ae4f9bfea84fd7ca717ab5e8ab499f5ffb06c",
-      "size": 70
+      "sha256": "056fd6c9fc75dc735e035296e2d82f6b5a6b9586b189936bc14a9669ceba962d",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/cognizant_dust_stage7.json": {
-      "sha256": "085fbb191af58f30ee85c6b84dd5b718037f2f32aa5ab3296ab625ae4e89e8b5",
-      "size": 160
+      "sha256": "5d202966f214abb1d6be7758faf485dc885c07de7c445479298cdb48cafb9257",
+      "size": 155
     },
     "kubejs/assets/mysticalagriculture/models/crop/dark_metal_ingot_stage0.json": {
-      "sha256": "88f5547e4e9db5d0554b012511ae9136992a6c64f9b2cc8f2f4d606390248e0d",
-      "size": 70
+      "sha256": "d6ae251e0c03573b6779140b9942be69a1539a4fe87d831dc36f1bfe3bd14683",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/dark_metal_ingot_stage1.json": {
-      "sha256": "ae11f033fdd646d00aef59c717feea1b132c47cf3f0819114f1f3c3fc22f2a28",
-      "size": 70
+      "sha256": "4bd30bff5e219ffb6bad8f77cb8d8ff859896eae42af5a9bfdc59dcc5ba03260",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/dark_metal_ingot_stage2.json": {
-      "sha256": "9c649aa6f2d3eb03bd3eb0d6537343c40b3a5678e68820cb77956bac9c5cb119",
-      "size": 70
+      "sha256": "c2b2e127c2ef27b79b9445eb1559f05f69c76efe42f44bc55064d196e0dc6199",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/dark_metal_ingot_stage3.json": {
-      "sha256": "8b2156ea22b582d36a4dc474f2765839cbfe9020f328bbdc49c6d0c09c2032db",
-      "size": 70
+      "sha256": "bcc5b8ddaac3640a902f6242012354c325087e2b3431d53474abf823aa8f474a",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/dark_metal_ingot_stage4.json": {
-      "sha256": "1efe1cda8e63413d32280dbbfc5255a52e4b34a9b2566abdf8c2c8659fc2b8c1",
-      "size": 70
+      "sha256": "e95181d7929d862c58f09e17fe5a6c0a8aa1ab3501e333ec3298fbd26ac34637",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/dark_metal_ingot_stage5.json": {
-      "sha256": "3b8ee3a46e99469701fd6bfa3aacdb2d9057e0018907b9c81d8a3355321e2676",
-      "size": 70
+      "sha256": "e79295039c2b051f4499ffbe46b8bea0b88786cc86d26e6249a7a62619ad5dd9",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/dark_metal_ingot_stage6.json": {
-      "sha256": "013c208f8ca2cf187ac54b60b21ae4f9bfea84fd7ca717ab5e8ab499f5ffb06c",
-      "size": 70
+      "sha256": "056fd6c9fc75dc735e035296e2d82f6b5a6b9586b189936bc14a9669ceba962d",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/dark_metal_ingot_stage7.json": {
-      "sha256": "9b08e774c50eb3bcb1681a73520b3479683d86ebcdb2a0f1959d454382038481",
-      "size": 160
+      "sha256": "827eab09ed20d5f324bb41e8e129c5f05dbb61b2726088f3499d1ede603ce667",
+      "size": 155
     },
     "kubejs/assets/mysticalagriculture/models/crop/dragon_egg_stage0.json": {
-      "sha256": "88f5547e4e9db5d0554b012511ae9136992a6c64f9b2cc8f2f4d606390248e0d",
-      "size": 70
+      "sha256": "d6ae251e0c03573b6779140b9942be69a1539a4fe87d831dc36f1bfe3bd14683",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/dragon_egg_stage1.json": {
-      "sha256": "ae11f033fdd646d00aef59c717feea1b132c47cf3f0819114f1f3c3fc22f2a28",
-      "size": 70
+      "sha256": "4bd30bff5e219ffb6bad8f77cb8d8ff859896eae42af5a9bfdc59dcc5ba03260",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/dragon_egg_stage2.json": {
-      "sha256": "9c649aa6f2d3eb03bd3eb0d6537343c40b3a5678e68820cb77956bac9c5cb119",
-      "size": 70
+      "sha256": "c2b2e127c2ef27b79b9445eb1559f05f69c76efe42f44bc55064d196e0dc6199",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/dragon_egg_stage3.json": {
-      "sha256": "8b2156ea22b582d36a4dc474f2765839cbfe9020f328bbdc49c6d0c09c2032db",
-      "size": 70
+      "sha256": "bcc5b8ddaac3640a902f6242012354c325087e2b3431d53474abf823aa8f474a",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/dragon_egg_stage4.json": {
-      "sha256": "1efe1cda8e63413d32280dbbfc5255a52e4b34a9b2566abdf8c2c8659fc2b8c1",
-      "size": 70
+      "sha256": "e95181d7929d862c58f09e17fe5a6c0a8aa1ab3501e333ec3298fbd26ac34637",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/dragon_egg_stage5.json": {
-      "sha256": "3b8ee3a46e99469701fd6bfa3aacdb2d9057e0018907b9c81d8a3355321e2676",
-      "size": 70
+      "sha256": "e79295039c2b051f4499ffbe46b8bea0b88786cc86d26e6249a7a62619ad5dd9",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/dragon_egg_stage6.json": {
-      "sha256": "013c208f8ca2cf187ac54b60b21ae4f9bfea84fd7ca717ab5e8ab499f5ffb06c",
-      "size": 70
+      "sha256": "056fd6c9fc75dc735e035296e2d82f6b5a6b9586b189936bc14a9669ceba962d",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/dragon_egg_stage7.json": {
-      "sha256": "e66b5adf2934956966db827db48da121b308e2b37d4c5d7d912062b3bca25c94",
-      "size": 155
+      "sha256": "52d198c59808ed7bcc8e3d78b9921f474e33ce193fb399cbc8c92cec557685d6",
+      "size": 150
     },
     "kubejs/assets/mysticalagriculture/models/crop/gaia_spirit_stage0.json": {
-      "sha256": "88f5547e4e9db5d0554b012511ae9136992a6c64f9b2cc8f2f4d606390248e0d",
-      "size": 70
+      "sha256": "d6ae251e0c03573b6779140b9942be69a1539a4fe87d831dc36f1bfe3bd14683",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/gaia_spirit_stage1.json": {
-      "sha256": "ae11f033fdd646d00aef59c717feea1b132c47cf3f0819114f1f3c3fc22f2a28",
-      "size": 70
+      "sha256": "4bd30bff5e219ffb6bad8f77cb8d8ff859896eae42af5a9bfdc59dcc5ba03260",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/gaia_spirit_stage2.json": {
-      "sha256": "9c649aa6f2d3eb03bd3eb0d6537343c40b3a5678e68820cb77956bac9c5cb119",
-      "size": 70
+      "sha256": "c2b2e127c2ef27b79b9445eb1559f05f69c76efe42f44bc55064d196e0dc6199",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/gaia_spirit_stage3.json": {
-      "sha256": "8b2156ea22b582d36a4dc474f2765839cbfe9020f328bbdc49c6d0c09c2032db",
-      "size": 70
+      "sha256": "bcc5b8ddaac3640a902f6242012354c325087e2b3431d53474abf823aa8f474a",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/gaia_spirit_stage4.json": {
-      "sha256": "1efe1cda8e63413d32280dbbfc5255a52e4b34a9b2566abdf8c2c8659fc2b8c1",
-      "size": 70
+      "sha256": "e95181d7929d862c58f09e17fe5a6c0a8aa1ab3501e333ec3298fbd26ac34637",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/gaia_spirit_stage5.json": {
-      "sha256": "3b8ee3a46e99469701fd6bfa3aacdb2d9057e0018907b9c81d8a3355321e2676",
-      "size": 70
+      "sha256": "e79295039c2b051f4499ffbe46b8bea0b88786cc86d26e6249a7a62619ad5dd9",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/gaia_spirit_stage6.json": {
-      "sha256": "013c208f8ca2cf187ac54b60b21ae4f9bfea84fd7ca717ab5e8ab499f5ffb06c",
-      "size": 70
+      "sha256": "056fd6c9fc75dc735e035296e2d82f6b5a6b9586b189936bc14a9669ceba962d",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/gaia_spirit_stage7.json": {
-      "sha256": "9d627fd07c874bb869c00ca8fca096e6973b1801ad7e6602fa87735ed9a92649",
-      "size": 158
+      "sha256": "d0e3a58bfdf66634cc0e59f92ee6fae6bb69a5a96b451d75f3bc73d9e469a88c",
+      "size": 153
     },
     "kubejs/assets/mysticalagriculture/models/crop/iesnium_stage0.json": {
-      "sha256": "88f5547e4e9db5d0554b012511ae9136992a6c64f9b2cc8f2f4d606390248e0d",
-      "size": 70
+      "sha256": "d6ae251e0c03573b6779140b9942be69a1539a4fe87d831dc36f1bfe3bd14683",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/iesnium_stage1.json": {
-      "sha256": "ae11f033fdd646d00aef59c717feea1b132c47cf3f0819114f1f3c3fc22f2a28",
-      "size": 70
+      "sha256": "4bd30bff5e219ffb6bad8f77cb8d8ff859896eae42af5a9bfdc59dcc5ba03260",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/iesnium_stage2.json": {
-      "sha256": "9c649aa6f2d3eb03bd3eb0d6537343c40b3a5678e68820cb77956bac9c5cb119",
-      "size": 70
+      "sha256": "c2b2e127c2ef27b79b9445eb1559f05f69c76efe42f44bc55064d196e0dc6199",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/iesnium_stage3.json": {
-      "sha256": "8b2156ea22b582d36a4dc474f2765839cbfe9020f328bbdc49c6d0c09c2032db",
-      "size": 70
+      "sha256": "bcc5b8ddaac3640a902f6242012354c325087e2b3431d53474abf823aa8f474a",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/iesnium_stage4.json": {
-      "sha256": "1efe1cda8e63413d32280dbbfc5255a52e4b34a9b2566abdf8c2c8659fc2b8c1",
-      "size": 70
+      "sha256": "e95181d7929d862c58f09e17fe5a6c0a8aa1ab3501e333ec3298fbd26ac34637",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/iesnium_stage5.json": {
-      "sha256": "3b8ee3a46e99469701fd6bfa3aacdb2d9057e0018907b9c81d8a3355321e2676",
-      "size": 70
+      "sha256": "e79295039c2b051f4499ffbe46b8bea0b88786cc86d26e6249a7a62619ad5dd9",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/iesnium_stage6.json": {
-      "sha256": "013c208f8ca2cf187ac54b60b21ae4f9bfea84fd7ca717ab5e8ab499f5ffb06c",
-      "size": 70
+      "sha256": "056fd6c9fc75dc735e035296e2d82f6b5a6b9586b189936bc14a9669ceba962d",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/iesnium_stage7.json": {
-      "sha256": "87f761f453545fef0b06da5806ac06c9f20f9cfe247223727a61bf390997736e",
-      "size": 158
+      "sha256": "d5eabd4f5429b9045357dde1a41b6fd7baee9bae45ac6ea22c744ec5be8bca81",
+      "size": 153
     },
     "kubejs/assets/mysticalagriculture/models/crop/ignitium_stage0.json": {
-      "sha256": "88f5547e4e9db5d0554b012511ae9136992a6c64f9b2cc8f2f4d606390248e0d",
-      "size": 70
+      "sha256": "d6ae251e0c03573b6779140b9942be69a1539a4fe87d831dc36f1bfe3bd14683",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/ignitium_stage1.json": {
-      "sha256": "ae11f033fdd646d00aef59c717feea1b132c47cf3f0819114f1f3c3fc22f2a28",
-      "size": 70
+      "sha256": "4bd30bff5e219ffb6bad8f77cb8d8ff859896eae42af5a9bfdc59dcc5ba03260",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/ignitium_stage2.json": {
-      "sha256": "9c649aa6f2d3eb03bd3eb0d6537343c40b3a5678e68820cb77956bac9c5cb119",
-      "size": 70
+      "sha256": "c2b2e127c2ef27b79b9445eb1559f05f69c76efe42f44bc55064d196e0dc6199",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/ignitium_stage3.json": {
-      "sha256": "8b2156ea22b582d36a4dc474f2765839cbfe9020f328bbdc49c6d0c09c2032db",
-      "size": 70
+      "sha256": "bcc5b8ddaac3640a902f6242012354c325087e2b3431d53474abf823aa8f474a",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/ignitium_stage4.json": {
-      "sha256": "1efe1cda8e63413d32280dbbfc5255a52e4b34a9b2566abdf8c2c8659fc2b8c1",
-      "size": 70
+      "sha256": "e95181d7929d862c58f09e17fe5a6c0a8aa1ab3501e333ec3298fbd26ac34637",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/ignitium_stage5.json": {
-      "sha256": "3b8ee3a46e99469701fd6bfa3aacdb2d9057e0018907b9c81d8a3355321e2676",
-      "size": 70
+      "sha256": "e79295039c2b051f4499ffbe46b8bea0b88786cc86d26e6249a7a62619ad5dd9",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/ignitium_stage6.json": {
-      "sha256": "013c208f8ca2cf187ac54b60b21ae4f9bfea84fd7ca717ab5e8ab499f5ffb06c",
-      "size": 70
+      "sha256": "056fd6c9fc75dc735e035296e2d82f6b5a6b9586b189936bc14a9669ceba962d",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/ignitium_stage7.json": {
-      "sha256": "8a6cf1e216810fb8eed300973512166aafd9e52b8bd7c51ec9a9dc927ba7bac2",
-      "size": 157
+      "sha256": "6f0c9c406a89c318f1602e0bfc6e1e2f7b728b325b6c6b4fd65238f2e13eb1a4",
+      "size": 152
     },
     "kubejs/assets/mysticalagriculture/models/crop/lithium_stage0.json": {
-      "sha256": "88f5547e4e9db5d0554b012511ae9136992a6c64f9b2cc8f2f4d606390248e0d",
-      "size": 70
+      "sha256": "d6ae251e0c03573b6779140b9942be69a1539a4fe87d831dc36f1bfe3bd14683",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/lithium_stage1.json": {
-      "sha256": "ae11f033fdd646d00aef59c717feea1b132c47cf3f0819114f1f3c3fc22f2a28",
-      "size": 70
+      "sha256": "4bd30bff5e219ffb6bad8f77cb8d8ff859896eae42af5a9bfdc59dcc5ba03260",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/lithium_stage2.json": {
-      "sha256": "9c649aa6f2d3eb03bd3eb0d6537343c40b3a5678e68820cb77956bac9c5cb119",
-      "size": 70
+      "sha256": "c2b2e127c2ef27b79b9445eb1559f05f69c76efe42f44bc55064d196e0dc6199",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/lithium_stage3.json": {
-      "sha256": "8b2156ea22b582d36a4dc474f2765839cbfe9020f328bbdc49c6d0c09c2032db",
-      "size": 70
+      "sha256": "bcc5b8ddaac3640a902f6242012354c325087e2b3431d53474abf823aa8f474a",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/lithium_stage4.json": {
-      "sha256": "1efe1cda8e63413d32280dbbfc5255a52e4b34a9b2566abdf8c2c8659fc2b8c1",
-      "size": 70
+      "sha256": "e95181d7929d862c58f09e17fe5a6c0a8aa1ab3501e333ec3298fbd26ac34637",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/lithium_stage5.json": {
-      "sha256": "3b8ee3a46e99469701fd6bfa3aacdb2d9057e0018907b9c81d8a3355321e2676",
-      "size": 70
+      "sha256": "e79295039c2b051f4499ffbe46b8bea0b88786cc86d26e6249a7a62619ad5dd9",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/lithium_stage6.json": {
-      "sha256": "013c208f8ca2cf187ac54b60b21ae4f9bfea84fd7ca717ab5e8ab499f5ffb06c",
-      "size": 70
+      "sha256": "056fd6c9fc75dc735e035296e2d82f6b5a6b9586b189936bc14a9669ceba962d",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/lithium_stage7.json": {
-      "sha256": "52e1dde028bbb7f54777f898e034338a941c739c0aa8a08a85b37064488bc92a",
-      "size": 157
+      "sha256": "44001ee0b92467504dfc433b72d13065b85e1ef459da22bfb7a8967cc4b8c397",
+      "size": 152
     },
     "kubejs/assets/mysticalagriculture/models/crop/nether_star_stage0.json": {
-      "sha256": "88f5547e4e9db5d0554b012511ae9136992a6c64f9b2cc8f2f4d606390248e0d",
-      "size": 70
+      "sha256": "d6ae251e0c03573b6779140b9942be69a1539a4fe87d831dc36f1bfe3bd14683",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/nether_star_stage1.json": {
-      "sha256": "ae11f033fdd646d00aef59c717feea1b132c47cf3f0819114f1f3c3fc22f2a28",
-      "size": 70
+      "sha256": "4bd30bff5e219ffb6bad8f77cb8d8ff859896eae42af5a9bfdc59dcc5ba03260",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/nether_star_stage2.json": {
-      "sha256": "9c649aa6f2d3eb03bd3eb0d6537343c40b3a5678e68820cb77956bac9c5cb119",
-      "size": 70
+      "sha256": "c2b2e127c2ef27b79b9445eb1559f05f69c76efe42f44bc55064d196e0dc6199",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/nether_star_stage3.json": {
-      "sha256": "8b2156ea22b582d36a4dc474f2765839cbfe9020f328bbdc49c6d0c09c2032db",
-      "size": 70
+      "sha256": "bcc5b8ddaac3640a902f6242012354c325087e2b3431d53474abf823aa8f474a",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/nether_star_stage4.json": {
-      "sha256": "1efe1cda8e63413d32280dbbfc5255a52e4b34a9b2566abdf8c2c8659fc2b8c1",
-      "size": 70
+      "sha256": "e95181d7929d862c58f09e17fe5a6c0a8aa1ab3501e333ec3298fbd26ac34637",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/nether_star_stage5.json": {
-      "sha256": "3b8ee3a46e99469701fd6bfa3aacdb2d9057e0018907b9c81d8a3355321e2676",
-      "size": 70
+      "sha256": "e79295039c2b051f4499ffbe46b8bea0b88786cc86d26e6249a7a62619ad5dd9",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/nether_star_stage6.json": {
-      "sha256": "013c208f8ca2cf187ac54b60b21ae4f9bfea84fd7ca717ab5e8ab499f5ffb06c",
-      "size": 70
+      "sha256": "056fd6c9fc75dc735e035296e2d82f6b5a6b9586b189936bc14a9669ceba962d",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/nether_star_stage7.json": {
-      "sha256": "3442eafd2e7c39bcd00adbc64bcc2651de921929bc67f238e5e0e1b102ccb9d8",
-      "size": 163
+      "sha256": "53c9765f5bbf5ed09286de2ad8a9d19b6473f1301ab5664b9a6a65f1543bfd60",
+      "size": 158
     },
     "kubejs/assets/mysticalagriculture/models/crop/neutronium_stage0.json": {
-      "sha256": "88f5547e4e9db5d0554b012511ae9136992a6c64f9b2cc8f2f4d606390248e0d",
-      "size": 70
+      "sha256": "d6ae251e0c03573b6779140b9942be69a1539a4fe87d831dc36f1bfe3bd14683",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/neutronium_stage1.json": {
-      "sha256": "ae11f033fdd646d00aef59c717feea1b132c47cf3f0819114f1f3c3fc22f2a28",
-      "size": 70
+      "sha256": "4bd30bff5e219ffb6bad8f77cb8d8ff859896eae42af5a9bfdc59dcc5ba03260",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/neutronium_stage2.json": {
-      "sha256": "9c649aa6f2d3eb03bd3eb0d6537343c40b3a5678e68820cb77956bac9c5cb119",
-      "size": 70
+      "sha256": "c2b2e127c2ef27b79b9445eb1559f05f69c76efe42f44bc55064d196e0dc6199",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/neutronium_stage3.json": {
-      "sha256": "8b2156ea22b582d36a4dc474f2765839cbfe9020f328bbdc49c6d0c09c2032db",
-      "size": 70
+      "sha256": "bcc5b8ddaac3640a902f6242012354c325087e2b3431d53474abf823aa8f474a",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/neutronium_stage4.json": {
-      "sha256": "1efe1cda8e63413d32280dbbfc5255a52e4b34a9b2566abdf8c2c8659fc2b8c1",
-      "size": 70
+      "sha256": "e95181d7929d862c58f09e17fe5a6c0a8aa1ab3501e333ec3298fbd26ac34637",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/neutronium_stage5.json": {
-      "sha256": "3b8ee3a46e99469701fd6bfa3aacdb2d9057e0018907b9c81d8a3355321e2676",
-      "size": 70
+      "sha256": "e79295039c2b051f4499ffbe46b8bea0b88786cc86d26e6249a7a62619ad5dd9",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/neutronium_stage6.json": {
-      "sha256": "013c208f8ca2cf187ac54b60b21ae4f9bfea84fd7ca717ab5e8ab499f5ffb06c",
-      "size": 70
+      "sha256": "056fd6c9fc75dc735e035296e2d82f6b5a6b9586b189936bc14a9669ceba962d",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/neutronium_stage7.json": {
-      "sha256": "ae75e3d104f3dd624f82fb75b90e9aacc9426233da8d1e124a04ca9464aea90d",
-      "size": 159
+      "sha256": "a632fab7984eadbf57c3d7b45402027493adf5ff494285073618dd7776325029",
+      "size": 154
     },
     "kubejs/assets/mysticalagriculture/models/crop/niter_stage0.json": {
-      "sha256": "88f5547e4e9db5d0554b012511ae9136992a6c64f9b2cc8f2f4d606390248e0d",
-      "size": 70
+      "sha256": "d6ae251e0c03573b6779140b9942be69a1539a4fe87d831dc36f1bfe3bd14683",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/niter_stage1.json": {
-      "sha256": "ae11f033fdd646d00aef59c717feea1b132c47cf3f0819114f1f3c3fc22f2a28",
-      "size": 70
+      "sha256": "4bd30bff5e219ffb6bad8f77cb8d8ff859896eae42af5a9bfdc59dcc5ba03260",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/niter_stage2.json": {
-      "sha256": "9c649aa6f2d3eb03bd3eb0d6537343c40b3a5678e68820cb77956bac9c5cb119",
-      "size": 70
+      "sha256": "c2b2e127c2ef27b79b9445eb1559f05f69c76efe42f44bc55064d196e0dc6199",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/niter_stage3.json": {
-      "sha256": "8b2156ea22b582d36a4dc474f2765839cbfe9020f328bbdc49c6d0c09c2032db",
-      "size": 70
+      "sha256": "bcc5b8ddaac3640a902f6242012354c325087e2b3431d53474abf823aa8f474a",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/niter_stage4.json": {
-      "sha256": "1efe1cda8e63413d32280dbbfc5255a52e4b34a9b2566abdf8c2c8659fc2b8c1",
-      "size": 70
+      "sha256": "e95181d7929d862c58f09e17fe5a6c0a8aa1ab3501e333ec3298fbd26ac34637",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/niter_stage5.json": {
-      "sha256": "3b8ee3a46e99469701fd6bfa3aacdb2d9057e0018907b9c81d8a3355321e2676",
-      "size": 70
+      "sha256": "e79295039c2b051f4499ffbe46b8bea0b88786cc86d26e6249a7a62619ad5dd9",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/niter_stage6.json": {
-      "sha256": "013c208f8ca2cf187ac54b60b21ae4f9bfea84fd7ca717ab5e8ab499f5ffb06c",
-      "size": 70
+      "sha256": "056fd6c9fc75dc735e035296e2d82f6b5a6b9586b189936bc14a9669ceba962d",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/niter_stage7.json": {
-      "sha256": "52e1dde028bbb7f54777f898e034338a941c739c0aa8a08a85b37064488bc92a",
-      "size": 157
+      "sha256": "44001ee0b92467504dfc433b72d13065b85e1ef459da22bfb7a8967cc4b8c397",
+      "size": 152
     },
     "kubejs/assets/mysticalagriculture/models/crop/nitro_crystal_stage0.json": {
-      "sha256": "88f5547e4e9db5d0554b012511ae9136992a6c64f9b2cc8f2f4d606390248e0d",
-      "size": 70
+      "sha256": "d6ae251e0c03573b6779140b9942be69a1539a4fe87d831dc36f1bfe3bd14683",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/nitro_crystal_stage1.json": {
-      "sha256": "ae11f033fdd646d00aef59c717feea1b132c47cf3f0819114f1f3c3fc22f2a28",
-      "size": 70
+      "sha256": "4bd30bff5e219ffb6bad8f77cb8d8ff859896eae42af5a9bfdc59dcc5ba03260",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/nitro_crystal_stage2.json": {
-      "sha256": "9c649aa6f2d3eb03bd3eb0d6537343c40b3a5678e68820cb77956bac9c5cb119",
-      "size": 70
+      "sha256": "c2b2e127c2ef27b79b9445eb1559f05f69c76efe42f44bc55064d196e0dc6199",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/nitro_crystal_stage3.json": {
-      "sha256": "8b2156ea22b582d36a4dc474f2765839cbfe9020f328bbdc49c6d0c09c2032db",
-      "size": 70
+      "sha256": "bcc5b8ddaac3640a902f6242012354c325087e2b3431d53474abf823aa8f474a",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/nitro_crystal_stage4.json": {
-      "sha256": "1efe1cda8e63413d32280dbbfc5255a52e4b34a9b2566abdf8c2c8659fc2b8c1",
-      "size": 70
+      "sha256": "e95181d7929d862c58f09e17fe5a6c0a8aa1ab3501e333ec3298fbd26ac34637",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/nitro_crystal_stage5.json": {
-      "sha256": "3b8ee3a46e99469701fd6bfa3aacdb2d9057e0018907b9c81d8a3355321e2676",
-      "size": 70
+      "sha256": "e79295039c2b051f4499ffbe46b8bea0b88786cc86d26e6249a7a62619ad5dd9",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/nitro_crystal_stage6.json": {
-      "sha256": "013c208f8ca2cf187ac54b60b21ae4f9bfea84fd7ca717ab5e8ab499f5ffb06c",
-      "size": 70
+      "sha256": "056fd6c9fc75dc735e035296e2d82f6b5a6b9586b189936bc14a9669ceba962d",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/nitro_crystal_stage7.json": {
-      "sha256": "c10c7a65bd2b7a1b71b6e3c443292047a9beab137386f7063de100f30d6d4a0e",
-      "size": 155
+      "sha256": "2f1c13c39c27fa663fd928f66c5a4d520634c1252a580602c5a794e297c458d0",
+      "size": 150
     },
     "kubejs/assets/mysticalagriculture/models/crop/plastic_stage0.json": {
-      "sha256": "88f5547e4e9db5d0554b012511ae9136992a6c64f9b2cc8f2f4d606390248e0d",
-      "size": 70
+      "sha256": "d6ae251e0c03573b6779140b9942be69a1539a4fe87d831dc36f1bfe3bd14683",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/plastic_stage1.json": {
-      "sha256": "ae11f033fdd646d00aef59c717feea1b132c47cf3f0819114f1f3c3fc22f2a28",
-      "size": 70
+      "sha256": "4bd30bff5e219ffb6bad8f77cb8d8ff859896eae42af5a9bfdc59dcc5ba03260",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/plastic_stage2.json": {
-      "sha256": "9c649aa6f2d3eb03bd3eb0d6537343c40b3a5678e68820cb77956bac9c5cb119",
-      "size": 70
+      "sha256": "c2b2e127c2ef27b79b9445eb1559f05f69c76efe42f44bc55064d196e0dc6199",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/plastic_stage3.json": {
-      "sha256": "8b2156ea22b582d36a4dc474f2765839cbfe9020f328bbdc49c6d0c09c2032db",
-      "size": 70
+      "sha256": "bcc5b8ddaac3640a902f6242012354c325087e2b3431d53474abf823aa8f474a",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/plastic_stage4.json": {
-      "sha256": "1efe1cda8e63413d32280dbbfc5255a52e4b34a9b2566abdf8c2c8659fc2b8c1",
-      "size": 70
+      "sha256": "e95181d7929d862c58f09e17fe5a6c0a8aa1ab3501e333ec3298fbd26ac34637",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/plastic_stage5.json": {
-      "sha256": "3b8ee3a46e99469701fd6bfa3aacdb2d9057e0018907b9c81d8a3355321e2676",
-      "size": 70
+      "sha256": "e79295039c2b051f4499ffbe46b8bea0b88786cc86d26e6249a7a62619ad5dd9",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/plastic_stage6.json": {
-      "sha256": "013c208f8ca2cf187ac54b60b21ae4f9bfea84fd7ca717ab5e8ab499f5ffb06c",
-      "size": 70
+      "sha256": "056fd6c9fc75dc735e035296e2d82f6b5a6b9586b189936bc14a9669ceba962d",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/plastic_stage7.json": {
-      "sha256": "388456d8bb6cc5e4805831868451c355f6a5fb3e15672c00d8984e675cc2005f",
-      "size": 159
+      "sha256": "5e0df54da22b8967dd43969eef64212e60975f3f7615fe156ba5275a7e65c5a2",
+      "size": 154
     },
     "kubejs/assets/mysticalagriculture/models/crop/plutonium_stage0.json": {
-      "sha256": "88f5547e4e9db5d0554b012511ae9136992a6c64f9b2cc8f2f4d606390248e0d",
-      "size": 70
+      "sha256": "d6ae251e0c03573b6779140b9942be69a1539a4fe87d831dc36f1bfe3bd14683",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/plutonium_stage1.json": {
-      "sha256": "ae11f033fdd646d00aef59c717feea1b132c47cf3f0819114f1f3c3fc22f2a28",
-      "size": 70
+      "sha256": "4bd30bff5e219ffb6bad8f77cb8d8ff859896eae42af5a9bfdc59dcc5ba03260",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/plutonium_stage2.json": {
-      "sha256": "9c649aa6f2d3eb03bd3eb0d6537343c40b3a5678e68820cb77956bac9c5cb119",
-      "size": 70
+      "sha256": "c2b2e127c2ef27b79b9445eb1559f05f69c76efe42f44bc55064d196e0dc6199",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/plutonium_stage3.json": {
-      "sha256": "8b2156ea22b582d36a4dc474f2765839cbfe9020f328bbdc49c6d0c09c2032db",
-      "size": 70
+      "sha256": "bcc5b8ddaac3640a902f6242012354c325087e2b3431d53474abf823aa8f474a",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/plutonium_stage4.json": {
-      "sha256": "1efe1cda8e63413d32280dbbfc5255a52e4b34a9b2566abdf8c2c8659fc2b8c1",
-      "size": 70
+      "sha256": "e95181d7929d862c58f09e17fe5a6c0a8aa1ab3501e333ec3298fbd26ac34637",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/plutonium_stage5.json": {
-      "sha256": "3b8ee3a46e99469701fd6bfa3aacdb2d9057e0018907b9c81d8a3355321e2676",
-      "size": 70
+      "sha256": "e79295039c2b051f4499ffbe46b8bea0b88786cc86d26e6249a7a62619ad5dd9",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/plutonium_stage6.json": {
-      "sha256": "013c208f8ca2cf187ac54b60b21ae4f9bfea84fd7ca717ab5e8ab499f5ffb06c",
-      "size": 70
+      "sha256": "056fd6c9fc75dc735e035296e2d82f6b5a6b9586b189936bc14a9669ceba962d",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/plutonium_stage7.json": {
-      "sha256": "0c8254bc51b62ffbe1787434982f3f20ebddf82a4f916f4d110d7ccb4accf2b2",
-      "size": 158
+      "sha256": "436b0d027795d4576a3cf805e42a0b21e62eee5648d4f157716470120b3c6661",
+      "size": 153
     },
     "kubejs/assets/mysticalagriculture/models/crop/sky_steel_stage0.json": {
-      "sha256": "88f5547e4e9db5d0554b012511ae9136992a6c64f9b2cc8f2f4d606390248e0d",
-      "size": 70
+      "sha256": "d6ae251e0c03573b6779140b9942be69a1539a4fe87d831dc36f1bfe3bd14683",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/sky_steel_stage1.json": {
-      "sha256": "ae11f033fdd646d00aef59c717feea1b132c47cf3f0819114f1f3c3fc22f2a28",
-      "size": 70
+      "sha256": "4bd30bff5e219ffb6bad8f77cb8d8ff859896eae42af5a9bfdc59dcc5ba03260",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/sky_steel_stage2.json": {
-      "sha256": "9c649aa6f2d3eb03bd3eb0d6537343c40b3a5678e68820cb77956bac9c5cb119",
-      "size": 70
+      "sha256": "c2b2e127c2ef27b79b9445eb1559f05f69c76efe42f44bc55064d196e0dc6199",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/sky_steel_stage3.json": {
-      "sha256": "8b2156ea22b582d36a4dc474f2765839cbfe9020f328bbdc49c6d0c09c2032db",
-      "size": 70
+      "sha256": "bcc5b8ddaac3640a902f6242012354c325087e2b3431d53474abf823aa8f474a",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/sky_steel_stage4.json": {
-      "sha256": "1efe1cda8e63413d32280dbbfc5255a52e4b34a9b2566abdf8c2c8659fc2b8c1",
-      "size": 70
+      "sha256": "e95181d7929d862c58f09e17fe5a6c0a8aa1ab3501e333ec3298fbd26ac34637",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/sky_steel_stage5.json": {
-      "sha256": "3b8ee3a46e99469701fd6bfa3aacdb2d9057e0018907b9c81d8a3355321e2676",
-      "size": 70
+      "sha256": "e79295039c2b051f4499ffbe46b8bea0b88786cc86d26e6249a7a62619ad5dd9",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/sky_steel_stage6.json": {
-      "sha256": "013c208f8ca2cf187ac54b60b21ae4f9bfea84fd7ca717ab5e8ab499f5ffb06c",
-      "size": 70
+      "sha256": "056fd6c9fc75dc735e035296e2d82f6b5a6b9586b189936bc14a9669ceba962d",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/sky_steel_stage7.json": {
-      "sha256": "e66b5adf2934956966db827db48da121b308e2b37d4c5d7d912062b3bca25c94",
-      "size": 155
+      "sha256": "52d198c59808ed7bcc8e3d78b9921f474e33ce193fb399cbc8c92cec557685d6",
+      "size": 150
     },
     "kubejs/assets/mysticalagriculture/models/crop/unobtainium_stage0.json": {
-      "sha256": "88f5547e4e9db5d0554b012511ae9136992a6c64f9b2cc8f2f4d606390248e0d",
-      "size": 70
+      "sha256": "d6ae251e0c03573b6779140b9942be69a1539a4fe87d831dc36f1bfe3bd14683",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/unobtainium_stage1.json": {
-      "sha256": "ae11f033fdd646d00aef59c717feea1b132c47cf3f0819114f1f3c3fc22f2a28",
-      "size": 70
+      "sha256": "4bd30bff5e219ffb6bad8f77cb8d8ff859896eae42af5a9bfdc59dcc5ba03260",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/unobtainium_stage2.json": {
-      "sha256": "9c649aa6f2d3eb03bd3eb0d6537343c40b3a5678e68820cb77956bac9c5cb119",
-      "size": 70
+      "sha256": "c2b2e127c2ef27b79b9445eb1559f05f69c76efe42f44bc55064d196e0dc6199",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/unobtainium_stage3.json": {
-      "sha256": "8b2156ea22b582d36a4dc474f2765839cbfe9020f328bbdc49c6d0c09c2032db",
-      "size": 70
+      "sha256": "bcc5b8ddaac3640a902f6242012354c325087e2b3431d53474abf823aa8f474a",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/unobtainium_stage4.json": {
-      "sha256": "1efe1cda8e63413d32280dbbfc5255a52e4b34a9b2566abdf8c2c8659fc2b8c1",
-      "size": 70
+      "sha256": "e95181d7929d862c58f09e17fe5a6c0a8aa1ab3501e333ec3298fbd26ac34637",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/unobtainium_stage5.json": {
-      "sha256": "3b8ee3a46e99469701fd6bfa3aacdb2d9057e0018907b9c81d8a3355321e2676",
-      "size": 70
+      "sha256": "e79295039c2b051f4499ffbe46b8bea0b88786cc86d26e6249a7a62619ad5dd9",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/unobtainium_stage6.json": {
-      "sha256": "013c208f8ca2cf187ac54b60b21ae4f9bfea84fd7ca717ab5e8ab499f5ffb06c",
-      "size": 70
+      "sha256": "056fd6c9fc75dc735e035296e2d82f6b5a6b9586b189936bc14a9669ceba962d",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/unobtainium_stage7.json": {
-      "sha256": "9c00f4c049e2d42735619b62845ea17e95bb02e3f87533efd30507f30e504097",
-      "size": 160
+      "sha256": "e9964f5af6b4fec218990586055fe46b33f45aee0278ca1ccdf690f62b44b00c",
+      "size": 155
     },
     "kubejs/assets/mysticalagriculture/models/crop/vibranium_stage0.json": {
-      "sha256": "88f5547e4e9db5d0554b012511ae9136992a6c64f9b2cc8f2f4d606390248e0d",
-      "size": 70
+      "sha256": "d6ae251e0c03573b6779140b9942be69a1539a4fe87d831dc36f1bfe3bd14683",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/vibranium_stage1.json": {
-      "sha256": "ae11f033fdd646d00aef59c717feea1b132c47cf3f0819114f1f3c3fc22f2a28",
-      "size": 70
+      "sha256": "4bd30bff5e219ffb6bad8f77cb8d8ff859896eae42af5a9bfdc59dcc5ba03260",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/vibranium_stage2.json": {
-      "sha256": "9c649aa6f2d3eb03bd3eb0d6537343c40b3a5678e68820cb77956bac9c5cb119",
-      "size": 70
+      "sha256": "c2b2e127c2ef27b79b9445eb1559f05f69c76efe42f44bc55064d196e0dc6199",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/vibranium_stage3.json": {
-      "sha256": "8b2156ea22b582d36a4dc474f2765839cbfe9020f328bbdc49c6d0c09c2032db",
-      "size": 70
+      "sha256": "bcc5b8ddaac3640a902f6242012354c325087e2b3431d53474abf823aa8f474a",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/vibranium_stage4.json": {
-      "sha256": "1efe1cda8e63413d32280dbbfc5255a52e4b34a9b2566abdf8c2c8659fc2b8c1",
-      "size": 70
+      "sha256": "e95181d7929d862c58f09e17fe5a6c0a8aa1ab3501e333ec3298fbd26ac34637",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/vibranium_stage5.json": {
-      "sha256": "3b8ee3a46e99469701fd6bfa3aacdb2d9057e0018907b9c81d8a3355321e2676",
-      "size": 70
+      "sha256": "e79295039c2b051f4499ffbe46b8bea0b88786cc86d26e6249a7a62619ad5dd9",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/vibranium_stage6.json": {
-      "sha256": "013c208f8ca2cf187ac54b60b21ae4f9bfea84fd7ca717ab5e8ab499f5ffb06c",
-      "size": 70
+      "sha256": "056fd6c9fc75dc735e035296e2d82f6b5a6b9586b189936bc14a9669ceba962d",
+      "size": 68
     },
     "kubejs/assets/mysticalagriculture/models/crop/vibranium_stage7.json": {
-      "sha256": "d2b9441d289492aee50558f9e278152199a73c9a9da4b21df772aaf7d575ee07",
-      "size": 158
+      "sha256": "66c71d31b2fac8412f5907d1cb8d23da89630f840d380450e18ab367cf0011d9",
+      "size": 153
     },
     "kubejs/assets/mysticalagriculture/models/seed/allthemodium.json": {
-      "sha256": "fc4cd56285999b4690185dd71520694f9d0a2caa2ac96556fd9cd0f642b6de00",
-      "size": 137
+      "sha256": "2e13eae3478b5006f39d768c92872693552300bc148384fa965cb3834cfddcdd",
+      "size": 132
     },
     "kubejs/assets/mysticalagriculture/models/seed/awakened_draconium.json": {
-      "sha256": "33f7af4474e1984c7d98434e6a58821b9cac0df91f0a22b521a502d059998144",
-      "size": 128
+      "sha256": "c20e52ce9996eade9761e5afe5b73fda11a835998c7e14510c70c4dadceb84ea",
+      "size": 123
     },
     "kubejs/assets/mysticalagriculture/models/seed/boron.json": {
-      "sha256": "43a4f4a87cd5266591ad89a7c593cc8cbb95cfa2589e3e8ee0bc1682100143a4",
-      "size": 137
+      "sha256": "42cbcc3f1ced5dad31513d1373132b0df892bdc0795d33251186e92a8b83c2ef",
+      "size": 132
     },
     "kubejs/assets/mysticalagriculture/models/seed/cognizant_dust.json": {
-      "sha256": "5b975aaa232c8ac92d22251ad40bcd7b551a4c4c32dd7e9b0962d7d4e552c96a",
-      "size": 131
+      "sha256": "09374f337ed2155a6bbb2f31c0e7241fea27b29588a449e779bd6bb063c9c8f2",
+      "size": 126
     },
     "kubejs/assets/mysticalagriculture/models/seed/dark_metal_ingot.json": {
-      "sha256": "8a7aeac89da6ddfb94282f4d336e368409b51e97eab2e40811cf646f18835bbb",
-      "size": 131
+      "sha256": "f7b88b50fdc2603ecf5451b87458a6596da1dec596ab5322995963881f50bcea",
+      "size": 126
     },
     "kubejs/assets/mysticalagriculture/models/seed/dragon_egg.json": {
-      "sha256": "a87c18869b22bafae60f7818b82ea559e179dc1b31a2634756128f30d6fa1f12",
-      "size": 126
+      "sha256": "aca3998078fe3403fbab126c949a791c5ada05531d2ae8b5c65816ce920f6756",
+      "size": 121
     },
     "kubejs/assets/mysticalagriculture/models/seed/gaia_spirit.json": {
-      "sha256": "a3c5fe7653f3ccc5ec0084ff5e17520de5302d5f4f2a7b128e5741cbaa21fe4c",
-      "size": 129
+      "sha256": "d24d62daacd297fdbf09df89f37af2019a42bd893b04969f410dc0a6ba43c277",
+      "size": 124
     },
     "kubejs/assets/mysticalagriculture/models/seed/iesnium.json": {
-      "sha256": "885e34158750e51e6725aade06af5bc4841bb7c76cfa77b825460da4cf8f71a9",
-      "size": 129
+      "sha256": "746b0a4f2d90f821c3a0102f7d097df78f921ff0474c8eb1f98995be318f4a08",
+      "size": 124
     },
     "kubejs/assets/mysticalagriculture/models/seed/ignitium.json": {
-      "sha256": "33f7af4474e1984c7d98434e6a58821b9cac0df91f0a22b521a502d059998144",
-      "size": 128
+      "sha256": "c20e52ce9996eade9761e5afe5b73fda11a835998c7e14510c70c4dadceb84ea",
+      "size": 123
     },
     "kubejs/assets/mysticalagriculture/models/seed/lithium.json": {
-      "sha256": "43a4f4a87cd5266591ad89a7c593cc8cbb95cfa2589e3e8ee0bc1682100143a4",
-      "size": 137
+      "sha256": "42cbcc3f1ced5dad31513d1373132b0df892bdc0795d33251186e92a8b83c2ef",
+      "size": 132
     },
     "kubejs/assets/mysticalagriculture/models/seed/nether_star.json": {
-      "sha256": "6b11c1ad8a0c5570a8a4e3140054d9b1d3b0a5db39efe260a6b67cce5e78b092",
-      "size": 134
+      "sha256": "6f2536dedf4f7237ce787a8fbaed2db98e250cd543070f350cdd7a39ad6c3c18",
+      "size": 129
     },
     "kubejs/assets/mysticalagriculture/models/seed/neutronium.json": {
-      "sha256": "6f4deda385a3ed0b69f0185a696e472f25ca22ceed8d34d6a3d24d61b304bdd9",
-      "size": 128
+      "sha256": "e0e56a3b6efa40e44a33092ae9caf47315d79c47e54bb5184facdaf13b037281",
+      "size": 123
     },
     "kubejs/assets/mysticalagriculture/models/seed/niter.json": {
-      "sha256": "243a40758e8df4b340d8a6cd25e11a0c3c872129d6cdf05bc511fdfa2dda7d7d",
-      "size": 128
+      "sha256": "3edaa0e337e819c8b77ebd178f47626bfa1acdc25797af726a9c1d8c32a30e79",
+      "size": 123
     },
     "kubejs/assets/mysticalagriculture/models/seed/nitro_crystal.json": {
-      "sha256": "7d812dfc1fb3cc220868a116ddebbce1d1b06d10a417eac442992e0e1a305836",
-      "size": 126
+      "sha256": "aa61bd54763d0b2c7c2c6deead7175647773f28f0f4b81e387e76228adf3c114",
+      "size": 121
     },
     "kubejs/assets/mysticalagriculture/models/seed/plastic.json": {
-      "sha256": "f2d488bf45220bf671fa8b8de6ba8a3b85c8a9fda2d3f14c9632595c25131997",
-      "size": 130
+      "sha256": "f91f81c4c48d912df15889551837754a6203a7234f5fbd40ac2672ce85a5a8db",
+      "size": 125
     },
     "kubejs/assets/mysticalagriculture/models/seed/plutonium.json": {
-      "sha256": "4ca386355ba32f173252bddd39781f14058e71eeab36486ccd463a00018d94a6",
-      "size": 129
+      "sha256": "6707bae6aa1d464ff4283eb65cb695311521da0e9522a61c302eb628a82bdfa5",
+      "size": 124
     },
     "kubejs/assets/mysticalagriculture/models/seed/sky_steel.json": {
-      "sha256": "a87c18869b22bafae60f7818b82ea559e179dc1b31a2634756128f30d6fa1f12",
-      "size": 126
+      "sha256": "aca3998078fe3403fbab126c949a791c5ada05531d2ae8b5c65816ce920f6756",
+      "size": 121
     },
     "kubejs/assets/mysticalagriculture/models/seed/unobtainium.json": {
-      "sha256": "86cd62cf54d9dd79c9c6820e79a3dcb11349dd94492a0bb3cfb42064c9faadf6",
-      "size": 131
+      "sha256": "2d5b55e29fb5158800c72070fa3ecf3a3cc94086c446e9dc763e8f37729a0ef9",
+      "size": 126
     },
     "kubejs/assets/mysticalagriculture/models/seed/vibranium.json": {
-      "sha256": "40fc82b0fb6561b3b671bc8b53f7637f97af854326513fb97ba503a21a184ebe",
-      "size": 129
+      "sha256": "02b5d9409048d7fd4dfae61fc7595d7df85604c23a7ab0e25ceebbf43953cc30",
+      "size": 124
     },
     "kubejs/assets/rain/blockstates/mini_cobblestone.json": {
-      "sha256": "9632b6b4ef0d04400f2b84f84254d80e02b7091e7b37c0ca3e2ae24358aabf13",
-      "size": 105
+      "sha256": "8860d4087744dfaa3f8b8d35abd851ea7433ab7f5229b6f1bd4d18c9c45d6933",
+      "size": 99
     },
     "kubejs/assets/rain/lang/en_us.json": {
-      "sha256": "8402a70c702278f7a2dcf43d8639f6bd2bd5f6fbd25ba2d98212e45c5d9d895f",
-      "size": 14049
+      "sha256": "75691299012132072f1f282e01200b17f351c9201d02c1df8926e1ba579858be",
+      "size": 16312
     },
     "kubejs/assets/rain/lang/zh_cn.json": {
-      "sha256": "49b6ca33d066cca8f2e64b36019e5bedb3b01244afba4347c5d3499f07ea0adb",
-      "size": 12386
+      "sha256": "26e02c6b7dea49517082bb6167e5f0a626dcbf3b4bbdf1b3a89b472dc0a3f0d2",
+      "size": 14605
     },
     "kubejs/assets/rain/models/block/mini_cobblestone.json": {
       "sha256": "ddf18db088e86cf9332999ee2aaa180360ae5547a7316a89a6cc42db68fd0d8b",
@@ -2617,24 +2621,24 @@
       "size": 2579
     },
     "kubejs/assets/rain/models/machine/copy_factory.json": {
-      "sha256": "b09d940110bdc1a4f2ab9879e812cdae7fe064c2dfb598135db50f512fecf566",
-      "size": 388
+      "sha256": "1b639f40cd98c298e4c87382d6f538e8806987b4574197bf4192ec6fecf2c650",
+      "size": 377
     },
     "kubejs/assets/rain/models/machine/dyeing_factory.json": {
-      "sha256": "8837287db4063e7e912a1aef9f252627ee8dac0ab9e238becbdfda089eb716cc",
-      "size": 390
+      "sha256": "2ffbdea35fa6131b2c34172c3c7d8746599d67296b226181cfb037b16f072fab",
+      "size": 379
     },
     "kubejs/assets/rain/models/machine/fluid_processing.json": {
-      "sha256": "56d4d21dad059ba0c9d14c8c106a4107f00be68a6df422408a1a348040bc0931",
-      "size": 399
+      "sha256": "79d89c64a77d0993821af86f0ba56f1339f78b10a7000d990b1c2848e672f121",
+      "size": 388
     },
     "kubejs/assets/rain/models/machine/void_mining_machine.json": {
-      "sha256": "cd8af905632aea3268c3718c8237cdae5949f7300237763787c00ea994cc0b4a",
-      "size": 395
+      "sha256": "8b68409919aa0330bb04f61327a2b8e35df71e9f7c9031834d9b11ff2fcbed3c",
+      "size": 385
     },
     "kubejs/assets/rain/sounds.json": {
-      "sha256": "7f263e87de333d31bef5c12362dc381d6a83c5c6d5650e73033b4301184c4242",
-      "size": 1698
+      "sha256": "ed1413cee2c14404466d22feba3e745ef36033650f562c7ac8c3ca323e3c8d97",
+      "size": 1637
     },
     "kubejs/assets/rain/sounds/breakcore.ogg": {
       "sha256": "4c43addf59976a5d8e2eb5d9fbb778011ffc5ca4aac9aebdad476176a7a74578",
@@ -3045,28 +3049,28 @@
       "size": 194
     },
     "kubejs/client_scripts/dumiao(2).js": {
-      "sha256": "7532536a7a239cb4de4a99cd424888f249d7f25925975f6d3f13822bc7f71b70",
-      "size": 605
+      "sha256": "4410cb3aed3c91eafc27942dcae9b1f00abe903924bda6515a1126347b08c163",
+      "size": 592
     },
     "kubejs/client_scripts/dumiao.js": {
       "sha256": "3386b817d4bdbb2489b7ac88fd36a036aad07268271724fde9a9a0b2d5a48b90",
       "size": 730
     },
     "kubejs/client_scripts/main.js": {
-      "sha256": "aa44236400d0f99a0e1246a430a3ef04cf9a29d361ec77f79e2925203d9fafe3",
-      "size": 470
+      "sha256": "591b7e441dfd6a5b7c061599d904460c3d319f52cdf2226d7ebe7c6373e03e68",
+      "size": 507
     },
     "kubejs/data/botanypots/recipe/allthemodium/crop/ancient_soulberries.json": {
-      "sha256": "2551d6825d8563babcf3ee11e131b4498bb027d05dd2379f99a3b9619164ce4e",
-      "size": 1846
+      "sha256": "d374a3407cd9041bb4fea30dbde3f8ded4d9c18f0962035983e860671a2b8ef4",
+      "size": 1763
     },
     "kubejs/data/cr/functions/scan.mcfunction": {
-      "sha256": "7bf1f639685dbdee34ea3f9e9ea3aa69fbcd14b90e5f91192ac57d5b84de66ad",
-      "size": 654
+      "sha256": "bf53866e7101f100f5a7d1b37d10043c441a5b4427e9e3146bdf2fefcd38f729",
+      "size": 648
     },
     "kubejs/data/custommachinery/loot_tables/raffle.json": {
-      "sha256": "9d7f96fd1d04e3b3bbce508aef4e879521b43ae9fcabe5eac75287b324f83f4d",
-      "size": 400
+      "sha256": "234fabb162afa7c6f6e449384c411b8e82448e07b0838c1eb29cdff94a562904",
+      "size": 376
     },
     "kubejs/data/custommachinery/machine/atmoic_decomposition_machine.json": {
       "sha256": "e3a5937b920f1b10a57f9f7a4c98039af8f3ec8dc287c9622479f34b1567108b",
@@ -3097,88 +3101,88 @@
       "size": 7781
     },
     "kubejs/data/hostilenetworks/data_models/aether/flying_cow.json": {
-      "sha256": "ec2e48a49b3d7b04b0f048fef317c035ccdacb663a99a00d87b3a02bb7eabdd6",
-      "size": 749
+      "sha256": "b13298f7478ca2fd8ed44ba42a2f60c9da71bd9160e96f2b93a73962bbbb9c27",
+      "size": 716
     },
     "kubejs/data/hostilenetworks/data_models/aether/valkyrie.json": {
-      "sha256": "fd7b19f849bf3a05e8cb02f8086446cb3de793bc4526710818e60d81c42a5a3c",
-      "size": 567
+      "sha256": "9c3fc2d7d0b5152bea045e57c0e1c43dc69976a8ed1e718b5a99b3a7b380c57b",
+      "size": 542
     },
     "kubejs/data/hostilenetworks/data_models/ars_nouveau/whirlisprig.json": {
-      "sha256": "97efc646f8f123012c11af2d0b95d687d3d427fa806b503d0d07066950186e9e",
-      "size": 980
+      "sha256": "0008e961f5deb0febab1384c26277c9fff0317890bfa61cd02dfa5bbd449b52b",
+      "size": 942
     },
     "kubejs/data/hostilenetworks/data_models/cat.json": {
-      "sha256": "b8b1e6bedb7142709b503ad5c30a18af8efb113e8b3b99df65c12686ee9147f1",
-      "size": 555
+      "sha256": "757a620ab6ffd169d2592a89e14f755b880c6a43653446d32d345e9de347d8ba",
+      "size": 530
     },
     "kubejs/data/hostilenetworks/data_models/command_block_minecart.json": {
-      "sha256": "a125f1037fcf3b6b0080ea18f6eabce51050cd13d23a1e0d915cf684e951a6bb",
-      "size": 593
+      "sha256": "b41d0c8b7e0ec5fb03f754930e873bbefe35125e1fc5277f7ca089805f9625e4",
+      "size": 569
     },
     "kubejs/data/hostilenetworks/data_models/dranconicevolution/dranc_guardian.json": {
-      "sha256": "09078cc31f22f9f1868262936ad353b1d72d073d51696d665285333650890203",
-      "size": 627
+      "sha256": "3b053c8180923a213c603e80f66f9d65207ede97c16d3279deeec6daeb808202",
+      "size": 604
     },
     "kubejs/data/hostilenetworks/data_models/fox.json": {
-      "sha256": "de042bd77ed32504cbdec9312351c5992e8d652fedd50ee0afbfe9d573a573ef",
-      "size": 689
+      "sha256": "439fe49faa0463ace561286b85e96b30b865d04fa74c64d44f887224ef68dcf3",
+      "size": 659
     },
     "kubejs/data/hostilenetworks/data_models/giant.json": {
-      "sha256": "c04f6ab58d53123760f06b47478ec7b7f7cf62a5ee4f384504d32cd1ed382520",
-      "size": 566
+      "sha256": "2122c56eea7628ac6619537a839dad44044707ebc6b6aa48c2c631be5cceca84",
+      "size": 541
     },
     "kubejs/data/hostilenetworks/data_models/illusioner.json": {
-      "sha256": "4b24866ac6e93cb0c45c1f1fb39f003534115fa4dd11f0d382a60d18b745bad2",
-      "size": 705
+      "sha256": "287f832df9aed6135826829db21859bc15bf22f08775aef45d41c6285e2c08ee",
+      "size": 675
     },
     "kubejs/data/hostilenetworks/data_models/panda.json": {
-      "sha256": "924eac31d4583b94bd02b66540b17fb136785626ef6fbdff799e9e494388bdcc",
-      "size": 529
+      "sha256": "e6bbd64d6d8ec730dc6509d50844b08dff551d6cc2f0049ed8d882144190d9a8",
+      "size": 505
     },
     "kubejs/data/hostilenetworks/data_models/parrot.json": {
-      "sha256": "2ef959f08fd1756a5feadb1388f4f234fc6efd4c8c5d7e98b979b061c85a74a7",
-      "size": 664
+      "sha256": "3a7a53506295bd446074db1fb6597e429562762112aaaf1c58492c2d9bae6973",
+      "size": 635
     },
     "kubejs/data/hostilenetworks/data_models/ravager.json": {
-      "sha256": "d3d753e4c5528ec3db59cabdfda5748efae02cf54ba85f92c5c652b9c67cbbc0",
-      "size": 662
+      "sha256": "46dd5eaef7cc11fa103b9b42c1ec5e65eadd4d5912b0d17809f5e376d5004847",
+      "size": 633
     },
     "kubejs/data/hostilenetworks/data_models/shulker.json": {
-      "sha256": "1be8ce7cf01d1a6fcf662d7b73af69df93d402362266febc410bd7d8d8538468",
-      "size": 543
+      "sha256": "dbb4c6a6440c6956bf219b02738bb7efcb83cd6c05821a8f79f281ff38dd16fd",
+      "size": 519
     },
     "kubejs/data/hostilenetworks/data_models/tnt.json": {
-      "sha256": "4372a6def3dea268b9e78e67e3a1db67ad2067532b7698c0c59596d8ac2fad66",
-      "size": 726
+      "sha256": "d215afeb702e7c865278d91b0c7b2f8ca1eb6fddcb0d1836b3207a49911b4e94",
+      "size": 693
     },
     "kubejs/data/hostilenetworks/data_models/tnt_minecart.json": {
-      "sha256": "b0027eaf49a7b429f98c4e7d640b6423a9158f911b28a9523284a6eae919d267",
-      "size": 753
+      "sha256": "7a26e27cc482825887516e710c27353a4b46d3e4a8359b748318ce3b9adc76ca",
+      "size": 720
     },
     "kubejs/data/hostilenetworks/data_models/turtle.json": {
-      "sha256": "97d1f876d4af4ea5f05c2409014ffdd6ca83109575aab1f5035e8accbefc70f3",
-      "size": 661
+      "sha256": "a6c377fc1b48350a5bc32d851f6120bcfac269df7023e01bf4a86ce031eb7fd6",
+      "size": 632
     },
     "kubejs/data/hostilenetworks/data_models/unusualend/ender_blob.json": {
-      "sha256": "85e7c49d4031bd227439dd7c5b052d08998cfd250cac6a8ddd4948f3985e9897",
-      "size": 707
+      "sha256": "ae2df57c7073e3d0a689c0dfe3eff84a38c54b39f48edc897b4346b8c34d9daf",
+      "size": 677
     },
     "kubejs/data/hostilenetworks/data_models/unusualend/ender_firefly.json": {
-      "sha256": "3821b621790f59339ccd69553feda831bb6c49f6880088e4599d206de19f5252",
-      "size": 464
+      "sha256": "af9b1b2de73b1654659b4cfd3c1f49ab73a432eaf5b2bc71d39ea8c9f8642812",
+      "size": 445
     },
     "kubejs/data/hostilenetworks/data_models/villager.json": {
-      "sha256": "cde02711da6428aa46c172ae31a0778337e6dcd0f5ae1bfe57d45b257687666f",
-      "size": 826
+      "sha256": "9092e6bf6670dc34dccf73510353a223783b6192f8604c2766fc4f87abcdc557",
+      "size": 791
     },
     "kubejs/data/hostilenetworks/data_models/wither_skull.json": {
-      "sha256": "61ba7c2a8d838d02cb7f57b67a684cbab9c70cfb98e00e112b13da2a1a07b355",
-      "size": 567
+      "sha256": "ef7414fb29703e484bb60e04a1d474b286eb469dc0c7eed2e77765a68d2ae7f5",
+      "size": 543
     },
     "kubejs/data/hostilenetworks/data_models/zombie.json": {
-      "sha256": "52d059157959fed22133298126e0b1dc36fdda78c77910b92236651d06e7aa4a",
-      "size": 1033
+      "sha256": "388267f20dfd01f032d8af97b75e46c111fa884e65af28f742c4e7fd53e7eea2",
+      "size": 990
     },
     "kubejs/data/ifeu/recipe/precision_shaped/netherite_gear.json": {
       "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
@@ -3213,28 +3217,28 @@
       "size": 2
     },
     "kubejs/data/occultism/modonomicon/books/dictionary_of_spirits/entries/pentacles/rain.json": {
-      "sha256": "262906fd7dbb51c0636a6640fa67da0475e6e70a3d3e4f67cd105458be4d002b",
-      "size": 1775
+      "sha256": "c278892de2955b8c8d69f9d9e22751fb960a97c599be5ccefd96967fe997ec8f",
+      "size": 1711
     },
     "kubejs/data/occultism/modonomicon/multiblocks/rain.json": {
-      "sha256": "a0f6929a039204c4db266fbc19bc9b012075516ad13db4f38c4d56b72e4eab5a",
-      "size": 11710
+      "sha256": "0897f7137286099c101c1c7c27663670bf266f88d6803c021d47db390aca1490",
+      "size": 11453
     },
     "kubejs/data/oritech/kubejs/recipe_schema/assembler.json": {
-      "sha256": "b0e11d54654d4cb556775d416fa56f38307c9940507b95d68e2de0b32763e1ac",
-      "size": 1694
+      "sha256": "e5ecaf0ad9d727f35ab83f4c3ae207cd1549c57903a3191109ec3c689dfaa6b3",
+      "size": 1635
     },
     "kubejs/data/oritech/kubejs/recipe_schema/atomicforgr.json": {
-      "sha256": "a37ee0e2274778ed1035cdc492b567a24a6dbbfd33656f7367cb7ac6df245a3a",
-      "size": 1697
+      "sha256": "e7ffe6706be3bbd168612cf03c312fa13abae11c9c51fff78b64879972a4a81b",
+      "size": 1638
     },
     "kubejs/data/oritech/kubejs/recipe_schema/centrifuge.json": {
-      "sha256": "e7af566f12fa9fd4555addac142ae193979ffcb4a1057d695eadbb23ac63e6c3",
-      "size": 104
+      "sha256": "716c0a75d52e6dec41620ed13500c1a280aeebbbd189126a1be759d841de5e54",
+      "size": 99
     },
     "kubejs/data/oritech/kubejs/recipe_schema/foundry.json": {
-      "sha256": "21228222bb2f1012effff5fb760db976f2750d7958efa7712cedaf52977ccb2b",
-      "size": 1692
+      "sha256": "df66fc9fb4daf8365e6a6f2761d5dd3753e5953c82bf7b8cf9cc7d51ff300769",
+      "size": 1633
     },
     "kubejs/data/oritech/recipe/atomicforge/compat/mekanism/advanced_control_circuit.json": {
       "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
@@ -3297,444 +3301,452 @@
       "size": 309
     },
     "kubejs/data/rain/advancement/question_mark.json": {
-      "sha256": "bbff78d29d3c43bea563ee690160399ed5c7067625197849f7a3b44b544a8f4d",
-      "size": 511
+      "sha256": "f6b13c007d3ab64575fd3dff7b9df1c6b4a1accb39b768030808b6167cd9b48d",
+      "size": 513
     },
     "kubejs/server_scripts/A_event/Click.js": {
-      "sha256": "9569f143058b5ba49de286a45a3abc89b878d33ecc4949545600bdeb9a50bc67",
-      "size": 18726
+      "sha256": "17302ed31321b1b22d9f5cb0a4a230a20e77a134ff60c5f6e0fc9e3a42762a4e",
+      "size": 18225
     },
     "kubejs/server_scripts/A_event/block_event.js": {
-      "sha256": "c1103ffdfa09c42ffed283da28edbe63502138f1c56ecfdcac3c032f9e35427e",
-      "size": 1644
+      "sha256": "0d6e5ca839e8d33b0fcb5b2d1012c37a8f7133adf00f1315b4c835f83c508674",
+      "size": 1600
     },
     "kubejs/server_scripts/A_event/command_block_event.js": {
-      "sha256": "b64ed1ffebe0947541830e2363ae3e347c4a722a8b1e7dd89ef62622fba7f10d",
-      "size": 3512
+      "sha256": "ec714223f0321f055912931a562694218a82d5299e9ed4731586a8b2c75dc4c4",
+      "size": 3413
     },
     "kubejs/server_scripts/A_event/entity_event.js": {
-      "sha256": "6f576f88b7c12d5f4388d2688e3cd8e7758cb149f523500a16bf1d886750e876",
-      "size": 159
+      "sha256": "368caa3e84b29e205a800353783572122076508e42bd3186c36bc535ee047396",
+      "size": 153
     },
     "kubejs/server_scripts/A_event/lunzi.js": {
-      "sha256": "b00c8083306c20d36077c160473e5cfc6c72032d60029cc9b914e54f1a8cdf44",
-      "size": 152454
+      "sha256": "751f7b4abe46ae3dc15aa3d605fd20379e079901b83786cd27edbf36dccc4b87",
+      "size": 149322
     },
     "kubejs/server_scripts/A_event/music_player.js": {
-      "sha256": "3a6d439c090b76aa57bf73d0462eb8df1c908377a262ee86d27074aa98a07248",
-      "size": 5115
+      "sha256": "6a916082d8245535c9302bc7bdfeb80d4efa0e72524bc975996eb59b5685f5cf",
+      "size": 4992
     },
     "kubejs/server_scripts/A_event/strchure_block_event.js": {
-      "sha256": "93c62aecbdb51bebff7e79d30865a8c75ecc1ce7f883a83a722659a7fa12c6e7",
-      "size": 3672
+      "sha256": "d6f8c4c0ffba1f16752fb96a2523058200c395e3d6795d58e93c90b96dd3de14",
+      "size": 3560
     },
     "kubejs/server_scripts/A_event/structure_event.js": {
-      "sha256": "5e35c8a22b2315d3bf9480102b45686c1c6c775c14bf58be9c29dc0e5decde82",
-      "size": 6608
+      "sha256": "8e7b601a7d8822dc3e70caee43fa1ca3b47758664b39a657b57bdad7aef2c261",
+      "size": 6474
     },
     "kubejs/server_scripts/Farming for Blockheads.js": {
-      "sha256": "fed3f7dbd4361e539db85b8f99827e7e4e2a67e9da25acbb645b085e28be753a",
-      "size": 529
+      "sha256": "609f288c181ed8e2a0a34bf3caf9cc945568709d7dfed03b30560706f6d0978f",
+      "size": 509
     },
     "kubejs/server_scripts/Nature's Aura/example.js": {
-      "sha256": "a12254e39d924d50447fda1d22ee8567a487228c72b68ca8a784a35c9eacb2fd",
-      "size": 2982
+      "sha256": "3b7b75bab9c67c139533b68dc849453e80569b4f31ef82b36e37a0f7922f9b58",
+      "size": 2925
     },
     "kubejs/server_scripts/Nature's Aura/main.js": {
-      "sha256": "1d41c5236d04b4376b4813ed598299259c8a8c6fffc9d0a585aeea90ddf1e5e5",
-      "size": 1359
+      "sha256": "d7d55df0d3dadcb3e399d89af9ce9e7fcdc636c30785ae9f083c6267aeb61cf7",
+      "size": 1334
     },
     "kubejs/server_scripts/Portal_Transform/example.js": {
-      "sha256": "a90716789ce71b31777a6b7146279d9f764c89aff1b5b78f8a9a9ae1e80bb15c",
-      "size": 6443
+      "sha256": "11d340660e33bee16db59451ece2950993f95bb491f66de5434623ff247e8c0c",
+      "size": 6367
     },
     "kubejs/server_scripts/Portal_Transform/the_aether.js": {
-      "sha256": "936160cc303ec00ad85cca54973440cf35d2f1a769598d0e76e4c539c36e935f",
-      "size": 1998
+      "sha256": "f1b6657fef221f956c99d5436eb9c2e7c89565e3f1ad3d8a41a08285e8dbe32d",
+      "size": 1955
     },
     "kubejs/server_scripts/Portal_Transform/the_end.js": {
-      "sha256": "acb44c228be46268456ad18605626e8850c22acdca9fc8403601d46e91849de4",
-      "size": 532
+      "sha256": "cb4f4f4526fe61f9c50df6bcdf0619bb50a98bfa9322af61bd9b7d393e362f32",
+      "size": 522
     },
     "kubejs/server_scripts/Portal_Transform/the_nether.js": {
-      "sha256": "99f8116265b19892c51c66e70f3d8653006d47ee131c0dc4b4b3bb64f2503390",
-      "size": 2332
+      "sha256": "96972dafa10df6b4e50038939997dbd46e593dca2e415c498fc4d0bc9faeed44",
+      "size": 2269
     },
     "kubejs/server_scripts/actually_addition/empowerer.js": {
-      "sha256": "ec0c66ed8e73f3c338f17bc38f93acf28974cc1f8917cea999de0c6d8a68e2dc",
-      "size": 3614
+      "sha256": "a404b71eb880ce174fc5ba5aedd8a6c7ebbb0fa642639fa93d14a41ed9bf96b9",
+      "size": 3418
     },
     "kubejs/server_scripts/actually_addition/reconstructor.js": {
-      "sha256": "0e59290fd04b1a251305750c98ca3b58d428e706fe10e69448f292e1dd2b62a5",
-      "size": 1957
+      "sha256": "9b10e74d93701d72d43905cce8ac124890973c57aaeb5fbd589972e15613f11e",
+      "size": 1855
     },
     "kubejs/server_scripts/ae2/ae2.js": {
-      "sha256": "1a77ffd5c3c0677c0c980db9919f037d35edc34bd3cc56cd4290f3dca63cfbd9",
-      "size": 785
+      "sha256": "39b175ec22854fad7f737f57f92d6bdc682ce9186bfd89a7aa624d4241f8387a",
+      "size": 733
     },
     "kubejs/server_scripts/ae2/entropy.js": {
-      "sha256": "66065586e472c4c80d3ffacbba4a682d47cab2849c4a1fb846145016593b7de4",
-      "size": 647
+      "sha256": "7b26d9b2c62882febf1e1e250994e3796129ed340501ff82fc9a46dc60e17d3f",
+      "size": 608
     },
     "kubejs/server_scripts/ae2/inscriber.js": {
-      "sha256": "42b82e9da67298ef4102ebb5837ab4d2f42e1cc842cf3350b49d38f36d195db2",
-      "size": 374
+      "sha256": "965fa9449b474f0e132e2cb49f6544243e8ffec2d914f64f05c6e03aee8c2ab9",
+      "size": 354
     },
     "kubejs/server_scripts/ars nouveau/enchantment.js": {
-      "sha256": "b7d36b0071bae630c198a016cdad3e70e09acb6342ab3c7dcea2029122c883e6",
-      "size": 4750
+      "sha256": "ea5dabb17bec337d452376a66c256987fca97affb8392c3a858b5db099604d3c",
+      "size": 4618
     },
     "kubejs/server_scripts/ars nouveau/example.js": {
-      "sha256": "56d784c9de89a4251803fb3cc2491e943133ddfed1a97ccf78e0bf7d38a67b88",
-      "size": 2296
+      "sha256": "223691c9825aa7685f937167ade3fd8898200918d49f1e6d38ff6196ff9e3fa9",
+      "size": 2228
     },
     "kubejs/server_scripts/avaritia/sculk.js": {
-      "sha256": "0d522954cc962b1de81686450c5b52102c60a09257e5a9ca574057e6ea3b47a8",
-      "size": 534
+      "sha256": "89c1bfd3e942e5f105b65184dda97f2124159c94f9eb15356de7659dacc2a820",
+      "size": 503
     },
     "kubejs/server_scripts/blockevent.js": {
-      "sha256": "b16b9623b70f80c1849cc4f32e73ce02597bdf0d56db675e2a7a7f2d5d3485c5",
-      "size": 1103
+      "sha256": "441bfe3d6ad6a41d24da087384f784dd1eb7bcd97a463fc39a0cbb584496de44",
+      "size": 1074
     },
     "kubejs/server_scripts/create/compacting.js": {
-      "sha256": "ff936fb79806f9fb80b0441753aebbfb7aafc4d7b56996a6ae9d697a0f253b40",
-      "size": 1385
+      "sha256": "07cae6fa39953c04f2acebca2effbe822e50d37d0f79a1d8440621cd7dc2408f",
+      "size": 1296
     },
     "kubejs/server_scripts/create/crushing.js": {
-      "sha256": "c2c3c120fdc114118e1c34932c95541bf579422822a0c8f201089648bd4ea83e",
-      "size": 1250
+      "sha256": "def552b73d11675dac5fe86dda0549868895c7b6f6c9faf34641ee1e160ef84d",
+      "size": 1173
     },
     "kubejs/server_scripts/create/milling.js": {
-      "sha256": "0cfeb5eebda2365234367faf41461ae926268a2d404c5c555bd93be463f94b81",
-      "size": 336
+      "sha256": "b3849b16bcf8d9d957498dbdccb8d46400457c9fa428e0b558b03e92b0d6caab",
+      "size": 317
     },
     "kubejs/server_scripts/create/mixing.js": {
-      "sha256": "a2ad89fa89e93044a6cc8aab3bf7ef0992d998e618eea785231be448362deced",
-      "size": 349
+      "sha256": "7d07251a91f97a28de42c0c93babc19206eb710bee26aa20de4a7e389dc87e3e",
+      "size": 330
     },
     "kubejs/server_scripts/create/splashing.js": {
-      "sha256": "21b2fda8f2a0ee2bd00d934a868ed77546ce2cd41fb3b35a92992341c71c9e65",
-      "size": 280
+      "sha256": "789a4df63c0e2481ec181a87e65725f3ecf751e3df9b000864196bd7358a17da",
+      "size": 263
     },
     "kubejs/server_scripts/custom_machine/Void Mining Machine.js": {
-      "sha256": "788197117f8aaa032ec46c78854bb871d628aff9d6253fc9cbf75dc14c4a802f",
-      "size": 17082
+      "sha256": "bfe503e3421cfb7170ad24277287ddafa6d0ab0a01728b5319e0d5c5418ac513",
+      "size": 16853
     },
     "kubejs/server_scripts/custom_machine/copy_factoty.js": {
-      "sha256": "ffa135a85d4da17dd30c4979c0736648c163bcf9790fb8c783c9e830a150c161",
-      "size": 2858
+      "sha256": "72e09af6669ea279e74c988a10583408864031ba5d1404db15dafecc761ca523",
+      "size": 2795
     },
     "kubejs/server_scripts/custom_machine/cosmic_coin.js": {
-      "sha256": "59c2112f1caa4cfff51b0092e794a16a0e18094cb391574724033b6f00e967fe",
-      "size": 492
+      "sha256": "269858f49bf27197405fc3d6eeda17ae395e7cae6ab2832cbdd7a7063433d497",
+      "size": 481
     },
     "kubejs/server_scripts/custom_machine/dyeing_factory.js": {
-      "sha256": "7b3b7923c6f488d588eb378e98566e1c006b604bce804e8dcf4d33f3eff3fb1e",
-      "size": 19254
+      "sha256": "603002c3114b824b948dc8a46edee95e7eff499891a81f9e7690131920b8e32e",
+      "size": 19045
     },
     "kubejs/server_scripts/custom_machine/fluid_processing.js": {
-      "sha256": "2b6635629aaf3bd36cc3b39313eeab2da4f5e86b5827192c694e292ccc9988dc",
-      "size": 67527
+      "sha256": "354b35d06c3d0fb977c68860ffeb0cafc9959d7b8ec09bfc5438ab54a91b73fa",
+      "size": 66883
     },
     "kubejs/server_scripts/custom_machine/multi_block_machine.js": {
-      "sha256": "9c63fff835638d6096c5980854c44ed0aaebd20fc7e2d87b9f062b77c2850692",
-      "size": 1170
+      "sha256": "17886fb52cdf1edc9dbda15ab95a1fa04a553de50a6dea2f91d8d25084e479b2",
+      "size": 1145
     },
     "kubejs/server_scripts/custom_machine/part_time_job.js": {
-      "sha256": "3081a85f254dc2cd42738ef6a8c46f85bae68b3f9418731653bfb0ade30efed3",
-      "size": 759
+      "sha256": "d26dff1b62ea2d6f2a93759c49d444384b104c0f0696fd6e148a8ed2f46348bf",
+      "size": 743
     },
     "kubejs/server_scripts/custom_machine/structure_inspector.js": {
-      "sha256": "e50ccb5ad90506df95ff2af3943da9d3dd82c8c785fe52f9aea8d847e9dd12c8",
-      "size": 32905
+      "sha256": "0c901f69b43bdde0abe9c935d14e481508ea3958cec5c6554a76f71a4bc85863",
+      "size": 32691
     },
     "kubejs/server_scripts/custom_machine/upgrade.js": {
-      "sha256": "c9e29e9f55dec9f3fcec2682ee8713657e8940afa38c18dd43f489013363357e",
-      "size": 2409
+      "sha256": "d7c0dd89e0eee4af7c13038cb8ae860eba536a5518051f90a4a96e839bad0583",
+      "size": 2351
     },
     "kubejs/server_scripts/draconicevolution/fusion_crafting.js": {
-      "sha256": "c740a3e249c9774af279a7b0568eb666913420d1bd3cb18193823949cd36aa08",
-      "size": 11675
+      "sha256": "60d00c5a1a6c5da1e03e834fd13efc1639d770a582641941d08dac304f783ace",
+      "size": 11314
     },
     "kubejs/server_scripts/enderio/alloy_smelter.js": {
-      "sha256": "69ec6e84e27e28a722884d6eb8fe7dbeca84b6b3a2f0aa5d1f71a4631e8e55a7",
-      "size": 456
+      "sha256": "d7b555a9bad295eef73569d86b19428ebb2df90805809a88f92861459e854fd5",
+      "size": 432
     },
     "kubejs/server_scripts/extended_crafting/shaped.js": {
-      "sha256": "cb212de410bde8951013c8e33a1fe1a6332ed3dd77142e37f482ff7fa2285633",
-      "size": 5380
+      "sha256": "a6d4e8e401c9186d83bab39bde3af96b3bc5e11be7d333df7503b201844c1884",
+      "size": 5056
     },
     "kubejs/server_scripts/extended_crafting/shaped2.js": {
-      "sha256": "39926b1a93c5120ff0b5a4349d85107391538c687c6de7693292e288240410d0",
-      "size": 7553
+      "sha256": "942b95b0862ce8c601c4124c937b048997b5fa3d3c4eb8a7c2169c11ca3860b7",
+      "size": 7111
     },
     "kubejs/server_scripts/extended_crafting/shaped3.js": {
-      "sha256": "6444518d76357e9d15b09b3b685106da7098b8266844ed7bcf12da4bc28d5174",
-      "size": 2605
+      "sha256": "56e79b689a2f5827fb383aa7f51a285ddaadc194094acf36dbf826dfc24b675a",
+      "size": 2466
     },
     "kubejs/server_scripts/extended_crafting/shaped4.js": {
-      "sha256": "c673cc1c810cc1b57ec7a2eac0efd27e9fd1e286894420d2444c1fdf51b4cbf4",
-      "size": 765
+      "sha256": "efddd4ffdb26900a2732cd7e2449d023b67538016404dd1be749df914d6ff65a",
+      "size": 726
     },
     "kubejs/server_scripts/extended_crafting/shaped5.js": {
-      "sha256": "63fda6721def6a4889b3f56c6ce589f947548edc0a009e015c9efa260e93e7bf",
-      "size": 19710
+      "sha256": "717b505e99db5b320562a4714f6959fe456206b6d90fe964adba9800ff702114",
+      "size": 18666
     },
     "kubejs/server_scripts/extended_crafting/shapeless.js": {
-      "sha256": "4897683b7990b93520ce9acf50eb655b7649fe15204a25dbd77a784f5d131907",
-      "size": 6856
+      "sha256": "729a7e6a1c7fe815d99938a559999206013912e29bf43580c707da9d1a280113",
+      "size": 6686
     },
     "kubejs/server_scripts/extended_crafting/shapeless5.js": {
-      "sha256": "28a35955ba15665496eb424449fd74b7563f6c2b59b65766c2bb1431eb0ea4ae",
-      "size": 17398
+      "sha256": "23f187dae23badaca865e6fd91b08bdbdbc6a0ac77efb7ca768c379c81b18320",
+      "size": 16606
     },
     "kubejs/server_scripts/extended_crafting/shapless4.js": {
-      "sha256": "a48bdf50d5cfd2ba6ece6bd5843bcf2a403278c1e228c4bc060d306f83b15306",
-      "size": 9362
+      "sha256": "e393613dfd8358dc3b94239b7bade9bf91c6a9f51cd7aa8606b65ab3571b7388",
+      "size": 9014
     },
     "kubejs/server_scripts/immersiveengineering/arc_furnace.js": {
-      "sha256": "bcb6e2b13baf90acfc4248abf2f8b80f1b22fd14b869fee0f93b5728e3df4214",
-      "size": 2400
+      "sha256": "c4d1148bb5acc7b21f5213cc1ea4dd74c4643e7f7dbb78ab70848548d3b39550",
+      "size": 2277
     },
     "kubejs/server_scripts/industrialforegoing/arcane_dragon_egg_forging.js": {
-      "sha256": "e7461dccf2e4e0e6ee3191a17da334b33fecdc42e0dde0933214256808c486fd",
-      "size": 648
+      "sha256": "9a0d817a86a5800c604660f96a5d6b5246340ef675250a05897c7e3f85e6142e",
+      "size": 617
     },
     "kubejs/server_scripts/industrialforegoing/dissolution_chamber.js": {
-      "sha256": "a2f227311d84b4ca6760767510a84265608a2fc9fed550cef674d53e6d0cc8e5",
-      "size": 2099
+      "sha256": "ef8a0148a193f4f82bda8c524f5b31d961d576a3435ab6b4c2dde777627c1d66",
+      "size": 1995
     },
     "kubejs/server_scripts/industrialforegoing/fluid_extractor.js": {
-      "sha256": "8d300f977fd4fba0ec696eaa8f26d346f8a0698033207e5985f70bfc18c01ad4",
-      "size": 999
+      "sha256": "5cb446016ade7626bf7d89f1dbec5d431b186dfde69dc2c6d81e429b97adabeb",
+      "size": 951
     },
     "kubejs/server_scripts/industrialforegoing/shaped.js": {
-      "sha256": "1ebc114ed099789125a545db419b3cc78c9a7a8dbe2641bae3c6bdc6a5c7e001",
-      "size": 6120
+      "sha256": "299a4fa54196984144eaeada6b1a7c614e94840fbfa74c3827aa023a8c7c0484",
+      "size": 5792
     },
     "kubejs/server_scripts/industrialforegoing/shapless.js": {
-      "sha256": "a9a533c52cc9b6fc85ddd29aa84472c05a2e563f48fa513ed2e6ac1d3c9d5171",
-      "size": 358
+      "sha256": "43c7625d2b6835d01f0372cc96343d28fc0b876ad19035027811ac33ae07a79a",
+      "size": 341
     },
     "kubejs/server_scripts/jei.js": {
-      "sha256": "070b7af4e750afca96a129f2b86ae82d41fa766a0d964f7f3821d80a16133898",
-      "size": 5486
+      "sha256": "3790bae44dffccce8010b991d72f018155956e2a36ae25d05db18033cf33ed26",
+      "size": 5345
     },
     "kubejs/server_scripts/justdirethings/goospread.js": {
-      "sha256": "9064bc742d8997afd761f9e9568d979b44e2bafb80a9b5c281fe862959f768b2",
-      "size": 363
+      "sha256": "ada30b0d6f269288affdac2b7493079525f9e6852a00c7d18804939c4825058e",
+      "size": 347
+    },
+    "kubejs/server_scripts/localization.js": {
+      "sha256": "a86722ac20e002e3a7f337e229d4d021d67c93b90d71a5e2ad849b9e0b32bbf5",
+      "size": 661
     },
     "kubejs/server_scripts/lootjs/lootjs.js": {
-      "sha256": "eaf48b02a9e6f70ab77e0765058513c8bae25d504ca4942ead8aeae963d25b7a",
-      "size": 7952
+      "sha256": "4b69c54637b06e81b9dd008e316e5a886ca70c766b563a42d6ce1e9fe7b3533d",
+      "size": 7716
     },
     "kubejs/server_scripts/lychee/block_click.js": {
-      "sha256": "17199b27aa8ec4e633d3705b0e495acccb61bca9475c36f56d13d3ad7c758e8d",
-      "size": 2122
+      "sha256": "a0c5df2e97d010d3a78be0f2480e23b96aa46f1bea250d50906cc7417c035542",
+      "size": 2043
     },
     "kubejs/server_scripts/lychee/copy_fluid.js": {
-      "sha256": "fe95c1058532bd07e885c0b7aeb0bcdfbee94499fd36d0ec64624acf2a755234",
-      "size": 2094
+      "sha256": "103df31b35896e9458c3dc3946cf469f7dba97e9b10b28622b55b1b0efc0f215",
+      "size": 2002
     },
     "kubejs/server_scripts/lychee/dripstone_dripping.js": {
-      "sha256": "9170efc0a240b164d68fbd7e46547430e2f8b3938fe3fa5223e05d503cc16006",
-      "size": 816
+      "sha256": "32ff33e519aa8b3486884d534043150ed12a2448107b6247213ebc0ce751bff5",
+      "size": 788
     },
     "kubejs/server_scripts/lychee/exploding.js": {
-      "sha256": "2fdf4e45eabbf7d30ed1ab7089302ee74c1b9e6e7a2510bb31ed89351d2e11dd",
-      "size": 2618
+      "sha256": "cf82bb5686ab19995a9f06c9e145541e8508f87f0ff8b29a3948b224ca608f3f",
+      "size": 2540
     },
     "kubejs/server_scripts/lychee/lightning_channeling.js": {
-      "sha256": "23f1a3e009e386f6716dd7e5cd5da1c074ab4113ba0f5d9d52cb4566b9b5393c",
-      "size": 3491
+      "sha256": "fb2cc10a86ff70fbc7bd92d8c4462472093640beaf4e6ed8a9bc6e7d41c9ec6b",
+      "size": 3399
     },
     "kubejs/server_scripts/lychee/transmutation_fluid.js": {
-      "sha256": "efb933bf0782fbf0128a3baf96358a56ce30699b8369c6c2fa1ad9778ec26e27",
-      "size": 8793
+      "sha256": "0b3768328257fb0b80dcfd3c937a7dd209abb2b705c4c1f0536094357f26dc61",
+      "size": 8492
     },
     "kubejs/server_scripts/lychee/void_fluid.js": {
-      "sha256": "fd9a87f9015132e4c79c7933cfac7addbb449a47716e8ac71ea04731cd314133",
-      "size": 2636
+      "sha256": "bd11aa0ba42c477c5902a2486c890fafe9093af8293fc6cc2364d082e33a1df2",
+      "size": 2529
     },
     "kubejs/server_scripts/main.js": {
-      "sha256": "c46118b3a0f81df1817e46b92f69dc6cffbb1918ee69e18d431a5e9f5a386351",
-      "size": 5643
+      "sha256": "a49c5fc4cfb0eb458bf6893a7c3eefa88eb4718d81b6a55a9788439beec17c9b",
+      "size": 5401
     },
     "kubejs/server_scripts/mek/Compressing.js": {
-      "sha256": "04128add76449d3323ba5d8d7285b5f8b9e7ea0ac8b40c3721bf9745b1d581f0",
-      "size": 758
+      "sha256": "bb705b4391a5bf7a2b15faa1e8fab04cc9d1eede3c666e37e5f1df9b2ab686d7",
+      "size": 741
     },
     "kubejs/server_scripts/mek/Enriching.js": {
-      "sha256": "ead917c6d62ba68e658cf4de0ee63d68c33ad81fa1d07652873da894dd8012c3",
-      "size": 290
+      "sha256": "7dbec77bf8d7292ed60773f6f63daf59605e0c4b22fa0c39efe7c8ec877991c1",
+      "size": 286
     },
     "kubejs/server_scripts/mek/MetallurgicInfusing.js": {
-      "sha256": "c6c2df4c11d08dbc23d2e46760d7a9d06c1d8e4ec182820cc160a23de9fd61f2",
-      "size": 822
+      "sha256": "7550f54326a7cfca925d42742d1c4ffed760ba6faaf2e388a31e61e0007938bb",
+      "size": 810
     },
     "kubejs/server_scripts/mek/antiprotonic_nucleosynthesizer.js": {
-      "sha256": "90421ea632a3520e24d0976b480ab081f3ef9019e5350a53a55ed235a7507f6a",
-      "size": 1603
+      "sha256": "2f6b4a24f15c2527b858972bd9e8ccdb1b59822c89777f6cdb062a573b870f09",
+      "size": 1566
     },
     "kubejs/server_scripts/mek/crystallizing.js": {
-      "sha256": "0849912b4a5d724cf6b0fd729ef1618b9b8c49e03ada574b50f0b1bfd313e3e6",
-      "size": 247
+      "sha256": "4edf3dad2aac2873986b217bbb63bd4eb277e0a56ee9284f23f75d47760feb1d",
+      "size": 241
     },
     "kubejs/server_scripts/mek/example.js": {
-      "sha256": "6ba899fcf823b9a991de67301c847a233aff7a75458043dbfbcfb8eef3b63327",
-      "size": 861
+      "sha256": "e9c29d4b305c7fad93c5d215a931d25e537e5cdffdd893f02c0dc9d0794a5104",
+      "size": 848
     },
     "kubejs/server_scripts/mek/mm.js": {
-      "sha256": "9022398bdd7ee0b823f5f3b02e4d66c4033343cd0159d5730d9b690564468c6a",
-      "size": 20646
+      "sha256": "2752e6b4fe06a8338f33125c0615843ca8a5d3ffdf171689c1a0387bb2cb1277",
+      "size": 19446
     },
     "kubejs/server_scripts/mek/oxidizing.js": {
-      "sha256": "58272a0d474021c51464519f9603581bcfa2d7de9fa93b561af4ef6ed2f79622",
-      "size": 1155
+      "sha256": "1fb686a0cafb6b8ededd5f09af0d46c8f496cf9b68ac2f24b3b9ec5945f1cd9b",
+      "size": 1117
     },
     "kubejs/server_scripts/mek/recycler.js": {
-      "sha256": "9b3e2439d18288bb5b0d7b4b0ff372aa8acb04a8a5ba03fdaeb46a250b571b34",
-      "size": 228
+      "sha256": "ff402c304e4df3fc25d9bc10ae37de5681348de7cc004609aa6897e38a426745",
+      "size": 215
     },
     "kubejs/server_scripts/mek/rotary.js": {
-      "sha256": "4ca749b716a2e10b264484ac1ec2cd38b613d084253f0e7c3562c3cd5d44ef6e",
-      "size": 2721
+      "sha256": "d17fd414327d860013df476cff01807b6d61b8af096685fabe5f15d865f66130",
+      "size": 2657
     },
     "kubejs/server_scripts/occultism/example.js": {
-      "sha256": "4657ab2b4a2d54bd08c2200c60af36683581586091952fc1ee37cd7861228395",
-      "size": 6833
+      "sha256": "31792113479f5a458380e03c1744efaaeab6d0d74efcb42f406fb6121e3340bf",
+      "size": 6623
     },
     "kubejs/server_scripts/occultism/main.js": {
-      "sha256": "859f053934892d0bfb74c9d40e3f65b55136f5121f08af042cebde1e33785b47",
-      "size": 5678
+      "sha256": "6bf9422f7d6ca94bd8ffad78c6c248c330ffced5d3a052c1d410fc037bc3f106",
+      "size": 5548
     },
     "kubejs/server_scripts/oritech/assembler.js": {
-      "sha256": "0b095edc42998e17208a57b16bd821b996d4df888b9bf6c2b6c7d4b82b02fb7c",
-      "size": 524
+      "sha256": "77f634e4967d28d9876d564dfbf5b5db285f8d7463a3355804e89789c390f21b",
+      "size": 494
     },
     "kubejs/server_scripts/oritech/atomic_forgr.js": {
-      "sha256": "a8792c81874b45e37f4ad399ad19f31ad56cfbd8c7015ff160a9b74f4852d304",
-      "size": 4844
+      "sha256": "12753ebd2dfd03dc6516ddfff1b06527967786a45405c1a5cd9bc9b48c20b6f1",
+      "size": 4573
     },
     "kubejs/server_scripts/oritech/centrifuce.js": {
-      "sha256": "25b32853f3aa57693a3d20be361b45dc3e9221db2f0c054df3e50acdd0d293b4",
-      "size": 1478
+      "sha256": "80688694e111c0239ac0ad49c0403c38d21ef069d1832d39a1b7cacf3a595ca8",
+      "size": 1400
     },
     "kubejs/server_scripts/oritech/foundry.js": {
-      "sha256": "85b1ff7211f95d361f3d49ff8a8abf661165cae96dc2dcd35fd83633a1f74115",
-      "size": 1321
+      "sha256": "235e77cfcc2173baae8857865574e3ee7a9cc9043a9e285eb95f796d3cab4813",
+      "size": 1246
     },
     "kubejs/server_scripts/oritech/grinder.js": {
-      "sha256": "49d52797071a946beb252493a25b3dcd18b3293bc85a5616327e64b885b05b08",
-      "size": 368
+      "sha256": "eed0574f3c6bfd46da15b7c9d4b1b4c238075ef6b38063dbe50baaab2205b779",
+      "size": 347
     },
     "kubejs/server_scripts/oritech/laser.js": {
-      "sha256": "79f131266f7c3001ad3d4da6eadc621f4b33c7130ab0c19fb44eb97b5bce93c1",
-      "size": 368
+      "sha256": "d6a725283fde264c370c31b53f2fbc4df10678eea2700c6111d0992527808af8",
+      "size": 347
     },
     "kubejs/server_scripts/oritech/particle_collision.js": {
-      "sha256": "1e087cd535202b8f3966e538f1c96865bcb79fc56c016258d6e6660b08636208",
-      "size": 9983
+      "sha256": "52cca18447cbaa4a3988c52c37d60e27cadadd4e49704b24f746698e5e8c837a",
+      "size": 9428
     },
     "kubejs/server_scripts/oritech/pulverizer.js": {
-      "sha256": "58ff359d306f2a32173f948c9451159b75a56aefaa895ccdb9f0a23398413e00",
-      "size": 435
+      "sha256": "ee57e740f38cb75638f1ee3e4578d59dbfd88fb58c1cb31eafaa0e09770367b5",
+      "size": 414
     },
     "kubejs/server_scripts/plot.js": {
-      "sha256": "942283a3f6ae5117da055851c0d3165c935f4a7c5e3e86c6d895e55ea10fc0fc",
-      "size": 5014
+      "sha256": "76dfae50105ca319af182b870cde41311edacfc45fc3b43ebb0f4df53af05bf4",
+      "size": 4891
     },
     "kubejs/server_scripts/powah/example.js": {
-      "sha256": "3ce5d7572be5f026142f546c17c9421227a6d4608e0ecb6cd87751014ca5a89f",
-      "size": 812
+      "sha256": "bb5c4628ea09ad334d867f4153afa179be0991ac1ddb18227c60d57fdfe44258",
+      "size": 787
     },
     "kubejs/server_scripts/powah/main.js": {
-      "sha256": "5bd88660cf26ea546d544f46d2a70822e708368a1a77d0b458643f3f4b3b1c41",
-      "size": 1718
+      "sha256": "611673496631527a17f2c52fb444e6433acda5eefed574eb7395314df32f5862",
+      "size": 1708
+    },
+    "kubejs/server_scripts/quest_building_templates.js": {
+      "sha256": "42a93e38a0b92586daef0510f0f9c8f4fa64e3e71d288cc1d522b5224f09bc41",
+      "size": 54006
     },
     "kubejs/server_scripts/re-avaritia.js": {
-      "sha256": "727cd40a2136332bace7998033ee8e3472c297781e1fcb374d003a4e72672f56",
-      "size": 32518
+      "sha256": "93f267ff4c2dca09fe274c616b4e5e710aab054acb0567d90081eec247734d83",
+      "size": 31449
     },
     "kubejs/server_scripts/reliquary/alkahestry_enabled.js": {
-      "sha256": "8e6687a951c484cabd397346c2d4e0ea1301405ae4327c0c4454e4a51c0864ed",
-      "size": 568
+      "sha256": "0b39c1a8a1b97fd1ccf368c6493c6a80ea83bf8630e19d50b73b8767186afc9d",
+      "size": 538
     },
     "kubejs/server_scripts/remove.js": {
-      "sha256": "bd61611f3e98a2040af507ff468ab83160aac56042c7c34c9798799802d20177",
-      "size": 8220
+      "sha256": "273b1354b53b89f44468b7af732b8221d1648766bcb4b8702ee8b0683f02cf2e",
+      "size": 8074
     },
     "kubejs/server_scripts/shaped.js": {
-      "sha256": "7e5523c340ad62e324526bb6c3fe04bbfa1c15595f27ec979cd2d10e71794cf3",
-      "size": 4110
+      "sha256": "1e1a00c3c7bf07364475e4258726e387bd9b63444eda26d2d30b6bf95993c8e7",
+      "size": 3934
     },
     "kubejs/server_scripts/shapless.js": {
-      "sha256": "5c12a4aa97524af4a676e010cd896178bcd9b72eced7c0f204c22cb479d6c93b",
-      "size": 4559
+      "sha256": "8737750b7c0a4fdc64c0fc44456b04815f888adaefd49d1b9ad29f7dbb659a14",
+      "size": 4526
     },
     "kubejs/server_scripts/smithing.js": {
-      "sha256": "038810fbc70184f26749953ce0d38aa25c35e5550562ff9a859a344ef57180bc",
-      "size": 466
+      "sha256": "62b20ef68909d1f90592d32dea946cf06ef882d64a1ee86269be6054394ef1d4",
+      "size": 462
     },
     "kubejs/server_scripts/stellaris/rocket_station.js": {
-      "sha256": "9629c3cb385afb8b3d487fe137ecbfd9a613ad27c6537c8c7ba52799ede30ecc",
-      "size": 2040
+      "sha256": "5516c75187aa6cee015a3c3eeb53418dca98649e678980c8f7a06153e2181aa4",
+      "size": 1936
     },
     "kubejs/server_scripts/stonecutting.js": {
-      "sha256": "d3bddb85223bd8f742d293a8d38b4e8cfd9d717a3fb802a719375059590f055e",
-      "size": 1882
+      "sha256": "aaeceac68ed707b144b4a2a610cb1453d62df2c53e372dc4b08c4d910baa06df",
+      "size": 1836
     },
     "kubejs/server_scripts/tag.js": {
-      "sha256": "8bd2e8c4286df07f625033c1f5f15afd88e56e52ad8e1e17da02132c1d4f3061",
-      "size": 124
+      "sha256": "c470faa4ffe68b003d0207e7268ef6c11f0a8b2858e1b57d93cf38a9f6c412d6",
+      "size": 121
     },
     "kubejs/server_scripts/the aether/altar.js": {
-      "sha256": "8e74207fd6e64388d6409616095895c425086b84a25aa4cc0a2ef54e317fcacb",
-      "size": 1488
+      "sha256": "4e31525d503aaf038cf9d3a6d5388cb8958822040b753642af391f1f41a0a90e",
+      "size": 1417
     },
     "kubejs/server_scripts/tick.js": {
-      "sha256": "13809aa6c6516eb6e3252db5a473c516a5b13c065220a9c6656805464de23c4b",
-      "size": 639
+      "sha256": "e8b8b74efb84f28d2b79952af60b93412995c78aa152d13d24129d4d2baddccc",
+      "size": 622
     },
     "kubejs/server_scripts/void_death_achievement.js": {
-      "sha256": "c3a58f574980f9e5ebdd2644ba6c9965c7a82958606851037b02141e6aab6464",
-      "size": 890
+      "sha256": "bab93b9c153dbc5fd4cc649140a4580c5a3421ed4daff2aa01c25a81f8e676f9",
+      "size": 857
     },
     "kubejs/startup_scripts/dummy.js": {
-      "sha256": "3a7f74992533541f5d2f33c38616ee1a255e23adce1c48a714d35393c4d8d41d",
-      "size": 887
+      "sha256": "f263b2032b15c7c04a2bb8ab7d59e27b22b67bfd3f75941a4ae13d68cd434ae8",
+      "size": 858
     },
     "kubejs/startup_scripts/enity.js": {
-      "sha256": "275e549c0dab2611c59bcf9475c9ebc7258712038720e62427286d19228ae7e8",
-      "size": 886
+      "sha256": "2a879757dfa9f7203668ec35e7acd10843a70475c50a54f2c03ae7bc5ea2a04a",
+      "size": 869
     },
     "kubejs/startup_scripts/fluid.js": {
-      "sha256": "309f50daa33ac98d39d6a65e2386fc7d7198c927cc29864fe12d66bc0c842a91",
-      "size": 716
+      "sha256": "e0e098496823039a572a93d01c701d63eddcb8b0207967c366000311f10b6e86",
+      "size": 703
     },
     "kubejs/startup_scripts/food.js": {
-      "sha256": "8207a3e97987df3f6ad6f36e7f9532ec966c9a970ade93005997c62f084e8fec",
-      "size": 2813
+      "sha256": "a96622fe60662147b189442ac893347b55e367247789fa5ac7a6fdabf71ff214",
+      "size": 2756
     },
     "kubejs/startup_scripts/gas.js": {
-      "sha256": "156f630a9547dcf09173bce252ebffbb6f6683eab00330ec6e10a127caf24c0f",
-      "size": 571
+      "sha256": "f3850a0d821ae059b96a72ba16482ae5de0fa3026f8b6194ee3eb98cfdb243d3",
+      "size": 561
     },
     "kubejs/startup_scripts/main.js": {
-      "sha256": "007af03532866eef5fbb175515a6e570f49faabfb7181068eae6e95a2b3b4d51",
-      "size": 4674
+      "sha256": "004b444e7c4f91ba9f8fccf167064bcdd33da8df453fd7119d748b3c2a4003fa",
+      "size": 4596
     },
     "kubejs/startup_scripts/modify.js": {
-      "sha256": "e65238455fe031fa813784fe879252f3865801e4af7fbe170d9f13f5e9738729",
-      "size": 388
+      "sha256": "2b8ec1390b9e196ceb43180d59c4797c621df854c57463a65eb2c7ee4ee6b63b",
+      "size": 380
     },
     "kubejs/startup_scripts/seed.js": {
-      "sha256": "6d24b85c5735d3e33fecb22de93ca4da6c243d39801a486adbe425070eccff47",
-      "size": 2307
+      "sha256": "5355fb110a4993b9a60b41ab636531df4ad88a637edd049dfd795ee4c092d80e",
+      "size": 2256
     },
     "kubejs/startup_scripts/structure.js": {
-      "sha256": "2365881888bb61a5ef7224c23810f8d05dc1e1261654ed2b5ae42e943eeecd0c",
-      "size": 591
+      "sha256": "c7579799a99cacfdb5c977baa2fd7a217e303772e02518fb2e41665a00273a21",
+      "size": 567
     },
     "mods/AE2NetworkAnalyzer-1.21-2.1.5-neoforge.jar": {
       "sha256": "74b68e9ec57dbf21a0417ce099d61b834f88efb0de3cccba4413e5dcf9d69f3c",
@@ -4697,8 +4709,8 @@
       "size": 768718
     },
     "mods/poc-updater-1.0.0.jar": {
-      "sha256": "0fabab0b7822b3173ad4e7fc6801d11846e19db17d278b3975240be8fd7a8d35",
-      "size": 313136
+      "sha256": "14aca77717d68063c22390a59dc3345daeb4e9f8a090bacac7b79fc75525ada8",
+      "size": 314627
     },
     "mods/polyeng-0.4.1.jar": {
       "sha256": "69e565dc00abc5881ccff6801c8a0817f479eaf871d578aefd992b9b6614a2f9",

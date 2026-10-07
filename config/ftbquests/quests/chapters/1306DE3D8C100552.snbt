@@ -166,7 +166,7 @@
 							-906571350
 						]
 						"buildinggadgets2:template_name": ""
-						"minecraft:custom_name": "\"原子再构室\""
+						"minecraft:custom_name": "{\"translate\":\"rain.template.atomic_reconstruction\"}"
 					}
 					count: 1
 					id: "buildinggadgets2:template"
@@ -1062,7 +1062,7 @@
 							-1564478591
 						]
 						"buildinggadgets2:template_name": ""
-						"minecraft:custom_name": "\"虚空采矿机-5\""
+						"minecraft:custom_name": "{\"translate\":\"rain.template.void_miner_5\"}"
 					}
 					count: 1
 					id: "buildinggadgets2:template"
@@ -1296,7 +1296,7 @@
 							-1564478591
 						]
 						"buildinggadgets2:template_name": ""
-						"minecraft:custom_name": "\"虚空采矿机-5\""
+						"minecraft:custom_name": "{\"translate\":\"rain.template.void_miner_5\"}"
 					}
 					count: 1
 					id: "buildinggadgets2:template"
