@@ -203,7 +203,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 59fd5417-4f3b-4b6d-a002-1c99e7dfc8cb-1779003751727
-  [executable_action_instance:fdc57cbd-e37c-4e98-847c-5bca691ead2d-1779003877095][action_type:openlink] = https://discord.gg/5yeJbtGxS
+  [executable_action_instance:fdc57cbd-e37c-4e98-847c-5bca691ead2d-1779003877095][action_type:openlink] = https://discord.gg/KjrtbhCSf
   [executable_block:59fd5417-4f3b-4b6d-a002-1c99e7dfc8cb-1779003751727][type:generic] = [executables:fdc57cbd-e37c-4e98-847c-5bca691ead2d-1779003877095;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
