@@ -10,7 +10,7 @@
 
 Path of Creation is a Minecraft skyblock modpack focused on technology and automation. You begin on a single-block island in the void, gather your first resources through custom interactions and recipes, then build production lines, develop power systems, and explore dimensions as you follow the path of creation.
 
-[Download v0.1.2](https://github.com/RainRaf-UwU/Path-Of-Creation/releases/tag/v0.1.2) · [All releases](https://github.com/RainRaf-UwU/Path-Of-Creation/releases) · [Report an issue](https://github.com/RainRaf-UwU/Path-Of-Creation/issues)
+[Download v0.1.1](https://github.com/RainRaf-UwU/Path-Of-Creation/releases/tag/v0.1.1) · [All releases](https://github.com/RainRaf-UwU/Path-Of-Creation/releases) · [Report an issue](https://github.com/RainRaf-UwU/Path-Of-Creation/issues)
 
 ## Features
 
@@ -38,7 +38,7 @@ The quest book is both a guide and part of progression. Each chapter's ultimate 
 
 ## Requirements
 
-| Component | Version used by v0.1.2 |
+| Component | Version used by v0.1.1 |
 | --- | --- |
 | Minecraft | 1.21.1 |
 | Mod loader | NeoForge 21.1.255 |
@@ -47,7 +47,7 @@ The quest book is both a guide and part of progression. Each chapter's ultimate 
 ## Installation and getting started
 
 1. Create a separate instance in a Minecraft launcher that supports NeoForge. Install Minecraft **1.21.1** and NeoForge **21.1.255**, and use **Java 21**.
-2. Download `path-of-creation-update.zip` from the [v0.1.2 release page](https://github.com/RainRaf-UwU/Path-Of-Creation/releases/tag/v0.1.2), then extract the modpack files into that instance's game directory. For a first installation, complete the game and loader setup in step 1 first.
+2. Download `path-of-creation-update.zip` from the [v0.1.1 release page](https://github.com/RainRaf-UwU/Path-Of-Creation/releases/tag/v0.1.1), then extract the modpack files into that instance's game directory. For a first installation, complete the game and loader setup in step 1 first.
 3. Launch the game and create a new world using Skyblock Builder's skyblock world type and the included **Rain** island template.
 4. Open the FTB Quests book and begin with “Welcome” and “Chapter 1: Something from Nothing”.
 
@@ -65,10 +65,6 @@ Choose **English (US)** or Simplified Chinese in Options → Language. Leave FTB
 
 PCL users can select `config/fancymenu/assets/pack_icon.png` as the instance icon. The release also includes a 256×256 icon and a high-resolution logo.
 
-## v0.1.2 changes
-
-- Updated the main menu Discord invitation: [join the bilingual community](https://discord.gg/KjrtbhCSf).
-
 ## v0.1.1 changes
 
 - Added English (US) / en_us support for all 290 FTB Quests text entries, including chapters, quest titles, descriptions, and hints.
@@ -78,12 +74,6 @@ PCL users can select `config/fancymenu/assets/pack_icon.png` as the instance ico
 - Fixed background blur obscuring the update notes.
 - Refined the pack logo using the original title artwork, revised gears and lighting, and a purple void background. A 256×256 PCL icon and a high-resolution version are provided; the revised icon is installed in the author's local PCL instance.
 - Improved the Chinese README, added a complete English README with language links, and marked Chapter 6 as unfinished and still in development.
-
-## v0.1 changes
-
-- Updated several mods.
-- Fixed known bugs.
-- Improved the modpack's quest progression.
 
 ## Project structure and maintenance
 
@@ -101,6 +91,8 @@ PCL users can select `config/fancymenu/assets/pack_icon.png` as the instance ico
 See the [updater documentation](../../tools/poc-updater/README.md) for maintainer build, release, and verification instructions.
 
 ## Feedback and licensing
+
+[Join the bilingual Discord community](https://discord.gg/KjrtbhCSf).
 
 Please [open an issue](https://github.com/RainRaf-UwU/Path-Of-Creation/issues) with the modpack version, reproduction steps, and relevant logs or screenshots. Remove account details and other personal information before uploading them.
 

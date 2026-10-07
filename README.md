@@ -10,7 +10,7 @@
 
 Path of Creation 是一个以科技发展与自动化为核心的 Minecraft 空岛整合包。你将出生在虚空中的单方块空岛上，利用整合包提供的交互机制与自定义配方获取最初的资源，再逐渐搭建产线、发展能源、探索维度，走上创世之径。
 
-[下载 v0.1.2](https://github.com/RainRaf-UwU/Path-Of-Creation/releases/tag/v0.1.2) · [全部版本](https://github.com/RainRaf-UwU/Path-Of-Creation/releases) · [反馈问题](https://github.com/RainRaf-UwU/Path-Of-Creation/issues)
+[下载 v0.1.1](https://github.com/RainRaf-UwU/Path-Of-Creation/releases/tag/v0.1.1) · [全部版本](https://github.com/RainRaf-UwU/Path-Of-Creation/releases) · [反馈问题](https://github.com/RainRaf-UwU/Path-Of-Creation/issues)
 
 ## 整合包特色
 
@@ -36,7 +36,7 @@ Path of Creation 是一个以科技发展与自动化为核心的 Minecraft 空�
 
 ## 运行环境
 
-| 项目 | v0.1.2 使用版本 |
+| 项目 | v0.1.1 使用版本 |
 | --- | --- |
 | Minecraft | 1.21.1 |
 | 模组加载器 | NeoForge 21.1.255 |
@@ -45,7 +45,7 @@ Path of Creation 是一个以科技发展与自动化为核心的 Minecraft 空�
 ## 安装与开始游玩
 
 1. 在支持 NeoForge 的 Minecraft 启动器中创建独立实例，安装 Minecraft **1.21.1** 与 NeoForge **21.1.255**，使用 **Java 21**。
-2. 从 [Release 页面](https://github.com/RainRaf-UwU/Path-Of-Creation/releases/tag/v0.1.2) 下载 `path-of-creation-update.zip`，将其中的整合包文件解压到该实例的游戏目录。首次安装必须先完成上一步的游戏与加载器安装。
+2. 从 [Release 页面](https://github.com/RainRaf-UwU/Path-Of-Creation/releases/tag/v0.1.1) 下载 `path-of-creation-update.zip`，将其中的整合包文件解压到该实例的游戏目录。首次安装必须先完成上一步的游戏与加载器安装。
 3. 启动游戏，使用 Skyblock Builder 的空岛世界类型创建新世界，使用整合包提供的 **Rain** 岛屿模板。
 4. 打开 FTB Quests 任务书，从“欢迎”和“第一章：无中生有”开始。
 
@@ -63,10 +63,6 @@ Path of Creation 是一个以科技发展与自动化为核心的 Minecraft 空�
 
 PCL 用户可将 `config/fancymenu/assets/pack_icon.png` 设置为版本图标；Release 同时提供 256×256 图标和高清 Logo。
 
-## v0.1.2 更新内容
-
-- 更新主菜单 Discord 邀请链接：[加入中英双语社区](https://discord.gg/KjrtbhCSf)。
-
 ## v0.1.1 更新内容
 
 - 新增 English (US) / en_us 支持：补齐 290 项 FTB Quests 文本，覆盖章节、任务标题、说明与提示。
@@ -76,12 +72,6 @@ PCL 用户可将 `config/fancymenu/assets/pack_icon.png` 设置为版本图标�
 - 修复更新说明正文被背景模糊覆盖的问题。
 - 更新整合包 Logo：融入原有标题图片，调整齿轮、光照与紫色虚空背景；提供 256×256 PCL 图标和高清版本，本机 PCL 已安装新版图标。
 - 完善中文 README，新增完整英文 README 与语言切换链接；明确第六章尚未完成、仍在制作中。
-
-## v0.1 更新内容
-
-- 更新了若干 Mod。
-- 修复已知 Bug。
-- 优化整合包任务线。
 
 ## 项目结构与维护
 
@@ -99,6 +89,8 @@ PCL 用户可将 `config/fancymenu/assets/pack_icon.png` 设置为版本图标�
 作者发布、编译与验证步骤见 [自动更新说明](tools/poc-updater/README.md)。
 
 ## 反馈与许可
+
+[加入 Discord 中英双语社区](https://discord.gg/KjrtbhCSf)。
 
 发现问题请提交 [Issue](https://github.com/RainRaf-UwU/Path-Of-Creation/issues)，说明整合包版本、复现步骤，并附上相关日志或截图；上传前请移除账户信息等个人数据。
 
