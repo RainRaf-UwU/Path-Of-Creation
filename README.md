@@ -10,7 +10,7 @@
 
 Path of Creation 是一个以科技发展与自动化为核心的 Minecraft 空岛整合包。你将出生在虚空中的单方块空岛上，利用整合包提供的交互机制与自定义配方获取最初的资源，再逐渐搭建产线、发展能源、探索维度，走上创世之径。
 
-[下载 v0.1.1](https://github.com/RainRaf-UwU/Path-Of-Creation/releases/tag/v0.1.1) · [全部版本](https://github.com/RainRaf-UwU/Path-Of-Creation/releases) · [反馈问题](https://github.com/RainRaf-UwU/Path-Of-Creation/issues)
+[下载 v0.1.2](https://github.com/RainRaf-UwU/Path-Of-Creation/releases/tag/v0.1.2) · [全部版本](https://github.com/RainRaf-UwU/Path-Of-Creation/releases) · [反馈问题](https://github.com/RainRaf-UwU/Path-Of-Creation/issues)
 
 ## 整合包特色
 
@@ -36,7 +36,7 @@ Path of Creation 是一个以科技发展与自动化为核心的 Minecraft 空�
 
 ## 运行环境
 
-| 项目 | v0.1.1 使用版本 |
+| 项目 | v0.1.2 使用版本 |
 | --- | --- |
 | Minecraft | 1.21.1 |
 | 模组加载器 | NeoForge 21.1.255 |
@@ -45,7 +45,7 @@ Path of Creation 是一个以科技发展与自动化为核心的 Minecraft 空�
 ## 安装与开始游玩
 
 1. 在支持 NeoForge 的 Minecraft 启动器中创建独立实例，安装 Minecraft **1.21.1** 与 NeoForge **21.1.255**，使用 **Java 21**。
-2. 从 [Release 页面](https://github.com/RainRaf-UwU/Path-Of-Creation/releases/tag/v0.1.1) 下载 `path-of-creation-update.zip`，将其中的整合包文件解压到该实例的游戏目录。首次安装必须先完成上一步的游戏与加载器安装。
+2. 从 [Release 页面](https://github.com/RainRaf-UwU/Path-Of-Creation/releases/tag/v0.1.2) 下载 `path-of-creation-update.zip`，将其中的整合包文件解压到该实例的游戏目录。首次安装必须先完成上一步的游戏与加载器安装。
 3. 启动游戏，使用 Skyblock Builder 的空岛世界类型创建新世界，使用整合包提供的 **Rain** 岛屿模板。
 4. 打开 FTB Quests 任务书，从“欢迎”和“第一章：无中生有”开始。
 
@@ -62,6 +62,10 @@ Path of Creation 是一个以科技发展与自动化为核心的 Minecraft 空�
 支持简体中文与 **English (US)**。在游戏“选项 → 语言”中切换，FTB Quests 的语言覆盖选项保持空白，再重开任务书。自定义物品、提示、剧情及更新界面会使用所选语言。
 
 PCL 用户可将 `config/fancymenu/assets/pack_icon.png` 设置为版本图标；Release 同时提供 256×256 图标和高清 Logo。
+
+## v0.1.2 更新内容
+
+- 更新主菜单 Discord 邀请链接：[加入中英双语社区](https://discord.gg/KjrtbhCSf)。
 
 ## v0.1.1 更新内容
 
