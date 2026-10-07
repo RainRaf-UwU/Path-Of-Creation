@@ -1,5 +1,9 @@
 # Path of Creation · 创世之径
 
+<p align="center">
+  <img src="design/branding/path-of-creation-icon-256-v1.png" alt="Path of Creation 创世之径 Logo" width="160" height="160">
+</p>
+
 **从一个方块开始，一步步创造属于自己的世界。**
 
 Path of Creation 是一个以科技发展与自动化为核心的 Minecraft 空岛整合包。你将出生在虚空中的单方块空岛上，利用整合包提供的交互机制与自定义配方获取最初的资源，再逐渐搭建产线、发展能源、探索维度，走上创世之径。
