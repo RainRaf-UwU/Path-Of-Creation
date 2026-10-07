@@ -1,7 +1,7 @@
 # Path of Creation · 创世之径
 
 <p align="center">
-  <img src="design/branding/path-of-creation-icon-256-v1.png" alt="Path of Creation 创世之径 Logo" width="160" height="160">
+  <img src="design/branding/path-of-creation-icon-256-v2.png" alt="Path of Creation 创世之径 Logo" width="256" height="256">
 </p>
 
 **从一个方块开始，一步步创造属于自己的世界。**
