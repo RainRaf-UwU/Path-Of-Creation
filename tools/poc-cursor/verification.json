@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-09",
+  "artifact": "mods/poc-cursor-1.0.0.jar",
+  "bytes": 18136,
+  "sha256": "a735e0de037faf34177d13d978677b0e9bea5ab2d434a09d66bd676cdabd525f",
+  "environment": {
+    "minecraft": "1.21.1",
+    "neoforge": "21.1.255",
+    "java": 21,
+    "fancymenu": "3.9.14",
+    "os": "Windows",
+    "original_mod_jars": 260,
+    "test_mod_jars": 262,
+    "test_heap": "4G",
+    "test_mipmap_levels": 0,
+    "test_resolution": "1280x800"
+  },
+  "automated_checks": {
+    "logic": "passed",
+    "native_glfw": "100 create/set/restore/destroy cycles passed; zero native errors; input mode unchanged",
+    "bounded_clicks": 10000,
+    "gui_quad_winding": "passed",
+    "jar_crc": "passed",
+    "test_or_mixin_classes_in_release": false
+  },
+  "runtime": {
+    "status": "partial; remaining validation delegated to user by explicit request",
+    "completed_checks": [
+      "Main menu custom native cursor",
+      "Cursor survives screen transition",
+      "Real MouseHandler button action executes once",
+      "Click ring visible in actual framebuffer",
+      "Text field focus preserved",
+      "Text entry preserved",
+      "FancyMenu writing cursor has priority",
+      "Focus loss releases own cursor",
+      "Focus handling leaves input mode unchanged",
+      "GUI scale 3 uses same native cursor"
+    ],
+    "full_pack_verification_completed": false,
+    "test_process_exit": "Observed exit during test-world loading; no result.json or crash report; cause undetermined",
+    "remaining_checks": [
+      "survival inventory and JEI",
+      "inventory pickup, placement and drag distribution",
+      "FTB Quests interactions",
+      "world mouse capture after closing GUI",
+      "GUI scale 4 and repeated client launch"
+    ],
+    "kubejs_script_loading": {
+      "startup": "10/10; 0 errors, 0 warnings",
+      "client": "3/3; 0 errors, 0 warnings",
+      "server": "101/101; 0 errors, 0 warnings"
+    },
+    "original_saves_opened": false,
+    "further_game_launches": "disabled per user request"
+  },
+  "protection": {
+    "existing_files_checked": 664,
+    "changed_existing_files": [],
+    "existing_unrelated_git_changes": "preserved; not included in this commit"
+  },
+  "limits": [
+    "Only the listed versions and completed paths have been validated.",
+    "FancyMenu adapter uses optional reflection on version-specific selection fields; incompatibility yields the cursor.",
+    "Arbitrary cursor mods and other operating systems/drivers have not been validated.",
+    "Existing pack.mcmeta, recipe and key-binding warnings are outside this change; whole-pack logs are not error-free.",
+    "Game framebuffer screenshots exclude native OS cursors."
+  ],
+  "evidence": [
+    "evidence/01-main-menu.png",
+    "evidence/02-click-ring.png",
+    "evidence/03-gui-scale-3.png"
+  ]
+}
