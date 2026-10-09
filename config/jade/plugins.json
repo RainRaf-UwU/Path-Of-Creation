@@ -65,6 +65,9 @@
   "apothic_spawners": {
     "spawner": true
   },
+  "hostilenetworks": {
+    "io_port_mode": true
+  },
   "entangled": {
     "entangled_block_component": true
   },
@@ -128,6 +131,7 @@
     "compressor": true
   },
   "extendedae_plus": {
+    "labeled_wireless_component": true,
     "wt_locked": true,
     "wt_frequency": true,
     "wt_network_usable": true,
@@ -142,6 +146,9 @@
   },
   "hammerlib": {
     "root": true
+  },
+  "enderio": {
+    "soul_bound": true
   },
   "mekanism": {
     "chemical": true,
@@ -166,9 +173,6 @@
   },
   "waystones": {
     "waystone": true
-  },
-  "camera": {
-    "image_frame": true
   },
   "cookingforblockheads": {
     "fridge": true,
@@ -233,6 +237,9 @@
   },
   "mysticalagradditions": {
     "infused_farmland": true
+  },
+  "ifeu": {
+    "machine_tile": true
   },
   "mysticalagriculture": {
     "infused_farmland": true,

@@ -1,75 +1,151 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "177E0CB4B646F860"
+	filename: "177e0cb4b646f860"
 	group: "77D7C75CDD1E95EB"
 	id: "177E0CB4B646F860"
+	images: [
+		{
+			height: 0.5d
+			id: "5491CB6DC841909D"
+			image: ""
+			rotation: 0.0d
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 9.0d
+			x: 0.0d
+			y: -7.2d
+		}
+		{
+			height: 0.5d
+			id: "569F7CD752D052F7"
+			image: ""
+			rotation: 0.0d
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 9.0d
+			x: 0.0d
+			y: -4.7d
+		}
+		{
+			height: 0.5d
+			id: "52F6CEC910045627"
+			image: ""
+			rotation: 0.0d
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 9.0d
+			x: 0.0d
+			y: -2.2d
+		}
+		{
+			height: 0.5d
+			id: "7BC6D00A22C80715"
+			image: ""
+			rotation: 0.0d
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 9.0d
+			x: 0.0d
+			y: 0.3d
+		}
+		{
+			height: 0.5d
+			id: "1CE8D89C882F7FD1"
+			image: ""
+			rotation: 0.0d
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 9.0d
+			x: 0.0d
+			y: 2.8d
+		}
+		{
+			height: 0.5d
+			id: "164EECC547390660"
+			image: ""
+			rotation: 0.0d
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 9.0d
+			x: 0.0d
+			y: 5.3d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			id: "362369E91C0A4ADB"
-			rewards: [{
-				id: "217D343B1B5E90A5"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [
-				{
-					id: "3C22AD4A30491B60"
-					item: { count: 1, id: "buildinggadgets2:gadget_building" }
-					type: "item"
-				}
-				{
-					id: "5DB120FF4048C777"
-					item: { count: 1, id: "buildinggadgets2:gadget_exchanging" }
-					type: "item"
-				}
-				{
-					id: "32BA261204F54053"
-					item: { count: 1, id: "buildinggadgets2:gadget_copy_paste" }
-					type: "item"
-				}
-				{
-					id: "53A68099A26BE335"
-					item: { components: { "buildinggadgets2:paste_replace_toggle": 1b }, count: 1, id: "buildinggadgets2:gadget_cut_paste" }
-					type: "item"
-				}
-				{
-					id: "29EBE2BC341ADC45"
-					item: { count: 1, id: "buildinggadgets2:gadget_destruction" }
-					type: "item"
-				}
-			]
-			x: -3.0d
-			y: -2.0d
-		}
-		{
-			id: "5C8DBC7B4027BA63"
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "4920D3582076EB63"
 			tasks: [{
-				dimension: "aether:the_aether"
-				id: "0A7A05592546EEA3"
-				type: "dimension"
+				id: "636A758349C83E47"
+				type: "checkmark"
 			}]
-			x: -3.0d
-			y: -0.5d
+			x: -3.75d
+			y: -6.0d
 		}
 		{
-			id: "567F1F1D0E1A5D3A"
-			tasks: [
-				{
-					id: "2B347E7FB6F902D1"
-					item: { count: 1, id: "entangled:block" }
-					type: "item"
-				}
-				{
-					id: "0CD0F01C18BA021C"
-					item: { count: 1, id: "entangled:item" }
-					type: "item"
-				}
-			]
-			x: -1.5d
-			y: -0.5d
+			icon: {
+				id: "minecraft:crafting_table"
+			}
+			id: "31FE0E320B168BB3"
+			tasks: [{
+				id: "3924DFB4FE5DC596"
+				type: "checkmark"
+			}]
+			x: -2.25d
+			y: -6.0d
+		}
+		{
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "6D1B3F912797C7EF"
+			tasks: [{
+				id: "2A0FB2C479889279"
+				type: "checkmark"
+			}]
+			x: -0.75d
+			y: -6.0d
+		}
+		{
+			icon: {
+				id: "rain:fazhang"
+			}
+			id: "37EE081CBF549202"
+			tasks: [{
+				id: "3177422E4D1D1D47"
+				type: "checkmark"
+			}]
+			x: 0.75d
+			y: -6.0d
+		}
+		{
+			icon: {
+				id: "minecraft:iron_pickaxe"
+			}
+			id: "7A1CB81A208609DA"
+			tasks: [{
+				id: "64F3B6E5772E3AC5"
+				type: "checkmark"
+			}]
+			x: 2.25d
+			y: -6.0d
+		}
+		{
+			icon: {
+				id: "minecraft:barrel"
+			}
+			id: "1C2C23B4FC9AFF89"
+			tasks: [{
+				id: "176004E2264D13AA"
+				type: "checkmark"
+			}]
+			x: 3.75d
+			y: -6.0d
 		}
 		{
 			id: "1167E45D16D89FD7"
@@ -83,23 +159,8 @@
 				item: { count: 1, id: "utilitarian:angel_block" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 1.0d
-		}
-		{
-			id: "6558B791E1AD5877"
-			rewards: [{
-				id: "4ED43FAF4719C8A8"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "776745CF48F6336A"
-				item: { count: 1, id: "itemcollectors:basic_collector" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: 1.0d
+			x: -3.75d
+			y: -3.5d
 		}
 		{
 			id: "7EAD817522C2CF8B"
@@ -135,53 +196,55 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -2.0d
+			x: -2.25d
+			y: -3.5d
 		}
 		{
-			id: "4CC782C41571C8B9"
+			id: "362369E91C0A4ADB"
 			rewards: [{
-				id: "4A1C2FDE07302021"
+				id: "217D343B1B5E90A5"
 				type: "xp"
 				xp: 100
 			}]
-			tasks: [{
-				id: "2517F0AC40DC392E"
-				item: { count: 1, id: "cookingforblockheads:sink" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: -0.5d
+			tasks: [
+				{
+					id: "3C22AD4A30491B60"
+					item: { count: 1, id: "buildinggadgets2:gadget_building" }
+					type: "item"
+				}
+				{
+					id: "5DB120FF4048C777"
+					item: { count: 1, id: "buildinggadgets2:gadget_exchanging" }
+					type: "item"
+				}
+				{
+					id: "32BA261204F54053"
+					item: { count: 1, id: "buildinggadgets2:gadget_copy_paste" }
+					type: "item"
+				}
+				{
+					id: "53A68099A26BE335"
+					item: { components: { "buildinggadgets2:paste_replace_toggle": 1b }, count: 1, id: "buildinggadgets2:gadget_cut_paste" }
+					type: "item"
+				}
+				{
+					id: "29EBE2BC341ADC45"
+					item: { count: 1, id: "buildinggadgets2:gadget_destruction" }
+					type: "item"
+				}
+			]
+			x: -0.75d
+			y: -3.5d
 		}
 		{
-			id: "0C7A692133B2E1D8"
-			rewards: [{
-				id: "3B78649FC00016E2"
-				type: "xp"
-				xp: 100
-			}]
+			id: "5C8DBC7B4027BA63"
 			tasks: [{
-				id: "65F8467436AFC0B4"
-				item: { count: 1, id: "tesseract:tesseract" }
-				type: "item"
+				dimension: "aether:the_aether"
+				id: "0A7A05592546EEA3"
+				type: "dimension"
 			}]
-			x: 0.0d
-			y: 1.0d
-		}
-		{
-			id: "5D7A364E892C51D4"
-			rewards: [{
-				id: "767545540A9DC15C"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "029EF5C622262A20"
-				item: { count: 1, id: "tiab:time_in_a_bottle" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: 2.5d
+			x: 0.75d
+			y: -3.5d
 		}
 		{
 			id: "315F2620464EF042"
@@ -202,8 +265,50 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: 2.5d
+			x: 2.25d
+			y: -3.5d
+		}
+		{
+			icon: {
+				id: "minecraft:stone_bricks"
+			}
+			id: "0FB93F448531A910"
+			tasks: [{
+				id: "3D52DBB08B68BF0B"
+				type: "checkmark"
+			}]
+			x: 3.75d
+			y: -3.5d
+		}
+		{
+			id: "6558B791E1AD5877"
+			rewards: [{
+				id: "4ED43FAF4719C8A8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "776745CF48F6336A"
+				item: { count: 1, id: "itemcollectors:basic_collector" }
+				type: "item"
+			}]
+			x: -3.75d
+			y: -1.0d
+		}
+		{
+			id: "4CC782C41571C8B9"
+			rewards: [{
+				id: "4A1C2FDE07302021"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2517F0AC40DC392E"
+				item: { count: 1, id: "cookingforblockheads:sink" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: -1.0d
 		}
 		{
 			id: "0F684EEF9837ED59"
@@ -224,48 +329,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 2.5d
-		}
-		{
-			id: "4218087C6F41EAA4"
-			tasks: [{
-				id: "31C0F40540127733"
-				item: { count: 1, id: "rftoolsutility:crafter1" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: 2.5d
-		}
-		{
-			id: "4269636C488F8953"
-			rewards: [{
-				id: "601C9636DC7F330F"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "6B73FEB3F7F1540E"
-				item: { count: 1, id: "utilitarian:redstone_clock" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: 1.0d
-		}
-		{
-			id: "58F8AC80230C0EEC"
-			rewards: [{
-				id: "0FF748846CA70B37"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "0804C2379E04B4EF"
-				item: { count: 1, id: "utilitarian:tps_meter" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: -0.5d
+			x: -0.75d
+			y: -1.0d
 		}
 		{
 			id: "7C93816B62FF2660"
@@ -279,23 +344,8 @@
 				item: { count: 1, id: "mob_grinding_utils:xp_tap" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -2.0d
-		}
-		{
-			id: "0240744B641E0BF5"
-			rewards: [{
-				id: "55E65DD2F264ED77"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "6FF7308FB1229653"
-				item: { count: 1, id: "utilitarian:sound_muffler" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: -2.0d
+			x: 0.75d
+			y: -1.0d
 		}
 		{
 			id: "52C711F0B96EFE9B"
@@ -309,8 +359,254 @@
 				item: { count: 1, id: "reliquary:void_tear" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 2.5d
+			x: 2.25d
+			y: -1.0d
+		}
+		{
+			icon: {
+				id: "rain:transmutation_fluid_bucket"
+			}
+			id: "32951895A4C5C494"
+			tasks: [{
+				id: "0C89341191E7DC84"
+				type: "checkmark"
+			}]
+			x: 3.75d
+			y: -1.0d
+		}
+		{
+			id: "567F1F1D0E1A5D3A"
+			tasks: [
+				{
+					id: "2B347E7FB6F902D1"
+					item: { count: 1, id: "entangled:block" }
+					type: "item"
+				}
+				{
+					id: "0CD0F01C18BA021C"
+					item: { count: 1, id: "entangled:item" }
+					type: "item"
+				}
+			]
+			x: -3.75d
+			y: 1.5d
+		}
+		{
+			id: "0C7A692133B2E1D8"
+			rewards: [{
+				id: "3B78649FC00016E2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "65F8467436AFC0B4"
+				item: { count: 1, id: "tesseract:tesseract" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: 1.5d
+		}
+		{
+			id: "4218087C6F41EAA4"
+			tasks: [{
+				id: "31C0F40540127733"
+				item: { count: 1, id: "rftoolsutility:crafter1" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:hopper"
+			}
+			id: "3874BB2678634C5B"
+			tasks: [{
+				id: "2E11EFE8D9BCE5E4"
+				type: "checkmark"
+			}]
+			x: 0.75d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "ae2:controller"
+			}
+			id: "2AD71D8FFD05E456"
+			tasks: [{
+				id: "6601F3A6572494BD"
+				type: "checkmark"
+			}]
+			x: 2.25d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "ae2:pattern_provider"
+			}
+			id: "3C507C8A43B2C8EA"
+			tasks: [{
+				id: "6659E69D435069E7"
+				type: "checkmark"
+			}]
+			x: 3.75d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "mekanism:basic_energy_cube"
+			}
+			id: "29BB760BE89C5B60"
+			tasks: [{
+				id: "4E60FAD8351F4EF2"
+				type: "checkmark"
+			}]
+			x: -3.75d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "mekanism:configurator"
+			}
+			id: "3CC9EAF2ACFEB798"
+			tasks: [{
+				id: "7D2552F393AE8749"
+				type: "checkmark"
+			}]
+			x: -2.25d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "create:stressometer"
+			}
+			id: "3658FC8E1C759F4E"
+			tasks: [{
+				id: "5EDB04CD1C1CACE1"
+				type: "checkmark"
+			}]
+			x: -0.75d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "minecraft:iron_block"
+			}
+			id: "08CDA76B728B8502"
+			tasks: [{
+				id: "51D277FA07532D26"
+				type: "checkmark"
+			}]
+			x: 0.75d
+			y: 4.0d
+		}
+		{
+			id: "5D7A364E892C51D4"
+			rewards: [{
+				id: "767545540A9DC15C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "029EF5C622262A20"
+				item: { count: 1, id: "tiab:time_in_a_bottle" }
+				type: "item"
+			}]
+			x: 2.25d
+			y: 4.0d
+		}
+		{
+			id: "4269636C488F8953"
+			rewards: [{
+				id: "601C9636DC7F330F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6B73FEB3F7F1540E"
+				item: { count: 1, id: "utilitarian:redstone_clock" }
+				type: "item"
+			}]
+			x: 3.75d
+			y: 4.0d
+		}
+		{
+			id: "58F8AC80230C0EEC"
+			rewards: [{
+				id: "0FF748846CA70B37"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0804C2379E04B4EF"
+				item: { count: 1, id: "utilitarian:tps_meter" }
+				type: "item"
+			}]
+			x: -3.75d
+			y: 6.5d
+		}
+		{
+			id: "0240744B641E0BF5"
+			rewards: [{
+				id: "55E65DD2F264ED77"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6FF7308FB1229653"
+				item: { count: 1, id: "utilitarian:sound_muffler" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: 6.5d
+		}
+		{
+			icon: {
+				id: "minecraft:map"
+			}
+			id: "77C62F0DBFE988BB"
+			tasks: [{
+				id: "0BDB43624382C9A9"
+				type: "checkmark"
+			}]
+			x: -0.75d
+			y: 6.5d
+		}
+		{
+			icon: {
+				id: "minecraft:comparator"
+			}
+			id: "3ACFCCB961EFFE28"
+			tasks: [{
+				id: "7CF1065CBFDBF3BD"
+				type: "checkmark"
+			}]
+			x: 0.75d
+			y: 6.5d
+		}
+		{
+			icon: {
+				id: "minecraft:lightning_rod"
+			}
+			id: "42080B0DB2CD20CB"
+			tasks: [{
+				id: "36DCDD7D963506F2"
+				type: "checkmark"
+			}]
+			x: 2.25d
+			y: 6.5d
+		}
+		{
+			icon: {
+				id: "minecraft:writable_book"
+			}
+			id: "1F1CA4F40DE9BFDB"
+			tasks: [{
+				id: "6FB4413B9C8217B3"
+				type: "checkmark"
+			}]
+			x: 3.75d
+			y: 6.5d
 		}
 	]
 }

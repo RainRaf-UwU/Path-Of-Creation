@@ -1,0 +1,5 @@
+	[core.general]
+		#If ingredients that were auto-crafted from a recipe viewer should be moved into the crafting grid once their crafting job completes.
+		craftingGridAutoFillOnCraftingJobCompletion = true
+		#The number of seconds after which the crafting grid stops waiting on ingredients that are being auto-crafted from a recipe viewer.
+		craftingGridAutoFillTimeoutSeconds = 600

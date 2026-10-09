@@ -7,6 +7,14 @@
 		logRecipeValidationFailures = true
 		#The minimal update frequency in ticks to use for crafting interfaces.
 		minCraftingInterfaceUpdateFreq = 5
+		#The number of ticks after which a measured crafting duration is forgotten, so that estimations follow changes to the network. Set to 0 to never forget them.
+		craftingInterfaceRecipeDurationMaxAge = 144000
+		#The maximum number of recipes that will be read from a list inside an enumerated crafting interface. Set to 0 for no limit.
+		maxCraftingInterfaceEnumeratedRecipes = 4096
+		#The maximum number of recipes that a crafting interface remembers crafting durations for, which are used to estimate the duration of crafting jobs. Set to 0 to disable recipe-specific estimations.
+		craftingInterfaceRecipeDurationEntries = 32
+		#The minimal update frequency in ticks to use for enumerated crafting interfaces. Reading a list of recipes is more expensive than reading a single recipe, so this defaults higher than the regular crafting interface.
+		minCraftingInterfaceEnumeratedUpdateFreq = 20
 
 	[general.general]
 		#The base energy usage for the crafting interface per crafting job being processed.
@@ -15,6 +23,8 @@
 		interfaceCraftingAttunedBaseConsumption = 10
 		#The base energy usage for the crafting writer.
 		craftingWriterBaseConsumption = 1
+		#The base energy usage for the enumerated crafting interface per crafting job being processed.
+		interfaceCraftingEnumeratedBaseConsumption = 10
 
 	[core.general]
 		#If an anonymous mod startup analytics request may be sent to our analytics service.

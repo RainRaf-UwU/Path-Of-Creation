@@ -1,4 +1,4 @@
-96 possible biomes found:
+97 possible biomes found:
 - "ars_nouveau:archwood_forest"
 - "minecraft:badlands"
 - "minecraft:bamboo_jungle"
@@ -36,6 +36,7 @@
 - "minecraft:ice_spikes"
 - "stellaris:infernal_venus_barrens"
 - "minecraft:jagged_peaks"
+- "ars_nouveau:jar"
 - "minecraft:jungle"
 - "stellaris:jupiter"
 - "minecraft:lukewarm_ocean"

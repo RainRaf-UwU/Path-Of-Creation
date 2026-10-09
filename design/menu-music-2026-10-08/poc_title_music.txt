@@ -1,0 +1,54 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = title_screen
+  render_custom_elements_behind_vanilla = false
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 10
+  [loading_requirement_container_meta:poc-title-music-layout-requirements] = [groups:][instances:]
+}
+
+element {
+  element_type = music_controller
+  instance_identifier = poc-title-music-controller
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  x = 0
+  y = 0
+  width = 100
+  height = 100
+  anchor_point = top-left
+  stay_on_screen = false
+  play_menu_music = false
+  play_world_music = true
+  element_loading_requirement_container_identifier = poc-title-music-controller-requirements
+  [loading_requirement_container_meta:poc-title-music-controller-requirements] = [groups:][instances:]
+}
+
+element {
+  element_type = audio_v2
+  instance_identifier = poc-title-background-music
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  x = 0
+  y = 0
+  width = 100
+  height = 100
+  anchor_point = top-left
+  stay_on_screen = false
+  volume = 0.45
+  sound_source = music
+  looping = true
+  play_mode = normal
+  audio_instance_0 = [source:local]/config/fancymenu/assets/music/void_dawn.ogg
+  audio_instance_weight_0 = 1.0
+  element_loading_requirement_container_identifier = poc-title-background-music-requirements
+  [loading_requirement_container_meta:poc-title-background-music-requirements] = [groups:][instances:]
+}

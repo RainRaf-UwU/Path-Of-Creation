@@ -12,6 +12,8 @@ Path of Creation is a Minecraft skyblock modpack focused on technology and autom
 
 [Download v0.1.1](https://github.com/RainRaf-UwU/Path-Of-Creation/releases/tag/v0.1.1) · [All releases](https://github.com/RainRaf-UwU/Path-Of-Creation/releases) · [Report an issue](https://github.com/RainRaf-UwU/Path-Of-Creation/issues)
 
+[Development changes since v0.1.1 (Chinese)](../changes-after-v0.1.1/README.md). These changes are in the Git main branch and have not been published as a new official release.
+
 ## Features
 
 - **Single-block skyblock start:** Gather resources from a limited starting point and expand your foothold in the void into a world of your own.

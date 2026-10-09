@@ -87,7 +87,7 @@
 		supreme = 50000000
 
 	[MachineConfig.BigDissolutionChamberConfig]
-		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
+		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [60 (3s)]
 		maxProgress = 100
 		#Amount of Power Consumed per Tick - Default: [180FE]
 		powerPerTick = 180
@@ -99,7 +99,7 @@
 		maxOutputTankSize = 64000
 		#Default Max Thread - Default: [8]
 		maxThread = 8
-		#Item input rules, 0: The maximum number of items in the slot is the corresponding number of items in the slot when locked, 1: The maximum number of items in the slot is the machine thread - Default: [0]
+		#Item input rules, 0: The maximum number of items in the slot is the corresponding number of items in the slot when locked, 1: The maximum number of items in the slot is the machine thread - Default: [1]
 		inputRule = 0
 
 	[MachineConfig.ArcaneDragonForgingConfig]
@@ -111,3 +111,23 @@
 		maxInputTankSize = 8000
 		#Max Amount of Stored Fluid [Output] - Default: [8000mB]
 		maxOutputTankSize = 8000
+
+	[MachineConfig.SaucepanConfig]
+		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
+		maxProgress = 100
+		#Amount of Power Consumed per Tick - Default: [400FE]
+		powerPerOperation = 400
+		#Max Stored Power [FE] - Default: [10000 FE]
+		maxStoredPower = 10000
+		maxWaterTankStorage = 16000
+		maxMeatTankStorage = 16000
+
+	[MachineConfig.FermenterConfig]
+		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
+		maxProgress = 100
+		#Amount of Power Consumed per Tick - Default: [400FE]
+		powerPerOperation = 400
+		#Max Stored Power [FE] - Default: [10000 FE]
+		maxStoredPower = 10000
+		maxWaterTankStorage = 16000
+		maxSludgeTankStorage = 16000

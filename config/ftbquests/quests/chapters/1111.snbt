@@ -7,19 +7,20 @@
 		id: "minecraft:crafting_table"
 	}
 	id: "0113503505483482"
+	images: [ ]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			id: "3EDAA2878D281801"
-			shape: "pentagon"
-			size: 2.0d
 			rewards: [{
 				auto: "disabled"
 				id: "0300829B90BDB0CA"
 				type: "xp_levels"
 				xp_levels: 31
 			}]
+			shape: "pentagon"
+			size: 2.0d
 			tasks: [{
 				id: "0F31997386A8820F"
 				type: "checkmark"
@@ -52,13 +53,13 @@
 		{
 			dependencies: ["3EDAA2878D281801"]
 			id: "1E09108A7C94ECEF"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [{
 				id: "188DB68BE09F8371"
 				type: "xp_levels"
 				xp_levels: 5
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "099D2A70A0054338"
 				item: { count: 1, id: "minecraft:cobblestone" }
@@ -76,7 +77,7 @@
 				type: "item"
 			}]
 			x: 7.19d
-			y: -14.80d
+			y: -14.8d
 		}
 		{
 			dependencies: ["669CB95BC81991D4"]
@@ -92,13 +93,13 @@
 		{
 			dependencies: ["1E09108A7C94ECEF"]
 			id: "669CB95BC81991D4"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [{
 				id: "7FAB8602374D8A46"
 				type: "xp_levels"
 				xp_levels: 5
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "50127B6E953EC501"
 				item: { count: 1, id: "rain:mini_cobblestone" }
@@ -121,13 +122,13 @@
 		{
 			dependencies: ["669CB95BC81991D4"]
 			id: "5E491704FC3D8ED5"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [{
 				id: "1180FE63D33AA47D"
 				type: "xp_levels"
 				xp_levels: 5
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [
 				{
 					id: "6F18FD541C7D265A"
@@ -161,13 +162,13 @@
 		{
 			dependencies: ["5E491704FC3D8ED5"]
 			id: "70895DB9BA5EDA1B"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [{
 				id: "131E763D5281B9DB"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [
 				{
 					id: "3ABC9FAEE3973282"
@@ -191,13 +192,13 @@
 		{
 			dependencies: ["70895DB9BA5EDA1B"]
 			id: "5E7EC1DCE05A408A"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [{
 				id: "503629EAFE51FB7D"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "335FA98BE5B8BB6E"
 				item: { count: 1, id: "mekanism:bio_fuel" }
@@ -225,7 +226,7 @@
 				id: "3CC0E0D32EDA07F0"
 				type: "checkmark"
 			}]
-			x: -0.20d
+			x: -0.2d
 			y: -22.42d
 		}
 		{
@@ -251,13 +252,13 @@
 				"270F97050F5D5343"
 			]
 			id: "2F9C2A8FF16255E4"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [{
 				id: "548604A3C599E58B"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "1C3231366704B892"
 				item: { count: 1, id: "minecraft:glass" }
@@ -269,13 +270,13 @@
 		{
 			dependencies: ["2F9C2A8FF16255E4"]
 			id: "5C4D6347F340F8DF"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [{
 				id: "4D7D97D446BB22E2"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "590E9ED6A40AEF30"
 				item: { count: 1, id: "minecraft:glass_bottle" }
@@ -338,13 +339,13 @@
 		{
 			dependencies: ["5C4D6347F340F8DF"]
 			id: "15432D300A13DD07"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [{
 				id: "4747F6C5F1CA4F54"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "1945B0C2356E6458"
 				item: { count: 1, id: "rain:bottle_void" }
@@ -356,13 +357,13 @@
 		{
 			dependencies: ["15432D300A13DD07"]
 			id: "07ABC87F539D557B"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [{
 				id: "7037DC2E2DEA07E9"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "40589C1080A280E6"
 				item: { count: 1, id: "rain:void_mixture" }
@@ -374,13 +375,13 @@
 		{
 			dependencies: ["07ABC87F539D557B"]
 			id: "002125F16123E0AC"
-			shape: "diamond"
-			size: 2.0d
 			rewards: [{
 				id: "0C4F7ED11D0C505A"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "diamond"
+			size: 2.0d
 			tasks: [{
 				id: "7F0C5BA4E34C7201"
 				item: { count: 1, id: "rain:void_fluid_bucket" }
@@ -395,13 +396,13 @@
 				"7F40C4B7484F0709"
 			]
 			id: "7219D39C6DD4C51A"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [{
 				id: "30BF3A3D2A8FD39C"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "32DE247583D206D9"
 				item: { count: 1, id: "minecraft:chorus_fruit" }
@@ -413,13 +414,13 @@
 		{
 			dependencies: ["7219D39C6DD4C51A"]
 			id: "4546768616CE7CCF"
-			shape: "gear"
-			size: 2.0d
 			rewards: [{
 				id: "10B42615A22685B1"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "gear"
+			size: 2.0d
 			tasks: [{
 				id: "539AC6E2B19EECCD"
 				item: { count: 1, id: "rain:transmutation_fluid_bucket" }
@@ -512,7 +513,7 @@
 				item: { count: 1, id: "cobblegengalore:block_gen_stone" }
 				type: "item"
 			}]
-			x: 13.60d
+			x: 13.6d
 			y: 2.81d
 		}
 		{
@@ -593,18 +594,18 @@
 				type: "item"
 			}]
 			x: 17.09d
-			y: 3.60d
+			y: 3.6d
 		}
 		{
 			dependencies: ["133AF0D9E55D58B7"]
 			id: "749E9FAAE68C3E75"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [{
 				id: "6E59CFDAB4FA8F7A"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "145B0E0C0FE55972"
 				item: { count: 1, id: "minecraft:mangrove_log" }
@@ -619,8 +620,6 @@
 				"749E9FAAE68C3E75"
 			]
 			id: "1D0AC55C725914E3"
-			shape: "gear"
-			size: 2.0d
 			rewards: [
 				{
 					id: "47DBDF9E6CF6A125"
@@ -636,6 +635,8 @@
 					type: "item"
 				}
 			]
+			shape: "gear"
+			size: 2.0d
 			tasks: [{
 				id: "71E3EC8216345B80"
 				item: { count: 1, id: "create:andesite_casing" }
@@ -658,18 +659,18 @@
 				type: "item"
 			}]
 			x: 16.16d
-			y: 9.90d
+			y: 9.9d
 		}
 		{
 			dependencies: ["4546768616CE7CCF"]
 			id: "133AF0D9E55D58B7"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [{
 				id: "69C254F4B6C70B41"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "5D1E4609DFEAA5C7"
 				item: { count: 1, id: "mysticalagriculture:wood_essence" }
@@ -709,7 +710,7 @@
 				}
 			]
 			x: 13.76d
-			y: 6.90d
+			y: 6.9d
 		}
 		{
 			dependencies: ["1E09108A7C94ECEF"]
@@ -746,13 +747,13 @@
 		{
 			dependencies: ["1D0AC55C725914E3"]
 			id: "7ECF85C40EC49BE2"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [{
 				id: "7D79A8EA35B50109"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "03E860C2471F2D0D"
 				item: { count: 1, id: "create:shaft" }
@@ -828,13 +829,13 @@
 		{
 			dependencies: ["7ECF85C40EC49BE2"]
 			id: "6DE71F558A38AD75"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [{
 				id: "6E813232A70ADC77"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "59E97E30DF63D7F2"
 				item: { count: 1, id: "create:cogwheel" }
@@ -846,13 +847,13 @@
 		{
 			dependencies: ["6DE71F558A38AD75"]
 			id: "5AB60E1D0AA39CC9"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [{
 				id: "7CC4BDC18579A290"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "1C7FD0DF7C5FBC87"
 				item: { count: 1, id: "create:large_cogwheel" }
@@ -864,13 +865,13 @@
 		{
 			dependencies: ["5AB60E1D0AA39CC9"]
 			id: "1B1ECE179FA75607"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [{
 				id: "258C36BA72356746"
 				type: "xp_levels"
 				xp_levels: 0
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "2D2F2A9957743A19"
 				item: { count: 1, id: "create:mechanical_press" }
@@ -882,13 +883,13 @@
 		{
 			dependencies: ["1B1ECE179FA75607"]
 			id: "64C95422773BA982"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [{
 				id: "4BC61B385A873985"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "478392F5E7DC49FA"
 				item: { count: 1, id: "create:iron_sheet" }
@@ -900,13 +901,13 @@
 		{
 			dependencies: ["64C95422773BA982"]
 			id: "122B1C9F2BB0EE2A"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [{
 				id: "3208495DBB900E01"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "6C8D4FC2A163A8AB"
 				item: { count: 1, id: "create:propeller" }
@@ -918,13 +919,13 @@
 		{
 			dependencies: ["122B1C9F2BB0EE2A"]
 			id: "1FFC23C35197E472"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [{
 				id: "48E8EC1FD997F9B0"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "69C0EF7541A8F77D"
 				item: { count: 1, id: "create:encased_fan" }
@@ -984,13 +985,13 @@
 		{
 			dependencies: ["1FFC23C35197E472"]
 			id: "5FD0A2809F89535E"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [{
 				id: "550A15A005E2691E"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "122EA1959F1D4E30"
 				item: { count: 1, id: "create:millstone" }
@@ -1002,20 +1003,20 @@
 		{
 			dependencies: ["5FD0A2809F89535E"]
 			id: "2AC0DE273780B5D7"
-			shape: "gear"
-			size: 2.0d
 			rewards: [{
 				id: "6A735F2722BCA554"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "gear"
+			size: 2.0d
 			tasks: [{
 				id: "2E21FB97229F05CF"
 				item: { count: 1, id: "create:crushing_wheel" }
 				type: "item"
 			}]
 			x: -9.04d
-			y: 22.60d
+			y: 22.6d
 		}
 		{
 			dependencies: [
@@ -1039,20 +1040,20 @@
 		{
 			dependencies: ["2AC0DE273780B5D7"]
 			id: "65198688F543C319"
-			shape: "gear"
-			size: 2.0d
 			rewards: [{
 				id: "2041DBA26619CE22"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "gear"
+			size: 2.0d
 			tasks: [{
 				id: "7095FE57CA1E6727"
 				item: { count: 1, id: "create:mechanical_mixer" }
 				type: "item"
 			}]
 			x: -0.37d
-			y: 24.80d
+			y: 24.8d
 		}
 		{
 			dependencies: [
@@ -1060,13 +1061,13 @@
 				"25ECF09FD6BCCD72"
 			]
 			id: "180E8919165FF169"
-			shape: "diamond"
-			size: 2.0d
 			rewards: [{
 				id: "43F08A7D6DE98B2D"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "diamond"
+			size: 2.0d
 			tasks: [{
 				id: "2A074D4057754076"
 				item: { count: 1, id: "minecraft:crafting_table" }
@@ -1078,13 +1079,13 @@
 		{
 			dependencies: ["180E8919165FF169"]
 			id: "2ABCB692F4717BC5"
-			shape: "pentagon"
-			size: 2.0d
 			rewards: [{
 				id: "153D82D36DA454B6"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "pentagon"
+			size: 2.0d
 			tasks: [{
 				id: "6D90283FFC0206EA"
 				type: "checkmark"
@@ -1185,7 +1186,7 @@
 				type: "item"
 			}]
 			x: -19.15d
-			y: 10.90d
+			y: 10.9d
 		}
 		{
 			dependencies: ["2AC0DE273780B5D7"]
@@ -1366,7 +1367,7 @@
 				item: { count: 1, id: "minecraft:beetroot" }
 				type: "item"
 			}]
-			x: 17.20d
+			x: 17.2d
 			y: 1.98d
 		}
 		{
@@ -1409,7 +1410,7 @@
 				type: "checkmark"
 			}]
 			x: 7.48d
-			y: 5.70d
+			y: 5.7d
 		}
 		{
 			dependencies: ["7F40C4B7484F0709"]
@@ -1441,7 +1442,7 @@
 				type: "item"
 			}]
 			x: -2.79d
-			y: 23.50d
+			y: 23.5d
 		}
 		{
 			dependencies: ["59EE6ED965C28448"]
@@ -1475,7 +1476,7 @@
 				item: { count: 1, id: "minecraft:gold_nugget" }
 				type: "item"
 			}]
-			x: -6.80d
+			x: -6.8d
 			y: 22.49d
 		}
 		{
@@ -1492,7 +1493,7 @@
 				type: "item"
 			}]
 			x: 0.58d
-			y: 2.20d
+			y: 2.2d
 		}
 		{
 			dependencies: [
@@ -1654,7 +1655,7 @@
 				item: { count: 1, id: "minecraft:sugar_cane" }
 				type: "item"
 			}]
-			x: 15.30d
+			x: 15.3d
 			y: 3.95d
 		}
 		{
@@ -1780,7 +1781,7 @@
 				type: "item"
 			}]
 			x: 4.53d
-			y: 15.00d
+			y: 15.0d
 		}
 		{
 			dependencies: ["46F86B49B45674BD"]
@@ -1828,7 +1829,7 @@
 				type: "item"
 			}]
 			x: 11.14d
-			y: 17.70d
+			y: 17.7d
 		}
 		{
 			dependencies: ["528E4F6D42AB5520"]

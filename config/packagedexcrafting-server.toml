@@ -69,7 +69,7 @@
 	energy_capacity = 5000
 	#How much each alternator should reduce the waiting time of the Ender Package Crafter. This is a percentage of the time required.
 	# Default: 0.02
-	# Range: 0.0 ~ 1.7976931348623157E308
+	# Range: 0.0 ~ 1.0
 	alternator_eff = 0.02
 	#How much total FE the Ender Package Crafter should use per operation.
 	# Default: 500

@@ -29,13 +29,13 @@
 	quest.0AE9DE9E1D6DA829.quest_desc: ["Making this is strongly recommended in the late game."]
 	quest.0AE9DE9E1D6DA829.title: "Quantum Computer"
 	quest.0BFA4B1CD30BAEBC.quest_desc: ["Infinity Ingots? Rainbow iron!"]
-	quest.0C7A692133B2E1D8.quest_desc: ["The best early-game option for wireless transfer."]
+	quest.0C7A692133B2E1D8.quest_desc: ["Tesseracts transfer items, fluids, and energy between nodes. Select the same channel at both ends and enable the required transfer types and directions.", "", "Use separate channels for separate jobs. Machine-side extraction, insertion, and filtering still need configuration; placing a tesseract beside a machine is only part of the setup.", "", "Check the channel, active state, send/receive settings, machine ports, destination capacity, and loading at both endpoints if transfer stops."]
 	quest.0D4A17B23447BFCC.quest_desc: ["The following blocks can all be charged by lightning strikes."]
 	quest.0E29C38D9D44714D.quest_desc: ["Wireless transfer."]
 	quest.0F22F8BD0D39174E.title: "infinite"
-	quest.0F684EEF9837ED59.quest_desc: ["How to obtain spawn eggs."]
+	quest.0F684EEF9837ED59.quest_desc: ["Use a mob swab on the target to collect DNA, then craft the used swab into GM Chicken Feed according to JEI. The usual recipe uses seeds and fluid XP; the pack recipe takes priority.", "", "Feed it to a chicken to obtain the sampled mob's spawn egg. The chicken is consumed, so verify the stored mob first.", "", "Not every mob can be sampled. Check the spawn egg's uses before choosing a spawner, direct summoning, or another production line."]
 	quest.1020A004367AFE5F.quest_desc: ["This chapter is optional. Each branch is an independent production line, and its final item is used only to craft the pack's ultimate completion item."]
-	quest.1167E45D16D89FD7.quest_desc: ["Can be placed in midair."]
+	quest.1167E45D16D89FD7.quest_desc: ["Place an Angel Block directly in midair to start an island platform, machine support, or a foothold across a gap.", "", "Expand it into a stable platform before continuing. Leave a return route and reliable footing when building away from your base."]
 	quest.13575B55A6CB0872.quest_desc: ["This structure is dedicated to Atomic Reconstructor recipes.", "", "It operates only during the day. To run it around the clock, place a Time Crystal Block at the Nether Star Block position."]
 	quest.13B91DED1DBEE238.quest_desc: ["Each Production Upgrade adds 1 to each recipe's output. The bonuses are additive, with a maximum of 8 upgrades."]
 	quest.15432D300A13DD07.quest_desc: ["Right-click with an empty bottle below Y < -64 to obtain this."]
@@ -91,7 +91,7 @@
 	quest.355A5CBA46D9D830.title: "Begin the Magic Stage"
 	quest.360B7C74F41797C3.quest_desc: ["Prepare a Steel Casing, then build a Metallurgic Infuser. The other branches feed into the final infinity materials."]
 	quest.360B7C74F41797C3.title: "Final Technology Stage"
-	quest.362369E91C0A4ADB.quest_desc: ["Can be linked to an AE network."]
+	quest.362369E91C0A4ADB.quest_desc: ["Building, exchanging, copy-paste, cut-paste, and destruction gadgets have different uses. Charge the tool and check its range and preview in a clear area before a large operation.", "", "Bind Inventory in the tool menu links compatible item-handler containers. For AE supplies, expose the materials through an accessible container or interface and confirm the successful binding tooltip.", "", "Copying a template still costs materials and energy. Cutting or destruction affects the original build. Quest building templates help construction; they do not guarantee a valid machine."]
 	quest.36C33DC4C7320764.quest_desc: ["Blow it up with TNT."]
 	quest.38AA3A0690488109.quest_desc: ["&aHostile Neural Networks:", "&3In addition to the 50 standard data models, this pack adds over 100 more. The extra models are shown above this quest.", "", "&3You do not have to collect every model manually; most can be crafted.", "", "&bEvery data model in this pack can be trained in the Dyeing Factory, but this recipe requires a new multiblock structure. Check JEI and click the icon in the bottom-left corner to view the structure.", "", "&bThe recipes shown for the Mechanical Saw and Stonecutter may differ because of a display bug. Follow the Stonecutter recipe."]
 	quest.38AA3A0690488109.title: "Data Model Basics"
@@ -126,7 +126,7 @@
 	quest.4B7B34FE8F70BC79.quest_subtitle: "Do not lose it"
 	quest.4B7B34FE8F70BC79.title: "Staff"
 	quest.4BD2877305C5853F.quest_desc: ["Keep other blocks away from it when possible.", "", "When growing Sculk Shriekers in Botany Pots, the hoe must have Silk Touch."]
-	quest.4CC782C41571C8B9.quest_desc: [""]
+	quest.4CC782C41571C8B9.quest_desc: ["With the current configuration, the sink supplies unlimited water without an external source. Configure your fluid pipe to extract from the sink and insert into the machine.", "", "Throughput is still limited by pipes and machine inputs. If a machine runs dry, check extraction, connected faces, and fluid filters before adding more sinks."]
 	quest.4CFB498037A7B50A.quest_desc: ["Made of gold from head to toe."]
 	quest.4D29880555B412C4.quest_desc: ["This optional multiblock contains over 4000 blocks. It can reduce the idle waiting time later in the pack.", "", "Go inside the structure and light the Netherrack for the structure check to succeed."]
 	quest.5023A7E092989926.quest_desc: ["The CPU is a rectangular multiblock structure."]
@@ -137,7 +137,7 @@
 	quest.5498955A1B955831.quest_desc: ["Right-click this block with Nature Essence to generate 1000 Aura in the chunk."]
 	quest.549CA555FCBB296C.quest_desc: ["Determines the crafting limit."]
 	quest.557AF590D5394EDB.quest_desc: ["The final multiblock upgrade for this machine."]
-	quest.567F1F1D0E1A5D3A.quest_desc: ["Replicates an identical block."]
+	quest.567F1F1D0E1A5D3A.quest_desc: ["Select a target with the Entangled Binder, then bind an Entangled Block to expose supported inventory, fluid, or energy access at a convenient location.", "", "It accesses the original block's contents. It does not create extra inventory, fluid, or energy, and multiple access points share the original machine's capacity.", "", "Cross-dimensional binding is enabled, but the target must still exist in a loaded chunk. Check coordinates, dimension, chunk loading, and supported capabilities if access fails."]
 	quest.57B0E6E3C6F60EAA.quest_desc: ["This power output should last you a long time.", "", "Created when lightning strikes a Gold Block."]
 	quest.589BAE3965650424.quest_desc: ["If the machine does not work, try rotating it."]
 	quest.5A10666CC807DC8D.quest_desc: ["Cobblestone => Obsidian", "You can build a portal frame from Cobblestone, then strike it with lightning.", "You can also collect lava using the earlier method.", "Nether structures generate normally, except for Bastion Remnants."]
@@ -147,8 +147,8 @@
 	quest.5A764636209B62FC.quest_desc: ["Hold Dye Essence in your off-hand and a Summoning Core in your main hand, then right-click a Grass Block to summon a Villager."]
 	quest.5AA325434FB371F9.quest_desc: ["Hold the Staff in your off-hand and Radiation Cure in your main hand, then right-click a Command Block to clear world radiation.", "", "Eat Radiation Cure to clear the player's radiation."]
 	quest.5AA325434FB371F9.title: "What Is Radiation?"
-	quest.5C8DBC7B4027BA63.quest_desc: ["It is always daytime in this dimension. You may need that at some point."]
-	quest.5C8DBC7B4027BA63.title: "The Aether"
+	quest.5C8DBC7B4027BA63.quest_desc: ["The Aether starts with an eternal-day mechanic, useful for equipment that depends on sunlight. Test generation locally and build a safe platform around the portal.", "", "Progress such as defeating the Sun Spirit can change its day-night state. Do not treat permanent daylight as guaranteed; keep storage or backup power for important lines.", "", "Cross-dimensional transport also needs both endpoints loaded. Bring your return supplies and record the entrance location before exploring."]
+	quest.5C8DBC7B4027BA63.title: "The Aether: Using Eternal Day"
 	quest.5D8E3521FE7C3231.quest_desc: ["Right-click Planks with an Axe to obtain Slabs."]
 	quest.5D8E3521FE7C3231.title: "Slabs"
 	quest.5DF45BAD97AB13B4.quest_desc: ["The place to use the data-model summoning mechanic."]
@@ -189,7 +189,7 @@
 	quest.7E5E7512C697F3F2.quest_desc: [""]
 	quest.7E88F371268D076D.quest_desc: ["Drop 27 Cosmic Coins into Transmutation Fluid for a 20% chance to obtain a Creative Fluid Tank filled with Ether Gas."]
 	quest.7E88F371268D076D.title: "Ether Gas Tank"
-	quest.7EAD817522C2CF8B.quest_desc: ["This mod blacklists Mekanism by default. Change its configuration if you need compatibility."]
+	quest.7EAD817522C2CF8B.quest_desc: ["Use construction sticks for floors and walls. Check the placement preview, materials, and mode first. Angel, destruction, replacement, and battery templates add functions; consult JEI for installation.", "", "The current configuration blacklists block entities from Mekanism, Waystones, and others. Place affected machines manually, then verify their orientation and ports.", "", "Automatic falling protection for the angel upgrade is disabled in this pack. Do not rely on a construction stick to rescue you from the void."]
 	quest.7ECC0A72C17D7D2F.quest_subtitle: "The brain of your AE network"
 	quest.7F171FB20A9396E3.quest_desc: ["AE fully unlocked!"]
 	quest.7F955343A5FD0FDC.quest_desc: ["Custom machines are still being tested. Their user interfaces are not finished yet."]
@@ -289,4 +289,109 @@
 	task.787D44237B209EF2.title: "1"
 	task.796E88BA8A808092.title: "Any #create:sandpaper"
 	task.7E10781CBD307A8B.title: "Create Changes"
+	image.164EECC547390660.title: "&b06  Performance and Maintenance"
+	image.1CE8D89C882F7FD1.title: "&b05  Power and Machines"
+	image.52F6CEC910045627.title: "&b03  Resources and Collection"
+	image.5491CB6DC841909D.title: "&b01  Getting Started"
+	image.569F7CD752D052F7.title: "&b02  Island and Building"
+	image.7BC6D00A22C80715.title: "&b04  Logistics and Automation"
+	quest.0240744B641E0BF5.quest_desc: ["A sound muffler suppresses nearby sound, useful in noisy machine areas. Check the current tooltip and configuration for its range.", "", "If a machine seems silent, check nearby mufflers too. Muting sound does not stop the machine or reduce its power demand."]
+	quest.0240744B641E0BF5.quest_subtitle: "Performance and Maintenance"
+	quest.0240744B641E0BF5.title: "Sound Mufflers: A Quieter Factory"
+	quest.08CDA76B728B8502.quest_desc: ["Check the quest and JEI structure for the machine. Compare each layer, controller position, orientation, and required air spaces. Similar-looking blocks can be different materials.", "", "Some custom machines define structure requirements per recipe. Sharing a controller does not mean every recipe uses the same structure. The Structure Inspector helps with its supported presets.", "", "After placing a template, verify upgrade or mode items, input amounts, fluids, energy, and output space. Complete one cycle before connecting automatic supply."]
+	quest.08CDA76B728B8502.quest_subtitle: "Power and Machines"
+	quest.08CDA76B728B8502.title: "Multiblocks: Structure and Recipe Conditions"
+	quest.0C7A692133B2E1D8.quest_subtitle: "Logistics and Automation"
+	quest.0C7A692133B2E1D8.title: "Tesseracts: Wireless Transfer"
+	quest.0F684EEF9837ED59.quest_subtitle: "Resources and Collection"
+	quest.0F684EEF9837ED59.title: "Mob Swabs: Obtaining Spawn Eggs"
+	quest.0FB93F448531A910.quest_desc: ["Separate living space, fluid transformations, lightning work, and large machines. Leave side and underside access for pipes, power, and maintenance.", "", "Keep each line together. Use F3 + G to see chunk borders, and load every chunk containing its inputs, outputs, and structure, not just the controller.", "", "Before copying a line, check that power, inputs, and output capacity can support the extra load. More machines cannot fix insufficient upstream supply."]
+	quest.0FB93F448531A910.quest_subtitle: "Island and Building"
+	quest.0FB93F448531A910.title: "Leave Room for Your Factory"
+	quest.1167E45D16D89FD7.quest_subtitle: "Island and Building"
+	quest.1167E45D16D89FD7.title: "Angel Block: Build in Midair"
+	quest.1C2C23B4FC9AFF89.quest_desc: ["Keep spare saplings, seeds, basic essences, and important intermediate materials. Establish a renewable supply before using your stock in bulk crafting.", "", "Budget several attempts for chance-based recipes; failures may consume inputs. A displayed chance does not guarantee success on the first attempt.", "", "Use minimum-stock controls or a separate reserve chest. Keep startup materials for your next production line away from bulk crafting and disposal."]
+	quest.1C2C23B4FC9AFF89.quest_subtitle: "Getting Started"
+	quest.1C2C23B4FC9AFF89.title: "Keep a Reserve"
+	quest.1F1CA4F40DE9BFDB.quest_desc: ["Keep a recoverable world backup before large cut-paste operations, demolition, or pack upgrades. FTB Backups 2 is included, but verify that a backup exists and you can locate it.", "", "For quest or recipe issues, include the pack version, quest name, target item, actions, and screenshots. For machines, describe the structure, inputs, power, and output state.", "", "Relevant KubeJS log excerpts help diagnose scripts or recipes. Review them for personal information before sharing. Clear reproduction steps make issues easier to investigate."]
+	quest.1F1CA4F40DE9BFDB.quest_subtitle: "Performance and Maintenance"
+	quest.1F1CA4F40DE9BFDB.title: "Backups and Useful Bug Reports"
+	quest.29BB760BE89C5B60.quest_desc: ["Trace generation → storage → cables or wireless nodes → machine. Check every connection, transfer direction, and enable setting.", "", "Some stored energy does not mean the supply can sustain operation. Compare total demand with generation and transfer capacity, and watch whether storage steadily falls under load.", "", "Also check redstone control, fuel or cooling requirements, and full output slots. Stabilize one machine before expanding the line."]
+	quest.29BB760BE89C5B60.quest_subtitle: "Power and Machines"
+	quest.29BB760BE89C5B60.title: "No Power? Trace the Supply Chain"
+	quest.2AD71D8FFD05E456.quest_desc: ["An AE network needs power, valid connections, and available storage. Default channel mode is active; ordinary and dense cables have different capacities. Check free channels before adding devices.", "", "If items are missing from a terminal, check power, device status, cell capacity, and external storage-bus filters and access settings.", "", "Bulk basic materials can use dedicated storage connected through a storage bus. See the separate ae2 chapter for the fuller learning route."]
+	quest.2AD71D8FFD05E456.quest_subtitle: "Logistics and Automation"
+	quest.2AD71D8FFD05E456.title: "AE Networks: Power, Channels, and Storage"
+	quest.315F2620464EF042.quest_desc: ["The shrinking device changes size. Read its tooltip and controls, and check its energy and selected mode before use.", "", "Use the Shrink glass bottle on a shrunken mob to capture it for relocation near a farm or machine. Some mobs may be restricted; follow the in-game feedback.", "", "Prepare an enclosure and room before release. Store occupied bottles separately from empty ones to avoid accidental use or disposal."]
+	quest.315F2620464EF042.quest_subtitle: "Island and Building"
+	quest.315F2620464EF042.title: "Shrinking and Capturing Mobs"
+	quest.31FE0E320B168BB3.quest_desc: ["Hover an item and use Show Recipes to find acquisition methods, or Show Uses to find what it makes. Defaults are R / U; check key bindings and conflicts if they do not work.", "", "This pack has many custom recipes. Browse the category tabs for fluid transformations, block interactions, lightning, and portal conversions. An item may have no crafting-table recipe yet still be obtainable.", "", "Check input amounts, fluid types, chances, and additional conditions before spending materials. Bookmark frequently used recipes in JEI."]
+	quest.31FE0E320B168BB3.quest_subtitle: "Getting Started"
+	quest.31FE0E320B168BB3.title: "JEI: Recipes and Uses"
+	quest.32951895A4C5C494.quest_desc: ["Void Fluid, Transmutation Fluid, and Copy Fluid have separate recipes. Drop the specified items into the correct fluid and check counts, chances, and other conditions in JEI.", "", "Some recipes drop items; others replace the fluid block with another block or fluid. Failed attempts may consume inputs, and multiple outputs are not necessarily mutually exclusive.", "", "Copy Fluid only copies items with defined recipes. Enclose the pool and collect inputs and finished products separately; scale up after a successful trial."]
+	quest.32951895A4C5C494.quest_subtitle: "Resources and Collection"
+	quest.32951895A4C5C494.title: "Fluid Transformations: Test Small Batches"
+	quest.362369E91C0A4ADB.quest_subtitle: "Island and Building"
+	quest.362369E91C0A4ADB.title: "Building Gadgets: Templates and Supplies"
+	quest.3658FC8E1C759F4E.quest_desc: ["Create machines use rotational power. Check connected shafts, rotation direction, and any minimum speed requirement.", "", "A rotational network shares stress capacity. Higher speed usually raises stress demand; add generation or reduce load before speeding up an overloaded network.", "", "Use Engineer's Goggles and a stressometer to inspect the setup. Mixing and compacting can also require basins, heating, and suitable output handling; check JEI."]
+	quest.3658FC8E1C759F4E.quest_subtitle: "Power and Machines"
+	quest.3658FC8E1C759F4E.title: "Create: Speed and Stress"
+	quest.37EE081CBF549202.quest_desc: ["Follow any main-hand, off-hand, or sneaking requirements stated in a quest. Many custom interactions check the main hand only; using an item in the air can differ from using it on a block.", "", "Staff on Mini Cobblestone: left-click for day, right-click for night. Staff on a lightning rod: left-click for clear weather, right-click for a thunderstorm. Consider other players before using these.", "", "&cCaution:&r Left-clicking an Aether Altar with the staff clears dropped items. Collect loose materials first; this is not an ordinary demolition tool."]
+	quest.37EE081CBF549202.quest_subtitle: "Getting Started"
+	quest.37EE081CBF549202.title: "The Staff and Special Interactions"
+	quest.3874BB2678634C5B.quest_desc: ["Filter machine inputs, finished output, and disposal separately. Start with explicit allowed items and widen the rules gradually to avoid draining entire inventories.", "", "Tags can match several related materials. For potions, enchanted items, or mod data, check whether the filter compares those components.", "", "Test routing with one item first. Buffer chests help direct each ingredient to the correct machine and slot."]
+	quest.3874BB2678634C5B.quest_subtitle: "Logistics and Automation"
+	quest.3874BB2678634C5B.title: "Filters: Control What Goes In"
+	quest.3ACFCCB961EFFE28.quest_desc: ["Set stock limits for continuous cobblestone, crops, and byproducts. Use inventory detection, redstone, or built-in stop conditions before destination storage fills.", "", "Filter disposable byproducts explicitly before connecting a trash can. Test with a small amount so valuable products, containers, and catalysts are not discarded.", "", "Collect loose items and XP promptly, then fix the output bottleneck. Otherwise they will accumulate again when production resumes."]
+	quest.3ACFCCB961EFFE28.quest_subtitle: "Performance and Maintenance"
+	quest.3ACFCCB961EFFE28.title: "Stop Production Before Storage Overflows"
+	quest.3C507C8A43B2C8EA.quest_desc: ["Use crafting patterns for ordinary crafting and processing patterns for machines, with exact inputs and outputs per cycle. Do not encode chance outputs as guaranteed results.", "", "A pattern provider sends ingredients; processed outputs must return to the network. Confirm one machine cycle works, then request a single product to test the whole chain.", "", "If a job waits indefinitely, check the crafting CPU, missing ingredients, power, input slots, blocked outputs, and whether products return to the requesting network."]
+	quest.3C507C8A43B2C8EA.quest_subtitle: "Logistics and Automation"
+	quest.3C507C8A43B2C8EA.title: "AE Autocrafting: Return the Outputs"
+	quest.3CC9EAF2ACFEB798.quest_desc: ["Items, fluids, chemicals, and energy generally have separate side configurations. Select the correct resource type, then configure the connected face for input or output.", "", "Check auto-eject when the machine should push output, or the pipe endpoint when it should pull. Rotating a machine can change the relative front, back, and side faces.", "", "If speed upgrades cause poor throughput, check power, inputs, and output handling. Fix shortages or blockages before adding upgrades."]
+	quest.3CC9EAF2ACFEB798.quest_subtitle: "Power and Machines"
+	quest.3CC9EAF2ACFEB798.title: "Mekanism: Sides and Auto-Eject"
+	quest.42080B0DB2CD20CB.quest_desc: ["Some lightning recipes replace groups of nearby blocks, such as cobblestone with obsidian or iron blocks with redstone blocks. Check the recipe and use a separate work area.", "", "These batch replacements extend three blocks along each axis around the strike. Keep building blocks of the affected types out of that area; some conversions also require a particular target block.", "", "Use a lightning rod to organize the strike location and the staff to request a thunderstorm. Clear the weather and collect the output before the next batch."]
+	quest.42080B0DB2CD20CB.quest_subtitle: "Performance and Maintenance"
+	quest.42080B0DB2CD20CB.title: "Lightning Transformations: Use a Work Area"
+	quest.4218087C6F41EAA4.quest_desc: ["RFTools crafters automate repeated ordinary crafting steps. Record the recipe, supply power, and feed the matching ingredients.", "", "For recipes with returned items such as buckets, check where containers and products go. Crafter tiers support different numbers of recipes.", "", "A crafter does not replace every machine or an Extended Crafting table. Use the appropriate equipment for large-grid recipes and processing, and test one cycle before automating."]
+	quest.4218087C6F41EAA4.quest_subtitle: "Logistics and Automation"
+	quest.4218087C6F41EAA4.title: "RFTools Crafters: Repeated Crafting"
+	quest.4269636C488F8953.quest_desc: ["This adjustable redstone clock provides periodic pulses for devices that need intermittent triggers. Empty-hand right-click changes frequency; sneaking adjusts it faster.", "", "Check whether the target needs a constant signal or pulses. Add a switch to stop automatic feeding or triggering during shortages, full storage, or maintenance.", "", "Use only the frequency the line needs. Faster pulses may add repeated checks without improving a machine already running at its limit."]
+	quest.4269636C488F8953.quest_subtitle: "Power and Machines"
+	quest.4269636C488F8953.title: "Redstone Clocks: Set the Pulse Rate"
+	quest.4920D3582076EB63.quest_desc: ["Six rows cover getting started, island building, resource collection, logistics, machines, and maintenance. Return whenever you need a quick reference.", "", "New reading tips use a checkmark you can click. Existing tool quests still complete by obtaining their items. Read in any order.", "", "&bHow do I progress?&r Check the prerequisites and ultimate item in the relevant main chapter. This page adds no main-story unlock requirements."]
+	quest.4920D3582076EB63.quest_subtitle: "Getting Started"
+	quest.4920D3582076EB63.title: "Using This Chapter"
+	quest.4CC782C41571C8B9.quest_subtitle: "Resources and Collection"
+	quest.4CC782C41571C8B9.title: "The Sink: A Renewable Water Supply"
+	quest.52C711F0B96EFE9B.quest_desc: ["A Void Tear stores large quantities of one item type. Right-clicking an empty tear selects the item you carry the most of, so organize your inventory first.", "", "Sneak-right-click toggles automatic absorption; sneak-scroll changes refill mode. Check the current tooltip and learn the modes with ordinary materials first.", "", "It stores items rather than destroying them. Use dedicated disposal equipment with explicit filters for unwanted output."]
+	quest.52C711F0B96EFE9B.quest_subtitle: "Resources and Collection"
+	quest.52C711F0B96EFE9B.title: "Void Tear: Portable Bulk Storage"
+	quest.567F1F1D0E1A5D3A.quest_subtitle: "Logistics and Automation"
+	quest.567F1F1D0E1A5D3A.title: "Entangled Blocks: Remote Access"
+	quest.58F8AC80230C0EEC.quest_desc: ["FPS controls visual smoothness; TPS controls server simulation, machines, entities, and time. A healthy server usually runs at 20 TPS. Low TPS slows production and interactions together.", "", "The TPS Meter helps monitor simulation and outputs a redstone signal based on TPS. It identifies symptoms rather than automatically fixing lag.", "", "For low TPS, pause heavy lines and check loose items, entities, acceleration, and repeated triggers. For low FPS, check shaders, render distance, and visible machinery."]
+	quest.58F8AC80230C0EEC.quest_subtitle: "Performance and Maintenance"
+	quest.58F8AC80230C0EEC.title: "TPS: Rendering Lag or Slow Simulation?"
+	quest.5C8DBC7B4027BA63.quest_subtitle: "Island and Building"
+	quest.5D7A364E892C51D4.quest_desc: ["Time in a Bottle accumulates time while carried and spends it to accelerate supported blocks. Check stored time before using it on the target.", "", "Prioritize the actual bottleneck. Power, input supply, and output transport must keep up; acceleration cannot usually fix missing materials or full outputs.", "", "Not every device supports acceleration. Test one machine first, as speeding up many devices together can increase server load."]
+	quest.5D7A364E892C51D4.quest_subtitle: "Power and Machines"
+	quest.5D7A364E892C51D4.title: "Time in a Bottle: Speed Up Bottlenecks"
+	quest.6558B791E1AD5877.quest_desc: ["Item collectors catch dropped items from transformation pools, farms, and other setups. Connect storage as described in the tooltip and check the collection area.", "", "Do not let a pool collector pull away inputs before their recipe triggers. Test with a small batch and confirm that outputs reach storage before feeding continuously.", "", "A full destination can prevent collection. Leave storage space and filter items by processing stage."]
+	quest.6558B791E1AD5877.quest_subtitle: "Resources and Collection"
+	quest.6558B791E1AD5877.title: "Item Collectors: Catch Your Output"
+	quest.6D1B3F912797C7EF.quest_desc: ["Check prerequisites first, then the exact item, count, and any required data, potion effect, or filter condition. Similar icons can represent different items.", "", "Move the items out of chests, backpack storage, or your AE network into your player inventory. Wait briefly and check again. Some quests require every listed item.", "", "Item tasks do not consume items by default, but individual tasks can override this. Read the task details. Rewards also require manual claiming by default."]
+	quest.6D1B3F912797C7EF.quest_subtitle: "Getting Started"
+	quest.6D1B3F912797C7EF.title: "Why Is My Item Quest Incomplete?"
+	quest.77C62F0DBFE988BB.quest_desc: ["Machines generally stop when their chunks unload. Claiming land in FTB Chunks and force-loading it are different actions; a claim alone does not keep it running.", "", "Within your allowed quota, cover generation, inputs, controllers, outputs, and both ends of cross-dimensional transport. Include every chunk of a large structure.", "", "Servers may restrict offline force-loading. Test operation while away or in another dimension before relying on unattended production."]
+	quest.77C62F0DBFE988BB.quest_subtitle: "Performance and Maintenance"
+	quest.77C62F0DBFE988BB.title: "Why Does Production Stop When I Leave?"
+	quest.7A1CB81A208609DA.quest_desc: ["Search for FTB Ultimine in Options → Controls → Key Binds. Hold its key and inspect the selection before breaking blocks.", "", "The pack default allows up to 64 blocks per operation and consumes hunger. Keep food ready, and avoid removing your platform or only resource block.", "", "Building tools, magnets, backpacks, and maps have their own bindings. Use the conflict filter to separate actions you frequently use together."]
+	quest.7A1CB81A208609DA.quest_subtitle: "Getting Started"
+	quest.7A1CB81A208609DA.title: "Ultimine and Key Conflicts"
+	quest.7C93816B62FF2660.quest_desc: ["Attach an XP tap to the side of a tank to release compatible fluid XP as experience orbs for the player.", "", "Check fluid compatibility first. Keep XP in fluid form and pipe it directly when a machine needs it.", "", "Release only what you need to avoid large numbers of loose orbs. Collect and store mob-farm items and XP separately."]
+	quest.7C93816B62FF2660.quest_subtitle: "Resources and Collection"
+	quest.7C93816B62FF2660.title: "XP Tap: Fluid XP to Orbs"
+	quest.7EAD817522C2CF8B.quest_subtitle: "Island and Building"
+	quest.7EAD817522C2CF8B.title: "Construction Sticks: Building and Upgrades"
 }

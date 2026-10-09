@@ -129,3 +129,7 @@
 	# Default: 40
 	# Range: > 1
 	pentagramInBowlInfoTicks = 40
+	#How many rows show at one time on storage controller
+	# Default: 4
+	# Range: 1 ~ 9
+	storageRows = 4

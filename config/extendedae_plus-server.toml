@@ -23,6 +23,11 @@
 	#是否允许无线收发器跨维度建立连接
 	#开启后，从端可连接到不同维度的主端（忽略距离限制）
 	wirelessCrossDimEnable = true
+	#无线收发器待机能耗
+	#无线收发器的基础待机能耗（AE/t），同时作用于普通与标签无线收发器
+	# Default: 100.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	wirelessIdlePower = 100.0
 
 [entitySpeedTicker]
 	#实体加速器能量消耗基础值

@@ -1,0 +1,47 @@
+// Path of Creation: Cyan Circuit UI, Minecraft 1.21.1
+[*]
+background: rain:textures/gui/poc/blueprint.png; color=#FFFFFFFF; tile_size=256
+chapter_panel_background: part:rain:textures/gui/poc/chapter_panel.png; pos=0,0,32,32; corner=4; texture_w=32; texture_h=32
+key_reference_background: part:rain:textures/gui/poc/panel.png; pos=0,0,32,32; corner=4; texture_w=32; texture_h=32
+selected_chapter_highlight_1: #18286879
+selected_chapter_highlight_2: #101E344B
+text_color: #E0EDF5
+hover_text_color: #58D9EA
+disabled_text_color: #8A9CAE
+widget_border: #35536B
+widget_background: #D9142336
+symbol_in: #7AD9B0
+symbol_out: #286879
+button: part:rain:textures/gui/poc/button.png; pos=0,0,32,32; corner=4; texture_w=32; texture_h=32
+panel: part:rain:textures/gui/poc/panel.png; pos=0,0,32,32; corner=4; texture_w=32; texture_h=32
+disabled_button: part:rain:textures/gui/poc/disabled.png; pos=0,0,32,32; corner=4; texture_w=32; texture_h=32
+hover_button: part:rain:textures/gui/poc/hover.png; pos=0,0,32,32; corner=4; texture_w=32; texture_h=32
+context_menu: part:rain:textures/gui/poc/panel.png; pos=0,0,32,32; corner=4; texture_w=32; texture_h=32
+scroll_bar_background: color:#09111C
+scroll_bar: part:rain:textures/gui/poc/button.png; pos=0,0,32,32; corner=4; texture_w=32; texture_h=32
+container_slot: part:rain:textures/gui/poc/inset.png; pos=0,0,32,32; corner=4; texture_w=32; texture_h=32
+text_box: part:rain:textures/gui/poc/inset.png; pos=0,0,32,32; corner=4; texture_w=32; texture_h=32
+quest_view_background: part:rain:textures/gui/poc/panel.png; pos=0,0,32,32; corner=4; texture_w=32; texture_h=32
+quest_view_border: #286879
+quest_view_title: #58D9EA
+tasks_text_color: #58D9EA
+rewards_text_color: #E9B867
+quest_completed_color: #B0F5CF
+quest_started_color: #B1F3FF
+quest_not_started_color: #E0EDF5
+quest_locked_color: #FF667586
+dependency_line_completed_color: #D07AD9B0
+dependency_line_uncompleted_color: #B07094A8
+dependency_line_unavailable_color: #70667586
+dependency_line_requires_color: #58D9EA
+dependency_line_required_for_color: #E9B867
+dependency_line_thickness: 0.12
+dependency_line_selected_speed: 0.6
+modpack_icon: rain:textures/gui/poc/emblem.png
+check_icon: rain:textures/gui/poc/check.png
+checkmark_task_active: rain:textures/gui/poc/check.png
+checkmark_task_inactive: rain:textures/gui/poc/check_inactive.png
+pin_icon_on: ftbquests:textures/gui/pin.png; color=#E9B867
+pin_icon_off: ftbquests:textures/gui/pin.png; color=#A0BDCD
+guide_icon: ftbquests:textures/gui/guide.png; color=#58D9EA
+collect_rewards_icon: ftbquests:textures/gui/collect_rewards.png; color=#E9B867

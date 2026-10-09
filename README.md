@@ -12,6 +12,8 @@ Path of Creation 是一个以科技发展与自动化为核心的 Minecraft 空�
 
 [下载 v0.1.1](https://github.com/RainRaf-UwU/Path-Of-Creation/releases/tag/v0.1.1) · [全部版本](https://github.com/RainRaf-UwU/Path-Of-Creation/releases) · [反馈问题](https://github.com/RainRaf-UwU/Path-Of-Creation/issues)
 
+[查看 v0.1.1 之后的开发更新记录](docs/changes-after-v0.1.1/README.md)（Git 主分支内容，尚未发布为新的正式版本）。
+
 ## 整合包特色
 
 - **单方块空岛开局**：从有限的起点获取资源，把虚空中的落脚点扩建成自己的世界。

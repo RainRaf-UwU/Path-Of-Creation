@@ -1,0 +1,152 @@
+[
+  {
+    "source": "assets/loading-level_loading_screen.png",
+    "target": "config/fancymenu/assets/poc-screen/loading-level_loading_screen.png",
+    "sha256": "318f45dadda635a786144e6569e1a27e3568c42e960f92988c45263b6d03c405",
+    "before_sha256": null
+  },
+  {
+    "source": "assets/loading-progress_screen.png",
+    "target": "config/fancymenu/assets/poc-screen/loading-progress_screen.png",
+    "sha256": "5d8bd4fc369ace2d680713f9d30dbd1d6904dfb8e7f44f95d108fae1e284fc72",
+    "before_sha256": null
+  },
+  {
+    "source": "assets/loading-receiving_level_screen.png",
+    "target": "config/fancymenu/assets/poc-screen/loading-receiving_level_screen.png",
+    "sha256": "35d8a61f3b95e27554fc23608b4dcdb28b319aa2297edd5ca49f10e045489bf2",
+    "before_sha256": null
+  },
+  {
+    "source": "assets/loading-generic_dirt_message_screen.png",
+    "target": "config/fancymenu/assets/poc-screen/loading-generic_dirt_message_screen.png",
+    "sha256": "87f4ba8475cb02752131079121b008bcf29fd27383663407625406e0b9904841",
+    "before_sha256": null
+  },
+  {
+    "source": "assets/loading-brand.png",
+    "target": "config/fancymenu/assets/poc-screen/loading-brand.png",
+    "sha256": "135b59beecd90006c5fbdcd3816d601c1ba23c8eaa85bcc686b2fc28fde1f4a3",
+    "before_sha256": null
+  },
+  {
+    "source": "assets/loading-footer.png",
+    "target": "config/fancymenu/assets/poc-screen/loading-footer.png",
+    "sha256": "a499e286f8f86da21285c8c12ae328718ea408084ae9565b750ab99e815e8998",
+    "before_sha256": null
+  },
+  {
+    "source": "assets/loading-corners.png",
+    "target": "config/fancymenu/assets/poc-screen/loading-corners.png",
+    "sha256": "086092b9a197db1eefcc56c07de27c65a148f6de678dfc8aa2b931f7592e31a9",
+    "before_sha256": null
+  },
+  {
+    "source": "assets/progress-track.png",
+    "target": "config/fancymenu/assets/poc-screen/progress-track.png",
+    "sha256": "cb8d54812afcfb78e5c869ecbbb4fe44e72e286468c37f682cf9d1e94d044f4f",
+    "before_sha256": null
+  },
+  {
+    "source": "assets/progress-fill.png",
+    "target": "config/fancymenu/assets/poc-screen/progress-fill.png",
+    "sha256": "144c94427658d845d05a4e82b2f07dc8a31b62de01b01ee807ae0c7f70216380",
+    "before_sha256": null
+  },
+  {
+    "source": "assets/waiting-scan.gif",
+    "target": "config/fancymenu/assets/poc-screen/waiting-scan.gif",
+    "sha256": "3937cfff0b30c0dc7a0a5205d8d9ae28c67ab7ecc963233661ffef6a61e753c9",
+    "before_sha256": null
+  },
+  {
+    "source": "assets/play-panel.png",
+    "target": "config/fancymenu/assets/poc-polish/play-panel.png",
+    "sha256": "0d3ff77b5428aebaea552cc27364ba05c92565f939bfc430250532d3ac097c18",
+    "before_sha256": "2e85de79e32bab1da7ccc25f662a8554d0f27c52ba0445921ab078be9055f08a"
+  },
+  {
+    "source": "assets/community-panel.png",
+    "target": "config/fancymenu/assets/poc-polish/community-panel.png",
+    "sha256": "8c7da826f67525f55b493c04e51f6acb918ded78571c00bcffb6aecd01ef6edd",
+    "before_sha256": "3b8c28a7cce07a4747b7146ce69aac463df6ced3790421d30b9977de98b1bd4f"
+  },
+  {
+    "source": "assets/creation-orbit.png",
+    "target": "config/fancymenu/assets/poc-polish/creation-orbit.png",
+    "sha256": "b52d12e859cd843963011d387a7ae7dd868f0d7da14bc4f5af2895f4fe6cd1fe",
+    "before_sha256": "288d11dd4f9ec48c6a08f3472ffc1ce792233a0ba4cd3b50c0cdcc5884cf56a0"
+  },
+  {
+    "source": "assets/screen-corners.png",
+    "target": "config/fancymenu/assets/poc-polish/screen-corners.png",
+    "sha256": "e379837cd8a6fd8b0f1794038298ceeaab6bf4d01a843d3aceca3d851c303b86",
+    "before_sha256": "b66034fd0b94f76b9bfffa485d0c049c90d4da7c8fead9a0256ba0eb7b2d5442"
+  },
+  {
+    "source": "assets/brand-rail.png",
+    "target": "config/fancymenu/assets/poc-polish/brand-rail.png",
+    "sha256": "13d4def79110fc132c8fe41e4f65b690bebf6ff28a20998beed794695945672d",
+    "before_sha256": "599ed732282512d0199d6ed28c5bf074153bb7f348a97bf7bace775c3f8508f1"
+  },
+  {
+    "source": "assets/world-left.png",
+    "target": "config/fancymenu/assets/poc-polish/world-left.png",
+    "sha256": "2e7fb3f3d640d3761e48f6680e922e98410e4b399bf2145ec49cc5e600e34343",
+    "before_sha256": "bdebb823ba733f967de08989f7517f71fa03a6216258b4ef835f0a5bfe82c1ed"
+  },
+  {
+    "source": "assets/world-right.png",
+    "target": "config/fancymenu/assets/poc-polish/world-right.png",
+    "sha256": "3934cbb04556b09ed430171464feeb15e87c080f0cb3cf7c25762da6c668e3c4",
+    "before_sha256": "b37e0866c92211eae7112627be3bba31fda2876ea9e86a770ea385ac6e6c98ce"
+  },
+  {
+    "source": "assets/world-header.png",
+    "target": "config/fancymenu/assets/poc-polish/world-header.png",
+    "sha256": "4f4320e0b9c93374f576ad06871d119993e8ceeca3eed6d984187eb18c8d5f9c",
+    "before_sha256": "a6ecb2bfb169113b0962ee527c0d245ca61780e22bc3ecc2257370ec27518f6e"
+  },
+  {
+    "source": "assets/world-footer.png",
+    "target": "config/fancymenu/assets/poc-polish/world-footer.png",
+    "sha256": "1a3e05289106e62e5717e701618e55f63954ce45f685bc8233a85ed2af477e87",
+    "before_sha256": "4d256f90bd6fe58380a6ac158e1d623e0b4497f25f9d255eebde8b9a96d30b7a"
+  },
+  {
+    "source": "assets/loading-background.png",
+    "target": "config/fancymenu/assets/poc-screen/loading-background.png",
+    "sha256": "0abc5dd7ddf6e7148142f3d9179ebf8656864bdb6e511ac8d48895dec97943f3",
+    "before_sha256": null
+  },
+  {
+    "source": "layouts/poc_loading_level_loading_screen.txt",
+    "target": "config/fancymenu/customization/poc_loading_level_loading_screen.txt",
+    "sha256": "fcde86a1d2117fe571bc6ba7727cbf419d181d97f20ba4e98ced1039b5d6d03c",
+    "before_sha256": null
+  },
+  {
+    "source": "layouts/poc_loading_progress_screen.txt",
+    "target": "config/fancymenu/customization/poc_loading_progress_screen.txt",
+    "sha256": "38bb7ad65a3825ec3679a9820037023e5ffc4aa7787c8b3a2cdeafad3f50073c",
+    "before_sha256": null
+  },
+  {
+    "source": "layouts/poc_loading_receiving_level_screen.txt",
+    "target": "config/fancymenu/customization/poc_loading_receiving_level_screen.txt",
+    "sha256": "565e1a4aa2e316b2bf4a8a235755fc12fe8813332ee2a5b31ce8b6d0f01dc556",
+    "before_sha256": null
+  },
+  {
+    "source": "layouts/poc_loading_generic_dirt_message_screen.txt",
+    "target": "config/fancymenu/customization/poc_loading_generic_dirt_message_screen.txt",
+    "sha256": "172f9ce3dd8cbb718e43f9f73055cf06a45ea44f968ce7d7f6fef11496e599d2",
+    "before_sha256": null
+  },
+  {
+    "source": "customizablemenus.txt",
+    "target": "config/fancymenu/customizablemenus.txt",
+    "sha256": "d088b80bca2ae2627b8f777692887daed4cf96cb43cd22943324a18150ee0263",
+    "before_sha256": "20cf258592fe58897d12b91c1d53cb55834a0fc3320c57ff8d4b1d79eaa59202"
+  }
+]

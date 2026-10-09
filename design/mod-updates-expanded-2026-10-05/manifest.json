@@ -2208,6 +2208,14 @@
       "portal_conversion_recipes_at_50_percent": 2,
       "controller_boundary_checks_passed": true,
       "details_file": "E:\\minecraft\\.codex-validation\\58b1-3267-expansion\\deployment-final-runtime.json"
-    }
+    },
+    "pcl_full_restart_performed": true,
+    "pcl_actual_runtime_neoforge": "21.1.255",
+    "pcl_actual_runtime_fml": "4.0.45",
+    "pcl_main_menu_verified": true,
+    "pcl_actual_startup_and_client_script_errors": 0,
+    "pcl_actual_launch_verification_file": "E:\\minecraft\\.codex-validation\\58b1-3267-expansion\\pcl-neoforge-runtime-20261005.json",
+    "pcl_cache_fix_time": "2026-10-05T15:57:40.224418+08:00",
+    "pcl_ui_launch_verified": true
   }
 }
