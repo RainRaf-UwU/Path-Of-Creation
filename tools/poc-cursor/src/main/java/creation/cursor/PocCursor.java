@@ -26,6 +26,8 @@ public final class PocCursor {
             new FancyCursorCompat(PocCursor.class.getClassLoader(), s -> LOG.warn("[POC Cursor] {}",s)),
             s -> LOG.warn("[POC Cursor] {}",s)));
     private final ClickEffects effects = new ClickEffects();
+    private final FtbCursorCompat ftb = new FtbCursorCompat(PocCursor.class.getClassLoader(),
+            s -> LOG.warn("[POC Cursor] {}",s));
 
     public PocCursor(ModContainer container) {
         container.registerConfig(ModConfig.Type.CLIENT, CursorConfig.SPEC, "poc-cursor-client.toml");
@@ -51,7 +53,15 @@ public final class PocCursor {
         Minecraft mc = Minecraft.getInstance();
         boolean active = eligible(mc);
         context(mc,active);
-        cursor.update(mc.getWindow().getWindow(),active && CursorConfig.CURSOR.get());
+        long window=mc.getWindow().getWindow();
+        FtbCursorCompat.Selection selection=ftb.selection(mc.screen);
+        cursor.update(window,active && CursorConfig.CURSOR.get()
+                && selection.compatible() && selection.special()==null);
+        // FTB only sets native cursors when its type changes. Preserve semantic cursors
+        // while our per-frame arrow refresh and FancyMenu's tick reset are active.
+        if(active && CursorConfig.CURSOR.get() && selection.special()!=null && cursor.allowsAlternative(window)) {
+            ftb.apply(selection);
+        }
     }
 
     private void click(InputEvent.MouseButton.Pre event) {

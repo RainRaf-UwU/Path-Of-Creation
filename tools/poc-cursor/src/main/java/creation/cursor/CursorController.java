@@ -37,8 +37,15 @@ final class CursorController {
             previous = observed.known && observed.cursor != handle ? observed.cursor : 0;
             boundWindow = window;
         }
-        // FancyMenu resets the arrow each tick. Reapply only if it no longer owns the window.
-        if (!observed.known || observed.cursor != handle) nativeAccess.set(window, handle);
+        // Other GUI libraries can reset GLFW directly without updating FancyMenu's tracker.
+        // Its cached handle is not proof that our native cursor is still active.
+        nativeAccess.set(window, handle);
+    }
+
+    boolean allowsAlternative(long window) {
+        Observed observed=nativeAccess.observe(window);
+        return observed.compatible && (!observed.known || observed.cursor==0
+                || observed.cursor==handle || observed.shape==ARROW);
     }
 
     private void release(long window, Observed observed) {

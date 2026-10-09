@@ -21,10 +21,11 @@ public final class CursorTest {
     public static void main(String[] args) throws Exception {
         Fake n=new Fake(); CursorController c=new CursorController(n);
         c.update(1,false); assert n.creates==0 && n.sets.isEmpty();
-        c.update(1,true); c.update(1,true); assert n.creates==1 && n.sets.equals(List.of(77L));
+        c.update(1,true); c.update(1,true); assert n.creates==1 && n.sets.equals(List.of(77L,77L));
         // A FancyMenu text cursor takes ownership: do not reset or destroy it.
-        n.current=90; n.shape=0x36002; c.update(1,true); assert n.sets.size()==1;
-        c.update(1,false); assert n.sets.size()==1;
+        n.current=90; n.shape=0x36002; c.update(1,true); assert n.sets.size()==2;
+        assert !c.allowsAlternative(1);
+        c.update(1,false); assert n.sets.size()==2;
         n.current=91; n.shape=CursorController.ARROW; c.update(1,true);
         c.update(1,false); assert n.current==91 && n.creates==1;
         // Custom PNG cursors are unknown standard shapes and must also win.
@@ -53,6 +54,47 @@ public final class CursorTest {
         Fake swapped=new Fake(); CursorController windows=new CursorController(swapped);
         windows.update(1,true); swapped.current=0; windows.update(2,false);
         assert swapped.sets.size()==1; windows.close(2); assert swapped.destroys==1;
+
+        // FTB's onClosed() sets native cursor 0 without updating the bootstrap tracker.
+        // Repeat the chapter reset while the observed handle remains our cached handle.
+        long[] actual={0};
+        Fake stale=new Fake() {
+            @Override public void set(long w,long v) { super.set(w,v);actual[0]=v; }
+        };
+        CursorController chapters=new CursorController(stale);
+        chapters.update(1,true);
+        for(int i=0;i<100;i++) {
+            actual[0]=0;
+            assert stale.current==77;
+            chapters.update(1,true);
+            assert actual[0]==77 && stale.creates==1;
+        }
+        assert chapters.allowsAlternative(1);
+        chapters.update(1,false);assert actual[0]==0;
+        chapters.close(1);assert stale.destroys==1;
+
+        List<String> ftbWarnings=new ArrayList<>();
+        FtbCursorCompat ftb=new FtbCursorCompat(CursorTest.class.getClassLoader(),ftbWarnings::add);
+        Object taskScreen=new dev.ftb.mods.ftblibrary.ui.IScreenWrapper() {};
+        assert ftb.selection(new Object()).special()==null;
+        assert ftb.selection(taskScreen).special()==null;
+        for(var type:dev.ftb.mods.ftblibrary.ui.CursorType.values()) {
+            dev.ftb.mods.ftblibrary.FTBLibraryClient.lastCursorType=type;
+            var selection=ftb.selection(taskScreen);
+            assert selection.compatible();
+            if(type==dev.ftb.mods.ftblibrary.ui.CursorType.ARROW) assert selection.special()==null;
+            else {
+                assert selection.special()==type;
+                ftb.apply(selection);
+                assert dev.ftb.mods.ftblibrary.ui.CursorType.applied==type;
+            }
+            assert dev.ftb.mods.ftblibrary.FTBLibraryClient.lastCursorType==type;
+        }
+        dev.ftb.mods.ftblibrary.FTBLibraryClient.lastCursorType=null;
+        assert ftb.selection(taskScreen).special()==null;
+        assert dev.ftb.mods.ftblibrary.ui.CursorType.calls==6 && ftbWarnings.isEmpty();
+        FtbCursorCompat absentFtb=new FtbCursorCompat(new ClassLoader(null) {},ftbWarnings::add);
+        assert absentFtb.selection(taskScreen).compatible() && ftbWarnings.isEmpty();
 
         Object screen=new Object(); ClickEffects effects=new ClickEffects(); long start=1000;
         effects.context(screen,320,200,true);
@@ -91,6 +133,6 @@ public final class CursorTest {
             assert compat.observe(55).cursor()==5 && api.creates==1;
             realApi.close(55);
         }
-        System.out.println("PASS: lifecycle, third-party cursors, failure fallback, screen/scale transitions, 10000-click bound, animation expiry, installed FancyMenu API");
+        System.out.println("PASS: lifecycle, third-party cursors, failure fallback, screen/scale transitions, 100 untracked chapter resets, 10000-click bound, animation expiry, installed FancyMenu API");
     }
 }

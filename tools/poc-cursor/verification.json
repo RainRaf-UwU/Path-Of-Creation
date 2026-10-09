@@ -1,8 +1,8 @@
 {
   "date": "2026-10-09",
   "artifact": "mods/poc-cursor-1.0.0.jar",
-  "bytes": 18136,
-  "sha256": "a735e0de037faf34177d13d978677b0e9bea5ab2d434a09d66bd676cdabd525f",
+  "bytes": 21034,
+  "sha256": "1b877dc60c928b8617fc44a57f12b41f6e588c9a443b7c2d414fc52f06e8c7e4",
   "environment": {
     "minecraft": "1.21.1",
     "neoforge": "21.1.255",
@@ -13,45 +13,29 @@
     "test_mod_jars": 262,
     "test_heap": "4G",
     "test_mipmap_levels": 0,
-    "test_resolution": "1280x800"
+    "test_resolution": "1280x800",
+    "ftb_library": "2101.1.37"
   },
   "automated_checks": {
     "logic": "passed",
-    "native_glfw": "100 create/set/restore/destroy cycles passed; zero native errors; input mode unchanged",
+    "native_glfw": "not rerun for this fix; prior build results recorded separately",
     "bounded_clicks": 10000,
     "gui_quad_winding": "passed",
     "jar_crc": "passed",
-    "test_or_mixin_classes_in_release": false
+    "test_or_mixin_classes_in_release": false,
+    "untracked_chapter_resets": "100 repeated native reset recoveries passed with stale observed handle; one cursor allocation",
+    "ftb_public_api_fixture": "six special cursor selections delegated without mutating FTB selection; ordinary/non-FTB/absent-FTB paths passed"
   },
   "runtime": {
-    "status": "partial; remaining validation delegated to user by explicit request",
-    "completed_checks": [
-      "Main menu custom native cursor",
-      "Cursor survives screen transition",
-      "Real MouseHandler button action executes once",
-      "Click ring visible in actual framebuffer",
-      "Text field focus preserved",
-      "Text entry preserved",
-      "FancyMenu writing cursor has priority",
-      "Focus loss releases own cursor",
-      "Focus handling leaves input mode unchanged",
-      "GUI scale 3 uses same native cursor"
-    ],
+    "status": "awaiting user verification; game not launched for this fix",
+    "completed_checks": [],
     "full_pack_verification_completed": false,
-    "test_process_exit": "Observed exit during test-world loading; no result.json or crash report; cause undetermined",
     "remaining_checks": [
+      "repeated FTB chapter/tab switching and pointer recovery off buttons",
+      "FTB text/hand/drag/resize cursor priority",
       "survival inventory and JEI",
-      "inventory pickup, placement and drag distribution",
-      "FTB Quests interactions",
-      "world mouse capture after closing GUI",
-      "GUI scale 4 and repeated client launch"
+      "world mouse capture after closing GUI"
     ],
-    "kubejs_script_loading": {
-      "startup": "10/10; 0 errors, 0 warnings",
-      "client": "3/3; 0 errors, 0 warnings",
-      "server": "101/101; 0 errors, 0 warnings"
-    },
-    "original_saves_opened": false,
     "further_game_launches": "disabled per user request"
   },
   "protection": {
@@ -66,9 +50,49 @@
     "Existing pack.mcmeta, recipe and key-binding warnings are outside this change; whole-pack logs are not error-free.",
     "Game framebuffer screenshots exclude native OS cursors."
   ],
-  "evidence": [
-    "evidence/01-main-menu.png",
-    "evidence/02-click-ring.png",
-    "evidence/03-gui-scale-3.png"
-  ]
+  "previous_build_validation": {
+    "sha256": "a735e0de037faf34177d13d978677b0e9bea5ab2d434a09d66bd676cdabd525f",
+    "native_glfw": "100 create/set/restore/destroy cycles passed; zero native errors; input mode unchanged",
+    "runtime": {
+      "status": "partial; remaining validation delegated to user by explicit request",
+      "completed_checks": [
+        "Main menu custom native cursor",
+        "Cursor survives screen transition",
+        "Real MouseHandler button action executes once",
+        "Click ring visible in actual framebuffer",
+        "Text field focus preserved",
+        "Text entry preserved",
+        "FancyMenu writing cursor has priority",
+        "Focus loss releases own cursor",
+        "Focus handling leaves input mode unchanged",
+        "GUI scale 3 uses same native cursor"
+      ],
+      "full_pack_verification_completed": false,
+      "test_process_exit": "Observed exit during test-world loading; no result.json or crash report; cause undetermined",
+      "remaining_checks": [
+        "survival inventory and JEI",
+        "inventory pickup, placement and drag distribution",
+        "FTB Quests interactions",
+        "world mouse capture after closing GUI",
+        "GUI scale 4 and repeated client launch"
+      ],
+      "kubejs_script_loading": {
+        "startup": "10/10; 0 errors, 0 warnings",
+        "client": "3/3; 0 errors, 0 warnings",
+        "server": "101/101; 0 errors, 0 warnings"
+      },
+      "original_saves_opened": false,
+      "further_game_launches": "disabled per user request"
+    },
+    "evidence": [
+      "evidence/01-main-menu.png",
+      "evidence/02-click-ring.png",
+      "evidence/03-gui-scale-3.png"
+    ]
+  },
+  "fix": {
+    "trigger": "FTB Library directly resets the native GLFW cursor during task UI transitions, without updating the cached FancyMenu tracker",
+    "behavior": "Reapply eligible ordinary arrows at frame end; preserve FancyMenu priority and FTB semantic cursors through its optional public API",
+    "production_api_calls_per_frame": "one cursor set for ordinary eligible GUI; no new allocation or input callback changes"
+  }
 }
