@@ -1,6 +1,6 @@
 {
   "name": {
-    "text": "cm.rain.multi_block_machine.name"
+    "translate": "cm.rain.multi_block_machine.name"
   },
   "appearance": {},
   "components": [

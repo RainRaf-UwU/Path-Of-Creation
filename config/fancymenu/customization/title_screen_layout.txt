@@ -613,7 +613,7 @@ element {
   transparent_background = false
   restartbackgroundanimations = true
   nine_slice_custom_background = false
-  label = Github
+  label = {"placeholder":"local","values":{"key":"fm.rain.github"}}
   navigatable = true
   widget_active_state_requirement_container_identifier = f2430311-e45b-4d3f-a2c1-37beac098fbd-1779005861382
   [loading_requirement_container_meta:f2430311-e45b-4d3f-a2c1-37beac098fbd-1779005861382] = [groups:][instances:]
@@ -1426,7 +1426,7 @@ vanilla_button {
   transparent_background = false
   restartbackgroundanimations = true
   nine_slice_custom_background = false
-  hoverlabel = mol orz
+  hoverlabel = {"placeholder":"local","values":{"key":"fm.rain.easter_egg.respect"}}
   navigatable = true
   widget_active_state_requirement_container_identifier = 0aa0f933-be78-425e-bff3-56b88d6d3daa-1763378927653
   [loading_requirement_container_meta:0aa0f933-be78-425e-bff3-56b88d6d3daa-1763378927653] = [groups:][instances:]
@@ -1996,7 +1996,7 @@ vanilla_button {
   transparent_background = false
   restartbackgroundanimations = true
   nine_slice_custom_background = false
-  hoverlabel = shit
+  hoverlabel = {"placeholder":"local","values":{"key":"fm.rain.easter_egg.surprise"}}
   navigatable = true
   widget_active_state_requirement_container_identifier = 86121c2c-5fd6-4e18-b456-935dd39cc691-1763378927653
   [loading_requirement_container_meta:86121c2c-5fd6-4e18-b456-935dd39cc691-1763378927653] = [groups:][instances:]

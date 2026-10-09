@@ -1,6 +1,6 @@
 {
   "name": {
-    "text": "cm.rain.fluid_processing.name"
+    "translate": "cm.rain.fluid_processing.name"
   },
   "appearance": {
     "custommachinery:block": "rain:machine/fluid_processing#standalone"

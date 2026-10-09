@@ -1,6 +1,6 @@
 {
   "name": {
-    "text": "cm.rain.copy_factory.name"
+    "translate": "cm.rain.copy_factory.name"
   },
   "appearance": {
     "custommachinery:block": "rain:machine/copy_factory#standalone"

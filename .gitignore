@@ -1,9 +1,11 @@
 
-# Keep documentation local; publish only the Chinese and English project pages.
+# Publish player documentation and maintenance instructions.
 *.[mM][dD]
 [rR][eE][aA][dD][mM][eE]*
 !/README.md
 !/docs/en/README.md
+!/tools/poc-updater/README.md
+!/tools/poc-updater/README.en.md
 
 # Python authoring, audit and test scripts stay local.
 *.[pP][yY]
@@ -74,3 +76,28 @@ __pycache__/
 # POC updater build outputs; player state is already under ignored /local/.
 /tools/poc-updater/build/
 /dist/poc-updater/
+
+# Local editor data, backups, design drafts and verification output.
+/.vscode/
+/kubejs/.vscode/
+*.bak
+*.bak.*
+/design/*
+!/design/branding/
+/design/branding/*
+!/design/branding/path-of-creation-icon-256-v2.png
+!/design/branding/path-of-creation-logo-v2.png
+/tools/poc-cursor/evidence/
+/tools/poc-cursor/preview.html
+/tools/poc-cursor/preview.png
+/tools/poc-cursor/verification.json
+/tools/poc-cursor/src/integration/
+/kubejs/config/probe-settings.json
+/kubejs/config/web_server.json
+/kubejs/*_scripts/jsconfig.json
+/config/fancymenu/user_variables.db
+/config/fancymenu/audio_element_controller_metas.json
+/config/test-config.json
+/config/tombstone/version.info
+/glass_bottle.png
+/void_mining_machine.json
