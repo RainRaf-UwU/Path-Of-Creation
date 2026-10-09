@@ -1,7 +1,12 @@
 
-# Keep Markdown local; publish README files only
+# Keep documentation local; publish only the Chinese and English project pages.
 *.[mM][dD]
-![rR][eE][aA][dD][mM][eE].[mM][dD]
+[rR][eE][aA][dD][mM][eE]*
+!/README.md
+!/docs/en/README.md
+
+# Python authoring, audit and test scripts stay local.
+*.[pP][yY]
 
 # Local tooling and generated code
 .probe/

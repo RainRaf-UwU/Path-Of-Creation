@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": "2.0",
+  "version": "0.2.0",
   "minecraft": "1.21.1",
   "neoforge": "21.1.255",
   "files": {
@@ -1213,8 +1213,8 @@
       "size": 27
     },
     "config/fancymenu/options.txt": {
-      "sha256": "13ccdfdfc48dbb6bd0775ff932533df5968bd7cdbabd09b774d53b08b7e5f966",
-      "size": 4400
+      "sha256": "567d1d120d799e004e5c51e8e61be860156e57ab630ff999e9d65ed31a3156da",
+      "size": 4440
     },
     "config/fancymenu/ui_themes/cherry_blossom.json": {
       "sha256": "993c16664fe2d1b9e8ad107bf1c19c1dbb244729c403ed058ca2e54616dc5452",
@@ -1733,8 +1733,8 @@
       "size": 478
     },
     "config/poc-updater/pack.json": {
-      "sha256": "7b953690d6e1e838b1bc16d1f5388d28c991e376781b519b38c114db0370a552",
-      "size": 3809
+      "sha256": "2d88f278f0eaf297b72b9f93d0823a5cbce7b8d92db4496e9b5da55a44d6f4d8",
+      "size": 3966
     },
     "config/polylib.json": {
       "sha256": "b3458a87968614175fc965b0e99339d70dc6728308138bebdd970d2679f2c672",
