@@ -1,0 +1,76 @@
+{
+  "pngs_valid": 91,
+  "source_dimensions_match": 73,
+  "json_metadata_valid": 33,
+  "theme_references_resolve": 12,
+  "quest_background_masks_unchanged": 9,
+  "tables": {
+    "extendedcrafting/textures/gui/basic_table.png": {
+      "normal_slots": 45,
+      "output_origin": [
+        119,
+        31
+      ]
+    },
+    "extendedcrafting/textures/gui/advanced_table.png": {
+      "normal_slots": 61,
+      "output_origin": [
+        137,
+        48
+      ]
+    },
+    "extendedcrafting/textures/gui/elite_table.png": {
+      "normal_slots": 85,
+      "output_origin": [
+        167,
+        66
+      ]
+    },
+    "extendedcrafting/textures/gui/ultimate_table.png": {
+      "normal_slots": 117,
+      "output_origin": [
+        201,
+        84
+      ]
+    }
+  },
+  "protected_files_unchanged": 195,
+  "quest_count": 559,
+  "dependency_count": 591,
+  "quest_graph_errors": [],
+  "native_theme_properties": 45,
+  "native_icons_decoded": 21,
+  "native_colors_decoded": 20,
+  "creative_panels": 3,
+  "creative_slots_checked": 150,
+  "creative_sprite_masks_unchanged": 30,
+  "native_resource_priority_overrides_verified": 125,
+  "native_theme_stack_verified": true,
+  "mode": "kubejs-assets-override",
+  "standalone_ui_zip_retired": true,
+  "ui_zip_selected": false,
+  "override_mod_sha256": "e07212231918109a504e58739ded9ae366b28229a851f0b6628bc60bd20ad8e1",
+  "existing_mods_unchanged": 259,
+  "kubejs_core_unchanged": true,
+  "server_data_pack_order_unchanged": true,
+  "other_options_unchanged": true,
+  "immutable_lists_verified": true,
+  "caller_list_unchanged": true,
+  "moonlight_filtered_resources_verified": true,
+  "offline_mixin_constructor_transformation_verified": true,
+  "offline_mixin_host": "LaunchWrapper (not full NeoForge runtime)",
+  "compatibility_patch_version": 2,
+  "hud_sprites_checked": 6,
+  "hud_alpha_masks_unchanged": 6,
+  "ftb_shared_check_masks_unchanged": 2,
+  "ftb_part_icons_texture_size_verified": 11,
+  "dimmed_chapter_text_contrast": [
+    4.78,
+    5.06,
+    4.98
+  ],
+  "previous_startup_user_confirmed": true,
+  "installed_files_match": 125,
+  "portable_zip_verified": true,
+  "game_runtime_verified": false
+}
