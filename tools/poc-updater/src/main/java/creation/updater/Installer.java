@@ -36,21 +36,20 @@ public final class Installer {
     /** failAfter is used only by the rollback integration test; production passes -1. */
     static void install(Path root, Path archive, UpdateCore.Job job, int failAfter) throws IOException {
         if (!UpdateCore.sha256(archive).equalsIgnoreCase(job.sha256())) throw new IOException("下载包在安装前被修改");
-        UpdateCore.Manifest next = UpdateCore.inspect(archive, job.version(), job.minecraft(), job.neoforge());
+        UpdateCore.UpdatePackage update = UpdateCore.inspectPackage(archive, job.version(), job.minecraft(), job.neoforge());
+        UpdateCore.Manifest next = update.manifest();
         Path work = root.resolve("local/poc-updater");
         Path owned = work.resolve("installed.json");
-        Path baseline = root.resolve(UpdateCore.BASELINE);
-        UpdateCore.Manifest old = Files.exists(owned) ? UpdateCore.read(owned, UpdateCore.Manifest.class)
-            : Files.exists(baseline) ? UpdateCore.read(baseline, UpdateCore.Manifest.class) : null;
-        if (old == null) throw new IOException("此客户端缺少初始文件清单，请先安装含自动更新功能的完整版本");
-        UpdateCore.validate(old);
+        UpdateCore.Manifest old = UpdateCore.ownership(root);
         if (UpdateCore.compare(next.version(), old.version()) <= 0) throw new IOException("拒绝重复更新或降级");
+        UpdateCore.validateDeltaBase(root, old, update); // Recheck after the game exits; it may have saved files since download.
         Path backup = work.resolve("backups/" + DateTimeFormatter.ofPattern("yyyyMMdd-HHmmss").format(LocalDateTime.now())
             + "-" + UUID.randomUUID().toString().substring(0, 8));
         Path stage = backup.resolve("staged");
         Files.createDirectories(stage);
-        LinkedHashSet<String> changes = new LinkedHashSet<>(next.files().keySet());
-        changes.addAll(old.files().keySet());
+        LinkedHashSet<String> changes = new LinkedHashSet<>(update.payload());
+        if (update.delta() == null) changes.addAll(old.files().keySet());
+        else changes.addAll(update.delta().removed());
         changes.remove(UpdateCore.BASELINE); // Bootstrap ownership is immutable; installed.json supersedes it.
         Map<String, Boolean> existed = new LinkedHashMap<>();
         for (String path : changes) {
@@ -60,20 +59,21 @@ public final class Installer {
         }
         // Complete extraction, per-file hashes and backup BEFORE changing any game file.
         try (ZipFile zip = new ZipFile(archive.toFile(), StandardCharsets.UTF_8)) {
-            for (var entry : next.files().entrySet()) {
-                Path file = UpdateCore.safePath(stage, entry.getKey());
+            for (String path : update.payload()) {
+                UpdateCore.FileInfo info = next.files().get(path);
+                Path file = UpdateCore.safePath(stage, path);
                 Files.createDirectories(file.getParent());
-                try (InputStream in = zip.getInputStream(zip.getEntry(entry.getKey())); OutputStream out = Files.newOutputStream(file)) {
+                try (InputStream in = zip.getInputStream(zip.getEntry(path)); OutputStream out = Files.newOutputStream(file)) {
                     byte[] buffer = new byte[128 * 1024];
                     long size = 0;
                     for (int n; (n = in.read(buffer)) != -1;) {
                         size += n;
-                        if (size > entry.getValue().size()) throw new IOException("解压文件大小异常");
+                        if (size > info.size()) throw new IOException("解压文件大小异常");
                         out.write(buffer, 0, n);
                     }
-                    if (size != entry.getValue().size()) throw new IOException("解压文件不完整");
+                    if (size != info.size()) throw new IOException("解压文件不完整");
                 }
-                if (!UpdateCore.sha256(file).equalsIgnoreCase(entry.getValue().sha256())) throw new IOException("文件校验失败: " + entry.getKey());
+                if (!UpdateCore.sha256(file).equalsIgnoreCase(info.sha256())) throw new IOException("文件校验失败: " + path);
             }
         }
         for (String path : changes) {

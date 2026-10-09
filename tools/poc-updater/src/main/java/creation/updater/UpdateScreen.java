@@ -18,6 +18,7 @@ final class UpdateScreen extends Screen {
     private boolean downloading, waiting, restart;
     private int left, panelWidth, top, bottom, scroll, polls;
     private volatile long downloaded;
+    private long downloadSize;
     private List<FormattedCharSequence> lines = List.of();
 
     static UpdateScreen update(Screen parent, ClientUpdater updater, UpdateCore.Release release, String current) {
@@ -89,6 +90,14 @@ final class UpdateScreen extends Screen {
 
     void progress(long bytes) { downloaded = bytes; }
 
+    void transfer(UpdateCore.Release selected) {
+        downloaded = 0;
+        downloadSize = selected.size();
+        text = tr("poc_updater.downloading", release.version()) + "\n\n"
+            + tr(selected.download().equals(release.download()) ? "poc_updater.transfer.full" : "poc_updater.transfer.delta");
+        rebuildWidgets();
+    }
+
     void ready(String hash) {
         downloading = false;
         sha = hash;
@@ -134,7 +143,7 @@ final class UpdateScreen extends Screen {
         g.disableScissor();
         if (maxScroll() > 0) g.drawCenteredString(font, tr("poc_updater.scroll_hint"), width / 2, height - 66, 0xA0A8B8);
         if (downloading) g.drawCenteredString(font, String.format(Locale.ROOT, "%.1f / %.1f MiB", downloaded / 1048576.0,
-            release.size() / 1048576.0), width / 2, height - 42, 0xA0E0FF);
+            downloadSize / 1048576.0), width / 2, height - 42, 0xA0E0FF);
     }
 
     static String tr(String key, Object... args) { return Component.translatable(key, args).getString(); }

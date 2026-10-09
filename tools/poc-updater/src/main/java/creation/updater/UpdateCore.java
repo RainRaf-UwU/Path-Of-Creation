@@ -9,6 +9,7 @@ import java.nio.file.*;
 import java.security.*;
 import java.util.*;
 import java.util.function.LongConsumer;
+import java.util.function.Consumer;
 import java.util.zip.*;
 
 /** Shared by the client and the separate installer. No Minecraft dependencies. */
@@ -19,6 +20,7 @@ public final class UpdateCore {
     public static final String PACK = "config/poc-updater/pack.json";
     public static final String BASELINE = "config/poc-updater/baseline.json";
     public static final String MANIFEST = "poc-update.json";
+    public static final String DELTA = "poc-delta.json";
     public static final String FEED = "https://raw.githubusercontent.com/" + REPO + "/main/config/poc-updater/latest.json";
     public static final long MAX_BYTES = 8L * 1024 * 1024 * 1024;
 
@@ -26,8 +28,20 @@ public final class UpdateCore {
     public record FileInfo(String sha256, long size) {}
     public record Manifest(int schema, String version, String minecraft, String neoforge,
                            Map<String, FileInfo> files) {}
+    public record Delta(int schema, Manifest base, List<String> files, List<String> removed) {}
+    public record UpdatePackage(Manifest manifest, Delta delta) {
+        public Set<String> payload() { return delta == null ? manifest.files().keySet() : new LinkedHashSet<>(delta.files()); }
+    }
+    public record DeltaAsset(String from, String download, String digest, String checksum, long size) {}
     public record Release(String version, String notes, String page, String download,
-                          String digest, String checksum, long size) {}
+                          String digest, String checksum, long size, List<DeltaAsset> deltas) {
+        public Release(String version, String notes, String page, String download, String digest, String checksum, long size) {
+            this(version, notes, page, download, digest, checksum, size, List.of());
+        }
+    }
+    @FunctionalInterface interface Downloader {
+        String download(Release release, Path zip, LongConsumer progress) throws IOException;
+    }
     public record Job(long parentPid, String version, String sha256, String minecraft, String neoforge) {}
     public record Status(boolean success, String message) {}
     public record State(Set<String> seenVersions) {}
@@ -87,6 +101,7 @@ public final class UpdateCore {
                 releaseAssetUrl(published.download());
                 releaseAssetUrl(published.checksum());
                 version(published.version());
+                validateDeltaAssets(published);
                 return published;
             }
         } catch (IOException | JsonParseException | IllegalArgumentException | NullPointerException ignored) {
@@ -102,6 +117,7 @@ public final class UpdateCore {
             if (!page.startsWith("https://github.com/" + REPO + "/releases/")) throw new IOException("Invalid release URL");
             String url = "", digest = "", checksum = "";
             long size = 0;
+            List<DeltaAsset> deltas = new ArrayList<>();
             for (JsonElement element : data.getAsJsonArray("assets")) {
                 JsonObject asset = element.getAsJsonObject();
                 if (ASSET.equals(string(asset, "name"))) {
@@ -110,11 +126,18 @@ public final class UpdateCore {
                     size = asset.get("size").getAsLong();
                 } else if ((ASSET + ".sha256").equals(string(asset, "name"))) {
                     checksum = string(asset, "browser_download_url");
+                } else if (string(asset, "name").matches("path-of-creation-delta-from-v\\d+(?:\\.\\d+){1,3}\\.zip")) {
+                    String name = string(asset, "name");
+                    String from = name.substring("path-of-creation-delta-from-v".length(), name.length() - 4);
+                    String deltaUrl = string(asset, "browser_download_url");
+                    deltas.add(new DeltaAsset(from, deltaUrl, string(asset, "digest"), deltaUrl + ".sha256", asset.get("size").getAsLong()));
                 }
             }
             if (!url.isEmpty()) releaseAssetUrl(url);
             if (!checksum.isEmpty()) releaseAssetUrl(checksum);
-            return new Release(ver, string(data, "body"), page, url, digest, checksum, size);
+            Release release = new Release(ver, string(data, "body"), page, url, digest, checksum, size, deltas);
+            validateDeltaAssets(release);
+            return release;
         } catch (IllegalArgumentException | NullPointerException e) { throw new IOException("Invalid GitHub release", e); }
     }
 
@@ -123,8 +146,26 @@ public final class UpdateCore {
     }
 
     public static void releaseAssetUrl(String url) throws IOException {
-        if (!url.startsWith("https://github.com/" + REPO + "/releases/download/"))
+        if (url == null || !url.startsWith("https://github.com/" + REPO + "/releases/download/"))
             throw new IOException("更新文件必须来自本整合包的 GitHub Release");
+    }
+
+    static void validateDeltaAssets(Release release) throws IOException {
+        if (release.deltas() == null) return; // Old feeds have no optional delta field.
+        if (release.deltas().size() > 16) throw new IOException("增量包数量异常");
+        Set<String> versions = new HashSet<>();
+        for (DeltaAsset asset : release.deltas()) {
+            if (asset == null || compare(asset.from(), release.version()) >= 0 || !versions.add(version(asset.from()))
+                    || asset.size() <= 0 || asset.size() > MAX_BYTES || asset.digest() == null
+                    || !asset.digest().isEmpty() && !asset.digest().matches("sha256:[a-fA-F0-9]{64}"))
+                throw new IOException("增量包下载信息无效");
+            releaseAssetUrl(asset.download());
+            releaseAssetUrl(asset.checksum());
+            // Every optional patch must belong to the same immutable release directory.
+            String prefix = release.download().substring(0, release.download().lastIndexOf('/') + 1);
+            if (!asset.download().startsWith(prefix) || !asset.checksum().equals(asset.download() + ".sha256"))
+                throw new IOException("增量包与发布版本不一致");
+        }
     }
 
     private static HttpURLConnection connection(String url) throws IOException {
@@ -168,7 +209,7 @@ public final class UpdateCore {
         releaseAssetUrl(release.download());
         if (release.size() <= 0 || release.size() > MAX_BYTES) throw new IOException("更新包大小无效");
         String hash;
-        if (release.digest().matches("sha256:[a-fA-F0-9]{64}")) hash = release.digest().substring(7);
+        if (release.digest() != null && release.digest().matches("sha256:[a-fA-F0-9]{64}")) hash = release.digest().substring(7);
         else {
             if (release.checksum().isEmpty()) throw new IOException("此 Release 缺少 SHA-256 校验文件");
             hash = fetch(release.checksum(), 512, false).strip().split("\\s+")[0];
@@ -205,6 +246,83 @@ public final class UpdateCore {
             for (int n; (n = in.read(buffer)) != -1;) digest.update(buffer, 0, n);
         }
         return HexFormat.of().formatHex(digest.digest());
+    }
+
+    public static Manifest ownership(Path root) throws IOException {
+        Path installed = root.resolve("local/poc-updater/installed.json");
+        Path path = Files.exists(installed) ? installed : root.resolve(BASELINE);
+        if (!Files.isRegularFile(path)) throw new IOException("此客户端缺少初始文件清单，请先安装含自动更新功能的完整版本");
+        Manifest old = read(path, Manifest.class);
+        validate(old);
+        return old;
+    }
+
+    static Release selectDownload(Path root, Release target) throws IOException {
+        validateDeltaAssets(target);
+        if (target.deltas() == null || target.deltas().isEmpty()) return target;
+        Manifest old = ownership(root);
+        DeltaAsset selected = null;
+        for (DeltaAsset asset : target.deltas()) {
+            if (compare(asset.from(), old.version()) == 0 && asset.size() < target.size()
+                    && (selected == null || asset.size() < selected.size())) selected = asset;
+        }
+        return selected == null ? target : new Release(target.version(), target.notes(), target.page(), selected.download(),
+            selected.digest(), selected.checksum(), selected.size());
+    }
+
+    public static String prepare(Path root, Release target, Path zip, String minecraft, String neoforge,
+                                  LongConsumer progress, Consumer<Release> transfer) throws IOException {
+        return prepare(root, target, zip, minecraft, neoforge, progress, transfer, UpdateCore::download);
+    }
+
+    /** The injected downloader lets the complete fallback path run without external network access in tests. */
+    static String prepare(Path root, Release target, Path zip, String minecraft, String neoforge,
+                          LongConsumer progress, Consumer<Release> transfer, Downloader downloader) throws IOException {
+        Release chosen;
+        try { chosen = selectDownload(root, target); }
+        catch (IOException | IllegalArgumentException e) { chosen = target; }
+        if (!chosen.download().equals(target.download())) {
+            try {
+                transfer.accept(chosen);
+                String hash = downloader.download(chosen, zip, progress);
+                UpdatePackage update = inspectPackage(zip, target.version(), minecraft, neoforge);
+                if (update.delta() == null) throw new IOException("增量下载必须包含增量声明");
+                validateDeltaBase(root, ownership(root), update);
+                return hash;
+            } catch (IOException e) {
+                // No game files have changed. A missing, corrupt or inapplicable patch can safely use the full ZIP.
+                Files.deleteIfExists(zip);
+            }
+        }
+        transfer.accept(target);
+        String hash = downloader.download(target, zip, progress);
+        if (inspectPackage(zip, target.version(), minecraft, neoforge).delta() != null)
+            throw new IOException("完整包下载入口不能提供增量包");
+        return hash;
+    }
+
+    private static Map<String, FileInfo> ownedFiles(Manifest manifest) {
+        Map<String, FileInfo> files = new HashMap<>(manifest.files());
+        files.remove(BASELINE); // Physical bootstrap is immutable; installed.json may include a newer copy's hash.
+        files.remove(PACK); // Release notes may differ from the tag's pack.json; PACK is always replaced by a delta.
+        return files;
+    }
+
+    public static void validateDeltaBase(Path root, Manifest old, UpdatePackage update) throws IOException {
+        Delta delta = update.delta();
+        if (delta == null) return;
+        Manifest base = delta.base();
+        if (compare(old.version(), base.version()) != 0 || !old.minecraft().equals(base.minecraft())
+                || !old.neoforge().equals(base.neoforge()) || !ownedFiles(old).equals(ownedFiles(base)))
+            throw new IOException("增量包不适用于当前文件清单，请使用完整包");
+        Set<String> payload = update.payload();
+        for (var entry : update.manifest().files().entrySet()) {
+            if (payload.contains(entry.getKey())) continue;
+            Path file = safePath(root, entry.getKey());
+            if (!Files.isRegularFile(file) || Files.size(file) != entry.getValue().size()
+                    || !sha256(file).equalsIgnoreCase(entry.getValue().sha256()))
+                throw new IOException("增量包需要复用的本地文件已修改或缺失: " + entry.getKey());
+        }
     }
 
     public static boolean allowed(String path) {
@@ -247,35 +365,74 @@ public final class UpdateCore {
     }
 
     public static Manifest inspect(Path zipPath, String expectedVersion, String minecraft, String neoforge) throws IOException {
+        return inspectPackage(zipPath, expectedVersion, minecraft, neoforge).manifest();
+    }
+
+    private static <T> T zipJson(ZipFile zip, String path, Class<T> type) throws IOException {
+        ZipEntry entry = zip.getEntry(path);
+        if (entry == null || entry.isDirectory() || entry.getSize() < 0 || entry.getSize() > 8 * 1024 * 1024)
+            throw new IOException("缺少有效更新清单: " + path);
+        try (InputStream in = zip.getInputStream(entry)) {
+            byte[] data = in.readNBytes(8 * 1024 * 1024 + 1);
+            if (data.length > 8 * 1024 * 1024) throw new IOException("更新清单过大");
+            return JSON.fromJson(new String(data, StandardCharsets.UTF_8), type);
+        }
+    }
+
+    public static UpdatePackage inspectPackage(Path zipPath, String expectedVersion, String minecraft, String neoforge) throws IOException {
         try (ZipFile zip = new ZipFile(zipPath.toFile(), StandardCharsets.UTF_8)) {
-            ZipEntry entry = zip.getEntry(MANIFEST);
-            if (entry == null || entry.getSize() < 0 || entry.getSize() > 8 * 1024 * 1024) throw new IOException("缺少有效更新清单");
-            Manifest m;
-            try (Reader in = new InputStreamReader(zip.getInputStream(entry), StandardCharsets.UTF_8)) {
-                m = JSON.fromJson(in, Manifest.class);
-            }
+            Manifest m = zipJson(zip, MANIFEST, Manifest.class);
             validate(m);
             if (compare(m.version(), expectedVersion) != 0) throw new IOException("Release 与更新包版本不一致");
             if (!m.minecraft().equals(minecraft) || !m.neoforge().equals(neoforge))
                 throw new IOException("此版本需要更换 Minecraft/NeoForge，请从发布页安装完整实例");
+            Delta delta = zip.getEntry(DELTA) == null ? null : zipJson(zip, DELTA, Delta.class);
+            if (zip.getEntry(DELTA) != null && delta == null) throw new IOException("增量声明为空");
+            if (delta != null) validateDelta(m, delta);
+            UpdatePackage update = new UpdatePackage(m, delta);
+            Set<String> payload = update.payload();
             Set<String> names = new HashSet<>();
             Enumeration<? extends ZipEntry> entries = zip.entries();
             while (entries.hasMoreElements()) {
                 ZipEntry e = entries.nextElement();
                 if (!names.add(e.getName())) throw new IOException("ZIP 中有重复路径");
                 if (e.getName().equals(MANIFEST)) continue;
+                if (delta != null && e.getName().equals(DELTA)) continue;
                 FileInfo f = m.files().get(e.getName());
-                if (e.isDirectory() || f == null || e.getSize() != f.size()) throw new IOException("ZIP 与更新清单不一致");
+                if (e.isDirectory() || f == null || !payload.contains(e.getName()) || e.getSize() != f.size()) throw new IOException("ZIP 与更新清单不一致");
             }
-            if (names.size() != m.files().size() + 1) throw new IOException("更新文件不完整");
-            Pack pack;
-            try (Reader in = new InputStreamReader(zip.getInputStream(zip.getEntry(PACK)), StandardCharsets.UTF_8)) {
-                pack = JSON.fromJson(in, Pack.class);
-            }
+            if (names.size() != payload.size() + (delta == null ? 1 : 2)) throw new IOException("更新文件不完整");
+            Pack pack = zipJson(zip, PACK, Pack.class);
             if (pack == null || compare(pack.version(), m.version()) != 0 || !m.minecraft().equals(pack.minecraft())
                 || !m.neoforge().equals(pack.neoforge())) throw new IOException("本地版本信息与更新清单不一致");
-            return m;
+            return update;
         } catch (JsonParseException | IllegalArgumentException | NullPointerException e) { throw new IOException("更新清单无效", e); }
+    }
+
+    static void validateDelta(Manifest next, Delta delta) throws IOException {
+        if (delta.schema() != 1 || delta.base() == null || delta.files() == null || delta.removed() == null)
+            throw new IOException("增量声明无效");
+        validate(delta.base());
+        Manifest base = delta.base();
+        if (compare(base.version(), next.version()) >= 0 || !base.minecraft().equals(next.minecraft())
+                || !base.neoforge().equals(next.neoforge())) throw new IOException("增量基础版本无效");
+        Set<String> changed = new HashSet<>();
+        for (var entry : next.files().entrySet()) {
+            if (entry.getKey().equals(PACK) || entry.getKey().equals(BASELINE)
+                    || !entry.getValue().equals(base.files().get(entry.getKey()))) changed.add(entry.getKey());
+        }
+        Set<String> removed = new HashSet<>(base.files().keySet());
+        removed.removeAll(next.files().keySet());
+        removed.remove(BASELINE);
+        if (delta.files().size() != changed.size() || !changed.equals(new HashSet<>(delta.files()))
+                || delta.removed().size() != removed.size() || !removed.equals(new HashSet<>(delta.removed())))
+            throw new IOException("增量新增、修改或删除列表与完整清单不一致");
+        Map<String, String> folded = new HashMap<>();
+        for (String path : base.files().keySet()) folded.put(path.toLowerCase(Locale.ROOT), path);
+        for (String path : next.files().keySet()) {
+            String prior = folded.get(path.toLowerCase(Locale.ROOT));
+            if (prior != null && !prior.equals(path)) throw new IOException("增量更新不支持仅大小写不同的路径重命名");
+        }
     }
 
     public static void validate(Manifest m) throws IOException {

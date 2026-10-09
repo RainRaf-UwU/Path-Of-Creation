@@ -14,6 +14,8 @@
   "poc_updater.button.update": "Update Now",
   "poc_updater.button.view_release": "View Release Page",
   "poc_updater.downloading": "Downloading Path of Creation v%s…\n\nAfter downloading, you can exit the game and install the update.",
+  "poc_updater.transfer.delta": "Downloading a delta package containing only changed files.",
+  "poc_updater.transfer.full": "Downloading a full package for a first upgrade, a version jump, or local file repair.",
   "poc_updater.ready": "Path of Creation v%s has been downloaded and verified.\n\nClick \"Exit and Install\". The installer waits for the game to close, then backs up and replaces files.\nRestart the game from your launcher after installation.\n\nSaves, screenshots, key bindings, and extra mods are preserved.\nOriginal files are backed up in local/poc-updater/backups.",
   "poc_updater.failed": "Update incomplete:\n%s\n\nTry again or open the release page to install manually.",
   "poc_updater.installed": "Update installed successfully.",

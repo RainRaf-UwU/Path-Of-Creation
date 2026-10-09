@@ -5,7 +5,7 @@ issueTrackerURL="https://github.com/RainRaf-UwU/Path-Of-Creation/issues"
 
 [[mods]]
 modId="poc_updater"
-version="1.0.0"
+version="1.1.0"
 displayName="创世之径自动更新"
 authors="RainRaf-UwU"
 displayURL="https://github.com/RainRaf-UwU/Path-Of-Creation"

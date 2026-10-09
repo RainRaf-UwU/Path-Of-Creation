@@ -90,9 +90,9 @@ public final class ClientUpdater {
     void download(UpdateScreen screen, UpdateCore.Release target) {
         background(() -> {
             try {
-                String sha = UpdateCore.download(target, work.resolve("update.zip"), screen::progress);
-                UpdateCore.inspect(work.resolve("update.zip"), target.version(), FMLLoader.versionInfo().mcVersion(),
-                    FMLLoader.versionInfo().neoForgeVersion());
+                String sha = UpdateCore.prepare(root, target, work.resolve("update.zip"), FMLLoader.versionInfo().mcVersion(),
+                    FMLLoader.versionInfo().neoForgeVersion(), screen::progress,
+                    selected -> Minecraft.getInstance().execute(() -> screen.transfer(selected)));
                 Minecraft.getInstance().execute(() -> screen.ready(sha));
             } catch (Exception e) {
                 LOG.warn("[POC Updater] Download failed", e);

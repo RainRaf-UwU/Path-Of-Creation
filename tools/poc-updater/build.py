@@ -14,20 +14,29 @@ ROOT = HERE.parents[1]
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--jdk", type=Path, required=True)
-    parser.add_argument("--libraries", type=Path, required=True)
-    parser.add_argument("--version-json", type=Path, required=True)
+    parser.add_argument("--libraries", type=Path)
+    parser.add_argument("--version-json", type=Path)
+    parser.add_argument("--classpath-file", type=Path, help="Reuse a previous javac argument file without reading launcher metadata")
+    parser.add_argument("--output", type=Path, help="Write the tested mod here instead of installing into the game")
     parser.add_argument("--test", action="store_true")
     args = parser.parse_args()
-    metadata = json.loads(args.version_json.read_text(encoding="utf-8-sig"))
     neo = "21.1.255"
     game = "1.21.1-20240808.144430"
-    jars = [args.libraries / f"net/neoforged/neoforge/{neo}/neoforge-{neo}-client.jar",
-            args.libraries / f"net/neoforged/neoforge/{neo}/neoforge-{neo}-universal.jar",
-            args.libraries / f"net/minecraft/client/{game}/client-{game}-srg.jar"]
-    for lib in metadata["libraries"]:
-        artifact = lib.get("downloads", {}).get("artifact", {}).get("path")
-        if artifact and (args.libraries / artifact).is_file():
-            jars.append(args.libraries / artifact)
+    separator = ";" if __import__("os").name == "nt" else ":"
+    if args.classpath_file:
+        lines = args.classpath_file.read_text(encoding="utf-8").splitlines()
+        jars = [Path(p) for p in lines[lines.index("-classpath") + 1].strip('"').split(separator)]
+    else:
+        if not args.libraries or not args.version_json:
+            parser.error("Use --classpath-file or both --libraries and --version-json")
+        metadata = json.loads(args.version_json.read_text(encoding="utf-8-sig"))
+        jars = [args.libraries / f"net/neoforged/neoforge/{neo}/neoforge-{neo}-client.jar",
+                args.libraries / f"net/neoforged/neoforge/{neo}/neoforge-{neo}-universal.jar",
+                args.libraries / f"net/minecraft/client/{game}/client-{game}-srg.jar"]
+        for lib in metadata["libraries"]:
+            artifact = lib.get("downloads", {}).get("artifact", {}).get("path")
+            if artifact and (args.libraries / artifact).is_file():
+                jars.append(args.libraries / artifact)
     jars = list(dict.fromkeys(p.resolve() for p in jars))
     missing = [str(p) for p in jars[:3] if not p.is_file()]
     if missing:
@@ -37,9 +46,10 @@ def main():
     classes = build / "classes"
     classes.mkdir(parents=True, exist_ok=True)
     sources = sorted((HERE / "src/main/java").rglob("*.java"))
+    tests = sorted((HERE / "src/test/java").rglob("*.java"))
     if args.test:
-        sources += sorted((HERE / "src/test/java").rglob("*.java"))
-    cp = (";" if __import__("os").name == "nt" else ":").join(map(str, jars))
+        sources += tests
+    cp = separator.join(map(str, jars))
     # javac argument files avoid Windows command length limits.
     def quoted(path):
         return '"' + str(path).replace("\\", "/") + '"'
@@ -52,6 +62,8 @@ def main():
         testcp = str(classes) + (";" if __import__("os").name == "nt" else ":") + str(gson)
         subprocess.run([str(args.jdk / "bin/java.exe" if __import__("os").name == "nt" else args.jdk / "bin/java"),
                         "-ea", "-cp", testcp, "creation.updater.UpdaterTest"], check=True)
+        subprocess.run([str(args.jdk / "bin/java.exe" if __import__("os").name == "nt" else args.jdk / "bin/java"),
+                        "-ea", "-cp", testcp, "creation.updater.DeltaTest"], check=True)
     helper_data = io.BytesIO()
     with zipfile.ZipFile(helper_data, "w", zipfile.ZIP_DEFLATED) as helper:
         helper.writestr("META-INF/MANIFEST.MF", "Manifest-Version: 1.0\r\nMain-Class: creation.updater.Installer\r\n\r\n")
@@ -71,15 +83,16 @@ def main():
         jar.writestr("META-INF/MANIFEST.MF", "Manifest-Version: 1.0\r\n\r\n")
         jar.write(ROOT / "LICENSE", "META-INF/licenses/POC-LICENSE")
         for file in sorted(classes.rglob("*.class")):
-            if not file.name.startswith("UpdaterTest"):
+            if not any(file.name == test.stem + ".class" or file.name.startswith(test.stem + "$") for test in tests):
                 jar.write(file, file.relative_to(classes).as_posix())
         for file in sorted((HERE / "src/main/resources").rglob("*")):
             if file.is_file():
                 jar.write(file, file.relative_to(HERE / "src/main/resources").as_posix())
         jar.writestr("poc-updater-helper.jar", helper_data.getvalue())
-    destination = ROOT / "mods" / output.name
+    destination = args.output.resolve() if args.output else ROOT / "mods" / output.name
+    destination.parent.mkdir(parents=True, exist_ok=True)
     shutil.copy2(output, destination)
-    print(f"Built and installed: {destination} ({destination.stat().st_size:,} bytes)")
+    print(f"Built: {destination} ({destination.stat().st_size:,} bytes)")
 
 
 if __name__ == "__main__":
