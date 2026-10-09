@@ -12,7 +12,6 @@ Path of Creation 是一个以科技发展与自动化为核心的 Minecraft 空�
 
 [下载 v0.1.1](https://github.com/RainRaf-UwU/Path-Of-Creation/releases/tag/v0.1.1) · [全部版本](https://github.com/RainRaf-UwU/Path-Of-Creation/releases) · [反馈问题](https://github.com/RainRaf-UwU/Path-Of-Creation/issues)
 
-[查看 v0.1.1 之后的开发更新记录](docs/changes-after-v0.1.1/README.md)（Git 主分支内容，尚未发布为新的正式版本）。
 
 ## 整合包特色
 
