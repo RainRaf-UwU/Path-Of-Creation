@@ -1,25 +1,9 @@
 {
-  "version": "0.1.2",
-  "notes": "临时增量更新测试 / Temporary delta update test\n\n仅用于验证 v0.1.1 -> v0.1.2 的在线增量更新。新增无害标记文件及 KubeJS 启动日志；测试结束后删除此 Release。请勿用于正式游玩。\n\nAdds a harmless marker and a startup log for this temporary online test. This release will be deleted after verification.",
-  "page": "https://github.com/RainRaf-UwU/Path-Of-Creation/releases/tag/v0.1.2",
-  "download": "https://github.com/RainRaf-UwU/Path-Of-Creation/releases/download/v0.1.2/path-of-creation-update.zip",
-  "digest": "sha256:88c5f294a80cfbc0bf9251a7f3b2a23707cfd87ce9a4a00812a4075365a000c1",
-  "checksum": "https://github.com/RainRaf-UwU/Path-Of-Creation/releases/download/v0.1.2/path-of-creation-update.zip.sha256",
-  "size": 475613588,
-  "deltas": [
-    {
-      "from": "0.1.1",
-      "download": "https://github.com/RainRaf-UwU/Path-Of-Creation/releases/download/v0.1.2/path-of-creation-delta-from-v0.1.1.zip",
-      "digest": "sha256:0200c9e22de396b663d68bd90dbaf802bf3b33b48fc184a02d900add4ca23a43",
-      "checksum": "https://github.com/RainRaf-UwU/Path-Of-Creation/releases/download/v0.1.2/path-of-creation-delta-from-v0.1.1.zip.sha256",
-      "size": 517440
-    },
-    {
-      "from": "0.1",
-      "download": "https://github.com/RainRaf-UwU/Path-Of-Creation/releases/download/v0.1.2/path-of-creation-delta-from-v0.1.zip",
-      "digest": "sha256:3eaf43b1c6f948ba9f693c2817b15e09bd91ff9bbea5bbefcec5db4d0b23b7d5",
-      "checksum": "https://github.com/RainRaf-UwU/Path-Of-Creation/releases/download/v0.1.2/path-of-creation-delta-from-v0.1.zip.sha256",
-      "size": 1249161
-    }
-  ]
+  "version": "0.1.1",
+  "notes": "## v0.1.1 更新内容\n\n- 新增 English (US) / en_us 支持：补齐 290 项 FTB Quests 文本，覆盖章节、任务标题、说明与提示。\n- 完善 KubeJS 英文支持：物品提示、创造元件名称、建筑模板名称、隐藏成就、剧情打字效果及答题提示；剧情按各玩家的语言显示，保留中文。\n- 为 FancyMenu 彩蛋提示和客户端更新界面添加中英文文本。\n- 修复建筑小帮手模板无法显示、无法载入的问题：进入世界时补齐 7 份任务建筑数据，已领取模板继续可用，保留玩家已有建筑。\n- 修复更新说明正文被背景模糊覆盖的问题。\n- 更新整合包 Logo：融入原有标题图片，调整齿轮、光照与紫色虚空背景；提供 256×256 PCL 图标和高清版本，本机 PCL 已安装新版图标。\n- 完善中文 README，新增完整英文 README 与语言切换链接；明确第六章尚未完成、仍在制作中。\n\n语言切换：在游戏“选项 → 语言”中选择 English (US)；FTB Quests 的语言覆盖选项保持空白。更换语言后重开任务书。安装后完整重启游戏，进入世界以应用任务模板修复。\n\n运行环境：Minecraft 1.21.1 / NeoForge 21.1.255 / Java 21。\n\n下载与安装：`path-of-creation-update.zip` 是整合包文件更新包，不含 Minecraft 本体或启动器运行库。首次安装请先创建上述 NeoForge 实例，再解压到实例游戏目录；已有实例可通过自动更新器安装。更新前备份重要存档。\n\nPCL 图标：更新包内 `config/fancymenu/assets/pack_icon.png`，或下载附件 `path-of-creation-icon-256-v2.png` 并在 PCL 的版本图标设置中选择；高清 Logo 也作为附件提供。\n\n## v0.1.1 changes\n\n- Added English (US) / en_us support for all 290 FTB Quests text entries, including chapters, quest titles, descriptions, and hints.\n- Expanded KubeJS localization for item tooltips, creative cell names, building template names, the hidden advancement, animated story text, and quiz prompts. Story text follows each player's language; Chinese remains available.\n- Localized the FancyMenu Easter egg hint and the client updater interface.\n- Fixed Building Gadgets templates failing to display or load: seven quest blueprints are restored when entering a world. Previously claimed templates remain usable, and existing player blueprints are preserved.\n- Fixed background blur obscuring the update notes.\n- Refined the pack logo using the original title artwork, revised gears and lighting, and a purple void background. A 256×256 PCL icon and a high-resolution version are provided; the revised icon is installed in the author's local PCL instance.\n- Improved the Chinese README, added a complete English README with language links, and marked Chapter 6 as unfinished and still in development.\n\nLanguage: choose English (US) in Options → Language. Leave FTB Quests locale overrides blank, then reopen the quest book. Restart the game after installation and enter a world to apply the template fix.\n\nRequirements: Minecraft 1.21.1 / NeoForge 21.1.255 / Java 21.\n\n`path-of-creation-update.zip` contains the managed modpack files, not Minecraft or launcher libraries. For a first installation, create a matching NeoForge instance before extracting the ZIP into its game directory. Existing instances can use the updater. Back up important saves before updating.\n\nFor PCL, choose `config/fancymenu/assets/pack_icon.png` from the update ZIP or the attached `path-of-creation-icon-256-v2.png` as the instance icon. The high-resolution logo is also attached.\n",
+  "page": "https://github.com/RainRaf-UwU/Path-Of-Creation/releases/tag/v0.1.1",
+  "download": "https://github.com/RainRaf-UwU/Path-Of-Creation/releases/download/v0.1.1/path-of-creation-update.zip",
+  "digest": "sha256:dea0f2ab92273059d1a58a7cd1661918d9b585d22fde54f3e0f47ec4c8a74443",
+  "checksum": "https://github.com/RainRaf-UwU/Path-Of-Creation/releases/download/v0.1.1/path-of-creation-update.zip.sha256",
+  "size": 475601406
 }
