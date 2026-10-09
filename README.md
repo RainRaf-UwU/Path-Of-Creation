@@ -10,9 +10,8 @@
 
 Path of Creation 是一个以科技发展与自动化为核心的 Minecraft 空岛整合包。你将出生在虚空中的单方块空岛上，利用整合包提供的交互机制与自定义配方获取最初的资源，再逐渐搭建产线、发展能源、探索维度，走上创世之径。
 
-[下载 v0.1.1](https://github.com/RainRaf-UwU/Path-Of-Creation/releases/tag/v0.1.1) · [全部版本](https://github.com/RainRaf-UwU/Path-Of-Creation/releases) · [反馈问题](https://github.com/RainRaf-UwU/Path-Of-Creation/issues)
+[下载 v2.0](https://github.com/RainRaf-UwU/Path-Of-Creation/releases/tag/v2.0) · [全部版本](https://github.com/RainRaf-UwU/Path-Of-Creation/releases) · [反馈问题](https://github.com/RainRaf-UwU/Path-Of-Creation/issues)
 
-[查看 v0.1.1 之后的开发更新记录](docs/changes-after-v0.1.1/README.md)（Git 主分支内容，尚未发布为新的正式版本）。
 
 ## 整合包特色
 
@@ -20,7 +19,7 @@ Path of Creation 是一个以科技发展与自动化为核心的 Minecraft 空�
 - **自定义资源获取**：通过方块交互、流体转化、雷击、维度转换等机制推进发展，具体条件可在任务书与 JEI 中查看。
 - **科技与自动化**：围绕机械动力、通用机械、应用能源 2、工业先锋、Oritech、末影接口等模组建设产线，把手工生产逐步转为自动化。
 - **专属机器与材料**：包含自定义流体处理、复制、染色、虚空采矿等机器，以及贯穿进度的材料、升级与终极物品。
-- **中英文任务引导**：前五章共 450 个任务，通过章节目标连接不同科技阶段；第六章尚未完成，仍在制作中。
+- **中英文任务引导**：前五章共 448 个任务，通过章节目标连接不同科技阶段；第六章尚未完成，仍在制作中。
 - **客户端更新提示**：包含自动更新模组，启动游戏时检查正式 Release，可选择立即更新或稍后再说。
 
 ## 任务进程
@@ -38,7 +37,7 @@ Path of Creation 是一个以科技发展与自动化为核心的 Minecraft 空�
 
 ## 运行环境
 
-| 项目 | v0.1.1 使用版本 |
+| 项目 | v2.0 使用版本 |
 | --- | --- |
 | Minecraft | 1.21.1 |
 | 模组加载器 | NeoForge 21.1.255 |
@@ -47,7 +46,7 @@ Path of Creation 是一个以科技发展与自动化为核心的 Minecraft 空�
 ## 安装与开始游玩
 
 1. 在支持 NeoForge 的 Minecraft 启动器中创建独立实例，安装 Minecraft **1.21.1** 与 NeoForge **21.1.255**，使用 **Java 21**。
-2. 从 [Release 页面](https://github.com/RainRaf-UwU/Path-Of-Creation/releases/tag/v0.1.1) 下载 `path-of-creation-update.zip`，将其中的整合包文件解压到该实例的游戏目录。首次安装必须先完成上一步的游戏与加载器安装。
+2. 从 [Release 页面](https://github.com/RainRaf-UwU/Path-Of-Creation/releases/tag/v2.0) 下载 `path-of-creation-update.zip`，将其中的整合包文件解压到该实例的游戏目录。首次安装必须先完成上一步的游戏与加载器安装。
 3. 启动游戏，使用 Skyblock Builder 的空岛世界类型创建新世界，使用整合包提供的 **Rain** 岛屿模板。
 4. 打开 FTB Quests 任务书，从“欢迎”和“第一章：无中生有”开始。
 
@@ -64,6 +63,26 @@ Path of Creation 是一个以科技发展与自动化为核心的 Minecraft 空�
 支持简体中文与 **English (US)**。在游戏“选项 → 语言”中切换，FTB Quests 的语言覆盖选项保持空白，再重开任务书。自定义物品、提示、剧情及更新界面会使用所选语言。
 
 PCL 用户可将 `config/fancymenu/assets/pack_icon.png` 设置为版本图标；Release 同时提供 256×256 图标和高清 Logo。
+
+## v2.0 更新内容
+
+- 新增 **47 个 JEI 展示配方**，覆盖世界交互、数据模型、钓鱼和雷击转化。
+- 修复已知bug。
+- 全面更新深色青蓝科技 UI，优化背包、合成界面、JEI、任务书和快捷栏；增加主菜单、世界选择装饰与原创世界加载页面。
+- 新增星核光标和青蓝双环点击特效，修复任务页或章节切换后光标丢失的问题。
+- 新增主菜单舒缓电子配乐《虚空初光 / Void Dawn》；完善左键点击音效，避免按钮声音重复叠加。
+- “提示与技巧”从 17 条扩展至 36 条，补齐中英文说明；第三章更名为“虚空初光 / Void Dawn”。
+- 修复剧情翻译初始化和 UI 资源自动加载兼容问题，同步模组汉化资源与配置。
+- 新增增量更新器，支持较小补丁下载、完整包回退、差异安装、SHA-256 校验与失败回滚。
+- 完善中英文 README 和 Discord 社区入口。
+
+JEI 新增内容为展示配方，用于查询交互条件和产物，不增加重复的实际产出。任务整理同步移除了第四章药水工厂和第五章五级虚空采矿的两个独立模板领取节点；主线章节解锁依赖保持不变。第六章仍在制作中。
+
+运行环境：**Minecraft 1.21.1 / NeoForge 21.1.255 / Java 21**。
+
+首次安装：下载 `path-of-creation-update.zip`，在启动器中建立匹配的 NeoForge 实例后解压到游戏目录。完整包不包含 Minecraft 本体、Java 或启动器运行库。
+
+已有实例：可通过客户端更新器安装。旧更新器首次升级会使用完整包；已经支持增量的客户端会自动选择适用补丁，不适用时回退完整包。增量 ZIP 不用于首次安装。更新前备份重要存档，安装完成后完整重启游戏。
 
 ## v0.1.1 更新内容
 

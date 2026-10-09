@@ -10,9 +10,7 @@
 
 Path of Creation is a Minecraft skyblock modpack focused on technology and automation. You begin on a single-block island in the void, gather your first resources through custom interactions and recipes, then build production lines, develop power systems, and explore dimensions as you follow the path of creation.
 
-[Download v0.1.1](https://github.com/RainRaf-UwU/Path-Of-Creation/releases/tag/v0.1.1) · [All releases](https://github.com/RainRaf-UwU/Path-Of-Creation/releases) · [Report an issue](https://github.com/RainRaf-UwU/Path-Of-Creation/issues)
-
-[Development changes since v0.1.1 (Chinese)](../changes-after-v0.1.1/README.md). These changes are in the Git main branch and have not been published as a new official release.
+[Download v2.0](https://github.com/RainRaf-UwU/Path-Of-Creation/releases/tag/v2.0) · [All releases](https://github.com/RainRaf-UwU/Path-Of-Creation/releases) · [Report an issue](https://github.com/RainRaf-UwU/Path-Of-Creation/issues)
 
 ## Features
 
@@ -20,7 +18,7 @@ Path of Creation is a Minecraft skyblock modpack focused on technology and autom
 - **Custom resource acquisition:** Progress through block interactions, fluid transformations, lightning strikes, dimension changes, and more. Check the quest book and JEI for specific requirements.
 - **Technology and automation:** Build production lines around Create, Mekanism, Applied Energistics 2, Industrial Foregoing, Oritech, Ender IO, and other mods, gradually replacing manual work with automation.
 - **Custom machines and materials:** Use custom fluid-processing, replication, dyeing, and void-mining machines, along with materials, upgrades, and ultimate items that connect the stages of progression.
-- **Chinese and English quest guidance:** The first five chapters contain 450 quests linking the technology stages. Chapter 6 is unfinished and still in development. Both Simplified Chinese and English (US) quest text are available.
+- **Chinese and English quest guidance:** The first five chapters contain 448 quests linking the technology stages. Chapter 6 is unfinished and still in development. Both Simplified Chinese and English (US) quest text are available.
 - **Client update notifications:** An included updater checks for official GitHub releases when the game starts, letting you update immediately or postpone it.
 
 ## Quest progression
@@ -40,7 +38,7 @@ The quest book is both a guide and part of progression. Each chapter's ultimate 
 
 ## Requirements
 
-| Component | Version used by v0.1.1 |
+| Component | Version used by v2.0 |
 | --- | --- |
 | Minecraft | 1.21.1 |
 | Mod loader | NeoForge 21.1.255 |
@@ -49,7 +47,7 @@ The quest book is both a guide and part of progression. Each chapter's ultimate 
 ## Installation and getting started
 
 1. Create a separate instance in a Minecraft launcher that supports NeoForge. Install Minecraft **1.21.1** and NeoForge **21.1.255**, and use **Java 21**.
-2. Download `path-of-creation-update.zip` from the [v0.1.1 release page](https://github.com/RainRaf-UwU/Path-Of-Creation/releases/tag/v0.1.1), then extract the modpack files into that instance's game directory. For a first installation, complete the game and loader setup in step 1 first.
+2. Download `path-of-creation-update.zip` from the [v2.0 release page](https://github.com/RainRaf-UwU/Path-Of-Creation/releases/tag/v2.0), then extract the modpack files into that instance's game directory. For a first installation, complete the game and loader setup in step 1 first.
 3. Launch the game and create a new world using Skyblock Builder's skyblock world type and the included **Rain** island template.
 4. Open the FTB Quests book and begin with “Welcome” and “Chapter 1: Something from Nothing”.
 
@@ -66,6 +64,26 @@ The updater backs up replaced managed files and preserves saves, extra mods adde
 Choose **English (US)** or Simplified Chinese in Options → Language. Leave FTB Quests locale overrides blank, then reopen the quest book. Custom items, hints, story text, and the updater interface use your selected language.
 
 PCL users can select `config/fancymenu/assets/pack_icon.png` as the instance icon. The release also includes a 256×256 icon and a high-resolution logo.
+
+## v2.0 changes
+
+- Added **47 JEI display recipes** covering world interactions, data models, fishing, and lightning transformations.
+- Fixed known bugs.
+- Updated the dark cyan technology UI for inventories, crafting, JEI, quests, and the hotbar; added title/world-selection decorations and custom world-loading screens.
+- Added the star-core cursor and cyan double-ring click effects; fixed the cursor disappearing after quest-page or chapter changes.
+- Added the relaxing electronic title music "Void Dawn" and improved left-click audio without duplicate button sounds.
+- Expanded Tips and Tricks from 17 to 36 entries with bilingual guidance; renamed Chapter 3 to "Void Dawn".
+- Fixed story translation initialization and automatic UI resource-loading compatibility; synchronized localization resources and configurations.
+- Added incremental updates with smaller patches, full-package fallback, differential installation, SHA-256 verification, and rollback on failure.
+- Improved the Chinese/English README and Discord community links.
+
+The new JEI entries display existing interactions and do not create duplicate survival outputs. Quest cleanup removes two standalone template-claim nodes in Chapters 4 and 5; chapter-unlock dependencies remain unchanged. Chapter 6 is still in development.
+
+Requirements: **Minecraft 1.21.1 / NeoForge 21.1.255 / Java 21**.
+
+For a first installation, create a matching NeoForge instance and extract `path-of-creation-update.zip` into its game directory. The full ZIP does not include Minecraft, Java, or launcher libraries.
+
+Existing clients can use the updater. Older updaters use a full package for their first upgrade; incremental-capable clients choose an applicable patch and fall back to the full package when necessary. Delta ZIPs are not first-installation packages. Back up important saves and restart the game after installation.
 
 ## v0.1.1 changes
 
