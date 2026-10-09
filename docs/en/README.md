@@ -31,7 +31,7 @@ Chapter names follow your selected game language.
 | --- | --- |
 | Chapter 1 | Something from Nothing · 无中生有 |
 | Chapter 2 | Hard Work Pays Off · 苦尽甘来 |
-| Chapter 3 | Uncovering the Truth · 探明真相 |
+| Chapter 3 | Void Dawn · 虚空初光 |
 | Chapter 4 | Path of Creation · 创世之径 |
 | Chapter 5 | Creative Mode? · 创造模式？ |
 | Optional Chapter 6 | Stairway to Ascension · 登神长阶 — unfinished, in development |

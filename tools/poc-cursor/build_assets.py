@@ -1,4 +1,4 @@
-"""Rebuild the original RGBA cursor and static handoff preview using only stdlib."""
+"""Build the code-authored Star Core cursor; Pillow is used only for the static preview."""
 import json
 import math
 import struct
@@ -36,58 +36,90 @@ def main():
     pixels = bytearray(size*size*4)
     def shape(points, value):
         polygon(pixels,size,size,points,color(value))
-    # Layered armour rather than a flat triangle; each accent remains at least one pixel wide.
-    shape([(2,2),(2,38),(12,30),(19,46),(28,42),(21,28),(39,27)],'#09111C')
-    shape([(3,4),(3,35),(12,27),(20,44),(26,41),(18,26),(36,26)],'#35536B')
-    shape([(4,6),(4,32),(12,24),(21,41),(24,40),(17,25),(32,25)],'#A8C8D1')
-    shape([(5,8),(5,29),(12,22),(20,38),(22,37),(15,23),(29,24)],'#142336')
-    shape([(6,10),(6,26),(13,20),(26,22)],'#1E344B')
-    shape([(7,12),(7,24),(13,19),(23,21)],'#286879')
-    # Bright front bevel, split armour plates and metallic shaft.
-    shape([(3,4),(4,6),(4,31),(3,34)],'#58D9EA')
-    shape([(5,7),(32,25),(28,24),(6,10)],'#E0EDF5')
-    shape([(13,24),(14,23),(23,40),(21,41)],'#58D9EA')
-    shape([(17,27),(18,27),(25,41),(24,41)],'#667586')
-    shape([(6,28),(12,23),(13,24),(6,30)],'#E0EDF5')
-    # Internal circuit with two junctions, status light, engraved vents and edge markers.
-    shape([(8,17),(9,17),(9,21),(14,21),(14,22),(8,22)],'#58D9EA')
-    shape([(13,17),(15,17),(15,19),(13,19)],'#7AD9B0')
-    shape([(18,21),(20,21),(20,23),(18,23)],'#E0EDF5')
-    shape([(10,14),(11,15),(10,16),(9,15)],'#E0EDF5')
-    for k in range(3):
-        x=16+k*3
-        shape([(x,23),(x+2,23),(x+3,24),(x+1,24)],'#58D9EA')
-    shape([(4,14),(5,14),(5,17),(4,17)],'#7AD9B0')
-    shape([(4,21),(5,21),(5,24),(4,24)],'#58D9EA')
-    shape([(27,27),(34,27),(34,28),(27,28)],'#58D9EA')
-    shape([(20,43),(24,41),(25,42),(21,44)],'#7AD9B0')
-    # The arrow tip is the native click hotspot, including its visible outline.
-    pixels[(2*size+2)*4:(2*size+2)*4+4] = color(TOKENS['palette']['left'])
-    for path in [HERE/'assets/cursor.png', HERE/'src/main/resources/assets/poc_cursor/textures/cursor.png']:
-        png(path,size,size,pixels)
-    width,height=640,192
-    preview=bytearray(color(TOKENS['palette']['panel'])*(width*height))
+    palette=TOKENS['palette']
+    def pixel(x,y,value):
+        pixels[(y*size+x)*4:(y*size+x)*4+4]=color(value)
+    def stroke(points,width,value):
+        for y in range(size):
+            for x in range(size):
+                px,py=x+.5,y+.5
+                for (x1,y1),(x2,y2) in zip(points,points[1:]):
+                    dx,dy=x2-x1,y2-y1
+                    t=max(0,min(1,((px-x1)*dx+(py-y1)*dy)/(dx*dx+dy*dy)))
+                    if math.hypot(px-x1-t*dx,py-y1-t*dy)<=width/2:
+                        pixel(x,y,value);break
+    def radial(angle,start,end,width,value):
+        theta=math.radians(angle)
+        stroke([(24.5+math.cos(theta)*r,24.5+math.sin(theta)*r) for r in (start,end)],width,value)
+    # Small telemetry dashes sit inside the orbit, leaving the center clear.
+    for angle in (38,145,216,326): radial(angle,8.0,8.6,1,palette['silver'])
+    # Short axes lead the eye to the exact center without covering the target.
+    for a,b in [((24.5,16.5),(24.5,19.5)),((29.5,24.5),(32.5,24.5)),
+                ((24.5,29.5),(24.5,32.5)),((16.5,24.5),(19.5,24.5))]:
+        stroke([a,b],3,palette['void']);stroke([a,b],1,palette['silver'])
+    shape([(24.5,21),(28,24.5),(24.5,28),(21,24.5)],palette['void'])
+    for x,y in [(22,22),(26,22),(22,26),(26,26)]: pixel(x,y,palette['steel'])
+    for x,y in [(24,23),(23,24),(25,24),(24,25)]: pixel(x,y,palette['left'])
+    # The brightest pixel is also the GLFW hotspot.
+    pixel(TOKENS['cursor']['hotspot_x'],TOKENS['cursor']['hotspot_y'],palette['text'])
+    # Straight-alpha RGBA: two cyan rings and a faint membrane between them.
+    ring=TOKENS['outer_ring']
+    inner_ring=TOKENS['inner_ring']
+    inner_start=inner_ring['radius']-inner_ring['width']/2
+    inner_end=inner_ring['radius']+inner_ring['width']/2
+    outer_start=ring['radius']-ring['width']/2
+    outer_end=ring['radius']+ring['width']/2
+    samples=ring['samples_per_axis']
+    def layer_alpha(distance):
+        if inner_start<=distance<=inner_end: return inner_ring['alpha']
+        if inner_end<distance<outer_start: return TOKENS['membrane']['alpha']
+        if outer_start<=distance<=outer_end: return ring['alpha']
+        return 0
     for y in range(size):
         for x in range(size):
-            rgba=pixels[(y*size+x)*4:(y*size+x)*4+4]
-            if rgba[3]:
-                for yy in range(3):
-                    for xx in range(3):
-                        at=((24+y*3+yy)*width+24+x*3+xx)*4
-                        preview[at:at+4]=rgba
-    for i,t in enumerate([.0,.25,.6,.9]):
-        cx,cy=228+i*112,94
-        radius=(3+10*(1-(1-t)**3))*3
-        rgb=color(TOKENS['palette']['left'])
-        alpha=.68*(1-t)**2
-        for y in range(height):
-            for x in range(max(0,cx-50),min(width,cx+51)):
-                if abs(math.hypot(x-cx,y-cy)-radius)<1.2:
-                    at=(y*width+x)*4
-                    preview[at:at+3]=bytes(round(rgb[k]*alpha+preview[at+k]*(1-alpha)) for k in range(3))
-    png(HERE/'preview.png',width,height,preview)
-    (HERE/'preview.html').write_text('<!doctype html><meta charset="utf-8"><title>创世之径光标静态预览</title><style>body{background:#09111c;color:#e0edf5;font:16px sans-serif;padding:32px}img{image-rendering:pixelated;max-width:100%}</style><h1>青蓝装甲光标与点击扩散</h1><img src="preview.png"><p>箭头放大 3 倍；光环依次显示 0%、25%、60%、90% 时间状态。静态设计预览，不是游戏截图。</p><p>原尺寸：<img src="assets/cursor.png" width="48" height="48"></p>',encoding='utf-8')
-    print('Built detailed RGBA cursor (48x48, hotspot 2,2) and static preview')
+            # The original core and axis pixels take precedence over the rings.
+            if pixels[(y*size+x)*4+3]: continue
+            alpha=round(sum(
+                layer_alpha(math.hypot(x+(sx+.5)/samples-24.5,y+(sy+.5)/samples-24.5))
+                for sy in range(samples) for sx in range(samples)
+            )/(samples*samples))
+            if alpha:
+                pixels[(y*size+x)*4:(y*size+x)*4+4]=color(ring['color'],alpha)
+
+    for path in [HERE/'assets/cursor.png', HERE/'src/main/resources/assets/poc_cursor/textures/cursor.png']:
+        png(path,size,size,pixels)
+    preview()
+    (HERE/'preview.html').write_text('''<!doctype html><meta charset="utf-8"><title>创世之径 · 虚空星核光标</title>
+<style>body{background:#09111c;color:#e0edf5;font:16px system-ui,sans-serif;padding:32px}img{max-width:100%;image-rendering:pixelated}.demo{display:inline-grid;place-items:center;width:240px;height:120px;margin:12px;border:1px solid #35536b;cursor:url("assets/cursor.png") 24 24, crosshair}.light{background:#e0edf5;color:#142336}</style>
+<h1>星核 · 青蓝双环与透明薄膜</h1><img src="preview.png"><p>中间星核保持原样，内外环均为完整半透明青蓝圆环，环间铺淡青蓝透明薄膜。内环约43%、外环约55%、膜约8%不透明度。中心白点是实际点击位置，原尺寸48×48，热点(24,24)。下方区域可以体验新指针形状。</p>
+<div class="demo">深色区域</div><div class="demo light">浅色区域</div><p>这是静态预览，不是Minecraft实机截图。原有点击扩散效果保留。</p>''',encoding='utf-8')
+    print('Built Star Core with translucent cyan rings and membrane (48x48, hotspot 24,24) and static preview')
+
+def preview():
+    from PIL import Image, ImageDraw, ImageFont
+    panel=Image.new('RGB',(960,420),TOKENS['palette']['void'])
+    draw=ImageDraw.Draw(panel)
+    font_path=Path('C:/Windows/Fonts/msyh.ttc')
+    font=lambda size: ImageFont.truetype(str(font_path),size) if font_path.is_file() else ImageFont.load_default()
+    draw.text((32,21),'星核 · 青蓝双环  /  CYAN RINGS',fill=TOKENS['palette']['text'],font=font(25))
+    draw.text((32,61),'中心星核保留 · 半透明同心圆环 · 环间透明薄膜 / 约8%不透明度',fill='#A8C8D1',font=font(15))
+    sprite=Image.open(HERE/'assets/cursor.png')
+    draw.rounded_rectangle((32,104,280,344),radius=12,fill='#142336',outline='#35536B')
+    panel.paste(sprite.resize((144,144),Image.Resampling.NEAREST),(84,139),sprite.resize((144,144),Image.Resampling.NEAREST))
+    draw.text((88,308),'结构放大 3×',fill='#A8C8D1',font=font(15))
+    for x,label,bg,fg in [(308,'深色面板','#142336','#E0EDF5'),(524,'浅色面板','#E0EDF5','#142336'),(740,'纹理背景',None,'#E0EDF5')]:
+        draw.rounded_rectangle((x,104,x+188,344),radius=12,fill=bg or '#26364A',outline='#35536B')
+        if bg is None:
+            for yy in range(144,285,12):
+                for xx in range(x+12,x+177,12):
+                    draw.rectangle((xx,yy,xx+11,yy+11),fill='#34495E' if ((xx-x)//12+yy//12)%2 else '#26364A')
+        draw.text((x+22,118),label,fill=fg,font=font(15))
+        draw.rounded_rectangle((x+22,174,x+166,267),radius=6,outline='#667586',width=1)
+        cx,cy=x+94,221
+        panel.paste(sprite,(cx-24,cy-24),sprite)
+        draw.text((x+27,296),'原尺寸 48×48',fill=fg,font=font(15))
+    draw.text((32,369),'热点 (24,24)  ·  透明 RGBA  ·  静态素材预览，游戏内测试由作者完成',fill='#A8C8D1',font=font(15))
+    panel.save(HERE/'preview.png')
 
 if __name__ == '__main__':
     main()

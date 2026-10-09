@@ -1,5 +1,5 @@
 {
-  "ui.button.click": {
+  "poc_mouse_click": {
     "replace": true,
     "sounds": [
       {

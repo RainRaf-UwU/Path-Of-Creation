@@ -32,7 +32,8 @@ final class GlfwCursor implements CursorController.NativeAccess {
             pixels.flip();
             try (GLFWImage nativeImage = GLFWImage.malloc()) {
                 nativeImage.width(48).height(48).pixels(pixels);
-                long handle = GLFW.glfwCreateCursor(nativeImage, 2, 2);
+                // Star Core is centered on its bright pixel, rather than an arrow tip.
+                long handle = GLFW.glfwCreateCursor(nativeImage, 24, 24);
                 if (handle == 0) warn.accept("Native cursor creation failed; using the existing cursor");
                 return handle;
             }
