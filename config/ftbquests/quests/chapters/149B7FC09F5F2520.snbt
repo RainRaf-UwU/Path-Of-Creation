@@ -2,20 +2,19 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	disable_toast: true
-	filename: "149B7FC09F5F2520"
+	filename: "149b7fc09f5f2520"
 	group: "315BDB53A7CCE29F"
 	icon: {
 		id: "occultism:datura_seeds"
 	}
 	id: "149B7FC09F5F2520"
+	images: [ ]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["2ABCB692F4717BC5"]
 			id: "6AF2EC1AD55B8A3F"
-			shape: "pentagon"
-			size: 2.0d
 			rewards: [
 				{
 					id: "082C6E2A1330CFC4"
@@ -34,6 +33,8 @@
 					type: "item"
 				}
 			]
+			shape: "pentagon"
+			size: 2.0d
 			tasks: [{
 				id: "05BE872DEDF7E7CD"
 				type: "checkmark"
@@ -134,8 +135,6 @@
 		{
 			dependencies: ["7BBA8A94AD9BBF4A"]
 			id: "1CA94F9BDC56A763"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [
 				{
 					id: "2BCC10AF779326CF"
@@ -151,6 +150,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "27F5B9F5E7FE7A7E"
 				item: { count: 1, id: "minecraft:bedrock" }
@@ -188,8 +189,6 @@
 		{
 			dependencies: ["1CA94F9BDC56A763"]
 			id: "544F601A9C53D0FF"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [
 				{
 					id: "15CFFE64BBAB0B6F"
@@ -205,19 +204,19 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "07BFB2B7833B823A"
 				item: { count: 1, id: "enderio:grains_of_infinity" }
 				type: "item"
 			}]
 			x: -8.63d
-			y: 5.70d
+			y: 5.7d
 		}
 		{
 			dependencies: ["544F601A9C53D0FF"]
 			id: "1D870FBB846B5FC1"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [
 				{
 					id: "121546A1DEDDEC0B"
@@ -233,13 +232,15 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "1A500A8E3E9CDE73"
 				item: { count: 1, id: "enderio:void_chassis" }
 				type: "item"
 			}]
 			x: -0.93d
-			y: 0.50d
+			y: 0.5d
 		}
 		{
 			dependencies: ["6AF2EC1AD55B8A3F"]
@@ -270,8 +271,6 @@
 		{
 			dependencies: ["6AF2EC1AD55B8A3F"]
 			id: "306837A149DBA7C5"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [
 				{
 					id: "5CBA205BFBF735B6"
@@ -287,6 +286,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "2B8481977B6F10FC"
 				item: { count: 1, id: "actuallyadditions:black_quartz" }
@@ -298,8 +299,6 @@
 		{
 			dependencies: ["306837A149DBA7C5"]
 			id: "22FC10A0647B5446"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [
 				{
 					id: "77AF71C0CD714690"
@@ -315,6 +314,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "1E8875475E1189E2"
 				item: { count: 1, id: "actuallyadditions:iron_casing" }
@@ -326,8 +327,6 @@
 		{
 			dependencies: ["22FC10A0647B5446"]
 			id: "7BBA8A94AD9BBF4A"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [
 				{
 					id: "2F4A95FBFE62FFB0"
@@ -343,6 +342,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "1CD6ADB03577322B"
 				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
@@ -374,8 +375,6 @@
 				"316F5374AA73DACC"
 			]
 			id: "14FA8855E114E84C"
-			shape: "gear"
-			size: 2.0d
 			rewards: [
 				{
 					id: "5F7EDB32D530D64C"
@@ -391,6 +390,8 @@
 					type: "item"
 				}
 			]
+			shape: "gear"
+			size: 2.0d
 			tasks: [{
 				id: "1AE5B3B23ACDCDCB"
 				item: { count: 1, id: "aether:altar" }
@@ -480,8 +481,6 @@
 		{
 			dependencies: ["14FA8855E114E84C"]
 			id: "7BFB449F5CD3D359"
-			shape: "gear"
-			size: 1.25d
 			rewards: [
 				{
 					id: "4AA6A22CE52329A9"
@@ -497,6 +496,8 @@
 					type: "item"
 				}
 			]
+			shape: "gear"
+			size: 1.25d
 			tasks: [{
 				id: "329ED7B3660EE945"
 				item: { count: 1, id: "dailyshop:daily_shop" }
@@ -560,8 +561,6 @@
 		{
 			dependencies: ["14FA8855E114E84C"]
 			id: "72A6C55EFAA6BA6A"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [
 				{
 					id: "1640B22D1E873CCD"
@@ -577,6 +576,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "5A5BFD40800811FD"
 				item: { count: 1, id: "extendedcrafting:black_iron_ingot" }
@@ -617,8 +618,6 @@
 				"431528ECA5E58153"
 			]
 			id: "48143F51B3F40FF4"
-			shape: "gear"
-			size: 2.0d
 			rewards: [
 				{
 					id: "3C3248904714EAE7"
@@ -642,6 +641,8 @@
 					type: "item"
 				}
 			]
+			shape: "gear"
+			size: 2.0d
 			tasks: [{
 				id: "73392682C1E616B6"
 				item: { count: 1, id: "immersiveengineering:workbench" }
@@ -656,8 +657,6 @@
 				"27B6868C50327017"
 			]
 			id: "3C929F89B27C4AEB"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [
 				{
 					id: "189DF20FECDC0884"
@@ -673,6 +672,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "2EAFDADACB7CAA69"
 				item: { count: 1, id: "alltheores:steel_gear" }
@@ -684,8 +685,6 @@
 		{
 			dependencies: ["3C929F89B27C4AEB"]
 			id: "338492144D5D73D7"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [
 				{
 					id: "12A18CE0DB9F8C30"
@@ -701,6 +700,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "60550AA56B49B025"
 				item: { count: 1, id: "ae2:entropy_manipulator" }
@@ -712,8 +713,6 @@
 		{
 			dependencies: ["338492144D5D73D7"]
 			id: "6D5C60E5EF49C108"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [{
 				id: "14B00930240C8CB7"
 				item: {
@@ -722,6 +721,8 @@
 				}
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "3A0DE3119E5AA77F"
 				item: { count: 1, id: "minecraft:snowball" }
@@ -733,8 +734,6 @@
 		{
 			dependencies: ["6D5C60E5EF49C108"]
 			id: "3345A3BC7EEBEE8E"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [
 				{
 					id: "61E9B12A3DF4B3EE"
@@ -750,6 +749,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "72421947AE8E0037"
 				item: { count: 1, id: "minecraft:snow_block" }
@@ -782,7 +783,7 @@
 				type: "item"
 			}]
 			x: 22.89d
-			y: 3.20d
+			y: 3.2d
 		}
 		{
 			dependencies: [
@@ -790,8 +791,6 @@
 				"3345A3BC7EEBEE8E"
 			]
 			id: "210EBD81AA739E67"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [
 				{
 					id: "0F4D6B3514876BB0"
@@ -807,6 +806,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "76CC4364095FAC4E"
 				item: { count: 1, id: "mysticalagriculture:ice_essence" }
@@ -818,8 +819,6 @@
 		{
 			dependencies: ["210EBD81AA739E67"]
 			id: "57126898930D97C1"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [
 				{
 					id: "16BA7FA0E7F90E8B"
@@ -835,6 +834,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "3C9E168C66964ACC"
 				item: { count: 1, id: "minecraft:packed_ice" }
@@ -846,8 +847,6 @@
 		{
 			dependencies: ["57126898930D97C1"]
 			id: "007DA0D01C23472C"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [
 				{
 					id: "7C951CF9465BA3C9"
@@ -863,6 +862,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "354836427B449387"
 				item: { count: 1, id: "minecraft:blue_ice" }
@@ -894,14 +895,12 @@
 				item: { count: 1, id: "minecraft:cobbled_deepslate" }
 				type: "item"
 			}]
-			x: 21.10d
+			x: 21.1d
 			y: 12.24d
 		}
 		{
 			dependencies: ["007DA0D01C23472C"]
 			id: "3C5CC27B02969399"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [
 				{
 					id: "7BF624F3E2F40ACC"
@@ -917,6 +916,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "33F5EC4484E3F2EC"
 				item: { count: 1, id: "minecraft:basalt" }
@@ -999,8 +1000,6 @@
 		{
 			dependencies: ["3C5CC27B02969399"]
 			id: "1E064E4FA9731CA6"
-			shape: "gear"
-			size: 2.0d
 			rewards: [
 				{
 					id: "0FB0FF38F948A57B"
@@ -1016,6 +1015,8 @@
 					type: "item"
 				}
 			]
+			shape: "gear"
+			size: 2.0d
 			tasks: [
 				{
 					id: "1D5B786CA47F8602"
@@ -1038,8 +1039,6 @@
 				"1E064E4FA9731CA6"
 			]
 			id: "30A83F289BDDCF1B"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [
 				{
 					id: "72C2256125A836AF"
@@ -1055,19 +1054,19 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "21B2887BD42B5E6A"
 				item: { count: 1, id: "minecraft:netherite_ingot" }
 				type: "item"
 			}]
 			x: 7.06d
-			y: 8.80d
+			y: 8.8d
 		}
 		{
 			dependencies: ["30A83F289BDDCF1B"]
 			id: "01E52DAF5DEA384C"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [
 				{
 					id: "0F5F0E34D84DAD99"
@@ -1083,6 +1082,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "00A5B5941931D9A6"
 				item: { count: 1, id: "minecraft:netherite_scrap" }
@@ -1123,8 +1124,6 @@
 				"01E52DAF5DEA384C"
 			]
 			id: "536D18835BB728AB"
-			shape: "gear"
-			size: 2.0d
 			rewards: [
 				{
 					id: "61AACD91BE1F1FC7"
@@ -1140,6 +1139,8 @@
 					type: "item"
 				}
 			]
+			shape: "gear"
+			size: 2.0d
 			tasks: [{
 				id: "57C4A09D60E4E9B6"
 				item: { count: 1, id: "extendedcrafting:advanced_table" }
@@ -1190,13 +1191,11 @@
 				}
 			]
 			x: 5.18d
-			y: -12.70d
+			y: -12.7d
 		}
 		{
 			dependencies: ["536D18835BB728AB"]
 			id: "7C340145D428B2DA"
-			shape: "diamond"
-			size: 2.0d
 			rewards: [
 				{
 					id: "3694A3CE7C65C10C"
@@ -1212,6 +1211,8 @@
 					type: "item"
 				}
 			]
+			shape: "diamond"
+			size: 2.0d
 			tasks: [{
 				id: "594781B839A25A13"
 				item: { count: 1, id: "occultism:datura_seeds" }
@@ -1246,13 +1247,13 @@
 		{
 			dependencies: ["7C340145D428B2DA"]
 			id: "6AA429C4E098BDEE"
-			shape: "pentagon"
-			size: 2.0d
 			rewards: [{
 				id: "1D8B2187434AD7DE"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "pentagon"
+			size: 2.0d
 			tasks: [{
 				id: "2AE0AC22541AFB62"
 				type: "checkmark"
@@ -1305,7 +1306,7 @@
 				item: { count: 1, id: "mob_grinding_utils:tank_sink" }
 				type: "item"
 			}]
-			x: 2.10d
+			x: 2.1d
 			y: -17.65d
 		}
 		{
@@ -1398,7 +1399,7 @@
 				item: { count: 1, id: "industrialforegoing:dissolution_chamber" }
 				type: "item"
 			}]
-			x: 2.10d
+			x: 2.1d
 			y: 14.53d
 		}
 		{
@@ -1542,7 +1543,7 @@
 				type: "item"
 			}]
 			x: -3.83d
-			y: 17.00d
+			y: 17.0d
 		}
 		{
 			dependencies: ["536D18835BB728AB"]
@@ -1661,13 +1662,13 @@
 		{
 			dependencies: ["48143F51B3F40FF4"]
 			id: "27B6868C50327017"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [{
 				id: "11224D24FA55FD0E"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [
 				{
 					id: "00F201DAB4B2AC93"
@@ -1749,7 +1750,7 @@
 				item: { count: 1, id: "mekanism:energy_tablet" }
 				type: "item"
 			}]
-			x: 8.50d
+			x: 8.5d
 			y: 1.89d
 		}
 		{
@@ -1782,7 +1783,7 @@
 				type: "item"
 			}]
 			x: -0.58d
-			y: -14.50d
+			y: -14.5d
 		}
 		{
 			dependencies: ["15D5C7B8DBCFFD17"]
@@ -1866,7 +1867,7 @@
 				type: "item"
 			}]
 			x: 0.46d
-			y: -11.10d
+			y: -11.1d
 		}
 		{
 			dependencies: ["714AD753C364557B"]
@@ -1914,7 +1915,7 @@
 				item: { count: 1, id: "ae2:storage_bus" }
 				type: "item"
 			}]
-			x: -20.30d
+			x: -20.3d
 			y: -1.74d
 		}
 		{
@@ -2030,7 +2031,7 @@
 				item: { count: 1, id: "ae2:pattern_provider" }
 				type: "item"
 			}]
-			x: -20.30d
+			x: -20.3d
 			y: 2.25d
 		}
 		{
@@ -2089,7 +2090,7 @@
 				type: "item"
 			}]
 			x: 2.56d
-			y: -11.00d
+			y: -11.0d
 		}
 		{
 			dependencies: ["14FA8855E114E84C"]
@@ -2115,7 +2116,7 @@
 				type: "item"
 			}]
 			x: 0.38d
-			y: -8.40d
+			y: -8.4d
 		}
 		{
 			dependencies: ["714AD753C364557B"]

@@ -53,10 +53,6 @@
 	show_debug_with_f3 = true
 	#Show entity name
 	show_entity_name = true
-	#Disables the rendering of the vanilla name tag
-	disable_name_tag = false
-	#If this is enabled and the "disableNameTag" option is true, the vanilla nametag is only hidden if the mob has a Neat healthbar rendered
-	disable_name_tag_if_healthbar = true
 	#Offsets the healtbar icons on the x axis
 	icon_offset_x = 0.0
 	#Offsets the healtbar icons on the y axis
@@ -65,3 +61,6 @@
 	decimal_format = "#.##"
 	#Blacklist uses entity IDs, not their display names. Use F3 to see them in the Neat bar.
 	blacklist = ["minecraft:shulker", "minecraft:armor_stand", "minecraft:cod", "minecraft:salmon", "minecraft:pufferfish", "minecraft:tropical_fish", "minecraft:tadpole"]
+	#Changes when the vanilla name tag should be rendered
+	#Allowed Values: ALWAYS, NEVER, WHEN_NO_HEALTHBAR
+	name_tag_render_behavior = "WHEN_NO_HEALTHBAR"

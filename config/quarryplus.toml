@@ -20,6 +20,8 @@ convertDeepslateOres = false
 enableChunkLoader = true
 #[Fabric ONLY] 1E = ?FE. Default: 0.062500, Min: 0.0, Max: 10000000000.0
 rebornEnergyConversionCoefficient = 0.0625
+#Whether to start digging from the top of the frame. If false, it starts digging from the bottom of the frame.. Default: false
+digFromMaxY = false
 
 [enableMap]
 	#pump_module Default: true
@@ -46,6 +48,8 @@ rebornEnergyConversionCoefficient = 0.0625
 	quarry = true
 	#flexible_marker Default: true
 	flexible_marker = true
+	#adv_pump Default: true
+	adv_pump = true
 
 	[powerMap.quarry]
 		#maxEnergy. Default: 10000.000000, Min: 0.0, Max: 10000000000.0
@@ -88,3 +92,19 @@ rebornEnergyConversionCoefficient = 0.0625
 		breakFortuneCoefficient = 1.5874010519681996
 		#breakSilktouchCoefficient. Default: 4.000000, Min: 0.0, Max: 10000000000.0
 		breakSilktouchCoefficient = 4.0
+
+	[powerMap.advPump]
+		#maxEnergy. Default: 1024.000000, Min: 0.0, Max: 10000000000.0
+		maxEnergy = 1024.0
+		#fluidCapacity. Default: 512.000000, Min: 0.0, Max: 10000000000.0
+		fluidCapacity = 512.0
+		#range. Default: 32.000000, Min: 0.0, Max: 10000000000.0
+		range = 32.0
+		#baseEnergyLevel0. Default: 100.000000, Min: 0.0, Max: 10000000000.0
+		baseEnergyLevel0 = 100.0
+		#baseEnergyLevel1. Default: 80.000000, Min: 0.0, Max: 10000000000.0
+		baseEnergyLevel1 = 80.0
+		#baseEnergyLevel2. Default: 50.000000, Min: 0.0, Max: 10000000000.0
+		baseEnergyLevel2 = 50.0
+		#baseEnergyLevel3. Default: 20.000000, Min: 0.0, Max: 10000000000.0
+		baseEnergyLevel3 = 20.0

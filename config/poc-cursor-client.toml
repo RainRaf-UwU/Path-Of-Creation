@@ -1,0 +1,8 @@
+#Replace ordinary GUI arrows; preserve third-party special cursors.
+customCursor = true
+#Show cosmetic click rings. Disable for reduced motion.
+clickEffects = true
+#Animation duration in milliseconds.
+# Default: 420
+# Range: 100 ~ 1000
+durationMs = 420

@@ -1,9 +1,4 @@
-#Avaritia Common Config
 [tools]
-	#The blocks near the infinity blocks are the brightest
-	"Is Infinity Light" = false
-	#Does the super mode of endless tools retain stone and soil
-	"Is Stone" = false
 	#Whether to merge matter cluster
 	"Is Merge Matter Cluster" = true
 	#Range damage value of the right key of Infinity sword
@@ -28,10 +23,6 @@
 	# Default: 64
 	# Range: 16 ~ 128
 	"Axe Chain Count" = 64
-	#Food effect time scaling factor
-	# Default: 1.0
-	# Range: 0.1 ~ 5.0
-	"Food Time" = 1.0
 	#The range of Infinity PickAxe can break
 	# Default: 8
 	# Range: 2 ~ 32
@@ -40,13 +31,9 @@
 	# Default: 8
 	# Range: 2 ~ 32
 	"Shovel Break Range" = 8
-	#The product tick of NeutronCollector
-	# Default: 3600
-	# Range: > 1200
-	"Neutron Collector Product Tick" = 3600
 	#Singularity default time required
 	# Default: 240
-	# Range: > 0
+	# Range: > 1
 	"Singularity Time Required" = 240
 	#Growth soul farmland rate
 	# Default: 0.8
@@ -60,56 +47,32 @@
 	# Default: 10
 	# Range: 5 ~ 100
 	"BladeSlash Radius" = 10
-	#Is InfinityCatalyst Craft use all Singularity
-	"Internal InfinityCatalyst Craft" = true
+
+		[tools.config.avaritia]
+			#config.avaritia.is_sword_attack_item_entity.tooltip
+			is_sword_attack_item_entity = false
+			#config.avaritia.is_sword_attack_projectile.tooltip
+			is_sword_attack_projectile = false
 
 [emc]
 	#Emc of Neutron Pile
-	# Default: 100
+	# Default: 512
 	# Range: > 0
 	"Neutron Pile Emc" = 100
 	#Emc of Totem Of Undying
 	# Default: 1000
 	# Range: > 0
 	"Vanilla Totem Emc" = 1000
+	#Emc of Blaze Cube
+	# Default: 30568
+	# Range: > 0
+	"Blaze Cube Emc" = 30568
 
-[storage]
-	#Define the maximum number of item .types. that can be stored in a Infinity Chest.
-	# Default: 32768
-	# Range: > 2048
-	"Chest Max ItemSize" = 32768
-	#Use single page mode
-	"Use Single PageMode" = false
-	#Stack size limit of slot
-	# Default: 4294967295
-	# Range: 64 ~ 4294967295
-	"Slot Stack Limit" = 4294967295
-	#Maximum page limit
-	# Default: 79536431
-	# Range: 2 ~ 79536431
-	"Max Page Limit" = 79536431
-	#*Recovery options* Reset the max page that is 0.
-	# Default: 1
-	# Range: 1 ~ 79536431
-	"Reset Max Page" = 1
-	#Inventory rows for multi page mode
-	# Default: 6
-	# Range: 1 ~ 6
-	"Inventory Rows" = 6
+		[emc.config.avaritia]
+			#config.avaritia.enable_projecte_singularity_count_boost.tooltip
+			enable_projecte_singularity_count_boost = true
 
 [channel]
-	#
-	# Default: 32768
-	# Range: > 2048
-	"Channel Size" = 32768
-	#
-	# Default: 16
-	# Range: 4 ~ 64
-	"MaxPlayer Channels" = 16
-	#
-	# Default: 128
-	# Range: 32 ~ 1024
-	"MaxPublic Channels" = 128
 	#
 	# Default: 1
 	# Range: 1 ~ 40
@@ -119,6 +82,69 @@
 	# Range: 20 ~ 1200
 	"FullUpdate Rate" = 40
 
+		[channel.config.avaritia]
+			#config.avaritia.max_channels_pre_player.tooltip
+			# Default: 16
+			# Range: 4 ~ 64
+			max_channels_pre_player = 16
+			#config.avaritia.max_public_channels.tooltip
+			# Default: 128
+			# Range: 32 ~ 1024
+			max_public_channels = 128
+
 [misc]
 	#For develop
 	"Use Advance Tooltips" = false
+	#The range of Endless ItemEntity
+	# Default: 1000.0
+	# Range: 1.0 ~ 10000.0
+	"Endless ItemEntity Range" = 1000.0
+	#The speed of Endless ItemEntity
+	# Default: 3.0
+	# Range: 1.0 ~ 10.0
+	"Endless ItemEntity Speed" = 3.0
+	#Infinity Elytra Flying Speed
+	# Default: 1.5
+	# Range: 1.0 ~ 10.0
+	"Infinity Elytra Flying Speed" = 1.5
+	#Infinity Elytra Flying Range Damage
+	# Default: 100.0
+	# Range: 0.0 ~ 10000.0
+	"Infinity Elytra Flying Range Damage" = 100.0
+	#Infinity Armor Night Vision
+	"Infinity Open or Off Night Vision" = true
+
+		[misc.config.avaritia]
+			#config.avaritia.boot_speed_base.tooltip
+			# Default: 0.1
+			# Range: 0.01 ~ 1.0
+			boot_speed_base = 0.1
+			#config.avaritia.boot_speed_flying_multiplier.tooltip
+			# Default: 1.1
+			# Range: 0.1 ~ 5.0
+			boot_speed_flying_multiplier = 1.1
+			#config.avaritia.boot_speed_swimming_multiplier.tooltip
+			# Default: 1.2
+			# Range: 0.1 ~ 5.0
+			boot_speed_swimming_multiplier = 1.2
+			#config.avaritia.boot_speed_sneaking_multiplier
+			# Default: 0.1
+			# Range: 0.01 ~ 1.0
+			boot_speed_sneaking_multiplier = 0.1
+			#config.avaritia.boot_speed_backward_multiplier.tooltip
+			# Default: 0.25
+			# Range: 0.01 ~ 1.0
+			boot_speed_backward_multiplier = 0.25
+			#config.avaritia.boot_speed_strafing_multiplier
+			# Default: 0.45
+			# Range: 0.01 ~ 1.0
+			boot_speed_strafing_multiplier = 0.45
+			#config.avaritia.boot_speed_sprinting_multiplier
+			# Default: 0.2
+			# Range: 0.01 ~ 1.0
+			boot_speed_sprinting_multiplier = 0.2
+
+#Avaritia Common Config
+[blocks]
+	#The blocks near the infinity blocks are the brightest
+	"Is Infinity Light" = false

@@ -1,37 +1,36 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "66900C421E317CA4"
+	filename: "66900c421e317ca4"
 	group: "315BDB53A7CCE29F"
 	icon: {
 		id: "rain:god_creation_keepsake"
 	}
 	id: "66900C421E317CA4"
+	images: [ ]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["6AA429C4E098BDEE"]
 			id: "355A5CBA46D9D830"
-			shape: "pentagon"
-			size: 2.0d
 			rewards: [{
 				id: "4A15DE8E90F9EF32"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "pentagon"
+			size: 2.0d
 			tasks: [{
 				id: "59264F2CD86DD125"
 				type: "checkmark"
 			}]
-			x: 8.40d
+			x: 8.4d
 			y: -14.62d
 		}
 		{
 			dependencies: ["355A5CBA46D9D830"]
 			id: "4766413F893A2C64"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [
 				{
 					id: "7C91810AA994ACC2"
@@ -47,6 +46,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "0F2F13363901A7CA"
 				item: { count: 1, id: "occultism:datura" }
@@ -131,7 +132,7 @@
 				type: "item"
 			}]
 			x: 6.38d
-			y: -10.00d
+			y: -10.0d
 		}
 		{
 			dependencies: [
@@ -139,8 +140,6 @@
 				"0FE83C64579B2F99"
 			]
 			id: "1E80C082DFAD43C1"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [
 				{
 					id: "73023EAB3DE9D581"
@@ -156,6 +155,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "459EC6736DB4927D"
 				item: { count: 1, id: "occultism:otherworld_log" }
@@ -167,8 +168,6 @@
 		{
 			dependencies: ["1E80C082DFAD43C1"]
 			id: "62544BC4E124165F"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [
 				{
 					id: "32898E500F10D612"
@@ -184,6 +183,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [
 				{
 					id: "232CCD5AC61CA74D"
@@ -259,7 +260,7 @@
 				}
 			]
 			x: 8.32d
-			y: -9.50d
+			y: -9.5d
 		}
 		{
 			dependencies: ["355A5CBA46D9D830"]
@@ -284,7 +285,7 @@
 				item: { count: 1, id: "minecraft:skeleton_skull" }
 				type: "item"
 			}]
-			x: 10.80d
+			x: 10.8d
 			y: -11.21d
 		}
 		{
@@ -295,8 +296,6 @@
 				"5561E1D06C817628"
 			]
 			id: "5B1046C93ED31A3D"
-			shape: "gear"
-			size: 2.0d
 			rewards: [
 				{
 					id: "1FFA32100F7693AF"
@@ -312,6 +311,8 @@
 					type: "item"
 				}
 			]
+			shape: "gear"
+			size: 2.0d
 			tasks: [{
 				id: "129F34F30E3F08D7"
 				item: { components: { "custommachinery:machine": "custommachinery:dyeing_factory" }, count: 1, id: "custommachinery:custom_machine_item" }
@@ -344,7 +345,7 @@
 				type: "item"
 			}]
 			x: 10.05d
-			y: -9.50d
+			y: -9.5d
 		}
 		{
 			dependencies: ["4766413F893A2C64"]
@@ -369,14 +370,12 @@
 				item: { count: 1, id: "occultism:tallow" }
 				type: "item"
 			}]
-			x: 8.10d
+			x: 8.1d
 			y: -11.45d
 		}
 		{
 			dependencies: ["5B1046C93ED31A3D"]
 			id: "75B1968D6DE0A4EA"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [
 				{
 					id: "3EC88C12135FEEAD"
@@ -392,6 +391,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "14193E98C77F9871"
 				item: { count: 1, id: "ars_nouveau:blue_archwood_sapling" }
@@ -429,8 +430,6 @@
 		{
 			dependencies: ["75B1968D6DE0A4EA"]
 			id: "7D6B41D46466991E"
-			shape: "gear"
-			size: 2.0d
 			rewards: [
 				{
 					id: "46233726A427E4F1"
@@ -454,6 +453,8 @@
 					type: "item"
 				}
 			]
+			shape: "gear"
+			size: 2.0d
 			tasks: [{
 				id: "37F4832BCFD69924"
 				item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
@@ -520,8 +521,6 @@
 		{
 			dependencies: ["7D6B41D46466991E"]
 			id: "7C3104D29E5C1935"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [
 				{
 					id: "7C78ADE9BF76469E"
@@ -537,19 +536,19 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "5BF3478930D190ED"
 				item: { count: 1, id: "ars_nouveau:source_gem" }
 				type: "item"
 			}]
 			x: 8.47d
-			y: 2.90d
+			y: 2.9d
 		}
 		{
 			dependencies: ["7C3104D29E5C1935"]
 			id: "0B5EFE2291C821AE"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [
 				{
 					id: "510031C5560DE6F3"
@@ -565,6 +564,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "7965ECD031C9828B"
 				item: { count: 1, id: "ars_nouveau:sourcestone" }
@@ -576,8 +577,6 @@
 		{
 			dependencies: ["0B5EFE2291C821AE"]
 			id: "6003422C257E1554"
-			shape: "gear"
-			size: 2.0d
 			rewards: [
 				{
 					id: "1655B197DB56EDE2"
@@ -593,6 +592,8 @@
 					type: "item"
 				}
 			]
+			shape: "gear"
+			size: 2.0d
 			tasks: [{
 				id: "5225F61CCA7ED9CC"
 				item: { count: 1, id: "ars_nouveau:enchanting_apparatus" }
@@ -656,8 +657,6 @@
 		{
 			dependencies: ["4766413F893A2C64"]
 			id: "0FE83C64579B2F99"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [
 				{
 					id: "00A649B018186403"
@@ -673,6 +672,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "5412FA2683C6F2B4"
 				item: { count: 1, id: "occultism:otherworld_sapling_natural" }
@@ -837,14 +838,12 @@
 				item: { count: 1, id: "ars_nouveau:ritual_brazier" }
 				type: "item"
 			}]
-			x: 9.60d
+			x: 9.6d
 			y: 6.84d
 		}
 		{
 			dependencies: ["6003422C257E1554"]
 			id: "73B4861F6D59B065"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [
 				{
 					id: "341ED3F39B5FCD34"
@@ -860,13 +859,15 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "382FF7BE8A81333D"
 				item: { count: 1, id: "ars_nouveau:ritual_wilden_summon" }
 				type: "item"
 			}]
 			x: 10.03d
-			y: 9.10d
+			y: 9.1d
 		}
 		{
 			dependencies: [
@@ -874,8 +875,6 @@
 				"73B4861F6D59B065"
 			]
 			id: "50BAE09455C39830"
-			shape: "diamond"
-			size: 2.0d
 			rewards: [
 				{
 					id: "6EC16D80D8FAF5BF"
@@ -891,6 +890,8 @@
 					type: "item"
 				}
 			]
+			shape: "diamond"
+			size: 2.0d
 			tasks: [{
 				id: "7328584CAEB1EFFC"
 				item: { count: 1, id: "ars_nouveau:wilden_tribute" }
@@ -940,8 +941,6 @@
 		{
 			dependencies: ["50BAE09455C39830"]
 			id: "2A386BE252901524"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [
 				{
 					id: "3D13BBB58B0A13AA"
@@ -957,12 +956,14 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "1276202547E9E743"
 				item: { count: 1, id: "occultism:dimensional_mineshaft" }
 				type: "item"
 			}]
-			x: 6.90d
+			x: 6.9d
 			y: 5.14d
 		}
 		{
@@ -1016,8 +1017,6 @@
 				"2A386BE252901524"
 			]
 			id: "2F57EABE21276173"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [
 				{
 					id: "6746DA06E37521A5"
@@ -1033,6 +1032,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "118D9EA149904FF0"
 				item: { count: 1, id: "alltheores:nickel_ore" }
@@ -1105,7 +1106,7 @@
 				item: { count: 1, id: "ars_nouveau:summon_focus" }
 				type: "item"
 			}]
-			x: 5.30d
+			x: 5.3d
 			y: 11.12d
 		}
 		{
@@ -1137,8 +1138,6 @@
 		{
 			dependencies: ["2F57EABE21276173"]
 			id: "669C8D53E6CC4376"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [
 				{
 					id: "179A91E05B43506B"
@@ -1154,6 +1153,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "16B9FDBE671DA23A"
 				item: { count: 1, id: "oritech:motor" }
@@ -1191,8 +1192,6 @@
 		{
 			dependencies: ["669C8D53E6CC4376"]
 			id: "62179FB94FA7D696"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [
 				{
 					id: "0D71DE35BF298BF2"
@@ -1208,6 +1207,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "5E18C9067DAC8A72"
 				item: { count: 1, id: "oritech:pulverizer_block" }
@@ -1245,8 +1246,6 @@
 		{
 			dependencies: ["62179FB94FA7D696"]
 			id: "5D10698350A7B336"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [
 				{
 					id: "5507E12FAAEE6150"
@@ -1262,6 +1261,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "00D8B55DCD25E3AD"
 				item: { count: 1, id: "oritech:biomass" }
@@ -1354,8 +1355,6 @@
 				"25F348F35F869820"
 			]
 			id: "61B236F5225720E0"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [
 				{
 					id: "2EBB277EA87C6010"
@@ -1371,6 +1370,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "2E95E0B7798D9269"
 				item: { count: 1, id: "oritech:plastic_sheet" }
@@ -1591,8 +1592,6 @@
 		{
 			dependencies: ["61B236F5225720E0"]
 			id: "39C66C3DC535DD37"
-			shape: "gear"
-			size: 2.0d
 			rewards: [
 				{
 					id: "0C745282BC96CB1D"
@@ -1608,6 +1607,8 @@
 					type: "item"
 				}
 			]
+			shape: "gear"
+			size: 2.0d
 			tasks: [{
 				id: "2201CE8B8FD460A9"
 				item: { count: 1, id: "oritech:foundry_block" }
@@ -1668,7 +1669,7 @@
 				type: "item"
 			}]
 			x: 1.19d
-			y: 0.30d
+			y: 0.3d
 		}
 		{
 			dependencies: [
@@ -1676,8 +1677,6 @@
 				"39C66C3DC535DD37"
 			]
 			id: "593267FAF1A3CBB9"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [
 				{
 					id: "36D3BD0C6EF40DDE"
@@ -1693,6 +1692,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "3A241B55AAEA952C"
 				item: { count: 1, id: "naturesaura:golden_leaves" }
@@ -1704,8 +1705,6 @@
 		{
 			dependencies: ["593267FAF1A3CBB9"]
 			id: "55E58BBF2874A28B"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [
 				{
 					id: "0E7A19FBB4CE2497"
@@ -1721,6 +1720,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "4EB1195A8C00842A"
 				item: { count: 1, id: "naturesaura:gold_leaf" }
@@ -1732,8 +1733,6 @@
 		{
 			dependencies: ["55E58BBF2874A28B"]
 			id: "710F538A6CCD0883"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [
 				{
 					id: "3254D893B4DDDD79"
@@ -1760,6 +1759,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "07965FE5B464762A"
 				item: { count: 1, id: "naturesaura:wood_stand" }
@@ -1797,8 +1798,6 @@
 		{
 			dependencies: ["710F538A6CCD0883"]
 			id: "30C1C59804DADE75"
-			shape: "gear"
-			size: 1.25d
 			rewards: [
 				{
 					id: "5FE3B5BFF376DE8C"
@@ -1822,6 +1821,8 @@
 					type: "item"
 				}
 			]
+			shape: "gear"
+			size: 1.25d
 			tasks: [{
 				id: "5298DF832CCD8C6C"
 				item: { count: 1, id: "naturesaura:nature_altar" }
@@ -1833,8 +1834,6 @@
 		{
 			dependencies: ["710F538A6CCD0883"]
 			id: "4BD2877305C5853F"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [{
 				id: "46B4FD9E35E2C2C1"
 				item: {
@@ -1843,6 +1842,8 @@
 				}
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "151F0AA9657B7C3E"
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_sculk" }
@@ -1880,8 +1881,6 @@
 		{
 			dependencies: ["4BD2877305C5853F"]
 			id: "0B52D8B9CF5C540C"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [
 				{
 					id: "62DD5D050CFEF20B"
@@ -1897,6 +1896,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "07A93ED7F1DCDA49"
 				item: { count: 1, id: "avaritia:sculk_crafting_table" }
@@ -1908,8 +1909,6 @@
 		{
 			dependencies: ["0B52D8B9CF5C540C"]
 			id: "5CB064CE584EF6CD"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [
 				{
 					id: "47BF34AE25EDA4F1"
@@ -1925,6 +1924,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "3FB888E59E46E02B"
 				item: { count: 1, id: "oritech:assembler_block" }
@@ -1936,8 +1937,6 @@
 		{
 			dependencies: ["5CB064CE584EF6CD"]
 			id: "275938FB937752D1"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [
 				{
 					id: "1B5CC7F41606827C"
@@ -1953,6 +1952,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "066ACDE5C0F046EE"
 				item: { count: 1, id: "oritech:enderic_lens" }
@@ -1964,8 +1965,6 @@
 		{
 			dependencies: ["275938FB937752D1"]
 			id: "29BD34123D6CEE5E"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [
 				{
 					id: "6D3B899C097DB423"
@@ -1981,6 +1980,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "48830D0DAE869A9F"
 				item: { count: 1, id: "oritech:laser_arm_block" }
@@ -1995,8 +1996,6 @@
 				"3EFD4F91D81EC035"
 			]
 			id: "34E2B53EC0E7AB16"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [
 				{
 					id: "72DE2FF04B5B56E3"
@@ -2012,6 +2011,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "125BDCD7A4DEF7A6"
 				item: { count: 1, id: "draconicevolution:draconium_dust" }
@@ -2023,8 +2024,6 @@
 		{
 			dependencies: ["34E2B53EC0E7AB16"]
 			id: "0CBD85A86708D0E4"
-			shape: "rsquare"
-			size: 1.5d
 			rewards: [
 				{
 					id: "573B4F906A14171C"
@@ -2040,6 +2039,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "673F5A668810F4F2"
 				item: { count: 1, id: "draconicevolution:draconium_ingot" }
@@ -2051,8 +2052,6 @@
 		{
 			dependencies: ["0CBD85A86708D0E4"]
 			id: "6662A1DDE10F4D71"
-			shape: "gear"
-			size: 2.0d
 			rewards: [
 				{
 					id: "782665C40D551D4A"
@@ -2068,6 +2067,8 @@
 					type: "item"
 				}
 			]
+			shape: "gear"
+			size: 2.0d
 			tasks: [
 				{
 					id: "6FE235757937E34C"
@@ -2080,7 +2081,7 @@
 					type: "item"
 				}
 			]
-			x: -26.50d
+			x: -26.5d
 			y: -2.95d
 		}
 		{
@@ -2106,7 +2107,7 @@
 				item: { count: 1, id: "minecraft:ancient_debris" }
 				type: "item"
 			}]
-			x: -26.50d
+			x: -26.5d
 			y: -5.02d
 		}
 		{
@@ -2138,8 +2139,6 @@
 		{
 			dependencies: ["6662A1DDE10F4D71"]
 			id: "5E81D8AA7E830ED1"
-			shape: "gear"
-			size: 2.0d
 			rewards: [
 				{
 					id: "4C18AD55912CA8BF"
@@ -2155,6 +2154,8 @@
 					type: "item"
 				}
 			]
+			shape: "gear"
+			size: 2.0d
 			tasks: [{
 				id: "6C3A804A95B2ECC4"
 				item: { count: 1, id: "naturesaura:offering_table" }
@@ -2166,8 +2167,6 @@
 		{
 			dependencies: ["5E81D8AA7E830ED1"]
 			id: "7B8A74380F4748E4"
-			shape: "diamond"
-			size: 2.0d
 			rewards: [
 				{
 					id: "70331FE8EB06AEBE"
@@ -2183,12 +2182,14 @@
 					type: "item"
 				}
 			]
+			shape: "diamond"
+			size: 2.0d
 			tasks: [{
 				id: "3653EB1CED3F8EBE"
 				item: { count: 1, id: "rain:god_creation_keepsake" }
 				type: "item"
 			}]
-			x: -32.30d
+			x: -32.3d
 			y: -1.31d
 		}
 		{
@@ -2272,13 +2273,13 @@
 		{
 			dependencies: ["7B8A74380F4748E4"]
 			id: "28147A7E4C048FF5"
-			shape: "pentagon"
-			size: 2.0d
 			rewards: [{
 				id: "1FFE74682FB3917C"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "pentagon"
+			size: 2.0d
 			tasks: [{
 				id: "62AC1E5271B546E4"
 				type: "checkmark"
@@ -2325,7 +2326,7 @@
 				item: { count: 1, id: "notenoughwands:acceleration_wand" }
 				type: "item"
 			}]
-			x: -26.50d
+			x: -26.5d
 			y: -0.88d
 		}
 		{
@@ -2403,7 +2404,7 @@
 				item: { count: 1, id: "rain:aura_generate_machine" }
 				type: "item"
 			}]
-			x: -16.10d
+			x: -16.1d
 			y: 0.53d
 		}
 		{

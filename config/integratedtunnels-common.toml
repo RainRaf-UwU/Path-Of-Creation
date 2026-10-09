@@ -71,3 +71,5 @@
 		ejectItemsOnInconsistentSimulationMovement = true
 		#If the version checker should be enabled.
 		versionChecker = true
+		#A list of regex patterns for block id's that should not be importable by world block importers. Example patterns: 'minecraft:bedrock', 'minecraft:.*_portal.*', '.*:end_.*'
+		blockImporterBlacklist = []
