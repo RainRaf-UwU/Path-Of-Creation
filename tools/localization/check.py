@@ -61,7 +61,7 @@ const root = process.argv[1];
 const context = vm.createContext({global: {}, JsonIO: {
   readString: path => fs.readFileSync(root + '/' + path, 'utf8')
 }});
-vm.runInContext(fs.readFileSync(root + '/kubejs/server_scripts/localization.js', 'utf8'), context);
+vm.runInContext(fs.readFileSync(root + '/kubejs/startup_scripts/localization.js', 'utf8'), context);
 const player = locale => ({clientInformation: () => ({language: () => locale})});
 const zh = player('zh_cn'), en = player('en_us');
 const text = context.global.pocText;

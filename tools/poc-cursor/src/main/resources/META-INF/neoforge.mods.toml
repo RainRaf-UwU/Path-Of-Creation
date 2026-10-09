@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="poc_cursor"
+version="1.0.0"
+displayName="创世之径 · 光标"
+authors="RainRaf-UwU"
+displayURL="https://github.com/RainRaf-UwU/Path-Of-Creation"
+description='''客户端青蓝光标和轻量点击光环。保留原有输入与第三方特殊光标。'''
+displayTest="IGNORE_ALL_VERSION"
+
+[[dependencies.poc_cursor]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.255,21.2)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.poc_cursor]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="CLIENT"
