@@ -1,0 +1,34 @@
+{
+  "pngs_valid": 105,
+  "json_valid": 33,
+  "native_source_sizes": 67,
+  "alpha_masks_unchanged": 53,
+  "creative_slots_checked": 150,
+  "theme_references": 13,
+  "quest_count": 584,
+  "dependency_count": 591,
+  "quest_graph_errors": [],
+  "gui_sizes_checked": [
+    [
+      480,
+      270
+    ],
+    [
+      540,
+      360
+    ],
+    [
+      640,
+      360
+    ]
+  ],
+  "native_fancymenu_parser": true,
+  "native_ftb_style_parser": true,
+  "live_render_verified": false,
+  "installed_files_verified": 87,
+  "backups_match": true,
+  "protected_files_unchanged": 199,
+  "mod_jars_unchanged": 260,
+  "original_menu_preserved": true,
+  "personal_options_preserved": true
+}

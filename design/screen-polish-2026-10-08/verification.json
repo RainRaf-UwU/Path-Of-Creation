@@ -1,0 +1,37 @@
+{
+  "png_valid": 19,
+  "gif_frames": 24,
+  "gif_frame_ms": 80,
+  "native_fancymenu_parser": true,
+  "native_progress_round_trip": true,
+  "native_text_source_valid": true,
+  "text_render_verified": false,
+  "screens": 4,
+  "real_progress_stages": 2,
+  "indeterminate_stages": 2,
+  "gui_sizes": [
+    [
+      480,
+      270
+    ],
+    [
+      540,
+      360
+    ],
+    [
+      640,
+      360
+    ]
+  ],
+  "quest_count": 584,
+  "quest_graph_errors": [],
+  "loading_overlay_replaced": false,
+  "live_render_verified": false,
+  "installation": {
+    "files": 25,
+    "backed_up_originals": 10,
+    "protected_files": 752,
+    "mod_files_unchanged": 260,
+    "installed_hashes_checked": true
+  }
+}

@@ -1,0 +1,1390 @@
+{
+  "minecraft/textures/gui/container/creative_inventory/tab_items.png": {
+    "size": [
+      256,
+      256
+    ],
+    "sha256": "12e77041cb1426128fe4798e391caa5617111103aa670d0444b32b924aa206ea",
+    "visible": [
+      195,
+      136
+    ],
+    "slots": [
+      [
+        8,
+        111
+      ],
+      [
+        26,
+        111
+      ],
+      [
+        44,
+        111
+      ],
+      [
+        62,
+        111
+      ],
+      [
+        80,
+        111
+      ],
+      [
+        98,
+        111
+      ],
+      [
+        116,
+        111
+      ],
+      [
+        134,
+        111
+      ],
+      [
+        152,
+        111
+      ],
+      [
+        8,
+        17
+      ],
+      [
+        26,
+        17
+      ],
+      [
+        44,
+        17
+      ],
+      [
+        62,
+        17
+      ],
+      [
+        80,
+        17
+      ],
+      [
+        98,
+        17
+      ],
+      [
+        116,
+        17
+      ],
+      [
+        134,
+        17
+      ],
+      [
+        152,
+        17
+      ],
+      [
+        8,
+        35
+      ],
+      [
+        26,
+        35
+      ],
+      [
+        44,
+        35
+      ],
+      [
+        62,
+        35
+      ],
+      [
+        80,
+        35
+      ],
+      [
+        98,
+        35
+      ],
+      [
+        116,
+        35
+      ],
+      [
+        134,
+        35
+      ],
+      [
+        152,
+        35
+      ],
+      [
+        8,
+        53
+      ],
+      [
+        26,
+        53
+      ],
+      [
+        44,
+        53
+      ],
+      [
+        62,
+        53
+      ],
+      [
+        80,
+        53
+      ],
+      [
+        98,
+        53
+      ],
+      [
+        116,
+        53
+      ],
+      [
+        134,
+        53
+      ],
+      [
+        152,
+        53
+      ],
+      [
+        8,
+        71
+      ],
+      [
+        26,
+        71
+      ],
+      [
+        44,
+        71
+      ],
+      [
+        62,
+        71
+      ],
+      [
+        80,
+        71
+      ],
+      [
+        98,
+        71
+      ],
+      [
+        116,
+        71
+      ],
+      [
+        134,
+        71
+      ],
+      [
+        152,
+        71
+      ],
+      [
+        8,
+        89
+      ],
+      [
+        26,
+        89
+      ],
+      [
+        44,
+        89
+      ],
+      [
+        62,
+        89
+      ],
+      [
+        80,
+        89
+      ],
+      [
+        98,
+        89
+      ],
+      [
+        116,
+        89
+      ],
+      [
+        134,
+        89
+      ],
+      [
+        152,
+        89
+      ]
+    ],
+    "alpha_preserved": true,
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "minecraft/textures/gui/container/creative_inventory/tab_item_search.png": {
+    "size": [
+      256,
+      256
+    ],
+    "sha256": "1b6d86b63ac95876cdb9cde46e0e35c84a2641710da3741a454d7756db3a0e92",
+    "visible": [
+      195,
+      136
+    ],
+    "slots": [
+      [
+        8,
+        111
+      ],
+      [
+        26,
+        111
+      ],
+      [
+        44,
+        111
+      ],
+      [
+        62,
+        111
+      ],
+      [
+        80,
+        111
+      ],
+      [
+        98,
+        111
+      ],
+      [
+        116,
+        111
+      ],
+      [
+        134,
+        111
+      ],
+      [
+        152,
+        111
+      ],
+      [
+        8,
+        17
+      ],
+      [
+        26,
+        17
+      ],
+      [
+        44,
+        17
+      ],
+      [
+        62,
+        17
+      ],
+      [
+        80,
+        17
+      ],
+      [
+        98,
+        17
+      ],
+      [
+        116,
+        17
+      ],
+      [
+        134,
+        17
+      ],
+      [
+        152,
+        17
+      ],
+      [
+        8,
+        35
+      ],
+      [
+        26,
+        35
+      ],
+      [
+        44,
+        35
+      ],
+      [
+        62,
+        35
+      ],
+      [
+        80,
+        35
+      ],
+      [
+        98,
+        35
+      ],
+      [
+        116,
+        35
+      ],
+      [
+        134,
+        35
+      ],
+      [
+        152,
+        35
+      ],
+      [
+        8,
+        53
+      ],
+      [
+        26,
+        53
+      ],
+      [
+        44,
+        53
+      ],
+      [
+        62,
+        53
+      ],
+      [
+        80,
+        53
+      ],
+      [
+        98,
+        53
+      ],
+      [
+        116,
+        53
+      ],
+      [
+        134,
+        53
+      ],
+      [
+        152,
+        53
+      ],
+      [
+        8,
+        71
+      ],
+      [
+        26,
+        71
+      ],
+      [
+        44,
+        71
+      ],
+      [
+        62,
+        71
+      ],
+      [
+        80,
+        71
+      ],
+      [
+        98,
+        71
+      ],
+      [
+        116,
+        71
+      ],
+      [
+        134,
+        71
+      ],
+      [
+        152,
+        71
+      ],
+      [
+        8,
+        89
+      ],
+      [
+        26,
+        89
+      ],
+      [
+        44,
+        89
+      ],
+      [
+        62,
+        89
+      ],
+      [
+        80,
+        89
+      ],
+      [
+        98,
+        89
+      ],
+      [
+        116,
+        89
+      ],
+      [
+        134,
+        89
+      ],
+      [
+        152,
+        89
+      ]
+    ],
+    "alpha_preserved": true,
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "minecraft/textures/gui/container/creative_inventory/tab_inventory.png": {
+    "size": [
+      256,
+      256
+    ],
+    "sha256": "d668c7db31dedd1ff40c38e6938e5b1a7b7ce954613b74bb18d341f946f61bf1",
+    "visible": [
+      195,
+      136
+    ],
+    "slots": [
+      [
+        8,
+        111
+      ],
+      [
+        26,
+        111
+      ],
+      [
+        44,
+        111
+      ],
+      [
+        62,
+        111
+      ],
+      [
+        80,
+        111
+      ],
+      [
+        98,
+        111
+      ],
+      [
+        116,
+        111
+      ],
+      [
+        134,
+        111
+      ],
+      [
+        152,
+        111
+      ],
+      [
+        8,
+        53
+      ],
+      [
+        26,
+        53
+      ],
+      [
+        44,
+        53
+      ],
+      [
+        62,
+        53
+      ],
+      [
+        80,
+        53
+      ],
+      [
+        98,
+        53
+      ],
+      [
+        116,
+        53
+      ],
+      [
+        134,
+        53
+      ],
+      [
+        152,
+        53
+      ],
+      [
+        8,
+        71
+      ],
+      [
+        26,
+        71
+      ],
+      [
+        44,
+        71
+      ],
+      [
+        62,
+        71
+      ],
+      [
+        80,
+        71
+      ],
+      [
+        98,
+        71
+      ],
+      [
+        116,
+        71
+      ],
+      [
+        134,
+        71
+      ],
+      [
+        152,
+        71
+      ],
+      [
+        8,
+        89
+      ],
+      [
+        26,
+        89
+      ],
+      [
+        44,
+        89
+      ],
+      [
+        62,
+        89
+      ],
+      [
+        80,
+        89
+      ],
+      [
+        98,
+        89
+      ],
+      [
+        116,
+        89
+      ],
+      [
+        134,
+        89
+      ],
+      [
+        152,
+        89
+      ],
+      [
+        53,
+        5
+      ],
+      [
+        107,
+        5
+      ],
+      [
+        34,
+        19
+      ],
+      [
+        53,
+        32
+      ],
+      [
+        107,
+        32
+      ],
+      [
+        172,
+        111
+      ]
+    ],
+    "alpha_preserved": true,
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "minecraft/textures/gui/sprites/container/creative_inventory/scroller.png": {
+    "size": [
+      12,
+      15
+    ],
+    "sha256": "757141e67151b261be7aaed9dc0c6b88dd7026b6fb7393e588a9397ef0a64635",
+    "alpha_preserved": true,
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "minecraft/textures/gui/sprites/container/creative_inventory/scroller_disabled.png": {
+    "size": [
+      12,
+      15
+    ],
+    "sha256": "91ee54d5eb8101c799452b28be840e7c36a9483572e448bcb94a944f5e1ea230",
+    "alpha_preserved": true,
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_1.png": {
+    "size": [
+      26,
+      32
+    ],
+    "sha256": "84f10c4b5e6f100e36d5c1ca44fffb958b0a69a78762418d4bfb0e9bdc3a1916",
+    "alpha_preserved": true,
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_2.png": {
+    "size": [
+      26,
+      32
+    ],
+    "sha256": "d0d12b617fa76936cf0443c2c9ecab7b73ec872cff4425988116ce858234f3aa",
+    "alpha_preserved": true,
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_3.png": {
+    "size": [
+      26,
+      32
+    ],
+    "sha256": "d0d12b617fa76936cf0443c2c9ecab7b73ec872cff4425988116ce858234f3aa",
+    "alpha_preserved": true,
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_4.png": {
+    "size": [
+      26,
+      32
+    ],
+    "sha256": "d0d12b617fa76936cf0443c2c9ecab7b73ec872cff4425988116ce858234f3aa",
+    "alpha_preserved": true,
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_5.png": {
+    "size": [
+      26,
+      32
+    ],
+    "sha256": "d0d12b617fa76936cf0443c2c9ecab7b73ec872cff4425988116ce858234f3aa",
+    "alpha_preserved": true,
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_6.png": {
+    "size": [
+      26,
+      32
+    ],
+    "sha256": "d0d12b617fa76936cf0443c2c9ecab7b73ec872cff4425988116ce858234f3aa",
+    "alpha_preserved": true,
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_7.png": {
+    "size": [
+      26,
+      32
+    ],
+    "sha256": "5f6dd8f6316c603ad444c6dda9577e34325c86c057150d229f1064c827b07736",
+    "alpha_preserved": true,
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_1.png": {
+    "size": [
+      26,
+      32
+    ],
+    "sha256": "1b0331d923ccab20a06fb0e6beace1564d88885be79445cbf1b8951f53808f73",
+    "alpha_preserved": true,
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_2.png": {
+    "size": [
+      26,
+      32
+    ],
+    "sha256": "1b0331d923ccab20a06fb0e6beace1564d88885be79445cbf1b8951f53808f73",
+    "alpha_preserved": true,
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_3.png": {
+    "size": [
+      26,
+      32
+    ],
+    "sha256": "1b0331d923ccab20a06fb0e6beace1564d88885be79445cbf1b8951f53808f73",
+    "alpha_preserved": true,
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_4.png": {
+    "size": [
+      26,
+      32
+    ],
+    "sha256": "1b0331d923ccab20a06fb0e6beace1564d88885be79445cbf1b8951f53808f73",
+    "alpha_preserved": true,
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_5.png": {
+    "size": [
+      26,
+      32
+    ],
+    "sha256": "1b0331d923ccab20a06fb0e6beace1564d88885be79445cbf1b8951f53808f73",
+    "alpha_preserved": true,
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_6.png": {
+    "size": [
+      26,
+      32
+    ],
+    "sha256": "1b0331d923ccab20a06fb0e6beace1564d88885be79445cbf1b8951f53808f73",
+    "alpha_preserved": true,
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_7.png": {
+    "size": [
+      26,
+      32
+    ],
+    "sha256": "1b0331d923ccab20a06fb0e6beace1564d88885be79445cbf1b8951f53808f73",
+    "alpha_preserved": true,
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_1.png": {
+    "size": [
+      26,
+      32
+    ],
+    "sha256": "0c27c16bf481a22bb1fd649bab0c8768678100d1dfe43a9a42d4c78204c95df6",
+    "alpha_preserved": true,
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_2.png": {
+    "size": [
+      26,
+      32
+    ],
+    "sha256": "638e7bf4a416c553a1b07219b8c0004f4e2e1eb760c961bb9a0878942da54ff4",
+    "alpha_preserved": true,
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_3.png": {
+    "size": [
+      26,
+      32
+    ],
+    "sha256": "638e7bf4a416c553a1b07219b8c0004f4e2e1eb760c961bb9a0878942da54ff4",
+    "alpha_preserved": true,
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_4.png": {
+    "size": [
+      26,
+      32
+    ],
+    "sha256": "638e7bf4a416c553a1b07219b8c0004f4e2e1eb760c961bb9a0878942da54ff4",
+    "alpha_preserved": true,
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_5.png": {
+    "size": [
+      26,
+      32
+    ],
+    "sha256": "638e7bf4a416c553a1b07219b8c0004f4e2e1eb760c961bb9a0878942da54ff4",
+    "alpha_preserved": true,
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_6.png": {
+    "size": [
+      26,
+      32
+    ],
+    "sha256": "638e7bf4a416c553a1b07219b8c0004f4e2e1eb760c961bb9a0878942da54ff4",
+    "alpha_preserved": true,
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_7.png": {
+    "size": [
+      26,
+      32
+    ],
+    "sha256": "a560463e7ba41db53ecd3fade0ed628004bb6dc611341115fb29c9f265fa1613",
+    "alpha_preserved": true,
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_1.png": {
+    "size": [
+      26,
+      32
+    ],
+    "sha256": "6724f8fc1db2ff7b41b74b396ba9fb86940931150e5cd390678dccb0b2b1c78e",
+    "alpha_preserved": true,
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_2.png": {
+    "size": [
+      26,
+      32
+    ],
+    "sha256": "6724f8fc1db2ff7b41b74b396ba9fb86940931150e5cd390678dccb0b2b1c78e",
+    "alpha_preserved": true,
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_3.png": {
+    "size": [
+      26,
+      32
+    ],
+    "sha256": "6724f8fc1db2ff7b41b74b396ba9fb86940931150e5cd390678dccb0b2b1c78e",
+    "alpha_preserved": true,
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_4.png": {
+    "size": [
+      26,
+      32
+    ],
+    "sha256": "6724f8fc1db2ff7b41b74b396ba9fb86940931150e5cd390678dccb0b2b1c78e",
+    "alpha_preserved": true,
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_5.png": {
+    "size": [
+      26,
+      32
+    ],
+    "sha256": "6724f8fc1db2ff7b41b74b396ba9fb86940931150e5cd390678dccb0b2b1c78e",
+    "alpha_preserved": true,
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_6.png": {
+    "size": [
+      26,
+      32
+    ],
+    "sha256": "6724f8fc1db2ff7b41b74b396ba9fb86940931150e5cd390678dccb0b2b1c78e",
+    "alpha_preserved": true,
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_7.png": {
+    "size": [
+      26,
+      32
+    ],
+    "sha256": "6724f8fc1db2ff7b41b74b396ba9fb86940931150e5cd390678dccb0b2b1c78e",
+    "alpha_preserved": true,
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "jei/textures/gui/sprites/gui_background_v2.png": {
+    "size": [
+      64,
+      64
+    ],
+    "sha256": "019da2b99e8363ff788b6fce920cf13778beea612ad7b39d694c86eaa21ce60f",
+    "source_jar": "[JEI物品管理器] jei-1.21.1-neoforge-19.57.0.450.jar"
+  },
+  "jei/textures/gui/sprites/ingredient_list_background_v2.png": {
+    "size": [
+      64,
+      64
+    ],
+    "sha256": "019da2b99e8363ff788b6fce920cf13778beea612ad7b39d694c86eaa21ce60f",
+    "source_jar": "[JEI物品管理器] jei-1.21.1-neoforge-19.57.0.450.jar"
+  },
+  "jei/textures/gui/sprites/bookmark_list_background_v2.png": {
+    "size": [
+      64,
+      64
+    ],
+    "sha256": "019da2b99e8363ff788b6fce920cf13778beea612ad7b39d694c86eaa21ce60f",
+    "source_jar": "[JEI物品管理器] jei-1.21.1-neoforge-19.57.0.450.jar"
+  },
+  "jei/textures/gui/sprites/ingredient_list_slot_background_v2.png": {
+    "size": [
+      18,
+      18
+    ],
+    "sha256": "cab04ba282da9df38390da8331160b9db60189e84652636b3987f50c75261ffe",
+    "source_jar": "[JEI物品管理器] jei-1.21.1-neoforge-19.57.0.450.jar"
+  },
+  "jei/textures/gui/sprites/bookmark_list_slot_background_v2.png": {
+    "size": [
+      18,
+      18
+    ],
+    "sha256": "cab04ba282da9df38390da8331160b9db60189e84652636b3987f50c75261ffe",
+    "source_jar": "[JEI物品管理器] jei-1.21.1-neoforge-19.57.0.450.jar"
+  },
+  "jei/textures/gui/sprites/search_background_v2.png": {
+    "size": [
+      20,
+      20
+    ],
+    "sha256": "3b7036e3420716b30742e1ffe5288339538d1a954247692b5abeecebb7eb40fe",
+    "source_jar": "[JEI物品管理器] jei-1.21.1-neoforge-19.57.0.450.jar"
+  },
+  "jei/textures/gui/sprites/button_enabled_v2.png": {
+    "size": [
+      20,
+      20
+    ],
+    "sha256": "f7c8388fefecfdb3d0b24b1f43d86ff8bd965410a0d18932c06309e01f13b03b",
+    "source_jar": "[JEI物品管理器] jei-1.21.1-neoforge-19.57.0.450.jar"
+  },
+  "jei/textures/gui/sprites/button_disabled_v2.png": {
+    "size": [
+      20,
+      20
+    ],
+    "sha256": "678e931ad8f71d19ed1adb18fc82491687314e134091a30707a9ecdfa8152004",
+    "source_jar": "[JEI物品管理器] jei-1.21.1-neoforge-19.57.0.450.jar"
+  },
+  "jei/textures/gui/sprites/button_highlight_v2.png": {
+    "size": [
+      20,
+      20
+    ],
+    "sha256": "4c11587283d625fdb505b51317f5fc47b1d61051ce70802b4678778a5d84f374",
+    "source_jar": "[JEI物品管理器] jei-1.21.1-neoforge-19.57.0.450.jar"
+  },
+  "jei/textures/gui/sprites/button_pressed_v2.png": {
+    "size": [
+      20,
+      20
+    ],
+    "sha256": "1388fa4a48110f2c97e6561725da5958adf5d9e2b1b4d89103e793e1c6261ae9",
+    "source_jar": "[JEI物品管理器] jei-1.21.1-neoforge-19.57.0.450.jar"
+  },
+  "jei/textures/gui/sprites/button_pressed_highlight_v2.png": {
+    "size": [
+      20,
+      20
+    ],
+    "sha256": "4c11587283d625fdb505b51317f5fc47b1d61051ce70802b4678778a5d84f374",
+    "source_jar": "[JEI物品管理器] jei-1.21.1-neoforge-19.57.0.450.jar"
+  },
+  "jei/textures/gui/sprites/scrollbar_background_v2.png": {
+    "size": [
+      14,
+      50
+    ],
+    "sha256": "65a44da6bd28ce621657fa3970b7ac83d8f2b41e1103c73c5aa43ce82f9f5dce",
+    "source_jar": "[JEI物品管理器] jei-1.21.1-neoforge-19.57.0.450.jar"
+  },
+  "jei/textures/gui/sprites/scrollbar_marker_v2.png": {
+    "size": [
+      12,
+      15
+    ],
+    "sha256": "6138c5ff05f24512793106522dbfb2c2b29e970dfb44123884e140db9233ce54",
+    "source_jar": "[JEI物品管理器] jei-1.21.1-neoforge-19.57.0.450.jar"
+  },
+  "jei/textures/gui/sprites/recipe_preview_background_v2.png": {
+    "size": [
+      64,
+      64
+    ],
+    "sha256": "099e7d61a417966f4d719061b14bf9b65c21e8471ce2f46ae2697a42a7dd235b",
+    "source_jar": "[JEI物品管理器] jei-1.21.1-neoforge-19.57.0.450.jar"
+  },
+  "jei/textures/gui/sprites/single_recipe_background_v2.png": {
+    "size": [
+      64,
+      64
+    ],
+    "sha256": "099e7d61a417966f4d719061b14bf9b65c21e8471ce2f46ae2697a42a7dd235b",
+    "source_jar": "[JEI物品管理器] jei-1.21.1-neoforge-19.57.0.450.jar"
+  },
+  "jei/textures/gui/sprites/recipe_catalyst_slot_background_v2.png": {
+    "size": [
+      18,
+      18
+    ],
+    "sha256": "cab04ba282da9df38390da8331160b9db60189e84652636b3987f50c75261ffe",
+    "source_jar": "[JEI物品管理器] jei-1.21.1-neoforge-19.57.0.450.jar"
+  },
+  "jei/textures/gui/sprites/recipe_options_tab_v2.png": {
+    "size": [
+      28,
+      28
+    ],
+    "sha256": "e6687adb199d307fa97db8b8c29c009fa37440fdd46ae154e3ba3799ad2020eb",
+    "source_jar": "[JEI物品管理器] jei-1.21.1-neoforge-19.57.0.450.jar"
+  },
+  "jei/textures/gui/sprites/catalyst_tab_v2.png": {
+    "size": [
+      28,
+      28
+    ],
+    "sha256": "e6687adb199d307fa97db8b8c29c009fa37440fdd46ae154e3ba3799ad2020eb",
+    "source_jar": "[JEI物品管理器] jei-1.21.1-neoforge-19.57.0.450.jar"
+  },
+  "minecraft/textures/gui/sprites/widget/button.png": {
+    "size": [
+      200,
+      20
+    ],
+    "sha256": "1b4fde0ad8158636638f58dee0bb73c7bfa0e8c9fe41b7f76e070a51a42130e2",
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "minecraft/textures/gui/sprites/widget/button_highlighted.png": {
+    "size": [
+      200,
+      20
+    ],
+    "sha256": "acc4f0d5d82e484e4286f6407e81de4cb6e9eb3bd1eeaed579b2866090bccd96",
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "minecraft/textures/gui/sprites/widget/button_disabled.png": {
+    "size": [
+      200,
+      20
+    ],
+    "sha256": "f2e0f3129340f3c814ea13ecee338a943304279bf42aa1229ffdc055216ed660",
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "minecraft/textures/gui/sprites/widget/text_field.png": {
+    "size": [
+      200,
+      20
+    ],
+    "sha256": "b9b8af75cc2aec6839c95676375d33e405a197320882625b6e8916fa813bc5e7",
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "minecraft/textures/gui/sprites/widget/text_field_highlighted.png": {
+    "size": [
+      200,
+      20
+    ],
+    "sha256": "ae1960304eb144676d50dbbc63df81bcb322e953b5a0853c38a7899d5124e81f",
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "minecraft/textures/gui/sprites/hud/hotbar.png": {
+    "size": [
+      182,
+      22
+    ],
+    "sha256": "03629d972bbd2272996474363a7befc218767a0fdf81487ecc62a1994899c3d8",
+    "alpha_preserved": true,
+    "geometry": "native HUD dimensions, 20px item step, original alpha mask",
+    "item_origins": [
+      [
+        3,
+        3
+      ],
+      [
+        23,
+        3
+      ],
+      [
+        43,
+        3
+      ],
+      [
+        63,
+        3
+      ],
+      [
+        83,
+        3
+      ],
+      [
+        103,
+        3
+      ],
+      [
+        123,
+        3
+      ],
+      [
+        143,
+        3
+      ],
+      [
+        163,
+        3
+      ]
+    ],
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "minecraft/textures/gui/sprites/hud/hotbar_selection.png": {
+    "size": [
+      24,
+      23
+    ],
+    "sha256": "b14397116625d621eb97593244f0ff0d0f6d32325d0baa96b8a1781243b432ce",
+    "alpha_preserved": true,
+    "geometry": "native HUD dimensions, 20px item step, original alpha mask",
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "minecraft/textures/gui/sprites/hud/hotbar_offhand_left.png": {
+    "size": [
+      29,
+      24
+    ],
+    "sha256": "cca7755c12156b47e3d4176016e659fb5660f4992c6c149ab4de3af2dd2ecf4c",
+    "alpha_preserved": true,
+    "geometry": "native HUD dimensions, 20px item step, original alpha mask",
+    "item_origin": [
+      3,
+      4
+    ],
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "minecraft/textures/gui/sprites/hud/hotbar_offhand_right.png": {
+    "size": [
+      29,
+      24
+    ],
+    "sha256": "24fac78009a4160e9dc28755450e5f1bd8cb7ecc4991d2b27a075a8c935c145e",
+    "alpha_preserved": true,
+    "geometry": "native HUD dimensions, 20px item step, original alpha mask",
+    "item_origin": [
+      10,
+      4
+    ],
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "minecraft/textures/gui/sprites/hud/hotbar_attack_indicator_background.png": {
+    "size": [
+      18,
+      18
+    ],
+    "sha256": "a05149a21fc0751e0698451637feb20a3d93f80167d95807505dbb231a46d8ed",
+    "alpha_preserved": true,
+    "geometry": "native HUD dimensions, 20px item step, original alpha mask",
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "minecraft/textures/gui/sprites/hud/hotbar_attack_indicator_progress.png": {
+    "size": [
+      18,
+      18
+    ],
+    "sha256": "c640249ce2c5ac41fcb38b40203e5ced363c61ca5a71e85b7eeeca306f3fa0be",
+    "alpha_preserved": true,
+    "geometry": "native HUD dimensions, 20px item step, original alpha mask",
+    "source_jar": "Path of Creation 创世之径 v0.0.4.jar"
+  },
+  "rain/textures/gui/poc/blueprint.png": {
+    "size": [
+      256,
+      256
+    ],
+    "sha256": "b662bfeba50929f9f347f291db05e14ab7118b4c49a00397c8be0e3c9f7c13d1"
+  },
+  "rain/textures/gui/poc/panel.png": {
+    "size": [
+      32,
+      32
+    ],
+    "sha256": "09b61b6f46e8562389b9990052a273425a50c1f53330e7bff2d26423a1cbb5e6"
+  },
+  "rain/textures/gui/poc/button.png": {
+    "size": [
+      32,
+      32
+    ],
+    "sha256": "50cb958d82e632a025b2e091d8a2697085f105477cfbd457fb2f07ef9bf14c7f"
+  },
+  "rain/textures/gui/poc/hover.png": {
+    "size": [
+      32,
+      32
+    ],
+    "sha256": "85d5ad00681821c9f2db483daea978dbd4480ac8be098daeefa8b3d2e2954182"
+  },
+  "rain/textures/gui/poc/disabled.png": {
+    "size": [
+      32,
+      32
+    ],
+    "sha256": "992baf733126b877cb8f4c7db821510e63c49f9012d146767676cd23748e22a8"
+  },
+  "rain/textures/gui/poc/inset.png": {
+    "size": [
+      32,
+      32
+    ],
+    "sha256": "e905ada2b98b0388b64b3813d896f6e62fb71675fe6ad3d6a8be352665218da5"
+  },
+  "rain/textures/gui/poc/check.png": {
+    "size": [
+      16,
+      16
+    ],
+    "sha256": "8ff836c323bcaae14d45609d5196fa158aa3234838b93bc3c9c26e1238bd4af9"
+  },
+  "rain/textures/gui/poc/check_inactive.png": {
+    "size": [
+      16,
+      16
+    ],
+    "sha256": "9d2ff867b94a53aca4b4d4e0e17521719ff13c76928cfbd0eacfaa156649075e"
+  },
+  "ftblibrary/textures/icons/accept.png": {
+    "size": [
+      16,
+      16
+    ],
+    "sha256": "9602a42e0ed874737ac25e23c7523818aac31ca4e5135b3f79542bf56eb4aa42",
+    "alpha_preserved": true,
+    "geometry": "native task-type/checkmark atlas icon",
+    "source_jar": "ftb-library-neoforge-2101.1.37.jar"
+  },
+  "ftblibrary/textures/icons/accept_gray.png": {
+    "size": [
+      16,
+      16
+    ],
+    "sha256": "47ba87011cc7eff7c0764c1818790343fb9745f395c185aaba76ae3f59505e48",
+    "alpha_preserved": true,
+    "geometry": "native task-type/checkmark atlas icon",
+    "source_jar": "ftb-library-neoforge-2101.1.37.jar"
+  },
+  "rain/textures/gui/poc/emblem.png": {
+    "size": [
+      32,
+      32
+    ],
+    "sha256": "05688d46c42e2de83120f78dc5e6eeada67b9225d74cf2db368e716c3b438664"
+  },
+  "ftbquests/textures/shapes/circle/background.png": {
+    "size": [
+      128,
+      128
+    ],
+    "sha256": "7608c147e7216b0289e0d9d946f6d499b6b7839d5135b87cd0fbae3b17b6d9a2"
+  },
+  "ftbquests/textures/shapes/diamond/background.png": {
+    "size": [
+      128,
+      128
+    ],
+    "sha256": "73f7934edbbded4876d2ca4c223f20e522e7b07dcc3c40c6c12d3f00e4bffd88"
+  },
+  "ftbquests/textures/shapes/gear/background.png": {
+    "size": [
+      128,
+      128
+    ],
+    "sha256": "8fcf0db8a6128eedb479cb2b62dee5ff340900424c9ac9f6fc565307cb69d2f6"
+  },
+  "ftbquests/textures/shapes/heart/background.png": {
+    "size": [
+      128,
+      128
+    ],
+    "sha256": "ba58774f0b1a1061fef73921e272f020aafe79994c3cdef70ec23e31d8d30751"
+  },
+  "ftbquests/textures/shapes/hexagon/background.png": {
+    "size": [
+      128,
+      128
+    ],
+    "sha256": "adb27ef148ef0659c6063836513ae876c75cb889ce41513f69feb9092a674867"
+  },
+  "ftbquests/textures/shapes/octagon/background.png": {
+    "size": [
+      128,
+      128
+    ],
+    "sha256": "fbbe4a0cdaec38433206670a969c85647c4ef7a8fbcfd329423b1f88cbf68870"
+  },
+  "ftbquests/textures/shapes/pentagon/background.png": {
+    "size": [
+      128,
+      128
+    ],
+    "sha256": "67f5e808567f720e71011684aecb085cc59c3c10c2bf155ad0b27921f8e5b59f"
+  },
+  "ftbquests/textures/shapes/rsquare/background.png": {
+    "size": [
+      128,
+      128
+    ],
+    "sha256": "8b99aa399caada8262e5eea3e701f9bb3a1530dcb7d3b74f5b85df023880ecf6"
+  },
+  "ftbquests/textures/shapes/square/background.png": {
+    "size": [
+      128,
+      128
+    ],
+    "sha256": "3ae6a780b5d2d94526ebd60301937dd682519ea7d16962c3665a916ba82e9600"
+  },
+  "rain/textures/gui/poc/chapter_panel.png": {
+    "size": [
+      32,
+      32
+    ],
+    "sha256": "5a9bffa8319790d48c718ca9df4af3b0f62417209c846a63c21ee92986970800"
+  },
+  "journeymap/theme/flat/minimap/circle/pur_rim_256.png": {
+    "size": [
+      256,
+      256
+    ],
+    "sha256": "29cf06927d498d8f4356c0f1f833ba641b7b51929122d83b1e9975cb0c7b068e",
+    "alpha_preserved": true,
+    "geometry": "native JourneyMap Purist rim/compass silhouette",
+    "source_jar": "[旅行地图] journeymap-neoforge-1.21.1-6.0.9.jar"
+  },
+  "journeymap/theme/flat/minimap/circle/pur_rim_512.png": {
+    "size": [
+      512,
+      512
+    ],
+    "sha256": "5270c7e01a09c23306a82f733850a86a4fbceec52fe99fca0bfe9aae1f3647d7",
+    "alpha_preserved": true,
+    "geometry": "native JourneyMap Purist rim/compass silhouette",
+    "source_jar": "[旅行地图] journeymap-neoforge-1.21.1-6.0.9.jar"
+  },
+  "journeymap/theme/flat/minimap/circle/pur_compass_point.png": {
+    "size": [
+      48,
+      48
+    ],
+    "sha256": "00a31c2a878a7139f097bc784ea03f2b2ef3c91ef058d943a579480b2aeb5b84",
+    "alpha_preserved": true,
+    "geometry": "native JourneyMap Purist rim/compass silhouette",
+    "source_jar": "[旅行地图] journeymap-neoforge-1.21.1-6.0.9.jar"
+  }
+}
