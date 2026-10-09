@@ -1,0 +1,12 @@
+{
+  "ui.button.click": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:ui/poc_button_click",
+        "stream": false,
+        "preload": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "codec": "vorbis",
+  "channels": 1,
+  "sample_rate": 44100,
+  "duration_seconds": 0.1,
+  "sample_peak_db": -2.71,
+  "rms_db": -19.77,
+  "complete_decode_passed": true,
+  "native_resource_priority_and_reference_passed": true,
+  "sound_schema_verified_against_installed_bytecode": true,
+  "native_sound_engine_initialization_test": "Requires NeoForge loading lifecycle; not performed in game",
+  "protected_files": 1057,
+  "protected_files_changed": [],
+  "quest_count": 578,
+  "resolved_dependencies": 591,
+  "dependency_errors": 0,
+  "existing_logs_before_installation": {
+    "startup.log": [
+      "[21:50:20] [INFO] Loaded 10/10 KubeJS startup scripts in 5.206 s with 0 errors and 0 warnings"
+    ],
+    "server.log": [
+      "[18:30:03] [INFO] Loaded 101/101 KubeJS server scripts in 0.789 s with 0 errors and 0 warnings",
+      "[18:30:33] [INFO] Added 1026 recipes, removed 410 recipes, modified 20 recipes, with 0 failed recipes taking 16.539 s in total"
+    ],
+    "client.log": [
+      "[21:50:20] [INFO] Loaded 3/3 KubeJS client scripts in 0.053 s with 0 errors and 0 warnings"
+    ]
+  },
+  "game_restarted": false,
+  "runtime_playback_verified": false,
+  "installed": [
+    {
+      "path": "kubejs/assets/minecraft/sounds.json",
+      "sha256": "fc02c184ebc6c3ba9d7d4e1aaef5ee11c44048212ae4ca20004bcf505cb0565b",
+      "size": 200,
+      "new_file": true
+    },
+    {
+      "path": "kubejs/assets/minecraft/sounds/ui/poc_button_click.ogg",
+      "sha256": "ed6522e6e21abe771967fed99c861ef21bbc98f2927273044dad59d77bdcd9fb",
+      "size": 5041,
+      "new_file": true
+    }
+  ],
+  "sound_event": "minecraft:ui.button.click",
+  "sound_channel": "master",
+  "native_priority_mixin_sha256": "e07212231918109a504e58739ded9ae366b28229a851f0b6628bc60bd20ad8e1"
+}
