@@ -8,7 +8,8 @@ layout-meta {
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 10
-  [loading_requirement_container_meta:poc-title-music-layout-requirements] = [groups:][instances:]
+  [loading_requirement_container_meta:poc-title-music-layout-requirements] = [groups:][instances:poc-ui-enabled-poc-title-music]
+  [loading_requirement:is_resource_pack_enabled][requirement_mode:if][req_id:poc-ui-enabled-poc-title-music] = file/Path-of-Creation-UI
 }
 
 element {
@@ -47,7 +48,7 @@ element {
   sound_source = music
   looping = true
   play_mode = normal
-  audio_instance_0 = [source:local]/config/fancymenu/assets/music/void_dawn.ogg
+  audio_instance_0 = [source:location]poc_ui:fancymenu/music/void_dawn.ogg
   audio_instance_weight_0 = 1.0
   element_loading_requirement_container_identifier = poc-title-background-music-requirements
   [loading_requirement_container_meta:poc-title-background-music-requirements] = [groups:][instances:]

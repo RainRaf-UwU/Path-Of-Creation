@@ -17,6 +17,11 @@ public final class NativeCursorTest {
             window=GLFW.glfwCreateWindow(320,200,"POC Cursor native test",0,0);
             if(window==0) throw new AssertionError("Hidden window failed: "+errors);
             GlfwCursor access=new GlfwCursor(new FancyCursorCompat(NativeCursorTest.class.getClassLoader(),errors::add),errors::add);
+            java.nio.file.Path pack=java.nio.file.Path.of(args[0]);
+            try(var reader=java.nio.file.Files.newBufferedReader(pack.resolve("assets/poc_cursor/cursor.json"));
+                var stream=java.nio.file.Files.newInputStream(pack.resolve("assets/poc_cursor/textures/cursor.png"))) {
+                access.theme(CursorTheme.read(reader,stream));
+            }
             int before=GLFW.glfwGetInputMode(window,GLFW.GLFW_CURSOR);
             for(int i=0;i<100;i++) {
                 long cursor=access.create(); assert cursor!=0;

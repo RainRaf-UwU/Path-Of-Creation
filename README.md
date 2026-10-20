@@ -54,6 +54,10 @@ v0.2.0 使用 **Minecraft 1.21.1、NeoForge 21.1.255、Java 21**。
 
 PCL 的版本图标可使用 `config/fancymenu/assets/pack_icon.png`。Release 也提供 256×256 图标和高清 Logo。
 
+当前开发版将界面、菜单音乐、按钮音效和星核光标集中在 `resourcepacks/Path-of-Creation-UI`。首次安装默认启用，之后保留玩家选择；在“选项 → 资源包”中可以关闭或调整优先级。光标由整合包内的 `poc-cursor` 模组读取资源包显示，主菜单与加载页沿用 FancyMenu 布局。安装此改动后先完整重启客户端，后续可用 F3+T 重载素材。
+
+当前开发版新增创建世界时的开场剧情：从第一人称直线睁眼过渡到第三人称，使用玩家真实皮肤立绘、非人形系统 ECHO、逐字音效和对话选项。剧情期间锁定移动，结束后恢复操作与基础飞行；已有存档不会补播。已停用会在玩家面前投影界面的 Public GUI Announcement，避免遮挡角色。
+
 ## v0.2.0 更新
 
 - 新增 47 个 JEI 展示配方，涵盖世界交互、数据模型、钓鱼与雷击转化。
@@ -75,8 +79,10 @@ PCL 的版本图标可使用 `config/fancymenu/assets/pack_icon.png`。Release �
 | `config/ftbquests/quests` | 任务章节、依赖与中英文文本 |
 | `config/skyblockbuilder` | 空岛生成配置与模板 |
 | `mods` | 当前模组文件 |
+| `resourcepacks/Path-of-Creation-UI` | 界面、菜单音乐、音效与星核光标资源；首次默认启用 |
 | [tools/poc-updater](tools/poc-updater/README.md) | 自动更新模组源码、发布与安装说明 |
 | `tools/poc-cursor` | 专属光标源码与素材 |
+| `tools/poc-intro` | 新世界开场剧情源码、音效与离线检查工具 |
 
 正式更新包由 [GitHub Actions](.github/workflows/poc-update-release.yml) 打包发布；操作步骤见 [自动更新 README](tools/poc-updater/README.md)。修改玩法后，需要重载游戏并检查对应的生存流程。
 
@@ -112,7 +118,6 @@ PCL 的版本图标可使用 `config/fancymenu/assets/pack_icon.png`。Release �
 | 传送门嬗变 · PortalTransform | QiHuang02 |
 | 修复GPU内存泄漏 · Gpu memory leak fix | Someaddon |
 | 傻瓜烹饪／懒人厨房 · [Cooking for Blockheads](https://mods.twelveiterations.com/minecraft/cookingforblockheads) | BlayTheNinth |
-| 公开GUI显示 · Public GUI Announcement | AbsolemJackdaw |
 | 农场贸易 · [Farming for Blockheads](https://mods.twelveiterations.com/minecraft/farming-for-blockheads) | BlayTheNinth |
 | 农夫乐事 · [Farmer's Delight](https://github.com/vectorwing/FarmersDelight) | vectorwing |
 | 冰山 · [Iceberg](https://anthonyhilyard.com/) | Grend |
@@ -321,6 +326,7 @@ PCL 的版本图标可使用 `config/fancymenu/assets/pack_icon.png`。Release �
 | Placebo | Shadows_of_Fire |
 | [Plushie Mod](https://github.com/Link4real/Plushie-Mod/issues) | Link4real, Vento |
 | [创世之径 · 光标](https://github.com/RainRaf-UwU/Path-Of-Creation) | RainRaf-UwU |
+| 创世之径 · 序章 | RainRaf-UwU |
 | [创世之径自动更新](https://github.com/RainRaf-UwU/Path-Of-Creation) | RainRaf-UwU |
 | [Polymorphic Energistics](https://github.com/62832/PolymorphicEnergistics/issues) | — |
 | [PolyLib](https://github.com/CreeperHost/PolyLib/issues) | CreeperHost |

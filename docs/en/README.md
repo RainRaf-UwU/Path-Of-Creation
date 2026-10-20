@@ -54,6 +54,10 @@ Choose **English (US)** or Simplified Chinese in Options → Language. Leave FTB
 
 PCL users can use `config/fancymenu/assets/pack_icon.png` as the instance icon. Releases also include a 256×256 icon and a high-resolution logo.
 
+The current development version collects UI artwork, menu music, button sounds, and the star-core cursor in `resourcepacks/Path-of-Creation-UI`. It enables the pack once on first installation and preserves later player choices. Disable it or adjust its priority in Options → Resource Packs. The bundled `poc-cursor` mod loads the native cursor from the pack; menu and loading layouts use FancyMenu. Restart the client after installing this change, then use F3+T for subsequent artwork reloads.
+
+The current development version adds a prologue for newly created worlds: a straight-edged first-person eye-opening effect transitions to a third-person scene, with the player's actual skin, the nonhuman ECHO system, character sounds, and dialogue choices. Movement is locked during the scene and restored with basic flight afterward. Existing saves never replay it. Public GUI Announcement is disabled to prevent its projected GUI from covering the player.
+
 ## v0.2.0 changes
 
 - Added 47 JEI display recipes for world interactions, data models, fishing, and lightning transformations.
@@ -75,8 +79,10 @@ Full changelogs are available in [Releases](https://github.com/RainRaf-UwU/Path-
 | `config/ftbquests/quests` | Quest chapters, dependencies, and bilingual text |
 | `config/skyblockbuilder` | Skyblock generation settings and templates |
 | `mods` | Installed mod files |
+| `resourcepacks/Path-of-Creation-UI` | UI, menu music, button sounds, and star-core cursor assets; enabled by default once |
 | [tools/poc-updater](../../tools/poc-updater/README.en.md) | Updater source, release steps, and installation details |
 | `tools/poc-cursor` | Custom cursor source and artwork |
+| `tools/poc-intro` | New-world prologue source, audio, and offline verification tools |
 
 Official update packages are built by [GitHub Actions](../../.github/workflows/poc-update-release.yml). See the [updater README](../../tools/poc-updater/README.en.md) for publishing steps. Gameplay changes require a game reload and a check of the affected survival progression.
 
@@ -112,7 +118,6 @@ Thank you to the mod authors and contributors whose work makes this pack possibl
 | PortalTransform | QiHuang02 |
 | Gpu memory leak fix | Someaddon |
 | [Cooking for Blockheads](https://mods.twelveiterations.com/minecraft/cookingforblockheads) | BlayTheNinth |
-| Public GUI Announcement | AbsolemJackdaw |
 | [Farming for Blockheads](https://mods.twelveiterations.com/minecraft/farming-for-blockheads) | BlayTheNinth |
 | [Farmer's Delight](https://github.com/vectorwing/FarmersDelight) | vectorwing |
 | [Iceberg](https://anthonyhilyard.com/) | Grend |
@@ -321,6 +326,7 @@ Thank you to the mod authors and contributors whose work makes this pack possibl
 | Placebo | Shadows_of_Fire |
 | [Plushie Mod](https://github.com/Link4real/Plushie-Mod/issues) | Link4real, Vento |
 | [创世之径 · 光标](https://github.com/RainRaf-UwU/Path-Of-Creation) | RainRaf-UwU |
+| Path of Creation · Prologue | RainRaf-UwU |
 | [创世之径自动更新](https://github.com/RainRaf-UwU/Path-Of-Creation) | RainRaf-UwU |
 | [Polymorphic Energistics](https://github.com/62832/PolymorphicEnergistics/issues) | — |
 | [PolyLib](https://github.com/CreeperHost/PolyLib/issues) | CreeperHost |

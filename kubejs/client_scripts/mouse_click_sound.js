@@ -7,18 +7,24 @@ const $PocClickResourceLocation = Java.loadClass('net.minecraft.resources.Resour
 const pocMouseClickSound = $PocClickSoundEvent.createVariableRangeEvent(
     $PocClickResourceLocation.parse('minecraft:poc_mouse_click')
 )
+const pocUiSoundMarker = $PocClickResourceLocation.parse('poc_cursor:cursor.json')
+
+function pocUiSoundsEnabled(client) {
+    return client.getResourceManager().getResource(pocUiSoundMarker).isPresent()
+}
 
 NativeEvents.onEvent('net.neoforged.neoforge.client.event.InputEvent$MouseButton$Pre', event => {
     // GLFW: left button = 0; press = 1. Release/hold/right/middle do not play.
     if (event.getButton() !== 0 || event.getAction() !== 1) return
     const client = $PocClickMinecraft.getInstance()
-    if (!client.isWindowActive()) return
+    if (!client.isWindowActive() || !pocUiSoundsEnabled(client)) return
     client.getSoundManager().play($PocClickSoundInstance.forUI(pocMouseClickSound, 1.0))
 })
 
 // Buttons already play ui.button.click. Suppress that event so a left click
 // never doubles the new mouse sound, and keyboard/right-button activation is silent.
 NativeEvents.onEvent('net.neoforged.neoforge.client.event.sound.PlaySoundEvent', event => {
+    if (!pocUiSoundsEnabled($PocClickMinecraft.getInstance())) return
     if (event.getOriginalSound().getLocation().toString() === 'minecraft:ui.button.click') {
         event.setSound(null)
     }

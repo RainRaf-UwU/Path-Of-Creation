@@ -57,6 +57,11 @@ final class CursorController {
         previous = 0;
     }
 
+    void reload(long liveWindow) {
+        close(liveWindow);
+        failed = false;
+    }
+
     void close(long liveWindow) {
         if (liveWindow != 0) release(liveWindow, nativeAccess.observe(liveWindow));
         boundWindow = 0;

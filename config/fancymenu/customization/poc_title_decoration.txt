@@ -6,6 +6,8 @@ layout-meta {
   is_enabled = true
   randommode = false
   layout_index = -10
+  [loading_requirement_container_meta:poc-ui-layout-poc_title_decoration] = [groups:][instances:poc-ui-enabled-poc-title-decoration]
+  [loading_requirement:is_resource_pack_enabled][requirement_mode:if][req_id:poc-ui-enabled-poc-title-decoration] = file/Path-of-Creation-UI
 }
 
 element {
@@ -60,7 +62,7 @@ element {
   advanced_vertical_tilt_degrees = 0.0
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_degrees = 0.0
-  source = [source:local]/config/fancymenu/assets/poc-polish/atmosphere.png
+  source = [source:location]poc_ui:fancymenu/poc-polish/atmosphere.png
   [loading_requirement_container_meta:poc-polish-atmosphere-requirements] = [groups:][instances:]
   repeat_texture = false
   nine_slice_texture = false
@@ -126,7 +128,7 @@ element {
   advanced_vertical_tilt_degrees = 0.0
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_degrees = 0.0
-  source = [source:local]/config/fancymenu/assets/poc-polish/screen-corners.png
+  source = [source:location]poc_ui:fancymenu/poc-polish/screen-corners.png
   [loading_requirement_container_meta:poc-polish-screen-corners-requirements] = [groups:][instances:]
   repeat_texture = false
   nine_slice_texture = false
@@ -192,7 +194,7 @@ element {
   advanced_vertical_tilt_degrees = 0.0
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_degrees = 0.0
-  source = [source:local]/config/fancymenu/assets/poc-polish/creation-orbit.png
+  source = [source:location]poc_ui:fancymenu/poc-polish/creation-orbit.png
   [loading_requirement_container_meta:poc-polish-creation-orbit-requirements] = [groups:][instances:]
   repeat_texture = false
   nine_slice_texture = false
@@ -258,7 +260,7 @@ element {
   advanced_vertical_tilt_degrees = 0.0
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_degrees = 0.0
-  source = [source:local]/config/fancymenu/assets/poc-polish/play-panel.png
+  source = [source:location]poc_ui:fancymenu/poc-polish/play-panel.png
   [loading_requirement_container_meta:poc-polish-play-panel-requirements] = [groups:][instances:]
   repeat_texture = false
   nine_slice_texture = false
@@ -324,7 +326,7 @@ element {
   advanced_vertical_tilt_degrees = 0.0
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_degrees = 0.0
-  source = [source:local]/config/fancymenu/assets/poc-polish/community-panel.png
+  source = [source:location]poc_ui:fancymenu/poc-polish/community-panel.png
   [loading_requirement_container_meta:poc-polish-community-panel-requirements] = [groups:][instances:]
   repeat_texture = false
   nine_slice_texture = false
@@ -390,7 +392,7 @@ element {
   advanced_vertical_tilt_degrees = 0.0
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_degrees = 0.0
-  source = [source:local]/config/fancymenu/assets/poc-polish/brand-rail.png
+  source = [source:location]poc_ui:fancymenu/poc-polish/brand-rail.png
   [loading_requirement_container_meta:poc-polish-brand-rail-requirements] = [groups:][instances:]
   repeat_texture = false
   nine_slice_texture = false

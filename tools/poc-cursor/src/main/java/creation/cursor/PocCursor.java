@@ -7,39 +7,86 @@ import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.renderer.RenderType;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.EventPriority;
+import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.config.ModConfig;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.client.event.InputEvent;
+import net.neoforged.neoforge.client.event.ClientTickEvent;
+import net.neoforged.neoforge.client.event.RegisterClientReloadListenersEvent;
 import net.neoforged.neoforge.client.event.RenderFrameEvent;
 import net.neoforged.neoforge.client.event.ScreenEvent;
 import net.neoforged.neoforge.event.GameShuttingDownEvent;
 import org.lwjgl.glfw.GLFW;
 import org.joml.Matrix4f;
 import org.slf4j.Logger;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.server.packs.resources.ResourceManager;
+import net.minecraft.server.packs.resources.ResourceManagerReloadListener;
 
 @Mod(value="poc_cursor", dist=Dist.CLIENT)
 public final class PocCursor {
     private static final Logger LOG = LogUtils.getLogger();
-    private final CursorController cursor = new CursorController(new GlfwCursor(
+    private final GlfwCursor nativeCursor = new GlfwCursor(
             new FancyCursorCompat(PocCursor.class.getClassLoader(), s -> LOG.warn("[POC Cursor] {}",s)),
-            s -> LOG.warn("[POC Cursor] {}",s)));
+            s -> LOG.warn("[POC Cursor] {}",s));
+    private final CursorController cursor = new CursorController(nativeCursor);
     private final ClickEffects effects = new ClickEffects();
     private final FtbCursorCompat ftb = new FtbCursorCompat(PocCursor.class.getClassLoader(),
             s -> LOG.warn("[POC Cursor] {}",s));
 
-    public PocCursor(ModContainer container) {
+    private boolean themeActive, defaultsChecked;
+
+    public PocCursor(IEventBus modBus, ModContainer container) {
         container.registerConfig(ModConfig.Type.CLIENT, CursorConfig.SPEC, "poc-cursor-client.toml");
+        modBus.addListener(RegisterClientReloadListenersEvent.class, event ->
+                event.registerReloadListener((ResourceManagerReloadListener)this::reload));
+        NeoForge.EVENT_BUS.addListener(ClientTickEvent.Post.class, this::defaults);
         NeoForge.EVENT_BUS.addListener(EventPriority.LOWEST, RenderFrameEvent.Post.class, this::frame);
         NeoForge.EVENT_BUS.addListener(EventPriority.LOWEST, InputEvent.MouseButton.Pre.class, this::click);
         NeoForge.EVENT_BUS.addListener(EventPriority.LOWEST, ScreenEvent.Render.Post.class, this::render);
         NeoForge.EVENT_BUS.addListener(GameShuttingDownEvent.class, this::shutdown);
-        LOG.info("[POC Cursor] Client cursor and click effects loaded (no input interception)");
+        LOG.info("[POC Cursor] Resource-pack cursor and click effects loaded (no input interception)");
+    }
+
+    private void defaults(ClientTickEvent.Post event) {
+        Minecraft mc = Minecraft.getInstance();
+        if (defaultsChecked || mc.getOverlay() != null || mc.screen == null) return;
+        defaultsChecked = true;
+        var repository = mc.getResourcePackRepository();
+        try {
+            DefaultPackSelection.initialize(mc.gameDirectory.toPath().resolve("local/poc-ui/default-selection-v1"),
+                    repository.getAvailableIds(), repository.getSelectedIds(), next -> {
+                        repository.setSelected(next);
+                        mc.options.updateResourcePacks(repository);
+                    });
+        } catch (Exception failure) {
+            LOG.warn("[POC Cursor] Could not save default resource-pack selection", failure);
+        }
+    }
+
+    private void reload(ResourceManager resources) {
+        Minecraft mc = Minecraft.getInstance();
+        cursor.reload(mc.getWindow().getWindow());
+        themeActive = false;
+        nativeCursor.theme(null);
+        effects.context(null, 0, 0, false);
+        var metadata = resources.getResource(ResourceLocation.parse("poc_cursor:cursor.json"));
+        var texture = resources.getResource(ResourceLocation.parse("poc_cursor:textures/cursor.png"));
+        if (metadata.isEmpty() || texture.isEmpty()) return;
+        try (var reader = metadata.get().openAsReader(); var stream = texture.get().open()) {
+            CursorTheme theme = CursorTheme.read(reader, stream);
+            nativeCursor.theme(theme);
+            effects.colors(theme.leftColor(), theme.rightColor(), theme.middleColor());
+            themeActive = true;
+        } catch (Exception | LinkageError failure) {
+            LOG.warn("[POC Cursor] Invalid cursor resources; using the existing cursor", failure);
+        }
     }
 
     private boolean eligible(Minecraft mc) {
-        return mc.screen != null && mc.getOverlay() == null && mc.isWindowActive()
+        return themeActive && mc.screen != null && mc.getOverlay() == null && mc.isWindowActive()
                 && !mc.mouseHandler.isMouseGrabbed()
                 && GLFW.glfwGetInputMode(mc.getWindow().getWindow(),GLFW.GLFW_CURSOR) == GLFW.GLFW_CURSOR_NORMAL;
     }

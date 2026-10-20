@@ -6,10 +6,12 @@ layout-meta {
   is_enabled = true
   randommode = false
   layout_index = 0
+  [loading_requirement_container_meta:poc-ui-layout-poc_loading_receiving_level_screen] = [groups:][instances:poc-ui-enabled-poc-loading-receiving-level-screen]
+  [loading_requirement:is_resource_pack_enabled][requirement_mode:if][req_id:poc-ui-enabled-poc-loading-receiving-level-screen] = file/Path-of-Creation-UI
 }
 
 menu_background {
-  image_path = [source:local]/config/fancymenu/assets/poc-screen/loading-background.png
+  image_path = [source:location]poc_ui:fancymenu/poc-screen/loading-background.png
   background_type = image
   repeat_texture = false
   parallax = false
@@ -84,7 +86,7 @@ element {
   advanced_vertical_tilt_degrees = 0.0
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_degrees = 0.0
-  source = [source:local]/config/fancymenu/assets/poc-screen/loading-corners.png
+  source = [source:location]poc_ui:fancymenu/poc-screen/loading-corners.png
   repeat_texture = false
   nine_slice_texture = false
   nine_slice_texture_border_x = 5
@@ -150,7 +152,7 @@ element {
   advanced_vertical_tilt_degrees = 0.0
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_degrees = 0.0
-  source = [source:local]/config/fancymenu/assets/poc-screen/loading-brand.png
+  source = [source:location]poc_ui:fancymenu/poc-screen/loading-brand.png
   repeat_texture = false
   nine_slice_texture = false
   nine_slice_texture_border_x = 5
@@ -216,7 +218,7 @@ element {
   advanced_vertical_tilt_degrees = 0.0
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_degrees = 0.0
-  source = [source:local]/config/fancymenu/assets/poc-screen/loading-receiving_level_screen.png
+  source = [source:location]poc_ui:fancymenu/poc-screen/loading-receiving_level_screen.png
   repeat_texture = false
   nine_slice_texture = false
   nine_slice_texture_border_x = 5
@@ -282,7 +284,7 @@ element {
   advanced_vertical_tilt_degrees = 0.0
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_degrees = 0.0
-  source = [source:local]/config/fancymenu/assets/poc-screen/loading-footer.png
+  source = [source:location]poc_ui:fancymenu/poc-screen/loading-footer.png
   repeat_texture = false
   nine_slice_texture = false
   nine_slice_texture_border_x = 5
@@ -348,7 +350,7 @@ element {
   advanced_vertical_tilt_degrees = 0.0
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_degrees = 0.0
-  source = [source:local]/config/fancymenu/assets/poc-screen/waiting-scan.gif
+  source = [source:location]poc_ui:fancymenu/poc-screen/waiting-scan.gif
   repeat_texture = false
   nine_slice_texture = false
   nine_slice_texture_border_x = 5

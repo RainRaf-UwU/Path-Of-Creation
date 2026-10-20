@@ -1,7 +1,7 @@
 #Disables File Watcher. Used to automatically update config if its file has been modified.
 disableConfigWatcher = false
 #Should we control the window. Disabling this disables new GL features and can be bad for mods that rely on them.
-earlyWindowControl = true
+earlyWindowControl = false
 #Max threads for early initialization parallelism,  -1 is based on processor count
 maxThreads = -1
 #Enable NeoForge global version checking

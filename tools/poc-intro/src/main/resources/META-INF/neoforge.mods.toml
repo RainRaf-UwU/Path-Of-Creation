@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="poc_intro"
+version="1.0.0"
+displayName="创世之径 · 序章"
+authors="RainRaf-UwU"
+displayURL="https://github.com/RainRaf-UwU/Path-Of-Creation"
+description='''仅在创建新世界时播放的开场：第一人称直线睁眼后切换第三人称、环顾虚空、ECHO 对话与选项、真实皮肤立绘及逐字音效。旧世界不补播。'''
+
+[[mixins]]
+config="poc_intro.mixins.json"
+
+[[dependencies.poc_intro]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.255,21.2)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.poc_intro]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"

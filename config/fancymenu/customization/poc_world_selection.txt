@@ -6,12 +6,14 @@ layout-meta {
   is_enabled = true
   randommode = false
   layout_index = 0
+  [loading_requirement_container_meta:poc-ui-layout-poc_world_selection] = [groups:][instances:poc-ui-enabled-poc-world-selection]
+  [loading_requirement:is_resource_pack_enabled][requirement_mode:if][req_id:poc-ui-enabled-poc-world-selection] = file/Path-of-Creation-UI
 }
 
 scroll_list_customization {
   preserve_scroll_list_header_footer_aspect_ratio = false
-  scroll_list_header_texture = [source:local]/config/fancymenu/assets/poc-polish/world-header.png
-  scroll_list_footer_texture = [source:local]/config/fancymenu/assets/poc-polish/world-footer.png
+  scroll_list_header_texture = [source:location]poc_ui:fancymenu/poc-polish/world-header.png
+  scroll_list_footer_texture = [source:location]poc_ui:fancymenu/poc-polish/world-footer.png
   render_scroll_list_header_shadow = false
   render_scroll_list_footer_shadow = false
   repeat_scroll_list_header_texture = false
@@ -72,7 +74,7 @@ element {
   advanced_vertical_tilt_degrees = 0.0
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_degrees = 0.0
-  source = [source:local]/config/fancymenu/assets/poc-polish/world-left.png
+  source = [source:location]poc_ui:fancymenu/poc-polish/world-left.png
   [loading_requirement_container_meta:poc-polish-world-left-requirements] = [groups:][instances:]
   repeat_texture = false
   nine_slice_texture = false
@@ -138,7 +140,7 @@ element {
   advanced_vertical_tilt_degrees = 0.0
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_degrees = 0.0
-  source = [source:local]/config/fancymenu/assets/poc-polish/world-right.png
+  source = [source:location]poc_ui:fancymenu/poc-polish/world-right.png
   [loading_requirement_container_meta:poc-polish-world-right-requirements] = [groups:][instances:]
   repeat_texture = false
   nine_slice_texture = false

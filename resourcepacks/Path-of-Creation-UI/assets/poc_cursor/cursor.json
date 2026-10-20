@@ -1,0 +1,9 @@
+{
+  "hotspot_x": 24,
+  "hotspot_y": 24,
+  "click_colors": {
+    "left": "#58D9EA",
+    "right": "#7AD9B0",
+    "middle": "#E9B867"
+  }
+}

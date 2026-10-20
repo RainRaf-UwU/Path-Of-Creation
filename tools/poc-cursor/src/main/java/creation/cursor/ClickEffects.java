@@ -12,6 +12,12 @@ final class ClickEffects {
     private final Deque<Burst> bursts = new ArrayDeque<>();
     private Object screen;
     private int width, height;
+    private int leftColor = 0x58D9EA, rightColor = 0x7AD9B0, middleColor = 0xE9B867;
+
+    void colors(int left, int right, int middle) {
+        bursts.clear();
+        leftColor = left; rightColor = right; middleColor = middle;
+    }
 
     void context(Object nextScreen, int nextWidth, int nextHeight, boolean eligible) {
         if (!eligible || nextScreen != screen || nextWidth != width || nextHeight != height) bursts.clear();
@@ -22,7 +28,7 @@ final class ClickEffects {
         if (screen == null || button < 0 || button > 2 || !Double.isFinite(x) || !Double.isFinite(y)
                 || x < 0 || y < 0 || x >= width || y >= height) return;
         if (bursts.size() == MAX_BURSTS) bursts.removeFirst();
-        bursts.addLast(new Burst((float)x,(float)y,button == 0 ? 0x58D9EA : button == 1 ? 0x7AD9B0 : 0xE9B867,now));
+        bursts.addLast(new Burst((float)x,(float)y,button == 0 ? leftColor : button == 1 ? rightColor : middleColor,now));
     }
     void render(long now, long duration, QuadSink sink) {
         bursts.removeIf(b -> now - b.started >= duration || now < b.started);
