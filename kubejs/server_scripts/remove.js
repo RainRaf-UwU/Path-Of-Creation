@@ -48,7 +48,6 @@ ServerEvents.recipes(e=>{
 
     const id_1 = [
         'enderio:alloy_smelting/pulsating_alloy_ingot',
-        'enderio:alloy_smelting/conductive_alloy_ingot',
         'oritech:silicon_blockblock',
         'immersiveengineering:arc_recycling_list020',
         'immesriveengineering:arc_recycling_list040',

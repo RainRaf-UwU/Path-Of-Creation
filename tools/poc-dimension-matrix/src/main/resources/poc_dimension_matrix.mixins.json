@@ -1,0 +1,1 @@
+{"required":true,"minVersion":"0.8","package":"creation.matrix.mixin","compatibilityLevel":"JAVA_21","mixins":["MachineTileMixin"],"client":["MachineRendererMixin","AssemblyBlockRenderMixin","AssemblyEntityRenderMixin","AssemblySodiumBlockMixin","AssemblySodiumFluidMixin"],"injectors":{"defaultRequire":1}}

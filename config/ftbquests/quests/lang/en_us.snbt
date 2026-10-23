@@ -394,4 +394,6 @@
 	quest.7C93816B62FF2660.title: "XP Tap: Fluid XP to Orbs"
 	quest.7EAD817522C2CF8B.quest_subtitle: "Island and Building"
 	quest.7EAD817522C2CF8B.title: "Construction Sticks: Building and Upgrades"
+	quest.07644C54930C8FAB.quest_desc: ["Use the Alloy Smelter to turn 1 iron ingot, 1 copper ingot and 1 redstone dust into 2 Conductive Alloy Ingots. Each operation costs 3200 FE.", "Conductive Alloy Ingots are used next to make Infused Alloy."]
+	quest.431528ECA5E58153.quest_desc: ["Use the Alloy Smelter to combine 1 Restonia Crystal, 1 iron ingot and 1 Conductive Alloy Ingot into 1 Infused Alloy. Each operation costs 4800 FE."]
 }

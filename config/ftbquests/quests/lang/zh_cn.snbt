@@ -745,4 +745,6 @@
 	task.787D44237B209EF2.title: "1"
 	task.796E88BA8A808092.title: "Any #create:sandpaper"
 	task.7E10781CBD307A8B.title: "机械动力修改说明"
+	quest.07644C54930C8FAB.quest_desc: ["在合金炉中将 1 个铁锭、1 个铜锭与 1 个红石熔炼为 2 个导电合金锭，每次消耗 3200 FE。", "导电合金锭是接下来制作灌注合金的原料。"]
+	quest.431528ECA5E58153.quest_desc: ["在合金炉中将 1 个红石水晶、1 个铁锭与 1 个导电合金锭熔炼为 1 个灌注合金，每次消耗 4800 FE。"]
 }

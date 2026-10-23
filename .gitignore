@@ -8,6 +8,10 @@
 !/tools/poc-updater/README.en.md
 !/tools/poc-intro/README.md
 !/tools/poc-intro/assets/audio/README.md
+!/tools/poc-lychee-jei-compat/README.md
+!/tools/poc-dimension-matrix/README.md
+!/tools/poc-intro/manual/README.md
+!/docs/changes-after-v0.2.0/README.md
 
 # Python authoring, audit and test scripts stay local.
 *.[pP][yY]

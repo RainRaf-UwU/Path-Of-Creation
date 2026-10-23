@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "active=false": {
+      "model": "poc_dimension_matrix:block/projection_module"
+    },
+    "active=true": {
+      "model": "poc_dimension_matrix:block/projection_module_active"
+    }
+  }
+}

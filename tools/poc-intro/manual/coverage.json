@@ -1,0 +1,634 @@
+{
+  "date": "2026-10-20",
+  "scope": "科技机器、机制与重要功能物品；附属并入本体；变体不算独立说明。排除材料和装饰，保留结构接口与功能玻璃。",
+  "groups": [
+    {
+      "id": "ae2",
+      "mods": [
+        "ae2",
+        "extendedae",
+        "extendedae_plus",
+        "advanced_ae",
+        "megacells",
+        "ae2omnicells",
+        "meinfinitycell",
+        "ae2wtlib",
+        "ae2importexportcard",
+        "aeinfinitybooster",
+        "appmek",
+        "appflux",
+        "immeng",
+        "polyeng",
+        "arseng",
+        "soulplied_energistics",
+        "appliedsoul",
+        "ae2ct",
+        "ae2netanalyser",
+        "merequester"
+      ],
+      "entries": 590,
+      "operationTopics": 21,
+      "distinctInstructions": 180,
+      "previousDistinctInstructions": 11,
+      "researchedEntries": 553
+    },
+    {
+      "id": "mekanism",
+      "mods": [
+        "mekanism",
+        "mekanismgenerators",
+        "mekanismtools",
+        "mekanismadditions",
+        "mekanism_extras",
+        "mekmm",
+        "mekanism_unleashed"
+      ],
+      "entries": 678,
+      "operationTopics": 76,
+      "distinctInstructions": 77,
+      "previousDistinctInstructions": 12,
+      "researchedEntries": 656
+    },
+    {
+      "id": "create",
+      "mods": [
+        "create",
+        "ars_creo"
+      ],
+      "entries": 433,
+      "operationTopics": 174,
+      "distinctInstructions": 274,
+      "previousDistinctInstructions": 8,
+      "researchedEntries": 362
+    },
+    {
+      "id": "industrialforegoing",
+      "mods": [
+        "industrialforegoing",
+        "ifeu",
+        "mifa",
+        "industrialforegoingadditional",
+        "industrialforegoingsouls"
+      ],
+      "entries": 312,
+      "operationTopics": 61,
+      "distinctInstructions": 62,
+      "previousDistinctInstructions": 8,
+      "researchedEntries": 283
+    },
+    {
+      "id": "oritech",
+      "mods": [
+        "oritech",
+        "oritechthings"
+      ],
+      "entries": 191,
+      "operationTopics": 5,
+      "distinctInstructions": 100,
+      "previousDistinctInstructions": 98,
+      "researchedEntries": 7
+    },
+    {
+      "id": "enderio",
+      "mods": [
+        "enderio",
+        "enderio_modded_conduits"
+      ],
+      "entries": 191,
+      "operationTopics": 25,
+      "distinctInstructions": 27,
+      "previousDistinctInstructions": 4,
+      "researchedEntries": 142
+    },
+    {
+      "id": "immersiveengineering",
+      "mods": [
+        "immersiveengineering"
+      ],
+      "entries": 252,
+      "operationTopics": 72,
+      "distinctInstructions": 82,
+      "previousDistinctInstructions": 4,
+      "researchedEntries": 192
+    },
+    {
+      "id": "actuallyadditions",
+      "mods": [
+        "actuallyadditions"
+      ],
+      "entries": 182,
+      "operationTopics": 44,
+      "distinctInstructions": 44,
+      "previousDistinctInstructions": 4,
+      "researchedEntries": 138
+    },
+    {
+      "id": "powah",
+      "mods": [
+        "powah"
+      ],
+      "entries": 102,
+      "operationTopics": 3,
+      "distinctInstructions": 16,
+      "previousDistinctInstructions": 16,
+      "researchedEntries": 0
+    },
+    {
+      "id": "draconicevolution",
+      "mods": [
+        "draconicevolution"
+      ],
+      "entries": 101,
+      "operationTopics": 10,
+      "distinctInstructions": 11,
+      "previousDistinctInstructions": 4,
+      "researchedEntries": 78
+    },
+    {
+      "id": "extendedcrafting",
+      "mods": [
+        "extendedcrafting"
+      ],
+      "entries": 27,
+      "operationTopics": 7,
+      "distinctInstructions": 8,
+      "previousDistinctInstructions": 4,
+      "researchedEntries": 19
+    },
+    {
+      "id": "avaritia",
+      "mods": [
+        "avaritia"
+      ],
+      "entries": 33,
+      "operationTopics": 4,
+      "distinctInstructions": 4,
+      "previousDistinctInstructions": 3,
+      "researchedEntries": 16
+    },
+    {
+      "id": "packagedauto",
+      "mods": [
+        "packagedauto",
+        "packagedexcrafting",
+        "packageddraconic",
+        "packagedavaritia"
+      ],
+      "entries": 34,
+      "operationTopics": 4,
+      "distinctInstructions": 4,
+      "previousDistinctInstructions": 1,
+      "researchedEntries": 32
+    },
+    {
+      "id": "custommachinery",
+      "mods": [
+        "custommachinery",
+        "custommachinerymekanism",
+        "rain"
+      ],
+      "entries": 7,
+      "operationTopics": 7,
+      "distinctInstructions": 7,
+      "previousDistinctInstructions": 7,
+      "researchedEntries": 0
+    },
+    {
+      "id": "hostilenetworks",
+      "mods": [
+        "hostilenetworks"
+      ],
+      "entries": 11,
+      "operationTopics": 3,
+      "distinctInstructions": 4,
+      "previousDistinctInstructions": 2,
+      "researchedEntries": 8
+    },
+    {
+      "id": "justdirethings",
+      "mods": [
+        "justdirethings"
+      ],
+      "entries": 160,
+      "operationTopics": 1,
+      "distinctInstructions": 146,
+      "previousDistinctInstructions": 1,
+      "researchedEntries": 145
+    },
+    {
+      "id": "flowtech",
+      "mods": [
+        "flowtech"
+      ],
+      "entries": 23,
+      "operationTopics": 3,
+      "distinctInstructions": 4,
+      "previousDistinctInstructions": 2,
+      "researchedEntries": 19
+    },
+    {
+      "id": "rftools",
+      "mods": [
+        "rftoolsbase",
+        "rftoolsstorage",
+        "rftoolsutility",
+        "rftoolspower"
+      ],
+      "entries": 144,
+      "operationTopics": 10,
+      "distinctInstructions": 68,
+      "previousDistinctInstructions": 3,
+      "researchedEntries": 125
+    },
+    {
+      "id": "integrateddynamics",
+      "mods": [
+        "integrateddynamics",
+        "integratedtunnels",
+        "integratedcrafting",
+        "integratedterminals"
+      ],
+      "entries": 111,
+      "operationTopics": 34,
+      "distinctInstructions": 39,
+      "previousDistinctInstructions": 4,
+      "researchedEntries": 70
+    },
+    {
+      "id": "sfm",
+      "mods": [
+        "sfm"
+      ],
+      "entries": 15,
+      "operationTopics": 2,
+      "distinctInstructions": 2,
+      "previousDistinctInstructions": 1,
+      "researchedEntries": 5
+    },
+    {
+      "id": "laserio",
+      "mods": [
+        "laserio"
+      ],
+      "entries": 20,
+      "operationTopics": 1,
+      "distinctInstructions": 20,
+      "previousDistinctInstructions": 1,
+      "researchedEntries": 19
+    },
+    {
+      "id": "xnet",
+      "mods": [
+        "xnet"
+      ],
+      "entries": 28,
+      "operationTopics": 2,
+      "distinctInstructions": 2,
+      "previousDistinctInstructions": 1,
+      "researchedEntries": 20
+    },
+    {
+      "id": "modularrouters",
+      "mods": [
+        "modularrouters",
+        "mekanisticrouters"
+      ],
+      "entries": 48,
+      "operationTopics": 1,
+      "distinctInstructions": 48,
+      "previousDistinctInstructions": 1,
+      "researchedEntries": 47
+    },
+    {
+      "id": "pipez",
+      "mods": [
+        "pipez"
+      ],
+      "entries": 14,
+      "operationTopics": 2,
+      "distinctInstructions": 2,
+      "previousDistinctInstructions": 1,
+      "researchedEntries": 13
+    },
+    {
+      "id": "fluxnetworks",
+      "mods": [
+        "fluxnetworks"
+      ],
+      "entries": 11,
+      "operationTopics": 2,
+      "distinctInstructions": 2,
+      "previousDistinctInstructions": 1,
+      "researchedEntries": 9
+    },
+    {
+      "id": "solarflux",
+      "mods": [
+        "solarflux"
+      ],
+      "entries": 39,
+      "operationTopics": 2,
+      "distinctInstructions": 2,
+      "previousDistinctInstructions": 1,
+      "researchedEntries": 38
+    },
+    {
+      "id": "functionalstorage",
+      "mods": [
+        "functionalstorage",
+        "morefunctionalstorage"
+      ],
+      "entries": 74,
+      "operationTopics": 3,
+      "distinctInstructions": 4,
+      "previousDistinctInstructions": 2,
+      "researchedEntries": 31
+    },
+    {
+      "id": "sophisticatedstorage",
+      "mods": [
+        "sophisticatedstorage"
+      ],
+      "entries": 140,
+      "operationTopics": 2,
+      "distinctInstructions": 2,
+      "previousDistinctInstructions": 1,
+      "researchedEntries": 80
+    },
+    {
+      "id": "sophisticatedbackpacks",
+      "mods": [
+        "sophisticatedbackpacks"
+      ],
+      "entries": 81,
+      "operationTopics": 2,
+      "distinctInstructions": 2,
+      "previousDistinctInstructions": 1,
+      "researchedEntries": 80
+    },
+    {
+      "id": "ironfurnaces",
+      "mods": [
+        "ironfurnaces"
+      ],
+      "entries": 45,
+      "operationTopics": 2,
+      "distinctInstructions": 2,
+      "previousDistinctInstructions": 1,
+      "researchedEntries": 44
+    },
+    {
+      "id": "compactmachines",
+      "mods": [
+        "compactmachines"
+      ],
+      "entries": 4,
+      "operationTopics": 1,
+      "distinctInstructions": 1,
+      "previousDistinctInstructions": 1,
+      "researchedEntries": 0
+    },
+    {
+      "id": "hyperbox",
+      "mods": [
+        "hyperbox"
+      ],
+      "entries": 2,
+      "operationTopics": 1,
+      "distinctInstructions": 1,
+      "previousDistinctInstructions": 1,
+      "researchedEntries": 0
+    },
+    {
+      "id": "dimstorage",
+      "mods": [
+        "dimstorage"
+      ],
+      "entries": 3,
+      "operationTopics": 1,
+      "distinctInstructions": 1,
+      "previousDistinctInstructions": 1,
+      "researchedEntries": 0
+    },
+    {
+      "id": "dankstorage",
+      "mods": [
+        "dankstorage"
+      ],
+      "entries": 2,
+      "operationTopics": 1,
+      "distinctInstructions": 1,
+      "previousDistinctInstructions": 1,
+      "researchedEntries": 0
+    },
+    {
+      "id": "tesseract",
+      "mods": [
+        "tesseract"
+      ],
+      "entries": 2,
+      "operationTopics": 1,
+      "distinctInstructions": 1,
+      "previousDistinctInstructions": 1,
+      "researchedEntries": 0
+    },
+    {
+      "id": "entangled",
+      "mods": [
+        "entangled"
+      ],
+      "entries": 2,
+      "operationTopics": 1,
+      "distinctInstructions": 1,
+      "previousDistinctInstructions": 1,
+      "researchedEntries": 0
+    },
+    {
+      "id": "quarryplus",
+      "mods": [
+        "quarryplus"
+      ],
+      "entries": 37,
+      "operationTopics": 2,
+      "distinctInstructions": 2,
+      "previousDistinctInstructions": 2,
+      "researchedEntries": 36
+    },
+    {
+      "id": "cobblegengalore",
+      "mods": [
+        "cobblegengalore"
+      ],
+      "entries": 8,
+      "operationTopics": 1,
+      "distinctInstructions": 1,
+      "previousDistinctInstructions": 1,
+      "researchedEntries": 0
+    },
+    {
+      "id": "mob_grinding_utils",
+      "mods": [
+        "mob_grinding_utils"
+      ],
+      "entries": 39,
+      "operationTopics": 4,
+      "distinctInstructions": 5,
+      "previousDistinctInstructions": 2,
+      "researchedEntries": 28
+    },
+    {
+      "id": "clickmachine",
+      "mods": [
+        "clickmachine"
+      ],
+      "entries": 2,
+      "operationTopics": 1,
+      "distinctInstructions": 1,
+      "previousDistinctInstructions": 1,
+      "researchedEntries": 0
+    },
+    {
+      "id": "itemcollectors",
+      "mods": [
+        "itemcollectors"
+      ],
+      "entries": 3,
+      "operationTopics": 1,
+      "distinctInstructions": 1,
+      "previousDistinctInstructions": 1,
+      "researchedEntries": 0
+    },
+    {
+      "id": "trashcans",
+      "mods": [
+        "trashcans"
+      ],
+      "entries": 5,
+      "operationTopics": 1,
+      "distinctInstructions": 1,
+      "previousDistinctInstructions": 1,
+      "researchedEntries": 0
+    },
+    {
+      "id": "tiab",
+      "mods": [
+        "tiab",
+        "tiabcurio"
+      ],
+      "entries": 1,
+      "operationTopics": 1,
+      "distinctInstructions": 1,
+      "previousDistinctInstructions": 1,
+      "researchedEntries": 0
+    },
+    {
+      "id": "torcherino",
+      "mods": [
+        "torcherino"
+      ],
+      "entries": 10,
+      "operationTopics": 1,
+      "distinctInstructions": 1,
+      "previousDistinctInstructions": 1,
+      "researchedEntries": 0
+    },
+    {
+      "id": "redstonepen",
+      "mods": [
+        "redstonepen"
+      ],
+      "entries": 12,
+      "operationTopics": 1,
+      "distinctInstructions": 1,
+      "previousDistinctInstructions": 1,
+      "researchedEntries": 0
+    },
+    {
+      "id": "pylons",
+      "mods": [
+        "pylons"
+      ],
+      "entries": 9,
+      "operationTopics": 3,
+      "distinctInstructions": 3,
+      "previousDistinctInstructions": 1,
+      "researchedEntries": 7
+    },
+    {
+      "id": "silentgear",
+      "mods": [
+        "silentgear"
+      ],
+      "entries": 117,
+      "operationTopics": 4,
+      "distinctInstructions": 4,
+      "previousDistinctInstructions": 1,
+      "researchedEntries": 110
+    },
+    {
+      "id": "buildinggadgets2",
+      "mods": [
+        "buildinggadgets2"
+      ],
+      "entries": 32,
+      "operationTopics": 2,
+      "distinctInstructions": 2,
+      "previousDistinctInstructions": 1,
+      "researchedEntries": 31
+    },
+    {
+      "id": "botanypots",
+      "mods": [
+        "botanypots"
+      ],
+      "entries": 181,
+      "operationTopics": 1,
+      "distinctInstructions": 1,
+      "previousDistinctInstructions": 1,
+      "researchedEntries": 0
+    },
+    {
+      "id": "easy_villagers",
+      "mods": [
+        "easy_villagers"
+      ],
+      "entries": 10,
+      "operationTopics": 2,
+      "distinctInstructions": 2,
+      "previousDistinctInstructions": 1,
+      "researchedEntries": 8
+    },
+    {
+      "id": "stellaris",
+      "mods": [
+        "stellaris"
+      ],
+      "entries": 72,
+      "operationTopics": 6,
+      "distinctInstructions": 7,
+      "previousDistinctInstructions": 2,
+      "researchedEntries": 65
+    }
+  ],
+  "entries": 4650,
+  "operationTopics": 622,
+  "distinctInstructions": 1270,
+  "previousDistinctInstructions": 216,
+  "addedEntries": 2083,
+  "revisedEntries": 1433,
+  "removedOrMergedEntries": 1023,
+  "illustrations": 142,
+  "illustratedEntries": 225,
+  "importantItems": 4702,
+  "checks": {
+    "uniqueIds": true,
+    "knownItemReferences": true,
+    "imageReferences": true,
+    "nativeMarkupRemoved": true
+  },
+  "limitations": [
+    "目录条目数包含等级与颜色变体；独立操作说明数按正文去重统计。",
+    "网站与旧版教程不作为默认配方数量的依据；实际配方使用安装包 JEI。",
+    "没有启动 Minecraft；离线校验不代表实机运行通过。"
+  ]
+}

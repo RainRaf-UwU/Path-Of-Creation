@@ -79,16 +79,16 @@
 					item: {
 						components: {
 							"buildinggadgets2:copy_uuid": [I;
-								994923712
-								2114932068
-								-2059828572
-								-331161550
+								1159499290
+								-450669774
+								-1798977935
+								1676279475
 							]
 							"buildinggadgets2:gadget_uuid": [I;
-								-1308759222
-								1498106128
-								-2119412871
-								-1583717868
+								1699742648
+								1662868017
+								-1622437043
+								1591005799
 							]
 							"buildinggadgets2:template_name": ""
 							"minecraft:custom_name": "{\"translate\":\"rain.template.large_fluid_processor\"}"
@@ -181,16 +181,16 @@
 				item: {
 					components: {
 						"buildinggadgets2:copy_uuid": [I;
-							-898156884
-							1952334426
-							-1576134327
-							-368804792
+							1003680014
+							-600157024
+							-1387521772
+							-1965911228
 						]
 						"buildinggadgets2:gadget_uuid": [I;
-							-1694628773
-							1713981780
-							-1149758246
-							-906571350
+							1014523053
+							-1091478262
+							-1690091286
+							-546286174
 						]
 						"buildinggadgets2:template_name": ""
 						"minecraft:custom_name": "{\"translate\":\"rain.template.atomic_reconstruction\"}"
@@ -1077,16 +1077,16 @@
 				item: {
 					components: {
 						"buildinggadgets2:copy_uuid": [I;
-							-2027407
-							-1107997375
-							-2113014301
-							467589636
+							1735616186
+							-453486144
+							-1858788673
+							889543739
 						]
 						"buildinggadgets2:gadget_uuid": [I;
-							401422022
-							885869570
-							-1515297825
-							-1564478591
+							-1480794525
+							-895199573
+							-1394423690
+							1041145288
 						]
 						"buildinggadgets2:template_name": ""
 						"minecraft:custom_name": "{\"translate\":\"rain.template.void_miner_5\"}"

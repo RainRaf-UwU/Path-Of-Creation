@@ -17,7 +17,7 @@ public final class ClientIntro {
     private static IntroScreen screen;
     private static CameraType previousCamera;
     private static boolean previousGui,previousBob,readySent,finishSent;
-    private static double x,y,z;private static float yaw;
+    private static double x,y,z;private static float yaw,pitch;
     private static final SoundEvent SYSTEM=SoundEvent.createVariableRangeEvent(ResourceLocation.parse("poc_intro:glyph_system"));
     private static final SoundEvent SELF=SoundEvent.createVariableRangeEvent(ResourceLocation.parse("poc_intro:glyph_self"));
     private static final SoundEvent SELECT=SoundEvent.createVariableRangeEvent(ResourceLocation.parse("poc_intro:select"));
@@ -45,25 +45,32 @@ public final class ClientIntro {
     }
     static void receive(IntroPackets.Scene packet){
         Minecraft mc=Minecraft.getInstance();
-        if(packet.phase()==2){close(true);return;}
-        x=packet.x();y=packet.y();z=packet.z();yaw=packet.yaw();
+        if(packet.phase()==2||packet.phase()==5){close(packet.phase()==2);return;}
+        x=packet.x();y=packet.y();z=packet.z();yaw=packet.yaw();pitch=packet.pitch();
         if(screen==null){
             previousCamera=mc.options.getCameraType();previousGui=mc.options.hideGui;previousBob=mc.options.bobView().get();
             readySent=finishSent=false;
-            screen=new IntroScreen(IntroStory.load(),mc.options.languageCode.toLowerCase(java.util.Locale.ROOT).startsWith("zh_"));
+            boolean chapter=packet.phase()==3||packet.phase()==4;
+            try{
+                IntroStory story=chapter?IntroStory.parse(packet.chapterStory()):IntroStory.load();
+                screen=new IntroScreen(story,mc.options.languageCode.toLowerCase(java.util.Locale.ROOT).startsWith("zh_"),chapter);
+            }catch(RuntimeException failure){
+                IntroMod.LOG.error("[POC Intro] Cannot open story",failure);
+                PacketDistributor.sendToServer(new IntroPackets.Action(2));return;
+            }
         }
-        if(packet.phase()==1&&!screen.playback.begun){screen.playback.begun=true;screen.playback.age=0;screen.resetClock();}
+        if((packet.phase()==1||packet.phase()==4)&&!screen.playback.begun){screen.playback.begun=true;screen.playback.age=screen.chapter?15:0;screen.resetClock();}
     }
     private static void tick(){
         if(screen==null)return;
         Minecraft mc=Minecraft.getInstance();
         if(mc.getConnection()==null){close(false);return;}
         if(mc.player==null||mc.level==null||mc.getOverlay()!=null||mc.screen instanceof ReceivingLevelScreen)return;
-        mc.options.setCameraType(screen.playback.begun&&screen.playback.age>=7?CameraType.THIRD_PERSON_FRONT:CameraType.FIRST_PERSON);
+        mc.options.setCameraType(!screen.chapter&&screen.playback.begun&&screen.playback.age>=7?CameraType.THIRD_PERSON_FRONT:CameraType.FIRST_PERSON);
         mc.options.hideGui=true;mc.options.bobView().set(false);
         if(screen.playback.begun){
-            mc.player.setYRot(yaw+IntroTimeline.yaw(screen.playback.age));
-            mc.player.setXRot(IntroTimeline.pitch(screen.playback.age));
+            mc.player.setYRot(yaw+(screen.chapter?0:IntroTimeline.yaw(screen.playback.age)));
+            mc.player.setXRot(screen.chapter?pitch:IntroTimeline.pitch(screen.playback.age));
             mc.player.yHeadRot=mc.player.getYRot();mc.player.yBodyRot=yaw;
         }
         KeyMapping.releaseAll();
@@ -74,7 +81,7 @@ public final class ClientIntro {
     public static boolean active(){return screen!=null;}
     /** Camera setup Mixin calls this after all vanilla first/third-person and bobbing calculations. */
     public static double[] pose(){
-        if(screen==null||!screen.playback.begun)return null;
+        if(screen==null||screen.chapter||!screen.playback.begun)return null;
         IntroPlayback p=screen.playback;
         var camera=IntroTimeline.camera(p.age,p.release,yaw);
         return new double[]{x+camera.x(),y+camera.y(),z+camera.z(),camera.yaw(),camera.pitch()};
@@ -95,8 +102,8 @@ public final class ClientIntro {
         KeyMapping.releaseAll();
         if(mc.screen==old)mc.setScreen(null);
         if(completed&&mc.player!=null){
-            mc.player.setYRot(yaw);mc.player.setXRot(10);
-            mc.player.displayClientMessage(Component.literal(old.playback.story.label("flight",old.playback.chinese)),true);
+            mc.player.setYRot(yaw);mc.player.setXRot(old.chapter?pitch:10);
+            mc.player.displayClientMessage(Component.literal(old.playback.label("flight")),true);
         }
     }
 }

@@ -1,6 +1,8 @@
 {
   "name": {
-    "translate": "cm.rain.structure_inspector.name"
+    "text": {
+      "translate": "cm.rain.structure_inspector.name"
+    }
   },
   "appearance": {}
 }

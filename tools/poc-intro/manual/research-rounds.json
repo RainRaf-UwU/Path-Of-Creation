@@ -1,0 +1,140 @@
+{
+  "date": "2026-10-20",
+  "precedence": "当前已安装 JAR 的手册、思索、配方、提示和实际字节码优先。网站用于补缺；旧版或冲突内容不直接套用。",
+  "localReferenceIndex": "D:/codex-work/manual-expanded-20261020/reference-index.json",
+  "rounds": [
+    {
+      "topic": "通用机械物品/化工处理与侧面配置",
+      "sources": [
+        "https://wiki.aidancbrady.com/wiki/Chemical_Dissolution_Chamber",
+        "https://wiki.aidancbrady.com/wiki/Chemical_Injection_Chamber",
+        "https://wiki.aidancbrady.com/wiki/Configurator",
+        "https://wiki.aidancbrady.com/wiki/Logistical_Sorter"
+      ],
+      "decision": "对照10.7.19本机提示和配方；不采用旧Wiki中不存在工厂的结论，当前附属已有工厂。"
+    },
+    {
+      "topic": "通用机械裂变、聚变与蒸汽闭环",
+      "sources": [
+        "https://wiki.aidancbrady.com/wiki/Fission_Reactor",
+        "https://wiki.aidancbrady.com/wiki/Fusion_Reactor",
+        "https://wiki.aidancbrady.com/wiki/Thermal_Evaporation_Plant",
+        "https://wiki.aidancbrady.com/wiki/Turbine",
+        "https://wiki.aidancbrady.com/wiki/Hohlraum",
+        "https://wiki.aidancbrady.com/wiki/D-T_Fuel"
+      ],
+      "decision": "分别说明燃料、冷却、输出和启动；不写死可能被本包配置改变的速率。"
+    },
+    {
+      "topic": "QIO、反物质与复制/CNC附属",
+      "sources": [
+        "https://wiki.aidancbrady.com/wiki/QIO",
+        "https://wiki.aidancbrady.com/wiki/Supercritical_Phase_Shifter",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki/Replicator"
+      ],
+      "decision": "复制不按旧版任意扫描假定；对照本机三路压制配方，拆开冲压、车削、轧制和处理器组装。"
+    },
+    {
+      "topic": "机械动力6物流和加工",
+      "sources": [
+        "https://github.com/Creators-of-Create/Create/blob/mc1.21.1/dev/changelog.md",
+        "https://wiki.createmod.net/"
+      ],
+      "decision": "主要采用当前6.0.10本机中英Ponder全文；补包裹、库存网络、工厂仪表、列车和加工。旧版冲压转速教程不采用。"
+    },
+    {
+      "topic": "AE2及高级/扩展AE",
+      "sources": [
+        "https://guide.appliedenergistics.org/1.21.1/",
+        "https://github.com/pedroksl/AdvancedAE/blob/main/README.md"
+      ],
+      "decision": "导入当前JAR和本包汉化指南的具体物品/机制，保留原图；补请求器缺料/CPU/输出等待状态。"
+    },
+    {
+      "topic": "工业先锋主机器",
+      "sources": [
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/blob/1.21/CHANGELOG.md"
+      ],
+      "decision": "逐篇翻译当前3.6.39内置Patchouli，确认溶解室无序、钻基座催化条件、矿肉链和16类菌丝联动。"
+    },
+    {
+      "topic": "工业先锋附属与灵魂加速",
+      "sources": [
+        "https://github.com/Y-Xiao233/IndustrialForegoingExtraUpgrades/blob/master/README.md",
+        "https://github.com/Y-Xiao233/IndustrialForegoingExtraUpgrades/blob/master/changelog.md",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing-Souls/blob/master/README.md"
+      ],
+      "decision": "安装版IFEU3.3.008大型溶解室是单方块，纠正旧结构描述；本机物品提示确认水培数据先训练。附属构造器/抛光/凝固按JAR实际配方字段。"
+    },
+    {
+      "topic": "末影接口机器与电容",
+      "sources": [
+        "https://github.com/Team-EnderIO/EnderIO/tree/1.21.1",
+        "https://new.enderio.com/docs/wiki/basics/machines/poweredspawner/"
+      ],
+      "decision": "官网部分页面为空，不把标题当使用证据；采用8.2.12-beta状态、槽位、配方、提示。拆开合金炉、SAG、切片、绑定、酿造和生成等。"
+    },
+    {
+      "topic": "物流编程和可编程路由",
+      "sources": [
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/desht/ModularRouters/blob/MC1.21-master/wiki.md"
+      ],
+      "decision": "以本机路由器中文书、LaserIO书和动态联合语言手册为主；不套用旧Wiki距离。补模块、变量依赖、过滤/数量与频道。"
+    },
+    {
+      "topic": "神龙、扩展合成与封包",
+      "sources": [
+        "https://github.com/Draconic-Inc/Draconic-Evolution/tree/1.21",
+        "https://github.com/BlakeBr0/ExtendedCrafting",
+        "https://github.com/TheLMiffy1111/PackagedAuto",
+        "https://github.com/TheLMiffy1111/PackagedExCrafting/issues/23"
+      ],
+      "decision": "对照本机GUI说明；分别说明输入/注入器供电、CPU与封包回流；不把ME连接等同于所有机器已有电。"
+    },
+    {
+      "topic": "群星供氧、罐头、原油与火箭",
+      "sources": [
+        "https://st0x0ef.github.io/stellaris/wiki/machines.html",
+        "https://st0x0ef.github.io/stellaris/wiki/oxygen.html",
+        "https://st0x0ef.github.io/stellaris/wiki/fuel.html",
+        "https://st0x0ef.github.io/stellaris/wiki/rocket.html",
+        "https://st0x0ef.github.io/stellaris/wiki/faq.html"
+      ],
+      "decision": "纠正Vacuumator是罐头封装机；区分水分离、原油精炼、密闭供氧和火箭准备。"
+    },
+    {
+      "topic": "硅岩反应堆版本复查",
+      "sources": [
+        "https://github.com/lostmyself8/Mekanism-Extras/blob/1.21.1/README.md",
+        "https://github.com/lostmyself8/Mekanism-Extras/releases",
+        "https://www.mcmod.cn/item/827361.html",
+        "https://www.mcmod.cn/post/4454.html"
+      ],
+      "decision": "MC百科旧教程只用于查缺，尺寸/控制器位置/三种燃料/含钋蒸汽由本机1.4.1 Validator、MultiblockData和Builder字节码再次核对。未搬运网页图。"
+    },
+    {
+      "topic": "当前按键、常用工具与操作补充",
+      "sources": [
+        "https://wiki.aidancbrady.com/wiki/Configurator",
+        "https://guide.appliedenergistics.org/1.21.1/items-blocks-machines/network_tool/",
+        "https://github.com/mezz/JustEnoughItems",
+        "https://github.com/Direwolf20-MC/BuildingGadgets2",
+        "https://github.com/henkelmax/pipez"
+      ],
+      "decision": "新增28篇操作主题；关键交互对照安装版字节码和原手册。当前Mekanism模式键为N，网站M为旧版；滴量器GUI用固定Shift；Pipez来源端需潜行扳手；建筑工具设置保留修饰键；Oritech扩展坞不直接加效率，强化键需要按住、选中后松开。运行按键直接读取KeyMapping；离线参考键位不打包进JAR。"
+    },
+    {
+      "topic": "目录漏译、旧模型与其他模组扩充",
+      "sources": [
+        "https://mcjty.eu/docs/mods/xnet",
+        "https://github.com/TeamDman/SuperFactoryManager",
+        "https://www.curseforge.com/minecraft/mc-mods/just-dire-things",
+        "https://modrinth.com/mod/sophisticated-storage"
+      ],
+      "decision": "以安装版JDT/Powah/Patchouli及SFM模板为主；网站只交叉参考。BG2注册入口没有construction_paste系列，清理旧模型；Mekanism与RF状态模型合并到真实工具，动态module/parttype与蓝图名用对应格式翻译。新增82篇实际教程，SFML例句来自安装版4.34.0模板。"
+    }
+  ],
+  "media": "运行时只引用已安装原模组图片，不重新打包第三方图片；所有资源路径和SHA256见media-sources.json。"
+}

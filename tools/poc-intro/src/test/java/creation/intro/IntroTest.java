@@ -39,19 +39,19 @@ public final class IntroTest {
     }
     static void story(){
         IntroStory s=IntroStory.load();Set<String> ids=new HashSet<>();
-        for(var n:s.nodes){check(ids.add(n.id()),"Duplicate node");check(!n.zh().isBlank()&&!n.en().isBlank(),"Both languages required");check(n.options().size()<=2,"Choice count");}
+        for(var n:s.nodes){check(ids.add(n.id()),"Duplicate node");check(!n.text(true).isBlank()&&!n.text(false).isBlank(),"Both languages required");check(n.options().size()<=2,"Choice count");}
         walk(s,s.first,new HashSet<>());
         for(var n:s.nodes){
             for(String chapter:List.of("无中生有","苦尽甘来","虚空初光","创世之径","创造模式","登神长阶")){
-                check(!n.zh().contains(chapter),"Dialogue must not name quest chapters");
-                for(var option:n.options())check(!option.zh().contains(chapter),"Choices must not name quest chapters");
+                check(!n.text(true).contains(chapter),"Dialogue must not name quest chapters");
+                for(var option:n.options())check(!option.text(true).contains(chapter),"Choices must not name quest chapters");
             }
             if(n.next()!=null)check(n.next().equals("end")||ids.contains(n.next()),"Next node exists");
-            for(var c:n.options())check(ids.contains(c.next())&&!c.zh().isBlank()&&!c.en().isBlank(),"Choice destination exists");
+            for(var c:n.options())check(ids.contains(c.next())&&!c.text(true).isBlank()&&!c.text(false).isBlank(),"Choice destination exists");
         }
         check(s.nodes.stream().filter(n->!n.options().isEmpty()).count()==2,"Two player decisions");
-        check(s.nodes.stream().anyMatch(n->n.zh().contains("神龙反应堆")),"Required reactor story");
-        check(s.nodes.stream().anyMatch(n->n.zh().contains("最基本的飞行")),"Required sealed-flight story");
+        check(s.nodes.stream().anyMatch(n->n.text(true).contains("神龙反应堆")),"Required reactor story");
+        check(s.nodes.stream().anyMatch(n->n.text(true).contains("最基本的飞行")),"Required sealed-flight story");
     }
     static void walk(IntroStory s,String id,Set<String> ancestors){
         if(id.equals("end"))return;

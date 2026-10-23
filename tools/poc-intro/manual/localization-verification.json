@@ -1,0 +1,647 @@
+{
+  "date": "2026-10-20",
+  "jar": "mods/poc-intro-1.0.0.jar",
+  "bytes": 1104913,
+  "sha256": "a057b99f5a5f0abae407466f5138d80feb8649c490478fe40c25558df9cc4aca",
+  "groups": 52,
+  "entries": 4631,
+  "operationGuides": 732,
+  "newTutorials": 82,
+  "newEntries": 82,
+  "modifiedExistingEntries": 428,
+  "keyActions": 42,
+  "entriesWithControls": 52,
+  "pictures": 143,
+  "newPictures": 1,
+  "illustratedEntries": 238,
+  "protectedFilesUnchanged": 1091,
+  "protectedIntroSourcesAndAudio": 34,
+  "questGraph": {
+    "quests": 578,
+    "dependencies": 591,
+    "missing": 0,
+    "cycles": 0
+  },
+  "nativeSourceChecks": 105,
+  "imageSourceChecks": 148,
+  "sourceAudit": [
+    {
+      "source": "installed:jei-19.57.0.450!mezz/jei",
+      "jar": "[JEI物品管理器] jei-1.21.1-neoforge-19.57.0.450.jar",
+      "matchedResources": 1089,
+      "sha256": null
+    },
+    {
+      "source": "installed:Controlling-19.0.5!com/blamejared/controlling",
+      "jar": "[键位冲突显示] Controlling-neoforge-1.21.1-19.0.5.jar",
+      "matchedResources": 50,
+      "sha256": null
+    },
+    {
+      "source": "installed:ftb-quests-2101.1.36",
+      "jar": "[FTB任务] ftb-quests-neoforge-2101.1.36.jar",
+      "matchedResources": 739,
+      "sha256": null
+    },
+    {
+      "source": "installed:ftb-ultimine-2101.1.15!assets/ftbultimine/lang/en_us.json",
+      "jar": "[连锁破坏] ftb-ultimine-neoforge-2101.1.15.jar",
+      "matchedResources": 1,
+      "sha256": "4510b4d40cc0d2cd186a4668c219764adbbeb045002afbbe70938ba564e64d8f"
+    },
+    {
+      "source": "installed:Mekanism-1.21.1-10.7.19.85!mekanism/common/item/ItemConfigurator.class",
+      "jar": "[通用机械] Mekanism-1.21.1-10.7.19.85.jar",
+      "matchedResources": 1,
+      "sha256": "923626278afe72c870cfbaad38d467db7e1e3a8da307c168c0b678ef02711288"
+    },
+    {
+      "source": "installed:Mekanism-1.21.1-10.7.19.85!mekanism/client/key/MekanismKeyHandler.class",
+      "jar": "[通用机械] Mekanism-1.21.1-10.7.19.85.jar",
+      "matchedResources": 1,
+      "sha256": "05edf54afd6880ee6427c3d550726d53f3ee32af9a5b82f1c05de520f9d350c7"
+    },
+    {
+      "source": "installed:Mekanism-1.21.1-10.7.19.85!mekanism/client/gui/element/gauge/GuiTankGauge.class",
+      "jar": "[通用机械] Mekanism-1.21.1-10.7.19.85.jar",
+      "matchedResources": 1,
+      "sha256": "eadb92627035da42fa55fa549584412dc8ffecf77def52a6dcf90c923931ba55"
+    },
+    {
+      "source": "installed:Mekanism-1.21.1-10.7.19.85!mekanism/common/item/ItemConfigurationCard.class",
+      "jar": "[通用机械] Mekanism-1.21.1-10.7.19.85.jar",
+      "matchedResources": 1,
+      "sha256": "31651b8090ad3a87ded3ab9e83469d7068afe16224035a741eb5f1f455b3358b"
+    },
+    {
+      "source": "installed:Mekanism-1.21.1-10.7.19.85!mekanism/common/item/gear/ItemAtomicDisassembler.class",
+      "jar": "[通用机械] Mekanism-1.21.1-10.7.19.85.jar",
+      "matchedResources": 1,
+      "sha256": "c9e85ee7daed534b48d039321456530f29e22c9634cf40d24f6b2d826193598d"
+    },
+    {
+      "source": "installed:Mekanism-1.21.1-10.7.19.85!assets/mekanism/lang/en_us.json",
+      "jar": "[通用机械] Mekanism-1.21.1-10.7.19.85.jar",
+      "matchedResources": 1,
+      "sha256": "3321065d85de3a4321c2dcd47d2bb1d67bd328194e91851dc6ad47f1748e30bc"
+    },
+    {
+      "source": "installed:create-1.21.1-6.0.10!assets/create/lang/en_us.json",
+      "jar": "[机械动力] create-1.21.1-6.0.10.jar",
+      "matchedResources": 1,
+      "sha256": "9d31cf2d4ae7b2c367e8a3f9cec7eb83a6286025ad187c1de5d6947c43d2c4e2"
+    },
+    {
+      "source": "installed:create-1.21.1-6.0.10!assets/create/lang/zh_cn.json",
+      "jar": "[机械动力] create-1.21.1-6.0.10.jar",
+      "matchedResources": 1,
+      "sha256": "00aea52d56af26c7f80c241ef24853aea41ba33c167d8c6a97725cd7afb93733"
+    },
+    {
+      "source": "installed:buildinggadgets2-1.3.9!com/direwolf20/buildinggadgets2/client/events/EventKeyInput.class",
+      "jar": "[建筑小帮手] buildinggadgets2-1.3.9.jar",
+      "matchedResources": 1,
+      "sha256": "c2808e564f50c9143ff7e141fdfa771b51eccbcaa9854ae6cb8f1bef7aa5a214"
+    },
+    {
+      "source": "installed:buildinggadgets2-1.3.9!com/direwolf20/buildinggadgets2/common/items/BaseGadget.class",
+      "jar": "[建筑小帮手] buildinggadgets2-1.3.9.jar",
+      "matchedResources": 1,
+      "sha256": "7b2ccfc6a2ba4153d33e3841ce1c371a9b798543cea510cc0ce4e9ea0d69ce64"
+    },
+    {
+      "source": "installed:modular-routers-13.2.7!assets/modularrouters/patchouli_books/book/en_us/entries/intro/modular_router.json",
+      "jar": "[模块化路由器] modular-routers-13.2.7+mc1.21.1.jar",
+      "matchedResources": 1,
+      "sha256": "56603f8ee18226ecae941b693b9318747a07736b07a84704b5f0eaef80a112d7"
+    },
+    {
+      "source": "installed:sophisticatedbackpacks-3.26.7.2182!net/p3pp3rf1y/sophisticatedbackpacks/client/KeybindHandler.class",
+      "jar": "[精妙背包] sophisticatedbackpacks-1.21.1-3.26.7.2182.jar",
+      "matchedResources": 1,
+      "sha256": "db2245f55767f0d1e55cfb4026b8c926e543deeed008e8fd99b6bf5a8cee6d8d"
+    },
+    {
+      "source": "installed:dankstorage-20!assets/dankstorage/lang/en_us.json",
+      "jar": "dankstorage-neoforge-1.21.1-20.jar",
+      "matchedResources": 1,
+      "sha256": "413bec1044ffce7ffadae5e03ce9e3076c00ebbeed422d00f7ba7596dec76558"
+    },
+    {
+      "source": "installed:laserio-1.9.11!assets/laserio/patchouli_books/laseriobook/zh_cn/entries/laser_wrench.json",
+      "jar": "laserio-1.9.11.jar",
+      "matchedResources": 1,
+      "sha256": "c757da499410af09a0794acdfad7ac44b5a51862f30d3846e2ce40b9b0e4a85d"
+    },
+    {
+      "source": "installed:pipez-1.2.31!de/maxhenkel/pipez/blocks/PipeBlock.class",
+      "jar": "pipez-neoforge-1.21.1-1.2.31.jar",
+      "matchedResources": 1,
+      "sha256": "10b9ee8ea20682fb693d08ffb37863eeaaf9c51d6d3da853217209f1d49c8f86"
+    },
+    {
+      "source": "installed:appliedenergistics2-19.2.18!assets/ae2/ae2guide",
+      "jar": "[应用能源2] appliedenergistics2-19.2.18.jar",
+      "matchedResources": 296,
+      "sha256": null
+    },
+    {
+      "source": "installed:industrialforegoing-3.6.39!assets/industrialforegoing/patchouli_books",
+      "jar": "[工业先锋] industrialforegoing-1.21-3.6.39.jar",
+      "matchedResources": 181,
+      "sha256": null
+    },
+    {
+      "source": "installed:oritech-1.2.12!assets/oracle_index/books/oritech/content/machines/addons/machine_extender.mdx",
+      "jar": "oritech-neoforge-1.21.1-1.2.12.jar",
+      "matchedResources": 1,
+      "sha256": "188b79aa4bf35a94a9054907450849613eb2a9d2a7ec400eb872fa4888ad4efc"
+    },
+    {
+      "source": "installed:oritech-1.2.12!assets/oracle_index/books/oritech/content/machines/augmentations/augment_application_block.mdx",
+      "jar": "oritech-neoforge-1.21.1-1.2.12.jar",
+      "matchedResources": 1,
+      "sha256": "dbd979b17a431591e5eb846e5e1f674bc095846b9d4ac5593b84fc5e50a85346"
+    },
+    {
+      "entry": "more/justdirethings/mach_blockswappert2",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_blockswappert2.json",
+      "sha256": "edabeb16d13b93c6cf653290f1f0daaeba7b39dd32faee51c962b3a7e53d31db"
+    },
+    {
+      "entry": "more/justdirethings/goo_tier4",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/goo_tier4.json",
+      "sha256": "ed7585f9dfe954baa27b3dcb789b2157c6e04e6b26eaa113e1769de6acc80e03"
+    },
+    {
+      "entry": "more/justdirethings/mach_experienceholder",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_experienceholder.json",
+      "sha256": "3f025044ed5f8c3975622187c8bdb0cc4df5ecb2b4da1e6815f3bd010f0cbce9"
+    },
+    {
+      "entry": "more/justdirethings/mach_fluidcollectort1",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_fluidcollectort1.json",
+      "sha256": "9d9c12a579a3d7b17f87ba930b7fb56d068eb1ae7cce31c3158b629db810046f"
+    },
+    {
+      "entry": "more/justdirethings/mach_advanced_controls",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_advanced_controls.json",
+      "sha256": "623e37a474efe763016336a0d61794d262ef09088914b7f8e610438bd2f10629"
+    },
+    {
+      "entry": "more/justdirethings/mach_itemcollector",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_itemcollector.json",
+      "sha256": "30a1c6ae145a8689055674d115db51ce06ebf9c39076be8ae7def58e7dc2e3ae"
+    },
+    {
+      "entry": "more/justdirethings/mach_inventoryholder",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_inventoryholder.json",
+      "sha256": "eca45f8e98b38b2529505d861c929f1988b7e64d4e7dc0cbff8e084f22f99b37"
+    },
+    {
+      "entry": "more/justdirethings/item_portal_gun_v2",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/item_portal_gun_v2.json",
+      "sha256": "dda2968f554b426c9586b34fbe1f69a54634666fbed82b955314deb752b751e5"
+    },
+    {
+      "entry": "more/justdirethings/mach_fluidplacert1",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_fluidplacert1.json",
+      "sha256": "d47de1f51a79d6730bb4686c6acdb8c3a8f38a9dc85657b10e3b73afabc48722"
+    },
+    {
+      "entry": "more/justdirethings/item_blazejet_wand",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/item_blazejet_wand.json",
+      "sha256": "3590cbfccadac4e572ab1aa59879fb9bfccb878a126c371ff1d61da8e26fbc9a"
+    },
+    {
+      "entry": "more/justdirethings/goo_tier2",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/goo_tier2.json",
+      "sha256": "140bc5c3a689c427d4552c16db6ce725fa5041d0830373e744eab786db568f0b"
+    },
+    {
+      "entry": "more/justdirethings/mach_blockbreakert2",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_blockbreakert2.json",
+      "sha256": "07f66c0f56b6892f0244ce4de5af5f2f9a274b3b9318c1322f13fdfa081e5929"
+    },
+    {
+      "entry": "more/justdirethings/mach_paradox",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_paradox.json",
+      "sha256": "74a2a87256f596fcbdb10aa6491505cfc22c768d501d02c02693e77cd8104f29"
+    },
+    {
+      "entry": "more/justdirethings/mach_simple_controls",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_simple_controls.json",
+      "sha256": "12ac8077969e9be09dbc41fe2a57a7632aa92a7c16d2a6d799f40b5e9ecff436"
+    },
+    {
+      "entry": "more/justdirethings/mach_sensort1",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_sensort1.json",
+      "sha256": "c71906b020fe8503cebe90b39ce7a4f1f05f119b6b27a2f2bcaf791611d4a32c"
+    },
+    {
+      "entry": "more/justdirethings/item_polymorphic_wand",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/item_polymorphic_wand.json",
+      "sha256": "b4044d34c320076a8ef4a171d5607b542f8607e60d00886b96c7ca084edf6b90"
+    },
+    {
+      "entry": "more/justdirethings/goo_tier1",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/goo_tier1.json",
+      "sha256": "63ced3c595ed589e3faf84a5d36c90afac46c331ddc05db73cd18f48cdd3e077"
+    },
+    {
+      "entry": "more/justdirethings/item_time_wand",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/item_time_wand.json",
+      "sha256": "1c12ef28584023cc3e8f3b376a9ece539eeebc3c7a2faa71e7f41879e81ceff3"
+    },
+    {
+      "entry": "more/justdirethings/mach_droppert2",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_droppert2.json",
+      "sha256": "cc2a4883f7c1021aa1cc951a3eb7ff67ef377620523fc4734e6277e031b74a0b"
+    },
+    {
+      "entry": "more/justdirethings/item_pocket_generator",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/item_pocket_generator.json",
+      "sha256": "e5dc396e802da9dbb08e237897987695cada04bd2e344a1f57775df2e2e53fd2"
+    },
+    {
+      "entry": "more/justdirethings/upgrade_basics",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/upgrade_basics.json",
+      "sha256": "94901c850703a4c218a39bb4e0d73b5093f289dba4236b50d2eb440ea1210c05"
+    },
+    {
+      "entry": "more/justdirethings/item_potion_canister",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/item_potion_canister.json",
+      "sha256": "dfcc121fd21ac3740eab25118e05834b53514ac099c688bff197ef2d4069a73c"
+    },
+    {
+      "entry": "more/justdirethings/mach_generatort1",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_generatort1.json",
+      "sha256": "bed54f489fcfe83d1d203bb5fcc713742a3cd510cb13bc26aca073dfe17c657a"
+    },
+    {
+      "entry": "more/justdirethings/mach_sensort2",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_sensort2.json",
+      "sha256": "56c6e1ae806fad19f032803004bd9b6e8e2e8ad1cfa29e0045eb6208655fa9e8"
+    },
+    {
+      "entry": "more/justdirethings/tool_basics",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/tool_basics.json",
+      "sha256": "cc2cc3dbb28f1b4c9837550b00e7eb7b0c29232c802b1dd76202d688f5e9a133"
+    },
+    {
+      "entry": "more/justdirethings/goo_basics",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/goo_basics.json",
+      "sha256": "54496b1ff22d71ed12bcb0758175712ddf447f438ada0501afa18d6b59462e4d"
+    },
+    {
+      "entry": "more/justdirethings/mach_basics",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_basics.json",
+      "sha256": "c597734691c602087f529181c37733aceac79440fb4d6b4c16e0d2dc05718337"
+    },
+    {
+      "entry": "more/justdirethings/mach_clickert1",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_clickert1.json",
+      "sha256": "ca36b07adddd59cec6d4f00fc02d983fb60049059f3ba9295c48c41fe362ec02"
+    },
+    {
+      "entry": "more/justdirethings/mach_droppert1",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_droppert1.json",
+      "sha256": "0a32aa3fcab0436e9a42dfb83374ce8e634a248a8ba0d0193a4736231c7f0c46"
+    },
+    {
+      "entry": "more/justdirethings/mach_blockswappert1",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_blockswappert1.json",
+      "sha256": "fb25e32a1f1a6a5c5e6a5e5a2361ae09b04194e712784953ecf6906ad98fc85c"
+    },
+    {
+      "entry": "more/justdirethings/mach_energytransmitter",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_energytransmitter.json",
+      "sha256": "dc83979cdbfa30ff7f184efff91fd0048bffb361777ea57258c35520abe26609"
+    },
+    {
+      "entry": "more/justdirethings/item_polymorphic_wand_v2",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/item_polymorphic_wand_v2.json",
+      "sha256": "8117a3da0163e3107e05894e3e4381849d0758bbf50ca84e2ccdebcff44459a1"
+    },
+    {
+      "entry": "more/justdirethings/item_eclipsegate_wand",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/item_eclipsegate_wand.json",
+      "sha256": "0d60ac7be498af882c3bf98368b7a699c6e7f9353e3ec60d654531127dc341bb"
+    },
+    {
+      "entry": "more/justdirethings/mach_player_accessor",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_player_accessor.json",
+      "sha256": "5bb16aa7d38aae979766bc2bf9bf92bdd1600dc66e9e4aba3e838df617f4fc2c"
+    },
+    {
+      "entry": "more/justdirethings/mach_blockplacert2",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_blockplacert2.json",
+      "sha256": "da35f4b05312f21f331350fec4337dc67f5bb5d4f64a44c1619c36a71cef63b3"
+    },
+    {
+      "entry": "more/justdirethings/item_fluid_canister",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/item_fluid_canister.json",
+      "sha256": "ccd7b357853f5730703bf54fb57e100a4c4173ed14cd0cc55457985b1b592e3c"
+    },
+    {
+      "entry": "more/justdirethings/item_fuel_canister",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/item_fuel_canister.json",
+      "sha256": "b1df9ea78a6a30d475d686b44c869ddaeadacf695ba554baaa1bb44f7d264654"
+    },
+    {
+      "entry": "more/justdirethings/item_voidshift_wand",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/item_voidshift_wand.json",
+      "sha256": "4ba284430a0c2eff54c6eae90b90b2a8d747fc3f5680f2457b7e4fe8230f6c62"
+    },
+    {
+      "entry": "more/justdirethings/mach_clickert2",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_clickert2.json",
+      "sha256": "0d21669e47fdccba79fb0db7d158d8eba60aa5653650b4dac2171b26ce0bc86d"
+    },
+    {
+      "entry": "more/xnet/simple/controller",
+      "source": "xnet-1.21-7.0.7.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/simple/controller.json",
+      "sha256": "8e19323bf29b0a2c1889c0a71ee54a51f16ae1d1258d3b246ba594b9982e3497"
+    },
+    {
+      "entry": "more/xnet/simple/connector",
+      "source": "xnet-1.21-7.0.7.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/simple/connector.json",
+      "sha256": "026611a1e25649c8d8170fb80c5732a71fb6cf0806d8817992ceb613670937df"
+    },
+    {
+      "entry": "more/xnet/simple/cables",
+      "source": "xnet-1.21-7.0.7.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/simple/cables.json",
+      "sha256": "db79c0b67f5bdb167324aa030899a05aed5027f5c0b455f956b7c2e7a9f2929b"
+    },
+    {
+      "entry": "more/xnet/simple/facade",
+      "source": "xnet-1.21-7.0.7.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/simple/facade.json",
+      "sha256": "3afbe0235a3e76eb67a0de2b713cfd125babe8ed22710fcdf05e3fdd6e00bf8d"
+    },
+    {
+      "entry": "more/xnet/simple/redstone_proxy",
+      "source": "xnet-1.21-7.0.7.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/simple/redstone_proxy.json",
+      "sha256": "402250a5b3284dcefe5f13caa0833262d8369a8b57749de2232d0a3767441982"
+    },
+    {
+      "entry": "more/xnet/network/router",
+      "source": "xnet-1.21-7.0.7.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/network/router.json",
+      "sha256": "40c61099bca182b1bd7df60647817a23c138ee9ee239ad7d3054f4e1de7e016f"
+    },
+    {
+      "entry": "more/xnet/wireless/wireless_router",
+      "source": "xnet-1.21-7.0.7.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/wireless/wireless_router.json",
+      "sha256": "0762b9d7e7895eb95fc29631a6ccd94b54d0f64611b5755344c440f59e0a3fe5"
+    },
+    {
+      "entry": "more/xnet/wireless/antennas",
+      "source": "xnet-1.21-7.0.7.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/wireless/antennas.json",
+      "sha256": "605d389f97f47ccde8063b578ce14b98a9f66e0154c80e41c8d048a696b1a8f2"
+    },
+    {
+      "entry": "more/rftoolsstorage/scanner/scanner",
+      "source": "[RF工具：存储] rftoolsstorage-1.21-6.0.5.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/scanner/scanner.json",
+      "sha256": "681412eb78fb36deda0443dacf64019143a5fc8a5325fc7db042432de11d6138"
+    },
+    {
+      "entry": "more/rftoolsstorage/scanner/modules",
+      "source": "[RF工具：存储] rftoolsstorage-1.21-6.0.5.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/scanner/modules.json",
+      "sha256": "d73193cc42c42f7b4746b112c064f1132097e80a63efe7c05df4b622270d686f"
+    },
+    {
+      "entry": "more/rftoolsstorage/scanner/remote",
+      "source": "[RF工具：存储] rftoolsstorage-1.21-6.0.5.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/scanner/remote.json",
+      "sha256": "478af717d431806a6fbedbdb971effb0a64f45d8f156cacdfbf4fdf760da28cf"
+    },
+    {
+      "entry": "more/rftoolsstorage/modularstorage/modularstorage",
+      "source": "[RF工具：存储] rftoolsstorage-1.21-6.0.5.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/modularstorage/modularstorage.json",
+      "sha256": "d7e992c1ef00382371a1afa36f86d0eb1b6f770db1cd073f6325d515d2b522f8"
+    },
+    {
+      "entry": "more/rftoolsstorage/modularstorage/storagemodules",
+      "source": "[RF工具：存储] rftoolsstorage-1.21-6.0.5.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/modularstorage/storagemodules.json",
+      "sha256": "5a06bf64a6e8c22047d2497a1c4f99b829fa5694e3aa6174936978291af3c12a"
+    },
+    {
+      "entry": "more/rftoolsutility/machines/environmental",
+      "source": "[RF工具：实用设备] rftoolsutility-1.21-7.0.12.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/machines/environmental.json",
+      "sha256": "f2bf90878265c690c1e9c832aa5b945906882abf77cb1cfd937168af6ca8ed10"
+    },
+    {
+      "entry": "more/rftoolsutility/machines/crafter",
+      "source": "[RF工具：实用设备] rftoolsutility-1.21-7.0.12.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/machines/crafter.json",
+      "sha256": "2da40fcd7c7bdaafb78c978834fdca31301fc8c4be4ca05e4d8cb6da81a0ba9b"
+    },
+    {
+      "entry": "more/rftoolsutility/machines/matter_transmitter",
+      "source": "[RF工具：实用设备] rftoolsutility-1.21-7.0.12.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/machines/matter_transmitter.json",
+      "sha256": "054a997f2ded74e69a804b3d407fe8d9f336a77a4fa6c7585c93fddc8e500eb9"
+    },
+    {
+      "entry": "more/rftoolsutility/machines/matter_receiver",
+      "source": "[RF工具：实用设备] rftoolsutility-1.21-7.0.12.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/machines/matter_receiver.json",
+      "sha256": "fa5cd397a0609960aa9cea177251137f0ed25d23011202e544b5c365462769ff"
+    },
+    {
+      "entry": "more/rftoolsutility/machines/dialing_device",
+      "source": "[RF工具：实用设备] rftoolsutility-1.21-7.0.12.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/machines/dialing_device.json",
+      "sha256": "fffd63543b652b62024a68665c3f820c63807c74103ecd37c483d52816ebbdcc"
+    },
+    {
+      "entry": "more/rftoolsutility/machines/screen",
+      "source": "[RF工具：实用设备] rftoolsutility-1.21-7.0.12.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/machines/screen.json",
+      "sha256": "7288a26716b746cdf6a208af6798c38ff155b820eadb81579fe228297a6b97f9"
+    },
+    {
+      "entry": "more/rftoolsutility/machines/screen_controller",
+      "source": "[RF工具：实用设备] rftoolsutility-1.21-7.0.12.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/machines/screen_controller.json",
+      "sha256": "eb4a52b85b126e5f7ab19ac2fada338df87521ad6478e8aeb82add509635d20e"
+    },
+    {
+      "entry": "more/rftoolspower/powerstorage/powercell",
+      "source": "[RF工具：能量] rftoolspower-1.21-7.0.6.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/powerstorage/powercell.json",
+      "sha256": "bfd81f6866ce6ae4ee4742231f0c21c57468b538a5b0584ec1f5ca0c32a8a589"
+    },
+    {
+      "entry": "more/rftoolspower/powerstorage/powercell_card",
+      "source": "[RF工具：能量] rftoolspower-1.21-7.0.6.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/powerstorage/powercell_card.json",
+      "sha256": "f34d2b825b4a13643d62e8bc4274589b22943ac5f3e25c728ec5f5654a1fe738"
+    },
+    {
+      "entry": "more/rftoolspower/powerstorage/dimensionalcell",
+      "source": "[RF工具：能量] rftoolspower-1.21-7.0.6.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/powerstorage/dimensionalcell.json",
+      "sha256": "6ac8f934bd027b268621d321e52d52e4c88641be0d427bfb87e3ac7675109410"
+    },
+    {
+      "entry": "more/powah/magmator",
+      "source": "Powah-6.2.10.jar!assets/powah/guides/powah/book/generators/magmator.md",
+      "sha256": "fadb346fc54ff2710a257fe792f7c3a4e13bb1cbdffa0643a5c0aaadcb9fc97f"
+    },
+    {
+      "entry": "more/powah/solar_panel",
+      "source": "Powah-6.2.10.jar!assets/powah/guides/powah/book/generators/solar_panel.md",
+      "sha256": "079683eea4c2b047a8f64e46c7c0d3398415769e0398b26b553916cd32568125"
+    },
+    {
+      "entry": "more/powah/reactor",
+      "source": "Powah-6.2.10.jar!assets/powah/guides/powah/book/generators/reactor.md",
+      "sha256": "556103e338422ea386cca9ff4e66c9a73630ff9d33f7e14cbf368d3429275ede"
+    },
+    {
+      "entry": "more/powah/furnator",
+      "source": "Powah-6.2.10.jar!assets/powah/guides/powah/book/generators/furnator.md",
+      "sha256": "ed53caea0a63e58829269b945821c1678d31ad6827a14b17764beaf6e990d908"
+    },
+    {
+      "entry": "more/powah/ender_cell",
+      "source": "Powah-6.2.10.jar!assets/powah/guides/powah/book/storage_transfer/ender_cell.md",
+      "sha256": "292b8c56772b7561efc2aa4c323dc2d7873fe9d21ce820b98f04aeda64c262e0"
+    },
+    {
+      "entry": "more/powah/energy_cell",
+      "source": "Powah-6.2.10.jar!assets/powah/guides/powah/book/storage_transfer/energy_cell.md",
+      "sha256": "c9b37cc080dcf1f1a4d2f45e24fd04fd4364890bb3640d013be220894474e962"
+    },
+    {
+      "entry": "more/functionalstorage/drawer-access",
+      "source": "[功能性存储] functionalstorage-1.21.1-1.5.7.jar!assets/functionalstorage/lang/en_us.json",
+      "sha256": "f2951215782ab533ca3d56dcfec99a52bee28d006167af57eecb15d764f84ee6"
+    },
+    {
+      "entry": "more/functionalstorage/controller-link",
+      "source": "[功能性存储] functionalstorage-1.21.1-1.5.7.jar!assets/functionalstorage/lang/en_us.json",
+      "sha256": "f2951215782ab533ca3d56dcfec99a52bee28d006167af57eecb15d764f84ee6"
+    },
+    {
+      "entry": "more/functionalstorage/void-capacity",
+      "source": "[功能性存储] functionalstorage-1.21.1-1.5.7.jar!assets/functionalstorage/lang/en_us.json",
+      "sha256": "f2951215782ab533ca3d56dcfec99a52bee28d006167af57eecb15d764f84ee6"
+    },
+    {
+      "entry": "more/functionalstorage/pull-push",
+      "source": "[功能性存储] functionalstorage-1.21.1-1.5.7.jar!assets/functionalstorage/lang/en_us.json",
+      "sha256": "f2951215782ab533ca3d56dcfec99a52bee28d006167af57eecb15d764f84ee6"
+    },
+    {
+      "entry": "more/sophisticatedstorage/controller",
+      "source": "[精妙存储] sophisticatedstorage-1.21.1-1.6.1.2147.jar!assets/sophisticatedstorage/lang/en_us.json",
+      "sha256": "a100d9b0468c54321f48c1eb9830142fd7ed910a214c49a7523bb58902c289f8"
+    },
+    {
+      "entry": "more/sophisticatedstorage/io",
+      "source": "[精妙存储] sophisticatedstorage-1.21.1-1.6.1.2147.jar!assets/sophisticatedstorage/lang/en_us.json",
+      "sha256": "a100d9b0468c54321f48c1eb9830142fd7ed910a214c49a7523bb58902c289f8"
+    },
+    {
+      "entry": "more/sophisticatedstorage/packing",
+      "source": "[精妙存储] sophisticatedstorage-1.21.1-1.6.1.2147.jar!assets/sophisticatedstorage/lang/en_us.json",
+      "sha256": "a100d9b0468c54321f48c1eb9830142fd7ed910a214c49a7523bb58902c289f8"
+    },
+    {
+      "entry": "more/sophisticatedstorage/compression",
+      "source": "[精妙存储] sophisticatedstorage-1.21.1-1.6.1.2147.jar!assets/sophisticatedstorage/lang/en_us.json",
+      "sha256": "a100d9b0468c54321f48c1eb9830142fd7ed910a214c49a7523bb58902c289f8"
+    },
+    {
+      "entry": "more/sfm/first",
+      "source": "Super Factory Manager (SFM)-MC1.21.1-4.34.0.jar!assets/sfm/template_programs/a_simple_program.sfml",
+      "sha256": "e9aa1cf58e8fd68680a2c5208ba51450039f0352ecb4b979349be0d5b5768d7e"
+    },
+    {
+      "entry": "more/sfm/forget",
+      "source": "Super Factory Manager (SFM)-MC1.21.1-4.34.0.jar!assets/sfm/template_programs/forget.sfml",
+      "sha256": "9a8e030a3c471311557801f94faa433438ade63d30b4cfedc165181da61c5f96"
+    },
+    {
+      "entry": "more/sfm/sides",
+      "source": "Super Factory Manager (SFM)-MC1.21.1-4.34.0.jar!assets/sfm/template_programs/slots_and_sides.sfml",
+      "sha256": "cf8c542a84872be46d4db2fdb894f2893d2b0f01aa9fa1ec462d3c52b91873d8"
+    },
+    {
+      "entry": "more/sfm/resources",
+      "source": "Super Factory Manager (SFM)-MC1.21.1-4.34.0.jar!assets/sfm/template_programs/resource_types.sfml",
+      "sha256": "88d26532cfa310961cd75a557b177659a8850112a22f8b0377e01ad168be0ca5"
+    },
+    {
+      "entry": "more/sfm/limits",
+      "source": "Super Factory Manager (SFM)-MC1.21.1-4.34.0.jar!assets/sfm/template_programs/limits.sfml",
+      "sha256": "eaa19a55b19ee1a011450988ffd87fe8fcb829989e88a3ead70b98123585a5d2"
+    },
+    {
+      "entry": "more/sfm/inspect",
+      "source": "Super Factory Manager (SFM)-MC1.21.1-4.34.0.jar!assets/sfm/template_programs/a_simple_program.sfml",
+      "sha256": "e9aa1cf58e8fd68680a2c5208ba51450039f0352ecb4b979349be0d5b5768d7e"
+    }
+  ],
+  "preview": {
+    "url": "http://127.0.0.1:1246/",
+    "states": 34,
+    "http": [
+      {
+        "file": "",
+        "status": 200
+      },
+      {
+        "file": "manual.json",
+        "status": 200
+      },
+      {
+        "file": "keybindings.json",
+        "status": 200
+      },
+      {
+        "file": "20-controls.png",
+        "status": 200
+      },
+      {
+        "file": "21-controls.png",
+        "status": 200
+      },
+      {
+        "file": "24-controls.png",
+        "status": 200
+      },
+      {
+        "file": "images/8194f103193b57c3.png",
+        "status": 200
+      }
+    ],
+    "fontAndItemIcons": "offline approximations",
+    "keyNames": "preview-only snapshot; production resolves current KeyMapping",
+    "browserClickValidation": "Not performed. PNGs use production ManualUi; HTTP and module syntax checked."
+  },
+  "tests": {
+    "compile": "Java 21",
+    "manualAssertions": 15778,
+    "narrativeAssertions": 1334,
+    "realNbtMigration": "pass",
+    "installedApiSignatures": "pass"
+  },
+  "existingKubejsLogs": {
+    "baselineOnly": true,
+    "startup": "Loaded 10/10 KubeJS startup scripts in 2.39 s with 0 errors and 0 warnings",
+    "client": "Loaded 4/4 KubeJS client scripts in 0.085 s with 0 errors and 0 warnings",
+    "server": "Loaded 102/102 KubeJS server scripts in 0.403 s with 0 errors and 0 warnings"
+  },
+  "runtimeStarted": false,
+  "savesTouched": false,
+  "recipesChanged": false,
+  "questFilesChanged": false,
+  "localization": {
+    "translatedTitles": 341,
+    "removedModelAndInternalEntries": 135,
+    "untranslatedTitles": 0,
+    "audit": "localization-audit.json"
+  },
+  "expandedGroups": [
+    "powah",
+    "justdirethings",
+    "rftools",
+    "sfm",
+    "xnet",
+    "functionalstorage",
+    "sophisticatedstorage"
+  ],
+  "jarCrc": "pass"
+}

@@ -29,6 +29,13 @@ public final class HookAudit {
         method(camera,"setPosition","(DDD)V");method(camera,"setRotation","(FF)V");
         method(read("net/minecraft/client/gui/screens/inventory/InventoryScreen"),"renderEntityInInventoryFollowsAngle",
             "(Lnet/minecraft/client/gui/GuiGraphics;IIIIIFFFLnet/minecraft/world/entity/LivingEntity;)V");
-        System.out.println("PASS installed bytecode: both new-world call sites, camera injection/shadows and real-skin portrait renderer signatures");
+        ClassNode output=read("com/blakebr0/extendedcrafting/container/slot/TableOutputSlot");
+        method(output,"onTake","(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)V");
+        ClassNode table=read("com/blakebr0/extendedcrafting/container/UltimateTableContainer");
+        method(table,"quickMoveStack","(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack;");
+        method(read("net/minecraft/server/ServerTickRateManager"),"setFrozen","(Z)V");
+        method(read("dev/ftb/mods/ftbquests/quest/TeamData"),"getProgress","(J)J");
+        method(read("dev/ftb/mods/ftbquests/quest/TeamData"),"getCompletedTime","(J)Ljava/util/Optional;");
+        System.out.println("PASS installed bytecode: prologue/camera/skin hooks, normal+shift extended crafting, tick freeze and FTB migration signatures");
     }
 }

@@ -1,0 +1,101 @@
+{
+  "power_on": {
+    "subtitle": "subtitles.poc_dimension_matrix.power_on",
+    "sounds": [
+      {
+        "name": "poc_dimension_matrix:power_on",
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "accelerate": {
+    "subtitle": "subtitles.poc_dimension_matrix.accelerate",
+    "sounds": [
+      {
+        "name": "poc_dimension_matrix:accelerate",
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "full_speed": {
+    "subtitle": "subtitles.poc_dimension_matrix.full_speed",
+    "sounds": [
+      {
+        "name": "poc_dimension_matrix:full_speed",
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "decelerate": {
+    "subtitle": "subtitles.poc_dimension_matrix.decelerate",
+    "sounds": [
+      {
+        "name": "poc_dimension_matrix:decelerate",
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "warning": {
+    "subtitle": "subtitles.poc_dimension_matrix.warning",
+    "sounds": [
+      {
+        "name": "poc_dimension_matrix:warning",
+        "attenuation_distance": 64
+      }
+    ]
+  },
+  "fx_start": {
+    "subtitle": "subtitles.poc_dimension_matrix.fx_start",
+    "sounds": [
+      {
+        "name": "poc_dimension_matrix:fx_start",
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "fx_stop": {
+    "subtitle": "subtitles.poc_dimension_matrix.fx_stop",
+    "sounds": [
+      {
+        "name": "poc_dimension_matrix:fx_stop",
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "fx_mining": {
+    "subtitle": "subtitles.poc_dimension_matrix.fx_mining",
+    "sounds": [
+      {
+        "name": "poc_dimension_matrix:fx_mining",
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "fx_dyeing": {
+    "subtitle": "subtitles.poc_dimension_matrix.fx_dyeing",
+    "sounds": [
+      {
+        "name": "poc_dimension_matrix:fx_dyeing",
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "fx_fluid": {
+    "subtitle": "subtitles.poc_dimension_matrix.fx_fluid",
+    "sounds": [
+      {
+        "name": "poc_dimension_matrix:fx_fluid",
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "fx_inspector": {
+    "subtitle": "subtitles.poc_dimension_matrix.fx_inspector",
+    "sounds": [
+      {
+        "name": "poc_dimension_matrix:fx_inspector",
+        "attenuation_distance": 32
+      }
+    ]
+  }
+}

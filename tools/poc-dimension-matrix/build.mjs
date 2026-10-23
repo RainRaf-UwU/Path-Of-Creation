@@ -1,0 +1,78 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {spawnSync} from 'node:child_process';
+import crypto from 'node:crypto';
+
+const here = path.dirname(fileURLToPath(import.meta.url));
+const root = path.resolve(here, '../..');
+const args = process.argv.slice(2);
+const option = (name, fallback) => args.includes(name) ? args[args.indexOf(name) + 1] : fallback;
+const jdk = option('--jdk');
+if (!jdk) throw Error('Pass --jdk <JDK 21+ directory>');
+const lines = fs.readFileSync(option('--classpath-file', path.join(root, 'tools/poc-cursor/build/javac.args')), 'utf8')
+  .split(/\r?\n/).map(s => s.replace(/^"|"$/g, ''));
+const cm = fs.readdirSync(path.join(root, 'mods')).find(n => /^CustomMachinery-neoforge.*\.jar$/.test(n));
+const jei=fs.readdirSync(path.join(root,'mods')).find(n=>n.startsWith('[JEI')&&n.endsWith('.jar'));
+if(!jei)throw Error('Installed JEI is required to compile construction guides');
+const ftblib=fs.readdirSync(path.join(root,'mods')).find(n=>n.includes('ftb-library')&&n.endsWith('.jar'));
+const sodium=fs.readdirSync(path.join(root,'mods')).find(n=>n.includes('sodium-neoforge-0.6.')&&n.endsWith('.jar'));
+const cp = [lines[lines.indexOf('-classpath') + 1],path.join(root,'mods',cm),path.join(root,'mods',jei),path.join(root,'mods',ftblib),...(sodium?[path.join(root,'mods',sodium)]:[])].join(path.delimiter);
+if (cp.split(path.delimiter).some(p => !fs.existsSync(p))) throw Error('Missing local compile library');
+const work = path.resolve(option('--work', path.join(root, '.cache/dimension-matrix/build')));
+fs.mkdirSync(work, {recursive: true});
+const build = fs.mkdtempSync(path.join(work, 'compile-'));
+const classes = path.join(build, 'classes'); fs.mkdirSync(classes);
+const walk = p => fs.readdirSync(p, {withFileTypes:true}).flatMap(e => e.isDirectory() ? walk(path.join(p,e.name)) : [path.join(p,e.name)]);
+const run = (tool, values) => {
+  const r = spawnSync(path.join(jdk, 'bin', tool + '.exe'), values, {cwd: work, windowsHide:true});
+  if (r.stdout?.length) process.stdout.write(r.stdout);
+  if (r.stderr?.length) process.stderr.write(r.stderr);
+  if (r.error) throw r.error;
+  if (r.status !== 0) throw Error(tool + ' failed: ' + r.status);
+};
+const quote = s => '"' + String(s).replaceAll('\\','/').replaceAll('"','\\"') + '"';
+const compile = (sources, dest, classpath) => {
+  const af = path.join(build, 'javac-' + path.basename(dest) + '.args');
+  fs.writeFileSync(af, ['--release','21','-encoding','UTF-8','-proc:none','-classpath',classpath,'-d',dest,...sources].map(quote).join('\n'));
+  run('javac', ['@' + af]);
+};
+compile(walk(path.join(here,'src/main/java')).filter(p => p.endsWith('.java')), classes, cp);
+fs.cpSync(path.join(here, 'src/main/resources'), classes, {recursive:true});
+fs.copyFileSync(path.join(root,'kubejs/data/rain/dimension_matrix/structure.json'), path.join(classes,'dimension-matrix-structure.json'));
+fs.copyFileSync(path.join(root,'kubejs/assets/rain/dimension_matrix/visual.json'), path.join(classes,'dimension-matrix-visual.json'));
+fs.mkdirSync(path.join(classes,'assets/poc_dimension_matrix/textures'), {recursive:true});
+fs.copyFileSync(path.join(root,'kubejs/assets/rain/textures/block/dimension_matrix_white.png'), path.join(classes,'assets/poc_dimension_matrix/textures/white.png'));
+if (args.includes('--test') || args.includes('--preview')) {
+  const inventory=path.join(build,'structure-inventory.json');
+  const audit=spawnSync(process.execPath,[path.join(here,'audit-structures.mjs'),inventory],{cwd:root,windowsHide:true,encoding:'utf8'});
+  if(audit.stdout)process.stdout.write(audit.stdout);if(audit.status!==0)throw Error(audit.stderr||'Structure source audit failed');
+  const tests = path.join(build,'tests'); fs.mkdirSync(tests);
+  const launch = option('--launchwrapper', path.resolve(root,'../../libraries/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar'));
+  compile(walk(path.join(here,'src/test/java')).filter(p => p.endsWith('.java')), tests, [classes,cp,launch].join(path.delimiter));
+  run('java', ['-ea','-Djava.awt.headless=true','-cp',[tests,classes,cp].join(path.delimiter),'creation.matrix.RotorTest']);
+  run('java', ['-ea','-Djava.awt.headless=true','-cp',[tests,classes,cp].join(path.delimiter),'creation.matrix.DataAudit',path.join(root,'kubejs/data/custommachinery/machine/dimension_matrix.json')]);
+  run('java', ['-ea','-Djava.awt.headless=true','-cp',[tests,classes,cp].join(path.delimiter),'creation.matrix.HologramTest']);
+  run('java', ['-ea','-Djava.awt.headless=true','-cp',[tests,classes,cp].join(path.delimiter),'creation.matrix.PortTest']);
+  run('java', ['-ea','-Djava.awt.headless=true','-cp',[tests,classes,cp].join(path.delimiter),'creation.matrix.AudioTest']);
+  run('java', ['-ea','-Djava.awt.headless=true','-cp',[tests,classes,cp].join(path.delimiter),'creation.matrix.BlueprintTest',inventory]);
+  run('java', ['-ea','-Djava.awt.headless=true','-cp',[tests,classes,cp].join(path.delimiter),'creation.matrix.JeiInputTest']);
+  run('java', ['-ea','-Djava.awt.headless=true','-cp',[tests,classes,cp].join(path.delimiter),'creation.matrix.ThermalTest']);
+  run('java', ['-ea','-Djava.awt.headless=true','-cp',[tests,classes,cp].join(path.delimiter),'creation.matrix.BlastTest']);
+  run('java', ['-ea','-Djava.awt.headless=true','-cp',[tests,classes,cp].join(path.delimiter),'creation.matrix.RuntimeAudit']);
+  run('java', ['-ea','-Djava.awt.headless=true','-cp',[tests,classes,cp].join(path.delimiter),'creation.matrix.MachineFxTest']);
+  run('java', ['-ea','-Djava.awt.headless=true','-cp',[tests,classes,cp].join(path.delimiter),'creation.matrix.AssemblyTest']);
+  if(args.includes('--assembly-preview'))run('java',['-Djava.awt.headless=true','-cp',[tests,classes,cp].join(path.delimiter),'creation.matrix.AssemblyExport',path.join(root,'.cache/machine-formed/meshes')]);
+  if(args.includes('--machine-audit'))run('java',['-ea','-Djava.awt.headless=true','-cp',[tests,classes,cp].join(path.delimiter),'creation.matrix.MachineRedesignDataAudit',root]);
+  if(args.includes('--machine-preview'))run('java',['-Djava.awt.headless=true','-cp',[tests,classes,cp].join(path.delimiter),'creation.matrix.MachineFxExport',path.join(root,'.cache/machine-redesign/meshes')]);
+  run('java', ['-ea','-Djava.awt.headless=true','-cp',[tests,classes,cp,launch].join(path.delimiter),'creation.matrix.MixinAudit',path.join(build,'transformed')]);
+  if (args.includes('--preview')) run('java', ['-Djava.awt.headless=true','-cp',[tests,classes,cp].join(path.delimiter),'creation.matrix.HologramExport',path.join(work,'preview')]);
+}
+fs.mkdirSync(path.join(classes,'META-INF/licenses'),{recursive:true});
+fs.copyFileSync(path.join(root,'LICENSE'),path.join(classes,'META-INF/licenses/POC-LICENSE'));
+const output = path.resolve(option('--output', path.join(root, 'mods/poc-dimension-matrix-1.0.0.jar')));
+fs.mkdirSync(path.dirname(output),{recursive:true});
+run('jar',['--create','--file',output,'--date=2026-10-22T00:00:00Z','-C',classes,'.']);
+const report = {output,classes,build,sha256:crypto.createHash('sha256').update(fs.readFileSync(output)).digest('hex'),tests:args.includes('--test')};
+fs.writeFileSync(path.join(work,'build-result.json'),JSON.stringify(report,null,2));
+console.log(JSON.stringify(report));

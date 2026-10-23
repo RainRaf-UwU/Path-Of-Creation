@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "poc_dimension_matrix:block/energy_output_port",
+    "down": "rain:block/dimension_matrix_casing",
+    "up": "rain:block/dimension_matrix_conduit",
+    "north": "poc_dimension_matrix:block/energy_output_port",
+    "south": "rain:block/dimension_matrix_casing",
+    "west": "rain:block/dimension_matrix_casing",
+    "east": "rain:block/dimension_matrix_casing"
+  }
+}

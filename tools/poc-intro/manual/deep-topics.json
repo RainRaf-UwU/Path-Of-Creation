@@ -1,0 +1,2394 @@
+{
+  "topics": [
+    {
+      "group": "mekanism",
+      "key": "side-config",
+      "title": "侧面配置、自动弹出与资源类型",
+      "pattern": "configurator|configuration_card",
+      "items": 6,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "infusing",
+      "title": "冶金灌注机 / 灌注工厂",
+      "pattern": "metallurgic_infuser|infusing_factory",
+      "items": 9,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "enriching",
+      "title": "富集仓 / 富集工厂",
+      "pattern": "enrichment_chamber|enriching_factory",
+      "items": 9,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "crushing",
+      "title": "粉碎机 / 粉碎工厂",
+      "pattern": "(^|:)crusher$|crushing_factory",
+      "items": 9,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "smelting",
+      "title": "电力熔炼炉 / 熔炼工厂",
+      "pattern": "energized_smelter|smelting_factory",
+      "items": 9,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "compressing",
+      "title": "锇压缩机 / 压缩工厂",
+      "pattern": "osmium_compressor|compressing_factory",
+      "items": 9,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "combining",
+      "title": "组合机 / 组合工厂",
+      "pattern": "(^|:)combiner$|combining_factory",
+      "items": 9,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "sawing",
+      "title": "精密锯木机 / 锯切工厂",
+      "pattern": "precision_sawmill|sawing_factory",
+      "items": 9,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "purifying",
+      "title": "提纯仓 / 提纯工厂",
+      "pattern": "purification_chamber|purifying_factory",
+      "items": 9,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "injecting",
+      "title": "化学压射室 / 压射工厂",
+      "pattern": "chemical_injection_chamber|injecting_factory",
+      "items": 9,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "oxidizing",
+      "title": "化学氧化机 / 氧化工厂",
+      "pattern": "chemical_oxidizer|oxidizing_factory",
+      "items": 14,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "chemical-infusing",
+      "title": "化学灌注器",
+      "pattern": "chemical_infuser",
+      "items": 2,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "dissolving",
+      "title": "化学溶解室 / 溶解工厂",
+      "pattern": "chemical_dissolution_chamber|dissolving_factory",
+      "items": 14,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "washing",
+      "title": "化学清洗机 / 清洗工厂",
+      "pattern": "chemical_washer|washing_factory",
+      "items": 14,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "crystallizing",
+      "title": "化学结晶器 / 结晶工厂",
+      "pattern": "chemical_crystallizer|crystallizing_factory",
+      "items": 14,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "separating",
+      "title": "电解分离器",
+      "pattern": "electrolytic_separator",
+      "items": 2,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "rotary",
+      "title": "回旋式气液转换机",
+      "pattern": "rotary_condensentrator|liquifying_factory",
+      "items": 15,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "prc",
+      "title": "加压反应室 / 反应工厂",
+      "pattern": "pressurized_reaction_chamber|pressurised_reacting_factory",
+      "items": 14,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "centrifuging",
+      "title": "同位素离心机 / 离心工厂",
+      "pattern": "isotopic_centrifuge|centrifuging_factory",
+      "items": 14,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "neutron",
+      "title": "太阳能中子活化器",
+      "pattern": "solar_neutron_activator",
+      "items": 2,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "evaporation",
+      "title": "热力蒸馏塔",
+      "pattern": "thermal_evaporation_",
+      "items": 3,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "heaters",
+      "title": "燃木与电阻加热",
+      "pattern": "resistive_heater|fuelwood_heater|thermodynamic_conductor",
+      "items": 10,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "boiler",
+      "title": "热力锅炉",
+      "pattern": "boiler_|superheating_element",
+      "items": 3,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "pump",
+      "title": "电动泵与重水",
+      "pattern": "electric_pump",
+      "items": 2,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "plenisher",
+      "title": "流体灌注机",
+      "pattern": "fluidic_plenisher",
+      "items": 1,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "miner",
+      "title": "数字采矿机",
+      "pattern": "digital_miner",
+      "items": 1,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "sorter",
+      "title": "物流分选机",
+      "pattern": "logistical_sorter",
+      "items": 1,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "transport",
+      "title": "物流管、限制管与分流管",
+      "pattern": "logistical_transporter|restrictive_transporter|diversion_transporter",
+      "items": 10,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "buffers",
+      "title": "箱柜、流体罐与化学罐",
+      "pattern": "(^|:|_)(bin|fluid_tank|chemical_tank|energy_cube)$|mid_chemical_tank|max_chemical_tank",
+      "items": 44,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "induction",
+      "title": "感应矩阵：容量与吞吐",
+      "pattern": "induction_",
+      "items": 20,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "quantum",
+      "title": "量子传送装置",
+      "pattern": "quantum_entangloporter|wireless_transmission_station",
+      "items": 2,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "qio",
+      "title": "QIO 驱动、仪表板与自动存取",
+      "pattern": "qio_",
+      "items": 14,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "teleport",
+      "title": "传送机与便携传送器",
+      "pattern": "(^|:)teleporter$|teleporter_frame|portable_teleporter",
+      "items": 3,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "stabilizer",
+      "title": "维度稳定器与跨区块生产",
+      "pattern": "dimensional_stabilizer",
+      "items": 1,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "auto-crafting",
+      "title": "公式装配器与合成公式",
+      "pattern": "formulaic_assemblicator|crafting_formula",
+      "items": 4,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "lasers",
+      "title": "激光、放大器与反应堆点火",
+      "pattern": "laser$|laser_amplifier|laser_focus_matrix",
+      "items": 4,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "fission",
+      "title": "裂变反应堆与冷却闭环",
+      "pattern": "fission_|fissile_",
+      "items": 5,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "turbine",
+      "title": "工业涡轮与回水",
+      "pattern": "turbine_|rotational_complex|electromagnetic_coil|saturating_condenser|pressure_disperser",
+      "items": 9,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "fusion",
+      "title": "聚变反应堆、氘氚与黑体辐射腔",
+      "pattern": "fusion_reactor_|hohlraum",
+      "items": 6,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "waste",
+      "title": "核废料、放射性容器与停机",
+      "pattern": "radioactive_waste_barrel|radiation|geiger_counter|dosimeter|hazmat",
+      "items": 19,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "sps",
+      "title": "超临界移相器（SPS）",
+      "pattern": "sps_|supercharged_coil",
+      "items": 3,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "nucleosynth",
+      "title": "反质子核合成器",
+      "pattern": "antiprotonic_nucleosynthesizer",
+      "items": 2,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "pigments",
+      "title": "颜料提取、混合与涂色",
+      "pattern": "pigment_extractor|pigment_extracting_factory|pigment_mixer|painting_machine|painting_factory",
+      "items": 30,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "upgrades",
+      "title": "速度、能量、过滤与化学升级",
+      "pattern": "upgrade_(speed|energy|filter|chemical|gas|anchor|muffling)|tier_installer",
+      "items": 14,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "mekasuit",
+      "title": "模块装配、MekaSuit 与 Meka-Tool",
+      "pattern": "modification_station|meka_tool|mekasuit|module_",
+      "items": 41,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "nutritional",
+      "title": "营养液化器与食物储存",
+      "pattern": "nutritional_liquifier|canteen",
+      "items": 2,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "security",
+      "title": "安全台、私有频率与信任",
+      "pattern": "security_desk",
+      "items": 1,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "mekmm-cnc",
+      "title": "数控冲压、车床、轧机与压制机",
+      "pattern": "cnc_stamper|cnc_lathe|cnc_rolling_mill|(^|:)presser$|stamping_factory|lathing_factory|rolling_mill_factory|pressing_factory",
+      "items": 64,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "mekmm-replicator",
+      "title": "物品、流体与化学复制",
+      "pattern": "(^|:|_)replicator$|replicating_factory",
+      "items": 16,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "mekmm-recycler",
+      "title": "回收机与回收工厂",
+      "pattern": "(^|:)recycler$|recycling_factory",
+      "items": 14,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "mekmm-growing",
+      "title": "种植站与种植工厂",
+      "pattern": "planting_station|planting_factory",
+      "items": 14,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "mekmm-wireless-charge",
+      "title": "无线充能站",
+      "pattern": "wireless_charging_station",
+      "items": 1,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "mekmm-atmosphere",
+      "title": "环境气体收集器",
+      "pattern": "ambient_gas_collector",
+      "items": 1,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "extras-naquadah",
+      "title": "扩展反应堆与高阶传输",
+      "pattern": "naquadah_reactor_|lead_coated_laser_focus_matrix",
+      "items": 5,
+      "sources": [
+        "installed Mekanism 10.7.19 descriptions, GUI labels and recipes",
+        "https://wiki.aidancbrady.com/wiki/Home",
+        "https://github.com/lostmyself8/Mekanism-MoreMachine/wiki"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "latex-extractor",
+      "title": "流体提取机：从原木提取乳胶",
+      "pattern": "fluid_extractor",
+      "items": 1,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "latex-processing",
+      "title": "乳胶加工机与塑料",
+      "pattern": "latex_processing_unit|^industrialforegoing:plastic$",
+      "items": 2,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "dissolution",
+      "title": "溶解室：物品与流体合成",
+      "pattern": "dissolution_chamber",
+      "items": 2,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "plant-sower",
+      "title": "种植机的九区种子配置",
+      "pattern": "plant_sower",
+      "items": 1,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "plant-fertilizer",
+      "title": "催熟机",
+      "pattern": "plant_fertilizer",
+      "items": 1,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "plant-gatherer",
+      "title": "收割机：作物、树木与污泥",
+      "pattern": "plant_gatherer",
+      "items": 1,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "hydroponic",
+      "title": "水培床",
+      "pattern": "^industrialforegoing:hydroponic_bed$",
+      "items": 1,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "simulated-hydroponic",
+      "title": "模拟水培床与模拟处理器",
+      "pattern": "simulated_hydroponic_bed|hydroponic_simulation_processor",
+      "items": 3,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "animal-feeder",
+      "title": "动物喂养机",
+      "pattern": "animal_feeder",
+      "items": 1,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "animal-rancher",
+      "title": "动物农场机",
+      "pattern": "animal_rancher",
+      "items": 1,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "animal-separator",
+      "title": "幼体分离机",
+      "pattern": "animal_baby_separator",
+      "items": 1,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "sewage",
+      "title": "污水、肥料与经验回收",
+      "pattern": "sewer|sewage_composter|fertilizer$",
+      "items": 4,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "slaughter",
+      "title": "屠宰场：肉与粉红黏液",
+      "pattern": "mob_slaughter_factory",
+      "items": 1,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "crusher",
+      "title": "生物粉碎机：掉落物与精华",
+      "pattern": "mob_crusher",
+      "items": 1,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "duplicator",
+      "title": "生物复制机与生物捕捉工具",
+      "pattern": "mob_duplicator|mob_imprisonment_tool",
+      "items": 2,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "stasis",
+      "title": "停滞室与以太抽取",
+      "pattern": "stasis_chamber|ether_gas_bucket",
+      "items": 2,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "wither",
+      "title": "凋灵建造机",
+      "pattern": "wither_builder",
+      "items": 1,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "laser-drill",
+      "title": "激光钻：充能设备",
+      "pattern": "^industrialforegoing:laser_drill$",
+      "items": 1,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "ore-laser",
+      "title": "矿物激光钻基座与透镜",
+      "pattern": "ore_laser_base|laser_lens",
+      "items": 35,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "fluid-laser",
+      "title": "流体激光钻基座",
+      "pattern": "fluid_laser_base",
+      "items": 1,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "ore-washing",
+      "title": "洗矿厂：液态肉转矿肉",
+      "pattern": "washing_factory",
+      "items": 1,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "fermentation",
+      "title": "发酵站",
+      "pattern": "fermentation_station",
+      "items": 1,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "sieving",
+      "title": "流体筛分机",
+      "pattern": "fluid_sieving_machine",
+      "items": 1,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "sludge",
+      "title": "污泥精炼机",
+      "pattern": "sludge_refiner",
+      "items": 1,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "stonework",
+      "title": "材料石工厂",
+      "pattern": "material_stonework_factory",
+      "items": 1,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "resourceful-furnace",
+      "title": "资源熔炉",
+      "pattern": "resourceful_furnace",
+      "items": 1,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "water-condensator",
+      "title": "集水器",
+      "pattern": "water_condensator",
+      "items": 1,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "fisher",
+      "title": "海洋渔获机",
+      "pattern": "marine_fisher",
+      "items": 1,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "spores",
+      "title": "孢子再造机",
+      "pattern": "spores_recreator",
+      "items": 1,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "bioreactor",
+      "title": "生物反应机：原料多样性",
+      "pattern": "bioreactor",
+      "items": 1,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "fuel-generators",
+      "title": "简易与生物燃料发电机",
+      "pattern": "pitiful_generator|biofuel_generator",
+      "items": 2,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "mycelial",
+      "title": "菌丝发电机与菌丝反应堆",
+      "pattern": "mycelial",
+      "items": 17,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "enchantment-factory",
+      "title": "附魔工厂",
+      "pattern": "enchantment_factory",
+      "items": 1,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "enchantment-extractor",
+      "title": "附魔提取机",
+      "pattern": "enchantment_extractor",
+      "items": 1,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "enchantment-applicator",
+      "title": "附魔施加器",
+      "pattern": "enchantment_applicator",
+      "items": 1,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "enchantment-sorter",
+      "title": "附魔分选机",
+      "pattern": "enchantment_sorter",
+      "items": 1,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "potion",
+      "title": "药水酿造机",
+      "pattern": "potion_brewer",
+      "items": 1,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "dye",
+      "title": "染料混合机",
+      "pattern": "dye_mixer",
+      "items": 1,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "block-actions",
+      "title": "方块破坏机与放置机",
+      "pattern": "block_breaker|block_placer",
+      "items": 2,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "fluid-actions",
+      "title": "流体收集器与放置器",
+      "pattern": "fluid_collector|fluid_placer",
+      "items": 2,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "transporters",
+      "title": "物品/流体/世界传输器",
+      "pattern": "transporter_type",
+      "items": 3,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "conveyors",
+      "title": "传送带与功能升级",
+      "pattern": "conveyor",
+      "items": 8,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "addons",
+      "title": "范围、速度、效率与处理插件",
+      "pattern": "range_addon|speed_addon|efficiency_addon|processing_addon",
+      "items": 57,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "infinity-tools",
+      "title": "无尽工具与充能",
+      "pattern": "infinity_(drill|saw|hammer|trident|charger)",
+      "items": 6,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "infinity-storage",
+      "title": "无尽背包与肉食供给器",
+      "pattern": "infinity_backpack|meat_feeder",
+      "items": 2,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "mob-detector",
+      "title": "生物检测器",
+      "pattern": "mob_detector",
+      "items": 1,
+      "sources": [
+        "installed Industrial Foregoing 3.6.39 Patchouli entries, recipes and tooltips",
+        "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/tree/1.21"
+      ]
+    },
+    {
+      "group": "enderio",
+      "key": "capacitors",
+      "title": "机器电容与侧面配置",
+      "pattern": "capacitor|yeta_wrench",
+      "items": 8,
+      "sources": [
+        "installed Ender IO 8.2.12-beta recipes, GUI strings, machine status and item tooltips",
+        "https://github.com/Team-EnderIO/EnderIO/tree/1.21.1"
+      ]
+    },
+    {
+      "group": "enderio",
+      "key": "alloy",
+      "title": "合金炉：熔炼与合金模式",
+      "pattern": "alloy_smelter",
+      "items": 1,
+      "sources": [
+        "installed Ender IO 8.2.12-beta recipes, GUI strings, machine status and item tooltips",
+        "https://github.com/Team-EnderIO/EnderIO/tree/1.21.1"
+      ]
+    },
+    {
+      "group": "enderio",
+      "key": "sag",
+      "title": "SAG 磨粉机与研磨球",
+      "pattern": "sag_mill|grinding_ball",
+      "items": 9,
+      "sources": [
+        "installed Ender IO 8.2.12-beta recipes, GUI strings, machine status and item tooltips",
+        "https://github.com/Team-EnderIO/EnderIO/tree/1.21.1"
+      ]
+    },
+    {
+      "group": "enderio",
+      "key": "slice",
+      "title": "切片机与拼接",
+      "pattern": "slice_and_splice",
+      "items": 1,
+      "sources": [
+        "installed Ender IO 8.2.12-beta recipes, GUI strings, machine status and item tooltips",
+        "https://github.com/Team-EnderIO/EnderIO/tree/1.21.1"
+      ]
+    },
+    {
+      "group": "enderio",
+      "key": "soul",
+      "title": "灵魂绑定机与灵魂瓶",
+      "pattern": "soul_binder|soul_vial",
+      "items": 3,
+      "sources": [
+        "installed Ender IO 8.2.12-beta recipes, GUI strings, machine status and item tooltips",
+        "https://github.com/Team-EnderIO/EnderIO/tree/1.21.1"
+      ]
+    },
+    {
+      "group": "enderio",
+      "key": "vat",
+      "title": "酿造缸",
+      "pattern": "(^|:)vat$",
+      "items": 1,
+      "sources": [
+        "installed Ender IO 8.2.12-beta recipes, GUI strings, machine status and item tooltips",
+        "https://github.com/Team-EnderIO/EnderIO/tree/1.21.1"
+      ]
+    },
+    {
+      "group": "enderio",
+      "key": "crafter",
+      "title": "自动合成机",
+      "pattern": "(^|:)crafter$",
+      "items": 1,
+      "sources": [
+        "installed Ender IO 8.2.12-beta recipes, GUI strings, machine status and item tooltips",
+        "https://github.com/Team-EnderIO/EnderIO/tree/1.21.1"
+      ]
+    },
+    {
+      "group": "enderio",
+      "key": "enchanter",
+      "title": "附魔机：指定附魔书",
+      "pattern": "enchanter",
+      "items": 1,
+      "sources": [
+        "installed Ender IO 8.2.12-beta recipes, GUI strings, machine status and item tooltips",
+        "https://github.com/Team-EnderIO/EnderIO/tree/1.21.1"
+      ]
+    },
+    {
+      "group": "enderio",
+      "key": "stirling",
+      "title": "斯特林发电机",
+      "pattern": "stirling_generator",
+      "items": 1,
+      "sources": [
+        "installed Ender IO 8.2.12-beta recipes, GUI strings, machine status and item tooltips",
+        "https://github.com/Team-EnderIO/EnderIO/tree/1.21.1"
+      ]
+    },
+    {
+      "group": "enderio",
+      "key": "soul-engine",
+      "title": "灵魂引擎",
+      "pattern": "soul_engine",
+      "items": 1,
+      "sources": [
+        "installed Ender IO 8.2.12-beta recipes, GUI strings, machine status and item tooltips",
+        "https://github.com/Team-EnderIO/EnderIO/tree/1.21.1"
+      ]
+    },
+    {
+      "group": "enderio",
+      "key": "farming",
+      "title": "农场站",
+      "pattern": "farming_station",
+      "items": 1,
+      "sources": [
+        "installed Ender IO 8.2.12-beta recipes, GUI strings, machine status and item tooltips",
+        "https://github.com/Team-EnderIO/EnderIO/tree/1.21.1"
+      ]
+    },
+    {
+      "group": "enderio",
+      "key": "spawner",
+      "title": "电动刷怪笼：类型与工作模式",
+      "pattern": "powered_spawner|broken_spawner",
+      "items": 2,
+      "sources": [
+        "installed Ender IO 8.2.12-beta recipes, GUI strings, machine status and item tooltips",
+        "https://github.com/Team-EnderIO/EnderIO/tree/1.21.1"
+      ]
+    },
+    {
+      "group": "enderio",
+      "key": "obelisks",
+      "title": "吸引、驱散、抑制与搬移方尖碑",
+      "pattern": "attractor_obelisk|aversion_obelisk|inhibitor_obelisk|relocator_obelisk",
+      "items": 4,
+      "sources": [
+        "installed Ender IO 8.2.12-beta recipes, GUI strings, machine status and item tooltips",
+        "https://github.com/Team-EnderIO/EnderIO/tree/1.21.1"
+      ]
+    },
+    {
+      "group": "enderio",
+      "key": "xp",
+      "title": "经验方尖碑与经验流体",
+      "pattern": "experience_obelisk|xp_obelisk|xp_vacuum|void_vial",
+      "items": 4,
+      "sources": [
+        "installed Ender IO 8.2.12-beta recipes, GUI strings, machine status and item tooltips",
+        "https://github.com/Team-EnderIO/EnderIO/tree/1.21.1"
+      ]
+    },
+    {
+      "group": "enderio",
+      "key": "vacuum",
+      "title": "真空箱与物品收集",
+      "pattern": "vacuum_chest",
+      "items": 1,
+      "sources": [
+        "installed Ender IO 8.2.12-beta recipes, GUI strings, machine status and item tooltips",
+        "https://github.com/Team-EnderIO/EnderIO/tree/1.21.1"
+      ]
+    },
+    {
+      "group": "enderio",
+      "key": "tank",
+      "title": "流体罐与加压流体罐",
+      "pattern": "fluid_tank",
+      "items": 2,
+      "sources": [
+        "installed Ender IO 8.2.12-beta recipes, GUI strings, machine status and item tooltips",
+        "https://github.com/Team-EnderIO/EnderIO/tree/1.21.1"
+      ]
+    },
+    {
+      "group": "enderio",
+      "key": "cap-bank",
+      "title": "电容库与输入输出限制",
+      "pattern": "capacitor_bank",
+      "items": 3,
+      "sources": [
+        "installed Ender IO 8.2.12-beta recipes, GUI strings, machine status and item tooltips",
+        "https://github.com/Team-EnderIO/EnderIO/tree/1.21.1"
+      ]
+    },
+    {
+      "group": "enderio",
+      "key": "charging",
+      "title": "有线与无线充能器",
+      "pattern": "wired_charger|wireless_charger",
+      "items": 4,
+      "sources": [
+        "installed Ender IO 8.2.12-beta recipes, GUI strings, machine status and item tooltips",
+        "https://github.com/Team-EnderIO/EnderIO/tree/1.21.1"
+      ]
+    },
+    {
+      "group": "enderio",
+      "key": "travel",
+      "title": "旅行锚与传送法杖",
+      "pattern": "travel_anchor|staff_of_travelling|travel_staff",
+      "items": 3,
+      "sources": [
+        "installed Ender IO 8.2.12-beta recipes, GUI strings, machine status and item tooltips",
+        "https://github.com/Team-EnderIO/EnderIO/tree/1.21.1"
+      ]
+    },
+    {
+      "group": "enderio",
+      "key": "painting",
+      "title": "涂装机与功能玻璃",
+      "pattern": "painting_machine|dark_steel_anvil",
+      "items": 1,
+      "sources": [
+        "installed Ender IO 8.2.12-beta recipes, GUI strings, machine status and item tooltips",
+        "https://github.com/Team-EnderIO/EnderIO/tree/1.21.1"
+      ]
+    },
+    {
+      "group": "enderio",
+      "key": "conduits",
+      "title": "导管：一格多种资源与颜色通道",
+      "pattern": "conduit",
+      "items": 9,
+      "sources": [
+        "installed Ender IO 8.2.12-beta recipes, GUI strings, machine status and item tooltips",
+        "https://github.com/Team-EnderIO/EnderIO/tree/1.21.1"
+      ]
+    },
+    {
+      "group": "enderio",
+      "key": "filters",
+      "title": "导管过滤器与库存维持",
+      "pattern": "filter",
+      "items": 20,
+      "sources": [
+        "installed Ender IO 8.2.12-beta recipes, GUI strings, machine status and item tooltips",
+        "https://github.com/Team-EnderIO/EnderIO/tree/1.21.1"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "naquadah-detailed",
+      "title": "硅岩反应堆：专用燃料与点火",
+      "pattern": "naquadah_reactor_|lead_coated_laser_focus_matrix|naquadah_hohlraum",
+      "items": 6,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "create",
+      "key": "schematics",
+      "title": "蓝图桌、蓝图与蓝图加农炮",
+      "pattern": "schematic_table|schematicannon|schematic_and_quill|empty_schematic|clipboard",
+      "items": 8,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "create",
+      "key": "air-equipment",
+      "title": "背罐、压缩空气与装备",
+      "pattern": "backtank|potato_cannon|extendo_grip|diving_",
+      "items": 18,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "create",
+      "key": "hatch-toolbox",
+      "title": "物品舱口与工具箱",
+      "pattern": "item_hatch|toolbox",
+      "items": 17,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "ae2",
+      "key": "mega-cpu",
+      "title": "大型合成存储、并行与接口",
+      "pattern": "megacells:.*crafting|ae2omnicells:.*crafting|mega_pattern_provider|mega_interface",
+      "items": 48,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "ae2",
+      "key": "requester",
+      "title": "ME 请求器：定量自动合成",
+      "pattern": "merequester:",
+      "items": 3,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "black-hole",
+      "title": "黑洞单元、流体罐与控制器",
+      "pattern": "black_hole",
+      "items": 11,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "infuser-extra",
+      "title": "更多升级灌注器与龙蛋锻造",
+      "pattern": "ifeu:infuser$|arcane_dragon_egg_forging",
+      "items": 2,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "additional-processing",
+      "title": "工厂构造器、抛光机与凝固器",
+      "pattern": "industrialforegoingadditional:(factory_constructor|upgraded_constructor|polishing_machine|solidifier)",
+      "items": 4,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "cnc-stamper",
+      "title": "数控冲压机：模具槽",
+      "pattern": "cnc_stamper|stamping_factory",
+      "items": 14,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "cnc-lathe",
+      "title": "数控车床",
+      "pattern": "cnc_lathe|lathing_factory",
+      "items": 14,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "cnc-rolling",
+      "title": "数控轧机",
+      "pattern": "cnc_rolling_mill|rolling_mill_factory",
+      "items": 14,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "presser",
+      "title": "压制机：三路物品组装",
+      "pattern": "mekmm:presser$|pressing_factory",
+      "items": 22,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "souls",
+      "title": "灵魂激光基座、管道与灵魂激荡",
+      "pattern": "industrialforegoingsouls:",
+      "items": 3,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "flowtech",
+      "key": "pads",
+      "title": "移动垫、攻击垫与控制器",
+      "pattern": "flow_pad|attack_pad|flowtech_controller|_module",
+      "items": 12,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "flowtech",
+      "key": "collection-genes",
+      "title": "收集器、虚空过滤与基因瓶",
+      "pattern": "collector|gene_.*vial|gloom_spore|glimmer_sprout",
+      "items": 5,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "oritech",
+      "key": "accelerator-addons",
+      "title": "加速器磁场、速度传感器与目标指定器",
+      "pattern": "oritechthings:(accelerator_magnetic_field|particle_accelerator_speed_sensor|advanced_target_designator|accelerator_target_designator|accelerator_motor)",
+      "items": 3,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "oritech",
+      "key": "drone-dimensions",
+      "title": "无人机跨维度扩展与框架放置器",
+      "pattern": "oritechthings:(addon_block_cross_dimensional|frame_placer)",
+      "items": 2,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "silentgear",
+      "key": "blueprints",
+      "title": "蓝图、模板、部件与装备",
+      "pattern": "blueprint|template|crafting_station|blueprint_book",
+      "items": 89,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "silentgear",
+      "key": "grading-alloys",
+      "title": "材料分级、合金与星光充能",
+      "pattern": "material_grader|alloyer|recrystallizer|starlight_charger|catalyst",
+      "items": 3,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "silentgear",
+      "key": "repair-upgrades",
+      "title": "修理包、尖端与装备升级",
+      "pattern": "repair_kit|tip_upgrade|coating|grip|binding|upgrade",
+      "items": 22,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "resource-pipes",
+      "title": "通用线缆、机械管道与加压管道",
+      "pattern": "universal_cable|mechanical_pipe|pressurized_tube",
+      "items": 24,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "small-generators",
+      "title": "基础发电机的供料条件",
+      "pattern": "heat_generator|bio_generator|gas_burning_generator|solar_generator|wind_generator",
+      "items": 10,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "dynamic-tank",
+      "title": "动态储罐",
+      "pattern": "dynamic_tank|dynamic_valve",
+      "items": 2,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "tag-converter",
+      "title": "标签转换器",
+      "pattern": "oredictionificator",
+      "items": 1,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "chargepad",
+      "title": "充能台",
+      "pattern": "chargepad",
+      "items": 1,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "mekanism",
+      "key": "cardboard",
+      "title": "纸箱搬运",
+      "pattern": "cardboard_box",
+      "items": 2,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "simulation-training",
+      "title": "水培模拟处理器：先采集数据",
+      "pattern": "hydroponic_simulation_processor",
+      "items": 2,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "large-dissolution",
+      "title": "大型溶解室与线程插件",
+      "pattern": "big_dissolution_chamber|thread_addon",
+      "items": 7,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "fluid-table",
+      "title": "流体合成台与精密合成",
+      "pattern": "fluid_crafting_table|precision_crafting_table|chance_addon",
+      "items": 9,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "industrialforegoing",
+      "key": "configuration-tools",
+      "title": "配置复制、流体传输与平台建造",
+      "pattern": "configuration_tool|connect_tool|fluid_transfer|platform_builder",
+      "items": 16,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "draconicevolution",
+      "key": "fusion-crafting",
+      "title": "聚合合成核心与注入器",
+      "pattern": "crafting_core|crafting_injector",
+      "items": 5,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "draconicevolution",
+      "key": "energy-core",
+      "title": "能量核心、稳定器与能量塔",
+      "pattern": "energy_core|energy_pylon|energy_core_stabilizer",
+      "items": 6,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "draconicevolution",
+      "key": "reactor-control",
+      "title": "神龙反应堆：控制场与能量饱和",
+      "pattern": "reactor_",
+      "items": 8,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "draconicevolution",
+      "key": "crystals",
+      "title": "能量水晶与链接",
+      "pattern": "io_crystal|relay_crystal|wireless_crystal|crystal_binder",
+      "items": 10,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "draconicevolution",
+      "key": "modules",
+      "title": "模块装备与属性配置",
+      "pattern": "module|wyvern_(pickaxe|shovel|axe|sword|chestpiece)|draconic_(pickaxe|shovel|axe|sword|chestpiece)|chaotic_",
+      "items": 41,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "draconicevolution",
+      "key": "flow-gates",
+      "title": "通量门：用红石调节流量",
+      "pattern": "flux_gate|fluid_gate",
+      "items": 2,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "draconicevolution",
+      "key": "grinder",
+      "title": "生物研磨机",
+      "pattern": "grinder",
+      "items": 1,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "extendedcrafting",
+      "key": "tables",
+      "title": "扩展合成台与自动合成台",
+      "pattern": "crafting_table|auto_table",
+      "items": 4,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "extendedcrafting",
+      "key": "combination",
+      "title": "组合合成：核心与基座",
+      "pattern": "crafting_core|pedestal",
+      "items": 2,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "extendedcrafting",
+      "key": "compressor",
+      "title": "奇点压缩与量子压缩机",
+      "pattern": "compressor|singularity",
+      "items": 3,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "extendedcrafting",
+      "key": "ender-flux",
+      "title": "末影合成与通量合成",
+      "pattern": "ender_crafter|ender_alternator|flux_crafter|flux_alternator",
+      "items": 6,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "packagedauto",
+      "key": "encoding",
+      "title": "封包编码器、封包与配方数据",
+      "pattern": "encoder|recipe_holder|package_recipe|recipe_pattern",
+      "items": 3,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "packagedauto",
+      "key": "packing",
+      "title": "封包机、解包机与 ME 供应器",
+      "pattern": "packager$|packaging_provider|packager_extension|crafting_proxy|distributor",
+      "items": 8,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "packagedauto",
+      "key": "specialized",
+      "title": "专用封包合成器与标记接口",
+      "pattern": "crafter$|marked_",
+      "items": 18,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "avaritia",
+      "key": "extreme-crafting",
+      "title": "终焉合成网格与压缩",
+      "pattern": "crafting_table|compressor|neutron_collector|neutron_pile",
+      "items": 15,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "hostilenetworks",
+      "key": "models",
+      "title": "数据模型、深度学习器与训练",
+      "pattern": "data_model|deep_learner",
+      "items": 4,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "hostilenetworks",
+      "key": "simulation",
+      "title": "模拟室与战利品制造器",
+      "pattern": "sim_chamber|loot_fabricator",
+      "items": 2,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "integrateddynamics",
+      "key": "logic-network",
+      "title": "变量卡、逻辑编程器与变量存储器",
+      "pattern": "variable$|logic_programmer|variable_store|proxy|materializer",
+      "items": 5,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "integrateddynamics",
+      "key": "tunnels",
+      "title": "动态隧道：接口与输入输出器",
+      "pattern": "integratedtunnels:",
+      "items": 22,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "integrateddynamics",
+      "key": "crafting",
+      "title": "动态合成与终端",
+      "pattern": "integratedcrafting:|integratedterminals:",
+      "items": 9,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "sfm",
+      "key": "program",
+      "title": "超级工厂管理器：标签与程序",
+      "pattern": "manager|program|disk|label",
+      "items": 4,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "xnet",
+      "key": "channels",
+      "title": "XNet 控制器、连接器与频道",
+      "pattern": "controller|connector|router|cable",
+      "items": 19,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "pipez",
+      "key": "extraction",
+      "title": "Pipez 管道与升级",
+      "pattern": "pipe|upgrade",
+      "items": 12,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "fluxnetworks",
+      "key": "wireless",
+      "title": "Flux 插头、点与控制器",
+      "pattern": "flux_plug|flux_point|flux_controller|flux_storage|configurator",
+      "items": 8,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "solarflux",
+      "key": "panels",
+      "title": "太阳能板与升级",
+      "pattern": "solarflux:",
+      "items": 37,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "functionalstorage",
+      "key": "drawers",
+      "title": "抽屉、控制器与连接工具",
+      "pattern": "drawer|storage_controller|linking_tool|configuration_tool",
+      "items": 9,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "functionalstorage",
+      "key": "upgrades",
+      "title": "抽屉升级、压缩与溢出",
+      "pattern": "upgrade|compacting",
+      "items": 24,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "sophisticatedstorage",
+      "key": "storage-upgrades",
+      "title": "高级存储的过滤与加工升级",
+      "pattern": "upgrade",
+      "items": 79,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "sophisticatedbackpacks",
+      "key": "backpack-upgrades",
+      "title": "高级背包的拾取、磁铁与补货",
+      "pattern": "backpack|upgrade",
+      "items": 79,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "ironfurnaces",
+      "key": "augments",
+      "title": "高阶熔炉与增幅",
+      "pattern": "furnace|augment|upgrade",
+      "items": 43,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "rftools",
+      "key": "storage",
+      "title": "模块存储、存储扫描器与合成管理器",
+      "pattern": "modular_storage|storage_scanner|crafting_manager|storage_module",
+      "items": 8,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "rftools",
+      "key": "autocrafter",
+      "title": "RF 自动合成机",
+      "pattern": "crafter[123]",
+      "items": 3,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "rftools",
+      "key": "teleport",
+      "title": "物质传送器、接收器与充能传送器",
+      "pattern": "matter_transmitter|matter_receiver|dialing_device|charged_porter|simple_dialer|destination_analyzer|matter_booster",
+      "items": 26,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "rftools",
+      "key": "screens",
+      "title": "模块屏幕与屏幕控制器",
+      "pattern": "screen|.*_module",
+      "items": 51,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "rftools",
+      "key": "spawner",
+      "title": "RF 刷怪笼与物质投影仪",
+      "pattern": "spawner|matter_beamer|syringe",
+      "items": 9,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "rftools",
+      "key": "infuser",
+      "title": "机器注能机",
+      "pattern": "machine_infuser",
+      "items": 1,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "rftools",
+      "key": "logic",
+      "title": "计时、计数、传感与逻辑",
+      "pattern": "timer|counter|sensor|sequencer|logic|analog|redstone_(transmitter|receiver)|invchecker",
+      "items": 11,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "rftools",
+      "key": "power",
+      "title": "能量单元与发电",
+      "pattern": "cell[123]|powercell|coal_generator|blazing_generator",
+      "items": 7,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "quarryplus",
+      "key": "quarry",
+      "title": "采石场与范围标记",
+      "pattern": "quarry|marker|workbench|chunk_destroyer",
+      "items": 35,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "mob_grinding_utils",
+      "key": "masher",
+      "title": "生物粉碎与升级",
+      "pattern": "(^|:)saw$|saw_upgrade",
+      "items": 7,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "mob_grinding_utils",
+      "key": "collection",
+      "title": "吸收漏斗、经验罐与经验处理",
+      "pattern": "absorption_hopper|tank|xp_drain|xp_tap|fluid_xp",
+      "items": 6,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "mob_grinding_utils",
+      "key": "mob-tools",
+      "title": "生物扇、尖刺与生成控制",
+      "pattern": "fan|spike|dreadful|delightful|swab|chicken_feed|gm_chicken_feed",
+      "items": 12,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "pylons",
+      "key": "infusion",
+      "title": "药水塔与药水过滤器",
+      "pattern": "infusion_pylon|potion_filter",
+      "items": 2,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "pylons",
+      "key": "harvest",
+      "title": "收割塔与禁止生成",
+      "pattern": "harvester_pylon|expulsion_pylon|interdiction_pylon",
+      "items": 3,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "easy_villagers",
+      "key": "workstations",
+      "title": "村民方块：交易、繁殖与生产",
+      "pattern": "trader|auto_trader|breeder|farmer|iron_farm|converter|incubator",
+      "items": 7,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "buildinggadgets2",
+      "key": "gadgets",
+      "title": "建筑、交换、复制与切割工具",
+      "pattern": "gadget|template",
+      "items": 30,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "stellaris",
+      "key": "oxygen",
+      "title": "氧气、分离机与供氧设备",
+      "pattern": "oxygen|water_separator|space_suit|jet_suit",
+      "items": 12,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "stellaris",
+      "key": "rocket",
+      "title": "火箭、发射平台与火箭站",
+      "pattern": "rocket$|rocket_launch_pad|rocket_station|rocket_.*upgrade",
+      "items": 7,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "stellaris",
+      "key": "fuel-chain",
+      "title": "抽油机、精炼与流体供给",
+      "pattern": "pumpjack|fuel_refinery|water_pump|oil_finder",
+      "items": 6,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "stellaris",
+      "key": "vacuumator",
+      "title": "真空封装机与太空罐头",
+      "pattern": "vacuumator|_(?:blue|green|purple|red|yellow)_can",
+      "items": 11,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    },
+    {
+      "group": "stellaris",
+      "key": "energy-upgrades",
+      "title": "太空设备的电网、储罐与升级站",
+      "pattern": "generator|solar_panel|cable|pipe_t|_bank$|_tank$|upgrade_station|_module$",
+      "items": 27,
+      "sources": [
+        "installed mod recipes, language descriptions, tooltips and manuals; see research-rounds.json",
+        "https://github.com/TeamDman/SuperFactoryManager/tree/main/examples",
+        "https://github.com/BlakeBr0/ExtendedCrafting"
+      ]
+    }
+  ],
+  "unmatched": [
+    {
+      "group": "enderio",
+      "key": "transceiver",
+      "pattern": "transceiver"
+    }
+  ],
+  "excluded": [],
+  "updates": 1927,
+  "added": 1
+}

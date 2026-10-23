@@ -4,13 +4,15 @@ import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.client.gui.screens.inventory.InventoryScreen;
 import net.minecraft.network.chat.Component;
+import net.minecraft.client.resources.language.I18n;
 import org.lwjgl.glfw.GLFW;
 
 final class IntroScreen extends Screen {
     final IntroPlayback playback;
     private long lastFrame=System.nanoTime();
     private IntroUi.Layout layout;
-    IntroScreen(IntroStory story,boolean chinese){super(Component.literal(chinese?"序章：余烬":"Prologue: Embers"));playback=new IntroPlayback(story,chinese,ClientIntro::glyph);}
+    final boolean chapter;
+    IntroScreen(IntroStory story,boolean chinese,boolean chapter){super(Component.translatable(story.labels.get("prologue")));this.chapter=chapter;playback=new IntroPlayback(story,chinese,ClientIntro::glyph,key->I18n.get(key));}
     void resetClock(){lastFrame=System.nanoTime();}
     @Override public boolean isPauseScreen(){return false;}
     @Override public boolean shouldCloseOnEsc(){return false;}

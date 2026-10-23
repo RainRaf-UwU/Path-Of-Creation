@@ -58,6 +58,8 @@ PCL 的版本图标可使用 `config/fancymenu/assets/pack_icon.png`。Release �
 
 当前开发版新增创建世界时的开场剧情：从第一人称直线睁眼过渡到第三人称，使用玩家真实皮肤立绘、非人形系统 ECHO、逐字音效和对话选项。剧情期间锁定移动，结束后恢复操作与基础飞行；已有存档不会补播。已停用会在玩家面前投影界面的 Public GUI Announcement，避免遮挡角色。
 
+当前开发版还加入 ECHO 科技手册、第一章工作台剧情、维度方阵、多方块整机外观与工艺动画，并调整导电合金进度、修复 Lychee/JEI 流体查询。详见 [v0.2.0 之后的完整修改记录](docs/changes-after-v0.2.0/README.md)。这些内容已提交源码，正式下载仍为 v0.2.0。
+
 ## v0.2.0 更新
 
 - 新增 47 个 JEI 展示配方，涵盖世界交互、数据模型、钓鱼与雷击转化。
@@ -82,7 +84,9 @@ PCL 的版本图标可使用 `config/fancymenu/assets/pack_icon.png`。Release �
 | `resourcepacks/Path-of-Creation-UI` | 界面、菜单音乐、音效与星核光标资源；首次默认启用 |
 | [tools/poc-updater](tools/poc-updater/README.md) | 自动更新模组源码、发布与安装说明 |
 | `tools/poc-cursor` | 专属光标源码与素材 |
-| `tools/poc-intro` | 新世界开场剧情源码、音效与离线检查工具 |
+| `tools/poc-intro` | 开场与第一章剧情、ECHO科技手册、音效与离线检查工具 |
+| [tools/poc-dimension-matrix](tools/poc-dimension-matrix/README.md) | 维度方阵、多方块图纸、成形外观与运行机构 |
+| [tools/poc-lychee-jei-compat](tools/poc-lychee-jei-compat/README.md) | Lychee/JEI流体查询兼容补丁 |
 
 正式更新包由 [GitHub Actions](.github/workflows/poc-update-release.yml) 打包发布；操作步骤见 [自动更新 README](tools/poc-updater/README.md)。修改玩法后，需要重载游戏并检查对应的生存流程。
 
@@ -91,7 +95,7 @@ PCL 的版本图标可使用 `config/fancymenu/assets/pack_icon.png`。Release �
 感谢各位模组作者和贡献者，让这个整合包得以完成。感谢 [CFPAOrg 模组简体中文翻译项目](https://github.com/CFPAOrg/Minecraft-Mod-Language-Package) 与汉化贡献者提供的译文，也感谢参与试玩和反馈的玩家。
 
 <details>
-<summary>模组列表（261 个 JAR，含依赖库与整合包自定义模组）</summary>
+<summary>模组列表（263 个 JAR，含依赖库与整合包自定义模组）</summary>
 
 | 模组 | 作者 |
 | --- | --- |
@@ -327,6 +331,8 @@ PCL 的版本图标可使用 `config/fancymenu/assets/pack_icon.png`。Release �
 | [Plushie Mod](https://github.com/Link4real/Plushie-Mod/issues) | Link4real, Vento |
 | [创世之径 · 光标](https://github.com/RainRaf-UwU/Path-Of-Creation) | RainRaf-UwU |
 | 创世之径 · 序章 | RainRaf-UwU |
+| 创世之径 · 维度方阵 | RainRaf-UwU |
+| 创世之径 · Lychee JEI流体兼容 | RainRaf-UwU |
 | [创世之径自动更新](https://github.com/RainRaf-UwU/Path-Of-Creation) | RainRaf-UwU |
 | [Polymorphic Energistics](https://github.com/62832/PolymorphicEnergistics/issues) | — |
 | [PolyLib](https://github.com/CreeperHost/PolyLib/issues) | CreeperHost |

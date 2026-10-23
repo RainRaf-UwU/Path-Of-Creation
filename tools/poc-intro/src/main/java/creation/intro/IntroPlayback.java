@@ -10,14 +10,20 @@ public final class IntroPlayback {
     public boolean begun, fast;
     private double accumulator;
     private final Runnable glyphSound;
+    private final java.util.function.Function<String,String> translate;
     public IntroPlayback(IntroStory story, boolean chinese, Runnable glyphSound) {
-        this.story = story; this.chinese = chinese; this.glyphSound = glyphSound;
+        this(story,chinese,glyphSound,key->IntroTranslations.text(key,chinese));
+    }
+    public IntroPlayback(IntroStory story, boolean chinese, Runnable glyphSound, java.util.function.Function<String,String> translate) {
+        this.story = story; this.chinese = chinese; this.glyphSound = glyphSound; this.translate=translate;
         node = story.node(story.first);
     }
-    public String text() { return node.text(chinese); }
+    public String text() { return translate.apply(node.text()); }
+    public String choiceText(IntroStory.Choice choice) { return translate.apply(choice.text()); }
+    public String label(String name) { return translate.apply(story.labels.get(name)); }
     public int length() { return text().codePointCount(0, text().length()); }
     public String visible() { String s = text(); return s.substring(0, s.offsetByCodePoints(0, Math.min(shown, length()))); }
-    public int choiceLength() { return node.options().stream().mapToInt(c -> c.text(chinese).codePointCount(0,c.text(chinese).length())).sum(); }
+    public int choiceLength() { return node.options().stream().map(this::choiceText).mapToInt(s -> s.codePointCount(0,s.length())).sum(); }
     public boolean choicesReady() { return shown == length() && choiceShown == choiceLength(); }
     public void tick(double seconds, boolean focused) {
         if (!focused) return;

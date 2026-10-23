@@ -1,0 +1,731 @@
+{
+  "newGuides": [
+    "more/rftoolsutility/machines/environmental"
+  ],
+  "sources": [
+    {
+      "entry": "more/justdirethings/mach_blockswappert2",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_blockswappert2.json",
+      "items": [
+        "justdirethings:blockswappert2"
+      ]
+    },
+    {
+      "entry": "more/justdirethings/goo_tier4",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/goo_tier4.json",
+      "items": [
+        "justdirethings:gooblock_tier4"
+      ]
+    },
+    {
+      "entry": "more/justdirethings/mach_experienceholder",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_experienceholder.json",
+      "items": [
+        "justdirethings:experienceholder"
+      ]
+    },
+    {
+      "entry": "more/justdirethings/mach_fluidcollectort1",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_fluidcollectort1.json",
+      "items": [
+        "justdirethings:fluidcollectort1"
+      ]
+    },
+    {
+      "entry": "more/justdirethings/mach_advanced_controls",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_advanced_controls.json",
+      "items": [
+        "justdirethings:blockbreakert2"
+      ]
+    },
+    {
+      "entry": "more/justdirethings/mach_itemcollector",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_itemcollector.json",
+      "items": [
+        "justdirethings:itemcollector"
+      ]
+    },
+    {
+      "entry": "more/justdirethings/mach_inventoryholder",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_inventoryholder.json",
+      "items": [
+        "justdirethings:inventory_holder"
+      ]
+    },
+    {
+      "entry": "more/justdirethings/item_portal_gun_v2",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/item_portal_gun_v2.json",
+      "items": [
+        "justdirethings:portalgun_v2"
+      ]
+    },
+    {
+      "entry": "more/justdirethings/mach_fluidplacert1",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_fluidplacert1.json",
+      "items": [
+        "justdirethings:fluidplacert1"
+      ]
+    },
+    {
+      "entry": "more/justdirethings/item_blazejet_wand",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/item_blazejet_wand.json",
+      "items": [
+        "justdirethings:blazejet_wand"
+      ]
+    },
+    {
+      "entry": "more/justdirethings/goo_tier2",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/goo_tier2.json",
+      "items": [
+        "justdirethings:gooblock_tier2"
+      ]
+    },
+    {
+      "entry": "more/justdirethings/mach_blockbreakert2",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_blockbreakert2.json",
+      "items": [
+        "justdirethings:blockbreakert2"
+      ]
+    },
+    {
+      "entry": "more/justdirethings/mach_paradox",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_paradox.json",
+      "items": [
+        "justdirethings:paradoxmachine"
+      ]
+    },
+    {
+      "entry": "more/justdirethings/mach_simple_controls",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_simple_controls.json",
+      "items": [
+        "justdirethings:blockbreakert1"
+      ]
+    },
+    {
+      "entry": "more/justdirethings/mach_sensort1",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_sensort1.json",
+      "items": [
+        "justdirethings:sensort1"
+      ]
+    },
+    {
+      "entry": "more/justdirethings/item_polymorphic_wand",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/item_polymorphic_wand.json",
+      "items": [
+        "justdirethings:polymorphic_wand"
+      ]
+    },
+    {
+      "entry": "more/justdirethings/goo_tier1",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/goo_tier1.json",
+      "items": [
+        "justdirethings:gooblock_tier1"
+      ]
+    },
+    {
+      "entry": "more/justdirethings/item_time_wand",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/item_time_wand.json",
+      "items": [
+        "justdirethings:time_wand"
+      ]
+    },
+    {
+      "entry": "more/justdirethings/mach_droppert2",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_droppert2.json",
+      "items": [
+        "justdirethings:droppert2"
+      ]
+    },
+    {
+      "entry": "more/justdirethings/item_pocket_generator",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/item_pocket_generator.json",
+      "items": [
+        "justdirethings:pocket_generator"
+      ]
+    },
+    {
+      "entry": "more/justdirethings/upgrade_basics",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/upgrade_basics.json",
+      "items": [
+        "justdirethings:upgrade_mobscanner"
+      ]
+    },
+    {
+      "entry": "more/justdirethings/item_potion_canister",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/item_potion_canister.json",
+      "items": [
+        "justdirethings:potion_canister"
+      ]
+    },
+    {
+      "entry": "more/justdirethings/mach_generatort1",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_generatort1.json",
+      "items": [
+        "justdirethings:generatort1"
+      ]
+    },
+    {
+      "entry": "more/justdirethings/mach_sensort2",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_sensort2.json",
+      "items": [
+        "justdirethings:sensort2"
+      ]
+    },
+    {
+      "entry": "more/justdirethings/tool_basics",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/tool_basics.json",
+      "items": [
+        "justdirethings:ferricore_pickaxe"
+      ]
+    },
+    {
+      "entry": "more/justdirethings/goo_basics",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/goo_basics.json",
+      "items": [
+        "justdirethings:gooblock_tier1"
+      ]
+    },
+    {
+      "entry": "more/justdirethings/mach_basics",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_basics.json",
+      "items": [
+        "justdirethings:blockbreakert1"
+      ]
+    },
+    {
+      "entry": "more/justdirethings/mach_clickert1",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_clickert1.json",
+      "items": [
+        "justdirethings:clickert1"
+      ]
+    },
+    {
+      "entry": "more/justdirethings/mach_droppert1",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_droppert1.json",
+      "items": [
+        "justdirethings:droppert1"
+      ]
+    },
+    {
+      "entry": "more/justdirethings/mach_blockswappert1",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_blockswappert1.json",
+      "items": [
+        "justdirethings:blockswappert1"
+      ]
+    },
+    {
+      "entry": "more/justdirethings/mach_energytransmitter",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_energytransmitter.json",
+      "items": [
+        "justdirethings:energytransmitter"
+      ]
+    },
+    {
+      "entry": "more/justdirethings/item_polymorphic_wand_v2",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/item_polymorphic_wand_v2.json",
+      "items": [
+        "justdirethings:polymorphic_wand_v2"
+      ]
+    },
+    {
+      "entry": "more/justdirethings/item_eclipsegate_wand",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/item_eclipsegate_wand.json",
+      "items": [
+        "justdirethings:eclipsegate_wand"
+      ]
+    },
+    {
+      "entry": "more/justdirethings/mach_player_accessor",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_player_accessor.json",
+      "items": [
+        "justdirethings:playeraccessor"
+      ]
+    },
+    {
+      "entry": "more/justdirethings/mach_blockplacert2",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_blockplacert2.json",
+      "items": [
+        "justdirethings:blockplacert2"
+      ]
+    },
+    {
+      "entry": "more/justdirethings/item_fluid_canister",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/item_fluid_canister.json",
+      "items": [
+        "justdirethings:fluid_canister"
+      ]
+    },
+    {
+      "entry": "more/justdirethings/item_fuel_canister",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/item_fuel_canister.json",
+      "items": [
+        "justdirethings:fuel_canister"
+      ]
+    },
+    {
+      "entry": "more/justdirethings/item_voidshift_wand",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/item_voidshift_wand.json",
+      "items": [
+        "justdirethings:voidshift_wand"
+      ]
+    },
+    {
+      "entry": "more/justdirethings/mach_clickert2",
+      "source": "justdirethings-1.5.7.jar!assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/mach_clickert2.json",
+      "items": [
+        "justdirethings:clickert2"
+      ]
+    },
+    {
+      "entry": "more/xnet/simple/controller",
+      "source": "xnet-1.21-7.0.7.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/simple/controller.json",
+      "items": [
+        "xnet:controller"
+      ]
+    },
+    {
+      "entry": "more/xnet/simple/connector",
+      "source": "xnet-1.21-7.0.7.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/simple/connector.json",
+      "items": [
+        "xnet:connector_red",
+        "xnet:connector_green",
+        "xnet:connector_blue",
+        "xnet:connector_yellow",
+        "xnet:connector_routing",
+        "xnet:advanced_connector_red",
+        "xnet:advanced_connector_green",
+        "xnet:advanced_connector_blue",
+        "xnet:advanced_connector_yellow",
+        "xnet:advanced_connector_routing",
+        "xnet:connector_upgrade"
+      ]
+    },
+    {
+      "entry": "more/xnet/simple/cables",
+      "source": "xnet-1.21-7.0.7.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/simple/cables.json",
+      "items": [
+        "xnet:netcable_red",
+        "xnet:netcable_green",
+        "xnet:netcable_blue",
+        "xnet:netcable_yellow",
+        "xnet:netcable_routing"
+      ]
+    },
+    {
+      "entry": "more/xnet/simple/facade",
+      "source": "xnet-1.21-7.0.7.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/simple/facade.json",
+      "items": [
+        "xnet:facade"
+      ]
+    },
+    {
+      "entry": "more/xnet/simple/redstone_proxy",
+      "source": "xnet-1.21-7.0.7.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/simple/redstone_proxy.json",
+      "items": [
+        "xnet:redstone_proxy",
+        "xnet:redstone_proxy_upd"
+      ]
+    },
+    {
+      "entry": "more/xnet/network/router",
+      "source": "xnet-1.21-7.0.7.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/network/router.json",
+      "items": [
+        "xnet:router"
+      ]
+    },
+    {
+      "entry": "more/xnet/wireless/wireless_router",
+      "source": "xnet-1.21-7.0.7.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/wireless/wireless_router.json",
+      "items": [
+        "xnet:wireless_router"
+      ]
+    },
+    {
+      "entry": "more/xnet/wireless/antennas",
+      "source": "xnet-1.21-7.0.7.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/wireless/antennas.json",
+      "items": [
+        "xnet:antenna",
+        "xnet:antenna_base",
+        "xnet:antenna_dish"
+      ]
+    },
+    {
+      "entry": "more/rftoolsstorage/scanner/scanner",
+      "source": "[RF工具：存储] rftoolsstorage-1.21-6.0.5.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/scanner/scanner.json",
+      "items": [
+        "rftoolsstorage:storage_scanner"
+      ]
+    },
+    {
+      "entry": "more/rftoolsstorage/scanner/modules",
+      "source": "[RF工具：存储] rftoolsstorage-1.21-6.0.5.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/scanner/modules.json",
+      "items": [
+        "rftoolsstorage:storage_control_module",
+        "rftoolsstorage:dump_module"
+      ]
+    },
+    {
+      "entry": "more/rftoolsstorage/scanner/remote",
+      "source": "[RF工具：存储] rftoolsstorage-1.21-6.0.5.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/scanner/remote.json",
+      "items": [
+        "rftoolsstorage:tablet_scanner"
+      ]
+    },
+    {
+      "entry": "more/rftoolsstorage/modularstorage/modularstorage",
+      "source": "[RF工具：存储] rftoolsstorage-1.21-6.0.5.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/modularstorage/modularstorage.json",
+      "items": [
+        "rftoolsstorage:modular_storage"
+      ]
+    },
+    {
+      "entry": "more/rftoolsstorage/modularstorage/storagemodules",
+      "source": "[RF工具：存储] rftoolsstorage-1.21-6.0.5.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/modularstorage/storagemodules.json",
+      "items": [
+        "rftoolsstorage:storage_module0",
+        "rftoolsstorage:storage_module1",
+        "rftoolsstorage:storage_module2",
+        "rftoolsstorage:storage_module3"
+      ]
+    },
+    {
+      "entry": "more/rftoolsutility/machines/environmental",
+      "source": "[RF工具：实用设备] rftoolsutility-1.21-7.0.12.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/machines/environmental.json",
+      "items": [
+        "rftoolsutility:environmental_controller",
+        "rftoolsutility:module_template",
+        "rftoolsutility:moduleplus_template",
+        "rftoolsutility:blindness_module",
+        "rftoolsutility:featherfalling_module",
+        "rftoolsutility:featherfallingplus_module",
+        "rftoolsutility:haste_module",
+        "rftoolsutility:hasteplus_module",
+        "rftoolsutility:flight_module",
+        "rftoolsutility:glowing_module",
+        "rftoolsutility:luck_module",
+        "rftoolsutility:nightvision_module",
+        "rftoolsutility:noteleport_module",
+        "rftoolsutility:peaceful_module",
+        "rftoolsutility:poison_module",
+        "rftoolsutility:regeneration_module",
+        "rftoolsutility:regenerationplus_module",
+        "rftoolsutility:saturation_module",
+        "rftoolsutility:saturationplus_module",
+        "rftoolsutility:slowness_module",
+        "rftoolsutility:speed_module",
+        "rftoolsutility:speedplus_module",
+        "rftoolsutility:waterbreathing_module",
+        "rftoolsutility:weakness_module"
+      ]
+    },
+    {
+      "entry": "more/rftoolsutility/machines/crafter",
+      "source": "[RF工具：实用设备] rftoolsutility-1.21-7.0.12.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/machines/crafter.json",
+      "items": [
+        "rftoolsutility:crafter3",
+        "rftoolsutility:crafter1",
+        "rftoolsutility:crafter2"
+      ]
+    },
+    {
+      "entry": "more/rftoolsutility/machines/matter_transmitter",
+      "source": "[RF工具：实用设备] rftoolsutility-1.21-7.0.12.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/machines/matter_transmitter.json",
+      "items": [
+        "rftoolsutility:matter_transmitter"
+      ]
+    },
+    {
+      "entry": "more/rftoolsutility/machines/matter_receiver",
+      "source": "[RF工具：实用设备] rftoolsutility-1.21-7.0.12.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/machines/matter_receiver.json",
+      "items": [
+        "rftoolsutility:matter_receiver",
+        "rftoolsutility:matter_booster"
+      ]
+    },
+    {
+      "entry": "more/rftoolsutility/machines/dialing_device",
+      "source": "[RF工具：实用设备] rftoolsutility-1.21-7.0.12.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/machines/dialing_device.json",
+      "items": [
+        "rftoolsutility:dialing_device",
+        "rftoolsutility:simple_dialer",
+        "rftoolsutility:destination_analyzer"
+      ]
+    },
+    {
+      "entry": "more/rftoolsutility/machines/screen",
+      "source": "[RF工具：实用设备] rftoolsutility-1.21-7.0.12.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/machines/screen.json",
+      "items": [
+        "rftoolsutility:screen",
+        "rftoolsutility:creative_screen",
+        "rftoolsutility:text_module",
+        "rftoolsutility:energy_module",
+        "rftoolsutility:energyplus_module",
+        "rftoolsutility:inventory_module",
+        "rftoolsutility:inventoryplus_module",
+        "rftoolsutility:clock_module",
+        "rftoolsutility:fluid_module",
+        "rftoolsutility:fluidplus_module",
+        "rftoolsutility:machineinformation_module",
+        "rftoolsutility:computer_module",
+        "rftoolsutility:button_module",
+        "rftoolsutility:redstone_module",
+        "rftoolsutility:counter_module",
+        "rftoolsutility:counterplus_module",
+        "rftoolsutility:tablet_screen"
+      ]
+    },
+    {
+      "entry": "more/rftoolsutility/machines/screen_controller",
+      "source": "[RF工具：实用设备] rftoolsutility-1.21-7.0.12.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/machines/screen_controller.json",
+      "items": [
+        "rftoolsutility:screen_controller"
+      ]
+    },
+    {
+      "entry": "more/rftoolspower/powerstorage/powercell",
+      "source": "[RF工具：能量] rftoolspower-1.21-7.0.6.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/powerstorage/powercell.json",
+      "items": [
+        "rftoolspower:cell1",
+        "rftoolspower:cell2",
+        "rftoolspower:cell3",
+        "rftoolspower:power_core1",
+        "rftoolspower:power_core2",
+        "rftoolspower:power_core3"
+      ]
+    },
+    {
+      "entry": "more/rftoolspower/powerstorage/powercell_card",
+      "source": "[RF工具：能量] rftoolspower-1.21-7.0.6.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/powerstorage/powercell_card.json",
+      "items": [
+        "rftoolspower:powercell_card"
+      ]
+    },
+    {
+      "entry": "more/rftoolspower/powerstorage/dimensionalcell",
+      "source": "[RF工具：能量] rftoolspower-1.21-7.0.6.jar!assets/rftoolsbase/patchouli_books/manual/en_us/entries/powerstorage/dimensionalcell.json",
+      "items": [
+        "rftoolspower:dimensionalcell",
+        "rftoolspower:dimensionalcell_simple",
+        "rftoolspower:dimensionalcell_advanced",
+        "rftoolspower:dimensionalcell_creative"
+      ]
+    },
+    {
+      "entry": "more/powah/magmator",
+      "source": "Powah-6.2.10.jar!assets/powah/guides/powah/book/generators/magmator.md",
+      "items": [
+        "powah:magmator_basic",
+        "powah:magmator_blazing",
+        "powah:magmator_hardened",
+        "powah:magmator_niotic",
+        "powah:magmator_nitro",
+        "powah:magmator_spirited",
+        "powah:magmator_starter"
+      ]
+    },
+    {
+      "entry": "more/powah/solar_panel",
+      "source": "Powah-6.2.10.jar!assets/powah/guides/powah/book/generators/solar_panel.md",
+      "items": [
+        "powah:solar_panel_basic",
+        "powah:solar_panel_blazing",
+        "powah:solar_panel_hardened",
+        "powah:solar_panel_niotic",
+        "powah:solar_panel_nitro",
+        "powah:solar_panel_spirited",
+        "powah:solar_panel_starter"
+      ]
+    },
+    {
+      "entry": "more/powah/reactor",
+      "source": "Powah-6.2.10.jar!assets/powah/guides/powah/book/generators/reactor.md",
+      "items": [
+        "powah:reactor_basic",
+        "powah:reactor_blazing",
+        "powah:reactor_hardened",
+        "powah:reactor_niotic",
+        "powah:reactor_nitro",
+        "powah:reactor_spirited",
+        "powah:reactor_starter"
+      ]
+    },
+    {
+      "entry": "more/powah/furnator",
+      "source": "Powah-6.2.10.jar!assets/powah/guides/powah/book/generators/furnator.md",
+      "items": [
+        "powah:furnator_basic",
+        "powah:furnator_blazing",
+        "powah:furnator_hardened",
+        "powah:furnator_niotic",
+        "powah:furnator_nitro",
+        "powah:furnator_spirited",
+        "powah:furnator_starter"
+      ]
+    },
+    {
+      "entry": "more/powah/ender_cell",
+      "source": "Powah-6.2.10.jar!assets/powah/guides/powah/book/storage_transfer/ender_cell.md",
+      "items": [
+        "powah:ender_cell_basic",
+        "powah:ender_cell_blazing",
+        "powah:ender_cell_hardened",
+        "powah:ender_cell_niotic",
+        "powah:ender_cell_nitro",
+        "powah:ender_cell_spirited",
+        "powah:ender_cell_starter"
+      ]
+    },
+    {
+      "entry": "more/powah/energy_cell",
+      "source": "Powah-6.2.10.jar!assets/powah/guides/powah/book/storage_transfer/energy_cell.md",
+      "items": [
+        "powah:energy_cell_basic",
+        "powah:energy_cell_blazing",
+        "powah:energy_cell_creative",
+        "powah:energy_cell_hardened",
+        "powah:energy_cell_niotic",
+        "powah:energy_cell_nitro",
+        "powah:energy_cell_spirited",
+        "powah:energy_cell_starter"
+      ]
+    },
+    {
+      "entry": "more/functionalstorage/drawer-access",
+      "source": "[功能性存储] functionalstorage-1.21.1-1.5.7.jar!assets/functionalstorage/lang/en_us.json",
+      "items": [
+        "functionalstorage:oak_1",
+        "functionalstorage:oak_2",
+        "functionalstorage:oak_4",
+        "functionalstorage:configuration_tool"
+      ]
+    },
+    {
+      "entry": "more/functionalstorage/controller-link",
+      "source": "[功能性存储] functionalstorage-1.21.1-1.5.7.jar!assets/functionalstorage/lang/en_us.json",
+      "items": [
+        "functionalstorage:storage_controller",
+        "functionalstorage:controller_extension",
+        "functionalstorage:linking_tool"
+      ]
+    },
+    {
+      "entry": "more/functionalstorage/void-capacity",
+      "source": "[功能性存储] functionalstorage-1.21.1-1.5.7.jar!assets/functionalstorage/lang/en_us.json",
+      "items": [
+        "functionalstorage:copper_upgrade",
+        "functionalstorage:gold_upgrade",
+        "functionalstorage:diamond_upgrade",
+        "functionalstorage:void_upgrade"
+      ]
+    },
+    {
+      "entry": "more/functionalstorage/pull-push",
+      "source": "[功能性存储] functionalstorage-1.21.1-1.5.7.jar!assets/functionalstorage/lang/en_us.json",
+      "items": [
+        "functionalstorage:puller_upgrade",
+        "functionalstorage:pusher_upgrade",
+        "functionalstorage:collector_upgrade"
+      ]
+    },
+    {
+      "entry": "more/sophisticatedstorage/controller",
+      "source": "[精妙存储] sophisticatedstorage-1.21.1-1.6.1.2147.jar!assets/sophisticatedstorage/lang/en_us.json",
+      "items": [
+        "sophisticatedstorage:controller",
+        "sophisticatedstorage:storage_link",
+        "sophisticatedstorage:storage_tool"
+      ]
+    },
+    {
+      "entry": "more/sophisticatedstorage/io",
+      "source": "[精妙存储] sophisticatedstorage-1.21.1-1.6.1.2147.jar!assets/sophisticatedstorage/lang/en_us.json",
+      "items": [
+        "sophisticatedstorage:storage_input",
+        "sophisticatedstorage:storage_output"
+      ]
+    },
+    {
+      "entry": "more/sophisticatedstorage/packing",
+      "source": "[精妙存储] sophisticatedstorage-1.21.1-1.6.1.2147.jar!assets/sophisticatedstorage/lang/en_us.json",
+      "items": [
+        "sophisticatedstorage:packing_tape",
+        "sophisticatedstorage:storage_tool"
+      ]
+    },
+    {
+      "entry": "more/sophisticatedstorage/compression",
+      "source": "[精妙存储] sophisticatedstorage-1.21.1-1.6.1.2147.jar!assets/sophisticatedstorage/lang/en_us.json",
+      "items": [
+        "sophisticatedstorage:compacting_upgrade",
+        "sophisticatedstorage:compression_upgrade",
+        "sophisticatedstorage:void_upgrade"
+      ]
+    },
+    {
+      "entry": "more/sfm/first",
+      "source": "Super Factory Manager (SFM)-MC1.21.1-4.34.0.jar!assets/sfm/template_programs/a_simple_program.sfml",
+      "items": [
+        "sfm:manager",
+        "sfm:labelgun",
+        "sfm:network_tool",
+        "sfm:cable"
+      ]
+    },
+    {
+      "entry": "more/sfm/forget",
+      "source": "Super Factory Manager (SFM)-MC1.21.1-4.34.0.jar!assets/sfm/template_programs/forget.sfml",
+      "items": [
+        "sfm:manager",
+        "sfm:labelgun",
+        "sfm:network_tool",
+        "sfm:cable"
+      ]
+    },
+    {
+      "entry": "more/sfm/sides",
+      "source": "Super Factory Manager (SFM)-MC1.21.1-4.34.0.jar!assets/sfm/template_programs/slots_and_sides.sfml",
+      "items": [
+        "sfm:manager",
+        "sfm:labelgun",
+        "sfm:network_tool",
+        "sfm:cable"
+      ]
+    },
+    {
+      "entry": "more/sfm/resources",
+      "source": "Super Factory Manager (SFM)-MC1.21.1-4.34.0.jar!assets/sfm/template_programs/resource_types.sfml",
+      "items": [
+        "sfm:manager",
+        "sfm:labelgun",
+        "sfm:network_tool",
+        "sfm:cable"
+      ]
+    },
+    {
+      "entry": "more/sfm/limits",
+      "source": "Super Factory Manager (SFM)-MC1.21.1-4.34.0.jar!assets/sfm/template_programs/limits.sfml",
+      "items": [
+        "sfm:manager",
+        "sfm:labelgun",
+        "sfm:network_tool",
+        "sfm:cable"
+      ]
+    },
+    {
+      "entry": "more/sfm/inspect",
+      "source": "Super Factory Manager (SFM)-MC1.21.1-4.34.0.jar!assets/sfm/template_programs/a_simple_program.sfml",
+      "items": [
+        "sfm:manager",
+        "sfm:labelgun",
+        "sfm:network_tool",
+        "sfm:cable"
+      ]
+    }
+  ],
+  "importedTutorials": 82,
+  "addedThisRun": 1,
+  "modifiedExistingEntries": 24,
+  "entries": 4631,
+  "operationGuides": 732,
+  "keyActions": 42
+}

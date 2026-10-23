@@ -58,6 +58,8 @@ The current development version collects UI artwork, menu music, button sounds, 
 
 The current development version adds a prologue for newly created worlds: a straight-edged first-person eye-opening effect transitions to a third-person scene, with the player's actual skin, the nonhuman ECHO system, character sounds, and dialogue choices. Movement is locked during the scene and restored with basic flight afterward. Existing saves never replay it. Public GUI Announcement is disabled to prevent its projected GUI from covering the player.
 
+The development version also adds the ECHO technology manual, a chapter-one crafting scene, the Dimension Matrix, formed multiblock models and working mechanisms, conductive-alloy progression changes, and a Lychee/JEI fluid-query fix. See the [complete changes after v0.2.0 (Chinese)](../changes-after-v0.2.0/README.md). These changes are committed to source; the published download remains v0.2.0.
+
 ## v0.2.0 changes
 
 - Added 47 JEI display recipes for world interactions, data models, fishing, and lightning transformations.
@@ -82,7 +84,9 @@ Full changelogs are available in [Releases](https://github.com/RainRaf-UwU/Path-
 | `resourcepacks/Path-of-Creation-UI` | UI, menu music, button sounds, and star-core cursor assets; enabled by default once |
 | [tools/poc-updater](../../tools/poc-updater/README.en.md) | Updater source, release steps, and installation details |
 | `tools/poc-cursor` | Custom cursor source and artwork |
-| `tools/poc-intro` | New-world prologue source, audio, and offline verification tools |
+| `tools/poc-intro` | Prologue, chapter-one scene, ECHO technology manual, audio, and offline checks |
+| [tools/poc-dimension-matrix](../../tools/poc-dimension-matrix/README.md) | Dimension Matrix, multiblock blueprints, formed models, and working mechanisms |
+| [tools/poc-lychee-jei-compat](../../tools/poc-lychee-jei-compat/README.md) | Lychee/JEI fluid-query compatibility fix |
 
 Official update packages are built by [GitHub Actions](../../.github/workflows/poc-update-release.yml). See the [updater README](../../tools/poc-updater/README.en.md) for publishing steps. Gameplay changes require a game reload and a check of the affected survival progression.
 
@@ -91,7 +95,7 @@ Official update packages are built by [GitHub Actions](../../.github/workflows/p
 Thank you to the mod authors and contributors whose work makes this pack possible, to [CFPAOrg and its translation contributors](https://github.com/CFPAOrg/Minecraft-Mod-Language-Package) for Simplified Chinese translations, and to the players who test the pack and report issues.
 
 <details>
-<summary>Mod list (261 JARs, including libraries and pack-specific mods)</summary>
+<summary>Mod list (263 JARs, including libraries and pack-specific mods)</summary>
 
 | Mod | Authors |
 | --- | --- |
@@ -327,6 +331,8 @@ Thank you to the mod authors and contributors whose work makes this pack possibl
 | [Plushie Mod](https://github.com/Link4real/Plushie-Mod/issues) | Link4real, Vento |
 | [创世之径 · 光标](https://github.com/RainRaf-UwU/Path-Of-Creation) | RainRaf-UwU |
 | Path of Creation · Prologue | RainRaf-UwU |
+| Path of Creation · Dimension Matrix | RainRaf-UwU |
+| Path of Creation · Lychee JEI Fluid Compatibility | RainRaf-UwU |
 | [创世之径自动更新](https://github.com/RainRaf-UwU/Path-Of-Creation) | RainRaf-UwU |
 | [Polymorphic Energistics](https://github.com/62832/PolymorphicEnergistics/issues) | — |
 | [PolyLib](https://github.com/CreeperHost/PolyLib/issues) | CreeperHost |

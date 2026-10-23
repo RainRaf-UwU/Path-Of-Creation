@@ -100,6 +100,7 @@ public final class PreviewMain {
         ImageIO.write(image(state(story,"sealed",22,true,false),854,360,2,table),"png",out.resolve("08-ultrawide.png").toFile());
         ImageIO.write(image(state(story,"wake",10.5,false,false),640,360,2,table),"png",out.resolve("09-third-person.png").toFile());
         gif(out.resolve("opening.gif"),story,table);
+        ImageIO.write(image(state(story,"manual",22,true,false),640,360,2,table),"png",out.resolve("10-manual.png").toFile());
         System.out.println("Rendered 9 UI states and opening.gif using production IntroUi and PortraitFraming (scene/font/skin preview only).");
     }
 }

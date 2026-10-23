@@ -1,0 +1,2584 @@
+{
+  "removed": [
+    {
+      "id": "mekanism:configuration_card_encoded",
+      "base": "mekanism:configuration_card",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/mekanism/models/item/configuration_card_encoded.json",
+      "jar": "[通用机械] Mekanism-1.21.1-10.7.19.85.jar"
+    },
+    {
+      "id": "mekanism:configurator_empty",
+      "base": "mekanism:configurator",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/mekanism/models/item/configurator_empty.json",
+      "jar": "[通用机械] Mekanism-1.21.1-10.7.19.85.jar"
+    },
+    {
+      "id": "mekanism:configurator_rotate",
+      "base": "mekanism:configurator",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/mekanism/models/item/configurator_rotate.json",
+      "jar": "[通用机械] Mekanism-1.21.1-10.7.19.85.jar"
+    },
+    {
+      "id": "mekanism:configurator_wrench",
+      "base": "mekanism:configurator",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/mekanism/models/item/configurator_wrench.json",
+      "jar": "[通用机械] Mekanism-1.21.1-10.7.19.85.jar"
+    },
+    {
+      "id": "mekanism:crafting_formula_encoded",
+      "base": "mekanism:crafting_formula",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/mekanism/models/item/crafting_formula_encoded.json",
+      "jar": "[通用机械] Mekanism-1.21.1-10.7.19.85.jar"
+    },
+    {
+      "id": "mekanism:crafting_formula_invalid",
+      "base": "mekanism:crafting_formula",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/mekanism/models/item/crafting_formula_invalid.json",
+      "jar": "[通用机械] Mekanism-1.21.1-10.7.19.85.jar"
+    },
+    {
+      "id": "mekanism:geiger_counter_0",
+      "base": "mekanism:geiger_counter",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/mekanism/models/item/geiger_counter_0.json",
+      "jar": "[通用机械] Mekanism-1.21.1-10.7.19.85.jar"
+    },
+    {
+      "id": "mekanism:geiger_counter_1",
+      "base": "mekanism:geiger_counter",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/mekanism/models/item/geiger_counter_1.json",
+      "jar": "[通用机械] Mekanism-1.21.1-10.7.19.85.jar"
+    },
+    {
+      "id": "mekanism:geiger_counter_2",
+      "base": "mekanism:geiger_counter",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/mekanism/models/item/geiger_counter_2.json",
+      "jar": "[通用机械] Mekanism-1.21.1-10.7.19.85.jar"
+    },
+    {
+      "id": "mekanism:geiger_counter_3",
+      "base": "mekanism:geiger_counter",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/mekanism/models/item/geiger_counter_3.json",
+      "jar": "[通用机械] Mekanism-1.21.1-10.7.19.85.jar"
+    },
+    {
+      "id": "mekanism:geiger_counter_4",
+      "base": "mekanism:geiger_counter",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/mekanism/models/item/geiger_counter_4.json",
+      "jar": "[通用机械] Mekanism-1.21.1-10.7.19.85.jar"
+    },
+    {
+      "id": "mekanism:geiger_counter_5",
+      "base": "mekanism:geiger_counter",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/mekanism/models/item/geiger_counter_5.json",
+      "jar": "[通用机械] Mekanism-1.21.1-10.7.19.85.jar"
+    },
+    {
+      "id": "mekanism:cardboard_box_storage",
+      "base": "mekanism:cardboard_box",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/mekanism/models/item/cardboard_box_storage.json",
+      "jar": "[通用机械] Mekanism-1.21.1-10.7.19.85.jar"
+    },
+    {
+      "id": "create:clipboard_0",
+      "base": "create:clipboard",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/create/models/item/clipboard_0.json",
+      "jar": "[机械动力] create-1.21.1-6.0.10.jar"
+    },
+    {
+      "id": "create:clipboard_1",
+      "base": "create:clipboard",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/create/models/item/clipboard_1.json",
+      "jar": "[机械动力] create-1.21.1-6.0.10.jar"
+    },
+    {
+      "id": "create:clipboard_2",
+      "base": "create:clipboard",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/create/models/item/clipboard_2.json",
+      "jar": "[机械动力] create-1.21.1-6.0.10.jar"
+    },
+    {
+      "id": "create:extendo_grip/thin_short",
+      "reason": "Renderer submodel, not an item",
+      "model": "assets/create/models/item/extendo_grip/thin_short.json",
+      "jar": "[机械动力] create-1.21.1-6.0.10.jar"
+    },
+    {
+      "id": "create:extendo_grip/wide_short",
+      "reason": "Renderer submodel, not an item",
+      "model": "assets/create/models/item/extendo_grip/wide_short.json",
+      "jar": "[机械动力] create-1.21.1-6.0.10.jar"
+    },
+    {
+      "id": "create:extendo_grip/thin_long",
+      "reason": "Renderer submodel, not an item",
+      "model": "assets/create/models/item/extendo_grip/thin_long.json",
+      "jar": "[机械动力] create-1.21.1-6.0.10.jar"
+    },
+    {
+      "id": "create:extendo_grip/wide_long",
+      "reason": "Renderer submodel, not an item",
+      "model": "assets/create/models/item/extendo_grip/wide_long.json",
+      "jar": "[机械动力] create-1.21.1-6.0.10.jar"
+    },
+    {
+      "id": "create:extendo_grip/cog",
+      "reason": "Renderer submodel, not an item",
+      "model": "assets/create/models/item/extendo_grip/cog.json",
+      "jar": "[机械动力] create-1.21.1-6.0.10.jar"
+    },
+    {
+      "id": "create:extendo_grip/item",
+      "reason": "Renderer submodel, not an item",
+      "model": "assets/create/models/item/extendo_grip/item.json",
+      "jar": "[机械动力] create-1.21.1-6.0.10.jar"
+    },
+    {
+      "id": "create:potato_cannon/cog",
+      "reason": "Renderer submodel, not an item",
+      "model": "assets/create/models/item/potato_cannon/cog.json",
+      "jar": "[机械动力] create-1.21.1-6.0.10.jar"
+    },
+    {
+      "id": "create:potato_cannon/item",
+      "reason": "Renderer submodel, not an item",
+      "model": "assets/create/models/item/potato_cannon/item.json",
+      "jar": "[机械动力] create-1.21.1-6.0.10.jar"
+    },
+    {
+      "id": "industrialforegoing:laser_lens_inverted14",
+      "reason": "Legacy inverted lens models; current ModuleCore registers the 16 named dye lenses",
+      "model": "assets/industrialforegoing/models/item/laser_lens_inverted14.json",
+      "jar": "[工业先锋] industrialforegoing-1.21-3.6.39.jar"
+    },
+    {
+      "id": "industrialforegoing:laser_lens_inverted5",
+      "reason": "Legacy inverted lens models; current ModuleCore registers the 16 named dye lenses",
+      "model": "assets/industrialforegoing/models/item/laser_lens_inverted5.json",
+      "jar": "[工业先锋] industrialforegoing-1.21-3.6.39.jar"
+    },
+    {
+      "id": "industrialforegoing:laser_lens_inverted10",
+      "reason": "Legacy inverted lens models; current ModuleCore registers the 16 named dye lenses",
+      "model": "assets/industrialforegoing/models/item/laser_lens_inverted10.json",
+      "jar": "[工业先锋] industrialforegoing-1.21-3.6.39.jar"
+    },
+    {
+      "id": "industrialforegoing:laser_lens_inverted7",
+      "reason": "Legacy inverted lens models; current ModuleCore registers the 16 named dye lenses",
+      "model": "assets/industrialforegoing/models/item/laser_lens_inverted7.json",
+      "jar": "[工业先锋] industrialforegoing-1.21-3.6.39.jar"
+    },
+    {
+      "id": "industrialforegoing:laser_lens_inverted4",
+      "reason": "Legacy inverted lens models; current ModuleCore registers the 16 named dye lenses",
+      "model": "assets/industrialforegoing/models/item/laser_lens_inverted4.json",
+      "jar": "[工业先锋] industrialforegoing-1.21-3.6.39.jar"
+    },
+    {
+      "id": "industrialforegoing:laser_lens_inverted6",
+      "reason": "Legacy inverted lens models; current ModuleCore registers the 16 named dye lenses",
+      "model": "assets/industrialforegoing/models/item/laser_lens_inverted6.json",
+      "jar": "[工业先锋] industrialforegoing-1.21-3.6.39.jar"
+    },
+    {
+      "id": "industrialforegoing:laser_lens_inverted8",
+      "reason": "Legacy inverted lens models; current ModuleCore registers the 16 named dye lenses",
+      "model": "assets/industrialforegoing/models/item/laser_lens_inverted8.json",
+      "jar": "[工业先锋] industrialforegoing-1.21-3.6.39.jar"
+    },
+    {
+      "id": "industrialforegoing:laser_lens_inverted1",
+      "reason": "Legacy inverted lens models; current ModuleCore registers the 16 named dye lenses",
+      "model": "assets/industrialforegoing/models/item/laser_lens_inverted1.json",
+      "jar": "[工业先锋] industrialforegoing-1.21-3.6.39.jar"
+    },
+    {
+      "id": "industrialforegoing:laser_lens_inverted2",
+      "reason": "Legacy inverted lens models; current ModuleCore registers the 16 named dye lenses",
+      "model": "assets/industrialforegoing/models/item/laser_lens_inverted2.json",
+      "jar": "[工业先锋] industrialforegoing-1.21-3.6.39.jar"
+    },
+    {
+      "id": "industrialforegoing:laser_lens_inverted3",
+      "reason": "Legacy inverted lens models; current ModuleCore registers the 16 named dye lenses",
+      "model": "assets/industrialforegoing/models/item/laser_lens_inverted3.json",
+      "jar": "[工业先锋] industrialforegoing-1.21-3.6.39.jar"
+    },
+    {
+      "id": "industrialforegoing:laser_lens_inverted15",
+      "reason": "Legacy inverted lens models; current ModuleCore registers the 16 named dye lenses",
+      "model": "assets/industrialforegoing/models/item/laser_lens_inverted15.json",
+      "jar": "[工业先锋] industrialforegoing-1.21-3.6.39.jar"
+    },
+    {
+      "id": "industrialforegoing:laser_lens_inverted13",
+      "reason": "Legacy inverted lens models; current ModuleCore registers the 16 named dye lenses",
+      "model": "assets/industrialforegoing/models/item/laser_lens_inverted13.json",
+      "jar": "[工业先锋] industrialforegoing-1.21-3.6.39.jar"
+    },
+    {
+      "id": "industrialforegoing:laser_lens_inverted9",
+      "reason": "Legacy inverted lens models; current ModuleCore registers the 16 named dye lenses",
+      "model": "assets/industrialforegoing/models/item/laser_lens_inverted9.json",
+      "jar": "[工业先锋] industrialforegoing-1.21-3.6.39.jar"
+    },
+    {
+      "id": "industrialforegoing:laser_lens_inverted0",
+      "reason": "Legacy inverted lens models; current ModuleCore registers the 16 named dye lenses",
+      "model": "assets/industrialforegoing/models/item/laser_lens_inverted0.json",
+      "jar": "[工业先锋] industrialforegoing-1.21-3.6.39.jar"
+    },
+    {
+      "id": "industrialforegoing:laser_lens_inverted11",
+      "reason": "Legacy inverted lens models; current ModuleCore registers the 16 named dye lenses",
+      "model": "assets/industrialforegoing/models/item/laser_lens_inverted11.json",
+      "jar": "[工业先锋] industrialforegoing-1.21-3.6.39.jar"
+    },
+    {
+      "id": "industrialforegoing:laser_lens_inverted12",
+      "reason": "Legacy inverted lens models; current ModuleCore registers the 16 named dye lenses",
+      "model": "assets/industrialforegoing/models/item/laser_lens_inverted12.json",
+      "jar": "[工业先锋] industrialforegoing-1.21-3.6.39.jar"
+    },
+    {
+      "id": "industrialforegoing:fluid_transfer_addon_push_down",
+      "base": "industrialforegoing:fluid_transfer_addon",
+      "reason": "Fluid-transfer addon directional render state",
+      "model": "assets/industrialforegoing/models/item/fluid_transfer_addon_push_down.json",
+      "jar": "[工业先锋] industrialforegoing-1.21-3.6.39.jar"
+    },
+    {
+      "id": "industrialforegoing:fluid_transfer_addon_pull_north",
+      "base": "industrialforegoing:fluid_transfer_addon",
+      "reason": "Fluid-transfer addon directional render state",
+      "model": "assets/industrialforegoing/models/item/fluid_transfer_addon_pull_north.json",
+      "jar": "[工业先锋] industrialforegoing-1.21-3.6.39.jar"
+    },
+    {
+      "id": "industrialforegoing:fluid_transfer_addon_pull_up",
+      "base": "industrialforegoing:fluid_transfer_addon",
+      "reason": "Fluid-transfer addon directional render state",
+      "model": "assets/industrialforegoing/models/item/fluid_transfer_addon_pull_up.json",
+      "jar": "[工业先锋] industrialforegoing-1.21-3.6.39.jar"
+    },
+    {
+      "id": "industrialforegoing:fluid_transfer_addon_push_north",
+      "base": "industrialforegoing:fluid_transfer_addon",
+      "reason": "Fluid-transfer addon directional render state",
+      "model": "assets/industrialforegoing/models/item/fluid_transfer_addon_push_north.json",
+      "jar": "[工业先锋] industrialforegoing-1.21-3.6.39.jar"
+    },
+    {
+      "id": "industrialforegoing:fluid_transfer_addon_push_south",
+      "base": "industrialforegoing:fluid_transfer_addon",
+      "reason": "Fluid-transfer addon directional render state",
+      "model": "assets/industrialforegoing/models/item/fluid_transfer_addon_push_south.json",
+      "jar": "[工业先锋] industrialforegoing-1.21-3.6.39.jar"
+    },
+    {
+      "id": "industrialforegoing:fluid_transfer_addon_pull_down",
+      "base": "industrialforegoing:fluid_transfer_addon",
+      "reason": "Fluid-transfer addon directional render state",
+      "model": "assets/industrialforegoing/models/item/fluid_transfer_addon_pull_down.json",
+      "jar": "[工业先锋] industrialforegoing-1.21-3.6.39.jar"
+    },
+    {
+      "id": "industrialforegoing:fluid_transfer_addon_pull_south",
+      "base": "industrialforegoing:fluid_transfer_addon",
+      "reason": "Fluid-transfer addon directional render state",
+      "model": "assets/industrialforegoing/models/item/fluid_transfer_addon_pull_south.json",
+      "jar": "[工业先锋] industrialforegoing-1.21-3.6.39.jar"
+    },
+    {
+      "id": "industrialforegoing:fluid_transfer_addon_pull_west",
+      "base": "industrialforegoing:fluid_transfer_addon",
+      "reason": "Fluid-transfer addon directional render state",
+      "model": "assets/industrialforegoing/models/item/fluid_transfer_addon_pull_west.json",
+      "jar": "[工业先锋] industrialforegoing-1.21-3.6.39.jar"
+    },
+    {
+      "id": "industrialforegoing:fluid_transfer_addon_pull_east",
+      "base": "industrialforegoing:fluid_transfer_addon",
+      "reason": "Fluid-transfer addon directional render state",
+      "model": "assets/industrialforegoing/models/item/fluid_transfer_addon_pull_east.json",
+      "jar": "[工业先锋] industrialforegoing-1.21-3.6.39.jar"
+    },
+    {
+      "id": "industrialforegoing:fluid_transfer_addon_push_up",
+      "base": "industrialforegoing:fluid_transfer_addon",
+      "reason": "Fluid-transfer addon directional render state",
+      "model": "assets/industrialforegoing/models/item/fluid_transfer_addon_push_up.json",
+      "jar": "[工业先锋] industrialforegoing-1.21-3.6.39.jar"
+    },
+    {
+      "id": "industrialforegoing:fluid_transfer_addon_push_east",
+      "base": "industrialforegoing:fluid_transfer_addon",
+      "reason": "Fluid-transfer addon directional render state",
+      "model": "assets/industrialforegoing/models/item/fluid_transfer_addon_push_east.json",
+      "jar": "[工业先锋] industrialforegoing-1.21-3.6.39.jar"
+    },
+    {
+      "id": "industrialforegoing:fluid_transfer_addon_push_west",
+      "base": "industrialforegoing:fluid_transfer_addon",
+      "reason": "Fluid-transfer addon directional render state",
+      "model": "assets/industrialforegoing/models/item/fluid_transfer_addon_push_west.json",
+      "jar": "[工业先锋] industrialforegoing-1.21-3.6.39.jar"
+    },
+    {
+      "id": "enderio:soul_vial_filled",
+      "base": "enderio:soul_vial",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/enderio/models/item/soul_vial_filled.json",
+      "jar": "[末影接口] enderio-8.2.12-beta.jar"
+    },
+    {
+      "id": "enderio:void_vial_filled",
+      "base": "enderio:void_vial",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/enderio/models/item/void_vial_filled.json",
+      "jar": "[末影接口] enderio-8.2.12-beta.jar"
+    },
+    {
+      "id": "enderio:conduit_probe_copy",
+      "base": "enderio:conduit_probe",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/enderio/models/item/conduit_probe_copy.json",
+      "jar": "[末影接口] enderio-8.2.12-beta.jar"
+    },
+    {
+      "id": "draconicevolution:structure_block",
+      "reason": "Internal/debug/creative placeholder outside the survival operation catalog",
+      "model": "assets/draconicevolution/models/item/structure_block.json",
+      "jar": "[龙之进化／龙之研究] Draconic-Evolution-1.21.1-3.1.4.633.jar"
+    },
+    {
+      "id": "packagedauto:recipe_holder_filled",
+      "base": "packagedauto:recipe_holder",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/packagedauto/models/item/recipe_holder_filled.json",
+      "jar": "[封包合成] PackagedAuto-1.21.1-4.0.8.21.jar"
+    },
+    {
+      "id": "packagedauto:distributor_marker_bound",
+      "base": "packagedauto:distributor_marker",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/packagedauto/models/item/distributor_marker_bound.json",
+      "jar": "[封包合成] PackagedAuto-1.21.1-4.0.8.21.jar"
+    },
+    {
+      "id": "hostilenetworks:data_model_base",
+      "reason": "Internal/debug/creative placeholder outside the survival operation catalog",
+      "model": "assets/hostilenetworks/models/item/data_model_base.json",
+      "jar": "HostileNeuralNetworks-1.21.1-6.5.1.jar"
+    },
+    {
+      "id": "rftoolsutility:charged_porter6",
+      "base": "rftoolsutility:charged_porter",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/rftoolsutility/models/item/charged_porter6.json",
+      "jar": "[RF工具：实用设备] rftoolsutility-1.21-7.0.12.jar"
+    },
+    {
+      "id": "rftoolsutility:charged_porter8",
+      "base": "rftoolsutility:charged_porter",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/rftoolsutility/models/item/charged_porter8.json",
+      "jar": "[RF工具：实用设备] rftoolsutility-1.21-7.0.12.jar"
+    },
+    {
+      "id": "rftoolsutility:charged_porter5",
+      "base": "rftoolsutility:charged_porter",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/rftoolsutility/models/item/charged_porter5.json",
+      "jar": "[RF工具：实用设备] rftoolsutility-1.21-7.0.12.jar"
+    },
+    {
+      "id": "rftoolsutility:advanced_charged_porter1",
+      "base": "rftoolsutility:advanced_charged_porter",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/rftoolsutility/models/item/advanced_charged_porter1.json",
+      "jar": "[RF工具：实用设备] rftoolsutility-1.21-7.0.12.jar"
+    },
+    {
+      "id": "rftoolsutility:advanced_charged_porter0",
+      "base": "rftoolsutility:advanced_charged_porter",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/rftoolsutility/models/item/advanced_charged_porter0.json",
+      "jar": "[RF工具：实用设备] rftoolsutility-1.21-7.0.12.jar"
+    },
+    {
+      "id": "rftoolsutility:charged_porter7",
+      "base": "rftoolsutility:charged_porter",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/rftoolsutility/models/item/charged_porter7.json",
+      "jar": "[RF工具：实用设备] rftoolsutility-1.21-7.0.12.jar"
+    },
+    {
+      "id": "rftoolsutility:advanced_charged_porter2",
+      "base": "rftoolsutility:advanced_charged_porter",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/rftoolsutility/models/item/advanced_charged_porter2.json",
+      "jar": "[RF工具：实用设备] rftoolsutility-1.21-7.0.12.jar"
+    },
+    {
+      "id": "rftoolsutility:advanced_charged_porter7",
+      "base": "rftoolsutility:advanced_charged_porter",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/rftoolsutility/models/item/advanced_charged_porter7.json",
+      "jar": "[RF工具：实用设备] rftoolsutility-1.21-7.0.12.jar"
+    },
+    {
+      "id": "rftoolsutility:advanced_charged_porter4",
+      "base": "rftoolsutility:advanced_charged_porter",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/rftoolsutility/models/item/advanced_charged_porter4.json",
+      "jar": "[RF工具：实用设备] rftoolsutility-1.21-7.0.12.jar"
+    },
+    {
+      "id": "rftoolsutility:charged_porter1",
+      "base": "rftoolsutility:charged_porter",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/rftoolsutility/models/item/charged_porter1.json",
+      "jar": "[RF工具：实用设备] rftoolsutility-1.21-7.0.12.jar"
+    },
+    {
+      "id": "rftoolsutility:charged_porter2",
+      "base": "rftoolsutility:charged_porter",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/rftoolsutility/models/item/charged_porter2.json",
+      "jar": "[RF工具：实用设备] rftoolsutility-1.21-7.0.12.jar"
+    },
+    {
+      "id": "rftoolsutility:charged_porter4",
+      "base": "rftoolsutility:charged_porter",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/rftoolsutility/models/item/charged_porter4.json",
+      "jar": "[RF工具：实用设备] rftoolsutility-1.21-7.0.12.jar"
+    },
+    {
+      "id": "rftoolsutility:charged_porter3",
+      "base": "rftoolsutility:charged_porter",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/rftoolsutility/models/item/charged_porter3.json",
+      "jar": "[RF工具：实用设备] rftoolsutility-1.21-7.0.12.jar"
+    },
+    {
+      "id": "rftoolsutility:advanced_charged_porter8",
+      "base": "rftoolsutility:advanced_charged_porter",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/rftoolsutility/models/item/advanced_charged_porter8.json",
+      "jar": "[RF工具：实用设备] rftoolsutility-1.21-7.0.12.jar"
+    },
+    {
+      "id": "rftoolsutility:advanced_charged_porter3",
+      "base": "rftoolsutility:advanced_charged_porter",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/rftoolsutility/models/item/advanced_charged_porter3.json",
+      "jar": "[RF工具：实用设备] rftoolsutility-1.21-7.0.12.jar"
+    },
+    {
+      "id": "rftoolsutility:advanced_charged_porter5",
+      "base": "rftoolsutility:advanced_charged_porter",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/rftoolsutility/models/item/advanced_charged_porter5.json",
+      "jar": "[RF工具：实用设备] rftoolsutility-1.21-7.0.12.jar"
+    },
+    {
+      "id": "rftoolsutility:charged_porter0",
+      "base": "rftoolsutility:charged_porter",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/rftoolsutility/models/item/charged_porter0.json",
+      "jar": "[RF工具：实用设备] rftoolsutility-1.21-7.0.12.jar"
+    },
+    {
+      "id": "rftoolsutility:advanced_charged_porter6",
+      "base": "rftoolsutility:advanced_charged_porter",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/rftoolsutility/models/item/advanced_charged_porter6.json",
+      "jar": "[RF工具：实用设备] rftoolsutility-1.21-7.0.12.jar"
+    },
+    {
+      "id": "rftoolsutility:syringe3",
+      "base": "rftoolsutility:syringe",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/rftoolsutility/models/item/syringe3.json",
+      "jar": "[RF工具：实用设备] rftoolsutility-1.21-7.0.12.jar"
+    },
+    {
+      "id": "rftoolsutility:syringe2",
+      "base": "rftoolsutility:syringe",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/rftoolsutility/models/item/syringe2.json",
+      "jar": "[RF工具：实用设备] rftoolsutility-1.21-7.0.12.jar"
+    },
+    {
+      "id": "rftoolsutility:syringe1",
+      "base": "rftoolsutility:syringe",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/rftoolsutility/models/item/syringe1.json",
+      "jar": "[RF工具：实用设备] rftoolsutility-1.21-7.0.12.jar"
+    },
+    {
+      "id": "rftoolsutility:syringe4",
+      "base": "rftoolsutility:syringe",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/rftoolsutility/models/item/syringe4.json",
+      "jar": "[RF工具：实用设备] rftoolsutility-1.21-7.0.12.jar"
+    },
+    {
+      "id": "rftoolsutility:syringe5",
+      "base": "rftoolsutility:syringe",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/rftoolsutility/models/item/syringe5.json",
+      "jar": "[RF工具：实用设备] rftoolsutility-1.21-7.0.12.jar"
+    },
+    {
+      "id": "rftoolsutility:syringe0",
+      "base": "rftoolsutility:syringe",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/rftoolsutility/models/item/syringe0.json",
+      "jar": "[RF工具：实用设备] rftoolsutility-1.21-7.0.12.jar"
+    },
+    {
+      "id": "rftoolspower:powercell_card_linked",
+      "base": "rftoolspower:powercell_card",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/rftoolspower/models/item/powercell_card_linked.json",
+      "jar": "[RF工具：能量] rftoolspower-1.21-7.0.6.jar"
+    },
+    {
+      "id": "rftoolspower:powercell_card_unlinked",
+      "base": "rftoolspower:powercell_card",
+      "reason": "Item-model override state with no recipe/tag/localization registry evidence",
+      "model": "assets/rftoolspower/models/item/powercell_card_unlinked.json",
+      "jar": "[RF工具：能量] rftoolspower-1.21-7.0.6.jar"
+    },
+    {
+      "id": "integratedtunnels:dummy_pickaxe",
+      "reason": "Internal/debug/creative placeholder outside the survival operation catalog",
+      "model": "assets/integratedtunnels/models/item/dummy_pickaxe.json",
+      "jar": "[集成管道] integratedtunnels-1.21.1-neoforge-1.13.0.jar"
+    },
+    {
+      "id": "solarflux:twilightforest/twilight_cell_1",
+      "reason": "Twilight Forest compatibility asset; mod not installed",
+      "model": "assets/solarflux/models/item/twilightforest/twilight_cell_1.json",
+      "jar": "[日光通量：重制版] SolarFluxReborn-1.21.1-21.1.8.jar"
+    },
+    {
+      "id": "solarflux:twilightforest/twilight_cell_2",
+      "reason": "Twilight Forest compatibility asset; mod not installed",
+      "model": "assets/solarflux/models/item/twilightforest/twilight_cell_2.json",
+      "jar": "[日光通量：重制版] SolarFluxReborn-1.21.1-21.1.8.jar"
+    },
+    {
+      "id": "solarflux:twilightforest/twilight_upgrade",
+      "reason": "Twilight Forest compatibility asset; mod not installed",
+      "model": "assets/solarflux/models/item/twilightforest/twilight_upgrade.json",
+      "jar": "[日光通量：重制版] SolarFluxReborn-1.21.1-21.1.8.jar"
+    },
+    {
+      "id": "sophisticatedstorage:sawmill/sawmill_upgrade",
+      "reason": "Compatibility models for mods not installed",
+      "model": "assets/sophisticatedstorage/models/item/sawmill/sawmill_upgrade.json",
+      "jar": "[精妙存储] sophisticatedstorage-1.21.1-1.6.1.2147.jar"
+    },
+    {
+      "id": "sophisticatedstorage:chipped/glassblower_upgrade",
+      "reason": "Compatibility models for mods not installed",
+      "model": "assets/sophisticatedstorage/models/item/chipped/glassblower_upgrade.json",
+      "jar": "[精妙存储] sophisticatedstorage-1.21.1-1.6.1.2147.jar"
+    },
+    {
+      "id": "sophisticatedstorage:chipped/tinkering_table_upgrade",
+      "reason": "Compatibility models for mods not installed",
+      "model": "assets/sophisticatedstorage/models/item/chipped/tinkering_table_upgrade.json",
+      "jar": "[精妙存储] sophisticatedstorage-1.21.1-1.6.1.2147.jar"
+    },
+    {
+      "id": "sophisticatedstorage:chipped/alchemy_bench_upgrade",
+      "reason": "Compatibility models for mods not installed",
+      "model": "assets/sophisticatedstorage/models/item/chipped/alchemy_bench_upgrade.json",
+      "jar": "[精妙存储] sophisticatedstorage-1.21.1-1.6.1.2147.jar"
+    },
+    {
+      "id": "sophisticatedstorage:chipped/carpenters_table_upgrade",
+      "reason": "Compatibility models for mods not installed",
+      "model": "assets/sophisticatedstorage/models/item/chipped/carpenters_table_upgrade.json",
+      "jar": "[精妙存储] sophisticatedstorage-1.21.1-1.6.1.2147.jar"
+    },
+    {
+      "id": "sophisticatedstorage:chipped/mason_table_upgrade",
+      "reason": "Compatibility models for mods not installed",
+      "model": "assets/sophisticatedstorage/models/item/chipped/mason_table_upgrade.json",
+      "jar": "[精妙存储] sophisticatedstorage-1.21.1-1.6.1.2147.jar"
+    },
+    {
+      "id": "sophisticatedstorage:chipped/loom_table_upgrade",
+      "reason": "Compatibility models for mods not installed",
+      "model": "assets/sophisticatedstorage/models/item/chipped/loom_table_upgrade.json",
+      "jar": "[精妙存储] sophisticatedstorage-1.21.1-1.6.1.2147.jar"
+    },
+    {
+      "id": "sophisticatedstorage:chipped/botanist_workbench_upgrade",
+      "reason": "Compatibility models for mods not installed",
+      "model": "assets/sophisticatedstorage/models/item/chipped/botanist_workbench_upgrade.json",
+      "jar": "[精妙存储] sophisticatedstorage-1.21.1-1.6.1.2147.jar"
+    },
+    {
+      "id": "sophisticatedbackpacks:sawmill/sawmill_upgrade",
+      "reason": "Compatibility models for mods not installed",
+      "model": "assets/sophisticatedbackpacks/models/item/sawmill/sawmill_upgrade.json",
+      "jar": "[精妙背包] sophisticatedbackpacks-1.21.1-3.26.7.2182.jar"
+    },
+    {
+      "id": "sophisticatedbackpacks:chipped/glassblower_upgrade",
+      "reason": "Compatibility models for mods not installed",
+      "model": "assets/sophisticatedbackpacks/models/item/chipped/glassblower_upgrade.json",
+      "jar": "[精妙背包] sophisticatedbackpacks-1.21.1-3.26.7.2182.jar"
+    },
+    {
+      "id": "sophisticatedbackpacks:chipped/tinkering_table_upgrade",
+      "reason": "Compatibility models for mods not installed",
+      "model": "assets/sophisticatedbackpacks/models/item/chipped/tinkering_table_upgrade.json",
+      "jar": "[精妙背包] sophisticatedbackpacks-1.21.1-3.26.7.2182.jar"
+    },
+    {
+      "id": "sophisticatedbackpacks:chipped/alchemy_bench_upgrade",
+      "reason": "Compatibility models for mods not installed",
+      "model": "assets/sophisticatedbackpacks/models/item/chipped/alchemy_bench_upgrade.json",
+      "jar": "[精妙背包] sophisticatedbackpacks-1.21.1-3.26.7.2182.jar"
+    },
+    {
+      "id": "sophisticatedbackpacks:chipped/carpenters_table_upgrade",
+      "reason": "Compatibility models for mods not installed",
+      "model": "assets/sophisticatedbackpacks/models/item/chipped/carpenters_table_upgrade.json",
+      "jar": "[精妙背包] sophisticatedbackpacks-1.21.1-3.26.7.2182.jar"
+    },
+    {
+      "id": "sophisticatedbackpacks:chipped/mason_table_upgrade",
+      "reason": "Compatibility models for mods not installed",
+      "model": "assets/sophisticatedbackpacks/models/item/chipped/mason_table_upgrade.json",
+      "jar": "[精妙背包] sophisticatedbackpacks-1.21.1-3.26.7.2182.jar"
+    },
+    {
+      "id": "sophisticatedbackpacks:chipped/loom_table_upgrade",
+      "reason": "Compatibility models for mods not installed",
+      "model": "assets/sophisticatedbackpacks/models/item/chipped/loom_table_upgrade.json",
+      "jar": "[精妙背包] sophisticatedbackpacks-1.21.1-3.26.7.2182.jar"
+    },
+    {
+      "id": "sophisticatedbackpacks:chipped/botanist_workbench_upgrade",
+      "reason": "Compatibility models for mods not installed",
+      "model": "assets/sophisticatedbackpacks/models/item/chipped/botanist_workbench_upgrade.json",
+      "jar": "[精妙背包] sophisticatedbackpacks-1.21.1-3.26.7.2182.jar"
+    },
+    {
+      "id": "quarryplus:creative_generator",
+      "reason": "Internal/debug/creative placeholder outside the survival operation catalog",
+      "model": "assets/quarryplus/models/item/creative_generator.json",
+      "jar": "AdditionalEnchantedMiner-1.21.1-neoforge-21.1.164.jar"
+    },
+    {
+      "id": "quarryplus:debug_storage",
+      "reason": "Internal/debug/creative placeholder outside the survival operation catalog",
+      "model": "assets/quarryplus/models/item/debug_storage.json",
+      "jar": "AdditionalEnchantedMiner-1.21.1-neoforge-21.1.164.jar"
+    },
+    {
+      "id": "quarryplus:dummy_replacer",
+      "reason": "Internal/debug/creative placeholder outside the survival operation catalog",
+      "model": "assets/quarryplus/models/item/dummy_replacer.json",
+      "jar": "AdditionalEnchantedMiner-1.21.1-neoforge-21.1.164.jar"
+    },
+    {
+      "id": "buildinggadgets2:construction_paste_container_t1_quarter",
+      "reason": "Current 1.3.9 Registration.class registers no such item; legacy/model-only asset",
+      "model": "assets/buildinggadgets2/models/item/construction_paste_container_t1_quarter.json",
+      "jar": "[建筑小帮手] buildinggadgets2-1.3.9.jar"
+    },
+    {
+      "id": "buildinggadgets2:construction_paste_container_t1_3quarter",
+      "reason": "Current 1.3.9 Registration.class registers no such item; legacy/model-only asset",
+      "model": "assets/buildinggadgets2/models/item/construction_paste_container_t1_3quarter.json",
+      "jar": "[建筑小帮手] buildinggadgets2-1.3.9.jar"
+    },
+    {
+      "id": "buildinggadgets2:construction_paste",
+      "reason": "Current 1.3.9 Registration.class registers no such item; legacy/model-only asset",
+      "model": "assets/buildinggadgets2/models/item/construction_paste.json",
+      "jar": "[建筑小帮手] buildinggadgets2-1.3.9.jar"
+    },
+    {
+      "id": "buildinggadgets2:construction_paste_container_t2_3quarter",
+      "reason": "Current 1.3.9 Registration.class registers no such item; legacy/model-only asset",
+      "model": "assets/buildinggadgets2/models/item/construction_paste_container_t2_3quarter.json",
+      "jar": "[建筑小帮手] buildinggadgets2-1.3.9.jar"
+    },
+    {
+      "id": "buildinggadgets2:construction_paste_container_t3_half",
+      "reason": "Current 1.3.9 Registration.class registers no such item; legacy/model-only asset",
+      "model": "assets/buildinggadgets2/models/item/construction_paste_container_t3_half.json",
+      "jar": "[建筑小帮手] buildinggadgets2-1.3.9.jar"
+    },
+    {
+      "id": "buildinggadgets2:construction_chunk_dense",
+      "reason": "Current 1.3.9 Registration.class registers no such item; legacy/model-only asset",
+      "model": "assets/buildinggadgets2/models/item/construction_chunk_dense.json",
+      "jar": "[建筑小帮手] buildinggadgets2-1.3.9.jar"
+    },
+    {
+      "id": "buildinggadgets2:construction_block_powder",
+      "reason": "Current 1.3.9 Registration.class registers no such item; legacy/model-only asset",
+      "model": "assets/buildinggadgets2/models/item/construction_block_powder.json",
+      "jar": "[建筑小帮手] buildinggadgets2-1.3.9.jar"
+    },
+    {
+      "id": "buildinggadgets2:construction_paste_container_t2",
+      "reason": "Current 1.3.9 Registration.class registers no such item; legacy/model-only asset",
+      "model": "assets/buildinggadgets2/models/item/construction_paste_container_t2.json",
+      "jar": "[建筑小帮手] buildinggadgets2-1.3.9.jar"
+    },
+    {
+      "id": "buildinggadgets2:construction_block_dense",
+      "reason": "Current 1.3.9 Registration.class registers no such item; legacy/model-only asset",
+      "model": "assets/buildinggadgets2/models/item/construction_block_dense.json",
+      "jar": "[建筑小帮手] buildinggadgets2-1.3.9.jar"
+    },
+    {
+      "id": "buildinggadgets2:construction_paste_container_creative",
+      "reason": "Current 1.3.9 Registration.class registers no such item; legacy/model-only asset",
+      "model": "assets/buildinggadgets2/models/item/construction_paste_container_creative.json",
+      "jar": "[建筑小帮手] buildinggadgets2-1.3.9.jar"
+    },
+    {
+      "id": "buildinggadgets2:construction_paste_container_t3",
+      "reason": "Current 1.3.9 Registration.class registers no such item; legacy/model-only asset",
+      "model": "assets/buildinggadgets2/models/item/construction_paste_container_t3.json",
+      "jar": "[建筑小帮手] buildinggadgets2-1.3.9.jar"
+    },
+    {
+      "id": "buildinggadgets2:construction_paste_container_t1_full",
+      "reason": "Current 1.3.9 Registration.class registers no such item; legacy/model-only asset",
+      "model": "assets/buildinggadgets2/models/item/construction_paste_container_t1_full.json",
+      "jar": "[建筑小帮手] buildinggadgets2-1.3.9.jar"
+    },
+    {
+      "id": "buildinggadgets2:construction_paste_container_t2_half",
+      "reason": "Current 1.3.9 Registration.class registers no such item; legacy/model-only asset",
+      "model": "assets/buildinggadgets2/models/item/construction_paste_container_t2_half.json",
+      "jar": "[建筑小帮手] buildinggadgets2-1.3.9.jar"
+    },
+    {
+      "id": "buildinggadgets2:effect_block",
+      "reason": "Current 1.3.9 Registration.class registers no such item; legacy/model-only asset",
+      "model": "assets/buildinggadgets2/models/item/effect_block.json",
+      "jar": "[建筑小帮手] buildinggadgets2-1.3.9.jar"
+    },
+    {
+      "id": "buildinggadgets2:construction_paste_container_t1_half",
+      "reason": "Current 1.3.9 Registration.class registers no such item; legacy/model-only asset",
+      "model": "assets/buildinggadgets2/models/item/construction_paste_container_t1_half.json",
+      "jar": "[建筑小帮手] buildinggadgets2-1.3.9.jar"
+    },
+    {
+      "id": "buildinggadgets2:construction_paste_container_t1",
+      "reason": "Current 1.3.9 Registration.class registers no such item; legacy/model-only asset",
+      "model": "assets/buildinggadgets2/models/item/construction_paste_container_t1.json",
+      "jar": "[建筑小帮手] buildinggadgets2-1.3.9.jar"
+    },
+    {
+      "id": "buildinggadgets2:construction_paste_container_t2_full",
+      "reason": "Current 1.3.9 Registration.class registers no such item; legacy/model-only asset",
+      "model": "assets/buildinggadgets2/models/item/construction_paste_container_t2_full.json",
+      "jar": "[建筑小帮手] buildinggadgets2-1.3.9.jar"
+    },
+    {
+      "id": "buildinggadgets2:construction_paste_container_t3_3quarter",
+      "reason": "Current 1.3.9 Registration.class registers no such item; legacy/model-only asset",
+      "model": "assets/buildinggadgets2/models/item/construction_paste_container_t3_3quarter.json",
+      "jar": "[建筑小帮手] buildinggadgets2-1.3.9.jar"
+    },
+    {
+      "id": "buildinggadgets2:construction_block",
+      "reason": "Current 1.3.9 Registration.class registers no such item; legacy/model-only asset",
+      "model": "assets/buildinggadgets2/models/item/construction_block.json",
+      "jar": "[建筑小帮手] buildinggadgets2-1.3.9.jar"
+    },
+    {
+      "id": "buildinggadgets2:construction_paste_container_t2_quarter",
+      "reason": "Current 1.3.9 Registration.class registers no such item; legacy/model-only asset",
+      "model": "assets/buildinggadgets2/models/item/construction_paste_container_t2_quarter.json",
+      "jar": "[建筑小帮手] buildinggadgets2-1.3.9.jar"
+    },
+    {
+      "id": "buildinggadgets2:construction_paste_container_t3_quarter",
+      "reason": "Current 1.3.9 Registration.class registers no such item; legacy/model-only asset",
+      "model": "assets/buildinggadgets2/models/item/construction_paste_container_t3_quarter.json",
+      "jar": "[建筑小帮手] buildinggadgets2-1.3.9.jar"
+    },
+    {
+      "id": "buildinggadgets2:construction_paste_container_t3_full",
+      "reason": "Current 1.3.9 Registration.class registers no such item; legacy/model-only asset",
+      "model": "assets/buildinggadgets2/models/item/construction_paste_container_t3_full.json",
+      "jar": "[建筑小帮手] buildinggadgets2-1.3.9.jar"
+    },
+    {
+      "id": "mekanism:meka_tool_left",
+      "reason": "Left-hand/throwing renderer model; use the base equipment entry",
+      "model": "assets/mekanism/models/item/meka_tool_left.json",
+      "jar": "[通用机械] Mekanism-1.21.1-10.7.19.85.jar"
+    },
+    {
+      "id": "industrialforegoing:infinity_trident_throwing",
+      "reason": "Left-hand/throwing renderer model; use the base equipment entry",
+      "model": "assets/industrialforegoing/models/item/infinity_trident_throwing.json",
+      "jar": "[工业先锋] industrialforegoing-1.21-3.6.39.jar"
+    },
+    {
+      "id": "solarflux:photovoltaic_cell_dark_matter",
+      "reason": "Unused legacy/optional model; current ItemsSF and installed compatibility modules do not register it",
+      "model": "assets/solarflux/models/item/photovoltaic_cell_dark_matter.json",
+      "jar": "[日光通量：重制版] SolarFluxReborn-1.21.1-21.1.8.jar"
+    },
+    {
+      "id": "solarflux:wireless_upgrade",
+      "reason": "Unused legacy/optional model; current ItemsSF and installed compatibility modules do not register it",
+      "model": "assets/solarflux/models/item/wireless_upgrade.json",
+      "jar": "[日光通量：重制版] SolarFluxReborn-1.21.1-21.1.8.jar"
+    },
+    {
+      "id": "rftoolsstorage:storage_module6",
+      "reason": "Installed remote_module.json marks this legacy/internal module outside normal progression",
+      "model": "assets/rftoolsstorage/models/item/storage_module6.json",
+      "jar": "[RF工具：存储] rftoolsstorage-1.21-6.0.5.jar"
+    }
+  ],
+  "renamed": [
+    {
+      "id": "extendedae:infinity_water_cell",
+      "from": "infinity water cell",
+      "to": "无限水存储元件"
+    },
+    {
+      "id": "extendedae:infinity_cobblestone_cell",
+      "from": "infinity cobblestone cell",
+      "to": "无限圆石存储元件"
+    },
+    {
+      "id": "mekanism:module_dosimeter_unit",
+      "from": "module dosimeter unit",
+      "to": "放射量测定器单元"
+    },
+    {
+      "id": "mekanism:module_radiation_shielding_unit",
+      "from": "module radiation shielding unit",
+      "to": "辐射屏蔽单元"
+    },
+    {
+      "id": "mekanism:module_attack_amplification_unit",
+      "from": "module attack amplification unit",
+      "to": "攻击增强单元"
+    },
+    {
+      "id": "mekanism:module_blasting_unit",
+      "from": "module blasting unit",
+      "to": "破掘单元"
+    },
+    {
+      "id": "mekanism:module_charge_distribution_unit",
+      "from": "module charge distribution unit",
+      "to": "能量分配单元"
+    },
+    {
+      "id": "mekanism:module_color_modulation_unit",
+      "from": "module color modulation unit",
+      "to": "颜色调变单元"
+    },
+    {
+      "id": "mekanism:module_electrolytic_breathing_unit",
+      "from": "module electrolytic breathing unit",
+      "to": "电解呼吸装置"
+    },
+    {
+      "id": "mekanism:module_elytra_unit",
+      "from": "module elytra unit",
+      "to": "鞘翅单元"
+    },
+    {
+      "id": "mekanism:module_energy_unit",
+      "from": "module energy unit",
+      "to": "能量单元"
+    },
+    {
+      "id": "mekanism:module_excavation_escalation_unit",
+      "from": "module excavation escalation unit",
+      "to": "挖掘提升单元"
+    },
+    {
+      "id": "mekanism:module_farming_unit",
+      "from": "module farming unit",
+      "to": "耕种单元"
+    },
+    {
+      "id": "mekanism:module_fortune_unit",
+      "from": "module fortune unit",
+      "to": "矿物精炼单元"
+    },
+    {
+      "id": "mekanism:module_frost_walker_unit",
+      "from": "module frost walker unit",
+      "to": "冰霜行者单元"
+    },
+    {
+      "id": "mekanism:module_geiger_unit",
+      "from": "module geiger unit",
+      "to": "盖革计数器单元"
+    },
+    {
+      "id": "mekanism:module_gravitational_modulating_unit",
+      "from": "module gravitational modulating unit",
+      "to": "重力调节单元"
+    },
+    {
+      "id": "mekanism:module_gyroscopic_stabilization_unit",
+      "from": "module gyroscopic stabilization unit",
+      "to": "陀螺稳定单元"
+    },
+    {
+      "id": "mekanism:module_hydraulic_propulsion_unit",
+      "from": "module hydraulic propulsion unit",
+      "to": "液压推进单元"
+    },
+    {
+      "id": "mekanism:module_hydrostatic_repulsor_unit",
+      "from": "module hydrostatic repulsor unit",
+      "to": "静水推进单元"
+    },
+    {
+      "id": "mekanism:module_inhalation_purification_unit",
+      "from": "module inhalation purification unit",
+      "to": "吸入净化单元"
+    },
+    {
+      "id": "mekanism:module_jetpack_unit",
+      "from": "module jetpack unit",
+      "to": "喷气背包单元"
+    },
+    {
+      "id": "mekanism:module_laser_dissipation_unit",
+      "from": "module laser dissipation unit",
+      "to": "激光消散单元"
+    },
+    {
+      "id": "mekanism:module_locomotive_boosting_unit",
+      "from": "module locomotive boosting unit",
+      "to": "动力助推单元"
+    },
+    {
+      "id": "mekanism:module_magnetic_attraction_unit",
+      "from": "module magnetic attraction unit",
+      "to": "磁力吸引单元"
+    },
+    {
+      "id": "mekanism:module_motorized_servo_unit",
+      "from": "module motorized servo unit",
+      "to": "马达伺服单元"
+    },
+    {
+      "id": "mekanism:module_nutritional_injection_unit",
+      "from": "module nutritional injection unit",
+      "to": "营养注射单元"
+    },
+    {
+      "id": "mekanism:module_shearing_unit",
+      "from": "module shearing unit",
+      "to": "剪切单元"
+    },
+    {
+      "id": "mekanism:module_silk_touch_unit",
+      "from": "module silk touch unit",
+      "to": "精准采集单元"
+    },
+    {
+      "id": "mekanism:module_soul_surfer_unit",
+      "from": "module soul surfer unit",
+      "to": "灵魂疾行单元"
+    },
+    {
+      "id": "mekanism:module_teleportation_unit",
+      "from": "module teleportation unit",
+      "to": "传送单元"
+    },
+    {
+      "id": "mekanism:module_vein_mining_unit",
+      "from": "module vein mining unit",
+      "to": "连锁采集单元"
+    },
+    {
+      "id": "mekanism:module_vision_enhancement_unit",
+      "from": "module vision enhancement unit",
+      "to": "视觉增强单元"
+    },
+    {
+      "id": "mekanismgenerators:module_geothermal_generator_unit",
+      "from": "module geothermal generator unit",
+      "to": "地热能发电单元"
+    },
+    {
+      "id": "mekanismgenerators:module_solar_recharging_unit",
+      "from": "module solar recharging unit",
+      "to": "太阳能充能单元"
+    },
+    {
+      "id": "industrialforegoing:transporter",
+      "from": "transporter",
+      "to": "传送器"
+    },
+    {
+      "id": "industrialforegoingadditional:block_detector",
+      "from": "Block Detector",
+      "to": "方块检测器"
+    },
+    {
+      "id": "industrialforegoingadditional:factory_constructor",
+      "from": "Factory Constructor",
+      "to": "工厂构造机"
+    },
+    {
+      "id": "industrialforegoingadditional:machine_frame_ultimate",
+      "from": "Ultimate Machine Frame",
+      "to": "终极机器框架"
+    },
+    {
+      "id": "industrialforegoingadditional:polishing_machine",
+      "from": "Polishing Machine",
+      "to": "抛光机"
+    },
+    {
+      "id": "industrialforegoingadditional:repair_machine",
+      "from": "Repair Machine",
+      "to": "修复机"
+    },
+    {
+      "id": "industrialforegoingadditional:sifter_machine",
+      "from": "Sifter Machine",
+      "to": "筛分机"
+    },
+    {
+      "id": "industrialforegoingadditional:solidifier",
+      "from": "Solidifier",
+      "to": "凝固机"
+    },
+    {
+      "id": "industrialforegoingadditional:upgraded_constructor",
+      "from": "Upgraded Constructor",
+      "to": "升级构造机"
+    },
+    {
+      "id": "industrialforegoing:clean_hydroponic_simulation_processor",
+      "from": "clean hydroponic simulation processor",
+      "to": "空白水培模拟处理器"
+    },
+    {
+      "id": "industrialforegoing:blue_laser_lens",
+      "from": "blue laser lens",
+      "to": "蓝色镭射聚焦透镜"
+    },
+    {
+      "id": "industrialforegoing:white_laser_lens",
+      "from": "white laser lens",
+      "to": "白色镭射聚焦透镜"
+    },
+    {
+      "id": "industrialforegoing:yellow_laser_lens",
+      "from": "yellow laser lens",
+      "to": "黄色镭射聚焦透镜"
+    },
+    {
+      "id": "industrialforegoing:green_laser_lens",
+      "from": "green laser lens",
+      "to": "绿色镭射聚焦透镜"
+    },
+    {
+      "id": "industrialforegoing:black_laser_lens",
+      "from": "black laser lens",
+      "to": "黑色镭射聚焦透镜"
+    },
+    {
+      "id": "industrialforegoing:gray_laser_lens",
+      "from": "gray laser lens",
+      "to": "灰色镭射聚焦透镜"
+    },
+    {
+      "id": "industrialforegoing:cyan_laser_lens",
+      "from": "cyan laser lens",
+      "to": "青色镭射聚焦透镜"
+    },
+    {
+      "id": "industrialforegoing:light_blue_laser_lens",
+      "from": "light blue laser lens",
+      "to": "淡蓝色镭射聚焦透镜"
+    },
+    {
+      "id": "industrialforegoing:light_gray_laser_lens",
+      "from": "light gray laser lens",
+      "to": "淡灰色镭射聚焦透镜"
+    },
+    {
+      "id": "industrialforegoing:magenta_laser_lens",
+      "from": "magenta laser lens",
+      "to": "品红色镭射聚焦透镜"
+    },
+    {
+      "id": "industrialforegoing:brown_laser_lens",
+      "from": "brown laser lens",
+      "to": "棕色镭射聚焦透镜"
+    },
+    {
+      "id": "industrialforegoing:lime_laser_lens",
+      "from": "lime laser lens",
+      "to": "黄绿色镭射聚焦透镜"
+    },
+    {
+      "id": "industrialforegoing:purple_laser_lens",
+      "from": "purple laser lens",
+      "to": "紫色镭射聚焦透镜"
+    },
+    {
+      "id": "industrialforegoing:pink_laser_lens",
+      "from": "pink laser lens",
+      "to": "粉红色镭射聚焦透镜"
+    },
+    {
+      "id": "industrialforegoing:orange_laser_lens",
+      "from": "orange laser lens",
+      "to": "橙色镭射聚焦透镜"
+    },
+    {
+      "id": "industrialforegoing:red_laser_lens",
+      "from": "red laser lens",
+      "to": "红色镭射聚焦透镜"
+    },
+    {
+      "id": "industrialforegoing:conveyor_splitting_upgrade",
+      "from": "conveyor splitting upgrade",
+      "to": "传送带分流升级"
+    },
+    {
+      "id": "industrialforegoing:conveyor_blinking_upgrade",
+      "from": "conveyor blinking upgrade",
+      "to": "传送带闪烁传送升级"
+    },
+    {
+      "id": "industrialforegoing:conveyor_bouncing_upgrade",
+      "from": "conveyor bouncing upgrade",
+      "to": "传送带弹跳升级"
+    },
+    {
+      "id": "industrialforegoing:conveyor_detection_upgrade",
+      "from": "conveyor detection upgrade",
+      "to": "传送带检测升级"
+    },
+    {
+      "id": "industrialforegoing:conveyor_dropping_upgrade",
+      "from": "conveyor dropping upgrade",
+      "to": "传送带掉落升级"
+    },
+    {
+      "id": "industrialforegoing:conveyor_extraction_upgrade",
+      "from": "conveyor extraction upgrade",
+      "to": "传送带抽取升级"
+    },
+    {
+      "id": "industrialforegoing:conveyor_insertion_upgrade",
+      "from": "conveyor insertion upgrade",
+      "to": "传送带插入升级"
+    },
+    {
+      "id": "mifa:efficiency_addon_3",
+      "from": "efficiency addon 3",
+      "to": "效率升级插件（3级）"
+    },
+    {
+      "id": "mifa:efficiency_addon_4",
+      "from": "efficiency addon 4",
+      "to": "效率升级插件（4级）"
+    },
+    {
+      "id": "mifa:efficiency_addon_5",
+      "from": "efficiency addon 5",
+      "to": "效率升级插件（5级）"
+    },
+    {
+      "id": "mifa:efficiency_addon_6",
+      "from": "efficiency addon 6",
+      "to": "效率升级插件（6级）"
+    },
+    {
+      "id": "mifa:efficiency_addon_7",
+      "from": "efficiency addon 7",
+      "to": "效率升级插件（7级）"
+    },
+    {
+      "id": "mifa:efficiency_addon_8",
+      "from": "efficiency addon 8",
+      "to": "效率升级插件（8级）"
+    },
+    {
+      "id": "mifa:processing_addon_3",
+      "from": "processing addon 3",
+      "to": "处理升级插件（3级）"
+    },
+    {
+      "id": "mifa:processing_addon_4",
+      "from": "processing addon 4",
+      "to": "处理升级插件（4级）"
+    },
+    {
+      "id": "mifa:processing_addon_5",
+      "from": "processing addon 5",
+      "to": "处理升级插件（5级）"
+    },
+    {
+      "id": "mifa:processing_addon_6",
+      "from": "processing addon 6",
+      "to": "处理升级插件（6级）"
+    },
+    {
+      "id": "mifa:processing_addon_7",
+      "from": "processing addon 7",
+      "to": "处理升级插件（7级）"
+    },
+    {
+      "id": "mifa:processing_addon_8",
+      "from": "processing addon 8",
+      "to": "处理升级插件（8级）"
+    },
+    {
+      "id": "mifa:speed_addon_3",
+      "from": "speed addon 3",
+      "to": "速度升级插件（3级）"
+    },
+    {
+      "id": "mifa:speed_addon_4",
+      "from": "speed addon 4",
+      "to": "速度升级插件（4级）"
+    },
+    {
+      "id": "mifa:speed_addon_5",
+      "from": "speed addon 5",
+      "to": "速度升级插件（5级）"
+    },
+    {
+      "id": "mifa:speed_addon_6",
+      "from": "speed addon 6",
+      "to": "速度升级插件（6级）"
+    },
+    {
+      "id": "mifa:speed_addon_7",
+      "from": "speed addon 7",
+      "to": "速度升级插件（7级）"
+    },
+    {
+      "id": "mifa:speed_addon_8",
+      "from": "speed addon 8",
+      "to": "速度升级插件（8级）"
+    },
+    {
+      "id": "industrialforegoing:range_addon_tier_11",
+      "from": "range addon tier 11",
+      "to": "范围升级插件（11级）"
+    },
+    {
+      "id": "industrialforegoing:range_addon_tier_7",
+      "from": "range addon tier 7",
+      "to": "范围升级插件（7级）"
+    },
+    {
+      "id": "industrialforegoing:processing_addon_tier_2",
+      "from": "processing addon tier 2",
+      "to": "处理升级插件（2级）"
+    },
+    {
+      "id": "industrialforegoing:range_addon_tier_9",
+      "from": "range addon tier 9",
+      "to": "范围升级插件（9级）"
+    },
+    {
+      "id": "industrialforegoing:processing_addon_tier_1",
+      "from": "processing addon tier 1",
+      "to": "处理升级插件（1级）"
+    },
+    {
+      "id": "industrialforegoing:range_addon_tier_6",
+      "from": "range addon tier 6",
+      "to": "范围升级插件（6级）"
+    },
+    {
+      "id": "industrialforegoing:range_addon_tier_10",
+      "from": "range addon tier 10",
+      "to": "范围升级插件（10级）"
+    },
+    {
+      "id": "industrialforegoing:range_addon_tier_5",
+      "from": "range addon tier 5",
+      "to": "范围升级插件（5级）"
+    },
+    {
+      "id": "industrialforegoing:range_addon_tier_3",
+      "from": "range addon tier 3",
+      "to": "范围升级插件（3级）"
+    },
+    {
+      "id": "industrialforegoing:range_addon_tier_1",
+      "from": "range addon tier 1",
+      "to": "范围升级插件（1级）"
+    },
+    {
+      "id": "industrialforegoing:speed_addon_tier_1",
+      "from": "speed addon tier 1",
+      "to": "速度升级插件（1级）"
+    },
+    {
+      "id": "industrialforegoing:range_addon_tier_4",
+      "from": "range addon tier 4",
+      "to": "范围升级插件（4级）"
+    },
+    {
+      "id": "industrialforegoing:efficiency_addon_tier_1",
+      "from": "efficiency addon tier 1",
+      "to": "效率升级插件（1级）"
+    },
+    {
+      "id": "industrialforegoing:range_addon_tier_2",
+      "from": "range addon tier 2",
+      "to": "范围升级插件（2级）"
+    },
+    {
+      "id": "industrialforegoing:efficiency_addon_tier_2",
+      "from": "efficiency addon tier 2",
+      "to": "效率升级插件（2级）"
+    },
+    {
+      "id": "industrialforegoing:range_addon_tier_0",
+      "from": "range addon tier 0",
+      "to": "范围升级插件（0级）"
+    },
+    {
+      "id": "industrialforegoing:speed_addon_tier_2",
+      "from": "speed addon tier 2",
+      "to": "速度升级插件（2级）"
+    },
+    {
+      "id": "industrialforegoing:range_addon_tier_8",
+      "from": "range addon tier 8",
+      "to": "范围升级插件（8级）"
+    },
+    {
+      "id": "ifeu:efficiency_addon_3",
+      "from": "efficiency addon 3",
+      "to": "效率升级插件（3级）"
+    },
+    {
+      "id": "ifeu:efficiency_addon_4",
+      "from": "efficiency addon 4",
+      "to": "效率升级插件（4级）"
+    },
+    {
+      "id": "ifeu:efficiency_addon_5",
+      "from": "efficiency addon 5",
+      "to": "效率升级插件（5级）"
+    },
+    {
+      "id": "ifeu:efficiency_addon_6",
+      "from": "efficiency addon 6",
+      "to": "效率升级插件（6级）"
+    },
+    {
+      "id": "ifeu:processing_addon_3",
+      "from": "processing addon 3",
+      "to": "处理升级插件（3级）"
+    },
+    {
+      "id": "ifeu:processing_addon_4",
+      "from": "processing addon 4",
+      "to": "处理升级插件（4级）"
+    },
+    {
+      "id": "ifeu:processing_addon_5",
+      "from": "processing addon 5",
+      "to": "处理升级插件（5级）"
+    },
+    {
+      "id": "ifeu:processing_addon_6",
+      "from": "processing addon 6",
+      "to": "处理升级插件（6级）"
+    },
+    {
+      "id": "ifeu:speed_addon_3",
+      "from": "speed addon 3",
+      "to": "速度升级插件（3级）"
+    },
+    {
+      "id": "ifeu:speed_addon_4",
+      "from": "speed addon 4",
+      "to": "速度升级插件（4级）"
+    },
+    {
+      "id": "ifeu:speed_addon_5",
+      "from": "speed addon 5",
+      "to": "速度升级插件（5级）"
+    },
+    {
+      "id": "ifeu:speed_addon_6",
+      "from": "speed addon 6",
+      "to": "速度升级插件（6级）"
+    },
+    {
+      "id": "industrialforegoingadditional:efficiency_addon_tier_3",
+      "from": "efficiency addon tier 3",
+      "to": "效率升级插件（3级）"
+    },
+    {
+      "id": "industrialforegoingadditional:efficiency_addon_tier_4",
+      "from": "efficiency addon tier 4",
+      "to": "效率升级插件（4级）"
+    },
+    {
+      "id": "industrialforegoingadditional:efficiency_addon_tier_5",
+      "from": "efficiency addon tier 5",
+      "to": "效率升级插件（5级）"
+    },
+    {
+      "id": "industrialforegoingadditional:processing_addon_tier_3",
+      "from": "processing addon tier 3",
+      "to": "处理升级插件（3级）"
+    },
+    {
+      "id": "industrialforegoingadditional:processing_addon_tier_4",
+      "from": "processing addon tier 4",
+      "to": "处理升级插件（4级）"
+    },
+    {
+      "id": "industrialforegoingadditional:processing_addon_tier_5",
+      "from": "processing addon tier 5",
+      "to": "处理升级插件（5级）"
+    },
+    {
+      "id": "industrialforegoingadditional:speed_addon_tier_3",
+      "from": "speed addon tier 3",
+      "to": "速度升级插件（3级）"
+    },
+    {
+      "id": "industrialforegoingadditional:speed_addon_tier_4",
+      "from": "speed addon tier 4",
+      "to": "速度升级插件（4级）"
+    },
+    {
+      "id": "industrialforegoingadditional:speed_addon_tier_5",
+      "from": "speed addon tier 5",
+      "to": "速度升级插件（5级）"
+    },
+    {
+      "id": "enderio:clear_glass_a",
+      "from": "clear glass a",
+      "to": "纯净玻璃（动物可通过）"
+    },
+    {
+      "id": "enderio:clear_glass_dnp",
+      "from": "clear glass dnp",
+      "to": "遮光纯净玻璃（阻挡玩家）"
+    },
+    {
+      "id": "enderio:fused_quartz_nm",
+      "from": "fused quartz nm",
+      "to": "熔融石英玻璃（阻挡生物）"
+    },
+    {
+      "id": "enderio:clear_glass_enm",
+      "from": "clear glass enm",
+      "to": "发光纯净玻璃（阻挡生物）"
+    },
+    {
+      "id": "enderio:fused_quartz_dp",
+      "from": "fused quartz dp",
+      "to": "遮光熔融石英玻璃（玩家可通过）"
+    },
+    {
+      "id": "enderio:fused_quartz_dna",
+      "from": "fused quartz dna",
+      "to": "遮光熔融石英玻璃（阻挡动物）"
+    },
+    {
+      "id": "enderio:fused_quartz_em",
+      "from": "fused quartz em",
+      "to": "发光熔融石英玻璃（生物可通过）"
+    },
+    {
+      "id": "enderio:clear_glass_na",
+      "from": "clear glass na",
+      "to": "纯净玻璃（阻挡动物）"
+    },
+    {
+      "id": "enderio:clear_glass_dp",
+      "from": "clear glass dp",
+      "to": "遮光纯净玻璃（玩家可通过）"
+    },
+    {
+      "id": "enderio:clear_glass_dna",
+      "from": "clear glass dna",
+      "to": "遮光纯净玻璃（阻挡动物）"
+    },
+    {
+      "id": "enderio:fused_quartz_da",
+      "from": "fused quartz da",
+      "to": "遮光熔融石英玻璃（动物可通过）"
+    },
+    {
+      "id": "enderio:fused_quartz_ena",
+      "from": "fused quartz ena",
+      "to": "发光熔融石英玻璃（阻挡动物）"
+    },
+    {
+      "id": "enderio:clear_glass_ena",
+      "from": "clear glass ena",
+      "to": "发光纯净玻璃（阻挡动物）"
+    },
+    {
+      "id": "enderio:clear_glass_da",
+      "from": "clear glass da",
+      "to": "遮光纯净玻璃（动物可通过）"
+    },
+    {
+      "id": "enderio:fused_quartz_na",
+      "from": "fused quartz na",
+      "to": "熔融石英玻璃（阻挡动物）"
+    },
+    {
+      "id": "enderio:clear_glass_em",
+      "from": "clear glass em",
+      "to": "发光纯净玻璃（生物可通过）"
+    },
+    {
+      "id": "enderio:clear_glass_ea",
+      "from": "clear glass ea",
+      "to": "发光纯净玻璃（动物可通过）"
+    },
+    {
+      "id": "enderio:fused_quartz_a",
+      "from": "fused quartz a",
+      "to": "熔融石英玻璃（动物可通过）"
+    },
+    {
+      "id": "enderio:clear_glass_enp",
+      "from": "clear glass enp",
+      "to": "发光纯净玻璃（阻挡玩家）"
+    },
+    {
+      "id": "enderio:fused_quartz_np",
+      "from": "fused quartz np",
+      "to": "熔融石英玻璃（阻挡玩家）"
+    },
+    {
+      "id": "enderio:clear_glass_dm",
+      "from": "clear glass dm",
+      "to": "遮光纯净玻璃（生物可通过）"
+    },
+    {
+      "id": "enderio:clear_glass_nm",
+      "from": "clear glass nm",
+      "to": "纯净玻璃（阻挡生物）"
+    },
+    {
+      "id": "enderio:fused_quartz_enp",
+      "from": "fused quartz enp",
+      "to": "发光熔融石英玻璃（阻挡玩家）"
+    },
+    {
+      "id": "enderio:fused_quartz_enm",
+      "from": "fused quartz enm",
+      "to": "发光熔融石英玻璃（阻挡生物）"
+    },
+    {
+      "id": "enderio:fused_quartz_ep",
+      "from": "fused quartz ep",
+      "to": "发光熔融石英玻璃（玩家可通过）"
+    },
+    {
+      "id": "enderio:clear_glass_np",
+      "from": "clear glass np",
+      "to": "纯净玻璃（阻挡玩家）"
+    },
+    {
+      "id": "enderio:clear_glass_dnm",
+      "from": "clear glass dnm",
+      "to": "遮光纯净玻璃（阻挡生物）"
+    },
+    {
+      "id": "enderio:fused_quartz_dnp",
+      "from": "fused quartz dnp",
+      "to": "遮光熔融石英玻璃（阻挡玩家）"
+    },
+    {
+      "id": "enderio:clear_glass_p",
+      "from": "clear glass p",
+      "to": "纯净玻璃（玩家可通过）"
+    },
+    {
+      "id": "enderio:fused_quartz_m",
+      "from": "fused quartz m",
+      "to": "熔融石英玻璃（生物可通过）"
+    },
+    {
+      "id": "enderio:clear_glass_ep",
+      "from": "clear glass ep",
+      "to": "发光纯净玻璃（玩家可通过）"
+    },
+    {
+      "id": "enderio:fused_quartz_p",
+      "from": "fused quartz p",
+      "to": "熔融石英玻璃（玩家可通过）"
+    },
+    {
+      "id": "enderio:fused_quartz_dnm",
+      "from": "fused quartz dnm",
+      "to": "遮光熔融石英玻璃（阻挡生物）"
+    },
+    {
+      "id": "enderio:clear_glass_m",
+      "from": "clear glass m",
+      "to": "纯净玻璃（生物可通过）"
+    },
+    {
+      "id": "enderio:fused_quartz_dm",
+      "from": "fused quartz dm",
+      "to": "遮光熔融石英玻璃（生物可通过）"
+    },
+    {
+      "id": "enderio:fused_quartz_ea",
+      "from": "fused quartz ea",
+      "to": "发光熔融石英玻璃（动物可通过）"
+    },
+    {
+      "id": "deep/actuallyadditions/esd",
+      "from": "ESDs",
+      "to": "物品分配器"
+    },
+    {
+      "id": "rftoolsstorage:storage_scanner",
+      "from": "Storage Scanner",
+      "to": "存储扫描器"
+    },
+    {
+      "id": "rftoolsstorage:crafting_manager",
+      "from": "crafting manager",
+      "to": "合成管理器"
+    },
+    {
+      "id": "rftoolsstorage:modular_storage",
+      "from": "Modular Storage",
+      "to": "模块化存储器"
+    },
+    {
+      "id": "rftoolsstorage:storage_module0",
+      "from": "storage module0",
+      "to": "存储模块（1级）"
+    },
+    {
+      "id": "rftoolsstorage:storage_module2",
+      "from": "storage module2",
+      "to": "存储模块（3级）"
+    },
+    {
+      "id": "rftoolsstorage:storage_module3",
+      "from": "storage module3",
+      "to": "存储模块（4级）"
+    },
+    {
+      "id": "rftoolsstorage:storage_module1",
+      "from": "storage module1",
+      "to": "存储模块（2级）"
+    },
+    {
+      "id": "rftoolsstorage:storage_control_module",
+      "from": "storage control module",
+      "to": "存储控制模块"
+    },
+    {
+      "id": "rftoolsstorage:dump_module",
+      "from": "dump module",
+      "to": "物品倾倒模块"
+    },
+    {
+      "id": "rftoolsutility:storage_control_module",
+      "from": "storage control module",
+      "to": "存储控制模块"
+    },
+    {
+      "id": "rftoolsutility:elevator_button_module",
+      "from": "elevator button module",
+      "to": "电梯按钮模块"
+    },
+    {
+      "id": "integrateddynamics:part_dynamic_light_panel",
+      "from": "part dynamic light panel",
+      "to": "动态光源"
+    },
+    {
+      "id": "integrateddynamics:part_redstone_reader",
+      "from": "part redstone reader",
+      "to": "红石读取器"
+    },
+    {
+      "id": "integrateddynamics:part_machine_reader",
+      "from": "part machine reader",
+      "to": "机器读取器"
+    },
+    {
+      "id": "integrateddynamics:part_static_light_panel",
+      "from": "part static light panel",
+      "to": "静态光源"
+    },
+    {
+      "id": "integrateddynamics:part_network_reader",
+      "from": "part network reader",
+      "to": "网络读取器"
+    },
+    {
+      "id": "integrateddynamics:part_connector_omni_directional",
+      "from": "part connector omni directional",
+      "to": "全向连接器"
+    },
+    {
+      "id": "integrateddynamics:part_world_reader",
+      "from": "part world reader",
+      "to": "世界读取器"
+    },
+    {
+      "id": "integrateddynamics:part_entity_writer",
+      "from": "part entity writer",
+      "to": "实体写入器"
+    },
+    {
+      "id": "integrateddynamics:part_fluid_reader",
+      "from": "part fluid reader",
+      "to": "流体读取器"
+    },
+    {
+      "id": "integrateddynamics:part_inventory_writer",
+      "from": "part inventory writer",
+      "to": "物品容器输出"
+    },
+    {
+      "id": "integrateddynamics:part_machine_writer",
+      "from": "part machine writer",
+      "to": "机器写入器"
+    },
+    {
+      "id": "integrateddynamics:part_audio_writer",
+      "from": "part audio writer",
+      "to": "声音输出"
+    },
+    {
+      "id": "integrateddynamics:part_effect_writer",
+      "from": "part effect writer",
+      "to": "效果输出"
+    },
+    {
+      "id": "integrateddynamics:part_block_reader",
+      "from": "part block reader",
+      "to": "方块读取器"
+    },
+    {
+      "id": "integrateddynamics:part_entity_reader",
+      "from": "part entity reader",
+      "to": "实体读取器"
+    },
+    {
+      "id": "integrateddynamics:part_audio_reader",
+      "from": "part audio reader",
+      "to": "声音读取器"
+    },
+    {
+      "id": "integrateddynamics:part_extradimensional_reader",
+      "from": "part extradimensional reader",
+      "to": "附加维度读取器"
+    },
+    {
+      "id": "integrateddynamics:part_display_panel",
+      "from": "part display panel",
+      "to": "显示器"
+    },
+    {
+      "id": "integrateddynamics:part_connector_mono_directional",
+      "from": "part connector mono directional",
+      "to": "单向连接器"
+    },
+    {
+      "id": "integrateddynamics:part_inventory_reader",
+      "from": "part inventory reader",
+      "to": "物品容器读取器"
+    },
+    {
+      "id": "integrateddynamics:part_redstone_writer",
+      "from": "part redstone writer",
+      "to": "红石输出"
+    },
+    {
+      "id": "integratedtunnels:part_exporter_energy",
+      "from": "part exporter energy",
+      "to": "能量输出口"
+    },
+    {
+      "id": "integratedtunnels:part_interface_energy",
+      "from": "part interface energy",
+      "to": "能量接口"
+    },
+    {
+      "id": "integratedtunnels:part_importer_world_item",
+      "from": "part importer world item",
+      "to": "物品拾取口"
+    },
+    {
+      "id": "integratedtunnels:part_exporter_world_fluid",
+      "from": "part exporter world fluid",
+      "to": "流体排出口"
+    },
+    {
+      "id": "integratedtunnels:part_player_simulator",
+      "from": "part player simulator",
+      "to": "玩家模拟器"
+    },
+    {
+      "id": "integratedtunnels:part_interface_fluid",
+      "from": "part interface fluid",
+      "to": "流体接口"
+    },
+    {
+      "id": "integratedtunnels:part_exporter_world_block",
+      "from": "part exporter world block",
+      "to": "方块放置口"
+    },
+    {
+      "id": "integratedtunnels:part_exporter_world_energy",
+      "from": "part exporter world energy",
+      "to": "能量导出口"
+    },
+    {
+      "id": "integratedtunnels:part_importer_item",
+      "from": "part importer item",
+      "to": "物品输入口"
+    },
+    {
+      "id": "integratedtunnels:part_importer_world_block",
+      "from": "part importer world block",
+      "to": "方块破坏口"
+    },
+    {
+      "id": "integratedtunnels:part_importer_energy",
+      "from": "part importer energy",
+      "to": "能量输入口"
+    },
+    {
+      "id": "integratedtunnels:part_exporter_world_item",
+      "from": "part exporter world item",
+      "to": "物品投掷口"
+    },
+    {
+      "id": "integratedtunnels:part_exporter_fluid",
+      "from": "part exporter fluid",
+      "to": "流体输出口"
+    },
+    {
+      "id": "integratedtunnels:part_importer_fluid",
+      "from": "part importer fluid",
+      "to": "流体输入口"
+    },
+    {
+      "id": "integratedtunnels:part_exporter_item",
+      "from": "part exporter item",
+      "to": "物品输出口"
+    },
+    {
+      "id": "integratedtunnels:part_importer_world_energy",
+      "from": "part importer world energy",
+      "to": "能量汲取口"
+    },
+    {
+      "id": "integratedtunnels:part_interface_item",
+      "from": "part interface item",
+      "to": "物品接口"
+    },
+    {
+      "id": "integratedtunnels:part_importer_world_fluid",
+      "from": "part importer world fluid",
+      "to": "流体抽取口"
+    },
+    {
+      "id": "xnet:terminal",
+      "from": "terminal",
+      "to": "XNet 网络终端"
+    },
+    {
+      "id": "morefunctionalstorage:breaker_upgrade",
+      "from": "breaker upgrade",
+      "to": "破坏升级"
+    },
+    {
+      "id": "morefunctionalstorage:dimensional_refill_upgrade",
+      "from": "dimensional refill upgrade",
+      "to": "跨维度补货升级"
+    },
+    {
+      "id": "morefunctionalstorage:placer_upgrade",
+      "from": "placer upgrade",
+      "to": "放置升级"
+    },
+    {
+      "id": "morefunctionalstorage:refill_upgrade",
+      "from": "refill upgrade",
+      "to": "补货升级"
+    },
+    {
+      "id": "morefunctionalstorage:speed_upgrade_augment",
+      "from": "speed upgrade augment",
+      "to": "速度升级增幅器"
+    },
+    {
+      "id": "morefunctionalstorage:stonecutting_upgrade",
+      "from": "stonecutting upgrade",
+      "to": "切石升级"
+    },
+    {
+      "id": "sophisticatedstorage:spruce_storage_connector",
+      "from": "spruce storage connector",
+      "to": "云杉木存储连接器"
+    },
+    {
+      "id": "sophisticatedstorage:cherry_storage_connector",
+      "from": "cherry storage connector",
+      "to": "樱花木存储连接器"
+    },
+    {
+      "id": "sophisticatedstorage:bamboo_storage_connector",
+      "from": "bamboo storage connector",
+      "to": "竹存储连接器"
+    },
+    {
+      "id": "sophisticatedstorage:birch_storage_connector",
+      "from": "birch storage connector",
+      "to": "白桦木存储连接器"
+    },
+    {
+      "id": "sophisticatedstorage:acacia_storage_connector",
+      "from": "acacia storage connector",
+      "to": "金合欢木存储连接器"
+    },
+    {
+      "id": "sophisticatedstorage:crimson_storage_connector",
+      "from": "crimson storage connector",
+      "to": "绯红木存储连接器"
+    },
+    {
+      "id": "sophisticatedstorage:oak_storage_connector",
+      "from": "oak storage connector",
+      "to": "橡木存储连接器"
+    },
+    {
+      "id": "sophisticatedstorage:dark_oak_storage_connector",
+      "from": "dark oak storage connector",
+      "to": "深色橡木存储连接器"
+    },
+    {
+      "id": "sophisticatedstorage:warped_storage_connector",
+      "from": "warped storage connector",
+      "to": "诡异木存储连接器"
+    },
+    {
+      "id": "sophisticatedstorage:mangrove_storage_connector",
+      "from": "mangrove storage connector",
+      "to": "红树木存储连接器"
+    },
+    {
+      "id": "sophisticatedstorage:jungle_storage_connector",
+      "from": "jungle storage connector",
+      "to": "丛林木存储连接器"
+    },
+    {
+      "id": "compactmachines:new_machine",
+      "from": "new machine",
+      "to": "压缩空间机器外壳"
+    },
+    {
+      "id": "compactmachines:machine",
+      "from": "machine",
+      "to": "压缩空间机器"
+    },
+    {
+      "id": "hyperbox:hyperbox",
+      "from": "Hyperbox",
+      "to": "超维盒"
+    },
+    {
+      "id": "quarryplus:remote_placer",
+      "from": "Remote Placer",
+      "to": "远程放置器"
+    },
+    {
+      "id": "quarryplus:filter_module",
+      "from": "Void Module",
+      "to": "过滤模块"
+    },
+    {
+      "id": "quarryplus:presetapplier",
+      "from": "presetapplier",
+      "to": "预设应用器"
+    },
+    {
+      "id": "quarryplus:quarry_pickaxe",
+      "from": "QuarryPlus Pickaxe",
+      "to": "采石场镐"
+    },
+    {
+      "id": "quarryplus:repeat_tick_module",
+      "from": "Faster Work Module",
+      "to": "重复刻模块"
+    },
+    {
+      "id": "pylons:protection_pylon",
+      "from": "Protection Pylon",
+      "to": "保护晶塔"
+    },
+    {
+      "id": "silentgear:crude_mixer",
+      "from": "Crude Mixer",
+      "to": "粗制混合机"
+    },
+    {
+      "id": "silentgear:paint_mixer",
+      "from": "Paint Mixer",
+      "to": "涂料混合机"
+    },
+    {
+      "id": "silentgear:arrow_blueprint",
+      "from": "arrow blueprint",
+      "to": "箭蓝图"
+    },
+    {
+      "id": "silentgear:arrow_template",
+      "from": "arrow template",
+      "to": "箭模板"
+    },
+    {
+      "id": "silentgear:axe_blueprint",
+      "from": "axe blueprint",
+      "to": "斧蓝图"
+    },
+    {
+      "id": "silentgear:axe_template",
+      "from": "axe template",
+      "to": "斧模板"
+    },
+    {
+      "id": "silentgear:binding_blueprint",
+      "from": "binding blueprint",
+      "to": "绑定结蓝图"
+    },
+    {
+      "id": "silentgear:binding_template",
+      "from": "binding template",
+      "to": "绑定结模板"
+    },
+    {
+      "id": "silentgear:boots_blueprint",
+      "from": "boots blueprint",
+      "to": "靴子蓝图"
+    },
+    {
+      "id": "silentgear:boots_template",
+      "from": "boots template",
+      "to": "靴子模板"
+    },
+    {
+      "id": "silentgear:bow_blueprint",
+      "from": "bow blueprint",
+      "to": "弓蓝图"
+    },
+    {
+      "id": "silentgear:bow_template",
+      "from": "bow template",
+      "to": "弓模板"
+    },
+    {
+      "id": "silentgear:bracelet_blueprint",
+      "from": "bracelet blueprint",
+      "to": "手镯蓝图"
+    },
+    {
+      "id": "silentgear:bracelet_template",
+      "from": "bracelet template",
+      "to": "手镯模板"
+    },
+    {
+      "id": "silentgear:chestplate_blueprint",
+      "from": "chestplate blueprint",
+      "to": "胸甲蓝图"
+    },
+    {
+      "id": "silentgear:chestplate_template",
+      "from": "chestplate template",
+      "to": "胸甲模板"
+    },
+    {
+      "id": "silentgear:coating_blueprint",
+      "from": "coating blueprint",
+      "to": "覆层蓝图"
+    },
+    {
+      "id": "silentgear:coating_template",
+      "from": "coating template",
+      "to": "覆层模板"
+    },
+    {
+      "id": "silentgear:cord_blueprint",
+      "from": "cord blueprint",
+      "to": "线蓝图"
+    },
+    {
+      "id": "silentgear:cord_template",
+      "from": "cord template",
+      "to": "线模板"
+    },
+    {
+      "id": "silentgear:crossbow_blueprint",
+      "from": "crossbow blueprint",
+      "to": "弩蓝图"
+    },
+    {
+      "id": "silentgear:crossbow_template",
+      "from": "crossbow template",
+      "to": "弩模板"
+    },
+    {
+      "id": "silentgear:dagger_blueprint",
+      "from": "dagger blueprint",
+      "to": "匕首蓝图"
+    },
+    {
+      "id": "silentgear:dagger_template",
+      "from": "dagger template",
+      "to": "匕首模板"
+    },
+    {
+      "id": "silentgear:elytra_blueprint",
+      "from": "elytra blueprint",
+      "to": "鞘翅蓝图"
+    },
+    {
+      "id": "silentgear:elytra_template",
+      "from": "elytra template",
+      "to": "鞘翅模板"
+    },
+    {
+      "id": "silentgear:excavator_blueprint",
+      "from": "excavator blueprint",
+      "to": "开掘铲蓝图"
+    },
+    {
+      "id": "silentgear:excavator_template",
+      "from": "excavator template",
+      "to": "开掘铲模板"
+    },
+    {
+      "id": "silentgear:fishing_rod_blueprint",
+      "from": "fishing rod blueprint",
+      "to": "钓鱼竿蓝图"
+    },
+    {
+      "id": "silentgear:fishing_rod_template",
+      "from": "fishing rod template",
+      "to": "钓鱼竿模板"
+    },
+    {
+      "id": "silentgear:fletching_blueprint",
+      "from": "fletching blueprint",
+      "to": "箭羽蓝图"
+    },
+    {
+      "id": "silentgear:fletching_template",
+      "from": "fletching template",
+      "to": "箭羽模板"
+    },
+    {
+      "id": "silentgear:grip_blueprint",
+      "from": "grip blueprint",
+      "to": "握把蓝图"
+    },
+    {
+      "id": "silentgear:grip_template",
+      "from": "grip template",
+      "to": "握把模板"
+    },
+    {
+      "id": "silentgear:hammer_blueprint",
+      "from": "hammer blueprint",
+      "to": "锤蓝图"
+    },
+    {
+      "id": "silentgear:hammer_template",
+      "from": "hammer template",
+      "to": "锤模板"
+    },
+    {
+      "id": "silentgear:helmet_blueprint",
+      "from": "helmet blueprint",
+      "to": "头盔蓝图"
+    },
+    {
+      "id": "silentgear:helmet_template",
+      "from": "helmet template",
+      "to": "头盔模板"
+    },
+    {
+      "id": "silentgear:hoe_blueprint",
+      "from": "hoe blueprint",
+      "to": "锄蓝图"
+    },
+    {
+      "id": "silentgear:hoe_template",
+      "from": "hoe template",
+      "to": "锄模板"
+    },
+    {
+      "id": "silentgear:katana_blueprint",
+      "from": "katana blueprint",
+      "to": "武士刀蓝图"
+    },
+    {
+      "id": "silentgear:katana_template",
+      "from": "katana template",
+      "to": "武士刀模板"
+    },
+    {
+      "id": "silentgear:knife_blueprint",
+      "from": "knife blueprint",
+      "to": "小刀蓝图"
+    },
+    {
+      "id": "silentgear:knife_template",
+      "from": "knife template",
+      "to": "小刀模板"
+    },
+    {
+      "id": "silentgear:leggings_blueprint",
+      "from": "leggings blueprint",
+      "to": "护腿蓝图"
+    },
+    {
+      "id": "silentgear:leggings_template",
+      "from": "leggings template",
+      "to": "护腿模板"
+    },
+    {
+      "id": "silentgear:lining_blueprint",
+      "from": "lining blueprint",
+      "to": "内衬蓝图"
+    },
+    {
+      "id": "silentgear:lining_template",
+      "from": "lining template",
+      "to": "内衬模板"
+    },
+    {
+      "id": "silentgear:mace_blueprint",
+      "from": "mace blueprint",
+      "to": "重锤蓝图"
+    },
+    {
+      "id": "silentgear:mace_template",
+      "from": "mace template",
+      "to": "重锤模板"
+    },
+    {
+      "id": "silentgear:machete_blueprint",
+      "from": "machete blueprint",
+      "to": "砍刀蓝图"
+    },
+    {
+      "id": "silentgear:machete_template",
+      "from": "machete template",
+      "to": "砍刀模板"
+    },
+    {
+      "id": "silentgear:mattock_blueprint",
+      "from": "mattock blueprint",
+      "to": "鹤嘴锄蓝图"
+    },
+    {
+      "id": "silentgear:mattock_template",
+      "from": "mattock template",
+      "to": "鹤嘴锄模板"
+    },
+    {
+      "id": "silentgear:necklace_blueprint",
+      "from": "necklace blueprint",
+      "to": "项链蓝图"
+    },
+    {
+      "id": "silentgear:necklace_template",
+      "from": "necklace template",
+      "to": "项链模板"
+    },
+    {
+      "id": "silentgear:paxel_blueprint",
+      "from": "paxel blueprint",
+      "to": "镐尖斧蓝图"
+    },
+    {
+      "id": "silentgear:paxel_template",
+      "from": "paxel template",
+      "to": "镐尖斧模板"
+    },
+    {
+      "id": "silentgear:pickaxe_blueprint",
+      "from": "pickaxe blueprint",
+      "to": "镐蓝图"
+    },
+    {
+      "id": "silentgear:pickaxe_template",
+      "from": "pickaxe template",
+      "to": "镐模板"
+    },
+    {
+      "id": "silentgear:prospector_hammer_blueprint",
+      "from": "prospector hammer blueprint",
+      "to": "勘探锤蓝图"
+    },
+    {
+      "id": "silentgear:prospector_hammer_template",
+      "from": "prospector hammer template",
+      "to": "勘探锤模板"
+    },
+    {
+      "id": "silentgear:ring_blueprint",
+      "from": "ring blueprint",
+      "to": "戒指蓝图"
+    },
+    {
+      "id": "silentgear:ring_template",
+      "from": "ring template",
+      "to": "戒指模板"
+    },
+    {
+      "id": "silentgear:rod_blueprint",
+      "from": "rod blueprint",
+      "to": "工具手柄蓝图"
+    },
+    {
+      "id": "silentgear:rod_template",
+      "from": "rod template",
+      "to": "工具手柄模板"
+    },
+    {
+      "id": "silentgear:saw_blueprint",
+      "from": "saw blueprint",
+      "to": "锯蓝图"
+    },
+    {
+      "id": "silentgear:saw_template",
+      "from": "saw template",
+      "to": "锯模板"
+    },
+    {
+      "id": "silentgear:shears_blueprint",
+      "from": "shears blueprint",
+      "to": "剪刀蓝图"
+    },
+    {
+      "id": "silentgear:shears_template",
+      "from": "shears template",
+      "to": "剪刀模板"
+    },
+    {
+      "id": "silentgear:shield_blueprint",
+      "from": "shield blueprint",
+      "to": "盾牌蓝图"
+    },
+    {
+      "id": "silentgear:shield_template",
+      "from": "shield template",
+      "to": "盾牌模板"
+    },
+    {
+      "id": "silentgear:shovel_blueprint",
+      "from": "shovel blueprint",
+      "to": "锹蓝图"
+    },
+    {
+      "id": "silentgear:shovel_template",
+      "from": "shovel template",
+      "to": "锹模板"
+    },
+    {
+      "id": "silentgear:sickle_blueprint",
+      "from": "sickle blueprint",
+      "to": "镰刀蓝图"
+    },
+    {
+      "id": "silentgear:sickle_template",
+      "from": "sickle template",
+      "to": "镰刀模板"
+    },
+    {
+      "id": "silentgear:slingshot_blueprint",
+      "from": "slingshot blueprint",
+      "to": "弹弓蓝图"
+    },
+    {
+      "id": "silentgear:slingshot_template",
+      "from": "slingshot template",
+      "to": "弹弓模板"
+    },
+    {
+      "id": "silentgear:spear_blueprint",
+      "from": "spear blueprint",
+      "to": "矛蓝图"
+    },
+    {
+      "id": "silentgear:spear_template",
+      "from": "spear template",
+      "to": "矛模板"
+    },
+    {
+      "id": "silentgear:sword_blueprint",
+      "from": "sword blueprint",
+      "to": "剑蓝图"
+    },
+    {
+      "id": "silentgear:sword_template",
+      "from": "sword template",
+      "to": "剑模板"
+    },
+    {
+      "id": "silentgear:tip_blueprint",
+      "from": "tip blueprint",
+      "to": "顶端升级蓝图"
+    },
+    {
+      "id": "silentgear:tip_template",
+      "from": "tip template",
+      "to": "顶端升级模板"
+    },
+    {
+      "id": "silentgear:trident_blueprint",
+      "from": "trident blueprint",
+      "to": "三叉戟蓝图"
+    },
+    {
+      "id": "silentgear:trident_template",
+      "from": "trident template",
+      "to": "三叉戟模板"
+    },
+    {
+      "id": "stellaris:position_module",
+      "from": "position module",
+      "to": "位置模块"
+    },
+    {
+      "id": "integrateddynamics:menril_wood_stripped",
+      "from": "Stripped Menril Wood",
+      "to": "去皮门瑞欧木"
+    },
+    {
+      "id": "integrateddynamics:menril_log_stripped",
+      "from": "Stripped Menril Log",
+      "to": "去皮门瑞欧原木"
+    },
+    {
+      "id": "integratedcrafting:part_interface_crafting_enumerated",
+      "from": "part interface crafting enumerated",
+      "to": "枚举合成接口"
+    },
+    {
+      "id": "integratedcrafting:part_crafting_writer",
+      "from": "part crafting writer",
+      "to": "合成写入器"
+    },
+    {
+      "id": "integratedcrafting:part_interface_crafting",
+      "from": "part interface crafting",
+      "to": "合成接口"
+    },
+    {
+      "id": "integratedcrafting:part_interface_crafting_attuned",
+      "from": "part interface crafting attuned",
+      "to": "协调合成接口"
+    },
+    {
+      "id": "integratedtunnels:part_interface_filter_item",
+      "from": "part interface filter item",
+      "to": "过滤物品接口"
+    },
+    {
+      "id": "integratedtunnels:part_interface_filter_fluid",
+      "from": "part interface filter fluid",
+      "to": "过滤流体接口"
+    },
+    {
+      "id": "integratedtunnels:part_interface_filter_energy",
+      "from": "part interface filter energy",
+      "to": "过滤能量接口"
+    },
+    {
+      "id": "integratedterminals:chorus_glass",
+      "from": "Chorus Glass",
+      "to": "紫颂玻璃"
+    },
+    {
+      "id": "integratedterminals:part_terminal_storage",
+      "from": "part terminal storage",
+      "to": "存储终端"
+    },
+    {
+      "id": "integratedterminals:part_terminal_crafting_job",
+      "from": "part terminal crafting job",
+      "to": "合成任务终端"
+    },
+    {
+      "id": "integratedterminals:menril_glass",
+      "from": "Menril Glass",
+      "to": "门瑞欧玻璃"
+    },
+    {
+      "id": "integratedterminals:terminal_storage_portable",
+      "from": "terminal storage portable",
+      "to": "便携式存储终端"
+    },
+    {
+      "id": "solarflux:ae2/energy_upgrade",
+      "from": "ae2/energy upgrade",
+      "to": "AEU能源升级"
+    }
+  ],
+  "unresolved": [],
+  "renamedCount": 341,
+  "removedCount": 135,
+  "entries": 4631
+}

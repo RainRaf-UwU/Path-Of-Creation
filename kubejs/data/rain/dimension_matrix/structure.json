@@ -1,0 +1,393 @@
+{
+  "size": [
+    11,
+    11,
+    11
+  ],
+  "controller": [
+    5,
+    1,
+    10
+  ],
+  "base_pattern": [
+    [
+      "NCAAACAAACN",
+      "CCCCCCCCCCC",
+      "ACAAACAAACA",
+      "ACAPACAPACA",
+      "ACAAACAAACA",
+      "CCCCCCCCCCC",
+      "ACAAACAAACA",
+      "ACAPACAPACA",
+      "ACAAACAAACA",
+      "CCCCCCCCCCC",
+      "NCAAACAAACN"
+    ],
+    [
+      "FFFFFCFFFFF",
+      "FaaaaaaaaaF",
+      "FaaaaaaaaaF",
+      "FaaaaaaaaaF",
+      "FaaaaaaaaaF",
+      "CaaaaaaaaaC",
+      "FaaaaaaaaaF",
+      "FaaaaaaaaaF",
+      "FaaaaaaaaaF",
+      "FaaaaaaaaaF",
+      "FFFFFmFFFFF"
+    ],
+    [
+      "FaaaaCaaaaF",
+      "aaaaaaaaaaa",
+      "aaaaaaaaaaa",
+      "aaaaaaaaaaa",
+      "aaaaaaaaaaa",
+      "CaaaaaaaaaC",
+      "aaaaaaaaaaa",
+      "aaaaaaaaaaa",
+      "aaaaaaaaaaa",
+      "aaaaaaaaaaa",
+      "FaaaaCaaaaF"
+    ],
+    [
+      "NaaaaCaaaaN",
+      "aaaaaaaaaaa",
+      "aaaaaaaaaaa",
+      "aaaaaaaaaaa",
+      "aaaaaaaaaaa",
+      "CaaaaaaaaaC",
+      "aaaaaaaaaaa",
+      "aaaaaaaaaaa",
+      "aaaaaaaaaaa",
+      "aaaaaaaaaaa",
+      "NaaaaCaaaaN"
+    ],
+    [
+      "FaaaFFFaaaF",
+      "aaaaaaaaaaa",
+      "aaaaaaaaaaa",
+      "aaaaaaaaaaa",
+      "FaaaaaaaaaF",
+      "FaaaaaaaaaF",
+      "FaaaaaaaaaF",
+      "aaaaaaaaaaa",
+      "aaaaaaaaaaa",
+      "aaaaaaaaaaa",
+      "FaaaFFFaaaF"
+    ],
+    [
+      "FaaaNNNaaaF",
+      "aaaaaaaaaaa",
+      "aaaaaaaaaaa",
+      "aaaaaaaaaaa",
+      "NaaaaaaaaaN",
+      "NaaaaaaaaaN",
+      "NaaaaaaaaaN",
+      "aaaaaaaaaaa",
+      "aaaaaaaaaaa",
+      "aaaaaaaaaaa",
+      "FaaaNNNaaaF"
+    ],
+    [
+      "NaaaFFFaaaN",
+      "aaaaaaaaaaa",
+      "aaaaaaaaaaa",
+      "aaaaaaaaaaa",
+      "FaaaaaaaaaF",
+      "FaaaaaaaaaF",
+      "FaaaaaaaaaF",
+      "aaaaaaaaaaa",
+      "aaaaaaaaaaa",
+      "aaaaaaaaaaa",
+      "NaaaFFFaaaN"
+    ],
+    [
+      "FaaaaCaaaaF",
+      "aaaaaaaaaaa",
+      "aaaaaaaaaaa",
+      "aaaaaaaaaaa",
+      "aaaaaaaaaaa",
+      "CaaaaaaaaaC",
+      "aaaaaaaaaaa",
+      "aaaaaaaaaaa",
+      "aaaaaaaaaaa",
+      "aaaaaaaaaaa",
+      "FaaaaCaaaaF"
+    ],
+    [
+      "FaaaaCaaaaF",
+      "aaaaaaaaaaa",
+      "aaaaaaaaaaa",
+      "aaaaaaaaaaa",
+      "aaaaaaaaaaa",
+      "CaaaaaaaaaC",
+      "aaaaaaaaaaa",
+      "aaaaaaaaaaa",
+      "aaaaaaaaaaa",
+      "aaaaaaaaaaa",
+      "FaaaaCaaaaF"
+    ],
+    [
+      "NFFFFCFFFFN",
+      "FaaaaaaaaaF",
+      "FaaaaaaaaaF",
+      "FaaaaaaaaaF",
+      "FaaaaaaaaaF",
+      "CaaaaaaaaaC",
+      "FaaaaaaaaaF",
+      "FaaaaaaaaaF",
+      "FaaaaaaaaaF",
+      "FaaaaaaaaaF",
+      "NFFFFCFFFFN"
+    ],
+    [
+      "FFFFFCFFFFF",
+      "FaaaaCaaaaF",
+      "FaaaaCaaaaF",
+      "FaaaaCaaaaF",
+      "FaaaaCaaaaF",
+      "CCCCCCCCCCC",
+      "FaaaaCaaaaF",
+      "FaaaaCaaaaF",
+      "FaaaaCaaaaF",
+      "FaaaaCaaaaF",
+      "FFFFFCFFFFF"
+    ]
+  ],
+  "ports": {
+    "reference_facing": "south",
+    "input_x": 0,
+    "output_x": 10,
+    "y_min": 1,
+    "y_max": 9,
+    "z_min": 1,
+    "z_max": 9,
+    "rate": 1000000,
+    "coolant_z": 0,
+    "coolant_x_min": 1,
+    "coolant_x_max": 9
+  },
+  "projectors": [
+    [
+      3,
+      0,
+      3
+    ],
+    [
+      3,
+      0,
+      7
+    ],
+    [
+      7,
+      0,
+      3
+    ],
+    [
+      7,
+      0,
+      7
+    ]
+  ],
+  "pattern": [
+    [
+      "NCAAACAAACN",
+      "CCCCCCCCCCC",
+      "ACAAACAAACA",
+      "ACAPACAPACA",
+      "ACAAACAAACA",
+      "CCCCCCCCCCC",
+      "ACAAACAAACA",
+      "ACAPACAPACA",
+      "ACAAACAAACA",
+      "CCCCCCCCCCC",
+      "NCAAACAAACN"
+    ],
+    [
+      "FwwwwxwwwwF",
+      "faaaaaaaaar",
+      "faaaaaaaaar",
+      "faaaaaaaaar",
+      "faaaaaaaaar",
+      "caaaaaaaaas",
+      "faaaaaaaaar",
+      "faaaaaaaaar",
+      "faaaaaaaaar",
+      "faaaaaaaaar",
+      "FFFFFmFFFFF"
+    ],
+    [
+      "FzzzzxzzzzF",
+      "baaaaaaaaaq",
+      "baaaaaaaaaq",
+      "baaaaaaaaaq",
+      "baaaaaaaaaq",
+      "caaaaaaaaas",
+      "baaaaaaaaaq",
+      "baaaaaaaaaq",
+      "baaaaaaaaaq",
+      "baaaaaaaaaq",
+      "FaaaaCaaaaF"
+    ],
+    [
+      "NzzzzxzzzzN",
+      "baaaaaaaaaq",
+      "baaaaaaaaaq",
+      "baaaaaaaaaq",
+      "baaaaaaaaaq",
+      "caaaaaaaaas",
+      "baaaaaaaaaq",
+      "baaaaaaaaaq",
+      "baaaaaaaaaq",
+      "baaaaaaaaaq",
+      "NaaaaCaaaaN"
+    ],
+    [
+      "FzzzwwwzzzF",
+      "baaaaaaaaaq",
+      "baaaaaaaaaq",
+      "baaaaaaaaaq",
+      "faaaaaaaaar",
+      "faaaaaaaaar",
+      "faaaaaaaaar",
+      "baaaaaaaaaq",
+      "baaaaaaaaaq",
+      "baaaaaaaaaq",
+      "FaaaFFFaaaF"
+    ],
+    [
+      "FzzzyyyzzzF",
+      "baaaaaaaaaq",
+      "baaaaaaaaaq",
+      "baaaaaaaaaq",
+      "naaaaaaaaat",
+      "naaaaaaaaat",
+      "naaaaaaaaat",
+      "baaaaaaaaaq",
+      "baaaaaaaaaq",
+      "baaaaaaaaaq",
+      "FaaaNNNaaaF"
+    ],
+    [
+      "NzzzwwwzzzN",
+      "baaaaaaaaaq",
+      "baaaaaaaaaq",
+      "baaaaaaaaaq",
+      "faaaaaaaaar",
+      "faaaaaaaaar",
+      "faaaaaaaaar",
+      "baaaaaaaaaq",
+      "baaaaaaaaaq",
+      "baaaaaaaaaq",
+      "NaaaFFFaaaN"
+    ],
+    [
+      "FzzzzxzzzzF",
+      "baaaaaaaaaq",
+      "baaaaaaaaaq",
+      "baaaaaaaaaq",
+      "baaaaaaaaaq",
+      "caaaaaaaaas",
+      "baaaaaaaaaq",
+      "baaaaaaaaaq",
+      "baaaaaaaaaq",
+      "baaaaaaaaaq",
+      "FaaaaCaaaaF"
+    ],
+    [
+      "FzzzzxzzzzF",
+      "baaaaaaaaaq",
+      "baaaaaaaaaq",
+      "baaaaaaaaaq",
+      "baaaaaaaaaq",
+      "caaaaaaaaas",
+      "baaaaaaaaaq",
+      "baaaaaaaaaq",
+      "baaaaaaaaaq",
+      "baaaaaaaaaq",
+      "FaaaaCaaaaF"
+    ],
+    [
+      "NwwwwxwwwwN",
+      "faaaaaaaaar",
+      "faaaaaaaaar",
+      "faaaaaaaaar",
+      "faaaaaaaaar",
+      "caaaaaaaaas",
+      "faaaaaaaaar",
+      "faaaaaaaaar",
+      "faaaaaaaaar",
+      "faaaaaaaaar",
+      "NFFFFCFFFFN"
+    ],
+    [
+      "FFFFFCFFFFF",
+      "FaaaaCaaaaF",
+      "FaaaaCaaaaF",
+      "FaaaaCaaaaF",
+      "FaaaaCaaaaF",
+      "CCCCCCCCCCC",
+      "FaaaaCaaaaF",
+      "FaaaaCaaaaF",
+      "FaaaaCaaaaF",
+      "FaaaaCaaaaF",
+      "FFFFFCFFFFF"
+    ]
+  ],
+  "keys": {
+    "A": "rain:dimension_matrix_casing",
+    "F": "rain:dimension_matrix_frame",
+    "C": "rain:dimension_matrix_conduit",
+    "N": "rain:dimension_matrix_anchor",
+    "P": "poc_dimension_matrix:projection_module",
+    "a": "minecraft:air",
+    "f": [
+      "rain:dimension_matrix_frame",
+      "poc_dimension_matrix:energy_input_port"
+    ],
+    "c": [
+      "rain:dimension_matrix_conduit",
+      "poc_dimension_matrix:energy_input_port"
+    ],
+    "b": [
+      "minecraft:air",
+      "poc_dimension_matrix:energy_input_port"
+    ],
+    "n": [
+      "rain:dimension_matrix_anchor",
+      "poc_dimension_matrix:energy_input_port"
+    ],
+    "r": [
+      "rain:dimension_matrix_frame",
+      "poc_dimension_matrix:energy_output_port"
+    ],
+    "s": [
+      "rain:dimension_matrix_conduit",
+      "poc_dimension_matrix:energy_output_port"
+    ],
+    "q": [
+      "minecraft:air",
+      "poc_dimension_matrix:energy_output_port"
+    ],
+    "t": [
+      "rain:dimension_matrix_anchor",
+      "poc_dimension_matrix:energy_output_port"
+    ],
+    "w": [
+      "rain:dimension_matrix_frame",
+      "poc_dimension_matrix:coolant_input_port"
+    ],
+    "x": [
+      "rain:dimension_matrix_conduit",
+      "poc_dimension_matrix:coolant_input_port"
+    ],
+    "z": [
+      "minecraft:air",
+      "poc_dimension_matrix:coolant_input_port"
+    ],
+    "y": [
+      "rain:dimension_matrix_anchor",
+      "poc_dimension_matrix:coolant_input_port"
+    ]
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "name": {
+    "text": {
+      "translate": "cm.rain.dimension_matrix.name"
+    }
+  },
+  "appearance": {
+    "custommachinery:block": "rain:machine/dimension_matrix#standalone",
+    "custommachinery:hardness": 5,
+    "custommachinery:resistance": 12,
+    "running": {
+      "custommachinery:light": 10
+    }
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "capacity": 100000000,
+      "max_input": 1000000,
+      "max_output": 0,
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT",
+        "input": true
+      }
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_1",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_2",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_3",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output",
+      "mode": "output",
+      "config": {
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT",
+        "output": true
+      }
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "width": 208,
+      "height": 192
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 16,
+      "y": 31,
+      "height": 54
+    },
+    {
+      "type": "custommachinery:config",
+      "x": 180,
+      "y": 8
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_1",
+      "x": 42,
+      "y": 48
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_2",
+      "x": 62,
+      "y": 48
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_3",
+      "x": 82,
+      "y": 48
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 110,
+      "y": 49
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output",
+      "x": 150,
+      "y": 45,
+      "width": 26,
+      "height": 26
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 23,
+      "y": 103
+    }
+  ],
+  "tooltips": [
+    {
+      "text": {
+        "translate": "rain.dimension_matrix.tooltip"
+      }
+    }
+  ]
+}

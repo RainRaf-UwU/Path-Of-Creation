@@ -1,0 +1,10 @@
+{
+ "date":"2026-10-20",
+ "testedJarSha256":"9285dfebc0cc0026b9ac6fe0451c55a598ad9c4828fe95726867824e92026a5a",
+ "narrativeAssertions":1334,
+ "manualAssertions":11011,
+ "actualNbtMigrationAndOnceOnlyDelivery":"pass",
+ "installedApiAndMixinSignatureAudit":"pass",
+ "runtimeStarted":false,
+ "note":"首次 expanded-final-build 使用 --test --preview 全部通过；随后仅追加两张预览图并 --preview 重建，运行JAR SHA256与测试版本一致。build-result.json记录最后一次仅预览构建，因此tests字段为false；这不代表执行过游戏验证。"
+}

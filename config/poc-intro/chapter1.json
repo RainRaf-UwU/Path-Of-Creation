@@ -1,0 +1,152 @@
+{
+  "first": "crafted",
+  "nodes": [
+    {
+      "id": "crafted",
+      "speaker": "self",
+      "text": "poc_intro.story.chapter1.crafted",
+      "next": "echo"
+    },
+    {
+      "id": "echo",
+      "speaker": "system",
+      "text": "poc_intro.story.chapter1.echo",
+      "next": "hands"
+    },
+    {
+      "id": "hands",
+      "speaker": "self",
+      "text": "poc_intro.story.chapter1.hands",
+      "next": "memory"
+    },
+    {
+      "id": "memory",
+      "speaker": "system",
+      "text": "poc_intro.story.chapter1.memory",
+      "next": "fragment"
+    },
+    {
+      "id": "fragment",
+      "speaker": "self",
+      "text": "poc_intro.story.chapter1.fragment",
+      "next": "record"
+    },
+    {
+      "id": "record",
+      "speaker": "system",
+      "text": "poc_intro.story.chapter1.record",
+      "next": "question"
+    },
+    {
+      "id": "question",
+      "speaker": "self",
+      "text": "poc_intro.story.chapter1.question",
+      "choices": [
+        {
+          "text": "poc_intro.story.chapter1.question.choice.1",
+          "next": "resolve"
+        },
+        {
+          "text": "poc_intro.story.chapter1.question.choice.2",
+          "next": "fear"
+        }
+      ]
+    },
+    {
+      "id": "resolve",
+      "speaker": "system",
+      "text": "poc_intro.story.chapter1.resolve",
+      "next": "before"
+    },
+    {
+      "id": "fear",
+      "speaker": "system",
+      "text": "poc_intro.story.chapter1.fear",
+      "next": "before"
+    },
+    {
+      "id": "before",
+      "speaker": "system",
+      "text": "poc_intro.story.chapter1.before",
+      "next": "copy"
+    },
+    {
+      "id": "copy",
+      "speaker": "self",
+      "text": "poc_intro.story.chapter1.copy",
+      "next": "exchange"
+    },
+    {
+      "id": "exchange",
+      "speaker": "system",
+      "text": "poc_intro.story.chapter1.exchange",
+      "next": "complaint"
+    },
+    {
+      "id": "complaint",
+      "speaker": "self",
+      "text": "poc_intro.story.chapter1.complaint",
+      "next": "comfort"
+    },
+    {
+      "id": "comfort",
+      "speaker": "system",
+      "text": "poc_intro.story.chapter1.comfort",
+      "next": "keepsake"
+    },
+    {
+      "id": "keepsake",
+      "speaker": "self",
+      "text": "poc_intro.story.chapter1.keepsake",
+      "next": "echo_keep"
+    },
+    {
+      "id": "echo_keep",
+      "speaker": "system",
+      "text": "poc_intro.story.chapter1.echo_keep",
+      "next": "duplicate"
+    },
+    {
+      "id": "duplicate",
+      "speaker": "system",
+      "text": "poc_intro.story.chapter1.duplicate",
+      "next": "relief"
+    },
+    {
+      "id": "relief",
+      "speaker": "self",
+      "text": "poc_intro.story.chapter1.relief",
+      "next": "industry"
+    },
+    {
+      "id": "industry",
+      "speaker": "system",
+      "text": "poc_intro.story.chapter1.industry",
+      "next": "answer"
+    },
+    {
+      "id": "answer",
+      "speaker": "self",
+      "text": "poc_intro.story.chapter1.answer",
+      "next": "dawn"
+    },
+    {
+      "id": "dawn",
+      "speaker": "system",
+      "text": "poc_intro.story.chapter1.dawn",
+      "next": "end"
+    }
+  ],
+  "labels": {
+    "system": "poc_intro.story.chapter1.label.system",
+    "self": "poc_intro.story.chapter1.label.self",
+    "prologue": "poc_intro.story.chapter1.label.prologue",
+    "continue": "poc_intro.story.chapter1.label.continue",
+    "typing": "poc_intro.story.chapter1.label.typing",
+    "choose": "poc_intro.story.chapter1.label.choose",
+    "choiceTyping": "poc_intro.story.chapter1.label.choiceTyping",
+    "release": "poc_intro.story.chapter1.label.release",
+    "releaseSub": "poc_intro.story.chapter1.label.releaseSub",
+    "flight": "poc_intro.story.chapter1.label.flight"
+  }
+}

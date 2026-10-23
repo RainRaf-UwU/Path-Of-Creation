@@ -5,10 +5,10 @@ license="MIT"
 [[mods]]
 modId="poc_intro"
 version="1.0.0"
-displayName="创世之径 · 序章"
+displayName="创世之径 · 剧情与科技手册"
 authors="RainRaf-UwU"
 displayURL="https://github.com/RainRaf-UwU/Path-Of-Creation"
-description='''仅在创建新世界时播放的开场：第一人称直线睁眼后切换第三人称、环顾虚空、ECHO 对话与选项、真实皮肤立绘及逐字音效。旧世界不补播。'''
+description='''新世界 ECHO 序章、第一章工作台剧情与科技机器手册。剧情期间冻结世界，结束恢复。旧世界已完成第一章的玩家不补播；JSON定义剧情流程，文本随游戏语言切换。'''
 
 [[mixins]]
 config="poc_intro.mixins.json"
@@ -21,8 +21,29 @@ ordering="NONE"
 side="BOTH"
 
 [[dependencies.poc_intro]]
+modId="jei"
+type="required"
+versionRange="[19.57,20)"
+ordering="AFTER"
+side="CLIENT"
+
+[[dependencies.poc_intro]]
 modId="minecraft"
 type="required"
 versionRange="[1.21.1]"
 ordering="NONE"
+side="BOTH"
+
+[[dependencies.poc_intro]]
+modId="extendedcrafting"
+type="required"
+versionRange="[7.0.9,7.1)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.poc_intro]]
+modId="ftbquests"
+type="required"
+versionRange="[2101.1.36,2102)"
+ordering="AFTER"
 side="BOTH"

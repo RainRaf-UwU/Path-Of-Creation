@@ -1,46 +1,614 @@
 ServerEvents.recipes(event => {
 
   const structure_block = [
+  [
     [
-["aaaaa","aaaaa","aaaaa","aaaaa","aaaaa"],
-["  b  "," ccc ","bcccb"," cdc ","  m  "],
-["     "," ccc "," ccc "," ccc ","     "],
-["     "," eee "," ege "," eee ","     "],
-["     ","     ","  h  ","     ","     "]
-   ],
-   [
-["             ","             ","             ","             ","             ","             ","      a      ","             ","             ","             ","             ","             ","             "],
-["             ","             ","             ","             ","             ","      a      ","     aba     ","      a      ","             ","             ","             ","             ","             "],
-["             ","             ","             ","             ","      a      ","     aba     ","    abbba    ","     aba     ","      a      ","             ","             ","             ","             "],
-["             ","             ","             ","      a      ","     aca     ","    accca    ","   accccca   ","    accca    ","     aca     ","      a      ","             ","             ","             "],
-["             ","             ","      a      ","     ada     ","    addda    ","   addddda   ","  adddeddda  ","   addddda   ","    addda    ","     ada     ","      a      ","             ","             "],
-["             "," ff       ff "," f         f ","             ","             ","             ","      m      ","             ","             ","             "," f         f "," ff       ff ","             "],
-[" ff       ff ","fggdddddddggf","fgddhhhhhddgf"," ddh     hdd "," dh       hd "," dh       hd "," dh       hd "," dh       hd "," dh       hd "," ddh     hdd ","fgddhhhhhddgf","fggdddddddggf"," ff       ff "],
-[" ff       ff ","fgghhhhhhhggf","fghh     hhgf"," hh       hh "," h         h "," h         h "," h         h "," h         h "," h         h "," hh       hh ","fghh     hhgf","fgghhhhhhhggf"," ff       ff "],
-["             "," ff       ff "," f         f ","             ","             ","             ","             ","             ","             ","             "," f         f "," ff       ff ","             "]
-],
-[
-["                  ","                  ","  aaaaaaaaaaaaaa  ","  aaaaaaaaaaaaaa  ","  aaaaaaaaaaaaaa  ","  aaaaaaaaaaaaaa  ","  aaaaaaaaaaaaaa  ","  aaaaaaaaaaaaaa  ","  aaaaaaaaaaaaaa  ","  aaaaaaaaaaaaaa  ","  aaaaaaaaaaaaaa  ","  aaaaaaaaaaaaaa  ","  aaaaaaaaaaaaaa  ","  aaaaaaaaaaaaaa  ","  aaaaaaaaaaaaaa  ","  aaaaaaaaaaaaaa  ","                  ","                  "],
-["                  ","                  ","  bbbbbbbbbbbbbb  ","  bbbbbbbbbbbbbb  ","  cccccccccccccc  ","  dddddddddddddd  ","  eeeeeeeeeeeeee  ","  ffffffffffffff  ","  gggggggggggggg  ","  hhhhhhhhhhhhhh  ","  iiii iiiiiiiii  ","  jjjjjjjjjjjjjj  ","  kkkkkkkkkkkkkk  ","  llllllllllllll  ","  nnnnnnnnnnnnnn  ","  oooooooooooooo  ","                  ","                  "],
-["                  ","                  ","  pppppppppppppp  ","  pqqqqqqqqqqqqp  ","  pqqqqqqqqqqqqp  ","  pqqqqqqqqqqqqp  ","  pqqqqqqqqqqqqp  ","  pqqqqqqqqqqqqp  ","  pqqqqqrrqqqqqp  ","  pqqqqqrrqqqqqp  ","  pqqqq qqqqqqqp  ","  pqqqqqqqqqqqqp  ","  pqqqqqqqqqqqqp  ","  pqqqqqqqqqqqqp  ","  pqqqqqqqqqqqqp  ","  pppppppppppppp  ","                  ","                  "],
-["                  ","                  ","  pppppppppppppp  ","  p            p  ","  p            p  ","  p            p  ","  p            p  ","  p    rrrr    p  ","  p    rrrr    p  ","  p    rrrr    p  ","  p    rrrr    p  ","  p            p  ","  p            p  ","  p            p  ","  p            p  ","  pppppppppppppp  ","                  ","                  "],
-["                  ","                  ","  pppp ppppppppp  ","  p            p  ","  p            p  ","  p            p  ","  p   rrrrrr   p  ","  p   rrrrrr   p  ","  p   rrrrrr   p  ","  p   rrrrrr   p  ","  p   rrrrrr   p  ","  p   rrrrrr   p  ","  p            p  ","  p            p  ","  p            p  ","  pppppppppppppp  ","                  ","                  "],
-["                  ","                  ","  pppppppppppppp  ","  p            p  ","  p            p  ","  p  rrrrrrrr  p  ","  p  rrrrrrrr  p  ","  p  rrrrrrrr  p  ","  p  rrrrrrrr  p  ","  p  rrrrrrrr  p  ","  p  rrrrrrrr  p  ","  p  rrrrrrrr  p  ","  p  rrrrrrrr  p  ","  p            p  ","  p            p  ","  pppppppppppppp  ","                  ","                  "],
-["                  ","                  ","  pppppppppppppp  ","  p            p  ","  p rrrrrrrrrr p  ","  p rrrrrrrrrr p  ","  p rrrrrrrrrr p  ","  p rrrrrrrrrr p  ","  p rrrrrrrrrr p  ","  p rrrrrrrrrr p  ","  p rrrrrrrrrr p  ","  p rrrrrrrrrr p  ","  p rrrrrrrrrr p  ","  p rrrrrrrrrr p  ","  p            p  ","  pppppppppppppp  ","                  ","                  "],
-["                  ","                  ","  ssssssssssssss  ","  srrrrrrrrrrrrs  ","  srrrrrrrrrrrrs  ","  srrrrrrrrrrrrs  ","  srrrrrrrrrrrrs  ","  srrrrrrrrrrrrs  ","  srrrrrrrrrrrrs  ","  srrrrrrrrrrrrs  ","  srrrrrrrrrrrrs  ","  srrrrrrrrrrrrs  ","  srrrrrrrrrrrrs  ","  srrrrrrrrrrrrs  ","  srrrrrrrrrrrrs  ","  ssssssssssssss  ","                  ","                  "],
-["                  "," tt            tt "," trrrrrrrrrrrrrrt ","  rrrrrrrrrrrrrr  ","  rrrrrrrrrrrrrr  ","  rrrrrrrrrrrrrr  ","  rrrrrrrrrrrrrr  ","  rrrrrrrrrrrrrr  ","  rrrrrrrrrrrrrr  ","  rrrrrrrrrrrrrr  ","  rrrrrrrrrrrrrr  ","  rrrrrrrrrrrrrr  ","  rrrrrrrrrrrrrr  ","  rrrrrrrrrrrrrr  ","  rrrrrrrrrrrrrr  "," trrrrrrrrrrrrrrt "," tt            tt ","                  "],
-["                  "," tu            ut "," uvwwwwwwwwwwwwvu ","  wv          vw  ","  w v        v w  ","  w  v      v  w  ","  w   vxyyyv   w  ","  w   yvAAvB   w  ","  w   xAvvAy   w  ","  w   xAvvAB   w  ","  w   xvAAvB   w  ","  w   vyyyyv   w  ","  w  v      v  w  ","  w v        v w  ","  wv          vw  "," uvwwwwwwwwwwwwvu "," tu            ut ","                  "],
-["                  "," tC            Ct "," CC            CC ","                  ","                  ","                  ","                  ","                  ","        DD        ","        DD        ","                  ","                  ","                  ","                  ","                  "," CC            CC "," tC            Ct ","                  "],
-["                  "," t              t ","                  ","                  ","                  ","                  ","                  ","                  ","        DD        ","        DD        ","                  ","                  ","                  ","                  ","                  ","                  "," t              t ","                  "],
-["                  "," t              t ","                  ","                  ","                  ","                  ","                  ","                  ","        DD        ","        DD        ","                  ","                  ","                  ","                  ","                  ","                  "," t              t ","                  "],
-["                  "," t              t ","                  ","                  ","                  ","                  ","                  ","                  ","        DD        ","        DD        ","                  ","                  ","                  ","                  ","                  ","                  "," t              t ","                  "],
-["EEE            EEE","EtE            EtE","EEE            EEE","                  ","                  ","                  ","                  ","                  ","        DD        ","        DD        ","                  ","                  ","                  ","                  ","                  ","EEE            EEE","EtE            EtE","EEE            EEE"],
-["EEE            EEE","EFE            EFE","EEE            EEE","                  ","                  ","                  ","                  ","                  ","                  ","                  ","                  ","                  ","                  ","                  ","                  ","EEE            EEE","EFE            EFE","EEE            EEE"],
-["EEE            EEE","EEE            EEE","EEE            EEE","                  ","                  ","                  ","                  ","       GGGG       ","       GHHG       ","       GHHG       ","       GGGG       ","                  ","                  ","                  ","                  ","EEE            EEE","EEE            EEE","EEE            EEE"],
-["                  ","                  ","                  ","                  ","                  ","                  ","                  ","       GGGG       ","       GIIG       ","       GIIG       ","       GGGG       ","                  ","                  ","                  ","                  ","                  ","                  ","                  "],
-["                  ","                  ","                  ","                  ","                  ","                  ","                  ","                  ","                  ","        m         ","                  ","                  ","                  ","                  ","                  ","                  ","                  ","                  "]
-]
+      "aaaaa",
+      "aaaaa",
+      "aaaaa",
+      "aaaaa",
+      "aaaaa",
+      "     "
+    ],
+    [
+      "     ",
+      "ce ec",
+      "ce ec",
+      "c   c",
+      "  d  ",
+      "  m  "
+    ],
+    [
+      "     ",
+      " e e ",
+      "ce ec",
+      "     ",
+      "  h  ",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      "c g c",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      "cbbbc",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      "ccccc",
+      "     ",
+      "     ",
+      "     "
+    ]
+  ],
+  [
+    [
+      "           ",
+      "           ",
+      "    aaaa   ",
+      "  aaaaaa   ",
+      "  aaaaaaa  ",
+      "  aaaaaaa  ",
+      "  aaaaaaa  ",
+      "   aaaaaa  ",
+      "   aaaa    ",
+      "           ",
+      "           ",
+      "           "
+    ],
+    [
+      "   fffff   ",
+      " gff   ffg ",
+      " ff     ff ",
+      "ff   c   ff",
+      "f   ccc   f",
+      "f  ccccc  f",
+      "f   ccc   f",
+      "ff   c   ff",
+      " ff     ff ",
+      " gff   ffg ",
+      "   ffeff   ",
+      "     m     "
+    ],
+    [
+      "           ",
+      " ddddddddd ",
+      " d       d ",
+      " d       d ",
+      " d       d ",
+      " d       d ",
+      " d       d ",
+      " d       d ",
+      " d       d ",
+      " ddddddddd ",
+      "           ",
+      "           "
+    ],
+    [
+      "           ",
+      " hhhhhhhhh ",
+      " h       h ",
+      " h       h ",
+      " h       h ",
+      " h       h ",
+      " h       h ",
+      " h       h ",
+      " h       h ",
+      " hhhhhhhhh ",
+      "           ",
+      "           "
+    ],
+    [
+      "           ",
+      " g       g ",
+      "           ",
+      "           ",
+      "           ",
+      "           ",
+      "           ",
+      "           ",
+      "           ",
+      " g       g ",
+      "           ",
+      "           "
+    ],
+    [
+      "           ",
+      " g       g ",
+      "           ",
+      "           ",
+      "           ",
+      "           ",
+      "           ",
+      "           ",
+      "           ",
+      " g       g ",
+      "           ",
+      "           "
+    ],
+    [
+      "           ",
+      " ddddddddd ",
+      " d       d ",
+      " d       d ",
+      " d       d ",
+      " d       d ",
+      " d       d ",
+      " d       d ",
+      " d       d ",
+      " ddddddddd ",
+      "           ",
+      "           "
+    ],
+    [
+      "           ",
+      " hhhhhhhhh ",
+      " h       h ",
+      " h       h ",
+      " h  bbb  h ",
+      " h       h ",
+      " h  bbb  h ",
+      " h       h ",
+      " h       h ",
+      " hhhhhhhhh ",
+      "           ",
+      "           "
+    ],
+    [
+      "   fffff   ",
+      " gff   ffg ",
+      " ff     ff ",
+      "ff       f ",
+      "f          ",
+      "           ",
+      "           ",
+      "           ",
+      "           ",
+      " g       g ",
+      "           ",
+      "           "
+    ],
+    [
+      "           ",
+      " g       g ",
+      "           ",
+      "           ",
+      "           ",
+      "           ",
+      "           ",
+      "           ",
+      "           ",
+      " g       g ",
+      "           ",
+      "           "
+    ],
+    [
+      "           ",
+      " g       g ",
+      "           ",
+      "           ",
+      "           ",
+      "           ",
+      "           ",
+      "           ",
+      "           ",
+      " g       g ",
+      "           ",
+      "           "
+    ]
+  ],
+  [
+    [
+      "                 ",
+      "     aaaaaaaa    ",
+      "   aaaaaaaaaaa   ",
+      "  aaaaaaaaaaaaa  ",
+      " aaaaaaaaaaaaaa  ",
+      " aaaaaaaaaaaaaaa ",
+      " aaaaaaaaaaaaaaa ",
+      " aaaaaaaaaaaaaaa ",
+      " aaaaaaa aaaaaaa ",
+      " aaaaaaaaaaaaaaa ",
+      " aaaaaaaaaaaaaaa ",
+      " aaaaaaaaaaaaaaa ",
+      "  aaaaaaaaaaaaaa ",
+      "  aaaaaaaaaaaaa  ",
+      "   aaaaaaaaaaa   ",
+      "    aaaaaaaa     ",
+      "                 ",
+      "                 ",
+      "                 "
+    ],
+    [
+      "rrr           rrr",
+      "rrr           rrr",
+      "rrr           rrr",
+      "      ppppp      ",
+      "     ppbbbpp     ",
+      "    ppbtttbpp    ",
+      "   ppbtttttbpp   ",
+      "   pbtttttttbp   ",
+      "   pb ttttttbp   ",
+      "   pbtttttttbp   ",
+      "   ppbtttttbpp   ",
+      "    ppbtttbpp    ",
+      "     ppbbbpp     ",
+      "      ppppp      ",
+      "rrr           rrr",
+      "rrr           rrr",
+      "rrr           rrr",
+      "        I        ",
+      "        m        "
+    ],
+    [
+      "rrr           rrr",
+      "rrr           rrr",
+      "rrr   rrrrr   rrr",
+      "     rpppppr     ",
+      "    rppbbbppr    ",
+      "   rppb   bppr   ",
+      "  rppb     bppr  ",
+      "  rpb       qpr  ",
+      "  rpu       qpr  ",
+      "  rpq       qpr  ",
+      "  rppq     qppr  ",
+      "   rppq   qppr   ",
+      "    rppqqqppr    ",
+      "     rpppppr     ",
+      "rrr   rrrrr   rrr",
+      "rrr           rrr",
+      "rrr           rrr",
+      "                 ",
+      "                 "
+    ],
+    [
+      "rrr           rrr",
+      "rrr           rrr",
+      "rrr   qqqqq   rrr",
+      "     qpppppq     ",
+      "    qppuuuppq    ",
+      "   qppuwwwuppq   ",
+      "  qppuww wwxppq  ",
+      "  qpuww   wwxpq  ",
+      "  qpyw     wxpq  ",
+      "  qpyww   wwxpq  ",
+      "  qppyww wwyppq  ",
+      "   qppywwwyppq   ",
+      "    qppyyyppq    ",
+      "     qpppppq     ",
+      "rrr   qqqqq   rrr",
+      "rrr           rrr",
+      "rrr           rrr",
+      "                 ",
+      "                 "
+    ],
+    [
+      "rrr  EEEEEEE  rrr",
+      "rrr EE     EE rrr",
+      "rrrEE       EErrr",
+      "  EE  ppppp  EE  ",
+      " EE  ppAAApp  EE ",
+      "EE  ppAwwwApp  EE",
+      "E  ppAww wwApp  E",
+      "E  pAww   wwBp  E",
+      "E  pCw     wBp  E",
+      "E  pCww   wwBp  E",
+      "E  ppCww wwCpp  E",
+      "EE  ppCwwwCpp  EE",
+      " EE  ppCCCpp  EE ",
+      "  EE  ppppp  EE  ",
+      "rrrEE       EErrr",
+      "rrr EE     EE rrr",
+      "rrr  EEEEEEE  rrr",
+      "                 ",
+      "                 "
+    ],
+    [
+      "rrr           rrr",
+      "rrr  sssssss  rrr",
+      "rrr ssrrrrrss rrr",
+      "   ssrppppprss   ",
+      "  ssrppDDDpprss  ",
+      " ssrppC   Dpprss ",
+      " srppC     Dpprs ",
+      " srpC       Dprs ",
+      "  rpD       Dprs ",
+      "  rpD       Dprs ",
+      "  rppD     Dpprs ",
+      "  srppD   Dpprss ",
+      "  ssrppDDDpprss  ",
+      "   ssrppppprss   ",
+      "rrr ssrrrrrss rrr",
+      "rrr  sssssss  rrr",
+      "rrr           rrr",
+      "                 ",
+      "                 "
+    ],
+    [
+      "rrr           rrr",
+      "rrr           rrr",
+      "rrr   qqqqq   rrr",
+      "     qpppppq     ",
+      "    qppFFFppq    ",
+      "   qppDcccFppq   ",
+      "  qppDcc ccGppq  ",
+      "  qpDcc   ccGpq  ",
+      "  qpG      cGpq  ",
+      "  qpG     ccGpq  ",
+      "  qppG     Gppq  ",
+      "   qppG   Gppq   ",
+      "    qppGGGppq    ",
+      "     qpppppq     ",
+      "rrr   qqqqq   rrr",
+      "rrr           rrr",
+      "rrr           rrr",
+      "                 ",
+      "                 "
+    ],
+    [
+      "rrr           rrr",
+      "rrr           rrr",
+      "rrr           rrr",
+      "      ppppp      ",
+      "     ppGGGpp     ",
+      "    ppGdddGpp    ",
+      "   ppGdd ddGpp   ",
+      "   pGdd   ddGp   ",
+      "           dG    ",
+      "          ddG    ",
+      "     I     H     ",
+      "      I   H      ",
+      "       IHH       ",
+      "                 ",
+      "rrr           rrr",
+      "rrr           rrr",
+      "rrr           rrr",
+      "                 ",
+      "                 "
+    ],
+    [
+      "rrr           rrr",
+      "rrr           rrr",
+      "rrr   rrrrr   rrr",
+      "     r     r     ",
+      "    r       r    ",
+      "   r   eee   r   ",
+      "  r   ee ee   r  ",
+      "  r  ee   ee  r  ",
+      "  r        e  r  ",
+      "  r       ee  r  ",
+      "  r           r  ",
+      "   r         r   ",
+      "    r       r    ",
+      "     r     r     ",
+      "rrr   rrrrr   rrr",
+      "rrr           rrr",
+      "rrr           rrr",
+      "                 ",
+      "                 "
+    ],
+    [
+      "rrr  EEEEEEE  rrr",
+      "rrr EE     EE rrr",
+      "rrrEE qqqqq EErrr",
+      "  EE q     q EE  ",
+      " EE q       q EE ",
+      "EE q   fff   q EE",
+      "E q   ff ff   q E",
+      "E q  ff   ff  q E",
+      "  q        f  q E",
+      "  q       ff  q E",
+      "  q           q E",
+      "   q         q EE",
+      "    q       q    ",
+      "     q     q     ",
+      "rrr   qqqqq   rrr",
+      "rrr           rrr",
+      "rrr           rrr",
+      "                 ",
+      "                 "
+    ],
+    [
+      "rrr           rrr",
+      "rrr           rrr",
+      "rrr           rrr",
+      "                 ",
+      "                 ",
+      "       ggg       ",
+      "      gg gg      ",
+      "     gg   gg     ",
+      "           g     ",
+      "          gg     ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "rrr           rrr",
+      "rrr           rrr",
+      "rrr           rrr",
+      "                 ",
+      "                 "
+    ],
+    [
+      "rrr           rrr",
+      "rrr           rrr",
+      "rrr   rrrrr   rrr",
+      "     r     r     ",
+      "    r       r    ",
+      "   r   hhh   r   ",
+      "  r   hh hh   r  ",
+      "  r  hh   hh  r  ",
+      "  r        h  r  ",
+      "  r       hh  r  ",
+      "  r           r  ",
+      "   r         r   ",
+      "    r       r    ",
+      "     r     r     ",
+      "rrr   rrrrr   rrr",
+      "rrr           rrr",
+      "rrr           rrr",
+      "                 ",
+      "                 "
+    ],
+    [
+      "rrr           rrr",
+      "rrr           rrr",
+      "rrr   qqqqq   rrr",
+      "     q     q     ",
+      "    q       q    ",
+      "   q   iii   q   ",
+      "  q   ii ii   q  ",
+      "  q  ii   ii  q  ",
+      "  q        i  q  ",
+      "  q        i  q  ",
+      "  q           q  ",
+      "   q         q   ",
+      "    q       q    ",
+      "     q     q     ",
+      "rrr   qqqqq   rrr",
+      "rrr           rrr",
+      "rrr           rrr",
+      "                 ",
+      "                 "
+    ],
+    [
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "       jjj       ",
+      "      jj jj      ",
+      "     jj   jj     ",
+      "           j     ",
+      "          jj     ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 "
+    ],
+    [
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "       kkk       ",
+      "      kk kk      ",
+      "     kk   kk     ",
+      "           k     ",
+      "          kk     ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 "
+    ],
+    [
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "       lll       ",
+      "      ll ll      ",
+      "     ll   ll     ",
+      "           l     ",
+      "          ll     ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 "
+    ],
+    [
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "       nnn       ",
+      "      nn nn      ",
+      "     nn   nn     ",
+      "           n     ",
+      "          nn     ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 "
+    ],
+    [
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "       vvv       ",
+      "      vooov      ",
+      "     voo oov     ",
+      "    voo   oov    ",
+      "    v      ov    ",
+      "    v     oov    ",
+      "     v     v     ",
+      "      v   v      ",
+      "       vvv       ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 "
+    ],
+    [
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "       vvv       ",
+      "      v   v      ",
+      "     v     v     ",
+      "    v            ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 ",
+      "                 "
+    ]
   ]
+]
 
   const structure_block_key = [
     {"a":"minecraft:bedrock",
@@ -97,7 +665,10 @@ ServerEvents.recipes(event => {
 
 
   
+  // 插卡后只运行对应等级；同时满足高度和液体条件时，优先不耗液的高度配方。
   event.recipes.custommachinery.custom_machine('custommachinery:void_mining_machine', 100)
+  .requireEmptyItem('11111')
+  .priority(10)
 //   .requireItem("cobblestone")
   .produceItem('minecraft:raw_iron').chance(0.3)
   .produceItem('minecraft:raw_gold').chance(0.3)
@@ -107,6 +678,7 @@ ServerEvents.recipes(event => {
 
   event.recipes.custommachinery.custom_machine('custommachinery:void_mining_machine', 100)
   .requireItem('rain:mineral_upgrade-1').chance(0)
+  .priority(20)
   .produceItem('minecraft:raw_iron').chance(0.3)
   .produceItem('minecraft:raw_gold').chance(0.3)
   .produceItem('minecraft:raw_copper').chance(0.3)
@@ -117,6 +689,7 @@ ServerEvents.recipes(event => {
 
   event.recipes.custommachinery.custom_machine('custommachinery:void_mining_machine', 100)
   .requireItem('rain:mineral_upgrade-2').chance(0)
+  .priority(30)
   .produceItem('minecraft:iron_ore').chance(0.5)
   .produceItem('minecraft:copper_ore').chance(0.5)
   .produceItem('mekanism:lead_ore').chance(0.3)
@@ -127,6 +700,7 @@ ServerEvents.recipes(event => {
 
   event.recipes.custommachinery.custom_machine('custommachinery:void_mining_machine', 100)
   .requireItem('rain:mineral_upgrade-3').chance(0)
+  .priority(40)
   // .produceItem('minecraft:iron_ore').chance(0.5)
   .produceItem('alltheores:silver_ore').chance(0.5)
   .produceItem('alltheores:aluminum_ore').chance(0.5)
@@ -140,6 +714,7 @@ ServerEvents.recipes(event => {
 
    event.recipes.custommachinery.custom_machine('custommachinery:void_mining_machine', 100)
   .requireItem('rain:mineral_upgrade-4').chance(0)
+  .priority(50)
   // .produceItem('minecraft:iron_ore').chance(0.5)
   .produceItem('powah:uraninite_ore_poor').chance(0.9)
   .produceItem('powah:uraninite_ore').chance(0.5)
@@ -155,6 +730,7 @@ ServerEvents.recipes(event => {
 
   event.recipes.custommachinery.custom_machine('custommachinery:void_mining_machine', 100)
   .requireItem('rain:mineral_upgrade-5').chance(0)
+  .priority(60)
   // .produceItem('minecraft:iron_ore').chance(0.5)
   .produceItem('silentgear:azure_silver_ore').chance(0.5)
   .produceItem('immersiveengineering:ore_aluminum').chance(0.5)
@@ -182,6 +758,8 @@ ServerEvents.recipes(event => {
 
   //消耗虚无之液
   event.recipes.custommachinery.custom_machine('custommachinery:void_mining_machine', 100)
+  .requireEmptyItem('11111')
+  .priority(9)
 //   .requireItem("cobblestone")
   .produceItem('minecraft:raw_iron').chance(0.3)
   .produceItem('minecraft:raw_gold').chance(0.3)
@@ -191,6 +769,7 @@ ServerEvents.recipes(event => {
 
   event.recipes.custommachinery.custom_machine('custommachinery:void_mining_machine', 100)
   .requireItem('rain:mineral_upgrade-1').chance(0)
+  .priority(19)
   .produceItem('minecraft:raw_iron').chance(0.3)
   .produceItem('minecraft:raw_gold').chance(0.3)
   .produceItem('minecraft:raw_copper').chance(0.3)
@@ -202,6 +781,7 @@ ServerEvents.recipes(event => {
 
    event.recipes.custommachinery.custom_machine('custommachinery:void_mining_machine', 100)
   .requireItem('rain:mineral_upgrade-2').chance(0)
+  .priority(29)
   .produceItem('minecraft:iron_ore').chance(0.5)
   .produceItem('minecraft:copper_ore').chance(0.5)
   .produceItem('mekanism:lead_ore').chance(0.3)

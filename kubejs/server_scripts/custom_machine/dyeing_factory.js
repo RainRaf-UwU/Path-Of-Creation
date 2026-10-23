@@ -63,12 +63,97 @@ ServerEvents.recipes(e=>{
     
 
     const structure_b = [
-        [["aaaaaaa","aaaaaaa","aaaaaaa","aaaaaaa","aaaaaaa","aaaaaaa","aaaaaaa"],
-["       "," bbbbb "," bbbbb "," bbbbb "," bbbbb "," ccdcc ","   m   "],
-["       "," eeeee "," eeeee "," eeeee "," eeeee "," fffff ","       "],
-["       "," ghhhg "," hiiih "," hiiih "," ghhhg ","       ","       "],
-["       ","       ","  lll  ","  lll  ","       ","       ","       "]]
+  [
+    [
+      "     a   ",
+      "  aaaaa  ",
+      " aaaaaaa ",
+      "aaaaaaaa ",
+      " aaaaaaa ",
+      " aaaaaaaa",
+      " aaaaaaa ",
+      "  aaaaa  ",
+      "   a     "
+    ],
+    [
+      "         ",
+      "         ",
+      "         ",
+      " ebiiibe ",
+      "         ",
+      " ebiiibe ",
+      " cc   cc ",
+      "    d    ",
+      "    m    "
+    ],
+    [
+      "         ",
+      "         ",
+      "         ",
+      " eblllbe ",
+      "         ",
+      " eblllbe ",
+      "         ",
+      "         ",
+      "         "
+    ],
+    [
+      "         ",
+      "         ",
+      "         ",
+      " eb   be ",
+      "         ",
+      " eb   be ",
+      "         ",
+      "         ",
+      "         "
+    ],
+    [
+      "         ",
+      "         ",
+      "         ",
+      " eb   be ",
+      "         ",
+      " eb   be ",
+      "         ",
+      "         ",
+      "         "
+    ],
+    [
+      "         ",
+      "         ",
+      "         ",
+      " eb   be ",
+      "         ",
+      " eb   be ",
+      "         ",
+      "         ",
+      "         "
+    ],
+    [
+      "         ",
+      "         ",
+      "         ",
+      " g     g ",
+      "  fffff  ",
+      " g     g ",
+      "         ",
+      "         ",
+      "         "
+    ],
+    [
+      "         ",
+      "         ",
+      "         ",
+      "  hhhhh  ",
+      "         ",
+      "  hhhhh  ",
+      "         ",
+      "         ",
+      "         "
     ]
+  ]
+]
 
     const structure_b_key = [
         {"a":"minecraft:bedrock",

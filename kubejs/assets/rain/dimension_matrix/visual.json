@@ -1,0 +1,18 @@
+{
+  "kind": "tesseract_hologram",
+  "vertices": 16,
+  "edges": 32,
+  "faces": 24,
+  "perspective": 4.2,
+  "scale": 1.38,
+  "maxSpeedDegreesPerSecond": 1440,
+  "spinUpSeconds": 4,
+  "spinDownSeconds": 3,
+  "fadeInSeconds": 4,
+  "fadeOutSeconds": 3,
+  "trailSamples": 7,
+  "trailSeconds": 0.09,
+  "blend": "src_alpha_one",
+  "depthTest": true,
+  "depthWrite": false
+}

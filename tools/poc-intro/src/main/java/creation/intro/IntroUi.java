@@ -43,7 +43,7 @@ public final class IntroUi {
             int y=panel.y()-8;
             var options=p.node.options();
             for (int i=options.size()-1;i>=0;i--) {
-                int height=Math.max(24,wrap(options.get(i).text(p.chinese),pw-40,c).size()*12+12);
+                int height=Math.max(24,wrap(p.choiceText(options.get(i)),pw-40,c).size()*12+12);
                 y-=height; choices.add(0,new Box(panel.x(),y,pw,height)); y-=4;
             }
         }
@@ -56,7 +56,7 @@ public final class IntroUi {
         c.rect(0,0,w,Math.max(10,h/24),0xff03060d);
         c.rect(0,h-Math.max(10,h/24),w,Math.max(10,h/24),0xff03060d);
         if (p.age>7 && h>=240) {
-            c.text(p.story.label("prologue",p.chinese),Math.max(16,(int)(w*.06)),30,MUTED);
+            c.text(p.label("prologue"),Math.max(16,(int)(w*.06)),30,MUTED);
             c.rect(Math.max(16,(int)(w*.06)),46,24,1,GOLD);
         }
         if (p.age>=13 && l.choices().isEmpty()) core(c,w/2,Math.min(l.panel().y()-40,(int)(h*.37)),p.age);
@@ -64,8 +64,8 @@ public final class IntroUi {
             int alpha=(int)(255*IntroTimeline.smooth(0,1.25,p.release));
             c.rect(0,0,w,h,(alpha<<24)|0x050913);
             if (p.release>.65) {
-                center(c,p.story.label("release",p.chinese),w,h/2-18,GOLD);
-                center(c,p.story.label("releaseSub",p.chinese),w,h/2+3,TEXT);
+                center(c,p.label("release"),w,h/2-18,GOLD);
+                center(c,p.label("releaseSub"),w,h/2+3,TEXT);
             }
             return l;
         }
@@ -87,13 +87,13 @@ public final class IntroUi {
         Box b=l.panel(); int accent=p.node.speaker().equals("system")?CYAN:GOLD;
         c.rect(b.x(),b.y(),b.w(),b.h(),0xf20a1422); frame(c,b,0xff426175);
         c.rect(b.x(),b.y(),2,b.h(),accent);
-        c.text(p.story.label(p.node.speaker(),p.chinese),b.x()+16,b.y()+12,accent);
+        c.text(p.label(p.node.speaker()),b.x()+16,b.y()+12,accent);
         c.rect(b.x()+16,b.y()+25,b.w()-32,1,0xff263947);
         int start=p.page*3;
         // Wrap visible text using the same character/line rules as the full page layout.
         var visible=wrap(p.visible(),b.w()-32,c);
         for(int i=0;i<3 && start+i<visible.size();i++) c.text(visible.get(start+i),b.x()+16,b.y()+33+i*14,TEXT);
-        String hint=p.story.label(p.shown<p.length()?"typing":(!l.choices().isEmpty()?(p.choicesReady()?"choose":"choiceTyping"):"continue"),p.chinese);
+        String hint=p.label(p.shown<p.length()?"typing":(!l.choices().isEmpty()?(p.choicesReady()?"choose":"choiceTyping"):"continue"));
         c.text(hint,b.x()+b.w()-16-c.width(hint),b.y()+80,MUTED);
         if(l.pageCount()>1) c.text((p.page+1)+" / "+l.pageCount(),b.x()+16,b.y()+80,MUTED);
         int remaining=p.choiceShown;
@@ -101,7 +101,7 @@ public final class IntroUi {
             Box option=l.choices().get(i); boolean focus=p.choicesReady()&&i==p.selected;
             c.rect(option.x(),option.y(),option.w(),option.h(),focus?0xf21b3848:0xf20a1422);
             frame(c,option,focus?CYAN:0xff426175); c.rect(option.x()+10,option.y()+option.h()/2-2,4,4,focus?CYAN:MUTED);
-            String text=p.node.options().get(i).text(p.chinese); int count=text.codePointCount(0,text.length());
+            String text=p.choiceText(p.node.options().get(i)); int count=text.codePointCount(0,text.length());
             String reveal=text.substring(0,text.offsetByCodePoints(0,Math.clamp(remaining,0,count))); remaining-=count;
             int y=option.y()+7; for(String line:wrap(reveal,option.w()-40,c)){c.text(line,option.x()+24,y,focus?TEXT:MUTED);y+=12;}
         }

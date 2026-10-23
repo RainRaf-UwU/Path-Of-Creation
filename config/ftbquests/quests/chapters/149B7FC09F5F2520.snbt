@@ -588,6 +588,32 @@
 		}
 		{
 			dependencies: ["632C04D5ED041A58"]
+			id: "07644C54930C8FAB"
+			rewards: [
+				{
+					id: "6F893EF31A5464A1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "60E68EF87CCECD7D"
+					item: {
+						count: 1
+						id: "rain:unlucky_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4A40E6C9C9218ECD"
+				item: { count: 1, id: "enderio:conductive_alloy_ingot" }
+				type: "item"
+			}]
+			x: 6.87d
+			y: 1.72d
+		}
+		{
+			dependencies: ["07644C54930C8FAB"]
 			id: "431528ECA5E58153"
 			rewards: [
 				{

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "rain:block/dimension_matrix_casing",
+    "down": "rain:block/dimension_matrix_casing",
+    "up": "rain:block/dimension_matrix_anchor",
+    "north": "rain:block/dimension_matrix_controller",
+    "south": "rain:block/dimension_matrix_casing",
+    "west": "rain:block/dimension_matrix_conduit",
+    "east": "rain:block/dimension_matrix_conduit"
+  }
+}

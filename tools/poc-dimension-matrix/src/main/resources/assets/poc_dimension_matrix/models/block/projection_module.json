@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "poc_dimension_matrix:block/projection_module",
+    "up": "poc_dimension_matrix:block/projection_module",
+    "down": "rain:block/dimension_matrix_casing",
+    "north": "rain:block/dimension_matrix_anchor",
+    "south": "rain:block/dimension_matrix_anchor",
+    "east": "rain:block/dimension_matrix_casing",
+    "west": "rain:block/dimension_matrix_casing"
+  }
+}

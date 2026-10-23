@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "poc_dimension_matrix:energy_input_port",
+    "poc_dimension_matrix:energy_output_port",
+    "poc_dimension_matrix:coolant_input_port",
+    "poc_dimension_matrix:projection_module"
+  ]
+}

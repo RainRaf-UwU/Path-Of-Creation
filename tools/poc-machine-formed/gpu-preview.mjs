@@ -1,0 +1,6 @@
+import fs from'node:fs';import path from'node:path';import{spawnSync}from'node:child_process';import{root}from'../poc-machine-redesign/inventory.mjs';
+const build=JSON.parse(fs.readFileSync(path.join(root,'.cache/dimension-matrix/build/build-result.json'))),jdk='C:/Users/44479/.jdks/loom-ea-25-loom+1-11',work=path.join(root,'.cache/machine-formed');fs.mkdirSync(work,{recursive:true});
+const old=fs.readFileSync(path.join(build.build,'javac-tests.args'),'utf8').trim().split(/\r?\n/).map(JSON.parse),cp=old[old.indexOf('-classpath')+1],tests=path.join(build.build,'tests');
+const args=['--release','21','-encoding','UTF-8','-proc:none','-classpath',cp,'-d',tests,path.join(root,'tools/poc-dimension-matrix/src/test/java/creation/matrix/AssemblyGpuPreview.java')];const file=path.join(work,'gpu-javac.args');fs.writeFileSync(file,args.map(s=>'"'+s.replaceAll('\\','/')+'"').join('\n'));
+function run(tool,args){const r=spawnSync(path.join(jdk,'bin',tool+'.exe'),args,{cwd:work,windowsHide:true,encoding:'utf8'});if(r.stdout)process.stdout.write(r.stdout);if(r.stderr)process.stderr.write(r.stderr);if(r.status)throw Error(tool+' '+r.status);}
+run('javac',['@'+file]);run('java',['-Djava.awt.headless=true','-cp',tests+path.delimiter+cp,'creation.matrix.AssemblyGpuPreview',path.join(work,'gpu'),...process.argv.slice(2)]);

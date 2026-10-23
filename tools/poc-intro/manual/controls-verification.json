@@ -1,0 +1,221 @@
+{
+  "date": "2026-10-20",
+  "jar": "mods/poc-intro-1.0.0.jar",
+  "bytes": 1062077,
+  "sha256": "5491fec16a9193baec8d80ff03148e26aeb66c7810bb43156510feccd74e2002",
+  "groups": 52,
+  "entries": 4684,
+  "operationGuides": 650,
+  "newTutorials": 28,
+  "newEntries": 34,
+  "modifiedExistingEntries": 37,
+  "keyActions": 37,
+  "entriesWithControls": 49,
+  "pictures": 142,
+  "newPictures": 0,
+  "illustratedEntries": 230,
+  "protectedFilesUnchanged": 1077,
+  "protectedIntroSourcesAndAudio": 34,
+  "questGraph": {
+    "quests": 578,
+    "dependencies": 591,
+    "missing": 0,
+    "cycles": 0
+  },
+  "nativeSourceChecks": 23,
+  "imageSourceChecks": 147,
+  "sourceAudit": [
+    {
+      "source": "installed:jei-19.57.0.450!mezz/jei",
+      "jar": "[JEI物品管理器] jei-1.21.1-neoforge-19.57.0.450.jar",
+      "matchedResources": 1089,
+      "sha256": null
+    },
+    {
+      "source": "installed:Controlling-19.0.5!com/blamejared/controlling",
+      "jar": "[键位冲突显示] Controlling-neoforge-1.21.1-19.0.5.jar",
+      "matchedResources": 50,
+      "sha256": null
+    },
+    {
+      "source": "installed:ftb-quests-2101.1.36",
+      "jar": "[FTB任务] ftb-quests-neoforge-2101.1.36.jar",
+      "matchedResources": 739,
+      "sha256": null
+    },
+    {
+      "source": "installed:ftb-ultimine-2101.1.15!assets/ftbultimine/lang/en_us.json",
+      "jar": "[连锁破坏] ftb-ultimine-neoforge-2101.1.15.jar",
+      "matchedResources": 1,
+      "sha256": "4510b4d40cc0d2cd186a4668c219764adbbeb045002afbbe70938ba564e64d8f"
+    },
+    {
+      "source": "installed:Mekanism-1.21.1-10.7.19.85!mekanism/common/item/ItemConfigurator.class",
+      "jar": "[通用机械] Mekanism-1.21.1-10.7.19.85.jar",
+      "matchedResources": 1,
+      "sha256": "923626278afe72c870cfbaad38d467db7e1e3a8da307c168c0b678ef02711288"
+    },
+    {
+      "source": "installed:Mekanism-1.21.1-10.7.19.85!mekanism/client/key/MekanismKeyHandler.class",
+      "jar": "[通用机械] Mekanism-1.21.1-10.7.19.85.jar",
+      "matchedResources": 1,
+      "sha256": "05edf54afd6880ee6427c3d550726d53f3ee32af9a5b82f1c05de520f9d350c7"
+    },
+    {
+      "source": "installed:Mekanism-1.21.1-10.7.19.85!mekanism/client/gui/element/gauge/GuiTankGauge.class",
+      "jar": "[通用机械] Mekanism-1.21.1-10.7.19.85.jar",
+      "matchedResources": 1,
+      "sha256": "eadb92627035da42fa55fa549584412dc8ffecf77def52a6dcf90c923931ba55"
+    },
+    {
+      "source": "installed:Mekanism-1.21.1-10.7.19.85!mekanism/common/item/ItemConfigurationCard.class",
+      "jar": "[通用机械] Mekanism-1.21.1-10.7.19.85.jar",
+      "matchedResources": 1,
+      "sha256": "31651b8090ad3a87ded3ab9e83469d7068afe16224035a741eb5f1f455b3358b"
+    },
+    {
+      "source": "installed:Mekanism-1.21.1-10.7.19.85!mekanism/common/item/gear/ItemAtomicDisassembler.class",
+      "jar": "[通用机械] Mekanism-1.21.1-10.7.19.85.jar",
+      "matchedResources": 1,
+      "sha256": "c9e85ee7daed534b48d039321456530f29e22c9634cf40d24f6b2d826193598d"
+    },
+    {
+      "source": "installed:Mekanism-1.21.1-10.7.19.85!assets/mekanism/lang/en_us.json",
+      "jar": "[通用机械] Mekanism-1.21.1-10.7.19.85.jar",
+      "matchedResources": 1,
+      "sha256": "3321065d85de3a4321c2dcd47d2bb1d67bd328194e91851dc6ad47f1748e30bc"
+    },
+    {
+      "source": "installed:create-1.21.1-6.0.10!assets/create/lang/en_us.json",
+      "jar": "[机械动力] create-1.21.1-6.0.10.jar",
+      "matchedResources": 1,
+      "sha256": "9d31cf2d4ae7b2c367e8a3f9cec7eb83a6286025ad187c1de5d6947c43d2c4e2"
+    },
+    {
+      "source": "installed:create-1.21.1-6.0.10!assets/create/lang/zh_cn.json",
+      "jar": "[机械动力] create-1.21.1-6.0.10.jar",
+      "matchedResources": 1,
+      "sha256": "00aea52d56af26c7f80c241ef24853aea41ba33c167d8c6a97725cd7afb93733"
+    },
+    {
+      "source": "installed:buildinggadgets2-1.3.9!com/direwolf20/buildinggadgets2/client/events/EventKeyInput.class",
+      "jar": "[建筑小帮手] buildinggadgets2-1.3.9.jar",
+      "matchedResources": 1,
+      "sha256": "c2808e564f50c9143ff7e141fdfa771b51eccbcaa9854ae6cb8f1bef7aa5a214"
+    },
+    {
+      "source": "installed:buildinggadgets2-1.3.9!com/direwolf20/buildinggadgets2/common/items/BaseGadget.class",
+      "jar": "[建筑小帮手] buildinggadgets2-1.3.9.jar",
+      "matchedResources": 1,
+      "sha256": "7b2ccfc6a2ba4153d33e3841ce1c371a9b798543cea510cc0ce4e9ea0d69ce64"
+    },
+    {
+      "source": "installed:modular-routers-13.2.7!assets/modularrouters/patchouli_books/book/en_us/entries/intro/modular_router.json",
+      "jar": "[模块化路由器] modular-routers-13.2.7+mc1.21.1.jar",
+      "matchedResources": 1,
+      "sha256": "56603f8ee18226ecae941b693b9318747a07736b07a84704b5f0eaef80a112d7"
+    },
+    {
+      "source": "installed:sophisticatedbackpacks-3.26.7.2182!net/p3pp3rf1y/sophisticatedbackpacks/client/KeybindHandler.class",
+      "jar": "[精妙背包] sophisticatedbackpacks-1.21.1-3.26.7.2182.jar",
+      "matchedResources": 1,
+      "sha256": "db2245f55767f0d1e55cfb4026b8c926e543deeed008e8fd99b6bf5a8cee6d8d"
+    },
+    {
+      "source": "installed:dankstorage-20!assets/dankstorage/lang/en_us.json",
+      "jar": "dankstorage-neoforge-1.21.1-20.jar",
+      "matchedResources": 1,
+      "sha256": "413bec1044ffce7ffadae5e03ce9e3076c00ebbeed422d00f7ba7596dec76558"
+    },
+    {
+      "source": "installed:laserio-1.9.11!assets/laserio/patchouli_books/laseriobook/zh_cn/entries/laser_wrench.json",
+      "jar": "laserio-1.9.11.jar",
+      "matchedResources": 1,
+      "sha256": "c757da499410af09a0794acdfad7ac44b5a51862f30d3846e2ce40b9b0e4a85d"
+    },
+    {
+      "source": "installed:pipez-1.2.31!de/maxhenkel/pipez/blocks/PipeBlock.class",
+      "jar": "pipez-neoforge-1.21.1-1.2.31.jar",
+      "matchedResources": 1,
+      "sha256": "10b9ee8ea20682fb693d08ffb37863eeaaf9c51d6d3da853217209f1d49c8f86"
+    },
+    {
+      "source": "installed:appliedenergistics2-19.2.18!assets/ae2/ae2guide",
+      "jar": "[应用能源2] appliedenergistics2-19.2.18.jar",
+      "matchedResources": 296,
+      "sha256": null
+    },
+    {
+      "source": "installed:industrialforegoing-3.6.39!assets/industrialforegoing/patchouli_books",
+      "jar": "[工业先锋] industrialforegoing-1.21-3.6.39.jar",
+      "matchedResources": 181,
+      "sha256": null
+    },
+    {
+      "source": "installed:oritech-1.2.12!assets/oracle_index/books/oritech/content/machines/addons/machine_extender.mdx",
+      "jar": "oritech-neoforge-1.21.1-1.2.12.jar",
+      "matchedResources": 1,
+      "sha256": "188b79aa4bf35a94a9054907450849613eb2a9d2a7ec400eb872fa4888ad4efc"
+    },
+    {
+      "source": "installed:oritech-1.2.12!assets/oracle_index/books/oritech/content/machines/augmentations/augment_application_block.mdx",
+      "jar": "oritech-neoforge-1.21.1-1.2.12.jar",
+      "matchedResources": 1,
+      "sha256": "dbd979b17a431591e5eb846e5e1f674bc095846b9d4ac5593b84fc5e50a85346"
+    }
+  ],
+  "preview": {
+    "url": "http://127.0.0.1:1246/",
+    "states": 27,
+    "http": [
+      {
+        "file": "",
+        "status": 200
+      },
+      {
+        "file": "manual.json",
+        "status": 200
+      },
+      {
+        "file": "keybindings.json",
+        "status": 200
+      },
+      {
+        "file": "20-controls.png",
+        "status": 200
+      },
+      {
+        "file": "21-controls.png",
+        "status": 200
+      },
+      {
+        "file": "24-controls.png",
+        "status": 200
+      },
+      {
+        "file": "images/1d4cab13944d05b8.png",
+        "status": 200
+      }
+    ],
+    "fontAndItemIcons": "offline approximations",
+    "keyNames": "preview-only snapshot; production resolves current KeyMapping",
+    "browserClickValidation": "Unavailable: only MCP Apps browser exposed, no tabs. PNGs use production ManualUi; HTTP and module syntax checked."
+  },
+  "tests": {
+    "compile": "Java 21",
+    "manualAssertions": 11232,
+    "narrativeAssertions": 1334,
+    "realNbtMigration": "pass",
+    "installedApiSignatures": "pass"
+  },
+  "existingKubejsLogs": {
+    "baselineOnly": true,
+    "startup": "Loaded 10/10 KubeJS startup scripts in 2.39 s with 0 errors and 0 warnings",
+    "client": "Loaded 4/4 KubeJS client scripts in 0.085 s with 0 errors and 0 warnings",
+    "server": "Loaded 102/102 KubeJS server scripts in 0.403 s with 0 errors and 0 warnings"
+  },
+  "runtimeStarted": false,
+  "savesTouched": false,
+  "recipesChanged": false,
+  "questFilesChanged": false
+}

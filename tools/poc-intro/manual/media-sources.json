@@ -1,0 +1,1052 @@
+{
+  "policy": "运行时引用已安装模组资源；仅离线预览提取 PNG，不复制进 POC JAR；正文摘编同版本内置中英手册。网页只做交叉参考，未搬运网页图片。",
+  "webReferences": [
+    "https://www.mcmod.cn/item/546119.html",
+    "https://guide.appliedenergistics.org/1.21.1/items-blocks-machines/inscriber",
+    "https://guide.appliedenergistics.org/1.21.1/tips-and-tricks"
+  ],
+  "images": [
+    {
+      "resource": "ae2:ae2guide/assets/diagrams/facade_recipe.png",
+      "jar": "[应用能源2] appliedenergistics2-19.2.18.jar",
+      "path": "assets/ae2/ae2guide/assets/diagrams/facade_recipe.png",
+      "doc": "assets/ae2/ae2guide/items-blocks-machines/facades.md",
+      "sha256": "4eede2b669b855f1ad9a3090324dcd25df0451e0f84d164c8bdaa9d35bf8aa9b"
+    },
+    {
+      "resource": "ae2:ae2guide/assets/diagrams/inscriber_gui.png",
+      "jar": "[应用能源2] appliedenergistics2-19.2.18.jar",
+      "path": "assets/ae2/ae2guide/assets/diagrams/inscriber_gui.png",
+      "doc": "assets/ae2/ae2guide/items-blocks-machines/inscriber.md",
+      "sha256": "e01d3fb731001a0ca9a2ecbcc391693d5ad0fcd570d1cef102752261bba9754f"
+    },
+    {
+      "resource": "ae2:ae2guide/assets/diagrams/inscriber_sides.png",
+      "jar": "[应用能源2] appliedenergistics2-19.2.18.jar",
+      "path": "assets/ae2/ae2guide/assets/diagrams/inscriber_sides.png",
+      "doc": "assets/ae2/ae2guide/items-blocks-machines/inscriber.md",
+      "sha256": "ac2f08af11aa7ab9f8f9d45a131e56f7b73748051e8ba0c9a9a45ac89f0581b0"
+    },
+    {
+      "resource": "ae2:ae2guide/assets/diagrams/quantum_bridge_demonstration.png",
+      "jar": "[应用能源2] appliedenergistics2-19.2.18.jar",
+      "path": "assets/ae2/ae2guide/assets/diagrams/quantum_bridge_demonstration.png",
+      "doc": "assets/ae2/ae2guide/items-blocks-machines/quantum_bridge.md",
+      "sha256": "62a13746dfb827eec39665ee506637aea7ac4b95c28eae6361d752957d9557d0"
+    },
+    {
+      "resource": "ae2:ae2guide/assets/assemblies/p2p_portal.png",
+      "jar": "[应用能源2] appliedenergistics2-19.2.18.jar",
+      "path": "assets/ae2/ae2guide/assets/assemblies/p2p_portal.png",
+      "doc": "assets/ae2/ae2guide/items-blocks-machines/p2p_tunnels.md",
+      "sha256": "5fb029ce82400b4c9a32475896ffc81a3f6ff81986586af4864f6df801e7bcfd"
+    },
+    {
+      "resource": "ae2:ae2guide/assets/diagrams/p2p_quantum_network.png",
+      "jar": "[应用能源2] appliedenergistics2-19.2.18.jar",
+      "path": "assets/ae2/ae2guide/assets/diagrams/p2p_quantum_network.png",
+      "doc": "assets/ae2/ae2guide/items-blocks-machines/p2p_tunnels.md",
+      "sha256": "e4851859ffde3eece002324f42b6f442b7b995d58957a5f4bf2a137bea63bd2e"
+    },
+    {
+      "resource": "ae2:ae2guide/assets/diagrams/furnace_pattern_small.png",
+      "jar": "[应用能源2] appliedenergistics2-19.2.18.jar",
+      "path": "assets/ae2/ae2guide/assets/diagrams/furnace_pattern_small.png",
+      "doc": "assets/ae2/ae2guide/items-blocks-machines/pattern_provider.md",
+      "sha256": "334394cace7f757ecd463882449cb1b11ee7503b41c172a09efcf318f74c3cda"
+    },
+    {
+      "resource": "oracle_index:books/oritech/assets/oritech/area/enchanting.png",
+      "jar": "oritech-neoforge-1.21.1-1.2.12.jar",
+      "path": "assets/oracle_index/books/oritech/assets/oritech/area/enchanting.png",
+      "doc": "assets/oracle_index/books/oritech/content/arcane/enchanter_block.mdx",
+      "sha256": "cbcfdb928bb83591f4e04b4d5763518222eeaeaf645b955c4bf2e021ffc2c9ca"
+    },
+    {
+      "resource": "oracle_index:books/oritech/assets/oritech/area/catalyst_stabilized.png",
+      "jar": "oritech-neoforge-1.21.1-1.2.12.jar",
+      "path": "assets/oracle_index/books/oritech/assets/oritech/area/catalyst_stabilized.png",
+      "doc": "assets/oracle_index/books/oritech/content/arcane/enchantment_catalyst_block.mdx",
+      "sha256": "6732d46b2aa7ac92f0cc8d7c622caebe5243feef132ba1f912b0d4922362b458"
+    },
+    {
+      "resource": "oracle_index:books/oritech/assets/oritech/area/mob_spawner.png",
+      "jar": "oritech-neoforge-1.21.1-1.2.12.jar",
+      "path": "assets/oracle_index/books/oritech/assets/oritech/area/mob_spawner.png",
+      "doc": "assets/oracle_index/books/oritech/content/arcane/spawner_controller_block.mdx",
+      "sha256": "7146671af3bb509516e65f1b7f89ffecc0d3a4b4c1648cfe507652a0cb4b4254"
+    },
+    {
+      "resource": "oracle_index:books/oritech/assets/oritech/area/tainted_refinery_area.png",
+      "jar": "oritech-neoforge-1.21.1-1.2.12.jar",
+      "path": "assets/oracle_index/books/oritech/assets/oritech/area/tainted_refinery_area.png",
+      "doc": "assets/oracle_index/books/oritech/content/arcane/tainted_refinery.mdx",
+      "sha256": "af2b8536d31f8a70f2f7b7974e7123b93ed06460abe9dc9e40534e63c1ca8de9"
+    },
+    {
+      "resource": "oracle_index:books/oritech/assets/oritech/area/machine_colors.png",
+      "jar": "oritech-neoforge-1.21.1-1.2.12.jar",
+      "path": "assets/oracle_index/books/oritech/assets/oritech/area/machine_colors.png",
+      "doc": "assets/oracle_index/books/oritech/content/building/industrial_paints.mdx",
+      "sha256": "c6316860b16d2323263b8ea1797b140e1ee7a870d08d93e32ae5b1134f7ef956"
+    },
+    {
+      "resource": "oracle_index:books/oritech/assets/oritech/area/exo_armor.png",
+      "jar": "oritech-neoforge-1.21.1-1.2.12.jar",
+      "path": "assets/oracle_index/books/oritech/assets/oritech/area/exo_armor.png",
+      "doc": "assets/oracle_index/books/oritech/content/equipment/exo_suit.mdx",
+      "sha256": "9daffb02042ad62b09f7edd7785df3d643a47282203ab2a3ca0017470df6b197"
+    },
+    {
+      "resource": "oracle_index:books/oritech/assets/oritech/area/cable_ziplining.png",
+      "jar": "oritech-neoforge-1.21.1-1.2.12.jar",
+      "path": "assets/oracle_index/books/oritech/assets/oritech/area/cable_ziplining.png",
+      "doc": "assets/oracle_index/books/oritech/content/equipment/wrench.mdx",
+      "sha256": "30b9e2cc1ae7e5ea8bd688150727c2fe5a7ff7fe8b2dcbb3fae1143f615ac85b"
+    },
+    {
+      "resource": "oracle_index:books/oritech/assets/oritech/area/fluid_pipes.png",
+      "jar": "oritech-neoforge-1.21.1-1.2.12.jar",
+      "path": "assets/oracle_index/books/oritech/assets/oritech/area/fluid_pipes.png",
+      "doc": "assets/oracle_index/books/oritech/content/logistics/fluid_pipe.mdx",
+      "sha256": "fae8ffa935a837f270b8732578426f90c2e14d608b683b49f655a99fcbb99e0b"
+    },
+    {
+      "resource": "oracle_index:books/oritech/assets/oritech/area/item_filters.png",
+      "jar": "oritech-neoforge-1.21.1-1.2.12.jar",
+      "path": "assets/oracle_index/books/oritech/assets/oritech/area/item_filters.png",
+      "doc": "assets/oracle_index/books/oritech/content/logistics/item_filter_block.mdx",
+      "sha256": "b3b9a69ba5a9cb6e2e471465e19d59302219d0ff58634fdbc42169e76e7fe083"
+    },
+    {
+      "resource": "oracle_index:books/oritech/assets/oritech/area/item_pipes.png",
+      "jar": "oritech-neoforge-1.21.1-1.2.12.jar",
+      "path": "assets/oracle_index/books/oritech/assets/oritech/area/item_pipes.png",
+      "doc": "assets/oracle_index/books/oritech/content/logistics/item_pipe.mdx",
+      "sha256": "cbf2fd5402cc9f91bb7f19bd2e0d06e8f007d77f19fbb0faba37b1ae16514485"
+    },
+    {
+      "resource": "oracle_index:books/oritech/assets/oritech/area/power_pole.png",
+      "jar": "oritech-neoforge-1.21.1-1.2.12.jar",
+      "path": "assets/oracle_index/books/oritech/assets/oritech/area/power_pole.png",
+      "doc": "assets/oracle_index/books/oritech/content/logistics/power_pole_block.mdx",
+      "sha256": "ee89b55a5b216155afd902119bd596ae0d50f9a0d4089da381cb1b29dc9f3dfd"
+    },
+    {
+      "resource": "oracle_index:books/oritech/assets/oritech/area/cable_ziplining.png",
+      "jar": "oritech-neoforge-1.21.1-1.2.12.jar",
+      "path": "assets/oracle_index/books/oritech/assets/oritech/area/cable_ziplining.png",
+      "doc": "assets/oracle_index/books/oritech/content/logistics/power_pole_block.mdx",
+      "sha256": "30b9e2cc1ae7e5ea8bd688150727c2fe5a7ff7fe8b2dcbb3fae1143f615ac85b"
+    },
+    {
+      "resource": "oracle_index:books/oritech/assets/oritech/area/unstable_container.png",
+      "jar": "oritech-neoforge-1.21.1-1.2.12.jar",
+      "path": "assets/oracle_index/books/oritech/assets/oritech/area/unstable_container.png",
+      "doc": "assets/oracle_index/books/oritech/content/logistics/unstable_container.mdx",
+      "sha256": "9d627e106b28f909dda137438462217eba46a4295355b57ed3cd686839e47c1f"
+    },
+    {
+      "resource": "oracle_index:books/oritech/assets/oritech/area/addon_marker.png",
+      "jar": "oritech-neoforge-1.21.1-1.2.12.jar",
+      "path": "assets/oracle_index/books/oritech/assets/oritech/area/addon_marker.png",
+      "doc": "assets/oracle_index/books/oritech/content/machines/addons/machine_extender.mdx",
+      "sha256": "2548449ede4f3e208ef3c292084f15d689a1c1e24e8d077cf0f6adb0cc2a4b59"
+    },
+    {
+      "resource": "oracle_index:books/oritech/assets/oritech/area/extenders.png",
+      "jar": "oritech-neoforge-1.21.1-1.2.12.jar",
+      "path": "assets/oracle_index/books/oritech/assets/oritech/area/extenders.png",
+      "doc": "assets/oracle_index/books/oritech/content/machines/addons/machine_extender.mdx",
+      "sha256": "88777f66965897af7a9f24a1536227a79783103ca8444ff3b9777dc65bfd06c9"
+    },
+    {
+      "resource": "oracle_index:books/oritech/assets/oritech/area/steam_power.png",
+      "jar": "oritech-neoforge-1.21.1-1.2.12.jar",
+      "path": "assets/oracle_index/books/oritech/assets/oritech/area/steam_power.png",
+      "doc": "assets/oracle_index/books/oritech/content/machines/addons/steam_boiler_addon.mdx",
+      "sha256": "56462e167b5a15078dca495dc93545e8e6dba27a3ea41936e1dee209f25ca476"
+    },
+    {
+      "resource": "oracle_index:books/oritech/assets/oritech/area/cyborg_research_ui.png",
+      "jar": "oritech-neoforge-1.21.1-1.2.12.jar",
+      "path": "assets/oracle_index/books/oritech/assets/oritech/area/cyborg_research_ui.png",
+      "doc": "assets/oracle_index/books/oritech/content/machines/augmentations/augment_application_block.mdx",
+      "sha256": "955f03afd7926b089e1967a95f5d3657ba77dc4e35758fa169e26e6d98692422"
+    },
+    {
+      "resource": "oracle_index:books/oritech/assets/oritech/area/cyborg_ui.png",
+      "jar": "oritech-neoforge-1.21.1-1.2.12.jar",
+      "path": "assets/oracle_index/books/oritech/assets/oritech/area/cyborg_ui.png",
+      "doc": "assets/oracle_index/books/oritech/content/machines/augmentations/augment_application_block.mdx",
+      "sha256": "21220f79bddb864967d8bbb9eb4ebe9ab2db7aa06af12cee094d62524437de17"
+    },
+    {
+      "resource": "oracle_index:books/oritech/assets/oritech/area/block_destroyer_farming.png",
+      "jar": "oritech-neoforge-1.21.1-1.2.12.jar",
+      "path": "assets/oracle_index/books/oritech/assets/oritech/area/block_destroyer_farming.png",
+      "doc": "assets/oracle_index/books/oritech/content/machines/gantries/destroyer_block.mdx",
+      "sha256": "9fddd319b49b4a3e9bf0fc7b7b85679d7f202089a5d1a353b8ff56afbeb5739c"
+    },
+    {
+      "resource": "oracle_index:books/oritech/assets/oritech/area/block_destroyer_quarry.png",
+      "jar": "oritech-neoforge-1.21.1-1.2.12.jar",
+      "path": "assets/oracle_index/books/oritech/assets/oritech/area/block_destroyer_quarry.png",
+      "doc": "assets/oracle_index/books/oritech/content/machines/gantries/destroyer_block.mdx",
+      "sha256": "cfb147f4b1ba5dacbc72ee6cadb3e16f7072418f9bef36ccd28433b81cc97148"
+    },
+    {
+      "resource": "oracle_index:books/oritech/assets/oritech/area/machine_frame.png",
+      "jar": "oritech-neoforge-1.21.1-1.2.12.jar",
+      "path": "assets/oracle_index/books/oritech/assets/oritech/area/machine_frame.png",
+      "doc": "assets/oracle_index/books/oritech/content/machines/gantries/machine_frame_block.mdx",
+      "sha256": "bc81dc84112cbd0642170929e6bde775a09f4bb20d0d6b38682c7a9ffa69acb3"
+    },
+    {
+      "resource": "oracle_index:books/oritech/assets/oritech/area/block_placer.png",
+      "jar": "oritech-neoforge-1.21.1-1.2.12.jar",
+      "path": "assets/oracle_index/books/oritech/assets/oritech/area/block_placer.png",
+      "doc": "assets/oracle_index/books/oritech/content/machines/gantries/placer_block.mdx",
+      "sha256": "21210a50fd941bc28688a86441f4c21b084fb437101c076c1fbb236885d777e1"
+    },
+    {
+      "resource": "oracle_index:books/oritech/assets/oritech/area/steam_power.png",
+      "jar": "oritech-neoforge-1.21.1-1.2.12.jar",
+      "path": "assets/oracle_index/books/oritech/assets/oritech/area/steam_power.png",
+      "doc": "assets/oracle_index/books/oritech/content/machines/powergen/steam_engine_block.mdx",
+      "sha256": "56462e167b5a15078dca495dc93545e8e6dba27a3ea41936e1dee209f25ca476"
+    },
+    {
+      "resource": "oracle_index:books/oritech/assets/oritech/area/enderic_laser_energy.png",
+      "jar": "oritech-neoforge-1.21.1-1.2.12.jar",
+      "path": "assets/oracle_index/books/oritech/assets/oritech/area/enderic_laser_energy.png",
+      "doc": "assets/oracle_index/books/oritech/content/machines/processing/atomic_forge_block.mdx",
+      "sha256": "824bd2dad338fcc8e29ed1df290bb8e2418698dbfca8ef5f1a877198dae2c865"
+    },
+    {
+      "resource": "oracle_index:books/oritech/assets/oritech/area/refinery.png",
+      "jar": "oritech-neoforge-1.21.1-1.2.12.jar",
+      "path": "assets/oracle_index/books/oritech/assets/oritech/area/refinery.png",
+      "doc": "assets/oracle_index/books/oritech/content/machines/processing/refinery_block.mdx",
+      "sha256": "38c2de6c3ce9a1ca355142672e7a9b0130608f551e7f5235ccdf1875150a855f"
+    },
+    {
+      "resource": "oracle_index:books/oritech/assets/oritech/area/bedrock_extraction.png",
+      "jar": "oritech-neoforge-1.21.1-1.2.12.jar",
+      "path": "assets/oracle_index/books/oritech/assets/oritech/area/bedrock_extraction.png",
+      "doc": "assets/oracle_index/books/oritech/content/machines/utility/deep_drill_block.mdx",
+      "sha256": "547eff88d5c56d892faa6e42700d6daa3751e360396de8050f74a05bc5af4053"
+    },
+    {
+      "resource": "oracle_index:books/oritech/assets/oritech/area/fluxite_mining.png",
+      "jar": "oritech-neoforge-1.21.1-1.2.12.jar",
+      "path": "assets/oracle_index/books/oritech/assets/oritech/area/fluxite_mining.png",
+      "doc": "assets/oracle_index/books/oritech/content/machines/utility/laser_arm_block.mdx",
+      "sha256": "48fb9589ed864249d8074110fe806a1ec692b147788b41e325e4f7bc61d0b982"
+    },
+    {
+      "resource": "oracle_index:books/oritech/assets/oritech/area/item_pipes_boosted.png",
+      "jar": "oritech-neoforge-1.21.1-1.2.12.jar",
+      "path": "assets/oracle_index/books/oritech/assets/oritech/area/item_pipes_boosted.png",
+      "doc": "assets/oracle_index/books/oritech/content/machines/utility/pipe_booster_block.mdx",
+      "sha256": "762d9abb871dcd739f07537cbb7c0290eeba665b33ce4120aa23cfd03e9dbc39"
+    },
+    {
+      "resource": "oracle_index:books/oritech/assets/oritech/area/pump.png",
+      "jar": "oritech-neoforge-1.21.1-1.2.12.jar",
+      "path": "assets/oracle_index/books/oritech/assets/oritech/area/pump.png",
+      "doc": "assets/oracle_index/books/oritech/content/machines/utility/pump_block.mdx",
+      "sha256": "1c046df271529d89e4acb34b0afd07e5bda403cbaf8b2de76be76a3e9bc88ffe"
+    },
+    {
+      "resource": "oracle_index:books/oritech/assets/oritech/area/shrinker_area.png",
+      "jar": "oritech-neoforge-1.21.1-1.2.12.jar",
+      "path": "assets/oracle_index/books/oritech/assets/oritech/area/shrinker_area.png",
+      "doc": "assets/oracle_index/books/oritech/content/machines/utility/shrinker_block.mdx",
+      "sha256": "deceed4b59978a915cbfcbf01666f8795ef82f6d64539cc88d8431197297420d"
+    },
+    {
+      "resource": "oracle_index:books/oritech/assets/oritech/area/shrinker_setup_area.png",
+      "jar": "oritech-neoforge-1.21.1-1.2.12.jar",
+      "path": "assets/oracle_index/books/oritech/assets/oritech/area/shrinker_setup_area.png",
+      "doc": "assets/oracle_index/books/oritech/content/machines/utility/shrinker_block.mdx",
+      "sha256": "b73630a54c46886e9d13bbd0d533e4376226be47dcf72439486d0e21fc91fe7f"
+    },
+    {
+      "resource": "oracle_index:books/oritech/assets/oritech/area/uranium_cave.png",
+      "jar": "oritech-neoforge-1.21.1-1.2.12.jar",
+      "path": "assets/oracle_index/books/oritech/assets/oritech/area/uranium_cave.png",
+      "doc": "assets/oracle_index/books/oritech/content/nuclear/uranium_pellet.mdx",
+      "sha256": "9c188f45e3d5806b3a683b38144e82b62c418122604c0d4848c41064edab5925"
+    },
+    {
+      "resource": "oracle_index:books/oritech/assets/oritech/area/accelerator_speed_area.png",
+      "jar": "oritech-neoforge-1.21.1-1.2.12.jar",
+      "path": "assets/oracle_index/books/oritech/assets/oritech/area/accelerator_speed_area.png",
+      "doc": "assets/oracle_index/books/oritech/content/particle/accelerator_sensor.mdx",
+      "sha256": "7090026e0c7d3309930030444e74b3ae4c03f19c7ee1f805b0edc58271031da7"
+    },
+    {
+      "resource": "oracle_index:books/oritech/assets/oritech/area/fluxite_mining.png",
+      "jar": "oritech-neoforge-1.21.1-1.2.12.jar",
+      "path": "assets/oracle_index/books/oritech/assets/oritech/area/fluxite_mining.png",
+      "doc": "assets/oracle_index/books/oritech/content/resources/fluxite.mdx",
+      "sha256": "48fb9589ed864249d8074110fe806a1ec692b147788b41e325e4f7bc61d0b982"
+    },
+    {
+      "resource": "oracle_index:books/oritech/assets/oritech/area/ore_boulder.png",
+      "jar": "oritech-neoforge-1.21.1-1.2.12.jar",
+      "path": "assets/oracle_index/books/oritech/assets/oritech/area/ore_boulder.png",
+      "doc": "assets/oracle_index/books/oritech/content/resources/world/deepslate_platinum_ore.mdx",
+      "sha256": "c161d022407dd2c44699452dbb393023937902540278e8e5b0fe3b7329174506"
+    },
+    {
+      "resource": "oracle_index:books/oritech/assets/oritech/area/uranium_cave.png",
+      "jar": "oritech-neoforge-1.21.1-1.2.12.jar",
+      "path": "assets/oracle_index/books/oritech/assets/oritech/area/uranium_cave.png",
+      "doc": "assets/oracle_index/books/oritech/content/resources/world/deepslate_uranium_ore.mdx",
+      "sha256": "9c188f45e3d5806b3a683b38144e82b62c418122604c0d4848c41064edab5925"
+    },
+    {
+      "resource": "oracle_index:books/oritech/assets/oritech/area/resource_node.png",
+      "jar": "oritech-neoforge-1.21.1-1.2.12.jar",
+      "path": "assets/oracle_index/books/oritech/assets/oritech/area/resource_node.png",
+      "doc": "assets/oracle_index/books/oritech/content/resources/world/resource_node_redstone.mdx",
+      "sha256": "8b0e33544759fa23c7aeb22cec365c2c9a785b9d2c29d529f223477087779162"
+    },
+    {
+      "resource": "oracle_index:books/oritech/assets/oritech/area/bedrock_extraction.png",
+      "jar": "oritech-neoforge-1.21.1-1.2.12.jar",
+      "path": "assets/oracle_index/books/oritech/assets/oritech/area/bedrock_extraction.png",
+      "doc": "assets/oracle_index/books/oritech/content/resources/world/resource_node_redstone.mdx",
+      "sha256": "547eff88d5c56d892faa6e42700d6daa3751e360396de8050f74a05bc5af4053"
+    },
+    {
+      "resource": "oracle_index:books/oritech/assets/oritech/area/oil_well.png",
+      "jar": "oritech-neoforge-1.21.1-1.2.12.jar",
+      "path": "assets/oracle_index/books/oritech/assets/oritech/area/oil_well.png",
+      "doc": "assets/oracle_index/books/oritech/content/resources/world/still_oil_bucket.mdx",
+      "sha256": "d0471b53ba671905d55e8540b91cd8eded165129391d03afa0338927b6da0ca7"
+    },
+    {
+      "resource": "powah:guides/powah/book/generators/thermo_generator.png",
+      "jar": "Powah-6.2.10.jar",
+      "path": "assets/powah/guides/powah/book/generators/thermo_generator.png",
+      "doc": "assets/powah/guides/powah/book/generators/thermo_generator.md",
+      "sha256": "2749b2a277ebdf8327d58fe9904905e7b0e89aec73548eb7c497fa9444a9ac3f"
+    },
+    {
+      "resource": "powah:guides/powah/book/generators/magmator.png",
+      "jar": "Powah-6.2.10.jar",
+      "path": "assets/powah/guides/powah/book/generators/magmator.png",
+      "doc": "assets/powah/guides/powah/book/generators/magmator.md",
+      "sha256": "473354abc72866e0d5ca46ffab60d4f469f56acc871694e5c63625d40f458694"
+    },
+    {
+      "resource": "powah:guides/powah/book/generators/solar_panel.png",
+      "jar": "Powah-6.2.10.jar",
+      "path": "assets/powah/guides/powah/book/generators/solar_panel.png",
+      "doc": "assets/powah/guides/powah/book/generators/solar_panel.md",
+      "sha256": "fc8c2845bb4dc1fca0f9db741900b9f0722a7e7507fe54201459c456b7ef26c7"
+    },
+    {
+      "resource": "powah:guides/powah/book/generators/reactor.png",
+      "jar": "Powah-6.2.10.jar",
+      "path": "assets/powah/guides/powah/book/generators/reactor.png",
+      "doc": "assets/powah/guides/powah/book/generators/reactor.md",
+      "sha256": "09735a5bafcc0a1dece65c4ddcf0495e8b5277bdd146e3c3d8553f516bb95933"
+    },
+    {
+      "resource": "powah:guides/powah/book/generators/furnator.png",
+      "jar": "Powah-6.2.10.jar",
+      "path": "assets/powah/guides/powah/book/generators/furnator.png",
+      "doc": "assets/powah/guides/powah/book/generators/furnator.md",
+      "sha256": "8b691ec9081ac83e1f53161fa2eb854f78234a896b1adde4c5278b0d2fe8a4a7"
+    },
+    {
+      "resource": "powah:guides/powah/book/storage_transfer/ender_gate.png",
+      "jar": "Powah-6.2.10.jar",
+      "path": "assets/powah/guides/powah/book/storage_transfer/ender_gate.png",
+      "doc": "assets/powah/guides/powah/book/storage_transfer/ender_gate.md",
+      "sha256": "a54729c0d6c2cbf9888329989dd702d95cd6d9d1e5683ec7f24f3c56b416167b"
+    },
+    {
+      "resource": "powah:guides/powah/book/storage_transfer/ender_cell.png",
+      "jar": "Powah-6.2.10.jar",
+      "path": "assets/powah/guides/powah/book/storage_transfer/ender_cell.png",
+      "doc": "assets/powah/guides/powah/book/storage_transfer/ender_cell.md",
+      "sha256": "81df153eebc7d02525d75dfc0f5e7e21e6589de767dce5cd13405cd3393f584d"
+    },
+    {
+      "resource": "powah:guides/powah/book/storage_transfer/energy_cable.png",
+      "jar": "Powah-6.2.10.jar",
+      "path": "assets/powah/guides/powah/book/storage_transfer/energy_cable.png",
+      "doc": "assets/powah/guides/powah/book/storage_transfer/energy_cable.md",
+      "sha256": "794728dc360d4a79403ab9309fce8bec0a4dd70a08cc3c28bf21fec34cc2749d"
+    },
+    {
+      "resource": "powah:guides/powah/book/storage_transfer/energy_cell.png",
+      "jar": "Powah-6.2.10.jar",
+      "path": "assets/powah/guides/powah/book/storage_transfer/energy_cell.png",
+      "doc": "assets/powah/guides/powah/book/storage_transfer/energy_cell.md",
+      "sha256": "4db6272d015fe1709275b2141a4b63700a270eaabb26913a5c567962451bf6ef"
+    },
+    {
+      "resource": "powah:guides/powah/book/energy_blocks/energizing.png",
+      "jar": "Powah-6.2.10.jar",
+      "path": "assets/powah/guides/powah/book/energy_blocks/energizing.png",
+      "doc": "assets/powah/guides/powah/book/energy_blocks/energizing.md",
+      "sha256": "7a38c5d63cd51e61eb1d816011647b02605ac76c11f34e6ef19d4bbe4b1e0a43"
+    },
+    {
+      "resource": "powah:guides/powah/book/energy_blocks/energy_discharger.png",
+      "jar": "Powah-6.2.10.jar",
+      "path": "assets/powah/guides/powah/book/energy_blocks/energy_discharger.png",
+      "doc": "assets/powah/guides/powah/book/energy_blocks/energy_discharger.md",
+      "sha256": "93c7c22c79d4a3172db07cf0f16266f2d382c0bd6e2f0eda2db65093169c6f0c"
+    },
+    {
+      "resource": "powah:guides/powah/book/energy_blocks/player_transmitter.png",
+      "jar": "Powah-6.2.10.jar",
+      "path": "assets/powah/guides/powah/book/energy_blocks/player_transmitter.png",
+      "doc": "assets/powah/guides/powah/book/energy_blocks/player_transmitter.md",
+      "sha256": "2df156c1b71809143ecc5bafce604bd8fc5dc98eb108aaac36319d001eb6d666"
+    },
+    {
+      "resource": "powah:guides/powah/book/energy_blocks/energy_hopper.png",
+      "jar": "Powah-6.2.10.jar",
+      "path": "assets/powah/guides/powah/book/energy_blocks/energy_hopper.png",
+      "doc": "assets/powah/guides/powah/book/energy_blocks/energy_hopper.md",
+      "sha256": "37a9558fe69dcfc9760af51026787bf92b4697e2e796f42cc818b686884bfb5c"
+    },
+    {
+      "resource": "laserio:textures/book/entries/basics1.png",
+      "jar": "laserio-1.9.11.jar",
+      "path": "assets/laserio/textures/book/entries/basics1.png",
+      "doc": "assets/laserio/patchouli_books/laseriobook/zh_cn/entries/basics.json",
+      "sha256": "3aa614bd08888697423b3cf2fb579dc362bba26fc6d06a831d2c752a9aacfc60"
+    },
+    {
+      "resource": "laserio:textures/book/entries/basics-extract.png",
+      "jar": "laserio-1.9.11.jar",
+      "path": "assets/laserio/textures/book/entries/basics-extract.png",
+      "doc": "assets/laserio/patchouli_books/laseriobook/zh_cn/entries/basics.json",
+      "sha256": "169241a1cd6a24bf4e3f1eee3a772978497e1ec94e2b31babfe4e52217b0b62d"
+    },
+    {
+      "resource": "laserio:textures/book/entries/basics-stock.png",
+      "jar": "laserio-1.9.11.jar",
+      "path": "assets/laserio/textures/book/entries/basics-stock.png",
+      "doc": "assets/laserio/patchouli_books/laseriobook/zh_cn/entries/basics.json",
+      "sha256": "6271f7463cceb803b06ace92afe04fb800f303b44d33016d92c45ed4725d7599"
+    },
+    {
+      "resource": "laserio:textures/book/entries/filter_basic.png",
+      "jar": "laserio-1.9.11.jar",
+      "path": "assets/laserio/textures/book/entries/filter_basic.png",
+      "doc": "assets/laserio/patchouli_books/laseriobook/zh_cn/entries/filter_basics.json",
+      "sha256": "e92bcd9634e007d636abce79592fe1ddc9d2299304bb5a9ccd8e4204b83f9e82"
+    },
+    {
+      "resource": "laserio:textures/book/entries/filter_tag.png",
+      "jar": "laserio-1.9.11.jar",
+      "path": "assets/laserio/textures/book/entries/filter_tag.png",
+      "doc": "assets/laserio/patchouli_books/laseriobook/zh_cn/entries/filter_tag.json",
+      "sha256": "bb4933fda81adb2dca997ddf6259fec062181f110aea5f6b4abfa4d4d5e4f7ff"
+    },
+    {
+      "resource": "laserio:textures/book/entries/laser_connector1.png",
+      "jar": "laserio-1.9.11.jar",
+      "path": "assets/laserio/textures/book/entries/laser_connector1.png",
+      "doc": "assets/laserio/patchouli_books/laseriobook/zh_cn/entries/laser_connector.json",
+      "sha256": "54569e2c17bd673b5109532996b92b95744c9f113f08cc4cca51dfce37a2d1c1"
+    },
+    {
+      "resource": "laserio:textures/book/entries/laser_node1.png",
+      "jar": "laserio-1.9.11.jar",
+      "path": "assets/laserio/textures/book/entries/laser_node1.png",
+      "doc": "assets/laserio/patchouli_books/laseriobook/zh_cn/entries/laser_node.json",
+      "sha256": "f4103a6bbae84ba14f002b70b49cb1fa701d21a77d836f7328293468e9e61cb5"
+    },
+    {
+      "resource": "laserio:textures/book/entries/laser_node_gui1.png",
+      "jar": "laserio-1.9.11.jar",
+      "path": "assets/laserio/textures/book/entries/laser_node_gui1.png",
+      "doc": "assets/laserio/patchouli_books/laseriobook/zh_cn/entries/laser_node.json",
+      "sha256": "05dfdb30a8f7b3e3aa9ea85ae96a0807ec29eec422b7aa8dcb2dd23d509c71e1"
+    },
+    {
+      "resource": "laserio:textures/book/entries/laser_node2.png",
+      "jar": "laserio-1.9.11.jar",
+      "path": "assets/laserio/textures/book/entries/laser_node2.png",
+      "doc": "assets/laserio/patchouli_books/laseriobook/zh_cn/entries/laser_node.json",
+      "sha256": "202d6cbcff0140533f1d7ffc98e3cf42d4313316670b3a56189a7e3c704353b1"
+    },
+    {
+      "resource": "laserio:textures/book/entries/laser_node3.png",
+      "jar": "laserio-1.9.11.jar",
+      "path": "assets/laserio/textures/book/entries/laser_node3.png",
+      "doc": "assets/laserio/patchouli_books/laseriobook/zh_cn/entries/laser_node.json",
+      "sha256": "69f29251044458965b245d712ebb6d5db9359e6fe8762d9ede95bc378e5ba74a"
+    },
+    {
+      "resource": "laserio:textures/book/entries/laser_wrench.png",
+      "jar": "laserio-1.9.11.jar",
+      "path": "assets/laserio/textures/book/entries/laser_wrench.png",
+      "doc": "assets/laserio/patchouli_books/laseriobook/zh_cn/entries/laser_wrench.json",
+      "sha256": "65c0d0456eac7cdda3e872b35965ce11a4cc53eb3e178a8eed8b42e904f8b4b8"
+    },
+    {
+      "resource": "laserio:textures/book/entries/overclocker_node1.png",
+      "jar": "laserio-1.9.11.jar",
+      "path": "assets/laserio/textures/book/entries/overclocker_node1.png",
+      "doc": "assets/laserio/patchouli_books/laseriobook/zh_cn/entries/oveclocker_node.json",
+      "sha256": "27e3505be5651b08dbd1a9c89ad49ea6145ed77da29d42b3959282ef43a78202"
+    },
+    {
+      "resource": "laserio:textures/book/entries/overclocker_node2.png",
+      "jar": "laserio-1.9.11.jar",
+      "path": "assets/laserio/textures/book/entries/overclocker_node2.png",
+      "doc": "assets/laserio/patchouli_books/laseriobook/zh_cn/entries/oveclocker_node.json",
+      "sha256": "6e8403a6c5bef0336d1eaefc3de73586f64aaf0e3f0eae80efc827eb4ad7bbfb"
+    },
+    {
+      "resource": "extendedae_plus:ae2guide/picture/network_pattern_controller.png",
+      "jar": "extendedae_plus-1.6.3.jar",
+      "path": "assets/extendedae_plus/ae2guide/picture/network_pattern_controller.png",
+      "doc": "assets/extendedae_plus/ae2guide/_zh_cn/introduction/devices/network_pattern_controller.md",
+      "sha256": "9241540105c6fb6e864927de525d1ddec3b77ddabc2c6a05af845e16d793d6ab"
+    },
+    {
+      "resource": "extendedae_plus:ae2guide/picture/entity_speed_ticker.png",
+      "jar": "extendedae_plus-1.6.3.jar",
+      "path": "assets/extendedae_plus/ae2guide/picture/entity_speed_ticker.png",
+      "doc": "assets/extendedae_plus/ae2guide/_zh_cn/introduction/devices/entity_speed_ticker_part.md",
+      "sha256": "9bb2acfe1ed1f6e15851c4118e1fda29e61ef857c7138f4dfebb16a28a254d04"
+    },
+    {
+      "resource": "extendedae_plus:ae2guide/picture/eformula1.png",
+      "jar": "extendedae_plus-1.6.3.jar",
+      "path": "assets/extendedae_plus/ae2guide/picture/eformula1.png",
+      "doc": "assets/extendedae_plus/ae2guide/_zh_cn/introduction/devices/entity_speed_ticker_part.md",
+      "sha256": "ee0a77f1094d2065987ffb0b2156f003db6243fbd14327fdb45a0d2e89b4ef31"
+    },
+    {
+      "resource": "extendedae_plus:ae2guide/picture/eformula2.png",
+      "jar": "extendedae_plus-1.6.3.jar",
+      "path": "assets/extendedae_plus/ae2guide/picture/eformula2.png",
+      "doc": "assets/extendedae_plus/ae2guide/_zh_cn/introduction/devices/entity_speed_ticker_part.md",
+      "sha256": "c3986e5806ca19092139dbcfe061f95faabfb602350f529159beed839245b2d4"
+    },
+    {
+      "resource": "advanced_ae:ae2guide/pic/aae_intro.png",
+      "jar": "[高级AE] AdvancedAE-1.6.12-1.21.1.jar",
+      "path": "assets/advanced_ae/ae2guide/pic/aae_intro.png",
+      "doc": "assets/advanced_ae/ae2guide/_zh_cn/aae_intro/aae_intro-index.md",
+      "sha256": "1d563c2d6e260aeec63e013a0aef938a2f358bfab22f9652388a1954568eedf5"
+    },
+    {
+      "resource": "advanced_ae:ae2guide/pic/ape_pattern.png",
+      "jar": "[高级AE] AdvancedAE-1.6.12-1.21.1.jar",
+      "path": "assets/advanced_ae/ae2guide/pic/ape_pattern.png",
+      "doc": "assets/advanced_ae/ae2guide/_zh_cn/aae_intro/advanced_pattern_encoder.md",
+      "sha256": "17114ce7e1ee2c2b1a6836924433309175d59177e17cb8224977fc8b190254ce"
+    },
+    {
+      "resource": "advanced_ae:ae2guide/pic/app_gui.png",
+      "jar": "[高级AE] AdvancedAE-1.6.12-1.21.1.jar",
+      "path": "assets/advanced_ae/ae2guide/pic/app_gui.png",
+      "doc": "assets/advanced_ae/ae2guide/_zh_cn/aae_intro/advanced_pattern_provider.md",
+      "sha256": "7193563da4617afb679639949cd48af52ed383c36f17623363dbd1cfe8e67f2f"
+    },
+    {
+      "resource": "advanced_ae:ae2guide/pic/quantum_armor_config.png",
+      "jar": "[高级AE] AdvancedAE-1.6.12-1.21.1.jar",
+      "path": "assets/advanced_ae/ae2guide/pic/quantum_armor_config.png",
+      "doc": "assets/advanced_ae/ae2guide/_zh_cn/aae_intro/quantum_armor.md",
+      "sha256": "839f616388d22e4722c53e248931414085867679c657efde6b5ad2a872b2b617"
+    },
+    {
+      "resource": "advanced_ae:ae2guide/pic/quantum_crafter_ui.png",
+      "jar": "[高级AE] AdvancedAE-1.6.12-1.21.1.jar",
+      "path": "assets/advanced_ae/ae2guide/pic/quantum_crafter_ui.png",
+      "doc": "assets/advanced_ae/ae2guide/_zh_cn/aae_intro/quantum_crafter.md",
+      "sha256": "347763225a67124836158f9ad3319464454d28bce18caab906dbbf4ffa418cde"
+    },
+    {
+      "resource": "advanced_ae:ae2guide/pic/pattern_configuration_ui.png",
+      "jar": "[高级AE] AdvancedAE-1.6.12-1.21.1.jar",
+      "path": "assets/advanced_ae/ae2guide/pic/pattern_configuration_ui.png",
+      "doc": "assets/advanced_ae/ae2guide/_zh_cn/aae_intro/quantum_crafter.md",
+      "sha256": "ff6d68209be9bd53e97bf302622ca5b8dbd247fdb56cc9452158c0592291af51"
+    },
+    {
+      "resource": "ae2:ae2guide/assets/logo.png",
+      "jar": "[应用能源2] appliedenergistics2-19.2.18.jar",
+      "path": "assets/ae2/ae2guide/assets/logo.png",
+      "doc": "assets/ae2/ae2guide/_zh_cn/index.md",
+      "sha256": "2e113e94b06f0ec198b8faa2cd4c58f937ccfffc0a6db7aaeaf8fc4bce1599f0"
+    },
+    {
+      "resource": "ae2:ae2guide/assets/diagrams/1_type_cell.png",
+      "jar": "[应用能源2] appliedenergistics2-19.2.18.jar",
+      "path": "assets/ae2/ae2guide/assets/diagrams/1_type_cell.png",
+      "doc": "assets/ae2/ae2guide/_zh_cn/ae2-mechanics/bytes-and-types.md",
+      "sha256": "0ee090f4ce8e0d417a467bd9470a783468051f60fd86389044147cc15b0f6dd8"
+    },
+    {
+      "resource": "ae2:ae2guide/assets/diagrams/63_type_cell.png",
+      "jar": "[应用能源2] appliedenergistics2-19.2.18.jar",
+      "path": "assets/ae2/ae2guide/assets/diagrams/63_type_cell.png",
+      "doc": "assets/ae2/ae2guide/_zh_cn/ae2-mechanics/bytes-and-types.md",
+      "sha256": "d1022c38df1fe483e1923fbdf048769d4e44e1beebe23b02ae21dc7043e17f9c"
+    },
+    {
+      "resource": "ae2:ae2guide/assets/diagrams/certus_farm_speed_chart_1.png",
+      "jar": "[应用能源2] appliedenergistics2-19.2.18.jar",
+      "path": "assets/ae2/ae2guide/assets/diagrams/certus_farm_speed_chart_1.png",
+      "doc": "assets/ae2/ae2guide/_zh_cn/ae2-mechanics/certus-growth.md",
+      "sha256": "5f3fe0a6660b01972f9bf141d2e3429bf8d8ba3f23956c6d056b1cd16719ab60"
+    },
+    {
+      "resource": "ae2:ae2guide/assets/diagrams/certus_farm_speed_chart_2.png",
+      "jar": "[应用能源2] appliedenergistics2-19.2.18.jar",
+      "path": "assets/ae2/ae2guide/assets/diagrams/certus_farm_speed_chart_2.png",
+      "doc": "assets/ae2/ae2guide/_zh_cn/ae2-mechanics/certus-growth.md",
+      "sha256": "b426cee8cf9ddd14b44446056fe5c946b82fc57286e3e92df77a88bca892799e"
+    },
+    {
+      "resource": "ae2:ae2guide/assets/assemblies/meteorite-crater.png",
+      "jar": "[应用能源2] appliedenergistics2-19.2.18.jar",
+      "path": "assets/ae2/ae2guide/assets/assemblies/meteorite-crater.png",
+      "doc": "assets/ae2/ae2guide/_zh_cn/ae2-mechanics/meteorites.md",
+      "sha256": "b2d8f98af95abf13c762164844832e8796181fc90dc8dc40fdda08a6bab5c4f2"
+    },
+    {
+      "resource": "ae2:ae2guide/assets/diagrams/water_empty_pattern_small.png",
+      "jar": "[应用能源2] appliedenergistics2-19.2.18.jar",
+      "path": "assets/ae2/ae2guide/assets/diagrams/water_empty_pattern_small.png",
+      "doc": "assets/ae2/ae2guide/_zh_cn/example-setups/bucket-emptier.md",
+      "sha256": "cb12120bd3b0aa8e6779995a0a2cfd71d6e44089019e0e97342569e176ea114c"
+    },
+    {
+      "resource": "ae2:ae2guide/assets/diagrams/lava_empty_pattern_small.png",
+      "jar": "[应用能源2] appliedenergistics2-19.2.18.jar",
+      "path": "assets/ae2/ae2guide/assets/diagrams/lava_empty_pattern_small.png",
+      "doc": "assets/ae2/ae2guide/_zh_cn/example-setups/bucket-emptier.md",
+      "sha256": "5d54d22e99e5f558b7479e3b41753df9fba0c67088c2c293dd103c4c7e6c3e2a"
+    },
+    {
+      "resource": "ae2:ae2guide/assets/diagrams/water_empty_pattern.png",
+      "jar": "[应用能源2] appliedenergistics2-19.2.18.jar",
+      "path": "assets/ae2/ae2guide/assets/diagrams/water_empty_pattern.png",
+      "doc": "assets/ae2/ae2guide/_zh_cn/example-setups/bucket-emptier.md",
+      "sha256": "3e54bcc7d06b2896fbb5a82aceb3767850e67c24cc081cfb65b356d200237185"
+    },
+    {
+      "resource": "ae2:ae2guide/assets/diagrams/lava_empty_pattern.png",
+      "jar": "[应用能源2] appliedenergistics2-19.2.18.jar",
+      "path": "assets/ae2/ae2guide/assets/diagrams/lava_empty_pattern.png",
+      "doc": "assets/ae2/ae2guide/_zh_cn/example-setups/bucket-emptier.md",
+      "sha256": "a03daad41cd75b3cbaf7cb242821afaab9a611b5212951e382c561a789a4291c"
+    },
+    {
+      "resource": "ae2:ae2guide/assets/diagrams/water_fill_pattern_small.png",
+      "jar": "[应用能源2] appliedenergistics2-19.2.18.jar",
+      "path": "assets/ae2/ae2guide/assets/diagrams/water_fill_pattern_small.png",
+      "doc": "assets/ae2/ae2guide/_zh_cn/example-setups/bucket-filler.md",
+      "sha256": "61c3accf82bf6a9223823313c0ede08023f2f4e3b0eb9d91856681c0344b260e"
+    },
+    {
+      "resource": "ae2:ae2guide/assets/diagrams/lava_fill_pattern_small.png",
+      "jar": "[应用能源2] appliedenergistics2-19.2.18.jar",
+      "path": "assets/ae2/ae2guide/assets/diagrams/lava_fill_pattern_small.png",
+      "doc": "assets/ae2/ae2guide/_zh_cn/example-setups/bucket-filler.md",
+      "sha256": "b1b029d04779f5bae5c489c1900a27f8dd71fb58aa521b7e259c4179f4e38ca1"
+    },
+    {
+      "resource": "ae2:ae2guide/assets/diagrams/water_fill_pattern.png",
+      "jar": "[应用能源2] appliedenergistics2-19.2.18.jar",
+      "path": "assets/ae2/ae2guide/assets/diagrams/water_fill_pattern.png",
+      "doc": "assets/ae2/ae2guide/_zh_cn/example-setups/bucket-filler.md",
+      "sha256": "b70f75e9bd485577956116e9c4e49f5c2467b1ac33278200b0bcdbf113eaca4e"
+    },
+    {
+      "resource": "ae2:ae2guide/assets/diagrams/lava_fill_pattern.png",
+      "jar": "[应用能源2] appliedenergistics2-19.2.18.jar",
+      "path": "assets/ae2/ae2guide/assets/diagrams/lava_fill_pattern.png",
+      "doc": "assets/ae2/ae2guide/_zh_cn/example-setups/bucket-filler.md",
+      "sha256": "2e797ddff9ba804c6c2281aee884076a7ff032088c1140007e1e9190060f2de2"
+    },
+    {
+      "resource": "ae2:ae2guide/assets/diagrams/charger_pattern_small.png",
+      "jar": "[应用能源2] appliedenergistics2-19.2.18.jar",
+      "path": "assets/ae2/ae2guide/assets/diagrams/charger_pattern_small.png",
+      "doc": "assets/ae2/ae2guide/_zh_cn/example-setups/charger-automation.md",
+      "sha256": "6f4702afbc5665606f18ea6167f018ef9839741db6686cdc2a388fdd1245ed7f"
+    },
+    {
+      "resource": "ae2:ae2guide/assets/diagrams/charger_pattern.png",
+      "jar": "[应用能源2] appliedenergistics2-19.2.18.jar",
+      "path": "assets/ae2/ae2guide/assets/diagrams/charger_pattern.png",
+      "doc": "assets/ae2/ae2guide/_zh_cn/example-setups/charger-automation.md",
+      "sha256": "25b67c1a087056762f6f2939d412fd3b66950cddf33d180190f1913a17f8b3a1"
+    },
+    {
+      "resource": "ae2:ae2guide/assets/diagrams/furnace_pattern.png",
+      "jar": "[应用能源2] appliedenergistics2-19.2.18.jar",
+      "path": "assets/ae2/ae2guide/assets/diagrams/furnace_pattern.png",
+      "doc": "assets/ae2/ae2guide/_zh_cn/example-setups/furnace-automation.md",
+      "sha256": "ab74fec77f256944f7d11a7735fac6cf8a07a2c8b2fd4fa307f3b952ce754394"
+    },
+    {
+      "resource": "ae2:ae2guide/assets/diagrams/processor_flow_diagram.png",
+      "jar": "[应用能源2] appliedenergistics2-19.2.18.jar",
+      "path": "assets/ae2/ae2guide/assets/diagrams/processor_flow_diagram.png",
+      "doc": "assets/ae2/ae2guide/_zh_cn/example-setups/processor-automation.md",
+      "sha256": "76c9b444c4e39c68ea9752208509bb9babc257257e041961eb572a48500582ef"
+    },
+    {
+      "resource": "ae2:ae2guide/assets/diagrams/logic_pattern_small.png",
+      "jar": "[应用能源2] appliedenergistics2-19.2.18.jar",
+      "path": "assets/ae2/ae2guide/assets/diagrams/logic_pattern_small.png",
+      "doc": "assets/ae2/ae2guide/_zh_cn/example-setups/processor-automation.md",
+      "sha256": "7d854701ff196e26304a046ff1ac258260b00bf09894e43e991c5c101772a934"
+    },
+    {
+      "resource": "ae2:ae2guide/assets/diagrams/calculation_pattern_small.png",
+      "jar": "[应用能源2] appliedenergistics2-19.2.18.jar",
+      "path": "assets/ae2/ae2guide/assets/diagrams/calculation_pattern_small.png",
+      "doc": "assets/ae2/ae2guide/_zh_cn/example-setups/processor-automation.md",
+      "sha256": "d6c12e852a8dc7447bfe0b89ee1be20c360567b790158a202d241e4f2d6721a1"
+    },
+    {
+      "resource": "ae2:ae2guide/assets/diagrams/engineering_pattern_small.png",
+      "jar": "[应用能源2] appliedenergistics2-19.2.18.jar",
+      "path": "assets/ae2/ae2guide/assets/diagrams/engineering_pattern_small.png",
+      "doc": "assets/ae2/ae2guide/_zh_cn/example-setups/processor-automation.md",
+      "sha256": "f872d21b27feb1deeccb49a749522ffa3347787998cc8703987c93a09dd220f8"
+    },
+    {
+      "resource": "ae2:ae2guide/assets/diagrams/logic_pattern.png",
+      "jar": "[应用能源2] appliedenergistics2-19.2.18.jar",
+      "path": "assets/ae2/ae2guide/assets/diagrams/logic_pattern.png",
+      "doc": "assets/ae2/ae2guide/_zh_cn/example-setups/processor-automation.md",
+      "sha256": "52bed8c59fc0600fbdd5dd1ff4415f7af57e9ab681389978024ab07c437d5f74"
+    },
+    {
+      "resource": "ae2:ae2guide/assets/diagrams/calculation_pattern.png",
+      "jar": "[应用能源2] appliedenergistics2-19.2.18.jar",
+      "path": "assets/ae2/ae2guide/assets/diagrams/calculation_pattern.png",
+      "doc": "assets/ae2/ae2guide/_zh_cn/example-setups/processor-automation.md",
+      "sha256": "75363547d4247b00a4aae6d344b754d0a2d329c83084c52cda53bf9b65f6f511"
+    },
+    {
+      "resource": "ae2:ae2guide/assets/diagrams/engineering_pattern.png",
+      "jar": "[应用能源2] appliedenergistics2-19.2.18.jar",
+      "path": "assets/ae2/ae2guide/assets/diagrams/engineering_pattern.png",
+      "doc": "assets/ae2/ae2guide/_zh_cn/example-setups/processor-automation.md",
+      "sha256": "af11349c7deee4a2966ea4291c70a4c000022df859c28e83aaa88507c76a5f02"
+    },
+    {
+      "resource": "ae2:ae2guide/assets/diagrams/smithing_template_pattern_small.png",
+      "jar": "[应用能源2] appliedenergistics2-19.2.18.jar",
+      "path": "assets/ae2/ae2guide/assets/diagrams/smithing_template_pattern_small.png",
+      "doc": "assets/ae2/ae2guide/_zh_cn/example-setups/recursive-crafting-setup.md",
+      "sha256": "cc90f8074d3e8eba32644386e3c677cca0076b58fa1687407c8c690610ec07c0"
+    },
+    {
+      "resource": "ae2:ae2guide/assets/diagrams/smithing_template_pattern.png",
+      "jar": "[应用能源2] appliedenergistics2-19.2.18.jar",
+      "path": "assets/ae2/ae2guide/assets/diagrams/smithing_template_pattern.png",
+      "doc": "assets/ae2/ae2guide/_zh_cn/example-setups/recursive-crafting-setup.md",
+      "sha256": "49c130367447052265321bb7a087fef35e1b6dcfc067bff4dc51d7901b5e4b72"
+    },
+    {
+      "resource": "ae2:ae2guide/assets/diagrams/fluix_pattern_small.png",
+      "jar": "[应用能源2] appliedenergistics2-19.2.18.jar",
+      "path": "assets/ae2/ae2guide/assets/diagrams/fluix_pattern_small.png",
+      "doc": "assets/ae2/ae2guide/_zh_cn/example-setups/throw-in-water-automation.md",
+      "sha256": "275e1168182c30124e12cb41c5b1c5ca251241bfd40c88188a853188de6e0207"
+    },
+    {
+      "resource": "ae2:ae2guide/assets/diagrams/flawed_budding_pattern_small.png",
+      "jar": "[应用能源2] appliedenergistics2-19.2.18.jar",
+      "path": "assets/ae2/ae2guide/assets/diagrams/flawed_budding_pattern_small.png",
+      "doc": "assets/ae2/ae2guide/_zh_cn/example-setups/throw-in-water-automation.md",
+      "sha256": "b6c7ac7a826845d9c047756ccb28960d0e78e5ee36456493b2b44791e8af42a8"
+    },
+    {
+      "resource": "ae2:ae2guide/assets/diagrams/fluix_pattern.png",
+      "jar": "[应用能源2] appliedenergistics2-19.2.18.jar",
+      "path": "assets/ae2/ae2guide/assets/diagrams/fluix_pattern.png",
+      "doc": "assets/ae2/ae2guide/_zh_cn/example-setups/throw-in-water-automation.md",
+      "sha256": "7818feb0dc1a8f822aaee780c708b49970c5af0512e98ad10c3abafbbe1209fc"
+    },
+    {
+      "resource": "ae2:ae2guide/assets/diagrams/flawed_budding_pattern.png",
+      "jar": "[应用能源2] appliedenergistics2-19.2.18.jar",
+      "path": "assets/ae2/ae2guide/assets/diagrams/flawed_budding_pattern.png",
+      "doc": "assets/ae2/ae2guide/_zh_cn/example-setups/throw-in-water-automation.md",
+      "sha256": "9c0dedc5bfa35b04660bc38fbd7ba626b8baea957321416111ba6d65d026bf7d"
+    },
+    {
+      "resource": "ae2:ae2guide/assets/diagrams/ae2_villager.png",
+      "jar": "[应用能源2] appliedenergistics2-19.2.18.jar",
+      "path": "assets/ae2/ae2guide/assets/diagrams/ae2_villager.png",
+      "doc": "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/fluix_researcher.md",
+      "sha256": "1ff26698f65aa3910f3f3e45bc668fd296dbd67c6aeb369ce60434342ed69363"
+    },
+    {
+      "resource": "extendedae:ae2guide/pic/assembler_matrix.png",
+      "jar": "ExtendedAE-1.21-2.2.39-neoforge.jar",
+      "path": "assets/extendedae/ae2guide/pic/assembler_matrix.png",
+      "doc": "assets/extendedae/ae2guide/_zh_cn/epp_intro/assembler_matrix.md",
+      "sha256": "474b3eb0c94d79288fdc495f1401ec3abd133424676f1e71b3d295f6e57b4476"
+    },
+    {
+      "resource": "extendedae:ae2guide/pic/caner_gui.png",
+      "jar": "ExtendedAE-1.21-2.2.39-neoforge.jar",
+      "path": "assets/extendedae/ae2guide/pic/caner_gui.png",
+      "doc": "assets/extendedae/ae2guide/_zh_cn/epp_intro/caner.md",
+      "sha256": "d258cdc576acef2790d1735f6cb50ab2024873870ef74788fb463f6cf0665acc"
+    },
+    {
+      "resource": "extendedae:ae2guide/pic/fill_water.png",
+      "jar": "ExtendedAE-1.21-2.2.39-neoforge.jar",
+      "path": "assets/extendedae/ae2guide/pic/fill_water.png",
+      "doc": "assets/extendedae/ae2guide/_zh_cn/epp_intro/caner.md",
+      "sha256": "7354105cdf34314c9f02dcc51127149644eab11e527e84e3f54257cddeebbaee"
+    },
+    {
+      "resource": "extendedae:ae2guide/pic/fill_energy.png",
+      "jar": "ExtendedAE-1.21-2.2.39-neoforge.jar",
+      "path": "assets/extendedae/ae2guide/pic/fill_energy.png",
+      "doc": "assets/extendedae/ae2guide/_zh_cn/epp_intro/caner.md",
+      "sha256": "e4df2ed79c4180d64be4110234ccd85396e99e467d524faefc3d70a2ab6c6da1"
+    },
+    {
+      "resource": "extendedae:ae2guide/pic/cm.png",
+      "jar": "ExtendedAE-1.21-2.2.39-neoforge.jar",
+      "path": "assets/extendedae/ae2guide/pic/cm.png",
+      "doc": "assets/extendedae/ae2guide/_zh_cn/epp_intro/config_modifier.md",
+      "sha256": "f8ea043b0a04377d67f9c45e595d2ed8242aa09d002cae40cad3fc64cd88c642"
+    },
+    {
+      "resource": "extendedae:ae2guide/pic/ei_gui.png",
+      "jar": "ExtendedAE-1.21-2.2.39-neoforge.jar",
+      "path": "assets/extendedae/ae2guide/pic/ei_gui.png",
+      "doc": "assets/extendedae/ae2guide/_zh_cn/epp_intro/extended_interface.md",
+      "sha256": "f05b01a6c0ea503bf496a68ab3af2e1dc7acd39b895b65b0181c20f4f3c18fbb"
+    },
+    {
+      "resource": "extendedae:ae2guide/pic/epp_gui.png",
+      "jar": "ExtendedAE-1.21-2.2.39-neoforge.jar",
+      "path": "assets/extendedae/ae2guide/pic/epp_gui.png",
+      "doc": "assets/extendedae/ae2guide/_zh_cn/epp_intro/extended_pattern_provider.md",
+      "sha256": "200b7e9d325ac9f794da452694d3d9732d89e0068c8d06721f0f7843287c2203"
+    },
+    {
+      "resource": "extendedae:ae2guide/pic/epa_gui1.png",
+      "jar": "ExtendedAE-1.21-2.2.39-neoforge.jar",
+      "path": "assets/extendedae/ae2guide/pic/epa_gui1.png",
+      "doc": "assets/extendedae/ae2guide/_zh_cn/epp_intro/extended_pattern_terminal.md",
+      "sha256": "f494e1ee18bbcf6ed421212c8d670ebb5660bd6418888035a90227fef9cfcaf9"
+    },
+    {
+      "resource": "extendedae:ae2guide/pic/epa_gui2.png",
+      "jar": "ExtendedAE-1.21-2.2.39-neoforge.jar",
+      "path": "assets/extendedae/ae2guide/pic/epa_gui2.png",
+      "doc": "assets/extendedae/ae2guide/_zh_cn/epp_intro/extended_pattern_terminal.md",
+      "sha256": "23d99ce1508096247d8a2cb36d0e4089561613823e29b192bd27351f05f2dda9"
+    },
+    {
+      "resource": "extendedae:ae2guide/pic/epa_gui3.png",
+      "jar": "ExtendedAE-1.21-2.2.39-neoforge.jar",
+      "path": "assets/extendedae/ae2guide/pic/epa_gui3.png",
+      "doc": "assets/extendedae/ae2guide/_zh_cn/epp_intro/extended_pattern_terminal.md",
+      "sha256": "c82c826b12c963db562acde003080154247c6b0c465b4ffaf0f9aed78beaa29e"
+    },
+    {
+      "resource": "extendedae:ae2guide/pic/mod_bus_name2.png",
+      "jar": "ExtendedAE-1.21-2.2.39-neoforge.jar",
+      "path": "assets/extendedae/ae2guide/pic/mod_bus_name2.png",
+      "doc": "assets/extendedae/ae2guide/_zh_cn/epp_intro/mod_export_bus.md",
+      "sha256": "99dec983a31ff53330f1e8054a243c1c85ad2fb94302875361832bbdd4c0e1d0"
+    },
+    {
+      "resource": "extendedae:ae2guide/pic/mod_bus_name.png",
+      "jar": "ExtendedAE-1.21-2.2.39-neoforge.jar",
+      "path": "assets/extendedae/ae2guide/pic/mod_bus_name.png",
+      "doc": "assets/extendedae/ae2guide/_zh_cn/epp_intro/mod_storage_bus.md",
+      "sha256": "694d5ca562d2dedc35c0a0d84529f01904e27029ed8c61df2f1b9407c0bb89f0"
+    },
+    {
+      "resource": "extendedae:ae2guide/pic/pm.png",
+      "jar": "ExtendedAE-1.21-2.2.39-neoforge.jar",
+      "path": "assets/extendedae/ae2guide/pic/pm.png",
+      "doc": "assets/extendedae/ae2guide/_zh_cn/epp_intro/pattern_modifier.md",
+      "sha256": "ae5b789f665d1e839e3fee5c4eaa5a1c62f16ce6ebe0f14f84480713b21673aa"
+    },
+    {
+      "resource": "extendedae:ae2guide/pic/pm1.png",
+      "jar": "ExtendedAE-1.21-2.2.39-neoforge.jar",
+      "path": "assets/extendedae/ae2guide/pic/pm1.png",
+      "doc": "assets/extendedae/ae2guide/_zh_cn/epp_intro/pattern_modifier.md",
+      "sha256": "7fbf65f596d28fdf42852eecd6c3c3a186b8cc97b4945b1439e8b273b2768de1"
+    },
+    {
+      "resource": "extendedae:ae2guide/pic/pm2.png",
+      "jar": "ExtendedAE-1.21-2.2.39-neoforge.jar",
+      "path": "assets/extendedae/ae2guide/pic/pm2.png",
+      "doc": "assets/extendedae/ae2guide/_zh_cn/epp_intro/pattern_modifier.md",
+      "sha256": "9aecd14fa9b987e793efe026d11200968bab6d22db9f0d7c630e421a4c5f2784"
+    },
+    {
+      "resource": "extendedae:ae2guide/pic/pm4.png",
+      "jar": "ExtendedAE-1.21-2.2.39-neoforge.jar",
+      "path": "assets/extendedae/ae2guide/pic/pm4.png",
+      "doc": "assets/extendedae/ae2guide/_zh_cn/epp_intro/pattern_modifier.md",
+      "sha256": "e2c37c9752022cc0847baa42b1f2caf3736b1cf125c65766755a3f946e57a925"
+    },
+    {
+      "resource": "extendedae:ae2guide/pic/pm6.png",
+      "jar": "ExtendedAE-1.21-2.2.39-neoforge.jar",
+      "path": "assets/extendedae/ae2guide/pic/pm6.png",
+      "doc": "assets/extendedae/ae2guide/_zh_cn/epp_intro/pattern_modifier.md",
+      "sha256": "20cd32e74646fcb5529193f551eac3facd8d9b8e0708796601097d56989f799b"
+    },
+    {
+      "resource": "extendedae:ae2guide/pic/pm5.png",
+      "jar": "ExtendedAE-1.21-2.2.39-neoforge.jar",
+      "path": "assets/extendedae/ae2guide/pic/pm5.png",
+      "doc": "assets/extendedae/ae2guide/_zh_cn/epp_intro/pattern_modifier.md",
+      "sha256": "0d75acc4a1018933e93b11a2782e10255b5293f8c968aecfc8b71df81a8e224c"
+    },
+    {
+      "resource": "extendedae:ae2guide/pic/pm7.png",
+      "jar": "ExtendedAE-1.21-2.2.39-neoforge.jar",
+      "path": "assets/extendedae/ae2guide/pic/pm7.png",
+      "doc": "assets/extendedae/ae2guide/_zh_cn/epp_intro/pattern_modifier.md",
+      "sha256": "7f3bac2a2a0d21acdcfd459f53b89feb798406ec55a6bebd3b7dffbd9f9a787c"
+    },
+    {
+      "resource": "extendedae:ae2guide/pic/pm8.png",
+      "jar": "ExtendedAE-1.21-2.2.39-neoforge.jar",
+      "path": "assets/extendedae/ae2guide/pic/pm8.png",
+      "doc": "assets/extendedae/ae2guide/_zh_cn/epp_intro/pattern_modifier.md",
+      "sha256": "f78047227755a8abbd51d90eb55395ac78e9d77040f8144f3c19699d26f2b024"
+    },
+    {
+      "resource": "extendedae:ae2guide/pic/pm3.png",
+      "jar": "ExtendedAE-1.21-2.2.39-neoforge.jar",
+      "path": "assets/extendedae/ae2guide/pic/pm3.png",
+      "doc": "assets/extendedae/ae2guide/_zh_cn/epp_intro/pattern_modifier.md",
+      "sha256": "049702dc433c7896d760a532150b756b397d290b3ded94cea348cd719ea51a43"
+    },
+    {
+      "resource": "extendedae:ae2guide/pic/pre_bus_gui1.png",
+      "jar": "ExtendedAE-1.21-2.2.39-neoforge.jar",
+      "path": "assets/extendedae/ae2guide/pic/pre_bus_gui1.png",
+      "doc": "assets/extendedae/ae2guide/_zh_cn/epp_intro/precise_export_bus.md",
+      "sha256": "2d3af29036c23c3a0d58ce5da1c33b37b05d32880066fd98ecfc034e00078605"
+    },
+    {
+      "resource": "extendedae:ae2guide/pic/pre_bus_gui2.png",
+      "jar": "ExtendedAE-1.21-2.2.39-neoforge.jar",
+      "path": "assets/extendedae/ae2guide/pic/pre_bus_gui2.png",
+      "doc": "assets/extendedae/ae2guide/_zh_cn/epp_intro/precise_export_bus.md",
+      "sha256": "9ba5d058ed490b2a6d630527ddeb62a2390b823299be79c189e0b929b5573a1a"
+    },
+    {
+      "resource": "extendedae:ae2guide/pic/pre_storage_bus.png",
+      "jar": "ExtendedAE-1.21-2.2.39-neoforge.jar",
+      "path": "assets/extendedae/ae2guide/pic/pre_storage_bus.png",
+      "doc": "assets/extendedae/ae2guide/_zh_cn/epp_intro/precise_storage_bus.md",
+      "sha256": "4981940881c7caeb23c8fb3fbcbbbe41bb10a25726936e3c6562ec6fd5409aae"
+    },
+    {
+      "resource": "extendedae:ae2guide/pic/thr_bus_gui1.png",
+      "jar": "ExtendedAE-1.21-2.2.39-neoforge.jar",
+      "path": "assets/extendedae/ae2guide/pic/thr_bus_gui1.png",
+      "doc": "assets/extendedae/ae2guide/_zh_cn/epp_intro/threshold_export_bus.md",
+      "sha256": "7f031241159448efac7f8cbe7b8cca451df3c9f5760d42ab2c304d6c4b1567dc"
+    },
+    {
+      "resource": "extendedae:ae2guide/pic/thr_bus_gui2.png",
+      "jar": "ExtendedAE-1.21-2.2.39-neoforge.jar",
+      "path": "assets/extendedae/ae2guide/pic/thr_bus_gui2.png",
+      "doc": "assets/extendedae/ae2guide/_zh_cn/epp_intro/threshold_export_bus.md",
+      "sha256": "dc82625164afb107a1e691d84c5fb23f22d89e04aeaf81eef543d3606ae48026"
+    },
+    {
+      "resource": "extendedae:ae2guide/pic/void_cell.png",
+      "jar": "ExtendedAE-1.21-2.2.39-neoforge.jar",
+      "path": "assets/extendedae/ae2guide/pic/void_cell.png",
+      "doc": "assets/extendedae/ae2guide/_zh_cn/epp_intro/void_cell.md",
+      "sha256": "336f36fe298b94986d35b85571d032f604f2c1c97800dae62270e3fd08e3644c"
+    },
+    {
+      "resource": "laserio:textures/book/entries/nbt_filter.png",
+      "jar": "laserio-1.9.11.jar",
+      "path": "assets/laserio/textures/book/entries/nbt_filter.png",
+      "doc": "assets/laserio/patchouli_books/laseriobook/zh_cn/entries/filter_nbt.json",
+      "sha256": "4c299e4f50c97a41a3301f8c5b26c7f263a2760b36c688557c0d73fe6cef2520"
+    },
+    {
+      "resource": "laserio:textures/book/entries/laser_connector_advanced1.png",
+      "jar": "laserio-1.9.11.jar",
+      "path": "assets/laserio/textures/book/entries/laser_connector_advanced1.png",
+      "doc": "assets/laserio/patchouli_books/laseriobook/zh_cn/entries/laser_connector_advanced.json",
+      "sha256": "774ee5ce7fa8a8d7f47040ace871ff36d05ac773f543192920782226524c6881"
+    },
+    {
+      "resource": "laserio:textures/book/entries/laser_connector_advanced2.png",
+      "jar": "laserio-1.9.11.jar",
+      "path": "assets/laserio/textures/book/entries/laser_connector_advanced2.png",
+      "doc": "assets/laserio/patchouli_books/laseriobook/zh_cn/entries/laser_connector_advanced.json",
+      "sha256": "6656ffb855a2428978d91cf9e46ac075b1b4f8a082382d33906a97ded9c7938a"
+    },
+    {
+      "resource": "modularrouters:textures/patchouli/augments.png",
+      "jar": "[模块化路由器] modular-routers-13.2.7+mc1.21.1.jar",
+      "path": "assets/modularrouters/textures/patchouli/augments.png",
+      "doc": "assets/modularrouters/patchouli_books/book/zh_cn/entries/intro/augments.json",
+      "sha256": "f5bb722fac38ccb0edc636bff687392b7525813047973de466a74ac3248e2b3d"
+    },
+    {
+      "resource": "modularrouters:textures/patchouli/bulk_filter.png",
+      "jar": "[模块化路由器] modular-routers-13.2.7+mc1.21.1.jar",
+      "path": "assets/modularrouters/textures/patchouli/bulk_filter.png",
+      "doc": "assets/modularrouters/patchouli_books/book/zh_cn/entries/intro/filters.json",
+      "sha256": "7072c827ceabadb57841c8fd31175039814a72cc8478ad7ef7e455cce2c35354"
+    },
+    {
+      "resource": "modularrouters:textures/patchouli/module_gui.png",
+      "jar": "[模块化路由器] modular-routers-13.2.7+mc1.21.1.jar",
+      "path": "assets/modularrouters/textures/patchouli/module_gui.png",
+      "doc": "assets/modularrouters/patchouli_books/book/zh_cn/entries/intro/modules.json",
+      "sha256": "72504635296c1c55fef58b546cbe521401ea76b526e332cd5716bb208346b6c3"
+    },
+    {
+      "resource": "modularrouters:textures/patchouli/router_gui.png",
+      "jar": "[模块化路由器] modular-routers-13.2.7+mc1.21.1.jar",
+      "path": "assets/modularrouters/textures/patchouli/router_gui.png",
+      "doc": "assets/modularrouters/patchouli_books/book/zh_cn/entries/router/modular_router.json",
+      "sha256": "e754f05f37e50ab7bf3a65264aed4ad82e983411bef5cba2dc457e45da372581"
+    },
+    {
+      "resource": "rftoolsutility:textures/manual/env_controller_gui.png",
+      "jar": "[RF工具：实用设备] rftoolsutility-1.21-7.0.12.jar",
+      "path": "assets/rftoolsutility/textures/manual/env_controller_gui.png",
+      "doc": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/machines/environmental.json",
+      "sha256": "0aa69f8b488da30a38133c1d2a2ad82df20a369c17fbf694805d19593c14e76d"
+    }
+  ],
+  "enhancedEntries": 3516,
+  "illustratedEntries": 238,
+  "nativeImportedEntries": 824,
+  "nativeMechanisms": 45,
+  "picturesAfterNative": 142,
+  "finalPictures": 143
+}

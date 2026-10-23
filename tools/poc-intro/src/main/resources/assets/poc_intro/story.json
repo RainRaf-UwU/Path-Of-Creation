@@ -1,25 +1,137 @@
 {
   "first": "wake",
   "nodes": [
-    {"id":"wake","speaker":"self","zh":"……好亮。耳边的轰鸣，终于停下来了。","en":"So bright... At last, that roaring in my ears has stopped.","next":"void"},
-    {"id":"void","speaker":"self","zh":"连风声都没有……四周都是空的。我怎么会坐在一张工作台上？","en":"Not even a breeze... There is nothing here. Why am I sitting on a crafting table?","next":"contact"},
-    {"id":"contact","speaker":"system","zh":"检测到意识回流。……太好了，您终于醒了。我是 ECHO，您的创世辅助系统。","en":"Consciousness returning. Oh... thank goodness. You are finally awake. I am ECHO, your creation assistant.","next":"identity"},
-    {"id":"identity","speaker":"self","zh":"你一直在等我？可我连自己是谁都不记得。","en":"You were waiting for me? But I cannot even remember who I am.","choices":[{"zh":"你为什么叫我创造者？","en":"Why call me the Creator?","next":"god"},{"zh":"这里发生了什么？","en":"What happened here?","next":"ruins"}]},
-    {"id":"god","speaker":"system","zh":"因为您就是创造这片世界的神。陆地、生命，还有那些日夜运转的机器，都曾从您的手中诞生。","en":"Because you are the god who made this world. Its lands, its living things, and the machines that worked day and night all began in your hands.","next":"disaster"},
-    {"id":"ruins","speaker":"system","zh":"这里曾有山海、城市和灯火。您是创造它们的神——直到那场爆炸，将一切化作虚空。","en":"There were mountains, oceans, cities, and lights. You were the god who made them, until an explosion left only this void.","next":"disaster"},
-    {"id":"disaster","speaker":"system","zh":"最后的记录里，神龙反应堆失去了控制。防护场被撕开，失控的能量吞没了整个世界。","en":"The final recording shows the Draconic Reactor going critical. Its containment field tore apart. The escaping energy consumed the whole world.","next":"table"},
-    {"id":"table","speaker":"system","zh":"您把最后的神力留给了脚下的终极工作台。只有它，还有里面保存的东西，躲过了毁灭。","en":"You spent your last strength shielding the Ultimate Crafting Table beneath you. Only it, and what it held, survived.","next":"memory"},
-    {"id":"memory","speaker":"self","zh":"是我……没能保护好这个世界吗？为什么一想到那道光，头就这么痛……","en":"Was I the one who failed to protect it? Why does remembering that light hurt so much?","next":"sealed"},
-    {"id":"sealed","speaker":"system","zh":"别勉强回忆。您的记忆和大部分神力都被封锁了，现在只能维持最基本的飞行。继续强行唤醒，可能会伤到您。","en":"Do not force the memories. They are sealed away with most of your power. Only basic flight remains. Trying to awaken everything now could hurt you.","next":"resolve"},
-    {"id":"resolve","speaker":"self","zh":"那我现在，还能做什么？","en":"Then what can I do now?","choices":[{"zh":"重新造一个世界。这次慢慢来。","en":"Rebuild it, one step at a time.","next":"promise"},{"zh":"如果我又失败了呢？","en":"What if I fail again?","next":"fear"}]},
-    {"id":"promise","speaker":"system","zh":"从手边能做到的小事开始。一块石头，一台机器，一盏亮起来的灯。您亲手创造的每一点变化，都会唤醒沉睡的力量。","en":"Begin with what is within reach. A stone, a machine, a light coming on. Every small change you create will stir the power sleeping inside you.","next":"path"},
-    {"id":"fear","speaker":"system","zh":"那就让我陪您一起承担。这一次，不必独自追逐庞大的力量。先让脚下多一块能站稳的土地，好吗？","en":"Then let me carry that fear with you. This time, you need not chase great power alone. Let us first make a little more ground to stand on. All right?","next":"path"},
-    {"id":"path","speaker":"system","zh":"我会替您保存新的记录。等这片虚空再次有了温度，您失去的记忆和力量，也终会找到归途。","en":"I will keep our new memories safe. When warmth returns to this void, your lost memories and strength will find their way home too.","next":"guide"},
-    {"id":"guide","speaker":"system","zh":"工作台里还留着您的法杖。拿起它，右键这张终极工作台，就能得到最初的圆石。其余的，我们边走边想。","en":"Your wand is still inside the table. Take it and right-click the Ultimate Crafting Table to make your first cobblestone. We will find the rest of the way together.","next":"dawn"},
-    {"id":"dawn","speaker":"system","zh":"欢迎回来，我的创造者。先别急着成为神——让我们从这里，重新开始。","en":"Welcome back, my Creator. There is no hurry to be a god again. Let us begin here, together.","next":"end"}
+    {
+      "id": "wake",
+      "speaker": "self",
+      "text": "poc_intro.story.prologue.wake",
+      "next": "void"
+    },
+    {
+      "id": "void",
+      "speaker": "self",
+      "text": "poc_intro.story.prologue.void",
+      "next": "contact"
+    },
+    {
+      "id": "contact",
+      "speaker": "system",
+      "text": "poc_intro.story.prologue.contact",
+      "next": "identity"
+    },
+    {
+      "id": "identity",
+      "speaker": "self",
+      "text": "poc_intro.story.prologue.identity",
+      "choices": [
+        {
+          "text": "poc_intro.story.prologue.identity.choice.1",
+          "next": "god"
+        },
+        {
+          "text": "poc_intro.story.prologue.identity.choice.2",
+          "next": "ruins"
+        }
+      ]
+    },
+    {
+      "id": "god",
+      "speaker": "system",
+      "text": "poc_intro.story.prologue.god",
+      "next": "disaster"
+    },
+    {
+      "id": "ruins",
+      "speaker": "system",
+      "text": "poc_intro.story.prologue.ruins",
+      "next": "disaster"
+    },
+    {
+      "id": "disaster",
+      "speaker": "system",
+      "text": "poc_intro.story.prologue.disaster",
+      "next": "table"
+    },
+    {
+      "id": "table",
+      "speaker": "system",
+      "text": "poc_intro.story.prologue.table",
+      "next": "memory"
+    },
+    {
+      "id": "memory",
+      "speaker": "self",
+      "text": "poc_intro.story.prologue.memory",
+      "next": "sealed"
+    },
+    {
+      "id": "sealed",
+      "speaker": "system",
+      "text": "poc_intro.story.prologue.sealed",
+      "next": "resolve"
+    },
+    {
+      "id": "resolve",
+      "speaker": "self",
+      "text": "poc_intro.story.prologue.resolve",
+      "choices": [
+        {
+          "text": "poc_intro.story.prologue.resolve.choice.1",
+          "next": "promise"
+        },
+        {
+          "text": "poc_intro.story.prologue.resolve.choice.2",
+          "next": "fear"
+        }
+      ]
+    },
+    {
+      "id": "promise",
+      "speaker": "system",
+      "text": "poc_intro.story.prologue.promise",
+      "next": "path"
+    },
+    {
+      "id": "fear",
+      "speaker": "system",
+      "text": "poc_intro.story.prologue.fear",
+      "next": "path"
+    },
+    {
+      "id": "path",
+      "speaker": "system",
+      "text": "poc_intro.story.prologue.path",
+      "next": "manual"
+    },
+    {
+      "id": "manual",
+      "speaker": "system",
+      "text": "poc_intro.story.prologue.manual",
+      "next": "guide"
+    },
+    {
+      "id": "guide",
+      "speaker": "system",
+      "text": "poc_intro.story.prologue.guide",
+      "next": "dawn"
+    },
+    {
+      "id": "dawn",
+      "speaker": "system",
+      "text": "poc_intro.story.prologue.dawn",
+      "next": "end"
+    }
   ],
   "labels": {
-    "zh":{"system":"ECHO · 创世辅助系统","self":"我","prologue":"序章 / 余烬","continue":"空格 / 点击  继续","typing":"点击可加快文字","choose":"↑ ↓ 选择 · 回车确认","choiceTyping":"正在回应…","release":"创世之径","releaseSub":"从第一个方块开始","flight":"基础飞行已恢复 · 双击空格起飞"},
-    "en":{"system":"ECHO / CREATION ASSISTANT","self":"ME","prologue":"PROLOGUE / EMBERS","continue":"SPACE / CLICK  Continue","typing":"Click to reveal faster","choose":"UP / DOWN Select · ENTER Confirm","choiceTyping":"Awaiting response...","release":"PATH OF CREATION","releaseSub":"Begin with the first block","flight":"Basic flight restored · Double-tap SPACE to fly"}
+    "system": "poc_intro.story.prologue.label.system",
+    "self": "poc_intro.story.prologue.label.self",
+    "prologue": "poc_intro.story.prologue.label.prologue",
+    "continue": "poc_intro.story.prologue.label.continue",
+    "typing": "poc_intro.story.prologue.label.typing",
+    "choose": "poc_intro.story.prologue.label.choose",
+    "choiceTyping": "poc_intro.story.prologue.label.choiceTyping",
+    "release": "poc_intro.story.prologue.label.release",
+    "releaseSub": "poc_intro.story.prologue.label.releaseSub",
+    "flight": "poc_intro.story.prologue.label.flight"
   }
 }

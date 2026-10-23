@@ -1297,16 +1297,16 @@
 					item: {
 						components: {
 							"buildinggadgets2:copy_uuid": [I;
-								-1861895307
-								1818577535
-								-1446039939
-								-2078422321
+								-250462913
+								502288690
+								-1171898549
+								1952172597
 							]
 							"buildinggadgets2:gadget_uuid": [I;
-								-16670726
-								-154252477
-								-1577907247
-								1859940086
+								-118366187
+								1080450610
+								-1699975657
+								1443685258
 							]
 							"buildinggadgets2:template_name": ""
 							"minecraft:custom_name": "{\"translate\":\"rain.template.large_fluid_processor\"}"
@@ -1344,16 +1344,16 @@
 				item: {
 					components: {
 						"buildinggadgets2:copy_uuid": [I;
-							101914309
-							106382594
-							-1118896549
-							1637008148
+							1115293421
+							555766563
+							-1995685213
+							-54919191
 						]
 						"buildinggadgets2:gadget_uuid": [I;
-							342584423
-							-1073788739
-							-1642334150
-							-1903534031
+							1857004178
+							1233280138
+							-1672420288
+							-1581370149
 						]
 						"buildinggadgets2:template_name": ""
 						"minecraft:custom_name": "{\"translate\":\"rain.template.void_miner_3\"}"
@@ -1379,16 +1379,16 @@
 				item: {
 					components: {
 						"buildinggadgets2:copy_uuid": [I;
-							-101409145
-							1313227723
-							-1155968865
-							1339758440
+							939455884
+							1633376172
+							-1696676623
+							598148539
 						]
 						"buildinggadgets2:gadget_uuid": [I;
-							206778548
-							-102544285
-							-1662345076
-							-103328214
+							-2021371032
+							-509520733
+							-1745637753
+							501126598
 						]
 						"buildinggadgets2:template_name": ""
 						"minecraft:custom_name": "{\"translate\":\"rain.template.dyeing_factory\"}"
@@ -1428,16 +1428,16 @@
 					item: {
 						components: {
 							"buildinggadgets2:copy_uuid": [I;
-								-1861895307
-								1818577535
-								-1446039939
-								-2078422321
+								-250462913
+								502288690
+								-1171898549
+								1952172597
 							]
 							"buildinggadgets2:gadget_uuid": [I;
-								-16670726
-								-154252477
-								-1577907247
-								1859940086
+								-118366187
+								1080450610
+								-1699975657
+								1443685258
 							]
 							"buildinggadgets2:template_name": ""
 							"minecraft:custom_name": "{\"translate\":\"rain.template.potion_factory\"}"
@@ -1498,16 +1498,16 @@
 				item: {
 					components: {
 						"buildinggadgets2:copy_uuid": [I;
-							829263288
-							-252818553
-							-1350412282
-							-178701665
+							719363614
+							323703097
+							-1441560620
+							562100377
 						]
 						"buildinggadgets2:gadget_uuid": [I;
-							-569123822
-							1466781363
-							-1236796890
-							-1041239945
+							-456101399
+							-1672587704
+							-1887440250
+							-1570820657
 						]
 						"buildinggadgets2:template_name": ""
 						"minecraft:custom_name": "{\"translate\":\"rain.template.void_miner_4\"}"
@@ -1746,32 +1746,6 @@
 			]
 			x: 8.24d
 			y: 10.27d
-		}
-		{
-			dependencies: ["4ABCFCE08CE172C6"]
-			id: "07644C54930C8FAB"
-			rewards: [
-				{
-					id: "6F893EF31A5464A1"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "60E68EF87CCECD7D"
-					item: {
-						count: 1
-						id: "rain:unlucky_block"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "4A40E6C9C9218ECD"
-				item: { count: 1, id: "enderio:conductive_alloy_ingot" }
-				type: "item"
-			}]
-			x: 7.75d
-			y: -4.67d
 		}
 		{
 			dependencies: ["4ABCFCE08CE172C6"]

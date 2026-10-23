@@ -1,6 +1,8 @@
 {
   "name": {
-    "translate": "cm.rain.void_mining_machine.name",
+    "text": {
+      "translate": "cm.rain.void_mining_machine.name"
+    },
     "color": "white"
   },
   "appearance": {

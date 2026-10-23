@@ -1,0 +1,36 @@
+{
+  "variants": {
+    "active=false,facing=north": {
+      "model": "poc_dimension_matrix:block/coolant_input_port",
+      "y": 0
+    },
+    "active=true,facing=north": {
+      "model": "poc_dimension_matrix:block/coolant_input_port_active",
+      "y": 0
+    },
+    "active=false,facing=east": {
+      "model": "poc_dimension_matrix:block/coolant_input_port",
+      "y": 90
+    },
+    "active=true,facing=east": {
+      "model": "poc_dimension_matrix:block/coolant_input_port_active",
+      "y": 90
+    },
+    "active=false,facing=south": {
+      "model": "poc_dimension_matrix:block/coolant_input_port",
+      "y": 180
+    },
+    "active=true,facing=south": {
+      "model": "poc_dimension_matrix:block/coolant_input_port_active",
+      "y": 180
+    },
+    "active=false,facing=west": {
+      "model": "poc_dimension_matrix:block/coolant_input_port",
+      "y": 270
+    },
+    "active=true,facing=west": {
+      "model": "poc_dimension_matrix:block/coolant_input_port_active",
+      "y": 270
+    }
+  }
+}
